@@ -1,8 +1,6 @@
 ---
-layout:
+layout: post
 title: my git branch manager
-date  = "2021-06-13T14:30:08Z"
-categories = ["git", "perl", "programming"]
 ---
 Like a lot of people, I have not been great at cleaning up my old git branches
 over time.  Sometimes they get merged but I don't delete them.  (The "delete
