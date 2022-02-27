@@ -1,5 +1,13 @@
 
-.highlight {
+/* Used to just be .highlight, but this is no good, because (for whatever
+ * reason) I was ending up with:
+ *    <div class="highlight">
+ *      <pre class="highlight">
+ *
+ *  ...which led to two shadowed boxes within one another, which was just
+ *  terrible. -- rjbs, 2022-02-27
+ */
+pre.highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
