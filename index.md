@@ -17,16 +17,6 @@ tried-and-true services as Archie, Veronica, and (my favorite) Gopher.
 Sure, I was wrong, but I've never admitted it enough to really dive into
 producing amazing web content.  I just write articles once in a while.
 
-## Content
-
-* [my journal](/blog/)
-* [my photos](https://flickr.com/photos/rjbs/)
-* [my code](https://github.com/rjbs/)
-* [my wishlist](https://www.gifthero.com/list/fc09773d-4d29-4ed8-bd03-c6b2f4f038f5)
-
-(I'll maybe fill this out more over time — it got shrunk quite a bit when I
-moved to Jekyll for my site!)
-
 ## Contact me
 
 If you know me, please be in touch.  I always like to hear from old friends.
@@ -39,4 +29,5 @@ solicit me directly via email or telephone.
 * by email: [www@rjbs.manxome.org](mailto:www@rjbs.manxome.org)
 * by IRC: rjbs @ irc.perl.org; rjbs @ freenode<
 * by Twitter: [@rjbs](https://twitter.com/rjbs)
+* by bribery: I'm on [Gift Hero](https://www.gifthero.com/list/fc09773d-4d29-4ed8-bd03-c6b2f4f038f5)
 
