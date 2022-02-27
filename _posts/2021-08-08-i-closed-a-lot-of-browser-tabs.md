@@ -79,14 +79,16 @@ Script Editor, hit Cmd-Shift-O to "Open Dictionary", and looked for Google
 Chrome.  It was there!  Its automation suite is tiny, but it exposes windows
 and tabs.  I was able to write this AppleScript:
 
-    set tabcount to 0
-    if application "Google Chrome" is running then
-      tell application "Google Chrome"
-        repeat with w in windows
-          set tabcount to tabcount + (count of tabs of w)
-        end repeat
-      end tell
-    end if
+```applescript
+set tabcount to 0
+if application "Google Chrome" is running then
+  tell application "Google Chrome"
+    repeat with w in windows
+      set tabcount to tabcount + (count of tabs of w)
+    end repeat
+  end tell
+end if
+```
 
 AppleScript is weird, but I have had decent success in using it for lots of
 little tasks in the past.  These days, what I tend to do is prove something
@@ -103,14 +105,16 @@ to a function, but that function may throw a "no such function" exception when
 called.  Array-like objects aren't iterable, so you'll do a lot of looping over
 indexes instead of iterating over value.  Still, this isn't so bad:
 
-    let tabcount = 0;
-    const Chrome = new Application("Google Chrome");
+```applescript
+let tabcount = 0;
+const Chrome = new Application("Google Chrome");
 
-    if (Chrome.running()) {
-      for (i in Chrome.windows) {
-        tabcount += Chrome.windows[i].tabs.length;
-      }
-    }
+if (Chrome.running()) {
+  for (i in Chrome.windows) {
+    tabcount += Chrome.windows[i].tabs.length;
+  }
+}
+```
 
 That "check if Chrome is running" step is important.  On one hand, it would be
 nice to act like quitting Chrome didn't really eliminate the mental weight of
@@ -138,41 +142,43 @@ reorganize my desktop or run timers, and to set up keyboard shortcuts for a few
 things.  Among its many other functions, it has facilities for embedded HTTP
 service.  It can *also* run JavaScript using JXA.  I wrote this:
 
-    tabulator = hs.httpserver.new()
-    tabulator:setPort(9876)
-    tabulator:setCallback(function (method, path, headers, body)
-      if (method == "GET") and (path == "/metrics") then
-        bool, tabcounts, descriptor = hs.osascript.javascript([[
-          const Chrome  = new Application("/Applications/Google Chrome.app");
+```lua
+tabulator = hs.httpserver.new()
+tabulator:setPort(9876)
+tabulator:setCallback(function (method, path, headers, body)
+  if (method == "GET") and (path == "/metrics") then
+    bool, tabcounts, descriptor = hs.osascript.javascript([[
+      const Chrome  = new Application("/Applications/Google Chrome.app");
 
-          let tabCounts = [];
+      let tabCounts = [];
 
-          if (Chrome.running()) {
-            for (i in Chrome.windows) {
-              tabCounts.push(Chrome.windows[i].tabs.length);
-            }
+      if (Chrome.running()) {
+        for (i in Chrome.windows) {
+          tabCounts.push(Chrome.windows[i].tabs.length);
+        }
 
-            tabCounts.sort((a,b) => b - a);
-          }
+        tabCounts.sort((a,b) => b - a);
+      }
 
-          tabCounts;
-        ]])
+      tabCounts;
+    ]])
 
-        if not bool then
-          return "Error\n", 500, {}
-        end
+    if not bool then
+      return "Error\n", 500, {}
+    end
 
-        local sum = 0
-        for i, tabs in ipairs(tabcounts) do
-          sum = sum + tabs
-        end
+    local sum = 0
+    for i, tabs in ipairs(tabcounts) do
+      sum = sum + tabs
+    end
 
-        return "chrome_open_tabs " .. sum .. "\n", 200, {}
-      else
-        return "No good.\n", 404, {}
-      end
-    end)
-    tabulator:start()
+    return "chrome_open_tabs " .. sum .. "\n", 200, {}
+  else
+    return "No good.\n", 404, {}
+  end
+end)
+tabulator:start()
+```
 
 This creates a new HTTP listener on port 9876.  If it receives a GET request
 for `/metrics`, it runs my JXA to ask Chrome (if running) about its tab count.

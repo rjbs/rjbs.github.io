@@ -51,7 +51,7 @@ the tool work on perl5.git.  In fact, it should work on any GitHub or GitLab
 repository, but if you want to you it, you'll have to set up some configuration
 in your `.git/config` something like this:
 
-```
+```ini
 [branch-manager]
 primary-remote = github
 primary-branch = blead
