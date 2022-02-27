@@ -36,20 +36,20 @@ stuff!  I decided to teach her PostScript.  We'd already played with RPN
 calculators, so we were halfway there, right?  She was a natural.  I showed her
 this little box-drawer:
 
-      newpath
-        250 225 moveto 275 225 lineto
-        275 200 lineto 250 200 lineto
-        250 225 lineto
-        stroke
+```
+newpath
+  250 225 moveto 275 225 lineto
+  275 200 lineto 250 200 lineto
+  250 225 lineto
+  stroke
+```
 
 ...and she said "moveto, and lineto, but don't use goto!"  I don't even know
 where she picked this up.  Kids these days!
 
 Anyway, she drew a skull, and it was awesome:
 
-<center>
 ![vampire girl](/assets/ps-skull.png)
-</center>
 
 Those three squares were going to be a lesson.  After we did one square, we
 could turn it into a square subroutine!  Only as I began to say this out loud
@@ -60,19 +60,23 @@ got there.
 
 A routine to compute `a²+b²` would look something like:
 
-    /sum2sq { dup mul swap dup mul add }
+```
+/sum2sq { dup mul swap dup mul add }
+```
 
 If you wanted to actually get "a" and "b" to use, you'd write something like
 (and please forgive the fact that I will get this wrong, probably):
 
-    /sum2sq {
-      2 dict
-      /b exch def
-      /a exch def
-      a a mul
-      b b mul
-      add
-    }
+```
+/sum2sq {
+  2 dict
+  /b exch def
+  /a exch def
+  a a mul
+  b b mul
+  add
+}
+```
 
 So, you declare that the next two definitions are local, then you define named
 routines that return the values you've popped off the stack, in reverse order,
@@ -91,7 +95,9 @@ Anyway!
 I seriously considered writing a PostScript preprocessor to allow for something
 like:
 
-    /sum2sq(a b) { ... }
+```
+/sum2sq(a b) { ... }
+```
 
 ...but this was bordering on madness.  PostScript has so many other drawbacks
 to begin with that I took this as a sign.
@@ -104,9 +110,7 @@ already done some Python, so this was familiar!  It was a lot easier to work
 with, we could write named functions, and the kid was pleased that TextMate had
 good syntax highlighting for it.  She made the long-overdue flower:
 
-<center>
 ![vampire girl](/assets/turtle-flower.png)
-</center>
 
 Next up, I'd like to make it easier for her to run the program without a bunch
 of terminal nonsense and "hit a key to continue" stuff.  Still, so far so good.
