@@ -8,7 +8,7 @@ I was looking into some `zsh` functionality today and decided it was time to
 update my prompt.  Here's what I've come up with so far, with the help of jcap:
 
     export PS1="%~$(print '%{\e[1m%}%(!.%{\e[31m%}#.%{\e[32m%}$)%{\e[0m%}') "
-    export RPS1="%m@%D{%H%M%S}:%h" 
+    export RPS1="%m@%D{{ "{%" }}H%M%S}:%h"
 
 This replaces my old prompt of:
 
