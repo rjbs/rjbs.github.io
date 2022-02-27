@@ -12,14 +12,16 @@ Game](https://en.wikipedia.org/wiki/24_Game), which I played when I paid my
 infrequent visits to middle school math club.  I knew I could solve this with a
 very simple Perl program that would do something like this:
 
-      for my $inputs ( permutations_of( 6, 6, 5, 2 ) ) {
-        for my $ops ( pick3s_of( qw( + - / * ) ) ) {
-          for my $grouping ( 'linear', 'two-and-two' ) {
-            next unless $target == solve($inputs, $ops, $grouping);
-            say "solved it: ", explain($inputs, $opts, $grouping);
-          }
-        }
-      }
+```perl
+for my $inputs ( permutations_of( 6, 6, 5, 2 ) ) {
+  for my $ops ( pick3s_of( qw( + - / * ) ) ) {
+    for my $grouping ( 'linear', 'two-and-two' ) {
+      next unless $target == solve($inputs, $ops, $grouping);
+      say "solved it: ", explain($inputs, $opts, $grouping);
+    }
+  }
+}
+```
 
 All those functions are easy to imagine, especially if we're willing to use
 string eval, which I would have been.  I didn't write the program because it
@@ -38,10 +40,12 @@ things in Forth, and they live on their own stack.  If you want to add the
 integer 1 to the float 2.5, you don't just cast 1 to int, you move it from the
 data stack to the float stack:
 
-    2.5e0 1. d>f f+
+```forth
+2.5e0 1. d>f f+
+```
 
 This puts 2.5 on the float stack and 1 on the data stack.  The dot in `1.`
-doesn't indicate that the number is a float, but that it's a double.  Not a 
+doesn't indicate that the number is a float, but that it's a double.  Not a
 double-precision float, but a two-cell value.  In the Forth implementation
 I'm using, `1` gets you an 8-byte 1 and `1.` gets you a 16-byte 1.  They're
 both integer values.   (If you wrote `1.0` instead, as I was often temped to do,
@@ -63,12 +67,14 @@ I'm going to run through how my Forth 24 solver works, not in the order its
 written, but top-down, from most to least abstract.  The last few lines of the
 program, something like `int main` are:
 
-      17e set-target
-      6e 6e 5e 2e set-inputs
+```forth
+17e set-target
+6e 6e 5e 2e set-inputs
 
-      ." Inputs are: " .inputs
-      ." Target is : " target f@ fe. cr
-      ' check-solved each-expression
+." Inputs are: " .inputs
+." Target is : " target f@ fe. cr
+' check-solved each-expression
+```
 
 This sets up the target number and the inputs.  Both of these are stored, not
 in the stack, but in memory.  It would be possible to keep every piece of the
@@ -81,16 +87,18 @@ test my concentration!)
 mechanics of initializing these memory locations.  The code to name these
 locations, and to work with them, looks like this:
 
-      create inputs 4 floats allot              \ the starting set of numbers
-      create target 24 ,                        \ the target number
+```forth
+create inputs 4 floats allot              \ the starting set of numbers
+create target 24 ,                        \ the target number
 
-      : set-target target f! ;
+: set-target target f! ;
 
-      \ sugar for input number access
-      : input-addr floats inputs + ;
-      : input@ input-addr f@ ;
-      : input! input-addr f! ;
-      : set-inputs 4 0 do i input-addr f! loop ;
+\ sugar for input number access
+: input-addr floats inputs + ;
+: input@ input-addr f@ ;
+: input! input-addr f! ;
+: set-inputs 4 0 do i input-addr f! loop ;
+```
 
 `create` names the current memory location.  `allot` moves the next allocation
 forward by the size it's given on the stack, so `create inputs 4 floats allot`
@@ -108,12 +116,16 @@ value to set from the *float* stack.
 address for given offset from `inputs`.  If you want the final (3rd) input,
 it's stored at `inputs` plus the size of three floats.  That's:
 
-      inputs 3 floats +
+```forth
+inputs 3 floats +
+```
 
 When we make the three a parameter, we swap the order of the operands to plus so
 we can write:
 
-      floats inputs + ( the definition of input-addr )
+```forth
+floats inputs + ( the definition of input-addr )
+```
 
 `set-inputs` loops from zero to three, each time popping a value off of the
 float stack and storing it in the next slot in our four-float array at `input`.
@@ -126,8 +138,10 @@ operator and one for a name for the operator.  (In fact, we could store only
 the name, and then interpret the name to get the code, but I decided I'd rather
 have two arrays.)
 
-      create op-xts ' f+ , ' f- , ' f* , ' f/ ,
-      create op-chr '+  c, '-  c, '*  c, '/  c,
+```forth
+create op-xts ' f+ , ' f- , ' f* , ' f/ ,
+create op-chr '+  c, '-  c, '*  c, '/  c,
+```
 
 These are pretty similar to the previous declarations: they use `create` to
 name a memory address and commas to compile values into those addresses.  (Just
@@ -147,24 +161,32 @@ the operators, we need to allow for repeated operators, so we can't just
 shuffle the source list.  Instead, we'll make a three-element array to store
 the indexes of the operators being considered at any given moment:
 
-      create curr-ops 0 , 0 , 0 ,
+```forth
+create curr-ops 0 , 0 , 0 ,
+```
 
 We'll make a word `curr-op!`, like ones we've seen before, for setting the op
 in position *i*.
 
-      : curr-op! cells curr-ops + ! ;
+```forth
+: curr-op! cells curr-ops + ! ;
+```
 
 If we want the 0th current operator to be the 3rd one from the operators array,
 we'd write:
 
-      3 0 curr-op!
+```forth
+3 0 curr-op!
+```
 
 Then when we want to execute the operator currently assigned to position *i*,
 we'd use `op-do`.  To get the name (a single character) of the operator at
 position *i*, we'd use `op-c@`:
 
-      : op-do    cells curr-ops + @ cells op-xts + @ execute ;
-      : op-c@    cells curr-ops + @ op-chr + c@ ;
+```forth
+: op-do    cells curr-ops + @ cells op-xts + @ execute ;
+: op-c@    cells curr-ops + @ op-chr + c@ ;
+```
 
 These first get the value *j* stored in the *i*th position of `curr-ops`, then
 get the *j*th value from either `op-xts` or `op-chr`.
@@ -179,27 +201,29 @@ iteratively because I kept hitting difficulties in stack management.  In my
 experience, when you manage your own stacks, recursion gets significantly
 harder.
 
-		: each-permutation ( xt -- )
-			init-state
+```forth
+: each-permutation ( xt -- )
+  init-state
 
-			dup execute
+  dup execute
 
-			0 >r
-			begin
-				4 i <= if rdrop drop exit then
+  0 >r
+  begin
+    4 i <= if rdrop drop exit then
 
-				i i hstate@ > if
-					i do-ith-swap
-					dup execute
-					i hstate1+!
-					zero-i
-				else
-					0 hstate i cells + !
-					inc-i
-				then
-			again
-			drop
-			;
+    i i hstate@ > if
+      i do-ith-swap
+      dup execute
+      i hstate1+!
+      zero-i
+    else
+      0 hstate i cells + !
+      inc-i
+    then
+  again
+  drop
+  ;
+```
 
 This word is meant to be called with an `xt` on the stack, which is the code
 that will be executed with each distinct permutation of the inputs.  That's
@@ -226,7 +250,9 @@ the program, and `again` jumps back to it.  This isn't the only kind of loop in
 Forth.  For example, `init-state` initializes our four-element state array like
 this:
 
-      : init-state 4 0 do 0 i hstate! loop ;
+```forth
+: init-state 4 0 do 0 i hstate! loop ;
+```
 
 The `do` loop there iterates from 0 to 3.  Inside the loop body (between `do`
 and `loop`) the word `i` will put the current iteration value onto the top of
@@ -263,8 +289,10 @@ non-resetting loop iteration, we increment `i` with `inc-i`.  Of course, `i`
 isn't a variable, it's a thing on the return stack.  I made these words up, and
 they're implemented like this:
 
-      : zero-i r> rdrop 0 >r >r ;
-      : inc-i  r> r> 1+ >r >r ;
+```forth
+: zero-i r> rdrop 0 >r >r ;
+: inc-i  r> r> 1+ >r >r ;
+```
 
 Notice that both of them start with `r>` and end with `>r`.  That's me saving
 and restoring the top item of the return stack.  You see, once I call `zero-i`,
@@ -282,49 +310,59 @@ from Wikipedia!
 Now, the program didn't start by using `each-iteration`, but `each-expression`.
 Remember?
 
-      ' check-solved each-expression
+```forth
+' check-solved each-expression
+```
 
 That doesn't just iterate over operand iterations, but also over operations and
 groupings.  It looks like this:
 
-      : each-expression ( xt -- )
-        2 0 do
-          i 0= linear !
-          dup each-opset
-          loop drop ;
+```forth
+: each-expression ( xt -- )
+  2 0 do
+    i 0= linear !
+    dup each-opset
+    loop drop ;
+```
 
 It expects an execution token on the stack, and then calls `each-opset` twice
 with that token, setting `linear` to zero for the first call and 1 for the
 second.  `linear` controls which grouping we'll use, meaning which of the two
 ways we'll evaluate the expression we're building:
 
-      Linear    : o1 ~ ( o2 ~ ( o3 ~ o4 ) )
-      Non-linear: (o1 ~ o2) ~ (o3 ~ o4)
+```
+Linear    : o1 ~ ( o2 ~ ( o3 ~ o4 ) )
+Non-linear: (o1 ~ o2) ~ (o3 ~ o4)
+```
 
 `each-opset` is another iterator.  It, too, expects an execution token and
 repeatedly passes it to something else.  This time, it calls
 `each-permutation`, above, once with each possible combination of operator
 indexes in `curr-op`.
 
-		: each-opset ( xt -- )
-			4 0 do i 0 curr-op!
-				4 0 do i 1 curr-op!
-					4 0 do i 2 curr-op!
-						dup each-permutation
-						loop loop loop drop ;
+```forth
+: each-opset ( xt -- )
+  4 0 do i 0 curr-op!
+    4 0 do i 1 curr-op!
+      4 0 do i 2 curr-op!
+        dup each-permutation
+        loop loop loop drop ;
+```
 
 This couldn't be much simpler!  It's exactly like this:
 
-      for i in (0 .. 3) {
-        op[0] = i
-        for j in (0 .. 3) {
-          op[1] = j
-          for k in (0 .. 3) {
-            op[3] = k
-            each-permutation
-          }
-        }
-      }
+```
+for i in (0 .. 3) {
+  op[0] = i
+  for j in (0 .. 3) {
+    op[1] = j
+    for k in (0 .. 3) {
+      op[3] = k
+      each-permutation
+    }
+  }
+}
+```
 
 ## inspecting state as we run
 
@@ -334,13 +372,15 @@ operands to rearrange.  We have two possible groupings.  We should end up with
 `4! x 4³ x 2` expression.  That's 3072.  It should be easy to count them by
 passing a counting function to the iteator!
 
-    create counter 0 ,
-    : count-iteration
-      1 counter +!    \ add one to the counter
-      counter @ . cr  \ then print it and a newline
-      ;
+```forth
+create counter 0 ,
+: count-iteration
+  1 counter +!    \ add one to the counter
+  counter @ . cr  \ then print it and a newline
+  ;
 
-    ' count-iteration each-expression
+' count-iteration each-expression
+```
 
 When run, we get a nice count up from 1 to 3072.  It works!  Similarly, I
 wanted to eyeball whether I got the right equations, so I wrote a number of
@@ -349,8 +389,10 @@ different state-printing words, but I'll only show two here.  First was
 Forth to start a string printing word's name with a dot, and to end a number
 printing word's name with a dot.)
 
-      : .input  input@ fe. ;
-      : .inputs 4 0 do i .input loop cr ;
+```forth
+: .input  input@ fe. ;
+: .inputs 4 0 do i .input loop cr ;
+```
 
 `.inputs` loops over the indexes to the array and for each one calls `i
 .input`, which gets and prints the value.  `fe.` prints a formatted float.
@@ -361,7 +403,9 @@ the array has [8, 6, 2, 1], we print that.
 On the other hand, when we actually evaluate the expression, which we'll do a
 bit further on, we get the values like this:
 
-    4 0 do i input@ loop \ get all four inputs onto the float stack
+```forth
+4 0 do i input@ loop \ get all four inputs onto the float stack
+```
 
 Now the stack contains [1, 2, 8, 6].  The order in which we'll evaluate them is
 the reverse of the order we had stored them in memory.  This is a big deal!  It
@@ -373,48 +417,58 @@ just self-torture, but it's what I did.
 The other printing word I wanted to show is `.equation`, which prints out the
 equation currently being considered.
 
-      : .equation
-        linear @
-        if
-          0 .input 0 .op
-          ((
-            1 .input 1 .op
-            (( 2 .input 2 .op 3 .input ))
-          ))
-        else
-          (( 0 .input 0 .op 1 .input ))
-          1 .op
-          (( 2 .input 2 .op 3 .input ))
-        then
-        ." = " target f@ fe. cr ;
+```forth
+: .equation
+  linear @
+  if
+    0 .input 0 .op
+    ((
+      1 .input 1 .op
+      (( 2 .input 2 .op 3 .input ))
+    ))
+  else
+    (( 0 .input 0 .op 1 .input ))
+    1 .op
+    (( 2 .input 2 .op 3 .input ))
+  then
+  ." = " target f@ fe. cr ;
+```
 
 Here, we pick one of two formatters, based on whether or not we're doing linear
 evaluation.  Then we print out the ops and inputs in the right order, adding
 parentheses as needed.  We're printing the parens with `((` and `))`, which are
 words I wrote.  The alternative would have been to write things like:
 
-      ." ( " 2 .input 2 .op 3 .input ." ) "
+```forth
+." ( " 2 .input 2 .op 3 .input ." ) "
+```
 
 ...or maybe...
 
-      .oparen 2 .input 2 .op 3 .input
+```forth
+.oparen 2 .input 2 .op 3 .input
+```
 
 My program is tiny, so having very specialized words makes sense.  Forth
 programmers talk about how you don't program *in* Forth.  Instead, you program
 Forth itself to build the language you want, then do that.  This is my pathetic
 dime store version of doing that.  The paren-printing functions look like:
 
-      : (( ." ( " ;
-      : )) ." ) " ;
+```forth
+: (( ." ( " ;
+: )) ." ) " ;
+```
 
 ## testing the equation
 
 Now all we need to do is write something to actually test whether the equations
 hold and tell us when we get a winner.  That looks like this:
 
-      : check-solved
-        this-solution target f@ 0.001e f~rel
-        if .equation then ;
+```forth
+: check-solved
+  this-solution target f@ 0.001e f~rel
+  if .equation then ;
+```
 
 This is what we passed to `each-expression` at the beginning!  We must be close
 to done now...
@@ -432,33 +486,37 @@ out the solution we found.
 
 The evaluator, `this-solution`, looks like this:
 
-      : this-solution
-        4 0 do i input@ loop
+```forth
+: this-solution
+  4 0 do i input@ loop
 
-        linear @ if
-          2 op-do 1 op-do 0 op-do
-        else
-          2 op-do
-          frot frot
-          0 op-do
-          fswap
-          1 op-do
-        then
-        ;
+  linear @ if
+    2 op-do 1 op-do 0 op-do
+  else
+    2 op-do
+    frot frot
+    0 op-do
+    fswap
+    1 op-do
+  then
+  ;
+```
 
 What could be simpler, right?  We get the inputs out of memory (meaning they're
 now in reverse order on the stack) and pick an evaluation strategy based on the
 `linear` flag.  If we're evaluating linearly, we execute each operator's
 execution token in order.  If we're grouping, it works like this:
 
-              ( r1 r2 r3 r4 ) \ first, all four inputs are on the stack
-      2 op-do ( r1 r2 r5    ) \ we do first op, putting its result on stack
-      frot    ( r2 r5 r1    ) \ we rotate the third float to the top
-      frot    ( r5 r2 r1    ) \ we rotate the third float to the top again
-                              \ ...so now the "bottom" group of inputs is on top
-      0 op-do ( r5 r6       ) \ we do the last op, evaluating the bottom group
-      fswap   ( r6 r5       ) \ we restore the "real" order of the two groups
-      1 op-do ( r7          ) \ we do the middle op, and have our solution
+```forth
+        ( r1 r2 r3 r4 ) \ first, all four inputs are on the stack
+2 op-do ( r1 r2 r5    ) \ we do first op, putting its result on stack
+frot    ( r2 r5 r1    ) \ we rotate the third float to the top
+frot    ( r5 r2 r1    ) \ we rotate the third float to the top again
+                        \ ...so now the "bottom" group of inputs is on top
+0 op-do ( r5 r6       ) \ we do the last op, evaluating the bottom group
+fswap   ( r6 r5       ) \ we restore the "real" order of the two groups
+1 op-do ( r7          ) \ we do the middle op, and have our solution
+```
 
 That's it!  That's the whole 24 solver, minus a few tiny bits of trivia.  I've
 published [the full source of the
