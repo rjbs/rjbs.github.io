@@ -1,0 +1,20 @@
+---
+layout: post
+title : church, cavies, and chicken
+date  : 2005-02-14T01:14:00Z
+
+---
+Gloria and I went to the 10:30 Mass this morning.  It was full to the gills with little children.  If the little children to adult ratio had been any higher, I would have suspected that I was among a bunch of Catholics!  It was hard to hear a lot of what was said over the dull roar of crying and muttering. The homily was clear, at least.  It was also fairly good, I thought.  It got bonus points for including the word "obeisance."
+
+On the way home, Gloria and I talked about the problems with Catholic service: its intricate structure lends itself to deadpan responses.  She said, "You should go to church because 'Woo, I love God!' and not because it's an obligation."  I agree!  I really like the intricate structure of the liturgy, and I think it serves as a kind of ongoing study guide, constantly providing rich symbols that provoke thought and enrich one's spiritual vocabulary.  The problem is that so many of these symbols and liturgical traditions seem to be rote to the congregation.  I read somewhere recently that the best cure for this is good apologetic in the homily, and that seems to be a good idea.  The meanings behind the sacramentals and liturgy usually strike me as profound and motivating; that's probably why they were chosen in the first place!  To let them become just weird habits is a shame.
+
+I wonder whether the origin of the Stations will be discussed when they're held, this season.  Anyway, it's confusing and depressing, but I want to try to help, if that's possible.
+
+After Mass, we watched some SVU and relaxed for a while.  Gloria read the paper, and found an add for Superpetz.  They were advertising a sale for guinea pigs, and the photo was super-cute, so Gloria suggested we go look at them.  My geek nature got the better of me, first, and I started reading a bunch of web pages about guinea pigs.  In Peru, they're called cavies.  They are apparently not as dumb as most people think, although they're still pretty dumb.  They don't smell, they don't usually bite, and they produce a special kind of feces that they need to eat for nutrition.  When they're very happy, they run around jumping up and down, which some owners call "popcorning."  When they're unhappy, they make a weird grumbling noise.  They get stressed out easily, and it makes them unhealthy.  They live for three to eight years.  I bookmarked a few useful sites.
+
+We didn't buy one, but I am feeling pretty tempted.  I ordered a book about them from Amazon.  It had eleven reviews, all five stars, and was the top recommendation from one of the sites I had found.  Maybe if we still feel like we'd like one, in a few weeks, we'll become guinea pig owners!  Also, I should probably check with the landlord.
+
+Between two of the pet stores we looked at, we stopped for lunch.  Since we were in the right part of town and I was feeling the urge, we went to Maryland Fried Chicken.  I love that place!  The food is pretty good (but not great), and the whole joint seems like it's stuck in 1974.  The menus are big black boards with plastic letters lined up on them.  There's a shiny chrome microphone for placing orders, and if you want a soda, you have to buy it from the vending machine.  It has a strange sort of charm.
+
+Once home, we relaxed a bit more.  I worked my way through a backlog of articles I'd wanted to read, and then we watched Touch of Evil.  It wasn't really a great movie, but it had a few great shots.  The opening was really nice, as was a shot of an oil rig near the end.  I guess I felt the same way about Touch of Evil as I did about The Third Man, or Citizen Kane, although I think Touch of Evil was probably the least of those three movies.  I was mildly annoyed, too, that as usual the heroic Mexican was played by an American in brownface (Heston) while the evil Mexicans were played by Mexicans.  This never occurred with black heros -- not because a white man in blackface would have looked too ridiculous, but because a black man would never have been the hero.
+

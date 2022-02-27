@@ -1,0 +1,23 @@
+---
+layout: post
+title : an entry in which rjbs complains about stuff
+date  : 2006-06-19T02:02:54Z
+tags  : ["rants"]
+---
+I'm often amused by the fact that my catch phrase at work seems to be, "You know what else I hate?" I don't think of myself as a big complainer, but I guess I do more than my fair share of it around the office, although I think it's mostly non-work-related complaining. I mumble under my breath about the latest episode of Lost, or the way that T-Mobile organizes their automated phone menus, or the fact that Bugzilla is completely insane. (Okay, that last one is work-related.)
+
+I'm usually just joking around (ha ha only serious) about these things; I think one of my greatest blessings is my ability to take things in stride. Apart from failing at video games, not too much gets under my skin, and I think that this has made my life much, much better.
+
+Still, here are some things that have been driving me nuts lately.
+
+What the hell is up with this new MacBook keyboard keypress ordering thing? It is moronic that the order in which I press modifier keys matters. I haven't yet found or produced a Cocoa event monitor, but if I find out that Fn-Ctrl-X produces a Ctrl-X (instead of some crazy new keypress that I can use for another function), I am going to punch something. Probably a wall. Preliminary investigation has pointed strongly to a wall-punching in my future.
+
+Why is Firefox's cookie manager so lame? Why can't I ask it to show me all the cookies that a site wanted to set so I can individually approve or deny them? Why does its "allow this cookie?" menu show no useful details? Why doesn't it give me an option to change the domain that I'm allowing? I don't want to be prompted once for all of eBay's zillion subdomains. It should take a page from OmniWeb's book and make it easier to have a "deny unless allow" policy. It shouldn't put the "delete all" button so close to "delete selected," and it should let me view any cookies that are associated with a given "Allow" or "Allow for Session" value.
+
+Speaking of Firefox's data-saving features, what the heck is up with its password storage? First of all, it's nuts that I have to allow form password saving to allow HTTP password saving. Secondly, it's obnoxious that I have to always hit "OK" or "enter" to confirm sending a saved HTTP password. Just log me in! Once I'm logged in, why can't I log out? Let me click a button to clear my HTTP auth for my next interaction. I don't want to have to quit Firefox or go through other stupid steps to get into a site with different credentials.
+
+What the hell is Proteron's problem? They produced LiteSwitch X, a fantastic product that makes OS X much more usable. It's not quite as huge a help as Quicksilver, but it's not too far behind, in my opinion. Apple's task switcher was miserable and LiteSwitch X was fantastic. When Apple released Panther, they added a new switcher which was tolerable, and Proteron complained that Apple had ripped them off. As far as I could tell, they were really ripping off Windows, or whoever it was that Windows ripped off. They didn't steal any of the features that really made LiteSwitch X so great. Still, Proteron cried foul and seems to have basically given up on improving or promoting the product. They let linger a huge bug that made it hard to use LiteSwitch X under Tiger, fixing it something like a year after it was reporting. Now their product won't run on Intel, and I can't get any feedback about whether it will be fixed. If they're so sick of looking at the code, they could at least release it for someone else to take over, either commercially or as free software. Honestly, I think they could still make money on the product, and could've been making money on it for quite a while if they'd promoted it as "what OS X does, only way better." I mean, people buy PathFinder, and it sucks.
+
+Why did Marvel have to make the Ultimate titles have their own continuity? I was really excited when I was told that they were the classic stories but modernized and condensed. I read a bunch of them and spotted a few things that I knew, from my limited Marvel knowledge, were wrong. That's when I was told that they were not just condensed, but entirely rewritten. I want the Reader's Digest version, not a reimagined version that will forever mark me as the schlub who was twenty years late to the game. (I also don't want to have to read thousands of pages to extract the key facts, but I'd rather read some paperbacks than just Wikipedia articles.)
+
+Ok, well, my spleen is sufficiently vented. I will now resume my usual mumbling.  
