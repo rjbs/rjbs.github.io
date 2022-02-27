@@ -31,7 +31,7 @@ As she got closer, she saw some spider webs and decided to burn them.  Because s
 
 *you know, kinda like this:*
 
-![Brenda](/img/torch.jpg)
+![Brenda](/assets/torch.jpg)
 
 Meanwhile, down below, Rago heard some movement on the ground close to the party's cart, right where Hoyte had been buried.  Axe in hand, the barbarian went to check it out. As he approached the site, he saw a horse-sized spider carrying a sleeping Burdoc off to who knows where. "Spider!", Rago belted as he charged to aid the poor cook. Brenda starts to climb down, and the spider is already too far away for Rago to reach with his axe. In a swift movement, he holsters his axe, picks up and throws a dagger which lands right in one of the spider's eyes. The beast shrieks in pain, drops Burdoc and climbs back to the canopy, away from everyone's sight. Brenda, now back with the party, throws a flaming arrow in the general direction of the spider and, although missing, is able to see some shadowy humanoid figures up in the trees, as if they were watching the whole thing. Could they be
 the wood elves?
@@ -69,5 +69,5 @@ Argo puts a closed chest in the party's wagon, and attaches a tapestry to it, co
 
 We reach the end of the woods and enter a clearing, where we can see at a distance two burning torches and a fence.
 
-![the gate?](http://img4.wikia.nocookie.net/__cb20121109061245/jurassicpark/images/thumb/f/fe/Gate_Entrance_%282%29.JPG/640px-Gate_Entrance_%282%29.JPG)
+![the gate?](/assets/gate.jpg)
 

@@ -44,7 +44,7 @@ this, more or less:
 I have a lot of branches in my work code, so here's the program running on a
 repo where I have fewer, the perl5.git repo:
 
-![screenshot of branch scrubber](https://rjbs.manxome.org/img/journal/branch-scrubber.png)
+![screenshot of branch scrubber](/assets/branch-scrubber.png)
 
 The existence of this screenshot might alert you to the fact that I've now made
 the tool work on perl5.git.  In fact, it should work on any GitHub or GitLab
