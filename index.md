@@ -27,7 +27,7 @@ work*.  I will never, ever give my custom to merchants **or recruiters** who
 solicit me directly via email or telephone.
 
 * by email: [www@rjbs.manxome.org](mailto:www@rjbs.manxome.org)
-* by IRC: rjbs @ irc.perl.org; rjbs @ freenode<
+* by IRC: rjbs @ irc.perl.org; rjbs @ freenode
 * by Twitter: [@rjbs](https://twitter.com/rjbs)
 * by bribery: I'm on [Gift Hero](https://www.gifthero.com/list/fc09773d-4d29-4ed8-bd03-c6b2f4f038f5)
 
