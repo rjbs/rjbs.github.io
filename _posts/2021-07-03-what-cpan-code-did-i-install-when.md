@@ -8,7 +8,7 @@ When I upgrade my perl, which I do pretty often, the first thing I do is
 install [Task::BeLike::RJBS](https://metacpan.org/pod/Task::BeLike::RJBS) (by
 running `cpanm rjbs`).  This installs most of the stuff I'm going to need to do
 my normal work.  Over time, I tend to find that it needs an update, because
-over the course of the last year or so I started using some new libraries tht
+over the course of the last year or so I started using some new libraries that
 didn't get into the bundle.  (This will happen less now that I'm using the
 monthly blead snapshots day to day again, but it's a real thing.)
 
