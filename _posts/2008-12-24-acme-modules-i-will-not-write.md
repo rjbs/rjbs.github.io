@@ -9,5 +9,3 @@ hilarious things to do, so I share two silly module names with you:
 
 * Acme::MockObject::Mercilessly
 * Acme::JSON::Vorhees
-
-

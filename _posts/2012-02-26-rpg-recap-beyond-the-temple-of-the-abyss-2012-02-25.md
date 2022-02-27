@@ -135,8 +135,6 @@ R.I.P., Esbert the Acolyte (we hardly knew ye)
 
 ### XP
 
-      Delian :  305 + 1066 = 1366 (Level up at 4000)
-      Rocky  :    0 +  766 =  766 (Level up at 2000)
-      Rigby  :    0 +  313 =  313 (Level up at 1200)
-
-
+    Delian :  305 + 1066 = 1366 (Level up at 4000)
+    Rocky  :    0 +  766 =  766 (Level up at 2000)
+    Rigby  :    0 +  313 =  313 (Level up at 1200)

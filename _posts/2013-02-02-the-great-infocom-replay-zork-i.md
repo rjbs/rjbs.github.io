@@ -93,5 +93,3 @@ fact that I had so much of the game still in my memory.  I blew through many
 puzzles that I might have enjoyed, and there were puzzles that I might have
 enjoyed if I wasn't prejudiced by my previous play.  I'm hoping I get more out
 of later games.
-
-

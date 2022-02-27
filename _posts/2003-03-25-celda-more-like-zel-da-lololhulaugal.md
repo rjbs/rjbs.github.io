@@ -13,7 +13,6 @@ I got home around nine fifteen.  I played until about now (ten thirty) with a tw
 I played a crippled demo of Z:WW at EBX a few weeks ago, and I got a hint then of what was confirmed today:  the look is different, but the play is almost entirely identical.  In fact, it's almost eerie;  the game looks new, vibrant, and very, /very/ cool, but it behaves just like Z:OoT.  There are a few pieces of polish here and there -- the camera is by far the most important -- but it's Zelda64, in its heart.  In case anyone isn't sure: that's a really good thing.
 <h5>characters and continuity</h5>
 
-
 The characters are nice and simple, which is what I want.  I get my complexity fix from full-on CRPGs, and Xenosaga is currently filling that niche quite well.  Zelda has nice, simple, silly characters.  "Hello, I am a fat woman, and I want a pig."  The character design, with the exception of Link himself, is in some ways more like the Zelda64 art than the Zelda64 games, largely because the GCN can produce much better graphics.  Already, my memory is quietly rerendering the cast of Z:OoT and Z:MM as GCN characters.
 
 This is the third game that is /clearly/ in a sequence of Zelda games.  In this series, Z:WW follows Z:MM, which followed Z:OoT.  All the other Zelda games, to the best of my recollection, were connected only by names and nuances.  On one hand, I think the quiet disregard for continuity was charming; on the other, I think that the amount of continuity in what I'd call the Hero of Time trilogy is Just Right.  In fact, it's often so subtle that I can feel like a real insider when I catch some small reference.  Saria's Song is mixed into the Forest Haven theme, very subtly, for example.
@@ -21,12 +20,10 @@ This is the third game that is /clearly/ in a sequence of Zelda games.  In this 
 Eventually, I hope the Zelda series moves on and does something apparently unrelated, to avoid too much required continuity.  Until then, I like what they're doing.
 <h5>camera and combat</h5>
 
-
 I mentioned above that the camera was much improved.  It is.  While it can follow you at least as well as (probably much better than) it did in Zelda64, it can also be controlled with the C-stick, a la Mario Sunshine.  This makes the game much easier to play than it would've been if they'd stuck to the old "either auto or follow" camera.  Unfortunatley it isn't perfect.  (What camera is?)
 
 The combat is really good.  L-targeting is a bit more awkward than Z-targeting, largely because, as far as I can tell, it requires that I hold L.  Using the shield requires Z.  When fighting aggressive enemies, I find myself using the stick and buttons while holding L and R.  It's pretty annoying.  Combat is also where the camera's imperfections show up.  It behaves differently when you've got a lock on an enemy, and too frequently it lets an object obscure your view of the action.  L-targetting has (as did Z-targetting) the annoying quality of making it very easy to accidentally plunge off a ledge.  Still, all of these problems are no worse, and often better, than they were in Zelda64. It would've been neat to see them perfected.  The game is still awesome without them.
 <h5>sailing</h5>
-
 
 The biggest change to the game is the lack of an overworld.  Or, more accurately, the substitution of a sea for a big country.  In theory, they're almost interchangeable.  In practise, the sea provides for a lot of great stuff and one colossal annoyance.
 

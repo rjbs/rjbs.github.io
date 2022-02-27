@@ -96,5 +96,3 @@ R.I.P., Prudence the Medium
     Rocky   : 1017 + 140 = 1157 (Level up at 2000)
     Tamara  :   89 + 126 =  215 (Level up at 1500)
     Rigby   :  402 +  60 =  462 (Level up at 1200)
-
-

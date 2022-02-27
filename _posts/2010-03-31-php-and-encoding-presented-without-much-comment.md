@@ -11,5 +11,3 @@ I spend a lot of time dealing with character encoding issues.  Getting them just
 > and iso-8859-1 encoded texts and most (all?) of your tests will work. Some
 > of your users, like me, with strange names ("Schlüter") will be annoyed as
 > your application breaks them ("SchlÃ¼ter"), but these will be edge cases.
-
-

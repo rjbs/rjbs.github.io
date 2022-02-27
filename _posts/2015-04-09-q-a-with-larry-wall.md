@@ -21,4 +21,3 @@ issue](https://github.com/rjbs/QA-LarryWall/issues) or comment on an existing
 issue.  If you'd rather I keep your amazing question close to my chest, or if
 you don't want to use GitHub, you can send me an email at rjbs@cpan.org.
 
-

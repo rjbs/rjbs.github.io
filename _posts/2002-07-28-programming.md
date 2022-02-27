@@ -3,8 +3,6 @@ layout: post
 title : "programming"
 date  : "2002-07-28T04:00:00Z"
 ---
-
-
 ## cobalt
 
 The software that serves up content from this journal, "Debug," is my hack (I will not go so far as to call it a branch) of mdxi's <a href='http://mdxi.collapsar.net/hacks/'>serv.pl</a>.  He's been working on the long-awaited follow-up, <a href='http://docs.collapsar.net/cobalt/'>Cobalt</a>, and has mostly finalized the markup and a basic parser for it.

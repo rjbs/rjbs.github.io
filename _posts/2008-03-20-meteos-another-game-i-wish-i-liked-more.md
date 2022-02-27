@@ -11,5 +11,3 @@ In Meteos, blocks fall from the sky and form rows and columns.  You can move blo
 The concept is very simple, and it's pretty fun.  It's just too much to pay attention to, though, compared to Tetris or Bejeweled.  It might be a lot more fun to play against a friend, but it's too hard to keep an eye on how your enemy is doing, which makes it hard to talk smack.  Also, any time I think about multiplayer games on the DS, I feel like I'd rather play a game where I share one big screen, rather than hunching over a little one.
 
 As much as I want to like Meteos, I lose at it too quickly to enjoy it much.  I wish it was easier to play a much longer, simpler version of it.  The in-game stats tell me that I've played it fewer than twenty times, for less than three total hours since first turning it on in the summer of 2006.  Oh well.
-
-

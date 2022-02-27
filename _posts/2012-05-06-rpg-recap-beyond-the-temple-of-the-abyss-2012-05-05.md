@@ -61,7 +61,6 @@ out another route to Krisos.
 
 ### In Memorian
 
-R.I.P., Jude the Soldier  
-R.I.P., Bill the Soldier
-
+* R.I.P., Jude the Soldier
+* R.I.P., Bill the Soldier
 

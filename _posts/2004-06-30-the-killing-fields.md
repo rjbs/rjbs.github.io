@@ -5,7 +5,6 @@ date  : "2004-06-30T03:46:00Z"
 tags  : ["perl"]
 ---
 
-
 ## death at work
 
 We had some layoffs today.  It was not fun, of course, but it was especially unfun because a number of the people laid off were among those co-workers I really like.  It has driven me to eat too much.  Burgers, calzones, and so on. I guess about fifteen or twenty people got escorted out, today.

@@ -104,5 +104,3 @@ This was my release epigraph for Perl 5.16.0:
 > We must love one another or die.
 >
 > – W.H. Auden, September 1, 1939
-
-

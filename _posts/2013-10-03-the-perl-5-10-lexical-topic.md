@@ -9,9 +9,11 @@ also known as "the default variable."  If you use a built-in routine that
 really requires a parameter, but don't give it one, the odds are good that it
 will use `$_`.  For example:
 
-    s/[“”]/"/g;
-    chomp;
-    say;
+```perl
+s/[“”]/"/g;
+chomp;
+say;
+```
 
 These three operations, all of which really need a parameter, will use `$_`.
 The topic will be substituted-in by `s///`, chomped by `chomp`, and said by
@@ -25,20 +27,24 @@ hateful action at a distance.  Those times are the worst.
 
 Someone somewhere deep in your dependency chain has written:
 
-    sub utter {
-      $_ = $_[0];
-      s/[“”]/"/g;
-      chomp;
-      say;
-    }
+```
+sub utter {
+  $_ = $_[0];
+  s/[“”]/"/g;
+  chomp;
+  say;
+}
+```
 
 And you write some code like:
 
-    for (@files) {
-      log_event("About to investigate file $_");
-      next unless -f && -r;
-      investigate_file;
-    }
+```perl
+for (@files) {
+  log_event("About to investigate file $_");
+  next unless -f && -r;
+  investigate_file;
+}
+```
 
 Somewhere down the call stack, `log_event` *sometimes* calls `utter`.  `utter`
 assigned to the topic, but didn't localize, and if nothing between your code
@@ -59,11 +65,13 @@ of variable for that: lexical variables!  So, Perl 5.10 introduced `my $_`.
 
 So, to avoid having your topic clobbered, you could rewrite that loop:
 
-    for my $_ (@files) {
-      log_event("About to investigate file $_");
-      next unless -f && -r;
-      investigate_file;
-    }
+```perl
+for my $_ (@files) {
+  log_event("About to investigate file $_");
+  next unless -f && -r;
+  investigate_file;
+}
+```
 
 When `log_event` is entered, it has no way to see your lexical topic — the one
 with a filename in it.  It can't alter it, either.  It's like you've finally
@@ -74,20 +82,24 @@ able to default to `$_` if no argument was passed.
 
 Well, it will need to get updated, too.  Previously it was written as:
 
-    sub investigate_file {
-      my ($filename, @rest) = @_ ? (@_) : ($_);
+```perl
+sub investigate_file {
+  my ($filename, @rest) = @_ ? (@_) : ($_);
 
-      ...
-    }
+  ...
+}
+```
 
 Now, though, that `$_` wouldn't be able to see your lexical topic.  You need to
 tell perl that you want to pierce the veil of lexicality.
 
-    sub investigate_file (_) {
-      my ($filename, @rest) = @_ ? (@_) : ($_);
+```perl
+sub investigate_file (_) {
+  my ($filename, @rest) = @_ ? (@_) : ($_);
 
-      ...
-    }
+  ...
+}
+```
 
 That underscore in the prototype says "if I get no arguments, alias `$_[0]` to
 whichever topic is in effect where I was called."  That's great and does just
@@ -110,37 +122,43 @@ wrinkly one.
 One of the cool things we can do with lexical variables is build closures over
 them.  Behold, the canonical example:
 
-    sub counter {
-      my $i = 0;
-      return sub { $i++ }
-    }
+```perl
+sub counter {
+  my $i = 0;
+  return sub { $i++ }
+}
+```
 
 Once `$_` is a lexical variable, we can close over it, too.  Is this a problem?
 Maybe not.  Maybe this is really cool:
 
-    for my $_ (@messages) {
-      push @callbacks, sub { chomp; say };
-    }
+```
+for my $_ (@messages) {
+  push @callbacks, sub { chomp; say };
+}
+```
 
 Those nice compact callbacks use the default variable, but they have closed
 over the lexical topic as their default variable.  Nice!
 
 Unfortunately it isn't always that nice:
 
-    use Try::Tiny;
+```perl
+use Try::Tiny;
 
-    for my $_ (@messages) {
-      ...
-      # a dozen lines of code
-      ...
+for my $_ (@messages) {
+  ...
+  # a dozen lines of code
+  ...
 
-      try {
-        ...
-      } catch {
-        return unless /^critical: /;
-        log_exception;
-      };
-    }
+  try {
+    ...
+  } catch {
+    return unless /^critical: /;
+    log_exception;
+  };
+}
+```
 
 Even though they look like blocks, the things between squiggly braces at `try`
 and `catch` are subroutines, so there's a calling boundary there.  When the
@@ -160,10 +178,12 @@ subroutine prototype.
 
 And, hey, that's one of the two ways we can fix the `catch` block above:
 
-    catch sub (_) {                 ┃   catch {
-      return unless /^critical: /;  ┃     return unless $::_ =~ /^critical: /;
-      log_exception;                ┃     log_exception($::_);
-    };                              ┃   };
+```
+catch sub (_) {                 ┃   catch {
+  return unless /^critical: /;  ┃     return unless $::_ =~ /^critical: /;
+  log_exception;                ┃     log_exception($::_);
+};                              ┃   };
+```
 
 You can take your pick about which is worse.
 
@@ -182,5 +202,3 @@ relying heavily on its current behavior would be a bad idea.  If we *can't* fix
 the lexical topic, we'll remove it.  That makes relying on its behavior just as
 bad.  When relying on a feature's current behavior is a bad idea, we mark it
 experimental and issue warnings, and that's just what we've done in v5.18.0.
-
-

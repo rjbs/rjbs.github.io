@@ -18,28 +18,30 @@ I thought about writing a "don't do the actual release unless the Changes file
 exists" plugin, but then I decided it would be pretty easy to just start using
 `dzil new`.  So far, I'm happy!  Here's my setup:
 
-`profile.ini`
+**profile.ini**:
 
-      [DistINI]
-      append_file = plugins.ini
+```ini
+[DistINI]
+append_file = plugins.ini
 
-      [Git::Init]
+[Git::Init]
 
-      [GenerateFile / Generate-gitignore ]
-      filename    = .gitignore
-      is_template = 1
-      content = {{$dist->name}}-*
-      content = .build
+[GenerateFile / Generate-gitignore ]
+filename    = .gitignore
+is_template = 1
+content = {{$dist->name}}-*
+content = .build
 
-      [GenerateFile / Generate-Changes ]
-      filename    = Changes
-      is_template = 0
-      content = Revision history for {{$dist->name}}
-      content =
-      content = {{$NEXT}}
+[GenerateFile / Generate-Changes ]
+filename    = Changes
+is_template = 0
+content = Revision history for {{$dist->name}}
+content =
+content = {{$NEXT}}
+```
 
-`plugins.ini`
+**plugins.ini**:
 
-      [@RJBS]
-
-
+```ini
+[@RJBS]
+```
