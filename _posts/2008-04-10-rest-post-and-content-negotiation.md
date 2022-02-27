@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rest, post, and content negotiation
-date  : 2008-04-10T18:47:58Z
+title : "rest, post, and content negotiation"
+date  : "2008-04-10T18:47:58Z"
 tags  : ["http", "programming", "rest"]
 ---
 This is a pretty reasonable HTTP request (please forgive any stupid mistakes

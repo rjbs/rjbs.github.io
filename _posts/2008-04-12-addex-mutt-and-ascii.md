@@ -1,7 +1,7 @@
 ---
 layout: post
-title : addex, mutt, and ascii
-date  : 2008-04-12T23:30:58Z
+title : "addex, mutt, and ascii"
+date  : "2008-04-12T23:30:58Z"
 tags  : ["addex", "perl", "programming"]
 ---
 After my last set of poking at making Addex do 7-bitization of funny

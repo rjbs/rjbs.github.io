@@ -1,7 +1,7 @@
 ---
 layout: post
-title : ganon's cold, dead body
-date  : 2003-03-31T05:00:00Z
+title : "ganon's cold, dead body"
+date  : "2003-03-31T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "videogame", "zelda"]
 ---
 Ganon's cold, dead body is at my feet.  Link has vanquished evil yet again. The kingdom is at peace.  Mostly.

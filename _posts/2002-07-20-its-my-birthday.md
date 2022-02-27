@@ -1,8 +1,7 @@
 ---
 layout: post
-title : it's my birthday!
-date  : 2002-07-20T04:00:00Z
-
+title : "it's my birthday!"
+date  : "2002-07-20T04:00:00Z"
 ---
 Yay me!
 

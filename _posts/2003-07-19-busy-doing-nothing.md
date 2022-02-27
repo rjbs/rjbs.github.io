@@ -1,8 +1,7 @@
 ---
 layout: post
-title : busy doing nothing
-date  : 2003-07-19T04:00:00Z
-
+title : "busy doing nothing"
+date  : "2003-07-19T04:00:00Z"
 ---
 Er, so, I thought I could be really good about keeping up with this while I enjoyed my time off.  Right!<h4>wednesday</h4>Wednesday I stayed home from work and relaxed.  Gloria gave me Super Mario Advance, the first SMB game for GBA.  It's just a repackaged and regraphicked SMB2 from NES, so it's just fine.  You can play as Toad (he screams a lot) and throw vegetables at ... things.  I had forgotten about the weird door potions. More on all that later at $gs.
 

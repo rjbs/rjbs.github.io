@@ -1,7 +1,7 @@
 ---
 layout: post
-title : THAC0, armor class, saving throws, skill, and other applications of the d20
-date  : 2013-08-31T03:15:41Z
+title : "THAC0, armor class, saving throws, skill, and other applications of the d20"
+date  : "2013-08-31T03:15:41Z"
 tags  : ["dnd"]
 ---
 More than a few times, when I've told people that I play an older version of

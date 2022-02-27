@@ -1,7 +1,7 @@
 ---
 layout: post
-title : chessex pound-o-dice
-date  : 2008-12-10T21:00:08Z
+title : "chessex pound-o-dice"
+date  : "2008-12-10T21:00:08Z"
 tags  : ["dnd", "games", "rpg"]
 ---
 We need new dice for our D&D game.  I ordered a Chessex Pound-o-Dice from an

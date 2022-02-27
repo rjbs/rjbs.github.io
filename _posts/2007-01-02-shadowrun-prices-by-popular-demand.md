@@ -1,7 +1,7 @@
 ---
 layout: post
-title : shadowrun prices (by popular demand)
-date  : 2007-01-02T02:43:24Z
+title : "shadowrun prices (by popular demand)"
+date  : "2007-01-02T02:43:24Z"
 tags  : ["games", "rpg"]
 ---
 I used Shadowrun 2nd Ed, because it's the one that was in use the longest.

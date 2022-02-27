@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more blog mods
-date  : 2004-05-21T02:28:00Z
+title : "more blog mods"
+date  : "2004-05-21T02:28:00Z"
 tags  : ["code"]
 ---
 I was really annoyed to find that my Bryar patch, for passing config objects instead of Bryar objects around, was nowhere to be found.  I recoded the changes, then immediately found the patch.  That's life.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i spent a lot of money today
-date  : 2006-09-21T02:50:00Z
+title : "i spent a lot of money today"
+date  : "2006-09-21T02:50:00Z"
 tags  : ["house"]
 ---
 Well, there are two ways to look at it.  On one hand, I have about a thousand more dollars in my bank account now than I did yesterday.  On the other hand, I am in well over a hundred thousand dollars in debt, now.

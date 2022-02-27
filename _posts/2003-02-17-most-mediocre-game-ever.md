@@ -1,7 +1,7 @@
 ---
 layout: post
-title : most mediocre game ever
-date  : 2003-02-17T05:00:00Z
+title : "most mediocre game ever"
+date  : "2003-02-17T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "videogame"]
 ---
 I rented ZooCube from Blockbuster, and got a few hours of play out of it.  I guess it was at least at least my five bucks worth, but that was the problem. I didn't feel like turning it in late or renting it again.  In a game with  such a simple concept, the gameplay needs to be addictive, like Pac Man or Tetris.  ZooCube has everything except that X factor that makes me want to stay at work and play Snood rather than go home.  

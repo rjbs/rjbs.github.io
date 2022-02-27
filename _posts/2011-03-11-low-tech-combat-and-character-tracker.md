@@ -1,7 +1,7 @@
 ---
 layout: post
-title : low-tech combat and character tracker
-date  : 2011-03-11T02:12:49Z
+title : "low-tech combat and character tracker"
+date  : "2011-03-11T02:12:49Z"
 tags  : ["dnd"]
 ---
 I see lots of people talk about using software on their laptops or smartphones

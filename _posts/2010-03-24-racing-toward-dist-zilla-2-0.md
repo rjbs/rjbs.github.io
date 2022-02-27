@@ -1,7 +1,7 @@
 ---
 layout: post
-title : racing toward Dist::Zilla 2.0
-date  : 2010-03-24T03:27:20Z
+title : "racing toward Dist::Zilla 2.0"
+date  : "2010-03-24T03:27:20Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I thought I'd have to wait another week or two to feel good about the next

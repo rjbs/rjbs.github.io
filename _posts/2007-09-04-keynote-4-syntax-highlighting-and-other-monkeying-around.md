@@ -1,7 +1,7 @@
 ---
 layout: post
-title : keynote 4, syntax highlighting, and other monkeying around
-date  : 2007-09-04T15:52:54Z
+title : "keynote 4, syntax highlighting, and other monkeying around"
+date  : "2007-09-04T15:52:54Z"
 tags  : ["apple", "keynote", "macosx", "rtf", "software", "syntax"]
 ---
 I was pretty sure I was going to buy iWork '08 before it was announced.  Every

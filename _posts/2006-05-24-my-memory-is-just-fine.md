@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my memory is just fine
-date  : 2006-05-24T09:27:00Z
+title : "my memory is just fine"
+date  : "2006-05-24T09:27:00Z"
 tags  : ["apple", "hardware", "memory"]
 ---
 Not the memory in my brain, mind you. That's pretty lousy. The RAM that I ordered last week arrived yesterday while I was at work. The price difference between various vendors was so great that I'd been concerned that things wouldn't work out. Everything is just fine, now.

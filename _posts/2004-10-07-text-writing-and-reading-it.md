@@ -1,8 +1,7 @@
 ---
 layout: post
-title : text: writing and reading it
-date  : 2004-10-07T01:15:00Z
-
+title : "text: writing and reading it"
+date  : "2004-10-07T01:15:00Z"
 ---
 Shawn S. sent me a link to TextMate, a new OS X editor.  Their web page promises that "It's time to turn envy into pride and end your desire for Windows- and UNIX-based editors once and for all."  In case you think that's great, let me advise you: it's bullshit.
 

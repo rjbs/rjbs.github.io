@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the 2014 Perl QA Hackathon in Lyon: the work
-date  : 2014-03-19T02:37:27Z
+title : "the 2014 Perl QA Hackathon in Lyon: the work"
+date  : "2014-03-19T02:37:27Z"
 tags  : ["perl", "perlqa2014", "programming"]
 ---
 Today is my first full day back in Pennsylvania after the Perl QA Hackathon in

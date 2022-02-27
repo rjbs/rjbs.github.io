@@ -1,7 +1,7 @@
 ---
 layout: post
-title : todo for 2006 in review
-date  : 2007-01-02T03:07:37Z
+title : "todo for 2006 in review"
+date  : "2007-01-02T03:07:37Z"
 tags  : ["todo"]
 ---
 ## waste less time

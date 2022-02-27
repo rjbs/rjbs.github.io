@@ -1,7 +1,7 @@
 ---
 layout: post
-title : martha; this time with content
-date  : 2007-03-11T22:59:41Z
+title : "martha; this time with content"
+date  : "2007-03-11T22:59:41Z"
 tags  : ["martha"]
 ---
 I got an instant message yesterday at 16:59, about when I was getting ready to

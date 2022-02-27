@@ -1,8 +1,7 @@
 ---
 layout: post
-title : my poor bike
-date  : 2004-09-29T01:47:00Z
-
+title : "my poor bike"
+date  : "2004-09-29T01:47:00Z"
 ---
 It was misty, this morning, but I decided to bike to work anyway.  I wasn't going to get very wet, and I don't mind getting wet coming home.  When it was time to head home, it was raining like crazy.  My only regret was not having my rear fender with me, because it meant that my ass was going to get soaked.
 

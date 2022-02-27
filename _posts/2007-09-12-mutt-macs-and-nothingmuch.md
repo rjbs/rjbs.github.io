@@ -1,7 +1,7 @@
 ---
 layout: post
-title : mutt, macs, and nothingmuch++
-date  : 2007-09-12T02:16:27Z
+title : "mutt, macs, and nothingmuch++"
+date  : "2007-09-12T02:16:27Z"
 tags  : ["macosx", "mutt"]
 ---
 Every time I blindly click a "Contact Us" link and see Mail.app launching, my

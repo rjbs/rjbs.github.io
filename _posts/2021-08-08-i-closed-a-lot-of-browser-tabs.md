@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I closed a lot of browser tabs
-date  : 2021-08-08T15:39:36Z
+title : "I closed a lot of browser tabs"
+date  : "2021-08-08T15:39:36Z"
 tags  : ["programming"]
 ---
 I am widely admired at work for my ability to have many, many browser tabs

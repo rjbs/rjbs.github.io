@@ -1,7 +1,7 @@
 ---
 layout: post
-title : application config that makes me happy
-date  : 2007-05-11T03:10:25Z
+title : "application config that makes me happy"
+date  : "2007-05-11T03:10:25Z"
 tags  : ["addex", "perl", "programming"]
 ---
 So, I've done a bit more hacking on

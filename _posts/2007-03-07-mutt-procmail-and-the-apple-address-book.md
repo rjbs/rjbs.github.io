@@ -1,7 +1,7 @@
 ---
 layout: post
-title : mutt, procmail, and the apple address book
-date  : 2007-03-07T04:38:40Z
+title : "mutt, procmail, and the apple address book"
+date  : "2007-03-07T04:38:40Z"
 tags  : ["addex", "email", "mutt", "perl", "programming"]
 ---
 It seems like everyone I know is using Thunderbird or Apple Mail, these days.

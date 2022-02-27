@@ -1,7 +1,7 @@
 ---
 layout: post
-title : gui mail apps considered stifling
-date  : 2007-03-19T15:57:49Z
+title : "gui mail apps considered stifling"
+date  : "2007-03-19T15:57:49Z"
 tags  : ["email", "mutt", "software"]
 ---
 About two weeks ago, I was singing the praises of mutt, patting myself on the

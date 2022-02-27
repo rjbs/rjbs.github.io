@@ -1,8 +1,7 @@
 ---
 layout: post
-title : perl is too slow
-date  : 2004-09-03T01:45:00Z
-
+title : "perl is too slow"
+date  : "2004-09-03T01:45:00Z"
 ---
 ...but first: an updated on my Apple Care.
 

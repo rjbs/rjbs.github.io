@@ -1,7 +1,7 @@
 ---
 layout: post
-title : digital crack
-date  : 2003-03-10T05:00:00Z
+title : "digital crack"
+date  : "2003-03-10T05:00:00Z"
 tags  : ["games", "gamesite", "ps2", "videogame"]
 ---
 I've played The Sims, before.  I had a copy for Windows, back when it first came out.  I played hours and hours of it, not so much because it was fun, but because it was addictive.  I had joked several times that it was like digital crack, and when I looked back at the reviews of the game, I saw lots of other people using that phrase.  It's true.

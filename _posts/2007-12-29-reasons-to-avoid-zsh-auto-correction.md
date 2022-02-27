@@ -1,7 +1,7 @@
 ---
 layout: post
-title : reasons to avoid zsh auto-correction
-date  : 2007-12-29T22:11:03Z
+title : "reasons to avoid zsh auto-correction"
+date  : "2007-12-29T22:11:03Z"
 tags  : ["stupid", "zsh"]
 ---
     root@backup:/var/backup/mail# tar jcvf 200701.tar.bz2 200701   zsh: correct '200701.tar.bz2' to '200601.tar.bz2' [nyae]? 

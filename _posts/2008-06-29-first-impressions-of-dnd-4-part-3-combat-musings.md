@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first impressions of dnd 4; part 3: combat musings
-date  : 2008-06-29T17:40:25Z
+title : "first impressions of dnd 4; part 3: combat musings"
+date  : "2008-06-29T17:40:25Z"
 tags  : ["dnd", "games", "rpg"]
 ---
 Disclaimer: no, I haven't reread Chapter 9 yet.  I just remembered a few things

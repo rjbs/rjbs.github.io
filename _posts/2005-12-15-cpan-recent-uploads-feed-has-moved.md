@@ -1,7 +1,7 @@
 ---
 layout: post
-title : cpan recent uploads feed has moved
-date  : 2005-12-15T18:29:47Z
+title : "cpan recent uploads feed has moved"
+date  : "2005-12-15T18:29:47Z"
 tags  : ["cpan", "perl"]
 ---
 I noticed a while ago that the CPAN's feed had stopped uploading.  Most of my ability to write useful code hinges on the fact that I know the CPAN's contents pretty well, and keep up to date on it.  The loss of this feed did not bode well for me.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : PTS 2019: The PAUSE Test Suite (4/5)
-date  : 2019-04-30T00:45:11Z
+title : "PTS 2019: The PAUSE Test Suite (4/5)"
+date  : "2019-04-30T00:45:11Z"
 tags  : ["perl", "programming"]
 ---
 ## PAUSE and case insensitivity

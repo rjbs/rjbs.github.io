@@ -1,7 +1,7 @@
 ---
 layout: post
-title : making the switch to svn over dav
-date  : 2005-12-16T03:14:23Z
+title : "making the switch to svn over dav"
+date  : "2005-12-16T03:14:23Z"
 tags  : ["subversion"]
 ---
 Well, actually, I don't plan to switch.  I don't think I have any real need to, although I guess I'll find out if someday my client starts complaining that I'm able to see or create or modify some file that came in through WebDAV.

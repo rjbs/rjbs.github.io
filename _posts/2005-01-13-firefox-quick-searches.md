@@ -1,7 +1,7 @@
 ---
 layout: post
-title : firefox quick searches
-date  : 2005-01-13T14:51:00Z
+title : "firefox quick searches"
+date  : "2005-01-13T14:51:00Z"
 tags  : ["firefox"]
 ---
 At the LUG meeting on Tuesday, I saw that Brian R. was using the Google bar in Firefox.  It's 2005 and people are still using the Google bar!  The guy giving the presentation had the default Google widget still on his address bar.  Why is that damn thing still there?

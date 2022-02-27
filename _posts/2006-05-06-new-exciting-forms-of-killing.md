@@ -1,7 +1,7 @@
 ---
 layout: post
-title : new, exciting forms of killing
-date  : 2006-05-06T01:36:00Z
+title : "new, exciting forms of killing"
+date  : "2006-05-06T01:36:00Z"
 tags  : ["war", "weapons"]
 ---
 I'm watching a documentary about the creation of new weapons systems.  It's always interesting to see the technology, but I'm always made somewhat uncomfortable by the fact that the machinery is designed to take human life. Many of the military personnel they talk to use euphemisms which, I imagine, are drilled into them to depersonalize battlefield killing.  (I'm really just guessing at that.)  They say, for example, that they will "deactivate an enemy installation" (by raining shrapnel into a foxhole).

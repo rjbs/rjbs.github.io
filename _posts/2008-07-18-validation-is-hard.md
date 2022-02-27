@@ -1,7 +1,7 @@
 ---
 layout: post
-title : validation is hard
-date  : 2008-07-18T03:26:38Z
+title : "validation is hard"
+date  : "2008-07-18T03:26:38Z"
 tags  : ["programming"]
 ---
 More and more, I'm dealing with lots of mostly-JSON web service APIs.  I enjoy

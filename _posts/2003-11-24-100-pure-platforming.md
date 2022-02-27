@@ -1,7 +1,7 @@
 ---
 layout: post
-title : 100% pure platforming
-date  : 2003-11-24T05:00:00Z
+title : "100% pure platforming"
+date  : "2003-11-24T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "platformer", "videogame"]
 ---
 When I was first introduced to the original Prince of Persia, the game was already old.  I thought it looked keen, but I couldn't manage to not fall on spikes.  I got sick of it and never played another PoP game again, until Saturday.  All the reviews I read gushed and gushed about the new game.  While my wife looked around Victoria's Secret, Sands of Time became a fifty dollar impulse purchase.

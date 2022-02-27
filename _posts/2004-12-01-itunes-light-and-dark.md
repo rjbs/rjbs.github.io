@@ -1,7 +1,7 @@
 ---
 layout: post
-title : itunes light and dark
-date  : 2004-12-01T01:18:00Z
+title : "itunes light and dark"
+date  : "2004-12-01T01:18:00Z"
 tags  : ["apple", "itunes", "macosx", "software"]
 ---
 On one hand, iTunes crashes all the time when I use it at home.  On the other, it is completely awesome for use as an iPod content manager.

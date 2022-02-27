@@ -1,7 +1,7 @@
 ---
 layout: post
-title : our very own laundry facilities
-date  : 2007-03-09T03:49:37Z
+title : "our very own laundry facilities"
+date  : "2007-03-09T03:49:37Z"
 tags  : ["house", "retail"]
 ---
 For as long as we've lived together (and before that) Gloria and I have had to leave home to do our laundry.  At BU, I'd take my laundry to my brother's place or my sister's place.  In Somerville, we'd walk about a block to what is now called the Showcase Laundramat.  When we moved into our old apartment in Bethlehem, there was a washer in our apartment, but it wasn't hooked up.  We hoped it would be put in the basement and turned on, but it was eventually removed and sent to who-knows-where.  For as long as we've lived in Bethlehem, Gloria has taken the laundry to the Linden Tree Laundramat or to my parents' place.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my oscon experience
-date  : 2008-07-26T17:59:29Z
+title : "my oscon experience"
+date  : "2008-07-26T17:59:29Z"
 tags  : ["oscon", "oscon2008", "portland"]
 ---
 Once again, I'm writing a look back instead of a travelogue.  Oh well!

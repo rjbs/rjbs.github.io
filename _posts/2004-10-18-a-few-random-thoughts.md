@@ -1,8 +1,7 @@
 ---
 layout: post
-title : a few random thoughts
-date  : 2004-10-18T23:30:00Z
-
+title : "a few random thoughts"
+date  : "2004-10-18T23:30:00Z"
 ---
 If the internet was a person, it would be a reverse Charlie (from Flowers for Algernon).  It would start out as an interesting, convivial thinker and degrade into a dirty old man in a yellow raincoat yelling about "throat yogurt" and "herbal viagel."
 

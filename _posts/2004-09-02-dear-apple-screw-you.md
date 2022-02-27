@@ -1,8 +1,7 @@
 ---
 layout: post
-title : dear apple: screw you
-date  : 2004-09-02T12:39:00Z
-
+title : "dear apple: screw you"
+date  : "2004-09-02T12:39:00Z"
 ---
 My PowerBook, AirPort, and iPod are working fine.  Gloria's iBook and iPod mini are fine, too.  So are our iSights.  We have spent thousands on Apple hardware and hundreds on software.  We are loyal customers.  Why does Apple want to alienate us?
 

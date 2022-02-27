@@ -1,7 +1,7 @@
 ---
 layout: post
-title : lexical subroutines in perl 5
-date  : 2013-09-25T23:50:41Z
+title : "lexical subroutines in perl 5"
+date  : "2013-09-25T23:50:41Z"
 tags  : ["perl", "programming"]
 ---
 One of the big new experimental features in Perl 5.18.0 is lexical subroutines.

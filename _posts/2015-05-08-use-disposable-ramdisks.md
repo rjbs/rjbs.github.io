@@ -1,7 +1,7 @@
 ---
 layout: post
-title : use disposable ramdisks!
-date  : 2015-05-08T14:42:58Z
+title : "use disposable ramdisks!"
+date  : "2015-05-08T14:42:58Z"
 tags  : ["perl", "programming"]
 ---
 Recently I wrote about [my dumb CPAN metafile

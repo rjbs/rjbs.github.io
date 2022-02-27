@@ -1,7 +1,7 @@
 ---
 layout: post
-title : microsoft customer service madness
-date  : 2010-02-04T00:00:10Z
+title : "microsoft customer service madness"
+date  : "2010-02-04T00:00:10Z"
 tags  : ["stupid", "xbox"]
 ---
 In January, I ordered an [Xbox 360 Play & Charge

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : yet another omission
-date  : 2004-06-18T13:07:00Z
-
+title : "yet another omission"
+date  : "2004-06-18T13:07:00Z"
 ---
 Last night, just as I was shutting my lid, Ian sent me a message following up on something we'd talked about at the Kwiki BOF.  This reminded me that I'd said nothing about it.
 

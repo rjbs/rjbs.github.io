@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my current most played music
-date  : 2008-08-05T14:20:30Z
+title : "my current most played music"
+date  : "2008-08-05T14:20:30Z"
 tags  : ["itunes", "music", "perl", "programming"]
 ---
 Bryan posted [his most played

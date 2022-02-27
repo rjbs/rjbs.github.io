@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Zork Ⅲ
-date  : 2013-09-02T02:38:04Z
+title : "The Great Infocom Replay: Zork Ⅲ"
+date  : "2013-09-02T02:38:04Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 It's been over six months since [my last bit of progress on The Great Infocom

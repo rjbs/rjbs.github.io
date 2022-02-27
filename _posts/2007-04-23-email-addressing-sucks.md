@@ -1,7 +1,7 @@
 ---
 layout: post
-title : email addressing sucks
-date  : 2007-04-23T15:39:06Z
+title : "email addressing sucks"
+date  : "2007-04-23T15:39:06Z"
 tags  : ["email", "programming", "stupid"]
 ---
 I know that most people know how much email addresses suck, but I found this

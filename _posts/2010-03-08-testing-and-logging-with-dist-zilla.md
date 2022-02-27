@@ -1,7 +1,7 @@
 ---
 layout: post
-title : testing and logging with Dist::Zilla
-date  : 2010-03-08T15:02:32Z
+title : "testing and logging with Dist::Zilla"
+date  : "2010-03-08T15:02:32Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I feel like I'm making enough progress, right now, to make a grant update every

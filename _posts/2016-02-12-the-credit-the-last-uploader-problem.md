@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the \"credit the last uploader\" problem
-date  : 2016-02-12T14:16:24Z
+title : "the \"credit the last uploader\" problem"
+date  : "2016-02-12T14:16:24Z"
 tags  : ["cpan", "perl"]
 ---
 ## First, a refresher…

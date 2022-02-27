@@ -1,8 +1,7 @@
 ---
 layout: post
-title : zombies and clones
-date  : 2004-11-05T03:19:00Z
-
+title : "zombies and clones"
+date  : "2004-11-05T03:19:00Z"
 ---
 Gloria and I watched Dawn of the Dead (2004) tonight.  It pretty much sucked.
 

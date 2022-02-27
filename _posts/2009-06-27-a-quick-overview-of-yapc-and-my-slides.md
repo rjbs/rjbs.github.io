@@ -1,7 +1,7 @@
 ---
 layout: post
-title : a quick overview of yapc (and my slides)
-date  : 2009-06-27T17:41:55Z
+title : "a quick overview of yapc (and my slides)"
+date  : "2009-06-27T17:41:55Z"
 tags  : ["perl", "presentation", "programming", "yapc"]
 ---
 First off, my slides.  Whenever I give a presentation, someone will ask me whether the slides will go online.  Sometimes they do, and sometimes they don't.  This year, I gave three presentations: one on Git, one on some new email libraries, and one on Rx.  The email slides will probably go online soon. I'm not sure the other two will.

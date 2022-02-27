@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the cyberpunk 2020 economy
-date  : 2007-01-01T05:54:09Z
+title : "the cyberpunk 2020 economy"
+date  : "2007-01-01T05:54:09Z"
 tags  : ["games", "rpg"]
 ---
 I've been re-reading a lot of old CP2020 sourcebooks.  It's sort of a bizarre game.  The rules are really complicated, in my opinion, and the setting is the most obvious parts of Gibsonian cyberpunk turned up to eleven.

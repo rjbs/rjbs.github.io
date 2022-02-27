@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my second ipod
-date  : 2006-04-19T03:22:04Z
+title : "my second ipod"
+date  : "2006-04-19T03:22:04Z"
 tags  : ["ipod"]
 ---
 So, apparently there was some kind of controvery with the earlier iPods'

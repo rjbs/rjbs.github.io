@@ -1,7 +1,7 @@
 ---
 layout: post
-title : on language used in public
-date  : 2005-06-18T00:25:45Z
+title : "on language used in public"
+date  : "2005-06-18T00:25:45Z"
 tags  : ["culture", "language"]
 ---
 I am not shy about using some amount of rude language in conversation when it's appropriate.  Heck, I swear about as much as anybody else on IRC (except sungo).

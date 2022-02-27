@@ -1,7 +1,7 @@
 ---
 layout: post
-title : today i moved a lot of stuff
-date  : 2006-09-24T01:25:15Z
+title : "today i moved a lot of stuff"
+date  : "2006-09-24T01:25:15Z"
 tags  : ["house"]
 ---
 Today was moving day!  Gloria picked up a truck around 7:00, and once we figured out how to park it (because people had not entirely vacated our 'no parking' zone) and had some breakfast, the move was on!  We moved the guinea pigs first, so they'd be out of our way.  They're in a currently unoccupied room, so we got to close them in and let them relax.  I have no idea if it worked... guinea pigs can be so hard to read!

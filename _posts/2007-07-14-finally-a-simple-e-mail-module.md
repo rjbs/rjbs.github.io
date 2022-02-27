@@ -1,7 +1,7 @@
 ---
 layout: post
-title : finally, a simple e-mail module
-date  : 2007-07-14T20:52:45Z
+title : "finally, a simple e-mail module"
+date  : "2007-07-14T20:52:45Z"
 tags  : ["email", "humor", "perl", "programming"]
 ---
 Email::Simple is, I think, a pretty popular module.  Quite a few other Perl software distributions require it or its subclass Email::MIME.  I think its popularity is due in no small part to the very simple interface it provides. There's no need to remember that sometimes you need the "bodyhandle" method and that sometimes you need "open."  There's no need to keep track of encodings or parts or much of anything.  It's just a header and a body and that's about it.

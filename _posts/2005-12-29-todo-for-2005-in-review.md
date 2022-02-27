@@ -1,7 +1,7 @@
 ---
 layout: post
-title : todo for 2005 in review
-date  : 2005-12-29T22:44:02Z
+title : "todo for 2005 in review"
+date  : "2005-12-29T22:44:02Z"
 tags  : ["todo"]
 ---
 Very late in 2004, I made a list of things to do in 2005.  Basically, my new year's resolutions.  Let's review, shall we?

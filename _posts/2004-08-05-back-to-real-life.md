@@ -1,7 +1,7 @@
 ---
 layout: post
-title : back to real life
-date  : 2004-08-05T02:00:00Z
+title : "back to real life"
+date  : "2004-08-05T02:00:00Z"
 tags  : ["code", "perl"]
 ---
 I'm back to my normal life, which has created quantum superposition of emotions within me: I'm relieved to be off the hectic OSCON schedule, I'm very happy to be back home with Gloria, and I'm uninspired to be back at work trying to get things done with stone knives and bearskins.

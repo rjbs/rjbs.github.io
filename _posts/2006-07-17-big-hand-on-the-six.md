@@ -1,8 +1,7 @@
 ---
 layout: post
-title : big hand on the six
-date  : 2006-07-17T11:19:00Z
-
+title : "big hand on the six"
+date  : "2006-07-17T11:19:00Z"
 ---
 Bryan starts today, so I planned to get in early so I'd be around and helpful the whole day.  Normally, I catch the ten o'clock bus, which gets me to work about noon.  Getting in early requires catching the six thirty bus, which gets me there between eight and eight thirty.
 

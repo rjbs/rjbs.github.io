@@ -1,8 +1,7 @@
 ---
 layout: post
-title : yesterday - wednesday at oscon
-date  : 2004-07-30T04:16:00Z
-
+title : "yesterday - wednesday at oscon"
+date  : "2004-07-30T04:16:00Z"
 ---
 I really should have blogged yesterday yesterday.  Instead, I fell asleep, and now I remember nothing.
 

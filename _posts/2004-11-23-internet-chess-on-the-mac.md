@@ -1,8 +1,7 @@
 ---
 layout: post
-title : internet chess on the mac
-date  : 2004-11-23T22:35:00Z
-
+title : "internet chess on the mac"
+date  : "2004-11-23T22:35:00Z"
 ---
 It seems like there's no big consensus on "Good Mac Chess Software."
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : itunes, applescript, and the eternal blank box
-date  : 2006-04-05T21:43:41Z
+title : "itunes, applescript, and the eternal blank box"
+date  : "2006-04-05T21:43:41Z"
 tags  : ["applescript", "itunes", "programming"]
 ---
 Why is AppleScript so slow?  Whenever I try to do a bunch of things repeated

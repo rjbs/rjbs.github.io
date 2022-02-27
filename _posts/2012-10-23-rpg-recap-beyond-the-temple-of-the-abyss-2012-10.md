@@ -1,7 +1,7 @@
 ---
 layout: post
-title : RPG Recap: Beyond the Temple of the Abyss, 2012-10
-date  : 2012-10-23T04:21:53Z
+title : "RPG Recap: Beyond the Temple of the Abyss, 2012-10"
+date  : "2012-10-23T04:21:53Z"
 tags  : ["rpg-beyond", "dnd", "rpg"]
 ---
 Still exploring the museum under the statue of Cosativa, the troop poked around

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : mail audit and other nightmares
-date  : 2006-06-04T21:05:00Z
-
+title : "mail audit and other nightmares"
+date  : "2006-06-04T21:05:00Z"
 ---
 I actually did have some bad dreams a few days ago, but I can't remember what made them so bad. I remember being told that I needed a haircut, but that's about it -- and I doubt that was especially traumautic.
 

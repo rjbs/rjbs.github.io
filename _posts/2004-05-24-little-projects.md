@@ -1,7 +1,7 @@
 ---
 layout: post
-title : little projects
-date  : 2004-05-24T01:56:00Z
+title : "little projects"
+date  : "2004-05-24T01:56:00Z"
 tags  : ["code"]
 ---
 I'm always pleased to see people post their little twenty-line hacks on use.perl, following lines like, "I wanted to do X, but it was annoying to do manually, so I wrote this."  It's really weird that I do that less and less as I become more of a coder and less of an admin.  (Really, that change is pretty complete by now.)  So, I'm trying to get back into the habit of writing little time-savers.

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : life after yapc
-date  : 2004-06-22T02:57:00Z
-
+title : "life after yapc"
+date  : "2004-06-22T02:57:00Z"
 ---
 I'm happy to be home!  YAPC was a good experience, although I think OSCON was on the whole better, for a number of reasons.  Most of them, though, boil down to location.  The other tracks at OSCON, of course, meant that there was always something I found really interesting, but I mostly stuck to the Perl track. There were more people at OSCON, but I didn't have time to meet everyone at YAPC!  Anyway, I'm glad I did YAPC, glad I'll be doing OSCON, and hope to keep on doing both.
 

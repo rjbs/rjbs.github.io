@@ -1,8 +1,7 @@
 ---
 layout: post
-title : goodbye gandi!
-date  : 2004-10-07T15:33:00Z
-
+title : "goodbye gandi!"
+date  : "2004-10-07T15:33:00Z"
 ---
 The following is a dramatization.  The content has been changed to ridicule the annoying.
 

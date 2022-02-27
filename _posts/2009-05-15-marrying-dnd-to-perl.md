@@ -1,7 +1,7 @@
 ---
 layout: post
-title : marrying dnd to perl
-date  : 2009-05-15T02:28:44Z
+title : "marrying dnd to perl"
+date  : "2009-05-15T02:28:44Z"
 tags  : ["dnd", "game", "perl", "programming", "rpg"]
 ---
 I've been playing Dungeons and Dragons off and on since I was in elementary school.  I remember my brother's collection of carefully painted miniatures, although mostly I remember the ochre jelly.  I've been writing computer programs for almost as long.  Both hobbies have had large gaps in continuity, but they're still things I like and things that get a lot of my time.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : toward the promised land of playlists, through the valley of plists
-date  : 2006-01-17T16:55:06Z
+title : "toward the promised land of playlists, through the valley of plists"
+date  : "2006-01-17T16:55:06Z"
 tags  : ["parsing", "perl", "programming", "xml"]
 ---
 I am trying to produce a SAX-based parser for Apple Property List documents. It's been a frustrating, educational experience.  BDFOY has a module, Mac::PropertyList, but it's not what I want.  First of all, it can't just produce a simple Perl datastructure from a deep plist.  That's fine: I could just patch it to do so, and it would only take a few lines.  The bigger concern is that it does its parsing with regular expressions, and takes more than twelve hours to turn my iTunes Music Library file into an object.  I'm not sure how much more than twelve hours, because I gave up, at that point; I didn't want my CPU pegged while I was on the bus back to work.

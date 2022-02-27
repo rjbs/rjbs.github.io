@@ -1,7 +1,7 @@
 ---
 layout: post
-title : better (for me) basic class titles
-date  : 2012-02-24T04:00:53Z
+title : "better (for me) basic class titles"
+date  : "2012-02-24T04:00:53Z"
 tags  : ["dnd", "rpg"]
 ---
 So, in old-school D&D – prior to AD&D Second Edition – every class had a

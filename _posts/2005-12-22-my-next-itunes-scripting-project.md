@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my next itunes scripting project
-date  : 2005-12-22T04:07:45Z
+title : "my next itunes scripting project"
+date  : "2005-12-22T04:07:45Z"
 tags  : ["apple", "applescript", "itunes", "software"]
 ---
 I think this is one of those things that won't be so horrible once I get down to it, but I'm putting it off because from the outside it looks obnoxious.

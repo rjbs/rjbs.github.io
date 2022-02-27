@@ -1,7 +1,7 @@
 ---
 layout: post
-title : fallout from apple's evil screwdriver wielder
-date  : 2008-01-30T05:54:21Z
+title : "fallout from apple's evil screwdriver wielder"
+date  : "2008-01-30T05:54:21Z"
 tags  : ["apple", "hardware", "stupid"]
 ---
 About a week ago I upgraded my hard drive, which was much less simple than it

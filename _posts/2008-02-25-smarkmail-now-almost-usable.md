@@ -1,7 +1,7 @@
 ---
 layout: post
-title : smarkmail: now almost usable
-date  : 2008-02-25T02:59:14Z
+title : "smarkmail: now almost usable"
+date  : "2008-02-25T02:59:14Z"
 tags  : ["email", "perl", "programming"]
 ---
 A while ago, I [wrote about smarkdown](http://rjbs.manxome.org/rubric/entry/1418), my little program that "upgrades" email from plaintext to multipart alternative mail with plaintext and HTML alternatives.

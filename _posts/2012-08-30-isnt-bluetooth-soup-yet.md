@@ -1,7 +1,7 @@
 ---
 layout: post
-title : isn't Bluetooth soup yet?
-date  : 2012-08-30T14:01:40Z
+title : "isn't Bluetooth soup yet?"
+date  : "2012-08-30T14:01:40Z"
 tags  : ["hardware"]
 ---
 I listen to music on my iPhone all the time.  I ride a bus about twelve hours a

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : index cards
-date  : 2004-11-11T15:15:00Z
-
+title : "index cards"
+date  : "2004-11-11T15:15:00Z"
 ---
 The index cards and push pins I ordered arrived today.  I took down the cards for the aborted "let's code together!" project, but I haven't put anything new up.  The cards for the characterization system are still there, mocking me.  I need to put up a card for the current blocker, "dynamic by-variant widgets."
 

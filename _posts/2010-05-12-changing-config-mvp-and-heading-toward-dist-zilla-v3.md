@@ -1,7 +1,7 @@
 ---
 layout: post
-title : changing Config::MVP and heading toward Dist::Zilla v3
-date  : 2010-05-12T11:48:44Z
+title : "changing Config::MVP and heading toward Dist::Zilla v3"
+date  : "2010-05-12T11:48:44Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 The following is a message I recently sent to the Dist::Zilla mailing list:

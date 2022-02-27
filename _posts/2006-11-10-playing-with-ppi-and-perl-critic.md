@@ -1,7 +1,7 @@
 ---
 layout: post
-title : playing with ppi and perl critic
-date  : 2006-11-10T15:36:43Z
+title : "playing with ppi and perl critic"
+date  : "2006-11-10T15:36:43Z"
 tags  : ["perl", "programming"]
 ---
 I've heard a lot about Perl::Critic, and it has always sounded neat.  Chris

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : things i like: refactoring, reuse
-date  : 2004-12-14T19:43:00Z
+title : "things i like: refactoring, reuse"
+date  : "2004-12-14T19:43:00Z"
 tags  : ["perl", "programming", "xp"]
 ---
 Refactoring code is the best.  By making a promise to myself to refactor (mercilessly), I can get my code written quickly,  It isn't beautiful, but it works.  I get to write lots of code.  Then, when it works, I get to go back /and write it again/!  Not only that, but I get to make it better.  Then, because it's better, I can use it to do more things, which I code quickly, and then get to re-code.

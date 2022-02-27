@@ -1,7 +1,7 @@
 ---
 layout: post
-title : promoting little gifts
-date  : 2011-08-23T22:44:40Z
+title : "promoting little gifts"
+date  : "2011-08-23T22:44:40Z"
 tags  : ["culture", "perl", "programming"]
 ---
 It's pretty common, on IRC, for someone to say, "Thanks a lot, I owe you a

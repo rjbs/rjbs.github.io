@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i will never buy nokia again
-date  : 2006-05-30T19:53:00Z
+title : "i will never buy nokia again"
+date  : "2006-05-30T19:53:00Z"
 tags  : ["phone", "rants"]
 ---
 I recently bought a used Nokia 6620. For the most part, it's been a decent

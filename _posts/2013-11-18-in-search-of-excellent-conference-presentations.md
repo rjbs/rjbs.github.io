@@ -1,8 +1,7 @@
 ---
 layout: post
-title : in search of excellent conference presentations
-date  : 2013-11-18T23:24:24Z
-
+title : "in search of excellent conference presentations"
+date  : "2013-11-18T23:24:24Z"
 ---
 At OSCON this past year, I was a just little surprised by the still-shrinking
 Perl track.  What really surprised me, though, was the entirely absent Ruby

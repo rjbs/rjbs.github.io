@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my next laptop
-date  : 2006-04-13T01:09:15Z
+title : "my next laptop"
+date  : "2006-04-13T01:09:15Z"
 tags  : ["apple", "hardware"]
 ---
 I bought my current laptop just before OSCON '03, and my plan was to keep it for three years.  That was the deprecation schedule for laptops at IQE, as I recall, and it seemed like a reasonable number to latch on to.  That time is quickly approaching, and isn't it just my luck that the kind of hardware I'm likely to want isn't currently on the market, exactly.

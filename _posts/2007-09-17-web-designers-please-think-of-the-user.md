@@ -1,7 +1,7 @@
 ---
 layout: post
-title : web designers: please think of the user
-date  : 2007-09-17T00:18:15Z
+title : "web designers: please think of the user"
+date  : "2007-09-17T00:18:15Z"
 tags  : ["cellphone", "phone", "stupid", "web"]
 ---
 Here are my examples of hateful web interface from today.  I have been looking at getting an EVDO device to replace using my RAZR as a modem.  This led me to poking around on the websites of both Sprint-Nextel and Verizon.

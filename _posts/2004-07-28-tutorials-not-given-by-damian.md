@@ -1,7 +1,7 @@
 ---
 layout: post
-title : tutorials not given by damian
-date  : 2004-07-28T02:47:00Z
+title : "tutorials not given by damian"
+date  : "2004-07-28T02:47:00Z"
 tags  : ["perl"]
 ---
 Yesterday was all Damian, today was no Damian.  Well, that's not true.  Damian gave a talk at the Tuesday Night Extravaganza, but it wasn't so much a tutorial as a bit of entertainment.  The tutorials I actually attended had good points and bad points.  I will try to summarize them, below.

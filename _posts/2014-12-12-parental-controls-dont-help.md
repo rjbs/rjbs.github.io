@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Parental controls don't help
-date  : 2014-12-12T03:26:41Z
+title : "Parental controls don't help"
+date  : "2014-12-12T03:26:41Z"
 tags  : ["macosx"]
 ---
 My parents recently got new computers, and my mother's old (but still pretty

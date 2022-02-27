@@ -1,7 +1,7 @@
 ---
 layout: post
-title : pod people versus elementalists
-date  : 2008-10-25T18:08:07Z
+title : "pod people versus elementalists"
+date  : "2008-10-25T18:08:07Z"
 tags  : ["perl", "pod", "programming"]
 ---
 A long time ago, I wanted to write [something to let my pod (documentation)

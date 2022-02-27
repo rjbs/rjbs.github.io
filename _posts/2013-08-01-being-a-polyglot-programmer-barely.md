@@ -1,7 +1,7 @@
 ---
 layout: post
-title : being a polyglot programmer (barely)
-date  : 2013-08-01T02:03:11Z
+title : "being a polyglot programmer (barely)"
+date  : "2013-08-01T02:03:11Z"
 tags  : ["programming"]
 ---
 I like learning new programming languages.  Unfortunately, I rarely make the

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the slowest game ever
-date  : 2003-06-25T04:00:00Z
+title : "the slowest game ever"
+date  : "2003-06-25T04:00:00Z"
 tags  : ["games", "gamesite", "videogame", "xbox"]
 ---
 I don't mean to imply, by my title, that there are framerate problems with Silent Hill 2.  The graphics remain quite impressive, although I really am starting to tire of the ever-thickening fog.  What I mean is that the plot develops incredibly slowly.  I do huge amounts of Wandering Around.  Roughly, the game works like this:

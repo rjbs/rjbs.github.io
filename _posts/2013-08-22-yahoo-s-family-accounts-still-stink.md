@@ -1,8 +1,7 @@
 ---
 layout: post
-title : Yahoo!'s family accounts still stink
-date  : 2013-08-22T20:57:34Z
-
+title : "Yahoo!'s family accounts still stink"
+date  : "2013-08-22T20:57:34Z"
 ---
 It is amazing how bad Yahoo!'s "family account" experience is.  I want to make
 an account for my six year old daughter to use to upload her photos to Flickr.

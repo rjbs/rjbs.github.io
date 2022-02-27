@@ -1,7 +1,7 @@
 ---
 layout: post
-title : remaining gripes with keynote
-date  : 2008-05-26T12:42:02Z
+title : "remaining gripes with keynote"
+date  : "2008-05-26T12:42:02Z"
 tags  : ["presentation", "software"]
 ---
 Oh, Keynote.  So simple, so pretty, so annoying.

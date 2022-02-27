@@ -1,8 +1,7 @@
 ---
 layout: post
-title : firefighting, friends, and flushing
-date  : 2005-02-01T03:10:00Z
-
+title : "firefighting, friends, and flushing"
+date  : "2005-02-01T03:10:00Z"
 ---
 Thursday afternoon I moved our main production database from one server to another.  We'd done that before, and it was a big hassle.  This time, I had experience with the process, and I made a nice plan for how to do it.  I used OmniOutliner, and I really got to see how much nicer OO3 is, even for simple things.  The plan was pretty good, happily enough, but of course there were complications.
 

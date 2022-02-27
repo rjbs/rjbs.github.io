@@ -1,8 +1,7 @@
 ---
 layout: post
-title : programming
-date  : 2002-07-28T04:00:00Z
-
+title : "programming"
+date  : "2002-07-28T04:00:00Z"
 ---
 <h4>cobalt</h4>The software that serves up content from this journal, "Debug," is my hack (I will not go so far as to call it a branch) of mdxi's <a href='http://mdxi.collapsar.net/hacks/'>serv.pl</a>.  He's been working on the long-awaited follow-up, <a href='http://docs.collapsar.net/cobalt/'>Cobalt</a>, and has mostly finalized the markup and a basic parser for it.<h4>vim</h4>I've been working on syntax highlighting rules for it, which has been a strange process.  "Programming" for Vim is just weird.  I wish there was some kind of common scripting languages used by more than one or two free programs.  I'll acknowledge that embedding Perl is too heavy, but I'd be willing to learn S-Lang or the like if more software used it.  Learning a different (and always bizarre) language to script every piece of software is a hassle.  Microsoft really could've shown up "free software" if they'd just gotten that right: they have a common solution, but it's painfully Wrong.<h4>vim.org</h4>The first set of changes to vim.org are mostly done and <a href='http://vim.sf.net/new/'>in testing</a>, which is cool.  It means that hopefully I can get to fixing the things that most annoy me, soon.  I've been meaning to write down my ideas, but I haven't had the time or energy yet.  I'm hoping that tomorrow I can force them out.<h4>the in-laws</h4>Both of Gloria's parents are in the area;  they're about two hours away, but that's a lot closer than New Orleans.  On Saturday, we were expecting them around 0800, but they didn't show up until 1000 or so.  We went for breakfast; since Hack's was overcrowded, we hit the deli, where they were served some Cream Cheese Gone Wrong.  Fortunately, it was identified early and replaced. Breakfast was good, otherwise, and we managed to waste enough time to go get ice cream.  The Hedgehog had a good flavor out, "Coffee Break," which was coffee with oreoes.  Excellent!
 

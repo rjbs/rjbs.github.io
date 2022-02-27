@@ -1,7 +1,7 @@
 ---
 layout: post
-title : vh1's top 100 albums and me
-date  : 2005-11-28T05:54:00Z
+title : "vh1's top 100 albums and me"
+date  : "2005-11-28T05:54:00Z"
 tags  : ["music"]
 ---
 In 2001, VH1 had a show on which they proclaimed what they thought were the best 100 rock'n'roll albums.  I agreed with some things and not with others, and I printed out the list to use as a checklist for album acquisition.  

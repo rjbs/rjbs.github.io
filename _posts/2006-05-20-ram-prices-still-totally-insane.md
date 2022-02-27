@@ -1,7 +1,7 @@
 ---
 layout: post
-title : ram prices: still totally insane
-date  : 2006-05-20T11:54:00Z
+title : "ram prices: still totally insane"
+date  : "2006-05-20T11:54:00Z"
 tags  : ["apple", "hardware", "memory"]
 ---
 From what I can tell, the MacBook does dual channel RAM. It comes with two 256 meg sticks. I wanted more RAM, and I started shopping for it with the assumption, "Apple overcharges for RAM." This has been true since the dawn of time, from what I know, so it seemed safe.

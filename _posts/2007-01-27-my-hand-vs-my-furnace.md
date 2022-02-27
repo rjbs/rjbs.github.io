@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my hand vs. my furnace
-date  : 2007-01-27T19:54:05Z
+title : "my hand vs. my furnace"
+date  : "2007-01-27T19:54:05Z"
 tags  : ["high-st", "house"]
 ---
 A few days ago, Gloria picked up a neat little deodorizer that could be attached to the air filter in the furnace.  It made the whole house smell like artificial pine trees, which was mostly better than the previous "basement" smell that kicked in when the heater ran.  After a while, though, it got overwhelming and we decided to get rid of it.

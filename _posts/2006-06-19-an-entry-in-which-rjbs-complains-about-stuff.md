@@ -1,7 +1,7 @@
 ---
 layout: post
-title : an entry in which rjbs complains about stuff
-date  : 2006-06-19T02:02:54Z
+title : "an entry in which rjbs complains about stuff"
+date  : "2006-06-19T02:02:54Z"
 tags  : ["rants"]
 ---
 I'm often amused by the fact that my catch phrase at work seems to be, "You know what else I hate?" I don't think of myself as a big complainer, but I guess I do more than my fair share of it around the office, although I think it's mostly non-work-related complaining. I mumble under my breath about the latest episode of Lost, or the way that T-Mobile organizes their automated phone menus, or the fact that Bugzilla is completely insane. (Okay, that last one is work-related.)

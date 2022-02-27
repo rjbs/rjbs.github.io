@@ -1,7 +1,7 @@
 ---
 layout: post
-title : no wrong way to play
-date  : 2015-05-25T02:03:31Z
+title : "no wrong way to play"
+date  : "2015-05-25T02:03:31Z"
 tags  : ["dnd"]
 ---
 I am always baffled by the neverending stream of remarks of the form, "you

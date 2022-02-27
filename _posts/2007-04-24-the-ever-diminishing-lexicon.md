@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the ever-diminishing lexicon
-date  : 2007-04-24T22:09:23Z
+title : "the ever-diminishing lexicon"
+date  : "2007-04-24T22:09:23Z"
 tags  : ["language", "stupid"]
 ---
 Ruben Navarrete, Junior, is a syndicated columnist who frequently writes about

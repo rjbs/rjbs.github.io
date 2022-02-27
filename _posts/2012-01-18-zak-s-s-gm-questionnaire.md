@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Zak S.'s GM Questionnaire
-date  : 2012-01-18T14:55:43Z
+title : "Zak S.'s GM Questionnaire"
+date  : "2012-01-18T14:55:43Z"
 tags  : ["dnd", "rpg"]
 ---
 ### 1. If you had to pick a single invention in a game you were most proud of what would it be?

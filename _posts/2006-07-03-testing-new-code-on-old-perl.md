@@ -1,7 +1,7 @@
 ---
 layout: post
-title : testing new code on old perl
-date  : 2006-07-03T00:39:10Z
+title : "testing new code on old perl"
+date  : "2006-07-03T00:39:10Z"
 tags  : ["perl", "programming"]
 ---
 When putting together a slide for YAPC, I felt a little guilty about showing Exporter.pm in a slightly uglier light than required, mostly by avoiding the use of "our."  I wrote a little to do for myself, at the time, to see whether Sub::Exporter would even work on an our-less perl.  This has been a pain.

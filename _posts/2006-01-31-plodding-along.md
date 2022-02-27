@@ -1,8 +1,7 @@
 ---
 layout: post
-title : plodding along
-date  : 2006-01-31T05:05:55Z
-
+title : "plodding along"
+date  : "2006-01-31T05:05:55Z"
 ---
 I've got nothing much to report: life continues on, and is pretty much unexciting and acceptable.
 

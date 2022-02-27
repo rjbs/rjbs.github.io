@@ -1,7 +1,7 @@
 ---
 layout: post
-title : this game strengthens the soul of rjbs
-date  : 2003-01-27T05:00:00Z
+title : "this game strengthens the soul of rjbs"
+date  : "2003-01-27T05:00:00Z"
 tags  : ["dreamcast", "games", "gamesite", "videogame"]
 ---
 I read a lot of good things about Soul Calibur, but I'm not a big fan of 3-D fighters, so I didn't rush to pick it up.  When I found out that Soul Calibur is the sequel to Soul Blade, though, I was tempted:  I used to play Soul Blade at a friend's place.  I wasn't very good, but I really liked Voldo.  I think he was designed to appeal to people who weren't interested in seeing Sophitia's panties, and I'm OK with that.

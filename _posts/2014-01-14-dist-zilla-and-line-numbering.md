@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla and line numbering
-date  : 2014-01-14T16:22:29Z
+title : "Dist::Zilla and line numbering"
+date  : "2014-01-14T16:22:29Z"
 tags  : ["perl", "programming"]
 ---
 brian d foy wrote a few times lately about potential annoyances distributed

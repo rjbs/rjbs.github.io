@@ -1,7 +1,7 @@
 ---
 layout: post
-title : astronomical perl (just a tiny bit of it)
-date  : 2006-10-13T11:09:13Z
+title : "astronomical perl (just a tiny bit of it)"
+date  : "2006-10-13T11:09:13Z"
 tags  : ["astronomy", "perl", "programming", "rpg"]
 ---
 The new house is three stories, and gets lots of natural light.  Sadly, none of

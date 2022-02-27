@@ -1,7 +1,7 @@
 ---
 layout: post
-title : recent video game playing
-date  : 2007-08-27T03:14:08Z
+title : "recent video game playing"
+date  : "2007-08-27T03:14:08Z"
 tags  : ["games", "videogame"]
 ---
 I'd stopped (or at least drastically reduced) my video game playing after Martha was born until around my birthday.  I got a bunch of new games, then, and I've been playing a lot more.  I already wrote about Super Paper Mario, which started out fantastic and then fizzled.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : alternate method dispatch strategies inch closer
-date  : 2009-05-14T21:04:31Z
+title : "alternate method dispatch strategies inch closer"
+date  : "2009-05-14T21:04:31Z"
 tags  : ["perl", "programming"]
 ---
 It's been nearly two months since [my last update on writing new method

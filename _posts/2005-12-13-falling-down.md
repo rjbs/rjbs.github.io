@@ -1,8 +1,7 @@
 ---
 layout: post
-title : falling down
-date  : 2005-12-13T14:16:10Z
-
+title : "falling down"
+date  : "2005-12-13T14:16:10Z"
 ---
 I just had the weirdest experience.
 

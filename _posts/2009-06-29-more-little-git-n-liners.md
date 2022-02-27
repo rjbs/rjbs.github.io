@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more little git n-liners
-date  : 2009-06-29T20:15:37Z
+title : "more little git n-liners"
+date  : "2009-06-29T20:15:37Z"
 tags  : ["git", "perl", "programming"]
 ---
 I mean, they're not one-liners.  They're full programs.  They just do something

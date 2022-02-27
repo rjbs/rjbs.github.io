@@ -1,8 +1,7 @@
 ---
 layout: post
-title : motivation appraoches the limit zero
-date  : 2004-11-09T15:46:00Z
-
+title : "motivation appraoches the limit zero"
+date  : "2004-11-09T15:46:00Z"
 ---
 I get to work and stare at my whiteboard, index cards, and screen.  If I turned on cursor blinking in Vim, I'd become hypnotized and sit transfixed until my phone rang.  I'm not sure what's happening.  I think that it's a combination of a lot of things.  I feel like the systems I'm working on are destined to be eternally unreleased, remaining forever in the ivory tower, which is exactly what I don't want.  I know that's not the plan, but it's how it feels, lately. I've been working on the same project for months, and with no real back and forth with the users.  They green light just about everything, which isn't a lot of fun.  I want an exchange of ideas, and a challenge.
 

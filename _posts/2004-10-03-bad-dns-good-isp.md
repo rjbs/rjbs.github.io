@@ -1,8 +1,7 @@
 ---
 layout: post
-title : bad dns, good isp
-date  : 2004-10-03T21:03:00Z
-
+title : "bad dns, good isp"
+date  : "2004-10-03T21:03:00Z"
 ---
 Well, UltraDNS still hasn't updated their data, so clients are still being sent to my old IP.  You can imagine that I am less and less thrilled with this as the days go by.  The DNS needs an enema. 
 

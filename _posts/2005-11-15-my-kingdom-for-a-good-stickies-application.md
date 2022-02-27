@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my kingdom for a good stickies application
-date  : 2005-11-15T00:12:43Z
+title : "my kingdom for a good stickies application"
+date  : "2005-11-15T00:12:43Z"
 tags  : ["apple", "macosx", "software", "stupid"]
 ---
 I want a way to take really quick notes.  I want to scribble down a to-do, write down a MySQL log position, write down the length of time it took to build the CPANTS database, or whatever.

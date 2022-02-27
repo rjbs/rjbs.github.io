@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my \"syntax highlighting as RTF\" code is now on the CPAN
-date  : 2015-02-21T01:04:50Z
+title : "my \"syntax highlighting as RTF\" code is now on the CPAN"
+date  : "2015-02-21T01:04:50Z"
 tags  : ["perl", "programming"]
 ---
 In 2007, I wrote code to generate RTF that syntax highlights code, using Vim's

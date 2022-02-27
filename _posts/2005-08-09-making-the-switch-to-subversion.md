@@ -1,7 +1,7 @@
 ---
 layout: post
-title : making the switch to subversion
-date  : 2005-08-09T16:22:23Z
+title : "making the switch to subversion"
+date  : "2005-08-09T16:22:23Z"
 tags  : ["subversion"]
 ---
 I've been meaning to move to Subversion for quite a while, now.  Maybe it's been a year, I don't know.  I've been using it for Module::Starter, but that's because Andy owns the repo for that.  I used it for minicpan2, but that hasn't been very active.  Every time I start some new chunk of code, I think, "I should put this into svn!"  Then I think, "but I'm not sure how I'm supposed to do that trunk/tags/branches thing, and I think I screwed up my repository to begin with, and isn't all this thinking about svn just a way to shave yaks while I put off writing the code?"  Maybe it was, but "needing to get the code committed right now" was a reciprocal yak-shaving to keep me from moving to svn.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : an exporter for craftsmen
-date  : 2006-03-14T04:21:43Z
+title : "an exporter for craftsmen"
+date  : "2006-03-14T04:21:43Z"
 tags  : ["perl", "programming"]
 ---
 Sometimes, I get caught up in the metaphor, and I start to imagine my software

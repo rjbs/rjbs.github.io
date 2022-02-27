@@ -1,7 +1,7 @@
 ---
 layout: post
-title : RPG Recap: Beyond the Temple of the Abyss, 2015-03-14
-date  : 2015-03-15T02:28:59Z
+title : "RPG Recap: Beyond the Temple of the Abyss, 2015-03-14"
+date  : "2015-03-15T02:28:59Z"
 tags  : ["rpg-beyond", "dnd", "rpg"]
 ---
 ## Saturday, 4th day of the Frost Moon, 937

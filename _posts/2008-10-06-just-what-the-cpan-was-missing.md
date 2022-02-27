@@ -1,7 +1,7 @@
 ---
 layout: post
-title : just what the cpan was missing
-date  : 2008-10-06T04:00:56Z
+title : "just what the cpan was missing"
+date  : "2008-10-06T04:00:56Z"
 tags  : ["perl", "programming"]
 ---
 I work for Pobox.  We provide identity management.  For the most part, it's

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Zork Ⅰ
-date  : 2013-02-02T03:23:39Z
+title : "The Great Infocom Replay: Zork Ⅰ"
+date  : "2013-02-02T03:23:39Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 Zork Ⅰ is a really important game to work through, if you're going to try to

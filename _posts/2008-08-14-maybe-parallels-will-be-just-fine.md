@@ -1,7 +1,7 @@
 ---
 layout: post
-title : maybe parallels will be just fine
-date  : 2008-08-14T12:16:18Z
+title : "maybe parallels will be just fine"
+date  : "2008-08-14T12:16:18Z"
 tags  : ["win32"]
 ---
 I had two big complaints with Parallels that led me to consider dropping $80 on VMWare Fusion instead of, say, beer.  First, it was incredibly slow and resource hungry, and I'd have to quit almost everything to run my Win32 virt. At the very least, I'd have to quit Firefox, which was really annoying. Secondly, the damned taskbar was never visible.  Every time I booted, and more, I'd have to go to Start, Settings, Taskbar and hide, apply, show, apply.  Augh!

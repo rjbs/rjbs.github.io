@@ -1,8 +1,7 @@
 ---
 layout: post
-title : $insult += $injury
-date  : 2004-07-07T00:15:00Z
-
+title : "$insult += $injury"
+date  : "2004-07-07T00:15:00Z"
 ---
 I decided that rather than sit around on my butt, I should to try to get some fresh air and go cycling.  So, I went out and rode over toward Allentown.  I thought about picking up a botle of vermouth, but I'd left my Timbuk2 at home.
 

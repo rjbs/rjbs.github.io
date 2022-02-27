@@ -1,8 +1,7 @@
 ---
 layout: post
-title : wasting time
-date  : 2004-06-05T16:33:00Z
-
+title : "wasting time"
+date  : "2004-06-05T16:33:00Z"
 ---
 My flight is at 1600 today, so I'm trying to kill time until I go over to Heathrow.  I started by staying up late.  I wanted to be up until 0400, but I only made it to 0300.  I slept in until around 1000 and then stayed in bed for another hour before getting up and getting out.  Checkout was really crazy, so I'm hoping that it doesn't mean a lot of people are leaving London, at least on my flight.  I'm not really hopeful.
 

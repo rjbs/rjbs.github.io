@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the wedding in florida
-date  : 2005-04-29T23:44:29Z
+title : "the wedding in florida"
+date  : "2005-04-29T23:44:29Z"
 tags  : ["travel"]
 ---
 Jen and Frank's wedding was really nice.  It was on a warm, super-windy beach in Pensacola.  The ceremony was really short, but pleasant, fun, and relaxed. The groomsmen all wore Hawaiian shirts and the bridesmaids were all barefoot. It was nice.

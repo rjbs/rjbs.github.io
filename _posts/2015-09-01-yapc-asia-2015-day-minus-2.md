@@ -1,7 +1,7 @@
 ---
 layout: post
-title : YAPC::Asia 2015, day -2
-date  : 2015-09-01T03:26:06Z
+title : "YAPC::Asia 2015, day -2"
+date  : "2015-09-01T03:26:06Z"
 tags  : ["travel", "yapc"]
 ---
 YAPC::Asia starts on August 20th with "day zero," with a talks that didn't make the main two days.  I probably won't be there for much of that, since it's mostly Japanese content.  Despite two prior YAPCs in Tokyo, I still can't understand Japanese.  Go figure!

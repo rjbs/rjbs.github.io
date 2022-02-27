@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the issue with icons
-date  : 2005-08-15T00:50:48Z
+title : "the issue with icons"
+date  : "2005-08-15T00:50:48Z"
 tags  : ["icons"]
 ---
 We use Kwiki::Icons::Crystal at work, because (to quote John) "otherwise the toolbar ends up taking two rows!"  I don't want a multi-row toolbar, but neither do I want a huge array of tiny icons that often have little bearing on their link's action.

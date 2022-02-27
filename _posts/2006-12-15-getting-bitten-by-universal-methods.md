@@ -1,7 +1,7 @@
 ---
 layout: post
-title : getting bitten by universal methods
-date  : 2006-12-15T14:11:50Z
+title : "getting bitten by universal methods"
+date  : "2006-12-15T14:11:50Z"
 tags  : ["perl", "programming"]
 ---
 When I work on code, I nearly always replace `UNIVERSAL::isa` and

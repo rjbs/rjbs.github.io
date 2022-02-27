@@ -1,7 +1,7 @@
 ---
 layout: post
-title : constructing email messages painlessly
-date  : 2009-01-25T03:57:08Z
+title : "constructing email messages painlessly"
+date  : "2009-01-25T03:57:08Z"
 tags  : ["email", "perl", "programming"]
 ---
 Building email messages is a pain.  Even if you use a library to build the

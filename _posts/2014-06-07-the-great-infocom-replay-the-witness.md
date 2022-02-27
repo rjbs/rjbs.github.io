@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: The Witness
-date  : 2014-06-07T19:30:27Z
+title : "The Great Infocom Replay: The Witness"
+date  : "2014-06-07T19:30:27Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 It's been over a month since I last tried to do anything on my

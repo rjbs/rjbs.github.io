@@ -1,7 +1,7 @@
 ---
 layout: post
-title : cavy castration!?
-date  : 2005-04-29T23:53:02Z
+title : "cavy castration!?"
+date  : "2005-04-29T23:53:02Z"
 tags  : ["guineapigs"]
 ---
 About a week ago, I gave up all hope that our baby guinea pig was a girl.  We named him Doctor Girlfriend, anyway.

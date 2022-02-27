@@ -1,7 +1,7 @@
 ---
 layout: post
-title : selenium depression
-date  : 2007-08-07T22:20:25Z
+title : "selenium depression"
+date  : "2007-08-07T22:20:25Z"
 tags  : ["programming", "testing", "web"]
 ---
 I've been hearing such awesome things about Selenium for so long that I finally

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : ergonomic keyboards.
-date  : 2004-10-19T15:00:00Z
-
+title : "ergonomic keyboards."
+date  : "2004-10-19T15:00:00Z"
 ---
 I really want to test drive a Kinesis Ergo.  I hear (mostly) rave reviews, but I don't want to buy a $250 input device, just to find that I can't use it.
 

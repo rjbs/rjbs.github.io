@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Golf That I Can Enjoy
-date  : 2003-08-29T04:00:00Z
+title : "Golf That I Can Enjoy"
+date  : "2003-08-29T04:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "golf", "mario", "videogame"]
 ---
 A few days ago, my wife and I had some friends over for dinner.  We rented a movie, and I thought we might rent a party game, since Mario Party 4 had been such a hit during a previous visit.  I saw Golf on the shelf, and it looked like a decent bet.

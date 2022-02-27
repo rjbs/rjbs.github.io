@@ -1,7 +1,7 @@
 ---
 layout: post
-title : tolerance, useperl, holiday
-date  : 2004-07-01T21:09:00Z
+title : "tolerance, useperl, holiday"
+date  : "2004-07-01T21:09:00Z"
 tags  : ["perl"]
 ---
 I just finished talking with pudge, who diagnosed the problem I was having posting to use.perl.org; I think I may try to rewrite the WWW::UsePerl implementation in SOAP.  I think it'll just be simpler.  Maybe.

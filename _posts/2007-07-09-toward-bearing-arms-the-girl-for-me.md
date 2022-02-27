@@ -1,7 +1,7 @@
 ---
 layout: post
-title : toward bearing arms / the girl for me
-date  : 2007-07-09T21:29:01Z
+title : "toward bearing arms / the girl for me"
+date  : "2007-07-09T21:29:01Z"
 tags  : ["gun"]
 ---
 I stopped by the local gun (and coin and antique) store on Thursday and asked

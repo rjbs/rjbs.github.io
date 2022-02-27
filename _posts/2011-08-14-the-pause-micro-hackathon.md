@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the PAUSE micro-hackathon
-date  : 2011-08-14T02:06:12Z
+title : "the PAUSE micro-hackathon"
+date  : "2011-08-14T02:06:12Z"
 tags  : ["cpan", "perl", "programming"]
 ---
 When a generous Perl programmer decides to share his fantastic new library with

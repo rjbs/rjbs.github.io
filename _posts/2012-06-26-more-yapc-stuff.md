@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more YAPC stuff
-date  : 2012-06-26T14:39:16Z
+title : "more YAPC stuff"
+date  : "2012-06-26T14:39:16Z"
 tags  : ["perl", "yapc"]
 ---
 I realized that I forgot to mention a bunch of stuff from YAPC.  For one, I

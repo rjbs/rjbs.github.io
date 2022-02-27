@@ -1,8 +1,7 @@
 ---
 layout: post
-title : good hirer, bad hirer
-date  : 2004-09-03T14:37:00Z
-
+title : "good hirer, bad hirer"
+date  : "2004-09-03T14:37:00Z"
 ---
 I have spoken with people who seem really smart about how to hire, and also the opposite.  Names have been changed...
 

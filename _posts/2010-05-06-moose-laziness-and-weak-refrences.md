@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Moose, laziness, and weak refrences
-date  : 2010-05-06T12:19:46Z
+title : "Moose, laziness, and weak refrences"
+date  : "2010-05-06T12:19:46Z"
 tags  : ["perl", "programming"]
 ---
 Last night, I was making some improvements to some work code, and trying to

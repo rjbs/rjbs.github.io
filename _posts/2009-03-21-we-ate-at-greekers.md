@@ -1,7 +1,7 @@
 ---
 layout: post
-title : we ate at greekers
-date  : 2009-03-21T16:49:11Z
+title : "we ate at greekers"
+date  : "2009-03-21T16:49:11Z"
 tags  : ["bethlehem", "food"]
 ---
 Today, we tried out [Greekers](http://gotogreekers.com/), the new place from Billy -- the guy behind [Billy's](http://www.billysdiner.com/).  I don't know whether we'll be going back in the near future, even though it wasn't a horrible experience.

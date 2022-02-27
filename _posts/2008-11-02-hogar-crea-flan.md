@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hogar crea flan
-date  : 2008-11-02T00:54:15Z
+title : "hogar crea flan"
+date  : "2008-11-02T00:54:15Z"
 tags  : ["food"]
 ---
 There is a fairly well-respected charity that's fairly active in Bethlehem.

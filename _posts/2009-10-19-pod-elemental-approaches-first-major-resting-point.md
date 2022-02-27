@@ -1,7 +1,7 @@
 ---
 layout: post
-title : pod::elemental approaches first major resting point
-date  : 2009-10-19T03:58:48Z
+title : "pod::elemental approaches first major resting point"
+date  : "2009-10-19T03:58:48Z"
 tags  : ["perl", "pod", "programing"]
 ---
 After numerous jerks and stops,

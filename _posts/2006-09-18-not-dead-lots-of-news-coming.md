@@ -1,8 +1,7 @@
 ---
 layout: post
-title : not dead; lots of news coming
-date  : 2006-09-18T02:04:35Z
-
+title : "not dead; lots of news coming"
+date  : "2006-09-18T02:04:35Z"
 ---
 I have been putting off writing anything down here because I want to wait for some things to be finalized before I talk about all the big stuff that's been keeping me so busy and stressed out, but I thought I'd jot a few things down. If I don't, I never will, and anyway this is a little sign of life.
 

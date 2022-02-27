@@ -1,8 +1,7 @@
 ---
 layout: post
-title : spam subjects
-date  : 2004-05-27T12:50:00Z
-
+title : "spam subjects"
+date  : "2004-05-27T12:50:00Z"
 ---
 I have a huge archive of spam.  I'm actually a little surprised, now, to see it's about 450 megs.  Today, I got a piece of spam with this incredible subject:
 

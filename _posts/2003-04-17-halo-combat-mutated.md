@@ -1,7 +1,7 @@
 ---
 layout: post
-title : halo: combat mutated
-date  : 2003-04-17T04:00:00Z
+title : "halo: combat mutated"
+date  : "2003-04-17T04:00:00Z"
 tags  : ["games", "gamesite", "halo", "videogame", "xbox"]
 ---
 Tomorrow, Halo goes back to Hollywood Video, and I don't plan to play it again. Maybe it's great for multiplayer.  I may never know.  It's a cool game, and I really want to like it, but its flaws are too deep and too many.

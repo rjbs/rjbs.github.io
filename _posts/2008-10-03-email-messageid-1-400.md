@@ -1,7 +1,7 @@
 ---
 layout: post
-title : email::messageid 1.400
-date  : 2008-10-03T11:48:56Z
+title : "email::messageid 1.400"
+date  : "2008-10-03T11:48:56Z"
 tags  : ["email", "perl", "programming"]
 ---
 I've uploaded a new Email::MessageID, version 1.400.  It has two major

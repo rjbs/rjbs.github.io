@@ -1,7 +1,7 @@
 ---
 layout: post
-title : building by bike repair toolbox
-date  : 2005-12-31T20:47:41Z
+title : "building by bike repair toolbox"
+date  : "2005-12-31T20:47:41Z"
 tags  : ["bicycle", "repair", "tool"]
 ---
 Among my Christmas presents were a few bike tools.  The packages said they were from Santa, but I think my mom actually wrote that -- the handwriting looked a lot like hers.  Those tools were all Park tools: an FR-5 freewheel tool, a BBT-2 bottom bracket tool, and a CWP-6 crank puller.  I was pretty excited to finally have a couple of tools, and a few days later I decided to see how much I remembered from class.

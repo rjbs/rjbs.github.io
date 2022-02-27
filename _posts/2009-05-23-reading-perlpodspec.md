@@ -1,7 +1,7 @@
 ---
 layout: post
-title : reading perlpodspec
-date  : 2009-05-23T18:59:38Z
+title : "reading perlpodspec"
+date  : "2009-05-23T18:59:38Z"
 tags  : ["perl", "pod", "programming"]
 ---
 I've begun work on my Pod-munging grant.  My first real task has been reviewing

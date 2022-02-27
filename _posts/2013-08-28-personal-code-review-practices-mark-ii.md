@@ -1,7 +1,7 @@
 ---
 layout: post
-title : personal code review practices, mark Ⅱ
-date  : 2013-08-28T14:34:34Z
+title : "personal code review practices, mark Ⅱ"
+date  : "2013-08-28T14:34:34Z"
 tags  : ["perl", "productivity", "programming"]
 ---
 Just about two months ago, I posted about [my revived "work through some

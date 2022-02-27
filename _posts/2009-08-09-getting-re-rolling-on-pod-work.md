@@ -1,7 +1,7 @@
 ---
 layout: post
-title : getting re-rolling on pod work
-date  : 2009-08-09T02:01:37Z
+title : "getting re-rolling on pod work"
+date  : "2009-08-09T02:01:37Z"
 tags  : ["perl", "pod", "programming"]
 ---
 This has been a good week for me to take things that look to big and break them

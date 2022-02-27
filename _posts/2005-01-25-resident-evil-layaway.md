@@ -1,8 +1,7 @@
 ---
 layout: post
-title : resident evil layaway
-date  : 2005-01-25T18:55:00Z
-
+title : "resident evil layaway"
+date  : "2005-01-25T18:55:00Z"
 ---
 I have really been enjoying Resident Evil 4.  It is good.  I really like it.  I am going to buy it.
 

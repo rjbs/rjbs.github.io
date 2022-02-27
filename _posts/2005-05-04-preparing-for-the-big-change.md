@@ -1,7 +1,7 @@
 ---
 layout: post
-title : preparing for the big change
-date  : 2005-05-04T01:35:44Z
+title : "preparing for the big change"
+date  : "2005-05-04T01:35:44Z"
 tags  : ["hardware", "work"]
 ---
 At work, I'm trying to be busy and productive, but it's hard for a few reasons. I know I can't finish the current project, so I'm trying to deal with some edge cases, but mostly to write documentation.  I've written a number of documents for my theoretical successor describing at a glance the state of various projects.  Now I'm trying to find all the weird little things I tend to take care of now and then and document those.  I've called on the staff to let me know what weird things I do, but response so far as been so-so.  (I was reminded of a few weird things, though, so that was good.)  I'm not too worried, since I imagine that things I forget may end up becoming consulting visits.

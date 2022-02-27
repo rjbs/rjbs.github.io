@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla v5 will break and/or fix your code
-date  : 2013-10-20T14:51:11Z
+title : "Dist::Zilla v5 will break and/or fix your code"
+date  : "2013-10-20T14:51:11Z"
 tags  : ["perl", "programming"]
 ---
 ## Preface

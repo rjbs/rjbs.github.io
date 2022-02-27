@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the great new Email::Sender
-date  : 2013-02-07T14:33:39Z
+title : "the great new Email::Sender"
+date  : "2013-02-07T14:33:39Z"
 tags  : ["email", "perl", "programming"]
 ---
 Yesterday I released Email::Sender 1.300003.  This is a pretty important release!

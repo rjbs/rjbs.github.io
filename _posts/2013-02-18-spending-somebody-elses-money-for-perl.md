@@ -1,7 +1,7 @@
 ---
 layout: post
-title : spending somebody else's money… for Perl!
-date  : 2013-02-18T03:21:13Z
+title : "spending somebody else's money… for Perl!"
+date  : "2013-02-18T03:21:13Z"
 tags  : ["perl"]
 ---
 Over the past few years, the Perl Foundation received a bunch of nice big

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more tips for job applicants
-date  : 2008-08-13T19:03:35Z
+title : "more tips for job applicants"
+date  : "2008-08-13T19:03:35Z"
 tags  : ["hiring"]
 ---
 My [previous complaint](http://rjbs.manxome.org/rubric/entry/1648) is really

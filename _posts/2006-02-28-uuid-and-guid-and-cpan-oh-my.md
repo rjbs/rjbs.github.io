@@ -1,7 +1,7 @@
 ---
 layout: post
-title : uuid and guid and cpan, oh my!
-date  : 2006-02-28T02:05:53Z
+title : "uuid and guid and cpan, oh my!"
+date  : "2006-02-28T02:05:53Z"
 tags  : ["cpan", "perl", "programming"]
 ---
 I keep getting questions about what the hell I'm doing, so I'm going to try and answer them here.

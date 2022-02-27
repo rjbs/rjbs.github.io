@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dear web stores: listen to me
-date  : 2005-01-20T13:31:00Z
+title : "dear web stores: listen to me"
+date  : "2005-01-20T13:31:00Z"
 tags  : ["amazon", "retail", "stupid"]
 ---
 Everyone knows that I'm full of something.  What many people don't know is that the something is good ideas.  This is a public notice:  I am full of good ideas.  ("I have so much love to give!!")

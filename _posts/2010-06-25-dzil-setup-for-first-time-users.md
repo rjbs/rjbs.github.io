@@ -1,7 +1,7 @@
 ---
 layout: post
-title : \"dzil setup\" for first-time users
-date  : 2010-06-25T11:56:23Z
+title : "\"dzil setup\" for first-time users"
+date  : "2010-06-25T11:56:23Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I've just finished, but not released, a `dzil setup` command.  If a user runs `dzil` (for most purposes) without a `config.ini` present, this warning is displayed:

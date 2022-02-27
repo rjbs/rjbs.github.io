@@ -1,7 +1,7 @@
 ---
 layout: post
-title : kevin siembieda: 86% statistical
-date  : 2006-09-22T12:12:04Z
+title : "kevin siembieda: 86% statistical"
+date  : "2006-09-22T12:12:04Z"
 tags  : ["games", "rifts", "rpg"]
 ---
 Recently, I've been re-reading some of the Rifts sourcebooks.  Partly it's just for nostalgic reasons: I only ever played the Palladium games long, long ago, maybe in middle school.  It's also to look at some of the more interesting ideas that Rifts had to offer.  This can be challenging, since so much of Rifts is just serious twink-fodder.  It reminds me of a lot of long-running comics: the authors have to keep struggling to make their characters even cooler than they were last year, so you end up with Cyclops sinking every ball on a pool table with one blast to the cue, Superman turning back time, and Batman beating God at hide and seek.

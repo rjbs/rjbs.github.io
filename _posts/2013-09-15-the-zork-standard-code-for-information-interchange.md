@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the Zork Standard Code for Information Interchange
-date  : 2013-09-15T15:33:07Z
+title : "the Zork Standard Code for Information Interchange"
+date  : "2013-09-15T15:33:07Z"
 tags  : ["int-fiction", "perl", "programming"]
 ---
 I always feel a little amazed when I realize how many of the things that really

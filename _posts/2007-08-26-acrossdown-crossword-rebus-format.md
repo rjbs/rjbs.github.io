@@ -1,7 +1,7 @@
 ---
 layout: post
-title : acrossdown crossword rebus format
-date  : 2007-08-26T15:43:15Z
+title : "acrossdown crossword rebus format"
+date  : "2007-08-26T15:43:15Z"
 tags  : ["crossword", "perl", "programming"]
 ---
 A few months ago, I wrote [a crossword puzzle

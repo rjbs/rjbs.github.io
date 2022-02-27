@@ -1,7 +1,7 @@
 ---
 layout: post
-title : have ruby, seek task
-date  : 2005-01-08T03:09:00Z
+title : "have ruby, seek task"
+date  : "2005-01-08T03:09:00Z"
 tags  : ["programming", "ruby"]
 ---
 I really like Ruby.  Working with it is just so much fun!  I wrote my checkbook balancer in it, and everything else I do is pretty much just messing around because it's fun.  I need to find something more practical to do, but it's usually easier for me to use Perl instead.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yard work continues
-date  : 2008-04-14T14:27:19Z
+title : "yard work continues"
+date  : "2008-04-14T14:27:19Z"
 tags  : ["diy", "house"]
 ---
 Yesterday, Kip (and the rest of his clan) came over and we finished Phase II of

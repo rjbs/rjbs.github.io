@@ -1,7 +1,7 @@
 ---
 layout: post
-title : gems and turds
-date  : 2003-03-20T05:00:00Z
+title : "gems and turds"
+date  : "2003-03-20T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "platformer", "sega", "sonic", "videogame"]
 ---
 I think I'd romanticized Sonic in my mind.  Sonic was the cool character in the really fast game that my friend had.  I guess that made me want to have a copy of Sonic.  Well, now I have Sonic.  I have so much Sonic, it scares me.

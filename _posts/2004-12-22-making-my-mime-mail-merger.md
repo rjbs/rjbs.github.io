@@ -1,8 +1,7 @@
 ---
 layout: post
-title : making my mime mail merger
-date  : 2004-12-22T18:38:00Z
-
+title : "making my mime mail merger"
+date  : "2004-12-22T18:38:00Z"
 ---
 We wanted to send out a "Seasons Greetings" mail to our customers.  I asked why we couldn't just use Office's mail merge feature, and it turned out that we wanted a custom "from" for each recipient, so that every customer would get the email from his sales rep.  This requirement was later dropped, at which point I realized that Outlook doesn't mail merge for email.  You can only mail merge if you're going to print, fold, and post your snail mail.  Ugh!
 

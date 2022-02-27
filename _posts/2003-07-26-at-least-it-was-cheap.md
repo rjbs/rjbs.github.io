@@ -1,7 +1,7 @@
 ---
 layout: post
-title : At least it was cheap...
-date  : 2003-07-26T04:00:00Z
+title : "At least it was cheap..."
+date  : "2003-07-26T04:00:00Z"
 tags  : ["games", "gamesite", "rpg", "videogame", "xbox"]
 ---
 One of my co-workers is really into PC gaming, and more than once, recently, he's asked me anxiously, "Have you ever played Morrowind?"  I heard about it when it came out, and I thought, "That doesn't sound like my cup of tea."  It's an RPG, which makes it pretty questionable to begin with, in my book.  I've always thought that microcomputer-based RPGs that try to actually model non-static storylines are doomed to failure.

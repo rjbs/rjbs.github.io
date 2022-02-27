@@ -1,7 +1,7 @@
 ---
 layout: post
-title : steel battalion study group
-date  : 2003-06-15T04:00:00Z
+title : "steel battalion study group"
+date  : "2003-06-15T04:00:00Z"
 tags  : ["games", "gamesite", "mecha", "steelbat", "videogame", "xbox"]
 ---
 I had some friends by this weekend, and we did a fair bit of gaming.  Since I'm the only person I know with Steel Battalion, I like showing it off when I can. I am shamed (honestly!) to admit that I've only played it a few times.  While I really liked it, when I played it, it was so complex and my sofa was so lousy a seat that I didn't feel driven to play more.

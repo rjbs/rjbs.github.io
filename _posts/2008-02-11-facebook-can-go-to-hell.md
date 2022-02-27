@@ -1,7 +1,7 @@
 ---
 layout: post
-title : facebook can go to hell
-date  : 2008-02-11T13:52:30Z
+title : "facebook can go to hell"
+date  : "2008-02-11T13:52:30Z"
 tags  : ["networking", "rant", "social", "stupid"]
 ---
 I've gotten some mileage out of Facebook.  I caught up with a few old friends,

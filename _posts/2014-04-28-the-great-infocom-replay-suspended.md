@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Suspended
-date  : 2014-04-28T02:13:58Z
+title : "The Great Infocom Replay: Suspended"
+date  : "2014-04-28T02:13:58Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 I sat on the idea of writing this replay entry for a long time, because my

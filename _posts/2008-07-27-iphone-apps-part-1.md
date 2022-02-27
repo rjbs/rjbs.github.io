@@ -1,8 +1,7 @@
 ---
 layout: post
-title : iphone apps, part 1
-date  : 2008-07-27T16:23:57Z
-
+title : "iphone apps, part 1"
+date  : "2008-07-27T16:23:57Z"
 ---
 So, right.  I got an iPhone.  Among other things, this means that I will now start writing about what apps I like, once in a while.
 

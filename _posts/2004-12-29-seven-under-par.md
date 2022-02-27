@@ -1,8 +1,7 @@
 ---
 layout: post
-title : seven under par!
-date  : 2004-12-29T03:46:00Z
-
+title : "seven under par!"
+date  : "2004-12-29T03:46:00Z"
 ---
 Like I said earlier, I've been playing a lot of Mario Golf this week.  Mostly I was focusing on unlocking the "star characters."  When you get the star version of a character, you can play him with slightly different stats and a wildly improved swing.  Yoshi, for example, went from driving around 205 yards to driving around 250.  Wow!
 

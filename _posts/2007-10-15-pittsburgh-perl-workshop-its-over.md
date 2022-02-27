@@ -1,7 +1,7 @@
 ---
 layout: post
-title : pittsburgh perl workshop: it's over
-date  : 2007-10-15T01:01:12Z
+title : "pittsburgh perl workshop: it's over"
+date  : "2007-10-15T01:01:12Z"
 tags  : ["perl", "ppw2007"]
 ---
 Well, I'm in the back seat of Walt's car, and I'm tired.  We're in central Pennsylvania, cruising east toward the Lehigh Valley.  I think the workshop went very well, both as a whole and as far as my participation.  I'm definitely looking forward to PPW 2008.

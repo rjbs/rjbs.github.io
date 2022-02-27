@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rpg system battle: true20 versus d20
-date  : 2007-08-01T00:25:12Z
+title : "rpg system battle: true20 versus d20"
+date  : "2007-08-01T00:25:12Z"
 tags  : ["games", "rpg"]
 ---
 As I continue to putter about (mostly in my head as I walk to and from the bus)

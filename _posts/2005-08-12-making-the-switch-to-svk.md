@@ -1,7 +1,7 @@
 ---
 layout: post
-title : making the switch to svk
-date  : 2005-08-12T04:09:36Z
+title : "making the switch to svk"
+date  : "2005-08-12T04:09:36Z"
 tags  : ["subversion", "svk"]
 ---
 Well, those long paths were too much for me.  It's not that I had to type them much... I just kept thinking about them.  This morning, I couldn't enjoy my yogurt, dreading the thought of having to type that huge svn+ssh URL again.  Is it pathetic that my main reason for trying this way powerful svn client was to avoid typing long URL's?  Yeah, maybe.  I don't care!

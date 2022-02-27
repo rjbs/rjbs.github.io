@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the ratchet and clank trilogy
-date  : 2006-01-06T00:52:07Z
+title : "the ratchet and clank trilogy"
+date  : "2006-01-06T00:52:07Z"
 tags  : ["games", "videogame"]
 ---
 Gloria's sister (and her immediate family) gave me, for Christmas, a gift certificate to Barnes and Noble.  I didn't really want to buy any books because (a) I had a lot of books to read already and (b) their prices sort of suck.  I decided to pick up a video game, because video game prices are still pretty fixed.  I got Ratchet and Clank: Up Your Arsenal, which is the third in the series.  (Recently, a new Ratchet game was released, but it's not a Ratchet and Clank game, and it's different in format, so I still think the first three are a trilogy.)

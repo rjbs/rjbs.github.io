@@ -1,7 +1,7 @@
 ---
 layout: post
-title : from knave to knight: my new laptop
-date  : 2006-05-24T08:59:00Z
+title : "from knave to knight: my new laptop"
+date  : "2006-05-24T08:59:00Z"
 tags  : ["apple", "hardware"]
 ---
 I won't get into the details of how I waited in agony all weekend, refreshing FedEx's page to see whether my MacBook had gotten any closer to Bethlehem, or how I sat in the bathtub on Monday morning, straining to hear the sounds of delivery men coming into the entryway. In the end, I got my laptop basically on time. It showed up on Monday, shortly before I had to leave for work. I was so excited to get it that the FedEx guy and his trainee looked a little amused -- but that's how I get when I get a new toy. I took some photos as I unwrapped everything, which was fun: opening Apple hardware is always like opening a present, largely because of the well-designed packaging.

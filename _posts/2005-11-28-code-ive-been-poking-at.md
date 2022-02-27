@@ -1,7 +1,7 @@
 ---
 layout: post
-title : code i've been poking at
-date  : 2005-11-28T02:11:03Z
+title : "code i've been poking at"
+date  : "2005-11-28T02:11:03Z"
 tags  : ["perl", "programming", "rubric"]
 ---
 I haven't done any programming at all, this holiday, which is just fine with me.  I have had a really nice, relaxing time.  I've watched some lousy movies, read a decent book, played a lot of Disgaea, and eaten at least three slices of pumpkin pie.

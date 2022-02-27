@@ -1,7 +1,7 @@
 ---
 layout: post
-title : reading on the bus
-date  : 2005-05-25T01:53:14Z
+title : "reading on the bus"
+date  : "2005-05-25T01:53:14Z"
 tags  : ["books"]
 ---
 I've been making a nice little dent in my <a href='http://rjbs.manxome.org/todo/books'>reading list</a>, lately, on account of my time on the bus.  Today I finished Eats, Shoots & Leaves.  Tomorrow I'll have to take something else to start, and I'm not super-anxious to spend a lot of time on my current set of books.  I think I'll try to finish Orthodoxy, next.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : validation is now easy
-date  : 2008-08-31T03:11:18Z
+title : "validation is now easy"
+date  : "2008-08-31T03:11:18Z"
 tags  : ["programming", "rx"]
 ---
 Okay, the title might be a filthy lie, but it's just a reference to my

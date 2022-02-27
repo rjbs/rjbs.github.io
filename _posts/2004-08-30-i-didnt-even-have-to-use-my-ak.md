@@ -1,8 +1,7 @@
 ---
 layout: post
-title : i didn't even have to use my ak
-date  : 2004-08-30T01:31:00Z
-
+title : "i didn't even have to use my ak"
+date  : "2004-08-30T01:31:00Z"
 ---
 I've gotta say: it was a good day!
 

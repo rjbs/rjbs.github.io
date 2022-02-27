@@ -1,7 +1,7 @@
 ---
 layout: post
-title : a pox upon j.p. mcgrady's
-date  : 2005-11-14T03:52:40Z
+title : "a pox upon j.p. mcgrady's"
+date  : "2005-11-14T03:52:40Z"
 tags  : ["beer", "food"]
 ---
 There is a bar near the intersection of 3rd Street and Adams Street in Bethlehem.  It is called J.P. McGrady's.  They have good burgers, good wings, and a wide variety of beers on tap.  Despite this, tonight I say, "A POX UPON YOU, MCGRADY!"

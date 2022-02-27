@@ -1,7 +1,7 @@
 ---
 layout: post
-title : that might be good enough for production...
-date  : 2014-02-27T15:30:48Z
+title : "that might be good enough for production..."
+date  : "2014-02-27T15:30:48Z"
 tags  : ["forth", "programming"]
 ---
 Sometimes, the example code in documentation or teaching material is really

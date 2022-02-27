@@ -1,8 +1,7 @@
 ---
 layout: post
-title : busy doing nothing again
-date  : 2005-11-01T22:02:18Z
-
+title : "busy doing nothing again"
+date  : "2005-11-01T22:02:18Z"
 ---
 I'm not sure I can name anything that I'd call an accomplishment from this weekend.  I did a lot of sitting around and thinking about doing things, but I still felt busy for a good amount of the time.  Although my time could have been better used, I think that for the most part it was a good, relaxing weekend hanging out with Gloria.
 

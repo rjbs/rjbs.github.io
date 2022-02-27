@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rm birthdaycal.app
-date  : 2004-05-31T20:18:00Z
+title : "rm birthdaycal.app"
+date  : "2004-05-31T20:18:00Z"
 tags  : ["code"]
 ---
 I had been using an application called BirthdayCal.app to keep a calendar in iCal updated with the birthdays in my Address Book.  I figured this would be a nice application to replace in my attempt to make more non-Free software obsolete.  (I know, I know, as long as it requires iCal...)

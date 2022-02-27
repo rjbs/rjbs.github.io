@@ -1,8 +1,7 @@
 ---
 layout: post
-title : momma cavy, mortal kombat, and more math::calculator
-date  : 2005-03-09T02:02:00Z
-
+title : "momma cavy, mortal kombat, and more math::calculator"
+date  : "2005-03-09T02:02:00Z"
 ---
 Gloria and I had been worrying about how to find a playmate for Snoozer. Snoozer seemed pretty despondent.  She just hung out in her pipe and if she came out at all it was while we weren't looking.
 

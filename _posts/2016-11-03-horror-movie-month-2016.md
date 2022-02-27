@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Horror Movie Month 2016
-date  : 2016-11-03T03:21:58Z
+title : "Horror Movie Month 2016"
+date  : "2016-11-03T03:21:58Z"
 tags  : ["movies"]
 ---
 Another year, another thirty-one days of horror movies!  I think our selections

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : time machine and superduper
-date  : 2007-11-04T01:30:21Z
+title : "time machine and superduper"
+date  : "2007-11-04T01:30:21Z"
 tags  : ["apple", "macosx", "software"]
 ---
 For quite a while now, I've used

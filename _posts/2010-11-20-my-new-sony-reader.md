@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my new sony reader
-date  : 2010-11-20T21:29:14Z
+title : "my new sony reader"
+date  : "2010-11-20T21:29:14Z"
 tags  : ["books", "ebook", "hardware"]
 ---
 My [first ebook reader](http://rjbs.manxome.org/rubric/entry/1795) was a Sony PRS-300, which I bought just about a year ago.  There was a lot to like about it, and I never felt particularly tempted to replace it with a Kindle.  It really all comes down to one thing: the size.  If you [compare the Kindle and the Sony Reader](http://blogkindle.com/ereader-comparison/) sizes, you can see just how much bigger the Kindle 3 is than the PRS-300.  The Sony reader fit much better in my pockets, so I could take it anywhere.  I'd take it on walks to 7-11, to the playground with Martha, on short car trips, or anything.  The Kindle is just a little too big for that to be as comfortable.

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : minicpan, minicpan2, and module naming
-date  : 2005-03-14T12:53:00Z
-
+title : "minicpan, minicpan2, and module naming"
+date  : "2005-03-14T12:53:00Z"
 ---
 <pre><code>	minicpan162.52s user 17.89s system 70% cpu 4:17.36  total
 	minicpan229.35s user  1.74s system 62% cpu   50.064 total

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : movies I haven't liked
-date  : 2005-01-07T01:36:00Z
+title : "movies I haven't liked"
+date  : "2005-01-07T01:36:00Z"
 tags  : ["movies"]
 ---
 The human race has produced many motion pictures.  Many of them have been labelled as classics.  I have seen many of these classics.  Quite a few of them have irritated me.  I will name a few.

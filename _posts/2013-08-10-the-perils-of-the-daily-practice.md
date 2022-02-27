@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the perils of the Daily Practice
-date  : 2013-08-10T00:26:22Z
+title : "the perils of the Daily Practice"
+date  : "2013-08-10T00:26:22Z"
 tags  : ["productivity"]
 ---
 **Warning**:  This is sort of rambling.

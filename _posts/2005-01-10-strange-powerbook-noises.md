@@ -1,7 +1,7 @@
 ---
 layout: post
-title : strange powerbook noises
-date  : 2005-01-10T21:56:00Z
+title : "strange powerbook noises"
+date  : "2005-01-10T21:56:00Z"
 tags  : ["knave"]
 ---
 I'm a little worried about knave.  When he's sitting on a flat surface (the desk, the floor, my lap) everything is fine.  When I rotate it so the base is not parallel with the floor, it makes a noise.  I mentioned this before, but now I know what the noise reminds me of:  the sound that hair clippers make when they get jammed.  It's also interesting that this noise only occurs while I'm turning the machine.  If I hold it at a 45 degree angle with the floor, and keep it still, it's quiet, but if I constantly turn it side to side, the noise persists.

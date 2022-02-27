@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my soul still burns!
-date  : 2003-08-30T04:00:00Z
+title : "my soul still burns!"
+date  : "2003-08-30T04:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "videogame"]
 ---
 On one hand, I wasn't too enthused about Soul Calibur 2.  I'm not very good at fighting games.  The GCN controller is great, but its d-pad is too tiny for anything but marginal use.  I already have Soul Calibur for Dreamcast, and anything else is going to be a pale imitation.  Having Soul Calibur 2 would distract me from finishing my quests in Soul Calibur 1.

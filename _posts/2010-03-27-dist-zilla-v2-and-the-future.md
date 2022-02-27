@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla v2 and the future
-date  : 2010-03-27T18:44:25Z
+title : "Dist::Zilla v2 and the future"
+date  : "2010-03-27T18:44:25Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 ## Trial Releases

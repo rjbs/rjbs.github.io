@@ -1,8 +1,7 @@
 ---
 layout: post
-title : thanksgiving
-date  : 2003-11-28T05:00:00Z
-
+title : "thanksgiving"
+date  : "2003-11-28T05:00:00Z"
 ---
 I give thanks for Thankgiving!  It rules!
 

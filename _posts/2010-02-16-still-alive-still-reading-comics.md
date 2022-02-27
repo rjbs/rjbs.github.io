@@ -1,7 +1,7 @@
 ---
 layout: post
-title : still alive, still reading comics
-date  : 2010-02-16T23:43:50Z
+title : "still alive, still reading comics"
+date  : "2010-02-16T23:43:50Z"
 tags  : ["comics", "perl", "programming"]
 ---
 I haven't written anything about programming in a long time, now.  I stopped

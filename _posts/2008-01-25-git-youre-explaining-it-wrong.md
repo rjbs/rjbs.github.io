@@ -1,7 +1,7 @@
 ---
 layout: post
-title : git: you're explaining it wrong
-date  : 2008-01-25T15:37:04Z
+title : "git: you're explaining it wrong"
+date  : "2008-01-25T15:37:04Z"
 tags  : ["git", "vcs"]
 ---
 I switched from Subversion to Git entirely, shortly after YAPC last year.  Now

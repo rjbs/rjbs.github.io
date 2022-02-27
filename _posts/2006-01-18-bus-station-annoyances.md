@@ -1,8 +1,7 @@
 ---
 layout: post
-title : bus station annoyances
-date  : 2006-01-18T02:02:37Z
-
+title : "bus station annoyances"
+date  : "2006-01-18T02:02:37Z"
 ---
 John and I got to the bus station at about ten after five, as usual. Strangely, though, there was no bus waiting for us.  We waiting anxiously for five minutes, and then really started to worry.  There was a young woman who'd been waiting when we arrived, and she said she'd been there for about five minutes.  Nobody else seemed queued up for the bus, which was pretty weird. Another regular showed up after a little bit, and we tried to figure out what was going on.
 

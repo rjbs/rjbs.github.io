@@ -1,7 +1,7 @@
 ---
 layout: post
-title : salt and vinegar goldfish crackers
-date  : 2008-09-08T23:27:54Z
+title : "salt and vinegar goldfish crackers"
+date  : "2008-09-08T23:27:54Z"
 tags  : ["food"]
 ---
 Wow.  I was looking at Wikipedia's article on [Goldfish

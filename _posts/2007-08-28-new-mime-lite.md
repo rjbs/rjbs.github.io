@@ -1,7 +1,7 @@
 ---
 layout: post
-title : new mime::lite
-date  : 2007-08-28T12:17:18Z
+title : "new mime::lite"
+date  : "2007-08-28T12:17:18Z"
 tags  : ["perl", "programming"]
 ---
 MIME::Lite is, in my opinion, the worst of the popular email object modules. It's buggy, has a lousy interface, and just does awful things.  I'd go so far as to say that the number one mistake I see in new email modules is a reliance on MIME::Lite instead of Mail::Message or Email::MIME.

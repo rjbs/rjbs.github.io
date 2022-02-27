@@ -1,7 +1,7 @@
 ---
 layout: post
-title : life on the frontier with mro magic
-date  : 2009-08-10T15:02:07Z
+title : "life on the frontier with mro magic"
+date  : "2009-08-10T15:02:07Z"
 tags  : ["perl", "programming"]
 ---
 `MRO::Magic` is a system for writing your own method dispatcher in Perl.  I have

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : t-mobile, new phone, stupid problems
-date  : 2006-07-28T00:45:28Z
+title : "t-mobile, new phone, stupid problems"
+date  : "2006-07-28T00:45:28Z"
 tags  : ["phone", "stupid"]
 ---
 So, I lost my phone.  Honestly, I think it was stolen.  Whatever!  I'm mostly

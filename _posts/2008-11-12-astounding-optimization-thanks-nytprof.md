@@ -1,7 +1,7 @@
 ---
 layout: post
-title : astounding optimization! thanks nytprof!
-date  : 2008-11-12T02:34:01Z
+title : "astounding optimization! thanks nytprof!"
+date  : "2008-11-12T02:34:01Z"
 tags  : ["perl", "programming"]
 ---
 We've been unhappy with the performance of some code, recently.  I was pretty

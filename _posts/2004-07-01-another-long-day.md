@@ -1,7 +1,7 @@
 ---
 layout: post
-title : another long day
-date  : 2004-07-01T03:23:00Z
+title : "another long day"
+date  : "2004-07-01T03:23:00Z"
 tags  : ["perl"]
 ---
 The layoffs continue.  A problem with shift work is that it takes time to get through a round of layoffs.  They should be done by now, though.  Maybe I'll look into things before I go to bed.

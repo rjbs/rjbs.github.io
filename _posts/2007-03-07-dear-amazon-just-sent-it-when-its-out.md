@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dear amazon, just sent it when it's out
-date  : 2007-03-07T00:27:14Z
+title : "dear amazon, just sent it when it's out"
+date  : "2007-03-07T00:27:14Z"
 tags  : ["amazon", "stupid"]
 ---
 Lately, I am getting a lot of incredibly annoying email from Amazon.  Worse, it's email that requires that I repeatedly go log in and click buttons, just to get what I ordered.

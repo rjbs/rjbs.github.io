@@ -1,7 +1,7 @@
 ---
 layout: post
-title : be like rjbs!
-date  : 2008-02-06T16:36:25Z
+title : "be like rjbs!"
+date  : "2008-02-06T16:36:25Z"
 tags  : ["perl", "programming"]
 ---
 A [few](http://search.cpan.org/dist/Bundle-COG/)

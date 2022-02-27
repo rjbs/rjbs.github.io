@@ -1,7 +1,7 @@
 ---
 layout: post
-title : what is pod weaver? (pt. 2: pod weaver and you)
-date  : 2009-10-30T21:47:09Z
+title : "what is pod weaver? (pt. 2: pod weaver and you)"
+date  : "2009-10-30T21:47:09Z"
 tags  : ["perl", "pod", "programming"]
 ---
 So, yesterday I [wrote about Pod::Weaver's history](http://rjbs.manxome.org/rubric/entry/1808).  Today, the much more useful topic of "how to use it now that it exists."

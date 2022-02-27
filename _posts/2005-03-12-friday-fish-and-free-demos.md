@@ -1,8 +1,7 @@
 ---
 layout: post
-title : friday, fish, and free demos
-date  : 2005-03-12T03:47:00Z
-
+title : "friday, fish, and free demos"
+date  : "2005-03-12T03:47:00Z"
 ---
 Today was Jay's last day here.  He finished his Math::Calculator implementation on Thursday, so I gave him something simpler.  I asked him to reimplement one of my first-ever Perl programs, an Esperanto dictionary.  It just took some text file I'd found (or maybe generated) of Esperanto and English words.  Every line is one Esperanto word and an English meaning for it, tab-delimited.  I wrote a little interactive lookup tool with regexps and a decent interface in about 55 lines.  Jay didn't do too much worse, which was nice to see.  He had a few fewer features, but it was fine.
 

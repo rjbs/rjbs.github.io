@@ -1,7 +1,7 @@
 ---
 layout: post
-title : games I've played lately
-date  : 2014-02-04T02:51:31Z
+title : "games I've played lately"
+date  : "2014-02-04T02:51:31Z"
 tags  : ["games"]
 ---
 About a year ago, I told Mark Dominus that I wanted to learn to play bridge,

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : buying beer in bethlehem just got better (years ago)
-date  : 2009-08-01T21:39:55Z
+title : "buying beer in bethlehem just got better (years ago)"
+date  : "2009-08-01T21:39:55Z"
 tags  : ["beer", "booze"]
 ---
 For my birthday, my mom said she was going to buy me a bottle of bourbon that

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I paid fifteen bucks for this?
-date  : 2003-01-07T05:00:00Z
+title : "I paid fifteen bucks for this?"
+date  : "2003-01-07T05:00:00Z"
 tags  : ["dreamcast", "games", "gamesite", "rpg", "videogame"]
 ---
 I bought my DC with a small stack of cheap games.  All games for the DC are cheap these days.  The most expensive game in my stack was Shenmue.  I bought it on mdxi's advice.  He said it was an ambitious game, and that the hook was that you could just do whatever you wanted, whether or not you decided to further the plot.

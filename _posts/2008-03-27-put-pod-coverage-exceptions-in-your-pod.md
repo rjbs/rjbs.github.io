@@ -1,7 +1,7 @@
 ---
 layout: post
-title : put pod coverage exceptions in your pod
-date  : 2008-03-27T03:57:24Z
+title : "put pod coverage exceptions in your pod"
+date  : "2008-03-27T03:57:24Z"
 tags  : ["perl", "programming", "testing"]
 ---
 After having this task languish in my todo for years, at least, I have finally reduced my goal to the important 90% and applied some JFDI.

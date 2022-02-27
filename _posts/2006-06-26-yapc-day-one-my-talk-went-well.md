@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yapc day one: my talk went well
-date  : 2006-06-26T20:02:40Z
+title : "yapc day one: my talk went well"
+date  : "2006-06-26T20:02:40Z"
 tags  : ["perl", "yapc"]
 ---
 I gave my Sub::Exporter talk, this morning.  (I'll put up my slides soon, once I find a nice way to publish them.)  I think it went well.  I went over time, but toward the end I just annoucned that I was not going to stop.  Some people left and some stuck around.  I'm not sure how well it was received in general, but I didn't feel like I made any huge mistakes, and I got to say everything I wanted to.

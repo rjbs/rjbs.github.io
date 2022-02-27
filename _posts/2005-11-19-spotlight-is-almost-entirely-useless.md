@@ -1,7 +1,7 @@
 ---
 layout: post
-title : spotlight is almost entirely useless
-date  : 2005-11-19T14:24:50Z
+title : "spotlight is almost entirely useless"
+date  : "2005-11-19T14:24:50Z"
 tags  : ["search", "software", "stupid"]
 ---
 I want to be able to get a listing of all upcoming iCal events in a list like this:

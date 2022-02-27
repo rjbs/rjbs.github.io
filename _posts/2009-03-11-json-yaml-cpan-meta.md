@@ -1,7 +1,7 @@
 ---
 layout: post
-title : json, yaml, cpan, meta
-date  : 2009-03-11T04:11:19Z
+title : "json, yaml, cpan, meta"
+date  : "2009-03-11T04:11:19Z"
 tags  : ["cpan", "json", "perl", "programming", "yaml"]
 ---
 For quite some time now, most distributions uploaded to the CPAN include the

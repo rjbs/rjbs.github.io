@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hdtv and the \"soap opera\" effect
-date  : 2010-02-19T13:33:27Z
+title : "hdtv and the \"soap opera\" effect"
+date  : "2010-02-19T13:33:27Z"
 tags  : ["hardware", "tv"]
 ---
 We recently got a new HDTV.  Our old TV was a standard definition 34" (or so)

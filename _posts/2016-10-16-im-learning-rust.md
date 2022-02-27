@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I'm learning Rust!
-date  : 2016-10-16T02:45:11Z
+title : "I'm learning Rust!"
+date  : "2016-10-16T02:45:11Z"
 tags  : ["programming", "rust"]
 ---
 I've been meaning to learn Rust for a long time.  I read [the

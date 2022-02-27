@@ -1,7 +1,7 @@
 ---
 layout: post
-title : we saw land of the dead
-date  : 2005-06-25T04:41:12Z
+title : "we saw land of the dead"
+date  : "2005-06-25T04:41:12Z"
 tags  : ["movies", "zombie"]
 ---
 Gloria, John C., and I just saw Land of the Dead.  It was good.

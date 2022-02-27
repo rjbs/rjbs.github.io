@@ -1,7 +1,7 @@
 ---
 layout: post
-title : project planning with tiddlywiki
-date  : 2007-06-05T04:13:32Z
+title : "project planning with tiddlywiki"
+date  : "2007-06-05T04:13:32Z"
 tags  : ["javascript", "perl", "programming", "tiddlywiki", "wiki"]
 ---
 There are apparently a lot of TiddlyWiki plugins or rewrites centered around

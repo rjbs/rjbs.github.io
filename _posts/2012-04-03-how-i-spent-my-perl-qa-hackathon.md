@@ -1,7 +1,7 @@
 ---
 layout: post
-title : how I spent my Perl QA Hackathon
-date  : 2012-04-03T14:36:16Z
+title : "how I spent my Perl QA Hackathon"
+date  : "2012-04-03T14:36:16Z"
 tags  : ["perl", "perlqa2012", "programming"]
 ---
 I've been a big fan of the Perl QA Hackathon since the first one in Oslo in

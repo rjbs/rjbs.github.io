@@ -1,7 +1,7 @@
 ---
 layout: post
-title : catholic jargon peeves
-date  : 2005-07-12T02:33:52Z
+title : "catholic jargon peeves"
+date  : "2005-07-12T02:33:52Z"
 tags  : ["christianity", "religion"]
 ---
 I meant to write this yesterday, and to write something more interesting today. Maybe I'll catch up tomorrow.

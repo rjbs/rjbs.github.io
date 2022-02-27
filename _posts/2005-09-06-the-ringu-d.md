@@ -1,7 +1,7 @@
 ---
 layout: post
-title : (the )?ringu?( \\d)?
-date  : 2005-09-06T01:16:13Z
+title : "(the )?ringu?( \\d)?"
+date  : "2005-09-06T01:16:13Z"
 tags  : ["movies"]
 ---
 Everyone was so excited about The Ring when it came out that Gloria and and I, who don't mind a good scary movie, rented both The Ring and Ringu back in early 2003.  I thought Ringu was really scary, and still do.  I wasn't really excited by the ads for The Ring 2, though, and we didn't go to see it.  Every once in a while, I'd see "Ring Zero" on the shelf at the Asian imported DVD place in the mall, but I avoided that, too.

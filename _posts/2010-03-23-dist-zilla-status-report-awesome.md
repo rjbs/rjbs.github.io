@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla status report: awesome
-date  : 2010-03-23T03:09:51Z
+title : "Dist::Zilla status report: awesome"
+date  : "2010-03-23T03:09:51Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I'm feeling pretty good about progress so far, especially after today taking an

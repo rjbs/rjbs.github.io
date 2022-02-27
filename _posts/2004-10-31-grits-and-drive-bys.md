@@ -1,8 +1,7 @@
 ---
 layout: post
-title : grits and drive-bys
-date  : 2004-10-31T00:46:00Z
-
+title : "grits and drive-bys"
+date  : "2004-10-31T00:46:00Z"
 ---
 Gloria and I took Duan to breakfast and the airport this morning.  More accurately, Gloria drove Duan and me, and Duan treated Gloria and me.  I sort of sat around and tried not to wince every time I moved.  My back and neck have been incredibly sore!  We went to the Cracker Barrel in Clinton, and breakfast was pretty good.  Their grits were actually just fine, which Gloria says was not the case at the Fogelsville Cracker Barrel.
 

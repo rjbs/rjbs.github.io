@@ -1,7 +1,7 @@
 ---
 layout: post
-title : smarkmail: sending multipart/alternative html mail from mutt
-date  : 2007-04-09T14:44:37Z
+title : "smarkmail: sending multipart/alternative html mail from mutt"
+date  : "2007-04-09T14:44:37Z"
 tags  : ["email", "mutt", "perl", "programming"]
 ---
 Some people really want to see fancy HTML mail.  They want italics and inline

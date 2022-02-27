@@ -1,7 +1,7 @@
 ---
 layout: post
-title : closing up my server
-date  : 2006-02-02T04:37:18Z
+title : "closing up my server"
+date  : "2006-02-02T04:37:18Z"
 tags  : ["hardware", "linux"]
 ---
 cheshirecat is all closed up, and basically changed over to its new configuration.  My whiteboard plan was to have a five gig drive become the system disk, replacing the Caviar 22500, which was only half the size, and not large enough for my system... or so I thought.  Now that I look at it, I see that my new root partition, including var, usr, and tmp, is only 2.2 gigs -- which would have left me enough room for swap, too.

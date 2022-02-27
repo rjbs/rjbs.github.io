@@ -1,7 +1,7 @@
 ---
 layout: post
-title : just how much data did I lose?
-date  : 2014-06-15T02:33:38Z
+title : "just how much data did I lose?"
+date  : "2014-06-15T02:33:38Z"
 tags  : ["hardware"]
 ---
 For a few years, I've kept most of my "stuff" on a two terabyte hard drive in a

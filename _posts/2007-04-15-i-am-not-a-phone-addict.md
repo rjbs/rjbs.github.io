@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i am not a phone addict
-date  : 2007-04-15T14:20:48Z
+title : "i am not a phone addict"
+date  : "2007-04-15T14:20:48Z"
 tags  : ["hardware", "phone"]
 ---
 John C. has been giving me a very slightly hard time about my new phone habit.

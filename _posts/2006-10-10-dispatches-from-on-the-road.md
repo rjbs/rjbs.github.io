@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dispatches from on the road
-date  : 2006-10-10T22:13:55Z
+title : "dispatches from on the road"
+date  : "2006-10-10T22:13:55Z"
 tags  : ["baby", "house"]
 ---
 Today, I got an instant message from Gloria saying, "Guess where I am!" She was at home, but also on the Internet.  It's pretty amazing what technology can do these days.  

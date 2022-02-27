@@ -1,8 +1,7 @@
 ---
 layout: post
-title : keeping busy
-date  : 2004-05-31T00:08:00Z
-
+title : "keeping busy"
+date  : "2004-05-31T00:08:00Z"
 ---
 I got in around 1300 or so, after two hours of fitful sleep on the train.  My room isn't in the usual hallway.  I'm two stories up, just over the hotel's flagpole.  I can open the window and watch the Welsh dragon blow in the breeze, if, for some reason, I feel the need.  The room is smaller than usual, but it's big enough to hold my things and give me a place to sleep.  So.
 

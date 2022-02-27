@@ -1,7 +1,7 @@
 ---
 layout: post
-title : email::send to be written off; email::sender supplants it
-date  : 2009-06-07T05:20:18Z
+title : "email::send to be written off; email::sender supplants it"
+date  : "2009-06-07T05:20:18Z"
 tags  : ["email", "perl", "programming"]
 ---
 I was long at least tangentially involved in the development of the Email:: namespace's early code.  I talked with Casey West often when he was working on Email::MIME and Email::Send.  Once I started working at Pobox, though, my email needs became much more serious.

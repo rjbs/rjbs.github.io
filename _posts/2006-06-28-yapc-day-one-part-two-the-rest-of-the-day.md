@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yapc day one, part two: the rest of the day
-date  : 2006-06-28T13:40:27Z
+title : "yapc day one, part two: the rest of the day"
+date  : "2006-06-28T13:40:27Z"
 tags  : ["perl", "yapc"]
 ---
 After my talk, I went to Adam's talk about PITA.  I'm really interested in PITA, as I think it will make testing my modules a lot easier.  (I know it's not targeted at people like me, but I'll accept the rewards anyway.)  My major complain about the talk:  too much poop.  (You had to be there.)

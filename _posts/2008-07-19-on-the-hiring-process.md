@@ -1,7 +1,7 @@
 ---
 layout: post
-title : on the hiring process
-date  : 2008-07-19T00:47:25Z
+title : "on the hiring process"
+date  : "2008-07-19T00:47:25Z"
 tags  : ["hiring"]
 ---
 I am not Andy Lester.  I do not have piles and piles of advice on getting

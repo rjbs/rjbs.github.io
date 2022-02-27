@@ -1,7 +1,7 @@
 ---
 layout: post
-title : ...and I never looked back
-date  : 2009-05-18T20:45:25Z
+title : "...and I never looked back"
+date  : "2009-05-18T20:45:25Z"
 tags  : ["irc"]
 ---
     13:52 --- #perl [+b *!*rjbs@*.codesimply.com] by rjbs

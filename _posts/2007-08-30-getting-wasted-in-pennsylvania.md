@@ -1,7 +1,7 @@
 ---
 layout: post
-title : getting wasted in pennsylvania
-date  : 2007-08-30T14:25:17Z
+title : "getting wasted in pennsylvania"
+date  : "2007-08-30T14:25:17Z"
 tags  : ["beer", "booze", "pennsylvania"]
 ---
 No, I'm not getting wasted.  That's not my bag.

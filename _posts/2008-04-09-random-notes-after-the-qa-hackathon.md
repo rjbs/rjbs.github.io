@@ -1,7 +1,7 @@
 ---
 layout: post
-title : random notes after the qa hackathon
-date  : 2008-04-09T13:05:36Z
+title : "random notes after the qa hackathon"
+date  : "2008-04-09T13:05:36Z"
 tags  : ["perl", "programming"]
 ---
 This is not a coherent, reflective look back.  This is a braindump.

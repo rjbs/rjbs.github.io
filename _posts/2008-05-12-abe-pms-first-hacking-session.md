@@ -1,7 +1,7 @@
 ---
 layout: post
-title : abe.pm's first hacking session
-date  : 2008-05-12T03:23:55Z
+title : "abe.pm's first hacking session"
+date  : "2008-05-12T03:23:55Z"
 tags  : ["abe.pm", "perl", "programming"]
 ---
 Quite a while ago, I suggested to [ABE.pm](http://abe.pm.org/) that we should

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : them ol' fashioned new phone no speed improvement blues
-date  : 2007-04-19T01:00:22Z
+title : "them ol' fashioned new phone no speed improvement blues"
+date  : "2007-04-19T01:00:22Z"
 tags  : ["phone"]
 ---
 My new phone arrived today.  My first impressions are that its menu interface is very slow, that its construction is unimpressive, and that it feels like a brick compared to my RAZR.

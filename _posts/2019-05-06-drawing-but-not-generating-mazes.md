@@ -1,7 +1,7 @@
 ---
 layout: post
-title : drawing (but not generating) mazes
-date  : 2019-05-06T02:26:57Z
+title : "drawing (but not generating) mazes"
+date  : "2019-05-06T02:26:57Z"
 tags  : ["programming"]
 ---
 I've started a sort of book club here in Philly.  It works like this:  it's for

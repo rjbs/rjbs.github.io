@@ -1,8 +1,7 @@
 ---
 layout: post
-title : if rains then pours
-date  : 2005-03-24T02:40:00Z
-
+title : "if rains then pours"
+date  : "2005-03-24T02:40:00Z"
 ---
 Tonight, still in a bad mood about my laptop's poor state, I came home from class and put in Republic Commando, determined to relax. The Xbox kept giving me the damned "disk dirty" error, often found on the early models. Their DVD drives lose alignment easily. As I ejected and reinserted the disk, over and over, I got more and more frustrated and forceful.
 

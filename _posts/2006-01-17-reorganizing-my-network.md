@@ -1,8 +1,7 @@
 ---
 layout: post
-title : reorganizing my network
-date  : 2006-01-17T16:55:17Z
-
+title : "reorganizing my network"
+date  : "2006-01-17T16:55:17Z"
 ---
 John C. and I were talking, for a few months, about getting a new rackmount and colocating it somewhere.  That didn't happen, but he did find a really great deal on a nice virtual server package, from <a href='http://www.aktiom.com'>Aktiom</a>  
 

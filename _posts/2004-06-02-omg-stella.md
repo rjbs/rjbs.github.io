@@ -1,8 +1,7 @@
 ---
 layout: post
-title : omg stella
-date  : 2004-06-02T01:05:00Z
-
+title : "omg stella"
+date  : "2004-06-02T01:05:00Z"
 ---
 In late 2002, when hanging out with Matt and Rahm, Cardiff co-workers, I was told that Stella Artois messes you up faster than other beers, and for know clear reason.  This is so true.  I've had two pints tonight, and I feel like I've had four bourbons.
 

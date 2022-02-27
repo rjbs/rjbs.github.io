@@ -1,7 +1,7 @@
 ---
 layout: post
-title : still loving liquidplanner
-date  : 2009-05-29T01:53:54Z
+title : "still loving liquidplanner"
+date  : "2009-05-29T01:53:54Z"
 tags  : ["liquidplanner", "productivity"]
 ---
 I wonder how much time I've lost in my continual worrying about productivity

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : exile begins
-date  : 2004-05-30T09:56:00Z
-
+title : "exile begins"
+date  : "2004-05-30T09:56:00Z"
 ---
 I'm on the 11:00 train to Swansea (via Newport, my stop).  The trip here was no worse than usual, I guess.
 

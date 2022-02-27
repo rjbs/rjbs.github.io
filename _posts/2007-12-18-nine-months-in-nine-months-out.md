@@ -1,7 +1,7 @@
 ---
 layout: post
-title : nine months in, nine months out
-date  : 2007-12-18T23:02:09Z
+title : "nine months in, nine months out"
+date  : "2007-12-18T23:02:09Z"
 tags  : ["martha"]
 ---
 Well, Martha has now been out in the atmosphere for a bit longer than half her life.  She's got four teeth out, and I'm pretty sure she's working on two more. She's back in a "I'm not really very interested in standing" phase, but I still think she's going to start walking pretty soon.  It's hard to say whether she means anything specific when she says "dadadadda" or "mamamamama," but it can still be cute -- it's certainly cuter than when she's saying, "WAAAAAAUGH!"

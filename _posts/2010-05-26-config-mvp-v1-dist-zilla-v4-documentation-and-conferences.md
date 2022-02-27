@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Config::MVP v1, Dist::Zilla v4, documentation, and conferences
-date  : 2010-05-26T03:34:08Z
+title : "Config::MVP v1, Dist::Zilla v4, documentation, and conferences"
+date  : "2010-05-26T03:34:08Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 [YAPC](http://yapc2010.com/) is only about three weeks away, and I have a lot

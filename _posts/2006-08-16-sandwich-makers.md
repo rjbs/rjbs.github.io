@@ -1,7 +1,7 @@
 ---
 layout: post
-title : sandwich makers
-date  : 2006-08-16T21:48:25Z
+title : "sandwich makers"
+date  : "2006-08-16T21:48:25Z"
 tags  : ["food"]
 ---
 Making a resaonably tasty sandwich isn't all that hard, especially with decent ingredients, but I think that my new rule will be that I won't order any sandwich of a type that I don't think the wichsmith has consumed himself.  This rule might be good for all food:  if you, food preparer, have never eaten duck, I do not want to see it on your menu.

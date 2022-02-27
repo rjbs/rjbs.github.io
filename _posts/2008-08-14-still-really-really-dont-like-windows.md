@@ -1,7 +1,7 @@
 ---
 layout: post
-title : still really, really don't like windows
-date  : 2008-08-14T01:09:57Z
+title : "still really, really don't like windows"
+date  : "2008-08-14T01:09:57Z"
 tags  : ["software", "stupid", "win32"]
 ---
 Ugh!  Remember that dream I had about going to work at a Windows shop?  I don't know, man.  I don't know.

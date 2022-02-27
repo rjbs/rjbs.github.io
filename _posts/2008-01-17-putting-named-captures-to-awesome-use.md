@@ -1,7 +1,7 @@
 ---
 layout: post
-title : putting named captures to awesome use
-date  : 2008-01-17T19:58:20Z
+title : "putting named captures to awesome use"
+date  : "2008-01-17T19:58:20Z"
 tags  : ["perl", "programming"]
 ---
 Well, I think the use I put them to is awesome, but it's part of an IRC

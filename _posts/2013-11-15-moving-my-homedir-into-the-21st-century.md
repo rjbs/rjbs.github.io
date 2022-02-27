@@ -1,8 +1,7 @@
 ---
 layout: post
-title : moving my homedir into the 21st century
-date  : 2013-11-15T04:26:11Z
-
+title : "moving my homedir into the 21st century"
+date  : "2013-11-15T04:26:11Z"
 ---
 Over the last few weeks, I've done a bit of pair programming across the
 Internet, which I haven't done in years.  It was great!  Most of this was with

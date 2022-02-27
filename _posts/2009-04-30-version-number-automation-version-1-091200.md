@@ -1,7 +1,7 @@
 ---
 layout: post
-title : version number automation, version 1.091200
-date  : 2009-04-30T05:12:18Z
+title : "version number automation, version 1.091200"
+date  : "2009-04-30T05:12:18Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I've pushed some changes to the [Dist::Zilla

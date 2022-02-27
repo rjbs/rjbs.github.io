@@ -1,7 +1,7 @@
 ---
 layout: post
-title : datetime dorkiness
-date  : 2006-10-23T15:21:24Z
+title : "datetime dorkiness"
+date  : "2006-10-23T15:21:24Z"
 tags  : ["perl", "programming", "rpg", "time"]
 ---
 I have long avoided DateTime.  It's not that I had any specific reason to dislike the module's interface or offerings, except that it could not be easily installed via PPM on ActivePerl.  When I was developing code that I deployed onto Windows via PPM, this was a major problem, and so I stuck to other Date:: and Time:: modules.

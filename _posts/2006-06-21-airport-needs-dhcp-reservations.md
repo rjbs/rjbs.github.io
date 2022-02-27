@@ -1,7 +1,7 @@
 ---
 layout: post
-title : airport needs dhcp reservations
-date  : 2006-06-21T22:17:31Z
+title : "airport needs dhcp reservations"
+date  : "2006-06-21T22:17:31Z"
 tags  : ["apple", "hardware", "network"]
 ---
 Are you listening, Apple?  The Airport needs DHCP reservations.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more stupid headlines
-date  : 2008-09-12T14:02:00Z
+title : "more stupid headlines"
+date  : "2008-09-12T14:02:00Z"
 tags  : ["stupid"]
 ---
 Only a few weeks after reading in the Sunday Times that The Castle and the Trial were "Kafkaesque," today, CNN has this headline:

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : exhausted
-date  : 2007-02-21T02:25:47Z
-
+title : "exhausted"
+date  : "2007-02-21T02:25:47Z"
 ---
 I am really tired.  Last night during my triweekly RPG in Philly, we had some work problems.  After the game, I stayed up working on some things that I thought would help prevent similar problems in the future, or that would at least reduce their impact.  I crashed on the office sofa, which I've done once before.  Last time it was dreadful.  This time, it was just fine.  I think it helped that I had a blanket.
 

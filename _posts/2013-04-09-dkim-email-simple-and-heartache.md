@@ -1,7 +1,7 @@
 ---
 layout: post
-title : DKIM, Email::Simple, and heartache
-date  : 2013-04-09T18:06:43Z
+title : "DKIM, Email::Simple, and heartache"
+date  : "2013-04-09T18:06:43Z"
 tags  : ["email", "perl", "programming"]
 ---
 ## Header folding

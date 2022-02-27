@@ -1,7 +1,7 @@
 ---
 layout: post
-title : we got a new car
-date  : 2008-06-12T02:25:11Z
+title : "we got a new car"
+date  : "2008-06-12T02:25:11Z"
 tags  : ["car"]
 ---
 After mumbling about doing so for ages, I finally bit the bullet and replaced

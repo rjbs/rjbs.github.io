@@ -1,7 +1,7 @@
 ---
 layout: post
-title : sqlite: totally indestructable
-date  : 2007-04-19T01:00:08Z
+title : "sqlite: totally indestructable"
+date  : "2007-04-19T01:00:08Z"
 tags  : ["perl", "programming"]
 ---
 Today, I saw some SQLite failures occur when a process had consumed all its

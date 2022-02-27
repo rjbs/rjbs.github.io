@@ -1,8 +1,7 @@
 ---
 layout: post
-title : not one damn dime day
-date  : 2005-01-20T19:57:00Z
-
+title : "not one damn dime day"
+date  : "2005-01-20T19:57:00Z"
 ---
 There is some asinine protest going on, today.  People are going to refrain from buying anything, today, to protest the war.
 

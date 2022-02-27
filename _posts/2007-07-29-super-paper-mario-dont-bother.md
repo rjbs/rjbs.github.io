@@ -1,7 +1,7 @@
 ---
 layout: post
-title : super paper mario: don't bother
-date  : 2007-07-29T21:56:41Z
+title : "super paper mario: don't bother"
+date  : "2007-07-29T21:56:41Z"
 tags  : ["games", "videogame", "wii"]
 ---
 I was very, very excited to receive Super Paper Mario for my birthday.  I've

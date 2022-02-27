@@ -1,7 +1,7 @@
 ---
 layout: post
-title : choosing my poison: sqlite problems
-date  : 2005-04-12T13:34:35Z
+title : "choosing my poison: sqlite problems"
+date  : "2005-04-12T13:34:35Z"
 tags  : ["perl", "programming", "rubric", "sqlite"]
 ---
 I really, really like DBD::SQLite, but I wish it didn't have such irritating little quirks.  I'm not sure how much of the problem is SQLite and how much is DBD::SQLite, but it drives me batty.  Here's today's example:

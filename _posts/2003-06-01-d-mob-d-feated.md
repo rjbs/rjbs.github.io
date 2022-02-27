@@ -1,7 +1,7 @@
 ---
 layout: post
-title : d-mob: d-feated
-date  : 2003-06-01T04:00:00Z
+title : "d-mob: d-feated"
+date  : "2003-06-01T04:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "videogame"]
 ---
 Well, I beat DJV.

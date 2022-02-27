@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my compulsion to suck at wordsmith
-date  : 2006-03-07T13:13:59Z
+title : "my compulsion to suck at wordsmith"
+date  : "2006-03-07T13:13:59Z"
 tags  : ["games", "tivo"]
 ---
 Recently, Jennifer asked me whether I'd seen that TiVo had Connect Four.  I said I hadn't, and thought that was really weird.  A few days later, I went digging around and found it; it's actually called Skull and Crossbones, probably for some stupid copyright reason.  I wasn't really interested in Connect Four, but there were some other things I liked: SameGame, a podcast reader, traffic and weather reports, and probably some other things I can't think of now.  There was also a game called Wordsmith, which was listed with Scrabble piece as its icon.

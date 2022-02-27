@@ -1,7 +1,7 @@
 ---
 layout: post
-title : strict pbp creationists
-date  : 2007-10-22T00:47:32Z
+title : "strict pbp creationists"
+date  : "2007-10-22T00:47:32Z"
 tags  : ["perl", "programming"]
 ---
 I liked Damian Conway's book Perl Best Practices.  It had a lot of sound advice

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : halo, rubric, and other scum
-date  : 2004-12-06T04:22:00Z
-
+title : "halo, rubric, and other scum"
+date  : "2004-12-06T04:22:00Z"
 ---
 I've been a little depressed, and I'm not sure just why.  I haven't felt very inspired to get anything done, which was OK for relaxing but not great for ... well, for getting things done.
 

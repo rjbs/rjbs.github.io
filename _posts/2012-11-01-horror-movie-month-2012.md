@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Horror Movie Month 2012
-date  : 2012-11-01T14:43:28Z
+title : "Horror Movie Month 2012"
+date  : "2012-11-01T14:43:28Z"
 tags  : ["movies"]
 ---
 Horror Movie Month 2012 is done!  Thirty-one movies in thirty-one days!  (We

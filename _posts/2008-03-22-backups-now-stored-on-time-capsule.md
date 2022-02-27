@@ -1,7 +1,7 @@
 ---
 layout: post
-title : backups now stored on time capsule
-date  : 2008-03-22T02:46:43Z
+title : "backups now stored on time capsule"
+date  : "2008-03-22T02:46:43Z"
 tags  : ["apple", "hardware"]
 ---
 The Time Capsule from Apple has been a source of grumbling from me ever since

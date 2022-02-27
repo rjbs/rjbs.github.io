@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more dark, less foggy
-date  : 2003-06-19T04:00:00Z
+title : "more dark, less foggy"
+date  : "2003-06-19T04:00:00Z"
 tags  : ["games", "gamesite", "videogame", "xbox"]
 ---
 Well, I've gotten inside a building, and I've been there for some time now. I've even run into some humans, although they all seem pretty wacky.  Inside, I've gotten a better appreciation for the rest of SH2's graphics.  By that, I mean, "the stuff other than the fog."

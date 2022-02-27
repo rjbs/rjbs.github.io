@@ -1,7 +1,7 @@
 ---
 layout: post
-title : long-awaited sub::exporter features draw near
-date  : 2007-11-01T13:40:05Z
+title : "long-awaited sub::exporter features draw near"
+date  : "2007-11-01T13:40:05Z"
 tags  : ["perl", "programming"]
 ---
 Since the very, very early days of Sub::Exporter, it was clear that it would be

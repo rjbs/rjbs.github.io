@@ -1,7 +1,7 @@
 ---
 layout: post
-title : powerbook repair a qualified success
-date  : 2005-04-14T01:48:47Z
+title : "powerbook repair a qualified success"
+date  : "2005-04-14T01:48:47Z"
 tags  : ["apple", "hardware", "repair"]
 ---
 Last night, my laptop starting making its weird noises again.  This morning, they had gone from "weird," past "awful," right to "unholy."  It was like there was a duck or bicycle horn inside my computer, making noise that I didn't think a hard drive could make.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i keep getting people killed
-date  : 2005-10-04T12:00:03Z
+title : "i keep getting people killed"
+date  : "2005-10-04T12:00:03Z"
 tags  : ["dreams"]
 ---
 I had two weird dreams last night, capped off by a dream in which I was wondering what those two dreams meant.

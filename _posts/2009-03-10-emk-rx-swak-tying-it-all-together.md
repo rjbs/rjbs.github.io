@@ -1,7 +1,7 @@
 ---
 layout: post
-title : emk, rx, swak: tying it all together
-date  : 2009-03-10T14:30:36Z
+title : "emk, rx, swak: tying it all together"
+date  : "2009-03-10T14:30:36Z"
 tags  : ["email", "perl", "programming", "rx"]
 ---
 At long last, I've begun really tying together a number of things all meant to

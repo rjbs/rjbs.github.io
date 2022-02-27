@@ -1,7 +1,7 @@
 ---
 layout: post
-title : a mediocre progress day
-date  : 2004-06-23T03:43:00Z
+title : "a mediocre progress day"
+date  : "2004-06-23T03:43:00Z"
 tags  : ["code"]
 ---
 Work was so-so, today.  I poked a few projects with sticks, making some progress on one or two.  I moved all our web applications to a newer server, exposing a number of internal distributions that really need proper Makefiles and prerequisite lists.  I told my boss that it would be really convenient to make the use of CPAN.pm easier.  PPM is the pits.

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : falling behind
-date  : 2004-06-03T05:08:00Z
-
+title : "falling behind"
+date  : "2004-06-03T05:08:00Z"
 ---
 I'll be brief, since it's quite late, here.
 

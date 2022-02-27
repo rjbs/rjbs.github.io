@@ -1,7 +1,7 @@
 ---
 layout: post
-title : sunday, on which work is attempted
-date  : 2005-01-09T16:57:00Z
+title : "sunday, on which work is attempted"
+date  : "2005-01-09T16:57:00Z"
 tags  : ["apple", "motivation", "programming"]
 ---
 Gloria is off to a kickboxing workshop today, and I'm left to my own devices. I puttered around for a while, getting nothing much done, except for a backup. Note to self: burn backup to image, then image to disk.  This reduces the risk of coastering a DVD.  Finally, I let myself turn on the dreaded TV to provide background stimulus.  With M*A*S*H playing in the background, I started to get work done.  I feel sort of like Robert De Niro in Awakenings; I really just want to get to the window to look out, but I can'd do it without the pattern on the floor.  (This analogy makes more sense in my head than on disk, I think.)

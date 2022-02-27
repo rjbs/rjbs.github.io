@@ -1,7 +1,7 @@
 ---
 layout: post
-title : notes on how pod::weaver works
-date  : 2009-08-21T03:29:26Z
+title : "notes on how pod::weaver works"
+date  : "2009-08-21T03:29:26Z"
 tags  : ["perl", "pod", "programming"]
 ---
 Originally, I conceived of Pod::Weaver as a system that took two Pod streams

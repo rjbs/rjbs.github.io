@@ -1,7 +1,7 @@
 ---
 layout: post
-title : stuffed and drained
-date  : 2005-09-27T23:13:24Z
+title : "stuffed and drained"
+date  : "2005-09-27T23:13:24Z"
 tags  : ["food", "weight", "work"]
 ---
 I am feeling pretty full of beef satay and rice noodles.  Today we went to lunch in celebration of Louis's birthday, and it was good.  A few weeks ago, Louis said (of my Thai red curry) something like, "I can't imagine food much hotter than this."  We sort of gaped at him, and I think we have established as an ongoing objective, "make Louis eat spicier food."

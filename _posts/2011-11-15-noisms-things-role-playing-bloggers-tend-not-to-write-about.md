@@ -1,7 +1,7 @@
 ---
 layout: post
-title : noism's \"Things Role Playing Bloggers Tend Not To Write About\"
-date  : 2011-11-15T16:30:03Z
+title : "noism's \"Things Role Playing Bloggers Tend Not To Write About\""
+date  : "2011-11-15T16:30:03Z"
 tags  : ["dnd", "rpg"]
 ---
 Am I a role-playing blogger?  Yes, obviously in the strictest interpretation of

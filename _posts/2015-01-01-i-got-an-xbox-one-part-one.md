@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I got an Xbox One (part one?)
-date  : 2015-01-01T04:28:02Z
+title : "I got an Xbox One (part one?)"
+date  : "2015-01-01T04:28:02Z"
 tags  : ["videogame", "xbox"]
 ---
 I decided quite a while ago that I'd use some of my American Express reward

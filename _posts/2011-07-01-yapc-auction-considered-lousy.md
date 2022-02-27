@@ -1,7 +1,7 @@
 ---
 layout: post
-title : YAPC auction considered lousy
-date  : 2011-07-01T15:42:58Z
+title : "YAPC auction considered lousy"
+date  : "2011-07-01T15:42:58Z"
 tags  : ["perl", "yapc"]
 ---
 Every year at YAPC::NA, there is a conference dinner where I end up sitting

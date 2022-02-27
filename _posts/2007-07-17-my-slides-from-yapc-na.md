@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my slides from yapc::na
-date  : 2007-07-17T22:47:39Z
+title : "my slides from yapc::na"
+date  : "2007-07-17T22:47:39Z"
 tags  : ["perl"]
 ---
 I thought I'd posted these already, but it was brought to my attention that I

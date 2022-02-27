@@ -1,7 +1,7 @@
 ---
 layout: post
-title : release testing for module::install
-date  : 2008-04-10T21:03:39Z
+title : "release testing for module::install"
+date  : "2008-04-10T21:03:39Z"
 tags  : ["perl", "programming"]
 ---
 As threatened, I have written and uploaded an improved replacement for

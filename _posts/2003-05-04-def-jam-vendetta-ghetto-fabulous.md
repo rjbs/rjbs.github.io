@@ -1,7 +1,7 @@
 ---
 layout: post
-title : def jam vendetta: ghetto fabulous
-date  : 2003-05-04T04:00:00Z
+title : "def jam vendetta: ghetto fabulous"
+date  : "2003-05-04T04:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "videogame"]
 ---
 I was pretty excited when I first saw the announcement for Def Jam Vendetta.  I like EA Big (although Freekstyle was underwhelming), and I like most of the rappers in the game, and it just looked like a generally fun concept.  Despite this, I didn't pick it up when it first came out.  I was (and still am) in the middle of a pile of other games, and I wanted to make sure I really liked it before dropping fifty bucks on it.

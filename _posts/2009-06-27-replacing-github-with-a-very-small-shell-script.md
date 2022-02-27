@@ -1,7 +1,7 @@
 ---
 layout: post
-title : replacing github with a very small shell script
-date  : 2009-06-27T19:08:39Z
+title : "replacing github with a very small shell script"
+date  : "2009-06-27T19:08:39Z"
 tags  : ["git", "perl", "programming"]
 ---
 ...not really.  I still really like using GitHub, and (obviously) they do much

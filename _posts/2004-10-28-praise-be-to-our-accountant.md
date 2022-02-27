@@ -1,8 +1,7 @@
 ---
 layout: post
-title : praise be to our accountant
-date  : 2004-10-28T19:24:00Z
-
+title : "praise be to our accountant"
+date  : "2004-10-28T19:24:00Z"
 ---
 I called our accountant, today, to ask about my holiday availability.  See, we get an extra week of paid time starting in our fifth year of employment.  It's weird:  you don't get it after five full years, but in the fifth year.  So, if you're hired in December, you only need to work for the company for about four years before you start having five extra days available.  I, on the other hand, started in January of 2001.
 

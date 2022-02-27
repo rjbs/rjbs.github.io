@@ -1,7 +1,7 @@
 ---
 layout: post
-title : october horror recap
-date  : 2008-11-04T03:42:25Z
+title : "october horror recap"
+date  : "2008-11-04T03:42:25Z"
 tags  : ["movies"]
 ---
 As is our tradition, Gloria and I watched a bunch of horror movies this

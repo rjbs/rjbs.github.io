@@ -1,7 +1,7 @@
 ---
 layout: post
-title : evdo datacard proving problematic
-date  : 2007-09-21T22:19:53Z
+title : "evdo datacard proving problematic"
+date  : "2007-09-21T22:19:53Z"
 tags  : ["networking", "phone"]
 ---
 The trip in this morning was miserable for EVDO connection.  I could barely stay online for more than a few minutes at a time.  I had at least one kernel panic.  Eventually, I dialed into T-Mobile's network over my RAZR, only to be reminded how painfully slow it is.  EVDO is totally awesome... when it works.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : oslo qa hackathon day 2
-date  : 2008-04-06T21:57:15Z
+title : "oslo qa hackathon day 2"
+date  : "2008-04-06T21:57:15Z"
 tags  : ["perl"]
 ---
 Today was draining, but I think it was also good and productive.

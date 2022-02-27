@@ -1,7 +1,7 @@
 ---
 layout: post
-title : apple terminal hell
-date  : 2005-09-09T01:09:59Z
+title : "apple terminal hell"
+date  : "2005-09-09T01:09:59Z"
 tags  : ["apple", "macosx", "software"]
 ---
 There is not a good terminal for use with Mac OS X, as far as I can tell.

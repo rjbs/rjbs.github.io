@@ -1,7 +1,7 @@
 ---
 layout: post
-title : back to Dist::Zilla features: finders, installed resources
-date  : 2010-03-22T03:03:32Z
+title : "back to Dist::Zilla features: finders, installed resources"
+date  : "2010-03-22T03:03:32Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I don't think I'm quite done with my basic tests, but I've gotten to the point

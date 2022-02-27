@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dice frequencies in dnd4 (not scientific)
-date  : 2008-12-11T15:04:24Z
+title : "dice frequencies in dnd4 (not scientific)"
+date  : "2008-12-11T15:04:24Z"
 tags  : ["dice", "dnd", "rpg"]
 ---
 I thought I'd look into how often I'd need various kinds of dice in D&D 4th

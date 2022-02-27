@@ -1,7 +1,7 @@
 ---
 layout: post
-title : logging changes in Dist::Zilla are maybe complete
-date  : 2010-03-10T04:52:13Z
+title : "logging changes in Dist::Zilla are maybe complete"
+date  : "2010-03-10T04:52:13Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 The last 24 hours or so have been really busy.  Today was Martha's third

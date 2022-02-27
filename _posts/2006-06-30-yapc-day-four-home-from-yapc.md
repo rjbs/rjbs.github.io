@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yapc day four: home from yapc
-date  : 2006-06-30T20:09:00Z
+title : "yapc day four: home from yapc"
+date  : "2006-06-30T20:09:00Z"
 tags  : ["perl", "travel", "yapc"]
 ---
 I haven't written about day three yet.  I'll probably do that tomorrow.

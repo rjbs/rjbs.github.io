@@ -1,7 +1,7 @@
 ---
 layout: post
-title : perl has built-in temp files
-date  : 2015-05-22T15:36:48Z
+title : "perl has built-in temp files"
+date  : "2015-05-22T15:36:48Z"
 tags  : ["perl", "programming"]
 ---
 I use temporary files pretty often.  There are a bunch of ways to do this, and

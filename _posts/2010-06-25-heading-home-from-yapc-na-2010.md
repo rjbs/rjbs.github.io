@@ -1,7 +1,7 @@
 ---
 layout: post
-title : heading home from YAPC::NA 2010
-date  : 2010-06-25T23:30:44Z
+title : "heading home from YAPC::NA 2010"
+date  : "2010-06-25T23:30:44Z"
 tags  : ["perl", "yapc"]
 ---
 I'm finally on the last leg of my trip home from YAPC.  The travel home was

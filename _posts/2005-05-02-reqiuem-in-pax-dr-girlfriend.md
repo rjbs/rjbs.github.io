@@ -1,7 +1,7 @@
 ---
 layout: post
-title : reqiuem in pax, dr. girlfriend
-date  : 2005-05-02T17:44:15Z
+title : "reqiuem in pax, dr. girlfriend"
+date  : "2005-05-02T17:44:15Z"
 tags  : ["guineapigs"]
 ---
 Doctor Girlfriend died today at exactly one o'clock.

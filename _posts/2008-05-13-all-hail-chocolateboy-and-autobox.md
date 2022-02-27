@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all hail chocolateboy (and autobox)
-date  : 2008-05-13T02:09:04Z
+title : "all hail chocolateboy (and autobox)"
+date  : "2008-05-13T02:09:04Z"
 tags  : ["perl", "programming"]
 ---
 The `autobox` pragma first showed up a few years ago.  It lets you do something

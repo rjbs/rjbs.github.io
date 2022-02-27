@@ -1,7 +1,7 @@
 ---
 layout: post
-title : death to my firewire drive (no really)
-date  : 2006-01-27T04:05:19Z
+title : "death to my firewire drive (no really)"
+date  : "2006-01-27T04:05:19Z"
 tags  : ["hardware"]
 ---
 I usually carry a little 40GB LaCie "Porsche" drive with me.  I keep some random stuff on it, mostly movies that I got from Netflix and want to have on a lower power-consumption format to watch on the bus.

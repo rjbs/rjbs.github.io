@@ -1,7 +1,7 @@
 ---
 layout: post
-title : four-fisted keyboard action
-date  : 2003-01-21T05:00:00Z
+title : "four-fisted keyboard action"
+date  : "2003-01-21T05:00:00Z"
 tags  : ["dreamcast", "games", "gamesite", "typing", "videogame"]
 ---
 I had a friend over today -- another skilled typist -- and we played some TOTD.  It was really fun, and I think that 2P TOTD could be a good party game, especially with some tournament rules.  (Were I to expect a TOTD2, which I don't, I'd expect tourney rules.)

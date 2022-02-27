@@ -1,7 +1,7 @@
 ---
 layout: post
-title : string truncate: now with word boundaries
-date  : 2007-07-23T22:16:30Z
+title : "string truncate: now with word boundaries"
+date  : "2007-07-23T22:16:30Z"
 tags  : ["perl", "programming"]
 ---
 Since roughly forever ago, I've meant to give String::Truncate the ability to try to truncate a string at word boundary.  Done!  That is, instead of turning "This is your brain on drugs." into "This is your br..." it can now return "This is your...".

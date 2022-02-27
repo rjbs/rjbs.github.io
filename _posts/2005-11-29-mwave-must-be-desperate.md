@@ -1,7 +1,7 @@
 ---
 layout: post
-title : mwave must be desperate
-date  : 2005-11-29T04:25:19Z
+title : "mwave must be desperate"
+date  : "2005-11-29T04:25:19Z"
 tags  : ["retail", "stupid"]
 ---
 Friday, January 31, 2003: Thanks for placing an order!  Here's an email confirming that we got it.  By the way, to log in, you have to use this arbitrary username that we're providing.  Don't lose it, since this email doesn't contain details of your order, like what you ordered, what we're going to charge, or when it will ship.

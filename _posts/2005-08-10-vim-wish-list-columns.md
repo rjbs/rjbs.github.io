@@ -1,7 +1,7 @@
 ---
 layout: post
-title : vim wish list: columns
-date  : 2005-08-10T14:04:38Z
+title : "vim wish list: columns"
+date  : "2005-08-10T14:04:38Z"
 tags  : ["vim"]
 ---
 I wish I could tell Vim that the file I'm editing is X-delimited values and have it replace the X's with whitespace.  That's not my real wish, though, because I usually use tab's for the X's, anyway.

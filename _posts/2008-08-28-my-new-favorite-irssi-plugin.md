@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my new favorite irssi plugin
-date  : 2008-08-28T01:31:32Z
+title : "my new favorite irssi plugin"
+date  : "2008-08-28T01:31:32Z"
 tags  : ["irc"]
 ---
 I don't like to use the `/ignore` command.  First of all, I very rarely choose

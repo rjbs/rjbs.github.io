@@ -1,7 +1,7 @@
 ---
 layout: post
-title : opensrs makes me angry
-date  : 2008-02-29T23:14:07Z
+title : "opensrs makes me angry"
+date  : "2008-02-29T23:14:07Z"
 tags  : ["dns", "programming", "stupid"]
 ---
 I was tasked with dealing with a bug, this week.  Sometimes, people would look into registering a domain, and our site would tell them it was available.  This was pretty bogglesome, and it was especially annoying because dealing with it meant dealing with OpenSRS.  OpenSRS's API is all kinds of goofy, but I had not noticed how goofy it can be until today.

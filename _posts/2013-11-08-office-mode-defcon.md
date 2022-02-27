@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Office Mode DEFCON
-date  : 2013-11-08T03:29:59Z
+title : "Office Mode DEFCON"
+date  : "2013-11-08T03:29:59Z"
 tags  : ["games"]
 ---
 I picked up [DEFCON](http://store.steampowered.com/app/1520/) a few months ago

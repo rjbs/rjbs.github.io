@@ -1,7 +1,7 @@
 ---
 layout: post
-title : worst perl best practices
-date  : 2005-09-26T17:25:55Z
+title : "worst perl best practices"
+date  : "2005-09-26T17:25:55Z"
 tags  : ["cpan", "perl", "programming"]
 ---
 There are a few things I disagree with in PBP, but I'm just going to name the one that is current causing me the most inconvenience because I can't just ignore the rule.

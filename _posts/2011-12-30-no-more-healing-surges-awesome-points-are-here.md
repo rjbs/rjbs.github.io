@@ -1,7 +1,7 @@
 ---
 layout: post
-title : no more healing surges, Awesome Points are here!
-date  : 2011-12-30T20:15:43Z
+title : "no more healing surges, Awesome Points are here!"
+date  : "2011-12-30T20:15:43Z"
 tags  : ["dnd", "rpg"]
 ---
 I [wrote about healing surges](http://rjbs.manxome.org/rubric/entry/1907) a few

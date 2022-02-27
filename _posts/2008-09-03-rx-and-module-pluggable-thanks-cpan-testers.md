@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rx and module::pluggable; thanks, cpan testers!
-date  : 2008-09-03T13:08:21Z
+title : "rx and module::pluggable; thanks, cpan testers!"
+date  : "2008-09-03T13:08:21Z"
 tags  : ["perl", "programming", "rx", "testing"]
 ---
 There's been a fresh outburst of acrimony about how CPAN testers just send

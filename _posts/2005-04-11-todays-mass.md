@@ -1,7 +1,7 @@
 ---
 layout: post
-title : today's mass
-date  : 2005-04-11T02:45:54Z
+title : "today's mass"
+date  : "2005-04-11T02:45:54Z"
 tags  : ["christianity", "religion"]
 ---
 Gloria had a long yoga teacher training class, today, so we went to the 07:30 Mass.  There were fewer screaming kids than at most 10:30 masses, but the two who were there really made up for the difference.  The Kyrie and Gloria were recited, which was nice, but they weren't sung.  Neither, in fact, was the Psalm, which I thought was a loss.  Maybe the 9:00 mass will be a compromise: a sung Kyrie and Gloria and Psalm, but a few more babies.

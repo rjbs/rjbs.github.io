@@ -1,8 +1,7 @@
 ---
 layout: post
-title : uploads and downloads
-date  : 2005-03-02T13:05:00Z
-
+title : "uploads and downloads"
+date  : "2005-03-02T13:05:00Z"
 ---
 At work, I'm finally actually making progress on "attaching stuff to stuff." The initial manifestation of this is "attaching special instructions (like Word documents) to shipping specs."  I had wanted to use CGI::Uploader, but it's too screwed up for me at the moment.  Its tests are welded to ImageMagick or GD or something, and they're writting in a way that isn't immediately clear to me, so I can't easily pry them apart.  It reminds me of the way CGI::Application has HTML::Template welded to it.  The big annoyance for me is that there is no PPM for it, so it's a pain to install at work.
 

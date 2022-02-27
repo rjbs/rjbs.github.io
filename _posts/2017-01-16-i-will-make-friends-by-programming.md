@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I will make friends by programming.
-date  : 2017-01-16T03:25:19Z
+title : "I will make friends by programming."
+date  : "2017-01-16T03:25:19Z"
 tags  : ["friendship", "programming"]
 ---
 Every once in a while I randomly think of some friend I haven't talked to in a

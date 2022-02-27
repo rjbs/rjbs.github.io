@@ -1,7 +1,7 @@
 ---
 layout: post
-title : nexting out of loops via sub calls
-date  : 2005-08-18T16:36:32Z
+title : "nexting out of loops via sub calls"
+date  : "2005-08-18T16:36:32Z"
 tags  : ["perl", "programming"]
 ---
 12:19  * rjbs wants macros in Perl.

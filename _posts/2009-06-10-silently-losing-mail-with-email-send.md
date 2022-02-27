@@ -1,7 +1,7 @@
 ---
 layout: post
-title : silently losing mail with email::send
-date  : 2009-06-10T15:07:22Z
+title : "silently losing mail with email::send"
+date  : "2009-06-10T15:07:22Z"
 tags  : ["email", "perl", "programming"]
 ---
 Let me start off by reassuring you:  I'm not going to go on and on about how everyone needs to stop using Email::Send *forever*.  I will stop once nobody is using it anymore.

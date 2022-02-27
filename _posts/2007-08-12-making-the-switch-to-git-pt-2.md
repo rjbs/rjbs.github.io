@@ -1,7 +1,7 @@
 ---
 layout: post
-title : making the switch to git (pt. 2)
-date  : 2007-08-12T13:18:24Z
+title : "making the switch to git (pt. 2)"
+date  : "2007-08-12T13:18:24Z"
 tags  : ["git", "subversion"]
 ---
 I used to keep a lot of personal stuff in `~/svn`, like my RPG notes, dotfiles

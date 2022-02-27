@@ -1,7 +1,7 @@
 ---
 layout: post
-title : another unproductive complaint about subversion
-date  : 2008-10-15T02:18:37Z
+title : "another unproductive complaint about subversion"
+date  : "2008-10-15T02:18:37Z"
 tags  : ["git", "stupid", "subversion"]
 ---
 I remember in 2005 or so when I first started using Subversion, I liked it so

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : blackest night is over
-date  : 2010-06-08T14:21:14Z
+title : "blackest night is over"
+date  : "2010-06-08T14:21:14Z"
 tags  : ["comics"]
 ---
 **Spoilers may follow.**

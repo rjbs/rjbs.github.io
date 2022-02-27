@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the perl foundation
-date  : 2006-03-29T03:32:11Z
+title : "the perl foundation"
+date  : "2006-03-29T03:32:11Z"
 tags  : ["perl"]
 ---
 This morning, Adam wrote his [faux

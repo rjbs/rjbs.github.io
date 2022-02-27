@@ -1,7 +1,7 @@
 ---
 layout: post
-title : multipart/no-alternative spam
-date  : 2005-06-07T17:03:19Z
+title : "multipart/no-alternative spam"
+date  : "2005-06-07T17:03:19Z"
 tags  : ["email", "spam"]
 ---
 Dear Spammers,

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : internalizing and automating
-date  : 2006-07-24T12:28:25Z
+title : "internalizing and automating"
+date  : "2006-07-24T12:28:25Z"
 tags  : ["christianity", "perl", "programming", "religion"]
 ---
 My problem with the Mass, I think, is that it does not change.  On one hand, this is a great strength: you can go anywhere and know the Mass.  (This is less true since the introduction of the vernacular.)  On the other hand, out of your hour or so at the church, only something like twenty minutes is spent on material that is likely to be instructive.

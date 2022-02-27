@@ -1,7 +1,7 @@
 ---
 layout: post
-title : mobileme: ugh
-date  : 2008-07-31T01:47:02Z
+title : "mobileme: ugh"
+date  : "2008-07-31T01:47:02Z"
 tags  : ["apple", "software", "stupid"]
 ---
 Okay, I'm being overly dramatic.  MobileMe has been mostly okay to me.  It's nice that it syncs things, and I guess having them pushed over the air is kind of neat.  It doesn't really excite me.  I dumped a crapload of my files onto my iDisk and maybe some day that will pay off.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all mail software sucks (mail.app doesn't suck less)
-date  : 2005-05-26T01:29:46Z
+title : "all mail software sucks (mail.app doesn't suck less)"
+date  : "2005-05-26T01:29:46Z"
 tags  : ["apple", "email", "software"]
 ---
 I decided that my next book would be Orthodoxy.  I started in on it ages ago, while we waited for Krispy Kreme to turn on their "hot" sign.  (They never did.)  The book didn't really keep my interest, but it's fairly short, and I want to read it so I can tell my dad why I disagree with it.  I mean, I may not be but a few dozen pages into it, but it seems pretty clear from the first few pages that I will disagree with it.

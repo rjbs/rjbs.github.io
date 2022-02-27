@@ -1,7 +1,7 @@
 ---
 layout: post
-title : syncing all my git repositories
-date  : 2008-04-18T03:15:51Z
+title : "syncing all my git repositories"
+date  : "2008-04-18T03:15:51Z"
 tags  : ["git", "programming"]
 ---
 Inspired by my recent adventures in on-plane USB flash drive git repository

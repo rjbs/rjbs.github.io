@@ -1,7 +1,7 @@
 ---
 layout: post
-title : finally, photos of our house!
-date  : 2006-11-12T17:53:46Z
+title : "finally, photos of our house!"
+date  : "2006-11-12T17:53:46Z"
 tags  : ["house"]
 ---
 I finally got off my butt and took [photos of our

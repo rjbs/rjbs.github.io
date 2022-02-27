@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the 2012Q3 call for grants: some ideas
-date  : 2012-07-13T23:30:06Z
+title : "the 2012Q3 call for grants: some ideas"
+date  : "2012-07-13T23:30:06Z"
 tags  : ["perl", "programming"]
 ---
 It's that time again!  The Perl Foundation has issued the [Q3 2012 call for

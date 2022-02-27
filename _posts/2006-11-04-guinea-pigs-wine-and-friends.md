@@ -1,7 +1,7 @@
 ---
 layout: post
-title : guinea pigs, wine, and friends
-date  : 2006-11-04T04:29:29Z
+title : "guinea pigs, wine, and friends"
+date  : "2006-11-04T04:29:29Z"
 tags  : ["booze"]
 ---
 Hooray for being home!  Gloria and I had a number of good experiences on our trip to Florida, but it's always nice to get home.  Some people (mostly those who don't know me very well) laugh when I say that I'm a boring homebody, but it's really true.  Since we returned home, Gloria and I have enjoyed lounging around the house, watching the TiVo backlog, and cuddling with our guinea pigs.

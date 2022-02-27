@@ -1,8 +1,7 @@
 ---
 layout: post
-title : fish, beer, snow, muffins, and not-zombies
-date  : 2005-01-23T02:15:00Z
-
+title : "fish, beer, snow, muffins, and not-zombies"
+date  : "2005-01-23T02:15:00Z"
 ---
 Last night, Gloria and I went to Granny McCarthy's for their Friday fish'n'chips.  It was OK.  I enjoyed it, but just as an event.  I think that I prefer the fish and chips at the Brew Works, but the Brew Works is noisier and more crowded.  On the way home from dinner, I ran into Penn Pizza and grabbed a six of Pilsner Urquell.  Brian came by and we hung out for a few hours, talking about geeky things.  I showed off Rubric and Wikalong.  Brian is learning how to use regular expression, and said he's using the Sams book.  I've heard it's a good book for beginners, but I've also heard that there is no good book for beginners.  I'm waiting to hear what he thinks of it, overall.
 

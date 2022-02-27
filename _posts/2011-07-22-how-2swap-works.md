@@ -1,7 +1,7 @@
 ---
 layout: post
-title : how 2SWAP works
-date  : 2011-07-22T15:01:11Z
+title : "how 2SWAP works"
+date  : "2011-07-22T15:01:11Z"
 tags  : ["forth", "programming"]
 ---
 I'm learning Forth.  So far, so good.  Even if I don't end up using it for

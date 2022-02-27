@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the recline and fall of bus etiquette
-date  : 2005-10-04T11:59:51Z
+title : "the recline and fall of bus etiquette"
+date  : "2005-10-04T11:59:51Z"
 tags  : ["etiquette"]
 ---
 I ride Carl R. Bieber, Inc. twice a day, three days a week.  Not all of the busses are in perfect condition, and sometimes a seat is broken.  This morning, the seat in which I sat had a broken recliner handle.  Even if I didn't touch it, any pressure on my seat back would cause it to recline.  For a while, I tried to remain upright.  When that got difficult, as I worked, I moved to the aisle seat.  There was a guy behind me, and there was no reason to make him try to cope with my arbitrary back and forth movements.

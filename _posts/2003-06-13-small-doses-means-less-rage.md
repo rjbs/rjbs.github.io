@@ -1,7 +1,7 @@
 ---
 layout: post
-title : small doses means less rage
-date  : 2003-06-13T04:00:00Z
+title : "small doses means less rage"
+date  : "2003-06-13T04:00:00Z"
 tags  : ["gameboy", "games", "gamesite", "videogame"]
 ---
 I think it's probably pretty rare that I'd be able to write a honest-to-goodness first impressions story on a game that I've beaten.  Wario Ware, though, isn't a game that you try to win, it's a game that you use like a recreational drug.  Winning is just there to serve as a goal to keep you playing long enough to get hooked.

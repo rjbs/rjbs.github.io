@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i have an xbox 360 now
-date  : 2008-11-16T05:34:10Z
+title : "i have an xbox 360 now"
+date  : "2008-11-16T05:34:10Z"
 tags  : ["gaming", "xbox"]
 ---
 I noticed, recently, that I had enough Amex rewards points to get an Xbox 360. I thought about it for a while and then decided to go for it.  As is my habit when ordering something, I obsessively checked the status of my order every few hours, and it kept sitting at "submitted."  I figured it could take quite a while, since I was buying with points.

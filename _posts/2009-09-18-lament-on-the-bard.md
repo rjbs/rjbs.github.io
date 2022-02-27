@@ -1,7 +1,7 @@
 ---
 layout: post
-title : lament on the bard
-date  : 2009-09-18T03:09:00Z
+title : "lament on the bard"
+date  : "2009-09-18T03:09:00Z"
 tags  : ["dnd", "games", "rpg"]
 ---
 I have never been shy about stating my opinion on bards in Dungeons and

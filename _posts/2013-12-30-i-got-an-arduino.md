@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I got an Arduino!
-date  : 2013-12-30T14:34:18Z
+title : "I got an Arduino!"
+date  : "2013-12-30T14:34:18Z"
 tags  : ["arduino", "programming"]
 ---
 For Christmas, Gloria gave me an [Arduino Starter

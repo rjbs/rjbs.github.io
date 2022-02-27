@@ -1,7 +1,7 @@
 ---
 layout: post
-title : once again trying to keep up with the tickets
-date  : 2013-07-04T02:42:43Z
+title : "once again trying to keep up with the tickets"
+date  : "2013-07-04T02:42:43Z"
 tags  : ["perl", "productivity", "programming"]
 ---
 I maintain a bunch of published code.  I probably wrote more than half of it,

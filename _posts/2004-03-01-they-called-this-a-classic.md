@@ -1,7 +1,7 @@
 ---
 layout: post
-title : they called this a classic?
-date  : 2004-03-01T05:00:00Z
+title : "they called this a classic?"
+date  : "2004-03-01T05:00:00Z"
 tags  : ["games", "gamesite", "videogame", "xbox"]
 ---
 I know that sometimes one can go back and play an old game that was really well-loved when it came out, and then one might think, "Wow.  This game stinks."  All the while, though, it's just that the game is old and dated and has been one-upped by a million clones.

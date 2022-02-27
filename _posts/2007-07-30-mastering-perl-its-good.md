@@ -1,7 +1,7 @@
 ---
 layout: post
-title : mastering perl: it's good
-date  : 2007-07-30T03:51:54Z
+title : "mastering perl: it's good"
+date  : "2007-07-30T03:51:54Z"
 tags  : ["books", "perl", "review"]
 ---
 Mastering Perl is a toolbox full of very sharp tools.  I can imagine myself presenting it to a junior co-worker, very somberly informing him, "It is time."

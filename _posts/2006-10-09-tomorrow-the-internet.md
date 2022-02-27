@@ -1,7 +1,7 @@
 ---
 layout: post
-title : tomorrow: the internet
-date  : 2006-10-09T22:53:22Z
+title : "tomorrow: the internet"
+date  : "2006-10-09T22:53:22Z"
 tags  : ["network"]
 ---
 My Covad install date for DSL is tomorrow.  I believe that at that point, I

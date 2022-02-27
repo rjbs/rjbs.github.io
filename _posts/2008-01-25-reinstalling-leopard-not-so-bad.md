@@ -1,7 +1,7 @@
 ---
 layout: post
-title : reinstalling leopard: not so bad
-date  : 2008-01-25T03:04:44Z
+title : "reinstalling leopard: not so bad"
+date  : "2008-01-25T03:04:44Z"
 tags  : ["macosx"]
 ---
 So, I don't use Apple's Mail.app very much.  Actually, I detest it.  Still, you

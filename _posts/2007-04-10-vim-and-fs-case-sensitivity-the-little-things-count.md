@@ -1,7 +1,7 @@
 ---
 layout: post
-title : vim and fs case sensitivity: the little things count
-date  : 2007-04-10T14:33:15Z
+title : "vim and fs case sensitivity: the little things count"
+date  : "2007-04-10T14:33:15Z"
 tags  : ["programming", "vim"]
 ---
 For months, I have been getting driven up the wall by some stupid Vim behavior.  When run on Linux, filename completion is case sensitive.  When run on Mac OS, it is not.  This is *despite* the fact that I'm running it on a case-sensitive filesystem.

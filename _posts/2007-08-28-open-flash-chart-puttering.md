@@ -1,7 +1,7 @@
 ---
 layout: post
-title : open flash chart puttering
-date  : 2007-08-28T01:55:54Z
+title : "open flash chart puttering"
+date  : "2007-08-28T01:55:54Z"
 tags  : ["chart", "flash", "programming", "web"]
 ---
 A few weeks ago, I found [Open Flash

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : silent hill defeated
-date  : 2004-04-04T05:00:00Z
+title : "silent hill defeated"
+date  : "2004-04-04T05:00:00Z"
 tags  : ["games", "gamesite", "videogame", "xbox"]
 ---
 I'm not sure what made me think I should play more Silent Hill.  My wife and I joked about it now and then in the months since I last played.  Actually, it had been nearly a year, when I put the damn game back in.  I think I had wanted some more horror in my life after watching the new Resident Evil 4 trailer. Someone on IRC suggested I try SH2, and I pointed them at old articles.  "The hospital!?" he cried!  "You've barely played!"

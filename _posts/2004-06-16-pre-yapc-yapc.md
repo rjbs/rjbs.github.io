@@ -1,8 +1,7 @@
 ---
 layout: post
-title : pre-yapc yapc
-date  : 2004-06-16T02:45:00Z
-
+title : "pre-yapc yapc"
+date  : "2004-06-16T02:45:00Z"
 ---
 YAPC starts tomorrow, so all the immediately pre-YAPC stuff occurred today. I'll start with last night, though:  Bryan came to town last night, and Gloria and I went to pick him up around 1810.  It was really hungry out, so we went right home and Gloria got to fixin' a giant muffeletta.  It was a fine, huge, tasty sammich.  Bryan and I had a game of go.  I was sure he was going to win, until a little past halfway through, when I felt pretty sure I would win. Rather than go through the pain of scoring, we agreed that I seemed to have won and let it go.  We also agreed that maybe next time we'll play on a 13x13 board, not a full 19.  It was good.
 

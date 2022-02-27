@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my birthday and its prelude
-date  : 2005-07-21T04:07:54Z
+title : "my birthday and its prelude"
+date  : "2005-07-21T04:07:54Z"
 tags  : ["books", "videogame", "work"]
 ---
 What a day!  Work was super busy, in part for reasons unknown and in part because Dieter is out of town, so if something breaks there is a big amount of learning required.  It's something like: find what broke, learn how it should work, learn how it's supposed to be fixed, learn why that doesn't work, then learn how to actually fix it.  Looking back on the day, from the eleventh hour, it sort of looks like it was fun.  I remember, though, that earlier today I was feeling really frustrated.

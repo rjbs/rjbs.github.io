@@ -1,7 +1,7 @@
 ---
 layout: post
-title : happy phone-related events
-date  : 2005-05-05T00:16:51Z
+title : "happy phone-related events"
+date  : "2005-05-05T00:16:51Z"
 tags  : ["christianity", "phone"]
 ---
 Today, I was thinking about my long-delayed plan to reimplement the Easterbrooks' "Catholic Calendar" page, and I got to thinking I should start with the easy bit, the daily Bible readings.  I make a little WWW::Mechanize script to TokeParse the daily readings at usccb.org.  Their HTML isn't really super-semantic, though, and I already see some future dates where they do odd things, and while I can handle the special cases, I thought I might as well ask them to be more standardized.

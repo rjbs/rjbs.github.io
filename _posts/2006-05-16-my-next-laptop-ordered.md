@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my next laptop: ordered
-date  : 2006-05-16T14:15:17Z
+title : "my next laptop: ordered"
+date  : "2006-05-16T14:15:17Z"
 tags  : ["apple", "hardware"]
 ---
 [Previously](http://rjbs.manxome.org/rubric/entry/1268), I had wondered whether

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : the end of yapc
-date  : 2004-06-19T03:19:00Z
-
+title : "the end of yapc"
+date  : "2004-06-19T03:19:00Z"
 ---
 I can't write down today's events in detail.  I am incredibly full of pasta, and I had enough wine that it's had some effect.  Here are the basics:
 

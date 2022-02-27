@@ -1,7 +1,7 @@
 ---
 layout: post
-title : bn.com versus amazon; amazon wins; fatality
-date  : 2006-01-21T02:23:27Z
+title : "bn.com versus amazon; amazon wins; fatality"
+date  : "2006-01-21T02:23:27Z"
 tags  : ["amazon", "retail"]
 ---
 For Christmas, I received a $25 gift certificate from BN.com.  I used $23 of it to buy Ratchet and Clank: Up Your Arsenal.  This left me with two dollars of credit with Barnes and Noble.

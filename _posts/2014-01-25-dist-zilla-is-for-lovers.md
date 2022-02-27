@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla is for lovers
-date  : 2014-01-25T16:21:34Z
+title : "Dist::Zilla is for lovers"
+date  : "2014-01-25T16:21:34Z"
 tags  : ["perl"]
 ---
 I don't like getting into the occasional arguments about whether Dist::Zilla is a

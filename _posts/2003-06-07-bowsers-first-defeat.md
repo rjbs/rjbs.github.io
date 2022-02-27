@@ -1,7 +1,7 @@
 ---
 layout: post
-title : bowser's first defeat
-date  : 2003-06-07T04:00:00Z
+title : "bowser's first defeat"
+date  : "2003-06-07T04:00:00Z"
 tags  : ["gameboy", "games", "gamesite", "mario", "platformer", "videogame"]
 ---
 I didn't stay very stuck in Yoshi's Island, in the end.  Over the twenty-four hours following my last update, I sat down and focused on Hookbill's Castle.  I died a whole lot, and then gave up.  Then I went through another session like that, but it ended with me beating Hookbill.  I tried the next level, but only once.

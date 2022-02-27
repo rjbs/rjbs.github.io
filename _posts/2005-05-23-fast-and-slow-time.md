@@ -1,7 +1,7 @@
 ---
 layout: post
-title : fast and slow time
-date  : 2005-05-23T01:39:23Z
+title : "fast and slow time"
+date  : "2005-05-23T01:39:23Z"
 tags  : ["books", "movies", "work"]
 ---
 My first week at the new job went well, I think, although it's hard to say. It's been so long since I had a first week that I don't remember how they're supposed to go.  I felt much less out of it on Friday, though, than on Monday. A lot of stupid little things conspired to make me feel weirder than usual, like emacs showing up all over the place as a default editor, or strange default bindings in zsh.  I need to make my CVS'd zshrc more explicit!

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : how to view html mail in mutt
-date  : 2007-08-03T15:56:24Z
+title : "how to view html mail in mutt"
+date  : "2007-08-03T15:56:24Z"
 tags  : ["email", "howto", "mutt"]
 ---
 I found this in my ~/www directory, and I thought I'd file it somewhere that I'm more likely to find it when needed, like in Rubric.  This is a little out of date, as I'd probably use something more versatile than lynx, and I'd probably be using a custom-generated mailcap.  That said, this is still useful information.

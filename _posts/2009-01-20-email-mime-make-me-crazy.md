@@ -1,7 +1,7 @@
 ---
 layout: post
-title : email::mime::* make me crazy
-date  : 2009-01-20T20:33:23Z
+title : "email::mime::* make me crazy"
+date  : "2009-01-20T20:33:23Z"
 tags  : ["email", "perl", "programming"]
 ---
 I've been doing a lot of work on our internal library for building multipart

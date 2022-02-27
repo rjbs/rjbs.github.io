@@ -1,7 +1,7 @@
 ---
 layout: post
-title : things learned while implementing rx
-date  : 2008-09-03T03:34:49Z
+title : "things learned while implementing rx"
+date  : "2008-09-03T03:34:49Z"
 tags  : ["javascript", "perl", "php", "programming", "python", "ruby", "rx"]
 ---
 Rx was a lot of fun to implement.  It's all about data in memory, not

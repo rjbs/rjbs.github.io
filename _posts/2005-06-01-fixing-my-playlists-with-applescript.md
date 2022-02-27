@@ -1,7 +1,7 @@
 ---
 layout: post
-title : fixing my playlists with applescript
-date  : 2005-06-01T01:10:05Z
+title : "fixing my playlists with applescript"
+date  : "2005-06-01T01:10:05Z"
 tags  : ["applescript", "itunes", "programming"]
 ---
 So, some time ago I ranted about how happy I was with my Radio RJBS playlists. Basically, I have a playlist that's always eight hours of three-star music and sixteen hours of four- or five-star music.  It's all "regular music," which by my definition is something like "not a musical, not noise, not spoken word, not classical."  (My "Classical" genre, I admit, is really more like "music composed before 1900.")  All the songs are selected by recency of last playing: less recently played songs are chosen over more recently played songs.

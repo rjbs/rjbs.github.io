@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rm -r ~/.procmailrc
-date  : 2007-10-29T02:54:41Z
+title : "rm -r ~/.procmailrc"
+date  : "2007-10-29T02:54:41Z"
 tags  : ["email", "perl", "programming"]
 ---
 I first started using procmail around 1993, I guess, when I got my first access to the Internet through my dad's alumni account at Lehigh University.  The only programming language I knew was C (and things that don't count, like Logo and BASIC), so procmail was like magic.

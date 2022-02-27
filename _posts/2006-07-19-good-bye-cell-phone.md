@@ -1,7 +1,7 @@
 ---
 layout: post
-title : good bye cell phone
-date  : 2006-07-19T13:13:51Z
+title : "good bye cell phone"
+date  : "2006-07-19T13:13:51Z"
 tags  : ["phone"]
 ---
 Oh, Nokia 6620, I hardly knew ye!

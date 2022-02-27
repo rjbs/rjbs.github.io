@@ -1,7 +1,7 @@
 ---
 layout: post
-title : getting the band (of demihuman heroes) back together
-date  : 2011-03-06T19:55:50Z
+title : "getting the band (of demihuman heroes) back together"
+date  : "2011-03-06T19:55:50Z"
 tags  : ["dnd", "rpg"]
 ---
 Last night was the first session of my otherwise long-running tabletop RPG game

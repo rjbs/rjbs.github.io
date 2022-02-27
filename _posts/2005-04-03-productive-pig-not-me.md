@@ -1,7 +1,7 @@
 ---
 layout: post
-title : productive pig, not me
-date  : 2005-04-03T04:27:00Z
+title : "productive pig, not me"
+date  : "2005-04-03T04:27:00Z"
 tags  : ["guineapigs", "productivity", "programming", "rubric", "xul"]
 ---
 Today started with two guinea pigs in our apartment, and ended with three.  The new baby is tiny and cute and awesome.  We don't know yet whether it's a girl or a boy.  We're hoping for another girl.

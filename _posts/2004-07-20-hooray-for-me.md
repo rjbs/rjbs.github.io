@@ -1,8 +1,7 @@
 ---
 layout: post
-title : hooray for me!
-date  : 2004-07-20T13:42:00Z
-
+title : "hooray for me!"
+date  : "2004-07-20T13:42:00Z"
 ---
 A few quick notes:
 

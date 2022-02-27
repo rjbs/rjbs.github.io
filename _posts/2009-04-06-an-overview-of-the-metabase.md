@@ -1,7 +1,7 @@
 ---
 layout: post
-title : an overview of the metabase
-date  : 2009-04-06T03:05:04Z
+title : "an overview of the metabase"
+date  : "2009-04-06T03:05:04Z"
 tags  : ["metabase", "perl", "programming"]
 ---
 At both the Oslo and Birmingham QA Hackathons, my big project was the CPAN

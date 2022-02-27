@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yet more characters?!
-date  : 2003-03-24T05:00:00Z
+title : "yet more characters?!"
+date  : "2003-03-24T05:00:00Z"
 tags  : ["games", "gamesite", "ps2", "rpg", "videogame"]
 ---
 Well, after stalling briefly at a boss battle, I finally triumphed and defeated the big robot thingie that looked a lot like a futuristic Volkswagen gone awry. It was a thrilling victory, and led me to enjoy another thirty minutes or so of cut scenes.  I like that.  Ah, plot!

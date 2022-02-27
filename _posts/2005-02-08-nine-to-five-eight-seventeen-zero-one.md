@@ -1,8 +1,7 @@
 ---
 layout: post
-title : nine to five, eight, seventeen zero one
-date  : 2005-02-08T03:02:00Z
-
+title : "nine to five, eight, seventeen zero one"
+date  : "2005-02-08T03:02:00Z"
 ---
 I worked today, mostly from home.  I popped by the office to pick up some fastnachts.  Here in the Lehigh Valley, there's a fair amount of Pennsylvania Dutch influence.  The Pennsylvania Dutch are German-descended, not Dutch, and instead of Carnival or Mardi Gras, we have Faschnacht Day.  Before Ash Wednesday, we eat donuts.  Gloria and I had ours today.  They were good -- nice and plain.
 

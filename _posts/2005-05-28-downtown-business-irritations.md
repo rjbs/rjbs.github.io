@@ -1,7 +1,7 @@
 ---
 layout: post
-title : downtown business irritations
-date  : 2005-05-28T19:52:24Z
+title : "downtown business irritations"
+date  : "2005-05-28T19:52:24Z"
 tags  : ["bethlehem"]
 ---
 I really do love my home town, but today it has bugged me.

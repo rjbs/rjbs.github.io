@@ -1,7 +1,7 @@
 ---
 layout: post
-title : paranoia: wmd
-date  : 2006-02-05T20:09:42Z
+title : "paranoia: wmd"
+date  : "2006-02-05T20:09:42Z"
 tags  : ["games", "paranoia", "rpg"]
 ---
 I got two copies of a book that I'd wanted, for Christmas, so I returned one copy and used the credit to pick up something else I'd wanted, Paranoia: WMD. It's a four-pack of missions (adventures) for the Paranoia RPG.  I've liked Paranoia for a long time -- back since the glorious second edition.  I've written more entries in Alphapedia Complexia than I have in any other public wiki (I think), and I've been happy to see the new edition of the game do fairly well.  The new edition was, at first, called "Paranoia XP," but apparently Microsoft got grumpy, and now it's just "PARANOIA."

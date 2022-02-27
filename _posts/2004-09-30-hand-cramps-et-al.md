@@ -1,8 +1,7 @@
 ---
 layout: post
-title : hand cramps, et al
-date  : 2004-09-30T13:27:00Z
-
+title : "hand cramps, et al"
+date  : "2004-09-30T13:27:00Z"
 ---
 Workrave has done a good job at helping me avoid hand pains, and the fact that one instance of it can communicate with others is just keen.  Unfortunately, I don't split my time between two Win32 machines so much, but rather between my Win32 box and my Mac.  AntiRSI is great, but it doesn't talk to Workrave.  I almost feel motivated enough to try my hand at C again to fix this problem... but not quite enough, yet.  Maybe after a few more shooting pains.
 

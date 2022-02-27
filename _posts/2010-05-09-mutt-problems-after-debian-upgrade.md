@@ -1,7 +1,7 @@
 ---
 layout: post
-title : mutt problems after debian upgrade
-date  : 2010-05-09T16:26:16Z
+title : "mutt problems after debian upgrade"
+date  : "2010-05-09T16:26:16Z"
 tags  : ["mutt"]
 ---
 I'm pretty darn cautious about upgrading stuff on servers, but for some reason

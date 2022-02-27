@@ -1,7 +1,7 @@
 ---
 layout: post
-title : stupid new module
-date  : 2005-10-02T04:46:38Z
+title : "stupid new module"
+date  : "2005-10-02T04:46:38Z"
 tags  : ["perl", "programming"]
 ---
 On #perl today, Jesse was asking about a module to convert binary data into a string using only explicitly permitted characters.  This was a problem I encountered a year or two ago when trying to use MD5 sums as worksheet names in Excel.  Excel has some weird subset of Latin-1 as valid characters in worksheet names.  Unfortunately, when I went to pull up the code, I found that the only revision I took with me from IQE was missing most of that code (which I had replaced with something simpler).

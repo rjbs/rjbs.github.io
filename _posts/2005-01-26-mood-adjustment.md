@@ -1,8 +1,7 @@
 ---
 layout: post
-title : mood adjustment
-date  : 2005-01-26T14:00:00Z
-
+title : "mood adjustment"
+date  : "2005-01-26T14:00:00Z"
 ---
 I was feeling very grumpy last night.  I got a hole drilled to reduce the run of ethernet cable across our floor, and I wasn't happy with it.  I looked for a simple way to give network service to the AV equipment across the room from my Airport.  Basically, I want a hub that bridges back to the Airport, but everything seems to indicate that this is either expensive or inconvenient.  If I want to use a wireless bridge, I have three choices.
 

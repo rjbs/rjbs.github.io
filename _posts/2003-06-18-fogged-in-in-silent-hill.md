@@ -1,7 +1,7 @@
 ---
 layout: post
-title : fogged in, in silent hill
-date  : 2003-06-18T04:00:00Z
+title : "fogged in, in silent hill"
+date  : "2003-06-18T04:00:00Z"
 tags  : ["games", "gamesite", "videogame", "xbox"]
 ---
 On Sunday, I went out and picked up Resident Evil and played it for a few hours, doing my best to prove to myself that it was good.

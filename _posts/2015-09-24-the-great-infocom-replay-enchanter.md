@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Enchanter
-date  : 2015-09-24T03:28:36Z
+title : "The Great Infocom Replay: Enchanter"
+date  : "2015-09-24T03:28:36Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 I think I'm officially giving up on beating Enchanter, but it has been a pretty

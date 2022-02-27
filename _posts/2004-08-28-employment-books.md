@@ -1,7 +1,7 @@
 ---
 layout: post
-title : employment books
-date  : 2004-08-28T19:50:00Z
+title : "employment books"
+date  : "2004-08-28T19:50:00Z"
 tags  : ["review"]
 ---
 Andy and Bill suggested a few books in their "getting a great job" talk, and I picked up two of them last week: "The Brand You 50" and "Ask the Headhunter." They're full of good advice, but I wouldn't really suggest either of them, especially if you can get your hands on the slides from the talk or, better, can witness the talk itself.  It condenses all of the useful information in the books (and more) into one sitting.

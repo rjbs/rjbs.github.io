@@ -1,8 +1,7 @@
 ---
 layout: post
-title : sick on vacation
-date  : 2004-12-28T23:44:00Z
-
+title : "sick on vacation"
+date  : "2004-12-28T23:44:00Z"
 ---
 Today is my second day off from work.  It's dumb to work between Christmas and New Year's, and my intention is not to do it again.
 

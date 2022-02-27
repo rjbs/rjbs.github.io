@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the book club, meeting three
-date  : 2005-09-20T03:21:40Z
+title : "the book club, meeting three"
+date  : "2005-09-20T03:21:40Z"
 tags  : ["books"]
 ---
 Today was the third meeting of the book club at work.  I was absent for the first meeting, and the second was a few weeks ago, for The Professor and the Madman.  Today's book was Murakami's The Wild Sheep Chase.  It was alright, but I didn't feel like it was anything special.  Murakami seems to be a very good writer, but a sort of uninteresting author.  It's an exaggeration, but not a huge one, to say that his books are like Lynch movies: well put together material that doesn't really come together in the end.  I think I was clearer at the meeting, actually: he connects a lot of the dots, but the particular set of dots that he chose to leave unconnected was really bizarre.  He left unanswered the questions that seemed most unrelated, and which therefore seemed worth raising only to then give answers that would relate them to the book's main themes.

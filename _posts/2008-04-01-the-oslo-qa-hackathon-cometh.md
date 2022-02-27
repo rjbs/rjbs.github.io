@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the oslo qa hackathon cometh
-date  : 2008-04-01T22:08:29Z
+title : "the oslo qa hackathon cometh"
+date  : "2008-04-01T22:08:29Z"
 tags  : ["perl", "programming"]
 ---
 A few months ago, Salve Nilsen was asking `#perl-qa` about interest in a QA and

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : reimagining pod (or: breaking all my pod libraries)
-date  : 2009-05-29T03:32:18Z
+title : "reimagining pod (or: breaking all my pod libraries)"
+date  : "2009-05-29T03:32:18Z"
 tags  : ["perl", "pod", "programming"]
 ---
 After reading `perlpodspec` a few times and trying to reconcile all my hopes

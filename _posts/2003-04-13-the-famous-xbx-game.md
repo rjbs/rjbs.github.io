@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the famous xbx game
-date  : 2003-04-13T04:00:00Z
+title : "the famous xbx game"
+date  : "2003-04-13T04:00:00Z"
 tags  : ["games", "gamesite", "halo", "videogame", "xbox"]
 ---
 Well, it was inevitable, right?  I got an XBX, I would try Halo.  I waited five whole days, and then I rented it.

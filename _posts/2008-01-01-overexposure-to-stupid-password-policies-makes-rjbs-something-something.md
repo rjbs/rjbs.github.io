@@ -1,7 +1,7 @@
 ---
 layout: post
-title : overexposure to stupid password policies makes rjbs something something
-date  : 2008-01-01T19:53:22Z
+title : "overexposure to stupid password policies makes rjbs something something"
+date  : "2008-01-01T19:53:22Z"
 tags  : ["security", "stupid"]
 ---
 I really like [1Password](http://1password.com/).  It's a Mac app that does the

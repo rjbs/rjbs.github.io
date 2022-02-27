@@ -1,7 +1,7 @@
 ---
 layout: post
-title : powered by blue light
-date  : 2006-03-08T22:59:47Z
+title : "powered by blue light"
+date  : "2006-03-08T22:59:47Z"
 tags  : ["apple", "hardware"]
 ---
 My PowerBook's original power brick died.  Well, actually, the bit where the cable met the laptop-end power plug fell apart.  I got a replacement, and that one did, too.

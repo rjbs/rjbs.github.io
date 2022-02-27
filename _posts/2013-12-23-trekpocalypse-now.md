@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Trekpocalypse Now
-date  : 2013-12-23T02:02:35Z
+title : "Trekpocalypse Now"
+date  : "2013-12-23T02:02:35Z"
 tags  : ["dnd", "rpg", "yapc"]
 ---
 At [YAPC::NA](http://www.yapcna.org/yn2013/) in Austin this year, I ran a

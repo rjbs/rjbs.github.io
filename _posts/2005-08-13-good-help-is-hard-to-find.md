@@ -1,7 +1,7 @@
 ---
 layout: post
-title : good help is hard to find
-date  : 2005-08-13T17:11:00Z
+title : "good help is hard to find"
+date  : "2005-08-13T17:11:00Z"
 tags  : ["food"]
 ---
 We headed to Mr. V's this morning for breakfast.  Mister V's Blues Cafe is in the site where Hack's was; they've been open for about a month now, and this was our third trip there.  I wanted to get eggs, sausage, toast, and grits.

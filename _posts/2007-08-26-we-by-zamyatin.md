@@ -1,7 +1,7 @@
 ---
 layout: post
-title : we (by zamyatin)
-date  : 2007-08-26T19:03:24Z
+title : "we (by zamyatin)"
+date  : "2007-08-26T19:03:24Z"
 tags  : ["book"]
 ---
 I don't recall where I saw the recommendation, but someone or something had strongly suggested that I read "We" by Yevgeny Zamyatin.  I put it on my wish list, Gloria gave it to me for my birthday, and I read it last week.  It was good, although I'm not sure what to make of it, in the end.

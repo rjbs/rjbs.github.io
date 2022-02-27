@@ -1,7 +1,7 @@
 ---
 layout: post
-title : t-mobile and telephone scammers
-date  : 2006-03-04T17:50:45Z
+title : "t-mobile and telephone scammers"
+date  : "2006-03-04T17:50:45Z"
 tags  : ["phone", "stupid"]
 ---
 We got a phone bill about a week ago, and it listed a $10 charge for Blinko.

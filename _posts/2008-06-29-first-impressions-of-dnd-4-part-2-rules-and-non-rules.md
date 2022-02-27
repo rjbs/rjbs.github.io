@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first impressions of dnd 4; part 2: rules and non-rules
-date  : 2008-06-29T02:30:34Z
+title : "first impressions of dnd 4; part 2: rules and non-rules"
+date  : "2008-06-29T02:30:34Z"
 tags  : ["dnd", "games", "rpg"]
 ---
 It's been ages since I played AD&D 1E, so these memories may be a little

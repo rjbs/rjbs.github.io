@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I get points for blogging this!
-date  : 2013-07-25T16:47:05Z
+title : "I get points for blogging this!"
+date  : "2013-07-25T16:47:05Z"
 tags  : ["productivity", "ywar"]
 ---
 I feel like I'm always struggling with productivity.  I don't get the things

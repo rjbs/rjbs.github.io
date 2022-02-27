@@ -1,8 +1,7 @@
 ---
 layout: post
-title : my name is ... what?
-date  : 2005-01-19T13:25:00Z
-
+title : "my name is ... what?"
+date  : "2005-01-19T13:25:00Z"
 ---
 I am not a stickler for how people spell my name, but I figure I'll get it stated publicly at least once.
 

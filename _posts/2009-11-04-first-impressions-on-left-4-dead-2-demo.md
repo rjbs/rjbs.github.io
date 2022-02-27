@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first impressions on left 4 dead 2 (demo!)
-date  : 2009-11-04T14:12:45Z
+title : "first impressions on left 4 dead 2 (demo!)"
+date  : "2009-11-04T14:12:45Z"
 tags  : ["game", "videogame", "xbox", "zombie"]
 ---
 I got into the office yesterday and sent my Xbox 360 a "please download the L4D2 demo" message.  Gloria was kind enough to switch it on, and when I got home it was waiting for me.  Also waiting for me was a new set of cheap Turtle Beach Ear Force X31 headphones.  I won't get into the details on those right now, other than to say: so far, they're great!

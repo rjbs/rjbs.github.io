@@ -1,7 +1,7 @@
 ---
 layout: post
-title : reviews are not bug reports
-date  : 2006-12-02T03:05:37Z
+title : "reviews are not bug reports"
+date  : "2006-12-02T03:05:37Z"
 tags  : ["perl", "stupid"]
 ---
 Sometimes, I see a bad review of a module on the CPAN, and I wonder why it

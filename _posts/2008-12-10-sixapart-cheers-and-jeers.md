@@ -1,8 +1,7 @@
 ---
 layout: post
-title : sixapart cheers and jeers
-date  : 2008-12-10T04:35:04Z
-
+title : "sixapart cheers and jeers"
+date  : "2008-12-10T04:35:04Z"
 ---
 A few months ago I took a look at where to publish this journal.  For a long
 time (years?) I've been posting simultaneously to rjbs.manxome.org and

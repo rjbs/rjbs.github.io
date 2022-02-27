@@ -1,7 +1,7 @@
 ---
 layout: post
-title : making the switch to git
-date  : 2007-07-09T16:12:55Z
+title : "making the switch to git"
+date  : "2007-07-09T16:12:55Z"
 tags  : ["git", "subversion"]
 ---
 A few months ago, Dieter and I played around a bit with git.  He used it more

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : blogging better
-date  : 2004-05-20T02:57:00Z
+title : "blogging better"
+date  : "2004-05-20T02:57:00Z"
 tags  : ["code"]
 ---
 So, I complained that Bryar isn't making my life full of roses and cherries.  A large part of that is my own fault, I will admit.  The problem, in summary, is something like, "Bryar takes care of all the hard stuff, but now I need to write all the easy stuff!"  I had written a DataSource and Document class, but they were pretty hacky.  So, my blogging experience has been meh.  Also, I've been using WikiFormat, but only sort of.  I really want Mint, but I didn't want to wait or to implement it myself, so WikiFormat was a reasonable alternative. It was just annoying, in a few ways, and didn't map everything I wanted.

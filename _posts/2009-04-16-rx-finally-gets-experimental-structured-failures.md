@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rx finally gets (experimental) structured failures
-date  : 2009-04-16T04:08:40Z
+title : "rx finally gets (experimental) structured failures"
+date  : "2009-04-16T04:08:40Z"
 tags  : ["javascript", "perl", "php", "programming", "python", "ruby", "rx"]
 ---
 [Rx](http://rjbs.manxome.org/rx) is my schema system for validating data in a

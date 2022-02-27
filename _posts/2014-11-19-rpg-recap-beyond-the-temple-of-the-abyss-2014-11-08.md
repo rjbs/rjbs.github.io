@@ -1,7 +1,7 @@
 ---
 layout: post
-title : RPG Recap: Beyond the Temple of the Abyss, 2014-11-08
-date  : 2014-11-19T04:06:25Z
+title : "RPG Recap: Beyond the Temple of the Abyss, 2014-11-08"
+date  : "2014-11-19T04:06:25Z"
 tags  : ["rpg-beyond", "dnd", "rpg"]
 ---
 ## Thursday, 2nd day of the Frost Moon, 937

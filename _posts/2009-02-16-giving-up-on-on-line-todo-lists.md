@@ -1,7 +1,7 @@
 ---
 layout: post
-title : giving up on on-line todo lists?
-date  : 2009-02-16T04:05:01Z
+title : "giving up on on-line todo lists?"
+date  : "2009-02-16T04:05:01Z"
 tags  : ["productivity"]
 ---
 I [gave up on index cards for OmniFocus](http://rjbs.manxome.org/rubric/entry/1578) about a year ago. OmniFocus was pretty easy to deal with, and it meant I didn't need to carry around index cards and a pen.  Not too much later, I [gave up OmniFocus for Hiveminder](http://rjbs.manxome.org/rubric/entry/1584).  Hiveminder was available from anywhere on the network, and its IM-based interface was fantastic.

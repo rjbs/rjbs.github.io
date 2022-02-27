@@ -1,7 +1,7 @@
 ---
 layout: post
-title : typical hardware!
-date  : 2007-05-22T00:27:45Z
+title : "typical hardware!"
+date  : "2007-05-22T00:27:45Z"
 tags  : ["apple", "hardware"]
 ---
 Even hardware has heisenbugs!

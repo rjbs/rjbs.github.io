@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla online tutorial, first pass
-date  : 2010-04-26T12:17:06Z
+title : "Dist::Zilla online tutorial, first pass"
+date  : "2010-04-26T12:17:06Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I think I've finished all the pages I meant to write for the Dist::Zilla

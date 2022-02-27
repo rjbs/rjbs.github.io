@@ -1,8 +1,7 @@
 ---
 layout: post
-title : kadosh kadosh kadosh
-date  : 2005-02-09T14:26:00Z
-
+title : "kadosh kadosh kadosh"
+date  : "2005-02-09T14:26:00Z"
 ---
 I meant to get to bed just after ten last night, but I was up late writing my last entry and talking to my aunt about iPods.  I was tired, but once I bed I still couldn't get to sleep.  This morning, I woke up around five and dozed on and off until almost six.  I got up, got clean, and headed to Mass.  Today is the Day of Ashes, which seems like a really good time to really start trying to be better at meeting my obligaitons.
 

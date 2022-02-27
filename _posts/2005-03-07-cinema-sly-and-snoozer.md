@@ -1,8 +1,7 @@
 ---
 layout: post
-title : cinema, sly, and snoozer
-date  : 2005-03-07T02:39:00Z
-
+title : "cinema, sly, and snoozer"
+date  : "2005-03-07T02:39:00Z"
 ---
 Yesterday, we went to the movie theater to see Million Dollar Baby.  It was a really good movie.  Clint Eastwood is The Best.  Unforunately, the other moviegoers were sorely lacking in manners.  The woman beside us was, it seemed, instant messaging someone on her phone.  It was making keypad beeps and glowing a bright blue.  The guy behind us kept tapping his feet to some unheard syncopation.  A few people kept explaining scenes to each other.  ("He said he likes PIE!!")  I really wanted to be polite and ask these people to behave, but I felt that if I did, and they said no, I would be unable to restrain myself from smacking them around.
 

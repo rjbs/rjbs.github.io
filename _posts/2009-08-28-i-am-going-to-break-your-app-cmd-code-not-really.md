@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i am going to break your app::cmd code (not really)
-date  : 2009-08-28T00:51:17Z
+title : "i am going to break your app::cmd code (not really)"
+date  : "2009-08-28T00:51:17Z"
 tags  : ["perl", "programming"]
 ---
 The next release of App-Cmd, 0.300, will break backwards compatibility with

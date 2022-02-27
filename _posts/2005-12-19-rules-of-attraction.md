@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rules of attraction
-date  : 2005-12-19T01:22:07Z
+title : "rules of attraction"
+date  : "2005-12-19T01:22:07Z"
 tags  : ["books"]
 ---
 It's hard to explain what's so good about Bret Easton Ellis's books.  On one hand, their themes are obvious and extremely blunt.  On the other, the execution is subtle and sublime.  I've read three of his books: American Psycho, Less than Zero, and now Rules of Attraction, in that order.  In all of them, though less so in American Psycho, the characters lead pointless lives, revellilng in excess and hedonism.   Their lives are so excessive as to be hard to believe, but the exposition of it is so dry that it's as if nothing is occuring, despite the ongoing orgy of sex, drugs, and (sometimes) murder. Then, in the last few pages, there is -- well, not a moment of enlightenment. A character may experience a passing thought, just the shadow of introspection, and the utter meaninglessness of his life is made more apparent than ever, and it's a crushing force brought to bear on the reader.

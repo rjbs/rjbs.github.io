@@ -1,7 +1,7 @@
 ---
 layout: post
-title : adding the perl-support section to my CPAN modules
-date  : 2021-07-02T23:39:49Z
+title : "adding the perl-support section to my CPAN modules"
+date  : "2021-07-02T23:39:49Z"
 tags  : ["cpan", "perl", "programming"]
 ---
 I have quite a few Perl software libraries available on the CPAN.  I've written these at different points over the last twenty years, but almost all of them, until pretty recently, were written to support perl v5.8, which was released about 18 years ago.  Perl v5.10 took almost four years to come out after v5.8. It had some teething problems, and then v5.12 took another three years.

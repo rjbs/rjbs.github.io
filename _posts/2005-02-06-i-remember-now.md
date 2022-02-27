@@ -1,8 +1,7 @@
 ---
 layout: post
-title : i remember now
-date  : 2005-02-06T05:35:00Z
-
+title : "i remember now"
+date  : "2005-02-06T05:35:00Z"
 ---
 I saw Queensryche, tonight, on their "An Evening with Queensryche" tour.  It was awesome.  We got to the Electric Factory at about 19:15 for the 20:00 show, and the line was already around the building.  Almost as soon as we got out of the cab, some guy in line handed me a can of beer.  Awesome!
 

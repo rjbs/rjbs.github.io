@@ -1,7 +1,7 @@
 ---
 layout: post
-title : perl email project non-synergy
-date  : 2007-05-25T21:23:54Z
+title : "perl email project non-synergy"
+date  : "2007-05-25T21:23:54Z"
 tags  : ["email", "perl", "programming"]
 ---
 The last bug of the day was, "Why is this process getting so big?"  See, it was

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : minor hate: autoload and universal
-date  : 2008-04-14T18:06:50Z
+title : "minor hate: autoload and universal"
+date  : "2008-04-14T18:06:50Z"
 tags  : ["perl", "programming", "stupid"]
 ---
 I just spend twenty minutes or so on this nonsense.

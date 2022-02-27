@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hating on rating
-date  : 2007-12-04T22:46:30Z
+title : "hating on rating"
+date  : "2007-12-04T22:46:30Z"
 tags  : ["cpan", "perl"]
 ---
 I am getting pretty darned sick of CPAN Ratings.  They can be quite useful: I can see what modules people like or don't like, and I can get an idea of why people like or don't like my modules.

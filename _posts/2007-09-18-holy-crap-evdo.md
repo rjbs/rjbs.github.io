@@ -1,7 +1,7 @@
 ---
 layout: post
-title : holy crap, evdo!
-date  : 2007-09-18T21:13:29Z
+title : "holy crap, evdo!"
+date  : "2007-09-18T21:13:29Z"
 tags  : ["networking", "phone"]
 ---
 Sprint PCS was my very first cell phone provider.  Shortly after we moved back to Pennsylvania, though, I got rid of them and switched to VoiceStream.  With some brief outages (while using awful Nextel phones at IQE), I've been with VoiceStream (now T-Mobile) since then.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my todolist needs
-date  : 2008-02-15T16:36:20Z
+title : "my todolist needs"
+date  : "2008-02-15T16:36:20Z"
 tags  : ["productivity"]
 ---
 I felt pretty good after cataloging [what I want from a mobile

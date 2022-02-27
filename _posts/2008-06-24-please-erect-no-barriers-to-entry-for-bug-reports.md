@@ -1,7 +1,7 @@
 ---
 layout: post
-title : please erect no barriers to entry for bug reports
-date  : 2008-06-24T15:49:51Z
+title : "please erect no barriers to entry for bug reports"
+date  : "2008-06-24T15:49:51Z"
 tags  : ["stupid"]
 ---
 Yesterday, we found a serious bug in the IMAP library used by RoundCube.  To report the bug, we had to click through a pile of links and sign up for an account.  When we tried to send a report to the mailing list, it was rejected (500 error) because you may not post in the first few minutes of being a list member.

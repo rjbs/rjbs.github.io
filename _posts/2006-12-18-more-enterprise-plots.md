@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more enterprise plots
-date  : 2006-12-18T17:21:08Z
+title : "more enterprise plots"
+date  : "2006-12-18T17:21:08Z"
 tags  : ["tv"]
 ---
 In the last few episodes I've seen travel into the past to stop an alien plot (see also DS9 in the 60's and TNG in 1849).  There was an alternate future that undid itself by the end of the episode (see also innumerable episodes of TNG), and a few others.  Now we're back to social commentary:  a group of religious zealots intent on eliminating the heretics on their homeworld ("they think the world took one day longer to create than we do") sieze control of Enterprise by setting up a group of suicide bombers around the ship.  Meanwhile, Phlox and Archer learn of dissent in the ranks when one of the women in the group wants to have a space abortion.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dzil new - using Dist::Zilla to start new dists
-date  : 2010-05-04T03:51:02Z
+title : "dzil new - using Dist::Zilla to start new dists"
+date  : "2010-05-04T03:51:02Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I'm very pleased to report that the last to-do item from my 2010Q1 Perl Foundation grant to improve Dist::Zilla is complete.  That item was an improved `dzil new` command, described like this:

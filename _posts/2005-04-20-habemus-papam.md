@@ -1,7 +1,7 @@
 ---
 layout: post
-title : habemus papam
-date  : 2005-04-20T02:12:43Z
+title : "habemus papam"
+date  : "2005-04-20T02:12:43Z"
 tags  : ["christianity", "culture", "religion"]
 ---
 Today, the Church got a new pope.  I'm waiting to see how it goes.  I'm all for orthodoxy, but I know there's a lot of grumbling over the supression of free thought over the last twenty years.  (Or, as the Church calls it, "heresy.")

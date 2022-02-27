@@ -1,7 +1,7 @@
 ---
 layout: post
-title : recursive \"make test\"
-date  : 2005-06-09T01:21:34Z
+title : "recursive \"make test\""
+date  : "2005-06-09T01:21:34Z"
 tags  : ["perl", "programming", "testing"]
 ---
 Shawn Sorichetti, God bless his soul, gave me what I'd long wanted: a sample test script for testing Rubric::WebApp using HTTP::Server::Simple and Test::WWW::Mechanize.  It wasn't the Mech stuff I was worried about, but the HSS.  Shawn gave me two little files to drop in place and see the whole thing work.  Now I am set to start testing all kinds of crap!

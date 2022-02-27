@@ -1,7 +1,7 @@
 ---
 layout: post
-title : fixing rubric's cli
-date  : 2006-01-27T04:30:56Z
+title : "fixing rubric's cli"
+date  : "2006-01-27T04:30:56Z"
 tags  : ["perl", "programming", "rubric"]
 ---
 Rubric has had a CLI since forever.  It has basically been a bunch of crappy little scripts that did one or two things each, badly, with lousy command line processing.  I really want to fix this, since one of the biggest complaints I get is that it's too hard for muggles to install Rubric.  I'd like to eliminate any need for people who have no clue to ask for help installing things.

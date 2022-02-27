@@ -1,7 +1,7 @@
 ---
 layout: post
-title : chmod and permissions weirdness
-date  : 2007-08-21T14:36:05Z
+title : "chmod and permissions weirdness"
+date  : "2007-08-21T14:36:05Z"
 tags  : ["cygwin", "perl", "programming", "testing"]
 ---
 [This test

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : meteos: another game i wish i liked more
-date  : 2008-03-20T01:34:03Z
+title : "meteos: another game i wish i liked more"
+date  : "2008-03-20T01:34:03Z"
 tags  : ["games", "review", "videogame"]
 ---
 Meteos is a "puzzle" game for the DS.  I really don't like the use of the word "puzzle" to describe the genre of games like Puzzle Quest and Tetris and Meteos, because they're not so much puzzles, to me, as just games.  That's not the point, though.

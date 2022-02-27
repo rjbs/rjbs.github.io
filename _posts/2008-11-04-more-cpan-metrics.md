@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more cpan metrics
-date  : 2008-11-04T15:47:51Z
+title : "more cpan metrics"
+date  : "2008-11-04T15:47:51Z"
 tags  : ["cpan", "perl", "programming"]
 ---
 For a while, I've been keeping track of the total usage of my code on the CPAN.

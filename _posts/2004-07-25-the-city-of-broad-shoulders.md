@@ -1,8 +1,7 @@
 ---
 layout: post
-title : the city of broad shoulders
-date  : 2004-07-25T20:11:00Z
-
+title : "the city of broad shoulders"
+date  : "2004-07-25T20:11:00Z"
 ---
 I'm laid over in Chicago.  I got into the airport just under an hour ago, and the gate for my next flight was directly across from my point of entry.  I looked for something to eat, and the shortest line was to Uno's.  I would have been willing to stand in line longer for something better, but everything seemed pretty fatty, so I ate my tiny pizza and did my best to enjoy it.  I like Uno's crusts, and I've never quite understood how to describe it.  It's not quite flaky, it's sort of powdery.  But that sounds awful, and it isn't awful.
 

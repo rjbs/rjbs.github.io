@@ -1,7 +1,7 @@
 ---
 layout: post
-title : updating tools, losing time
-date  : 2005-04-07T04:04:27Z
+title : "updating tools, losing time"
+date  : "2005-04-07T04:04:27Z"
 tags  : ["productivity", "rubric", "win32"]
 ---
 My daily accomplishments form lets me keep track of how I spend my time each day.  When I realize I've utterly wasted a block of time, or can't account for it just ten minutes later, I color it in black.  Today, I had an hour and three quarters of lost time, which is just awful.

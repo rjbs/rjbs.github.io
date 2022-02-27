@@ -1,7 +1,7 @@
 ---
 layout: post
-title : progress, virtue, and the classics
-date  : 2005-01-27T03:59:00Z
+title : "progress, virtue, and the classics"
+date  : "2005-01-27T03:59:00Z"
 tags  : ["macosx", "movies", "software", "work"]
 ---
 Today, work was less crisis-oriented than it had been.  I spoke with Duan, who thinks that the current crisis at the UK plant may have been worked around sufficietly well for now.  (Note to self:  write up options summary tomorrow anyway.)  Trevor thinks he found and eliminated the cause of the server crashes; I'm guessing this was a success since I made it past 1900 without any phone calls.  I started getting some of the databases moved from one server to another, which is not something I'm excited about doing, but so far so good.

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : early morning braindump
-date  : 2005-11-04T15:37:02Z
-
+title : "early morning braindump"
+date  : "2005-11-04T15:37:02Z"
 ---
 This morning as I walked to the bus terminal, I had a thought and said to myself, "You should write that down once you've got the your laptop open."  Of course, I've forgotten it by now.
 

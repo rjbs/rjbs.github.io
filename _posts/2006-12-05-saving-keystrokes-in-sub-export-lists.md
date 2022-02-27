@@ -1,7 +1,7 @@
 ---
 layout: post
-title : saving keystrokes in sub export lists
-date  : 2006-12-05T18:43:03Z
+title : "saving keystrokes in sub export lists"
+date  : "2006-12-05T18:43:03Z"
 tags  : ["perl", "programming"]
 ---
 I use Sub::Exporter a good bit.  It makes my life easier by letting me generate

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : it's link to the past.  enough said.
-date  : 2003-01-08T05:00:00Z
+title : "it's link to the past.  enough said."
+date  : "2003-01-08T05:00:00Z"
 tags  : ["gameboy", "games", "gamesite", "videogame", "zelda"]
 ---
 The Zelda series didn't really get its claws into me until Ocarina of Time. Even then, it took a few hours of play before I decided that the game wasn't too kiddy.  I wanted to believe the hype; it took time, but eventually I was totally won over.

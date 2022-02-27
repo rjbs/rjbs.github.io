@@ -1,8 +1,7 @@
 ---
 layout: post
-title : saturday in brief
-date  : 2004-07-04T02:24:00Z
-
+title : "saturday in brief"
+date  : "2004-07-04T02:24:00Z"
 ---
 I slept until around 0900, and then we relaxed for a while.  Gloria read the paper, I read some news, and we just chilled out.  Around 1100 we headed out for some breakfast, and decided to try breakfast at the Retro.  It was pretty mediocre.  I could've made the same myself, and there would've been at least one fewer crazy guy standing around asking whether anybody had ever made lasagna.
 

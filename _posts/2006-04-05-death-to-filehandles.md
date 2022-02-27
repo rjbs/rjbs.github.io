@@ -1,7 +1,7 @@
 ---
 layout: post
-title : death to filehandles
-date  : 2006-04-05T23:09:31Z
+title : "death to filehandles"
+date  : "2006-04-05T23:09:31Z"
 tags  : ["perl", "programming", "stupid"]
 ---
 Adam has a module called Params::Util.  It provides a bunch of routines that

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all hail john! (more about firefox)
-date  : 2006-03-28T17:16:18Z
+title : "all hail john! (more about firefox)"
+date  : "2006-03-28T17:16:18Z"
 tags  : ["firefox"]
 ---
 This is part two in my "All Hail" series.  John C. is my friend and coworker, and he knows a lot more about Firefox than I probably ever will.  He wrote Wikalong and a few other neat XUL-based geegaws.  He's the one who helped me figure out what extensions to start with when trying to emigrate from OmniWeb. (I think I've since repaid him just a little by getting him to use Tab Mix Plus.)  Even though John is, incomprehensibly, considering moving away from Bethlehem: All hail John!

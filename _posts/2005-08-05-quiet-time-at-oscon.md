@@ -1,7 +1,7 @@
 ---
 layout: post
-title : quiet time at oscon
-date  : 2005-08-05T18:30:17Z
+title : "quiet time at oscon"
+date  : "2005-08-05T18:30:17Z"
 tags  : ["oscon"]
 ---
 Well, frankly, I haven't had much.  That's not so bad, really, it just means that my time has been densely packed with activity.  In previous years, I've had good journals of my activity: I'd go to my hotel room at the end of the night, write down what I'd done, and crash.

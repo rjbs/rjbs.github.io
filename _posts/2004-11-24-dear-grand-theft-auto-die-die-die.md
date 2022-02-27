@@ -1,8 +1,7 @@
 ---
 layout: post
-title : dear grand theft auto: die die die
-date  : 2004-11-24T16:07:00Z
-
+title : "dear grand theft auto: die die die"
+date  : "2004-11-24T16:07:00Z"
 ---
 I want to RELAX on my vacation.  Sometimes, I relax by playing video games. Even if I get frustrated, they are usually fun.  GTA:SA is not being fun, right now.
 

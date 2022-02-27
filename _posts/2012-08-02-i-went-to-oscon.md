@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I went to OSCON!
-date  : 2012-08-02T03:52:43Z
+title : "I went to OSCON!"
+date  : "2012-08-02T03:52:43Z"
 tags  : ["oscon"]
 ---
 This year was my eighth OSCON, all but one of which were in Portland.  Portland

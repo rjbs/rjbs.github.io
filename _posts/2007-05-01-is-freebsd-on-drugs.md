@@ -1,7 +1,7 @@
 ---
 layout: post
-title : is freebsd on drugs?
-date  : 2007-05-01T14:00:25Z
+title : "is freebsd on drugs?"
+date  : "2007-05-01T14:00:25Z"
 tags  : ["perl", "programming", "stupid"]
 ---
 Gabor recenly posted some reports about what version of what CPAN dists were in

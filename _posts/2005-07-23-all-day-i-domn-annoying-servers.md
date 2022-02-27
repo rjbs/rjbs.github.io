@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all day i domn annoying servers
-date  : 2005-07-23T15:58:24Z
+title : "all day i domn annoying servers"
+date  : "2005-07-23T15:58:24Z"
 tags  : ["work"]
 ---
 I think canonical stupid playground expansion of Adidas was "all day I dream about sex," but I remember one particularly stupid variant I heard when I was in elementary school: "all day in dad's apartment, sexing."  Sexing?  The only time I've heard that word used is when talking about identifying the gender of an animal -- namely a guinea pig.

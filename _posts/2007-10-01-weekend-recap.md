@@ -1,8 +1,7 @@
 ---
 layout: post
-title : weekend recap
-date  : 2007-10-01T03:01:11Z
-
+title : "weekend recap"
+date  : "2007-10-01T03:01:11Z"
 ---
 Yesterday, we headed downtown and watched the parade for Celtic Classic.  It was okay, but I was disappointed by my high school's lackluster regimentation. A scoop of maple walnut ice cream dulled the pain.
 

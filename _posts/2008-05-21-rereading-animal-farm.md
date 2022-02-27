@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rereading animal farm
-date  : 2008-05-21T23:46:37Z
+title : "rereading animal farm"
+date  : "2008-05-21T23:46:37Z"
 tags  : ["book"]
 ---
 Last night, looking at my bookshelf, I noticed my copy of Animal Farm and

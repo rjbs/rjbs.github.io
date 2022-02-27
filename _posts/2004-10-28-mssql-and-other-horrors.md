@@ -1,8 +1,7 @@
 ---
 layout: post
-title : mssql and other horrors
-date  : 2004-10-28T13:25:00Z
-
+title : "mssql and other horrors"
+date  : "2004-10-28T13:25:00Z"
 ---
 I've put up another MSSQL-related module, Time::Piece::MSSQL.  I've found myself writing very small modules that don't do much except make my life easier.  That's good stuff.  Like, I wrote an OO wrapper around Time::Duration that lets me deal with duration-in-seconds columns in my databases very easily. Schwern and Tony get beers when I see them next, for CDBI.
 

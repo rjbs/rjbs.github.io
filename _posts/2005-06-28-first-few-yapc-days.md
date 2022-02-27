@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first few yapc days
-date  : 2005-06-28T13:32:02Z
+title : "first few yapc days"
+date  : "2005-06-28T13:32:02Z"
 tags  : ["perl", "yapc"]
 ---
 On Saturday Gloria, Phil, Walt, Geoff, and I met up at Waffle House around eight o'clock and had some breakfast.  Afterward, the men headed up toward Canada, and Gloria headed back to keep the home fires burning.

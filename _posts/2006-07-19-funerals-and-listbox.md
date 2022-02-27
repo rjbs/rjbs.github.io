@@ -1,7 +1,7 @@
 ---
 layout: post
-title : funerals and listbox
-date  : 2006-07-19T13:13:43Z
+title : "funerals and listbox"
+date  : "2006-07-19T13:13:43Z"
 tags  : ["dreams"]
 ---
 Last night, I dreamt that while walking around Philadelphia, Dieter and I kept seeing funerals.  A few of these were Orthodox Jewish funerals, and there was a lot of caution going on regarding handling the remains.  Later on in the day, Dieter suggested that we should go help out some of the many funeral parties, and he said that some nearby Methodist congregation was holding a funeral.  I decided that it sounded like a good idea, so we put on long black robes and trundled over to the church, where we saw similarly-robed congregants and a hearse.  We offerred to help, and were thanked and asked to wait.

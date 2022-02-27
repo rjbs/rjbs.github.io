@@ -1,7 +1,7 @@
 ---
 layout: post
-title : today was my birthday
-date  : 2006-07-21T02:50:22Z
+title : "today was my birthday"
+date  : "2006-07-21T02:50:22Z"
 tags  : ["booze", "food", "games", "movies", "programming", "videogame"]
 ---
 I always enjoy my birthday.  Even when I haven't yet done anything birthday-y, I want to go up to people and shout, "Hey!  It's my birthday!"  I usually don't.

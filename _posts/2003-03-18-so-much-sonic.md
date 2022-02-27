@@ -1,7 +1,7 @@
 ---
 layout: post
-title : so much sonic!
-date  : 2003-03-18T05:00:00Z
+title : "so much sonic!"
+date  : "2003-03-18T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "platformer", "sega", "sonic", "videogame"]
 ---
 I never owned a Genesis.  I never owned any kind of Sega until I bought a Dreamcast, and I bought the Dreamcast after they'd stopped making Dreamcast stuff.  All my memories of playing Sonic the Hedgehog are blurry and indistinct.  I remember thinking it was really hard and really, really fast.  I never really wanted a Sega, so I can only assume that while the speed impressed me, the game itself didn't. 

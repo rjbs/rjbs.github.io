@@ -1,8 +1,7 @@
 ---
 layout: post
-title : help me i am in wales
-date  : 2002-09-29T04:00:00Z
-
+title : "help me i am in wales"
+date  : "2002-09-29T04:00:00Z"
 ---
 <h4>15:15</h4>I'm in my hotel room in St. Melons, Wales.  I feel lousy and filthy.  The trip from Newark to Cardiff is always awful.  The seat is barely big enough for me, and I was stuck between my boss and Some Guy.  This left me nowhere to rest my head.  Immediately after the fasten seatbelts sign went out, the guy in front of me fully reclined his seat back.
 

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : moving day
-date  : 2004-05-28T02:58:00Z
-
+title : "moving day"
+date  : "2004-05-28T02:58:00Z"
 ---
 Today, I helped Brian move.  Gloria and I slept in until around 0730.  I relaxed a little and played some Mario vs DK.  Gloria made me an egg and toast, which was a nice start.  Around 0900, she gave me a lift to Brian's, and soon I was movin' stuff.  I was surprised at how much stuff there was to move.  Brian had promised that all the little stuff would be moved, and this was almost entirely true.  Mostly, we moved beds, shelving units, tables, and desks. There were just a lot!  In fact, every time I thought we were done, it was revealed that more stuff was somewhere else.  After the house's two floors were empty, someone told us that there was stuff over the garage.  When that was done, there was stuff in the basement.  Once the last big load was loaded into the truck, Cindy (Brian's wife) showed up with some pizza and beer, and I ate too much.  Once that load was unlaoded at Brian's new place, I came home.  I was just beat and filthy and needed to be done.
 

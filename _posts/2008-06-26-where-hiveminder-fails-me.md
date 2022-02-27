@@ -1,7 +1,7 @@
 ---
 layout: post
-title : where hiveminder fails me
-date  : 2008-06-26T02:10:30Z
+title : "where hiveminder fails me"
+date  : "2008-06-26T02:10:30Z"
 tags  : ["hiveminder", "liquidplanner", "productivity", "software"]
 ---
 So, several months later, I'm still mostly using

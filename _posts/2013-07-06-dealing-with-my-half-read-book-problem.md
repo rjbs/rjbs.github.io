@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dealing with my half-read book problem
-date  : 2013-07-06T02:47:10Z
+title : "dealing with my half-read book problem"
+date  : "2013-07-06T02:47:10Z"
 tags  : ["reading"]
 ---
 I just recently [wrote about trying to deal with my backlog of bug reports and

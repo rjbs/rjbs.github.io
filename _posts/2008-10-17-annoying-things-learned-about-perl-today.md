@@ -1,7 +1,7 @@
 ---
 layout: post
-title : annoying things learned about perl today
-date  : 2008-10-17T02:19:55Z
+title : "annoying things learned about perl today"
+date  : "2008-10-17T02:19:55Z"
 tags  : ["perl", "programming"]
 ---
 App::Cmd::Tester lets you test that an App::Cmd program output the right things

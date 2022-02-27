@@ -1,7 +1,7 @@
 ---
 layout: post
-title : stupid perl things learned today
-date  : 2007-07-29T02:44:10Z
+title : "stupid perl things learned today"
+date  : "2007-07-29T02:44:10Z"
 tags  : ["perl", "programming", "stupid"]
 ---
 I was doing some maintenance on E'Mail::Acme, today.  It was failing tests on

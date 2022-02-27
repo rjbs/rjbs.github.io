@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more portable mutt configuration tricks
-date  : 2008-03-03T03:50:27Z
+title : "more portable mutt configuration tricks"
+date  : "2008-03-03T03:50:27Z"
 tags  : ["email", "mutt", "perl", "programming"]
 ---
 I have a fairly complicated mutt configuration.  It could probably do with more

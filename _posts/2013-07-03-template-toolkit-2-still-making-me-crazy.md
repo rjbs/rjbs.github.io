@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Template Toolkit 2: still making me crazy
-date  : 2013-07-03T16:19:36Z
+title : "Template Toolkit 2: still making me crazy"
+date  : "2013-07-03T16:19:36Z"
 tags  : ["perl", "programming"]
 ---
 Template Toolkit 2, *aka* TT2, has long been a thorn in my side.  Once upon a

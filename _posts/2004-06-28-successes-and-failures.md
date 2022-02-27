@@ -1,7 +1,7 @@
 ---
 layout: post
-title : successes and failures
-date  : 2004-06-28T03:23:00Z
+title : "successes and failures"
+date  : "2004-06-28T03:23:00Z"
 tags  : ["perl"]
 ---
 So, I forgot to mention, yesterday, that I fixed our toilet.  I only had to replace the flush lever, but it made me feel handy.  I look forward to being able to get a house where I can do more handy things like fix stuff, break stuff, and fix the stuff I broke.  Also, painting.

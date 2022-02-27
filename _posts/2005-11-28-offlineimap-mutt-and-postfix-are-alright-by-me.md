@@ -1,7 +1,7 @@
 ---
 layout: post
-title : offlineimap, mutt, and postfix are alright by me
-date  : 2005-11-28T01:09:14Z
+title : "offlineimap, mutt, and postfix are alright by me"
+date  : "2005-11-28T01:09:14Z"
 tags  : ["email", "software"]
 ---
 Many times I have complained that Thunderbird and Mail.app are no darn good. They both filled me with hope of reading my mail offline and writing responses that will go out when I'm back online.  Both, too, disappointed.  They were just too hard to use, too hard to configure, prone to data loss, and provided me with generally crappy tools for dealing with my mail.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : celda? more like ZEL-da! lololhulaugal
-date  : 2003-03-25T05:00:00Z
+title : "celda? more like ZEL-da! lololhulaugal"
+date  : "2003-03-25T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "videogame", "zelda"]
 ---
 I don't get it.  When the new visual style for the Legend of Zelda on the GCN was announced, huge hissy fits erupted.  I was a little skeptical, but every time I saw more, I liked it.  I guess I don't get what the superior alternative was.  There were those videos of Ganondorf and Link fighting from Spaceworld 2000, but did people really want that for Legend of Zelda?  Zelda is not a game meant for photorealism.  Even the "more realistic" Ocarina of Time was pretty cartoony.  Do people want Zelda to look like a fantasy Resident Evil?  I just don't get it.

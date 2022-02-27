@@ -1,7 +1,7 @@
 ---
 layout: post
-title : non-ASCII characters in Rubric!
-date  : 2011-10-24T01:29:54Z
+title : "non-ASCII characters in Rubric!"
+date  : "2011-10-24T01:29:54Z"
 tags  : ["perl", "programming", "rubric", "unicode"]
 ---
 Only what… seven years after its first release, I’ve finally added tolerable

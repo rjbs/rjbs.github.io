@@ -1,7 +1,7 @@
 ---
 layout: post
-title : RPG Recap: Beyond the Temple of the Abyss, 2012-09-08
-date  : 2012-09-09T23:31:26Z
+title : "RPG Recap: Beyond the Temple of the Abyss, 2012-09-08"
+date  : "2012-09-09T23:31:26Z"
 tags  : ["rpg-beyond", "dnd", "rpg"]
 ---
 ## Sometime during the Red Moon, 937

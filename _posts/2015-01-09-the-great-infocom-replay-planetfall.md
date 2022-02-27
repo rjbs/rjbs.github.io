@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Planetfall
-date  : 2015-01-09T14:12:14Z
+title : "The Great Infocom Replay: Planetfall"
+date  : "2015-01-09T14:12:14Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 I am a lousy record keeper.  I actually played Planetfall quite a while ago.

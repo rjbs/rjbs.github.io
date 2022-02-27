@@ -1,7 +1,7 @@
 ---
 layout: post
-title : less worse command line editing in the perl6 repl
-date  : 2015-05-13T13:56:51Z
+title : "less worse command line editing in the perl6 repl"
+date  : "2015-05-13T13:56:51Z"
 tags  : ["perl", "perl6", "programming"]
 ---
 I've been doing more puttering about with perl6 lately.  One of my chief

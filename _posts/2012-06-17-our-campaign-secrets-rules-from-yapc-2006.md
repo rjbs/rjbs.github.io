@@ -1,7 +1,7 @@
 ---
 layout: post
-title : our Campaign Secrets rules from YAPC 2006
-date  : 2012-06-17T14:47:10Z
+title : "our Campaign Secrets rules from YAPC 2006"
+date  : "2012-06-17T14:47:10Z"
 tags  : ["games", "perl", "yapc"]
 ---
 At [YAPC North America](http://yapcna.org/) this year, swag included

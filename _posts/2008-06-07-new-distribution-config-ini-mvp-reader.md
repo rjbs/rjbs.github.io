@@ -1,7 +1,7 @@
 ---
 layout: post
-title : new distribution: config-ini-mvp-reader
-date  : 2008-06-07T15:23:01Z
+title : "new distribution: config-ini-mvp-reader"
+date  : "2008-06-07T15:23:01Z"
 tags  : ["perl", "programming"]
 ---
 Some time ago, I [wrote about Addex's

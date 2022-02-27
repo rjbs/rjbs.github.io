@@ -1,7 +1,7 @@
 ---
 layout: post
-title : making addex talk american real good
-date  : 2008-04-10T14:07:06Z
+title : "making addex talk american real good"
+date  : "2008-04-10T14:07:06Z"
 tags  : ["addex", "perl", "programming", "unicode"]
 ---
 Look, I respect the diversity of foreign cultures and everything.  I try to

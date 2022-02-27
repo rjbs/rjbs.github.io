@@ -1,7 +1,7 @@
 ---
 layout: post
-title : cpan testers who shouldn't
-date  : 2005-12-17T17:15:13Z
+title : "cpan testers who shouldn't"
+date  : "2005-12-17T17:15:13Z"
 tags  : ["cpan", "testing"]
 ---
 The CPAN testers are, in general, a crew of kind-hearted people who perform a valuable service for module authors.  They run tests for all kinds of modules -- even ones that the tester just doesn't care about.  How else would we ever know that XML::Fudge::WithPeanuts doesn't work on OpenVMS/3.2-cray?

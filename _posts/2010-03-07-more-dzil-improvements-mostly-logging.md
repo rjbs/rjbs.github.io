@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more dzil improvements; mostly logging
-date  : 2010-03-07T14:22:12Z
+title : "more dzil improvements; mostly logging"
+date  : "2010-03-07T14:22:12Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I've been continuing to work on adding improved logging capabilities to

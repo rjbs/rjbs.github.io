@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the Random Wizard's Top 10 Troll Questions
-date  : 2013-08-02T18:15:02Z
+title : "the Random Wizard's Top 10 Troll Questions"
+date  : "2013-08-02T18:15:02Z"
 tags  : ["dnd", "rpg"]
 ---
 I've not usually a big fan of blog-propagated questionnaires, but this one

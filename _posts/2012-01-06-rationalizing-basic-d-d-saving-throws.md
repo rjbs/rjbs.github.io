@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rationalizing basic D&D saving throws
-date  : 2012-01-06T04:21:04Z
+title : "rationalizing basic D&D saving throws"
+date  : "2012-01-06T04:21:04Z"
 tags  : ["dnd", "rpg"]
 ---
 I was writing up a big post about how I want to deal with skill checks from now

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : solving the 24 game in Forth
-date  : 2016-08-23T14:46:00Z
+title : "solving the 24 game in Forth"
+date  : "2016-08-23T14:46:00Z"
 tags  : ["forth", "programming"]
 ---
 About a month ago, Mark Jason Dominus posted [a simple but difficult arithmetic

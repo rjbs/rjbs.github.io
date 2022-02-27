@@ -1,7 +1,7 @@
 ---
 layout: post
-title : setup for productivity
-date  : 2004-06-25T02:09:00Z
+title : "setup for productivity"
+date  : "2004-06-25T02:09:00Z"
 tags  : ["code"]
 ---
 Today wasn't exactly productive, but I think it set me up for greater productivity.  I helped one of our engineers with some Perl things.  We'd had another engineer who learned quite a bit of Perl and wrote some medium-sized SPC code in it.  Then he left, so this guy is taking over maintenance.  The code is pretty unfriendly toward being maintained, so it's going to be fun; the guy is also learning Perl as he goes!  I'm hoping I can be helpful.

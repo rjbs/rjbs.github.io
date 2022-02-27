@@ -1,7 +1,7 @@
 ---
 layout: post
-title : flying from brooklyn to manhattan
-date  : 2005-10-24T12:41:16Z
+title : "flying from brooklyn to manhattan"
+date  : "2005-10-24T12:41:16Z"
 tags  : ["dreams"]
 ---
 I had a strange dream.  I worked in Manhattan, and every morning caught a but around 10:30 to get into the city and work.  I worked in mid-town.  One day, there was some reason that this wouldn't work out, so Gloria arranged for me to have a hotel room somewhere just south of the city.  It wasn't Brooklyn, but some tiny suburb I hadn't ever heard of.  I can't remember the name now, but it definitely had one, and I think it started with a "W."  In the morning, I'd catch a plane to Manhattan and get to work with plenty of time to spare.

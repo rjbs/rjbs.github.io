@@ -1,7 +1,7 @@
 ---
 layout: post
-title : npr to podcast?
-date  : 2005-07-13T11:56:11Z
+title : "npr to podcast?"
+date  : "2005-07-13T11:56:11Z"
 tags  : ["rss"]
 ---
 Podcasting is sort of an interesting idea, I guess, but there aren't any podcasts I feel really interested in hearing.  The only thing I regularly listen to is NPR.  Right now, NPR has RSS feeds.  Each feed headline leads to a web page that summarizes the article and has a link to a Real Media or WMP audio stream.

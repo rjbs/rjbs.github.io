@@ -1,7 +1,7 @@
 ---
 layout: post
-title : too many healing surges!
-date  : 2011-08-24T03:00:44Z
+title : "too many healing surges!"
+date  : "2011-08-24T03:00:44Z"
 tags  : ["dnd", "rpg"]
 ---
 I think my 4E party members have too many healing surges.  I don't think is

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : adding some safety to git force-push
-date  : 2021-06-15T16:29:21Z
+title : "adding some safety to git force-push"
+date  : "2021-06-15T16:29:21Z"
 tags  : ["git", "programming"]
 ---
 Just the other day, I [wrote about my little git branch manager

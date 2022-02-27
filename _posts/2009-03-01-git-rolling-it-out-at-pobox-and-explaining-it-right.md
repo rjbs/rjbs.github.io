@@ -1,7 +1,7 @@
 ---
 layout: post
-title : git: rolling it out at pobox and explaining it right
-date  : 2009-03-01T19:11:57Z
+title : "git: rolling it out at pobox and explaining it right"
+date  : "2009-03-01T19:11:57Z"
 tags  : ["git", "pobox", "vcs"]
 ---
 Just over a year ago, I [complained about the complexity of Git

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : github's fork queue is dangerous
-date  : 2009-05-16T03:11:21Z
+title : "github's fork queue is dangerous"
+date  : "2009-05-16T03:11:21Z"
 tags  : ["git", "programming"]
 ---
 One of the reasons I was keen to use GitHub for hosting controlled files at

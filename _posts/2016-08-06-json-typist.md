@@ -1,7 +1,7 @@
 ---
 layout: post
-title : JSON::Typist
-date  : 2016-08-06T17:17:12Z
+title : "JSON::Typist"
+date  : "2016-08-06T17:17:12Z"
 tags  : ["perl", "programming"]
 ---
 I've been meaning, for a while, to make a little post about a library I wrote a

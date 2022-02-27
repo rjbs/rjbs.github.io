@@ -1,7 +1,7 @@
 ---
 layout: post
-title : when to localize $@?
-date  : 2008-08-29T00:42:20Z
+title : "when to localize $@?"
+date  : "2008-08-29T00:42:20Z"
 tags  : ["perl", "programming"]
 ---
 Today I spent a good while trying to figure out why I wasn't seeing a runtime error from code that looked like this (grossly simplified):

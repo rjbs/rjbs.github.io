@@ -1,7 +1,7 @@
 ---
 layout: post
-title : please turn to your right and thank the cpan tester there
-date  : 2007-08-21T15:38:47Z
+title : "please turn to your right and thank the cpan tester there"
+date  : "2007-08-21T15:38:47Z"
 tags  : ["perl", "testing"]
 ---
 Earlier today, I wrote about a problem I'd seen reported via CPAN testers.  A test was failing on Cygwin, probably because of Cygwin being weird.  As expected, I was able to talk to one of the intrepid CPAN smokebot operators, ask for help, and get the problem resolved very quickly.

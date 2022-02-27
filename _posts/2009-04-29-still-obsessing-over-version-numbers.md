@@ -1,7 +1,7 @@
 ---
 layout: post
-title : still obsessing over version numbers
-date  : 2009-04-29T03:42:17Z
+title : "still obsessing over version numbers"
+date  : "2009-04-29T03:42:17Z"
 tags  : ["perl", "programming"]
 ---
 I have been obsessing over how to number versions since I first started writing code for a living, around 2000.  Nothing is satisfactory.  I'd really like to make a decision and stick to it across all my code, and I'm pretty close to doing that.

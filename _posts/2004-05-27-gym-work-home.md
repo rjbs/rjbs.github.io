@@ -1,8 +1,7 @@
 ---
 layout: post
-title : gym, work, home
-date  : 2004-05-27T03:26:00Z
-
+title : "gym, work, home"
+date  : "2004-05-27T03:26:00Z"
 ---
 Today was pseudo-productive, like the rest of the week.  I got a lot of concepts fleshed out, but no code written.  I'm hoping that Friday I can get those concepts approved so that when I'm back from my exile I can really get to work.  At the moment, just about all of our new business systems, save finance, are my responsibility.  I plan, soon, to become drunk with a very moderate amount of power!
 

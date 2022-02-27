@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my new rt.cpan.org workflow
-date  : 2011-06-03T02:56:22Z
+title : "my new rt.cpan.org workflow"
+date  : "2011-06-03T02:56:22Z"
 tags  : ["cpan", "perl", "programming"]
 ---
 Years and years ago, I got a fortune cookie that told me:

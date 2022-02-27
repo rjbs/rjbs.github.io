@@ -1,7 +1,7 @@
 ---
 layout: post
-title : in which rjbs apologizes for being a dick
-date  : 2008-11-17T15:36:46Z
+title : "in which rjbs apologizes for being a dick"
+date  : "2008-11-17T15:36:46Z"
 tags  : ["perl", "programming"]
 ---
 A while ago, I did a bit of work applying patches to MIME::Lite.  It's the most widely depended upon of the dists I maintain, and one of the oldest, with the most RT tickets.  I also don't really like it very much, so it doesn't get as much work as I'd like to give it.

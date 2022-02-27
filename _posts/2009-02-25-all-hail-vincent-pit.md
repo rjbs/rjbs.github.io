@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all hail vincent pit
-date  : 2009-02-25T22:16:42Z
+title : "all hail vincent pit"
+date  : "2009-02-25T22:16:42Z"
 tags  : ["perl", "programming"]
 ---
 I didn't really know who this [Vincent Pit](http://search.cpan.org/~vpit/)

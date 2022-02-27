@@ -1,7 +1,7 @@
 ---
 layout: post
-title : trust no one
-date  : 2015-08-14T22:06:44Z
+title : "trust no one"
+date  : "2015-08-14T22:06:44Z"
 tags  : ["security"]
 ---
 At work recently moved from our own office space to a coworking space.  Bryan

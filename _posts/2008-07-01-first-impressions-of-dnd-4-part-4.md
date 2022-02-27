@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first impressions of dnd 4; part 4
-date  : 2008-07-01T04:09:05Z
+title : "first impressions of dnd 4; part 4"
+date  : "2008-07-01T04:09:05Z"
 tags  : ["dnd", "games", "rpg"]
 ---
 I skimmed both the DM's Guide and the Monster Manual today.  I've been really

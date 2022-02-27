@@ -1,7 +1,7 @@
 ---
 layout: post
-title : learning some new languages (maybe)
-date  : 2014-07-17T02:44:08Z
+title : "learning some new languages (maybe)"
+date  : "2014-07-17T02:44:08Z"
 tags  : ["programming"]
 ---
 I wanted to make an effort to learn some more languages, old and new, more or

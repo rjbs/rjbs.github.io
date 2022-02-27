@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i love it when an rpg comes together.
-date  : 2003-01-09T05:00:00Z
+title : "i love it when an rpg comes together."
+date  : "2003-01-09T05:00:00Z"
 tags  : ["ff", "games", "gamesite", "psx", "rpg", "videogame"]
 ---
 <h5>when rjbs met ff7</h5>

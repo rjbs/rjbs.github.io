@@ -1,7 +1,7 @@
 ---
 layout: post
-title : they're mechs.  and they fight.
-date  : 2003-09-10T04:00:00Z
+title : "they're mechs.  and they fight."
+date  : "2003-09-10T04:00:00Z"
 tags  : ["games", "gamesite", "mecha", "rpg", "videogame"]
 ---
 Anyone who's read my ranting on other mech combat games knows that I like 'mechs, and I like to make them fight.  Front Mission 3 gives me these things, and a lot more.  Fortunately, the "a lot more" doesn't seem to be getting in my way, so far.

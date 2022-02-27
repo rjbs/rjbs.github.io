@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I went to Tokyo!
-date  : 2013-09-26T17:30:23Z
+title : "I went to Tokyo!"
+date  : "2013-09-26T17:30:23Z"
 tags  : ["perl", "yapc"]
 ---
 I must have done something right when I attended YAPC::Asia 2011, because they

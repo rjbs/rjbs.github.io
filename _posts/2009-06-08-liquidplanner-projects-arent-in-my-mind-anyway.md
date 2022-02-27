@@ -1,7 +1,7 @@
 ---
 layout: post
-title : liquidplanner projects aren't (in my mind, anyway)
-date  : 2009-06-08T22:40:58Z
+title : "liquidplanner projects aren't (in my mind, anyway)"
+date  : "2009-06-08T22:40:58Z"
 tags  : ["liquidplanner", "productivity"]
 ---
 If you don't use [LiquidPlanner](http://liquidplanner.com/), this post might be

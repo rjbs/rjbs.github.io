@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Remember the Milk, its API, and a new Perl client
-date  : 2019-11-06T02:11:37Z
+title : "Remember the Milk, its API, and a new Perl client"
+date  : "2019-11-06T02:11:37Z"
 tags  : ["perl", "programming"]
 ---
 Hey, I'm finally writing another post about things I did on my week off in

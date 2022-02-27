@@ -1,7 +1,7 @@
 ---
 layout: post
-title : cheshirecat: retirement at last?
-date  : 2009-03-22T02:01:34Z
+title : "cheshirecat: retirement at last?"
+date  : "2009-03-22T02:01:34Z"
 tags  : ["hardware"]
 ---
 When I left home for college, I planned to take my heavily, hackily upgraded

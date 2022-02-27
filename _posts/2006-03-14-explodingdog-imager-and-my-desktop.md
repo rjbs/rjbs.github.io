@@ -1,7 +1,7 @@
 ---
 layout: post
-title : explodingdog, imager, and my desktop
-date  : 2006-03-14T17:13:09Z
+title : "explodingdog, imager, and my desktop"
+date  : "2006-03-14T17:13:09Z"
 tags  : ["perl", "programming"]
 ---
 For a very long time, I had a small number of images that I used as my desktop.

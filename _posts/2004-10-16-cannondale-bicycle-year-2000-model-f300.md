@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Cannondale Bicycle - year 2000 model F300
-date  : 2004-10-16T00:54:09Z
+title : "Cannondale Bicycle - year 2000 model F300"
+date  : "2004-10-16T00:54:09Z"
 tags  : ["bicycle"]
 ---
 Frame  : CAAD2 Mountain HeadShok (color: smoke)

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : what the heck is GVf_IMPORTED?
-date  : 2010-10-21T13:40:25Z
+title : "what the heck is GVf_IMPORTED?"
+date  : "2010-10-21T13:40:25Z"
 tags  : ["perl", "programming", "wtf"]
 ---
 I was happy to learn about this bizarre flag in Perl, even though it took a lot

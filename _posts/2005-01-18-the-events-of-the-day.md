@@ -1,8 +1,7 @@
 ---
 layout: post
-title : the events of the day
-date  : 2005-01-18T02:09:00Z
-
+title : "the events of the day"
+date  : "2005-01-18T02:09:00Z"
 ---
 It wasn't a long weekend, but it really felt like one.  Today it was a little hard to get my mind into my work, but I still got some things done.  I am just completely burned out on this project, and I want it to end.  I want it to be over, and then I don't want to think about it for a few months.  My burnout is making me worthless, which is making me depressed.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : python programmers unbellyfeel oldcode
-date  : 2006-03-29T03:32:09Z
+title : "python programmers unbellyfeel oldcode"
+date  : "2006-03-29T03:32:09Z"
 tags  : ["programming", "python"]
 ---
 I just love [this blog

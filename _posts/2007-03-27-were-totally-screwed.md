@@ -1,7 +1,7 @@
 ---
 layout: post
-title : we're totally screwed
-date  : 2007-03-27T12:56:13Z
+title : "we're totally screwed"
+date  : "2007-03-27T12:56:13Z"
 tags  : ["network"]
 ---
     Dear Speakeasy Members,

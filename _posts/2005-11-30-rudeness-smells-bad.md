@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rudeness smells bad
-date  : 2005-11-30T00:33:37Z
+title : "rudeness smells bad"
+date  : "2005-11-30T00:33:37Z"
 tags  : ["etiquette"]
 ---
 Is it really so inconceivable that a smoker can go two hours without a cigarette?  If so, why aren't smokers more afraid of their own addiction? Anyway, that's not my problem.  My problem is that now the back of the bus smells like cigarette smoke, and I know the smell won't reach the front of the bus, so the driver won't do anything about it.

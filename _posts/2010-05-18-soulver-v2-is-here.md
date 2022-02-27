@@ -1,7 +1,7 @@
 ---
 layout: post
-title : soulver v2 is here
-date  : 2010-05-18T22:14:10Z
+title : "soulver v2 is here"
+date  : "2010-05-18T22:14:10Z"
 tags  : ["math", "software", "stupid"]
 ---
 [I wrote about Soulver](http://rjbs.manxome.org/rubric/entry/1465) about three years ago when I accidentally acquired a free license.  This morning, I saw Marcus promoting a new version and I thought I'd give it a look.

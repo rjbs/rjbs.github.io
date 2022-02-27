@@ -1,7 +1,7 @@
 ---
 layout: post
-title : jedi academy: i am not a jedi
-date  : 2003-01-04T05:00:00Z
+title : "jedi academy: i am not a jedi"
+date  : "2003-01-04T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "starwars", "videogame"]
 ---
 I rented a pile of games today, including Star Wars: Clone Wars for GCN.  I've been letting the list of "games I want to play but not buy" get longer and longer, and it's time to get some names off the list.

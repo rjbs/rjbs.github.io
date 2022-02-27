@@ -1,7 +1,7 @@
 ---
 layout: post
-title : angry emails and api breakage
-date  : 2006-04-17T23:50:14Z
+title : "angry emails and api breakage"
+date  : "2006-04-17T23:50:14Z"
 tags  : ["perl", "programming"]
 ---
 I did some overhauling to a module a few months ago.  I added a new interface

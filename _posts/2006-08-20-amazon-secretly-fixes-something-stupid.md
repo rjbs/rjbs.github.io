@@ -1,7 +1,7 @@
 ---
 layout: post
-title : amazon secretly fixes something stupid
-date  : 2006-08-20T13:55:51Z
+title : "amazon secretly fixes something stupid"
+date  : "2006-08-20T13:55:51Z"
 tags  : ["amazon", "stupid"]
 ---
 I often get irritated with things on Amazon.  Sometimes, I send an email about my complaints.  Usually, I get an automated or otherwise not-very-promising reply.  Then, the problem gets fixed after a year or two.  The weird thing is that the things that bug me that get fixed never get the kind of fanfare that new features I don't like get.  Those giant video clips kept getting in my way, the animated shaking gold box made me want to smack somebody, and so on.

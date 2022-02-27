@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rebelling against the megacorporation
-date  : 2003-04-09T04:00:00Z
+title : "rebelling against the megacorporation"
+date  : "2003-04-09T04:00:00Z"
 tags  : ["games", "gamesite", "videogame", "xbox"]
 ---
 So, I got an XBX.  I won't get into the details.  Largely, I wanted it to play JSRF.  I really liked JSR on my Dreamcast, and I figured the sequel would be extra awesome.

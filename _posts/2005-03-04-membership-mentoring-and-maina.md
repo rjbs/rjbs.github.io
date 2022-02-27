@@ -1,8 +1,7 @@
 ---
 layout: post
-title : membership, mentoring, and maina
-date  : 2005-03-04T18:35:00Z
-
+title : "membership, mentoring, and maina"
+date  : "2005-03-04T18:35:00Z"
 ---
 Yesterday, I made some comments about liking American Express.  Later that afternoon, sky mentioned that he, too, liked them and that he'd gotten the impression that many camelfolk are fans.  We started talking about the various programs that AmEx offers and discussing what differs between UK and US service.
 

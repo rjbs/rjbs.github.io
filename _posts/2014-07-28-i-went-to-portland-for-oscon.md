@@ -1,8 +1,7 @@
 ---
 layout: post
-title : I went to Portland (for OSCON)!
-date  : 2014-07-28T15:07:27Z
-
+title : "I went to Portland (for OSCON)!"
+date  : "2014-07-28T15:07:27Z"
 ---
 Last week, I was in Portland, Oregon for OSCON.  I had a good time, as I
 generally do.  Portland's a nice place, and when I'm there, so are a lot of

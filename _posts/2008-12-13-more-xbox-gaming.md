@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more xbox gaming
-date  : 2008-12-13T21:11:28Z
+title : "more xbox gaming"
+date  : "2008-12-13T21:11:28Z"
 tags  : ["games", "videogame", "xbox"]
 ---
 I've been playing GTA IV.  It's got a lot of good things, but for the most part I'd say it's a big step backwards from GTA: San Andreas.  It's clearly benefitting from being on newer hardware, but there's less game.  I seem to have fewer missions available, and nearly no random pickup tasks.  In San Andreas, I could steal a cop car and do "Vigilante" missions.  I could steal a fire truck and fight fires.  I could steal an ambulance and pick up the wounded.  I could do cab rides.  There are probably other random missions that I can't think of, too.  In GTA IV, vigilante missions are much more of a pain in the butt, and are unlocked quite a ways into the game.

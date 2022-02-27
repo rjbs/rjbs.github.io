@@ -1,7 +1,7 @@
 ---
 layout: post
-title : RPG Recap: Beyond the Temple of the Abyss, 2015-02-14
-date  : 2015-02-15T17:05:14Z
+title : "RPG Recap: Beyond the Temple of the Abyss, 2015-02-14"
+date  : "2015-02-15T17:05:14Z"
 tags  : ["rpg-beyond", "dnd", "rpg"]
 ---
 > *This guest entry written by Breno, Rago's player, who deserves*

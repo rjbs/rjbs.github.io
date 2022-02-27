@@ -1,7 +1,7 @@
 ---
 layout: post
-title : setting global expectations with Test::Routine
-date  : 2012-09-11T22:25:48Z
+title : "setting global expectations with Test::Routine"
+date  : "2012-09-11T22:25:48Z"
 tags  : ["perl", "programming"]
 ---
 Today I finished a bunch of work that significantly improved the test suite of

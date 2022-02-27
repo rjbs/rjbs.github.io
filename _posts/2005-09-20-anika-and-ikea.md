@@ -1,7 +1,7 @@
 ---
 layout: post
-title : anika and ikea
-date  : 2005-09-20T03:21:31Z
+title : "anika and ikea"
+date  : "2005-09-20T03:21:31Z"
 tags  : ["family", "furniture"]
 ---
 On Friday, John came by Pobox North (my apartment) for most of the afternoon while he car was at the shop.  We got gyros (at the awesome semiannual Greek Food Festival) and worked on our own projects.  After work, Gloria took us to get his car.  John and I headed for beers and dinner while Gloria headed home for dinner and to prepare for work.  Just as we were passing my parents' neighborhood, my brother called to tell us that he was in town, at my parents' house, and locked out.  We stopped by, helped him get his things inside, and headed over to Stahley's for dinner.  I think we had a pretty good time.  Three dozen clams, twenty hot wings, a pizza, and three pitchers of beer: forty-five dollars.  Even better, Steve treated!

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the perl 5.10 lexical topic
-date  : 2013-10-03T00:18:38Z
+title : "the perl 5.10 lexical topic"
+date  : "2013-10-03T00:18:38Z"
 tags  : ["perl", "programming"]
 ---
 In Perl 5.10, the idea of a lexical topic was introduced.  The topic is `$_`,

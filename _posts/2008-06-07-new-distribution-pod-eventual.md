@@ -1,7 +1,7 @@
 ---
 layout: post
-title : new distribution: pod-eventual
-date  : 2008-06-07T16:08:25Z
+title : "new distribution: pod-eventual"
+date  : "2008-06-07T16:08:25Z"
 tags  : ["perl", "programming"]
 ---
 I've been wanting to do some mucking around with POD.  I started a little down

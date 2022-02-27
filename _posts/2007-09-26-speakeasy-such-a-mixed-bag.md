@@ -1,7 +1,7 @@
 ---
 layout: post
-title : speakeasy: such a mixed bag
-date  : 2007-09-26T16:47:39Z
+title : "speakeasy: such a mixed bag"
+date  : "2007-09-26T16:47:39Z"
 tags  : ["networking"]
 ---
 The guys from RCN came, today, and switched our television service over to RCN. They also set up cable modem service, which will replace my longstanding Speakeasy service.  Speakeasy is great, service wise, but their prices haven't changed in ages, leaving me paying $70 per month for 1.5/384 DSL.

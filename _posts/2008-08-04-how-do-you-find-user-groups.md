@@ -1,7 +1,7 @@
 ---
 layout: post
-title : how do you find user groups?
-date  : 2008-08-04T21:02:42Z
+title : "how do you find user groups?"
+date  : "2008-08-04T21:02:42Z"
 tags  : ["socialnetworking"]
 ---
 I "run" the local Perl Mongers.  All that really means it that I'm responsible for sending out the "okay, remember: we're going to McGrady's next week!" email.

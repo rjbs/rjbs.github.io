@@ -1,7 +1,7 @@
 ---
 layout: post
-title : finally started using dzil new
-date  : 2010-10-20T12:43:39Z
+title : "finally started using dzil new"
+date  : "2010-10-20T12:43:39Z"
 tags  : ["perl", "programming"]
 ---
 Ages ago, I got a lot of requests for a way to let Dist::Zilla create new

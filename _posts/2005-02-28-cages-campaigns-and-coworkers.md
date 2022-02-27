@@ -1,8 +1,7 @@
 ---
 layout: post
-title : cages, campaigns, and coworkers
-date  : 2005-02-28T23:53:00Z
-
+title : "cages, campaigns, and coworkers"
+date  : "2005-02-28T23:53:00Z"
 ---
 I was really sick of dealing with Mac OS's default perl install, which is just weird enough to be a big pain in my butt.  I installed from source, which was fine, but it meant I had to install a lot of modules again.  (I was not interested in adding /Library to @INC; I have an irrational fear of what would happen.)  Now that I have SOAP::Lite installed, my blogging script will crosspost to use.perl again, and I think I will start writing more regularly again.
 

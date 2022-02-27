@@ -1,8 +1,7 @@
 ---
 layout: post
-title : rubric and wikalong
-date  : 2005-01-20T03:05:00Z
-
+title : "rubric and wikalong"
+date  : "2005-01-20T03:05:00Z"
 ---
 My friend John wrote Wikalong, an extension for Firefox that lets you share a little margin for the webbernet.  Basically, when you go to a page, you get a wiki page that's associated to the URL.  (I feel proud to be the person to first call it a wiki-margin for the intarweb.)
 <pre><code>	http://www.wikalong.org/

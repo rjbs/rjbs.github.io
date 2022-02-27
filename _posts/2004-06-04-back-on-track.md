@@ -1,8 +1,7 @@
 ---
 layout: post
-title : back on track
-date  : 2004-06-04T02:07:00Z
-
+title : "back on track"
+date  : "2004-06-04T02:07:00Z"
 ---
 We fell horribly behind yesterday, but today we caught up.  I think that our coverage of one or two topics will be well below what I wanted, but I think we'll do alright.  I've even had time to meet with a few other people with whom I had some business.  So, I guess I may color this trip a success.  That's good, because if I had to do all this travelling and miss out on National Hot Dog Day just for a failed set of meetings, I would be pretty irked.
 

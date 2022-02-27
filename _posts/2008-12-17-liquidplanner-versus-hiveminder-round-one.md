@@ -1,7 +1,7 @@
 ---
 layout: post
-title : liquidplanner versus hiveminder: round one
-date  : 2008-12-17T00:39:52Z
+title : "liquidplanner versus hiveminder: round one"
+date  : "2008-12-17T00:39:52Z"
 tags  : ["hiveminder", "liquidplanner", "productivity", "software"]
 ---
 I've written a few times about how much I like

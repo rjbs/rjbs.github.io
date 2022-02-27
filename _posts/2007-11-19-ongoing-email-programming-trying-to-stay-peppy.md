@@ -1,7 +1,7 @@
 ---
 layout: post
-title : ongoing email programming: trying to stay peppy
-date  : 2007-11-19T02:10:55Z
+title : "ongoing email programming: trying to stay peppy"
+date  : "2007-11-19T02:10:55Z"
 tags  : ["email", "perl", "programming"]
 ---
 Email is tough.  It's very, very complicated, which is a big problem, because

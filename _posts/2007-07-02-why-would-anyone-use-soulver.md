@@ -1,7 +1,7 @@
 ---
 layout: post
-title : why would anyone use soulver?
-date  : 2007-07-02T02:55:20Z
+title : "why would anyone use soulver?"
+date  : "2007-07-02T02:55:20Z"
 tags  : ["math", "software", "stupid"]
 ---
 I acquired a license to Acqualia's "Soulver" application from a MacZOT bundle a

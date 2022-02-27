@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my plane crash
-date  : 2005-08-17T12:51:18Z
+title : "my plane crash"
+date  : "2005-08-17T12:51:18Z"
 tags  : ["dreams"]
 ---
 I had a dream, last night, that Casey got me a job working with him at his new gig.  I worked at a small desk pushed together with his and Uri's.  Our boss looked like Wilford Brimley, and knew it.  He'd walk up to us and say, "What's for breakfast?"  I felt bad about ditching Pobox, but I guess I really wanted to work for Wilford Brimley.

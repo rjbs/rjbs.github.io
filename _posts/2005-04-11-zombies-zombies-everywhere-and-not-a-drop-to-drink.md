@@ -1,7 +1,7 @@
 ---
 layout: post
-title : zombies, zombies everywhere, and not a drop to drink
-date  : 2005-04-11T02:26:23Z
+title : "zombies, zombies everywhere, and not a drop to drink"
+date  : "2005-04-11T02:26:23Z"
 tags  : ["dreams", "gamecube", "games", "videogame"]
 ---
 A few months ago, Dann had bet me that in two weeks I'd be able to pick up Resident Evil 4 for twenty bucks at Game Crazy.  I challenged him to put his money where his mouth was, and he took me up.  On April 2nd, I went over to Game Crazy and that found the only used copy was about $40.  I picked it up, and on Tuesday I'll get my winnings.  In the meantime, I've been playing a good amount of Resident Evil.  I think I've put in about five hours in the last week, and it's been pretty darn enjoyable.

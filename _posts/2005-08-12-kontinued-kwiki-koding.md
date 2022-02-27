@@ -1,7 +1,7 @@
 ---
 layout: post
-title : kontinued kwiki koding
-date  : 2005-08-12T03:58:37Z
+title : "kontinued kwiki koding"
+date  : "2005-08-12T03:58:37Z"
 tags  : ["kwiki", "perl", "programming", "wiki"]
 ---
 Putting plugins into Kwiki installations is fun, and usually as easy as eating pie.  I installed a bunch at work last night, and I think I'll install some of them at home, tomorrow.  Today, though, I did a little more work on tweaking the ones I like best (or need more): Kwiki::Keywords and Kwiki::Edit::RequireUserName.

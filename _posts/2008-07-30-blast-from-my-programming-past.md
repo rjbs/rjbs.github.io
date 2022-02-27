@@ -1,7 +1,7 @@
 ---
 layout: post
-title : blast from my programming past
-date  : 2008-07-30T02:27:09Z
+title : "blast from my programming past"
+date  : "2008-07-30T02:27:09Z"
 tags  : ["perl", "programming"]
 ---
 Despite all my attempts to convince myself that it was a bad idea and not

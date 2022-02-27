@@ -1,8 +1,7 @@
 ---
 layout: post
-title : all-around ok day
-date  : 2004-11-25T06:10:00Z
-
+title : "all-around ok day"
+date  : "2004-11-25T06:10:00Z"
 ---
 I got up sort of early, considering I'm on vacation, but I just wasn't tired anymore.  It's weird since I had such a hard time getting to sleep last night. I even watched the last half hour of Hypercube, which was utterly dreadful. Gloria went off to work at the yoga studio and I chilled out, poking at some code and playing a little bit of GTA.  Mostly, I vegetated.  When she came home, we went out to Granny McCarthy's for lunch.  As usual, it was slow, mediocre service, and too expensive.  My sandwich was really quite good, though, so I forgive them.  It was nice thick slices of roast beef, a nice strong Swiss cheese, and a good baugette.
 

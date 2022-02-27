@@ -1,7 +1,7 @@
 ---
 layout: post
-title : bugzilla and the crawling chaos
-date  : 2005-10-19T04:31:54Z
+title : "bugzilla and the crawling chaos"
+date  : "2005-10-19T04:31:54Z"
 tags  : ["software", "stupid"]
 ---
 Wow.  Bugzilla.

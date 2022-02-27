@@ -1,7 +1,7 @@
 ---
 layout: post
-title : soul calibur 2 weapons master mode
-date  : 2003-09-03T04:00:00Z
+title : "soul calibur 2 weapons master mode"
+date  : "2003-09-03T04:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "videogame"]
 ---
 I first picked up Soul Calibur so that it would be around when phun and another friend of mine came up to visit and play games.  At first I just thought of it as a sequel to Soul Blade, and I enjoyed the versus mode fighting.

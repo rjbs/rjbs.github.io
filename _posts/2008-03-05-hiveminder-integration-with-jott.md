@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hiveminder integration with jott
-date  : 2008-03-05T21:18:44Z
+title : "hiveminder integration with jott"
+date  : "2008-03-05T21:18:44Z"
 tags  : ["hiveminder", "jott", "perl", "productivity", "programming"]
 ---
 [Jott](http://jott.com) is a really neat service that lets you Do Stuff via

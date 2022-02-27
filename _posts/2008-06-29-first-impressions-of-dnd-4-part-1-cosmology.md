@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first impressions of dnd 4; part 1: cosmology
-date  : 2008-06-29T01:42:55Z
+title : "first impressions of dnd 4; part 1: cosmology"
+date  : "2008-06-29T01:42:55Z"
 tags  : ["dnd", "games", "rpg"]
 ---
 This post may be extremely dorky.  I don't even know how dorky I am, half the

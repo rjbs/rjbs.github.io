@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the city of Alar is finally being explored
-date  : 2011-11-11T00:35:23Z
+title : "the city of Alar is finally being explored"
+date  : "2011-11-11T00:35:23Z"
 tags  : ["rpg-alar", "dnd", "mnm", "rpg"]
 ---
 Absolutely ages ago, I decided I wanted to start running a second D&D game.

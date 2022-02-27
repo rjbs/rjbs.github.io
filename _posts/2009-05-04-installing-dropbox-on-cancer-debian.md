@@ -1,7 +1,7 @@
 ---
 layout: post
-title : installing dropbox on cancer (debian)
-date  : 2009-05-04T02:00:22Z
+title : "installing dropbox on cancer (debian)"
+date  : "2009-05-04T02:00:22Z"
 tags  : ["dropbox", "perl"]
 ---
 I've been using [Dropbox](https://www.getdropbox.com/referrals/NTg4NzQ2OQ)

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : good code, bad politics
-date  : 2004-06-10T02:48:00Z
+title : "good code, bad politics"
+date  : "2004-06-10T02:48:00Z"
 tags  : ["code"]
 ---
 I got a lot of stuff done today:

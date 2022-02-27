@@ -1,8 +1,7 @@
 ---
 layout: post
-title : undebugged javascript
-date  : 2005-01-05T21:25:00Z
-
+title : "undebugged javascript"
+date  : "2005-01-05T21:25:00Z"
 ---
 It makes me sad that MSIE has no useful JScript debugger.  There's a debugger, but it's horrible and approaches useless.  There's also no equivalent to Mozilla's DOM Inspector, which is wildly useful.
 

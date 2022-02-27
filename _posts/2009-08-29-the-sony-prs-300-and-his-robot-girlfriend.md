@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the sony prs-300 and his robot girlfriend
-date  : 2009-08-29T17:43:15Z
+title : "the sony prs-300 and his robot girlfriend"
+date  : "2009-08-29T17:43:15Z"
 tags  : ["book", "ebook", "hardware"]
 ---
 After a few months of slowly edging toward the prospect, yesterday I bought an

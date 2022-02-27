@@ -1,7 +1,7 @@
 ---
 layout: post
-title : recovering from sickness and laziness
-date  : 2006-11-10T15:35:49Z
+title : "recovering from sickness and laziness"
+date  : "2006-11-10T15:35:49Z"
 tags  : ["house"]
 ---
 Shortly after getting back from Florida, I started to get a little sore throat. This quickly blossomed into a seriously sore throat and two swollen, bloodshot eyes.  I usually avoid doctor visits when I think I can wait it out, but I was having a really hard time sleeping, eating, and talking, so Gloria gave me a lift to the weird little EmergiCareClinic or whatever it's called.  The name and concept remind me of something I'd expect in a cyberpunk novel, but I guess that's just because I don't know anything about how normal people get medical care.

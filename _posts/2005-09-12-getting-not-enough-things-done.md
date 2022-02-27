@@ -1,7 +1,7 @@
 ---
 layout: post
-title : getting (not enough) things done
-date  : 2005-09-12T01:58:06Z
+title : "getting (not enough) things done"
+date  : "2005-09-12T01:58:06Z"
 tags  : ["books", "perl", "programming"]
 ---
 Today, we made it through three more episodes of Six Feet Under.  They were good.  We also watched The Man with the Screaming Brain.  Actually, I watched it.  Gloria watched most of it, but then wisely decided to go read instead. It's a lousy movie, and I'm sort of depressed by that.  I did make some progress on some other things, though.

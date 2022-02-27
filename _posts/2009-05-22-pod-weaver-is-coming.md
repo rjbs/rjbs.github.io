@@ -1,7 +1,7 @@
 ---
 layout: post
-title : pod::weaver is coming
-date  : 2009-05-22T23:19:30Z
+title : "pod::weaver is coming"
+date  : "2009-05-22T23:19:30Z"
 tags  : ["perl", "pod", "programming"]
 ---
 Oh.  Actually, [Pod::Weaver](http://search.cpan.org/dist/Pod-Weaver/) is

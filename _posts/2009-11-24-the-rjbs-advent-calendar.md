@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the rjbs advent calendar
-date  : 2009-11-24T05:22:01Z
+title : "the rjbs advent calendar"
+date  : "2009-11-24T05:22:01Z"
 tags  : ["perl", "programming"]
 ---
 Back when I first started learning Perl 5, I was excited to find the [Perl

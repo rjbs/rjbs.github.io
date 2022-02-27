@@ -1,7 +1,7 @@
 ---
 layout: post
-title : publicity, piggies, and prime
-date  : 2005-03-26T03:19:00Z
+title : "publicity, piggies, and prime"
+date  : "2005-03-26T03:19:00Z"
 tags  : ["amazon", "guineapigs", "retail", "rubric"]
 ---
 Ok, the publicity in the title is not publicity for me, and that might be a good thing.

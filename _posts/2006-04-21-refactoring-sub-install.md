@@ -1,7 +1,7 @@
 ---
 layout: post
-title : refactoring sub::install
-date  : 2006-04-21T16:15:35Z
+title : "refactoring sub::install"
+date  : "2006-04-21T16:15:35Z"
 tags  : ["perl", "programming"]
 ---
 I've been doing some reworking in the guts of Sub::Install, trying to steal

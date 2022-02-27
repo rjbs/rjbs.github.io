@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first impressions of ActiveState Stackato
-date  : 2011-08-25T23:52:06Z
+title : "first impressions of ActiveState Stackato"
+date  : "2011-08-25T23:52:06Z"
 tags  : ["cloud", "perl", "programming"]
 ---
 When Heroku started to become popular, I thought it was pretty neat, but not

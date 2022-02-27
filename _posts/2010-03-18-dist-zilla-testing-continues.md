@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla testing continues
-date  : 2010-03-18T03:37:01Z
+title : "Dist::Zilla testing continues"
+date  : "2010-03-18T03:37:01Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 "Hey, look, I wrote some more unit tests!" is about as fun to report as it is

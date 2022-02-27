@@ -1,8 +1,7 @@
 ---
 layout: post
-title : amex, archives, and architecture
-date  : 2005-03-03T18:10:00Z
-
+title : "amex, archives, and architecture"
+date  : "2005-03-03T18:10:00Z"
 ---
 I really like American Express.  I see people posting their "AMEX SUX" pages, but I don't get it.  They've never done anything but treat me right.  Sure, they make a mistake here or there, but they're just fine by me.
 

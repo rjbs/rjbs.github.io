@@ -1,7 +1,7 @@
 ---
 layout: post
-title : desperately seeking dean (and hank)
-date  : 2005-09-15T12:50:31Z
+title : "desperately seeking dean (and hank)"
+date  : "2005-09-15T12:50:31Z"
 tags  : ["tv"]
 ---
 I really like the Venture Brothers.  The show has only fifteen episodes, and I have a TiVo.  This should make it easy to see all of them.  Ha!

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : email::sender::simple is brewing
-date  : 2009-05-15T14:48:30Z
+title : "email::sender::simple is brewing"
+date  : "2009-05-15T14:48:30Z"
 tags  : ["email", "perl", "programming"]
 ---
 If I were going to was introspective, I'd say that one of my best and worst

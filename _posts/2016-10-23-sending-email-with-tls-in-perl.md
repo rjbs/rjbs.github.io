@@ -1,7 +1,7 @@
 ---
 layout: post
-title : sending email with TLS (in Perl)
-date  : 2016-10-23T02:55:36Z
+title : "sending email with TLS (in Perl)"
+date  : "2016-10-23T02:55:36Z"
 tags  : ["email", "perl", "programming"]
 ---
 Every once in a while I hear or see somebody using one of the two obsolete

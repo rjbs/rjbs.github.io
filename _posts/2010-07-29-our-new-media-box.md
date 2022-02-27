@@ -1,7 +1,7 @@
 ---
 layout: post
-title : our new media box
-date  : 2010-07-29T03:21:13Z
+title : "our new media box"
+date  : "2010-07-29T03:21:13Z"
 tags  : ["hardware"]
 ---
 Last week, I was at [OSCON](http://oscon.com/).  I have to write a lot more

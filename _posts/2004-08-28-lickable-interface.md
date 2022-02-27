@@ -1,8 +1,7 @@
 ---
 layout: post
-title : lickable interface
-date  : 2004-08-28T19:23:00Z
-
+title : "lickable interface"
+date  : "2004-08-28T19:23:00Z"
 ---
 I admit it.  I have licked my PowerBook.
 

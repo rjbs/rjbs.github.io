@@ -1,7 +1,7 @@
 ---
 layout: post
-title : organizing documents, no help from adobe
-date  : 2007-06-15T03:21:52Z
+title : "organizing documents, no help from adobe"
+date  : "2007-06-15T03:21:52Z"
 tags  : ["games", "perl", "programming", "rpg"]
 ---
 I've got a bunch of documents that I want to organize, and I didn't want to use some database system, or rely on Spotlight (which I loathe) or anything annoying like that.  I wanted a different set of annoyances.  I wrote a little module (File::LinkTree::Builder) to build a tree of directories based on file metadata leading back to files in a storage area.  So, given (say) my iTunes library, it could build a tree in which I could look up /Rock/80s/Island and find every rock track from Island Records in the 80's.  The module is very simple and it lets you define how to find metadata.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : audible.com itunes stupidity
-date  : 2008-02-04T14:05:09Z
+title : "audible.com itunes stupidity"
+date  : "2008-02-04T14:05:09Z"
 tags  : ["security", "software", "stupid"]
 ---
 Ages ago, I got an [Audible](http://audible.com) membership.  Three days each

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the neighbors moved
-date  : 2008-07-10T15:15:43Z
+title : "the neighbors moved"
+date  : "2008-07-10T15:15:43Z"
 tags  : ["house"]
 ---
 My house is a three home unit.  There are three living units side by side, each with a third of the porch, a third of the yard, and the same amount of space, more or less.  Our unit is at the south end of the house.  For much, much longer than we've lived here, the residents of the north end of the house were unchanged.

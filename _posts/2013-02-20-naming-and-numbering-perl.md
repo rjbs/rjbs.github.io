@@ -1,7 +1,7 @@
 ---
 layout: post
-title : naming and numbering perl
-date  : 2013-02-20T03:21:36Z
+title : "naming and numbering perl"
+date  : "2013-02-20T03:21:36Z"
 tags  : ["perl"]
 ---
 Matt S Trout wrote a very reasonable [suggestion to brand the current Perl 5

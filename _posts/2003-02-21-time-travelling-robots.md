@@ -1,7 +1,7 @@
 ---
 layout: post
-title : time travelling robots
-date  : 2003-02-21T05:00:00Z
+title : "time travelling robots"
+date  : "2003-02-21T05:00:00Z"
 tags  : ["games", "gamesite", "psx", "rpg", "videogame"]
 ---
 So, my wife loves me: she bought me Final Fantasy Chronicles for Valentine's Day.  Since I'm still (intermittantly) replaying FF7, I thought I'd steer clear of FF4 for now and work on the other game in the package: Chrono Trigger.

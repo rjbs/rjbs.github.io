@@ -1,7 +1,7 @@
 ---
 layout: post
-title : YAPC::NA is on YouTube
-date  : 2014-07-02T23:43:47Z
+title : "YAPC::NA is on YouTube"
+date  : "2014-07-02T23:43:47Z"
 tags  : ["perl", "yapc"]
 ---
 

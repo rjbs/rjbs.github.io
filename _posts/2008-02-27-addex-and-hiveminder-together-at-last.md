@@ -1,7 +1,7 @@
 ---
 layout: post
-title : addex and hiveminder, together at last
-date  : 2008-02-27T02:33:06Z
+title : "addex and hiveminder, together at last"
+date  : "2008-02-27T02:33:06Z"
 tags  : ["addex", "email", "hiveminder", "perl", "productivity", "programming"]
 ---
 I've written [too much](http://rjbs.manxome.org/rubric/~rjbs/addex) already

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Books to strand your kids in
-date  : 2014-07-29T22:33:54Z
+title : "Books to strand your kids in"
+date  : "2014-07-29T22:33:54Z"
 tags  : ["rpg"]
 ---
 I made a vague offer to run an RPG for some of the kids in my family's younger

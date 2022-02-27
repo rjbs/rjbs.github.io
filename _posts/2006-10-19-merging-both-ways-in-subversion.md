@@ -1,7 +1,7 @@
 ---
 layout: post
-title : merging both ways in subversion
-date  : 2006-10-19T15:21:52Z
+title : "merging both ways in subversion"
+date  : "2006-10-19T15:21:52Z"
 tags  : ["subversion"]
 ---
 We have had no end of trouble managing branches, lately, and for no clear reason.  This is how we generally introduce a big change:

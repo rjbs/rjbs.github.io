@@ -1,7 +1,7 @@
 ---
 layout: post
-title : refactoring dnd 4e
-date  : 2009-06-15T14:46:57Z
+title : "refactoring dnd 4e"
+date  : "2009-06-15T14:46:57Z"
 tags  : ["dnd", "game", "rpg"]
 ---
 I'm trying to keep up to date with what's going on in the Dungeons & Dragons

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : turkeys and other things we ate today
-date  : 2005-11-25T04:29:51Z
+title : "turkeys and other things we ate today"
+date  : "2005-11-25T04:29:51Z"
 tags  : ["thanksgiving"]
 ---
 Gloria had done a good bit of preparing for the feast over the last few days. I helped just a little.  Today was the big day, though, and it went well.  We got up at quarter to five, this morning, and I was amazed to see a light coating of snow over everything.  It was only on the cars and the trees, though; the roads were just a bit wet.

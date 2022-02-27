@@ -1,8 +1,7 @@
 ---
 layout: post
-title : an open letter to blockbuster
-date  : 2005-01-17T01:07:00Z
-
+title : "an open letter to blockbuster"
+date  : "2005-01-17T01:07:00Z"
 ---
 [ You, dear reader, are getting this before they are.  They'll get it once I LaTeXify it. ]
 

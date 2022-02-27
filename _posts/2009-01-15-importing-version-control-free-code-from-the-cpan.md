@@ -1,7 +1,7 @@
 ---
 layout: post
-title : importing version-control-free code from the cpan
-date  : 2009-01-15T15:39:58Z
+title : "importing version-control-free code from the cpan"
+date  : "2009-01-15T15:39:58Z"
 tags  : ["cpan", "git", "perl", "programming"]
 ---
 I've been meaning to convert some old code, not originally mine, from VCS-free

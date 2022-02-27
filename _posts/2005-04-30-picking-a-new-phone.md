@@ -1,8 +1,7 @@
 ---
 layout: post
-title : picking a new phone
-date  : 2005-04-30T03:24:58Z
-
+title : "picking a new phone"
+date  : "2005-04-30T03:24:58Z"
 ---
 My job has provided me with a phone for the past few years.  It's sort of a piece of crap.  It's a Motorola i90c, one of the Nextel PTT phones.  It's gigantic and has a really lousy set of features, like most of the Nextel phones.  It has a lousy calendar and lousy memopad.  It has a stupid Java environment and a stupid little set of network services.
 

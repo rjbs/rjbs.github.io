@@ -1,7 +1,7 @@
 ---
 layout: post
-title : so long, module list!
-date  : 2014-03-26T14:48:03Z
+title : "so long, module list!"
+date  : "2014-03-26T14:48:03Z"
 tags  : ["cpan", "perl"]
 ---
 There's a file in every CPAN mirror called `03modlist.data` that contains the

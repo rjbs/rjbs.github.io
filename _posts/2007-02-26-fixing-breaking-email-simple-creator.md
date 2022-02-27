@@ -1,7 +1,7 @@
 ---
 layout: post
-title : fixing/breaking email::simple::creator
-date  : 2007-02-26T16:04:46Z
+title : "fixing/breaking email::simple::creator"
+date  : "2007-02-26T16:04:46Z"
 tags  : ["email", "perl", "programming"]
 ---
 Email::Simple::Creator crams a `create` method into Email::Simple.  It lets you

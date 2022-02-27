@@ -1,7 +1,7 @@
 ---
 layout: post
-title : roles, advice, and BUILD in Moose
-date  : 2010-11-05T14:36:18Z
+title : "roles, advice, and BUILD in Moose"
+date  : "2010-11-05T14:36:18Z"
 tags  : ["moose", "perl", "programming"]
 ---
 A very common complaint on `#moose` is, "`BUILD` is broken.  I put `BUILD`

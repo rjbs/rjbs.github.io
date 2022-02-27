@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the definitive racoon thief platformer
-date  : 2003-02-03T05:00:00Z
+title : "the definitive racoon thief platformer"
+date  : "2003-02-03T05:00:00Z"
 tags  : ["games", "gamesite", "platformer", "ps2", "videogame"]
 ---
 This game totally rules.

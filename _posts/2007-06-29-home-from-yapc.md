@@ -1,7 +1,7 @@
 ---
 layout: post
-title : home from yapc!
-date  : 2007-06-29T15:01:41Z
+title : "home from yapc!"
+date  : "2007-06-29T15:01:41Z"
 tags  : ["perl", "yapc"]
 ---
 Well, I got home last night after a day full of travel.  We left the University of Houston around nine o'clock in the morning and I got in my front door around eleven thirty at night, almost ready to collapse into sleep.

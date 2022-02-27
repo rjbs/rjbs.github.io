@@ -1,8 +1,7 @@
 ---
 layout: post
-title : exile draws nigh
-date  : 2004-05-27T03:00:00Z
-
+title : "exile draws nigh"
+date  : "2004-05-27T03:00:00Z"
 ---
 I fly out, Saturday, for my second exile of the year.  I feel like it's really crept up on me.  Tomorrow I'll be helping Brian move, but that shouldn't take all day.  After that, I'm hoping Gloria and I can chill out and do something fun and just be cool.  Friday I'm working again, and then Saturday is mostly free until my flight.  I'm flying out around 2100, so we don't need to leave until the evening.  If all goes well, I'll sleep on the plane as much as possible and slip right into BST.
 

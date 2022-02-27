@@ -1,7 +1,7 @@
 ---
 layout: post
-title : some of my recent coding
-date  : 2005-11-01T22:02:30Z
+title : "some of my recent coding"
+date  : "2005-11-01T22:02:30Z"
 tags  : ["perl", "programming", "work"]
 ---
 I finally released 0.12 of Rubric.  It's not everything it could be, but it's better than nothing.  All of its tests pass, due to a better cleanup routine before testing.  It uses strict in the (pointless) Rubric.pm module, which gets rid of that one black mark on my CPANTS score.  I was really wondering when domm would update the scores, but now I want him to wait until I fix my most recent upload.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Email::Sender and Any::Moose
-date  : 2011-10-31T15:07:08Z
+title : "Email::Sender and Any::Moose"
+date  : "2011-10-31T15:07:08Z"
 tags  : ["email", "perl", "programming"]
 ---
 At YAPC::Asia, I gave my talk [Email Hates the

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : charles proxy is way cool
-date  : 2009-07-04T01:40:06Z
+title : "charles proxy is way cool"
+date  : "2009-07-04T01:40:06Z"
 tags  : ["http", "programming", "tool"]
 ---
 On the recommendation of a friend, I tried out the

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : changing the rules to change the gameplay
-date  : 2014-04-27T03:09:08Z
+title : "changing the rules to change the gameplay"
+date  : "2014-04-27T03:09:08Z"
 tags  : ["perl", "productivity", "programming"]
 ---
 I still use [The Daily Practice](https://tdp.me/) to track the things I'm

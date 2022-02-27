@@ -1,7 +1,7 @@
 ---
 layout: post
-title : cheap dnd miniature substitutes
-date  : 2008-12-28T04:50:29Z
+title : "cheap dnd miniature substitutes"
+date  : "2008-12-28T04:50:29Z"
 tags  : ["dnd", "games"]
 ---
 During my last campaigns, we had no good miniatures.  We used four pawns (more

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : on gold as experience
-date  : 2011-11-16T17:38:48Z
+title : "on gold as experience"
+date  : "2011-11-16T17:38:48Z"
 tags  : ["dnd", "rpg"]
 ---
 Old-school D&D rewards experience for treasure on a 1 GP = 1 XP basis.  I

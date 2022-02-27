@@ -1,7 +1,7 @@
 ---
 layout: post
-title : author tests: no more pointless test failures?
-date  : 2008-02-25T03:41:58Z
+title : "author tests: no more pointless test failures?"
+date  : "2008-02-25T03:41:58Z"
 tags  : ["perl", "programming"]
 ---
 The latest release of CPAN::Mini needs to be replaced, because it contains

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : strange night and being grounded
-date  : 2008-07-30T02:18:02Z
+title : "strange night and being grounded"
+date  : "2008-07-30T02:18:02Z"
 tags  : ["dreams"]
 ---
 Last night I woke up in the middle of the night and Gloria was restless.  She was fidgeting around and I asked what was wrong.  "It's this damn bug in the bed," she said.

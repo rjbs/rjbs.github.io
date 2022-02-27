@@ -1,7 +1,7 @@
 ---
 layout: post
-title : evdo intermission
-date  : 2007-09-24T21:47:28Z
+title : "evdo intermission"
+date  : "2007-09-24T21:47:28Z"
 tags  : ["networking", "phone"]
 ---
 My EVDO modem, the Sierra AirCard 595U, was a piece of junk.  It kernel panicked, for Pete's sake!  I called Sprint, today, to arrange for its return. I think it's a sham that they say that it's compatible with Mac OS, since it seems very problematic on Intel, which is now, I think, all that Apple sells. Worse, it's the only USB EVDO device they sell.

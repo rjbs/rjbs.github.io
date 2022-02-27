@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my last week at iqe
-date  : 2005-05-14T02:00:22Z
+title : "my last week at iqe"
+date  : "2005-05-14T02:00:22Z"
 tags  : ["food", "work"]
 ---
 Jay and Alex were here this week.  I'm exactly clear on the situation, but it's something like this: they're going to be doing development work, but not necessarily Perl stuff, so they're just minding the shop until Perl people are brought in.  Unless, that is, Perl is dropped and no Perl people are brought in.  Time will tell!

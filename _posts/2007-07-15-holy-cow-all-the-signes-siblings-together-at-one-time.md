@@ -1,7 +1,7 @@
 ---
 layout: post
-title : holy cow, all the signes siblings together at one time
-date  : 2007-07-15T02:54:13Z
+title : "holy cow, all the signes siblings together at one time"
+date  : "2007-07-15T02:54:13Z"
 tags  : ["beer", "family"]
 ---
 It's pretty rare that my three siblings and I all get together in one place at one time.  Even the last few Christmases haven't been very successful reunions. Strangely enough, though, everyone was in town this weekend.  Steve was down for a friend's wedding, Heide and Pete were in town just to visit, and Carmita lives here now.  We all went to Kip and Carmita's for some food from the grill, some beer from the fridge, and some strife from the kids.  The kids numbered six: Martha, Martha's cousins Jacob, Anika, and Matthias, and Steve's girlfriend Connie's kids Peter and Francesca.  There was some pushing, yelling, and fighting amongst the kids (except for Martha and Matthias), but for the most part everything was just fine.

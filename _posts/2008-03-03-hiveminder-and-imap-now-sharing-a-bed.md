@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hiveminder and imap, now sharing a bed
-date  : 2008-03-03T23:51:33Z
+title : "hiveminder and imap, now sharing a bed"
+date  : "2008-03-03T23:51:33Z"
 tags  : ["email", "hiveminder", "productivity"]
 ---
 Today, Best Practical announced [IMAP access to

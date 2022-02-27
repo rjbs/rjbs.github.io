@@ -1,7 +1,7 @@
 ---
 layout: post
-title : getsatisfaction makes me angry
-date  : 2009-01-08T17:51:44Z
+title : "getsatisfaction makes me angry"
+date  : "2009-01-08T17:51:44Z"
 tags  : ["hate", "stupid"]
 ---
 I think that Get Satisfaction may be my absolute *least favorite place on the

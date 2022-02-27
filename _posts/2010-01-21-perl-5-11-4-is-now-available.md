@@ -1,7 +1,7 @@
 ---
 layout: post
-title : perl 5.11.4 is now available!
-date  : 2010-01-21T14:15:20Z
+title : "perl 5.11.4 is now available!"
+date  : "2010-01-21T14:15:20Z"
 tags  : ["perl", "programming"]
 ---
 > And you don't suppose that I went into it headlong like a fool? I went

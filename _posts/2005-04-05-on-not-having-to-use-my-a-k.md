@@ -1,7 +1,7 @@
 ---
 layout: post
-title : on not having to use my a-k
-date  : 2005-04-05T02:53:00Z
+title : "on not having to use my a-k"
+date  : "2005-04-05T02:53:00Z"
 tags  : ["perl", "programming", "rubric", "work"]
 ---
 I've got to say, it was a good day.  I got to work and, after finishing my yogurt, I flipped through the bug reports and feature requests on de.lirio.us and put them on my to do list.  There's a user named era who has really been cranking them out.  I ended up with fourteen line items for Rubric and felt somewhat intimidated by the fact that my to do list was half-full at eight in the morning.

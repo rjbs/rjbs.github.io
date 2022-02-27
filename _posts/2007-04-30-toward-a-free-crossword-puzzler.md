@@ -1,7 +1,7 @@
 ---
 layout: post
-title : toward a free crossword puzzler
-date  : 2007-04-30T22:26:26Z
+title : "toward a free crossword puzzler"
+date  : "2007-04-30T22:26:26Z"
 tags  : ["crossword"]
 ---
 Recently, Daniel Jalkut was doing that thing that has, sadly, become pretty

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : good-bye bryar, hello rubric
-date  : 2005-04-06T12:35:35Z
+title : "good-bye bryar, hello rubric"
+date  : "2005-04-06T12:35:35Z"
 tags  : ["bryar", "email", "perl", "programming", "rubric"]
 ---
 Well, I originally meant to use Rubric as a place to keep notes as well as bookmarks, and then I decided it would be a decent journal system, too.  I didn't actually use it for that, though, because it didn't seem worth it.  With a few Bryar annoyances and Bryar looking to be somewhat abandoned, I figured it was time to move.

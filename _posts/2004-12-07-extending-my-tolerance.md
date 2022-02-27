@@ -1,8 +1,7 @@
 ---
 layout: post
-title : extending my tolerance
-date  : 2004-12-07T04:16:00Z
-
+title : "extending my tolerance"
+date  : "2004-12-07T04:16:00Z"
 ---
 I really couldn't stomach the idea of working on the shipping system today, so I opened up the old bug list and looked around.  One that caught my eye was a stupid little bug in the CGI form parser for part of our requirements system. It was having trouble turning a field in the form "FLOAT - FLOAT" into a tolerance -- with Number::Tolerant, that is.
 

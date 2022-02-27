@@ -1,7 +1,7 @@
 ---
 layout: post
-title : mellow day
-date  : 2004-06-27T02:51:00Z
+title : "mellow day"
+date  : "2004-06-27T02:51:00Z"
 tags  : ["perl"]
 ---
 I got up early today and went to the gym with Gloria.  I haven't been there in about two weeks, so I was happy to do an hour worth of cardio stuff.  Tomorrow maybe I'll try to bike for an hour or so.

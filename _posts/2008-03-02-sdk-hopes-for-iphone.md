@@ -1,7 +1,7 @@
 ---
 layout: post
-title : sdk hopes for iphone
-date  : 2008-03-02T13:15:42Z
+title : "sdk hopes for iphone"
+date  : "2008-03-02T13:15:42Z"
 tags  : ["phone"]
 ---
 I haven't made up my mind that I want an iPhone yet, but it really has a lot of

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : getting stuff accomplished, next steps
-date  : 2013-08-17T02:57:49Z
+title : "getting stuff accomplished, next steps"
+date  : "2013-08-17T02:57:49Z"
 tags  : ["productivity", "ywar"]
 ---
 I've got nearly every goal on my big board lit up.  So, now I'm getting into

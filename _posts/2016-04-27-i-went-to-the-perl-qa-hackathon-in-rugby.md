@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I went to the Perl QA Hackathon in Rugby!
-date  : 2016-04-27T02:45:38Z
+title : "I went to the Perl QA Hackathon in Rugby!"
+date  : "2016-04-27T02:45:38Z"
 tags  : ["perl", "programming"]
 ---
 I've long said that the Perl QA Hackathon is my favorite professional event of

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the perl 5.16.0 epigraph
-date  : 2012-05-21T19:21:14Z
+title : "the perl 5.16.0 epigraph"
+date  : "2012-05-21T19:21:14Z"
 tags  : ["perl"]
 ---
 It is traditional for each release of `perl` to be announced with a form letter

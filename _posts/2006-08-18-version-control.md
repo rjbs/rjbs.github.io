@@ -1,7 +1,7 @@
 ---
 layout: post
-title : version control
-date  : 2006-08-18T12:26:57Z
+title : "version control"
+date  : "2006-08-18T12:26:57Z"
 tags  : ["programming"]
 ---
 I moved from CVS to Subversion a few years ago, and to SVK about a year ago. Moving to Subversion was an unqualified success.  Everything is either as good or, usually, better.  It has some quirks, and some things that I'd like to see changed, but it has never caused me to scream or waste much time.

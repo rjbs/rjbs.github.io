@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my stupid CPAN \"meta analyzer\"
-date  : 2015-04-30T04:08:06Z
+title : "my stupid CPAN \"meta analyzer\""
+date  : "2015-04-30T04:08:06Z"
 tags  : ["perl", "programming"]
 ---
 Just about exactly five years ago, I wrote a goofy little program that walked

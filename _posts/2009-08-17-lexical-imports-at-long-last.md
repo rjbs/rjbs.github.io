@@ -1,7 +1,7 @@
 ---
 layout: post
-title : lexical imports at long last
-date  : 2009-08-17T14:16:21Z
+title : "lexical imports at long last"
+date  : "2009-08-17T14:16:21Z"
 tags  : ["perl", "programming"]
 ---
 "Import things to a lexical scope" has been on my todo list for 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : lego star wars
-date  : 2005-06-17T17:13:00Z
+title : "lego star wars"
+date  : "2005-06-17T17:13:00Z"
 tags  : ["games", "lego", "videogame"]
 ---
 ...but first, a note about my location.  I am on the bus to work.  The bus seems to have broken down in some way, and I believe it's the result of driving over a traffic cone.  I'm hoping we'll be moving soon, though.

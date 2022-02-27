@@ -1,8 +1,7 @@
 ---
 layout: post
-title : flip flopping
-date  : 2004-10-11T18:18:00Z
-
+title : "flip flopping"
+date  : "2004-10-11T18:18:00Z"
 ---
 I used to be not allergic to cats, before I became allergic.  Don't vote for me!
 

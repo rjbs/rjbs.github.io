@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my new raid
-date  : 2006-02-01T05:07:09Z
+title : "my new raid"
+date  : "2006-02-01T05:07:09Z"
 tags  : ["hardware", "linux"]
 ---
 Yesterday afternoon, I saw that my Newegg order would be "shipping soon."  I hoped I'd see my drives before Friday.  This morning, I saw that it had shipped.  Not only that, but it had shipped from Edison, New Jersey, and was already out for delivery to my apartment.

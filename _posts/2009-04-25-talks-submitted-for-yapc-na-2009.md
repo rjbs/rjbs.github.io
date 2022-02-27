@@ -1,7 +1,7 @@
 ---
 layout: post
-title : talks submitted for yapc::na::2009
-date  : 2009-04-25T00:56:38Z
+title : "talks submitted for yapc::na::2009"
+date  : "2009-04-25T00:56:38Z"
 tags  : ["perl", "yapc"]
 ---
 I really wanted to do some new talks this year, but no really spectacular new

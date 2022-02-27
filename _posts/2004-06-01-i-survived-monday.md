@@ -1,8 +1,7 @@
 ---
 layout: post
-title : i survived monday
-date  : 2004-06-01T04:02:00Z
-
+title : "i survived monday"
+date  : "2004-06-01T04:02:00Z"
 ---
 I have survived Monday.  It is now Tuesday, just barely.  I'm not really tired enough to sleep, yet, but I will be soon.  I've been watching Total Recall, which is really a much better movie the first time than the fifteenth.  It's amusing how someone can be so traumatized by (mild) lack of pressure that his eyes bug out, but seconds later feel just fine.  He doesn't even have bloodshot eyes.  That's my kind of planetary trauma!
 

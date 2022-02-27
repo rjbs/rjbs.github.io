@@ -1,7 +1,7 @@
 ---
 layout: post
-title : another plea to test and use strict
-date  : 2008-08-07T16:06:02Z
+title : "another plea to test and use strict"
+date  : "2008-08-07T16:06:02Z"
 tags  : ["perl", "programming", "stupid"]
 ---
 A few months ago, I spend a few days (yes, days) rewriting an extremely complex set of procmail programs into modern Perl.  Replacing procmail with Moose? Priceless.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : ical glue trouble
-date  : 2004-05-29T20:23:00Z
+title : "ical glue trouble"
+date  : "2004-05-29T20:23:00Z"
 tags  : ["code"]
 ---
 Why does this work: <pre>   tell application "iCal"<br />

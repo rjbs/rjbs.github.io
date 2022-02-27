@@ -1,7 +1,7 @@
 ---
 layout: post
-title : aol service assistant, slightly better than nothing
-date  : 2007-11-20T03:05:03Z
+title : "aol service assistant, slightly better than nothing"
+date  : "2007-11-20T03:05:03Z"
 tags  : ["aol", "macosx", "perl", "programming", "software", "stupid"]
 ---
 For a long time, my parents have been held hostage by AOL.  AOL, for ages, made

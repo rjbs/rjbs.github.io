@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the speed of Perl file finders
-date  : 2013-01-23T03:16:30Z
+title : "the speed of Perl file finders"
+date  : "2013-01-23T03:16:30Z"
 tags  : ["perl", "programming"]
 ---
 Sometimes you need to walk a directory tree, pick out files, and do stuff.  If

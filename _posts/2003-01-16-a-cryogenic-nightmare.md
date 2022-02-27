@@ -1,7 +1,7 @@
 ---
 layout: post
-title : a cryogenic nightmare
-date  : 2003-01-16T05:00:00Z
+title : "a cryogenic nightmare"
+date  : "2003-01-16T05:00:00Z"
 tags  : ["games", "gamesite", "infocom", "int-fiction", "videogame"]
 ---
 Suspended is without a doubt my favorite piece of interactive fiction.  Not only is it sci-fi, which was not common in the old Infocom games, but it was also a heavily resource planning game.

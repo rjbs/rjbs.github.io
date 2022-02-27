@@ -1,7 +1,7 @@
 ---
 layout: post
-title : writing tiddlywiki plugins is fun
-date  : 2007-06-04T12:44:45Z
+title : "writing tiddlywiki plugins is fun"
+date  : "2007-06-04T12:44:45Z"
 tags  : ["javascript", "programming", "tiddlywiki", "wiki"]
 ---
 I've finished converting all my OmniOutliner and LaTeX notes to TiddlyWiki, and

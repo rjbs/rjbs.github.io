@@ -1,7 +1,7 @@
 ---
 layout: post
-title : paranoia's lost secrets
-date  : 2005-10-04T23:22:50Z
+title : "paranoia's lost secrets"
+date  : "2005-10-04T23:22:50Z"
 tags  : ["games", "paranoia", "rpg"]
 ---
 In preparing to run a role-playing campaign or two, I've been reviewing a lot of old games that I used to enjoy.  I've subjected myself to a lot of really lousy material, but it's been mostly enjoyable.  In fact, half the time it's the extremely lousiness that makes it so much fun.  (It is baffling to consider the likelihood that there exist people who actually like Rifts as it was written.)

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Microscope
-date  : 2013-10-09T20:58:53Z
+title : "Microscope"
+date  : "2013-10-09T20:58:53Z"
 tags  : ["games", "rpg"]
 ---
 A few years ago I heard about the game [Microscope](http://lamemage.com/) and

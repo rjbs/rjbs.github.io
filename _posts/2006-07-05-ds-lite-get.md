@@ -1,7 +1,7 @@
 ---
 layout: post
-title : ds lite get
-date  : 2006-07-05T03:39:59Z
+title : "ds lite get"
+date  : "2006-07-05T03:39:59Z"
 tags  : ["games", "videogame"]
 ---
 Gloria decided, today, that I am so awesome that I deserve an early birthday present.  Who can argue with that kind of reasoning?

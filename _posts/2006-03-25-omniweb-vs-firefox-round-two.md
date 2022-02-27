@@ -1,7 +1,7 @@
 ---
 layout: post
-title : omniweb vs. firefox, round two
-date  : 2006-03-25T15:37:18Z
+title : "omniweb vs. firefox, round two"
+date  : "2006-03-25T15:37:18Z"
 tags  : ["firefox", "omniweb"]
 ---
 I'm not sure if this is really round two, three, or what.  It's not the first time that I've made an attempt to quit OmniWeb for another browser.

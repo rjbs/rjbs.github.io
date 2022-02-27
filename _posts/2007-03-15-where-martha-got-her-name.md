@@ -1,7 +1,7 @@
 ---
 layout: post
-title : where martha got her name
-date  : 2007-03-15T02:53:51Z
+title : "where martha got her name"
+date  : "2007-03-15T02:53:51Z"
 tags  : ["martha"]
 ---
 We've had a lot of people tell us that they really like Martha's name.  I'm not sure whether this is usual and meaningless, but I like to think it's because Martha Josephine is a good name.  It's not weird, it's not boring, and it's classical without being archaic.  Quite a few of my friends asked me how we chose it, so I'm giving a little explanation.

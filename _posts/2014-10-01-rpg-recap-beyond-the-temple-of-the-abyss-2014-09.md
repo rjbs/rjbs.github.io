@@ -1,7 +1,7 @@
 ---
 layout: post
-title : RPG Recap: Beyond the Temple of the Abyss, 2014-09
-date  : 2014-10-01T01:44:03Z
+title : "RPG Recap: Beyond the Temple of the Abyss, 2014-09"
+date  : "2014-10-01T01:44:03Z"
 tags  : ["rpg-beyond", "dnd", "rpg"]
 ---
 ## Monday, 29th day of the Leafy Moon, 937

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : a big ol' Catalyst upgrade
-date  : 2015-10-01T03:45:45Z
+title : "a big ol' Catalyst upgrade"
+date  : "2015-10-01T03:45:45Z"
 tags  : ["perl", "programming"]
 ---
 At [work](https://www.pobox.com), a fair bit of our web stuff is Catalyst.

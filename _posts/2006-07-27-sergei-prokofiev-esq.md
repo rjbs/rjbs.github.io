@@ -1,7 +1,7 @@
 ---
 layout: post
-title : sergei prokofiev, esq.
-date  : 2006-07-27T13:23:58Z
+title : "sergei prokofiev, esq."
+date  : "2006-07-27T13:23:58Z"
 tags  : ["dreams"]
 ---
 I dreamt that Dominus, someone else (though I can't recall who), and I were

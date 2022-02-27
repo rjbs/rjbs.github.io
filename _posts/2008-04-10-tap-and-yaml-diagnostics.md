@@ -1,7 +1,7 @@
 ---
 layout: post
-title : tap and yaml diagnostics
-date  : 2008-04-10T03:48:57Z
+title : "tap and yaml diagnostics"
+date  : "2008-04-10T03:48:57Z"
 tags  : ["perl", "programming", "testing"]
 ---
 For fun, I patched a copy of Test::Builder to do YAML diagnostics, which were

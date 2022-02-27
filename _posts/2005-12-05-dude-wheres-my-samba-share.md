@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dude, where's my samba share?
-date  : 2005-12-05T13:57:35Z
+title : "dude, where's my samba share?"
+date  : "2005-12-05T13:57:35Z"
 tags  : ["network", "stupid"]
 ---
 Last night I was up late doing some preparation for a game today.  I wanted to listen to some music while I worked, but I couldn't get my damn Samba share to mount.  It would wait and wait and wait.  After ten minutes or so, I'd get a message that was pointless, as most Samba errors tend to be, at least on Mac OS.  It was something like, "You can't mount this share because stuff isn't working."

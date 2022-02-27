@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the order of the fletch books
-date  : 2007-03-30T02:10:07Z
+title : "the order of the fletch books"
+date  : "2007-03-30T02:10:07Z"
 tags  : ["books", "fletch"]
 ---
 Just a note to myself, since I always forget: this is the order of the Fletch

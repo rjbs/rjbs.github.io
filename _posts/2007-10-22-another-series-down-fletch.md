@@ -1,7 +1,7 @@
 ---
 layout: post
-title : another series down: fletch
-date  : 2007-10-22T22:05:57Z
+title : "another series down: fletch"
+date  : "2007-10-22T22:05:57Z"
 tags  : ["book", "fletch", "stupid"]
 ---
 Earlier this week, I read the final of the Fletch books.  (Actually, I read the

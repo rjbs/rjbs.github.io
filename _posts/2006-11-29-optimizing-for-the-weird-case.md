@@ -1,7 +1,7 @@
 ---
 layout: post
-title : optimizing for the weird case
-date  : 2006-11-29T03:54:02Z
+title : "optimizing for the weird case"
+date  : "2006-11-29T03:54:02Z"
 tags  : ["email", "perl", "programming"]
 ---
 Holy cow!

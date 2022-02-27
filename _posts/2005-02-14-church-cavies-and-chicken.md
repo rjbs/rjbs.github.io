@@ -1,8 +1,7 @@
 ---
 layout: post
-title : church, cavies, and chicken
-date  : 2005-02-14T01:14:00Z
-
+title : "church, cavies, and chicken"
+date  : "2005-02-14T01:14:00Z"
 ---
 Gloria and I went to the 10:30 Mass this morning.  It was full to the gills with little children.  If the little children to adult ratio had been any higher, I would have suspected that I was among a bunch of Catholics!  It was hard to hear a lot of what was said over the dull roar of crying and muttering. The homily was clear, at least.  It was also fairly good, I thought.  It got bonus points for including the word "obeisance."
 

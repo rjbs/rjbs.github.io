@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla v6 is here (in trial format)
-date  : 2016-04-24T08:38:22Z
+title : "Dist::Zilla v6 is here (in trial format)"
+date  : "2016-04-24T08:38:22Z"
 tags  : ["perl", "programming"]
 ---
 I've been meaning to release Dist::Zilla v6 for quite a while now, but I've

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : roget, svk, wodehouse
-date  : 2004-10-05T02:12:00Z
-
+title : "roget, svk, wodehouse"
+date  : "2004-10-05T02:12:00Z"
 ---
 Today being Monday, I worked from home.  I feel like I didn't have a super-productive day, but I got CGI::Form::Table out there, which is going to be useful in refactoring some old work code and writing some new stuff, so that's good.  I wish the WebCore JS wasn't so stupid about THEAD elements, but I guess I'll get around to finding a workaround sometime.
 

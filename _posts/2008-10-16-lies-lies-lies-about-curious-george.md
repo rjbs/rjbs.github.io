@@ -1,7 +1,7 @@
 ---
 layout: post
-title : lies, lies, lies (about curious george)
-date  : 2008-10-16T13:01:09Z
+title : "lies, lies, lies (about curious george)"
+date  : "2008-10-16T13:01:09Z"
 tags  : ["tv"]
 ---
 From Zap2It's "premise of 'Curious George'":

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : people who shouldn't use irc
-date  : 2006-04-01T05:36:29Z
+title : "people who shouldn't use irc"
+date  : "2006-04-01T05:36:29Z"
 tags  : ["irc", "stupid"]
 ---
 An unedited transcript from `#vim`:

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yet another trek-bashing entry
-date  : 2006-12-19T16:11:00Z
+title : "yet another trek-bashing entry"
+date  : "2006-12-19T16:11:00Z"
 tags  : ["trek", "tv", "writing"]
 ---
 In "Doctor's Orders," Enterprise has to cross through a giant Crazy Cloud (actually, they call it Reconfigured Space, which is just about as silly). Humans who are conscious will suffer brain damage, so Phlox puts them all into comas.  He and T'Pol take care of the ship while it goes through the cloud.

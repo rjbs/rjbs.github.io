@@ -1,8 +1,7 @@
 ---
 layout: post
-title : head first o'reilly hacks fan notebook
-date  : 2004-11-22T14:57:00Z
-
+title : "head first o'reilly hacks fan notebook"
+date  : "2004-11-22T14:57:00Z"
 ---
 I am getting freaking /sick/ of O'Reilly!
 

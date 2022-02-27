@@ -1,7 +1,7 @@
 ---
 layout: post
-title : awful itunes hack for album listening
-date  : 2008-11-26T18:00:58Z
+title : "awful itunes hack for album listening"
+date  : "2008-11-26T18:00:58Z"
 tags  : ["itunes", "perl", "programming"]
 ---
 It's bugged me that iTunes makes it hard to listen to things as albums.  Sure,

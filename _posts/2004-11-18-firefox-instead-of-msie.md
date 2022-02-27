@@ -1,8 +1,7 @@
 ---
 layout: post
-title : firefox instead of msie
-date  : 2004-11-18T15:52:00Z
-
+title : "firefox instead of msie"
+date  : "2004-11-18T15:52:00Z"
 ---
 I'm endeavoring to use Firefox instead of MSIE at work.  There are a number of things that require MSIE on our intranet, but not many, and I've been slowly making sure that all the JavaScript in our internal apps is cross-platform friendly.  (The last WebKit upgrade made that much easier, as it finally decided that yes, THEAD elements are part of the node tree.)
 

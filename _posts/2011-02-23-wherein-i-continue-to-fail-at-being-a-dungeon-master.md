@@ -1,7 +1,7 @@
 ---
 layout: post
-title : wherein I continue to fail at being a dungeon master
-date  : 2011-02-23T03:40:59Z
+title : "wherein I continue to fail at being a dungeon master"
+date  : "2011-02-23T03:40:59Z"
 tags  : ["dnd", "rpg"]
 ---
 In 2005 or so, I started running a science fiction role-playing game, and it

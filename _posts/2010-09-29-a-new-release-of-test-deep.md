@@ -1,7 +1,7 @@
 ---
 layout: post
-title : a new release of Test::Deep
-date  : 2010-09-29T12:33:37Z
+title : "a new release of Test::Deep"
+date  : "2010-09-29T12:33:37Z"
 tags  : ["perl", "programming"]
 ---
 Fergal Daly wrote one of the most fantastically useful testing modules on the  CPAN, [Test::Deep](http://search.cpan.org/dist/Test-Deep/).  If you don't use it, you really should.  It's very powerful and very easy to use.  Fergal  has decided that he can no longer promise enough time to Test::Deep  maintenance, and I'm pleased to report that I have accepted responsibility.

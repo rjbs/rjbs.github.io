@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my yapc schedule
-date  : 2008-05-26T01:25:20Z
+title : "my yapc schedule"
+date  : "2008-05-26T01:25:20Z"
 tags  : ["perl", "yapc"]
 ---
 Andy Lester posted [his YAPC::NA

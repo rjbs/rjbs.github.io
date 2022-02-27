@@ -1,7 +1,7 @@
 ---
 layout: post
-title : trying to be true to amazon
-date  : 2006-08-20T02:14:29Z
+title : "trying to be true to amazon"
+date  : "2006-08-20T02:14:29Z"
 tags  : ["amazon", "retail", "stupid"]
 ---
 I really try to buy things locally whenever reasonable.  I'm willing to pay a

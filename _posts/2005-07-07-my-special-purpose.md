@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my special purpose
-date  : 2005-07-07T03:04:41Z
+title : "my special purpose"
+date  : "2005-07-07T03:04:41Z"
 tags  : ["motivation"]
 ---
 This entry has nothing to do with the fact that the button on my boxers is too small for the buttonhole and should be replaced.

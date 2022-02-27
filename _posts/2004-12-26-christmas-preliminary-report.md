@@ -1,8 +1,7 @@
 ---
 layout: post
-title : christmas, preliminary report
-date  : 2004-12-26T22:49:00Z
-
+title : "christmas, preliminary report"
+date  : "2004-12-26T22:49:00Z"
 ---
 So, I don't want to sound like I think Christmas is a materialistic treasure-hoarding event, but here's my preliminary report:
 <ul>

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : saturday indulgences
-date  : 2005-09-11T02:07:20Z
+title : "saturday indulgences"
+date  : "2005-09-11T02:07:20Z"
 tags  : ["food", "movies"]
 ---
 Today was pretty relaxed, as Saturdays should be.  We split a chocolate coconut milkshake, walked around downtown just a little, and came home to do some DVD watching.  First we watched disc two of season two of Dead Like Me.  It bugs me that they cancelled this show, especially because I'm assuming that the last episode won't wrap things up.  (Please don't tell me, thanks.)

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : johnny cash playing on mexican radio
-date  : 2008-07-13T17:53:43Z
+title : "johnny cash playing on mexican radio"
+date  : "2008-07-13T17:53:43Z"
 tags  : ["music"]
 ---
 I really liked "Mexican Radio," the one hit by one-hit wonder Wall of Voodoo.

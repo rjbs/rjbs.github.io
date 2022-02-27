@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first few xbox games
-date  : 2008-11-24T15:04:33Z
+title : "first few xbox games"
+date  : "2008-11-24T15:04:33Z"
 tags  : ["games", "videogame"]
 ---
 My Xbox 360 came with LEGO Indiana Jones and Kung Fu Panda.   I haven't tried

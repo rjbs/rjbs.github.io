@@ -1,7 +1,7 @@
 ---
 layout: post
-title : nintendo wi-fi: it's no xbox live
-date  : 2006-07-18T01:57:11Z
+title : "nintendo wi-fi: it's no xbox live"
+date  : "2006-07-18T01:57:11Z"
 tags  : ["games", "video"]
 ---
 Gloria gave me a lift to work today, which was really pretty awesome of her.  I got to work about two hours before I would have, taking the ten o'clock bus. What's more, when I got home, she gave me a copy of Tetris DS.  It's a pretty great Tetris.  It's full of crazy Nintendo references, has a bunch of good play modes, and is generally pretty cool.  I mean, it's a Nintendo-branded Tetris on a portable Nintendo system.  Duh!

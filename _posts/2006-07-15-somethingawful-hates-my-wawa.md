@@ -1,8 +1,7 @@
 ---
 layout: post
-title : somethingawful hates my wawa!
-date  : 2006-07-15T01:12:03Z
-
+title : "somethingawful hates my wawa!"
+date  : "2006-07-15T01:12:03Z"
 ---
 Something Awful ran [an
 article](http://www.somethingawful.com/index.php?a=3941) about the national

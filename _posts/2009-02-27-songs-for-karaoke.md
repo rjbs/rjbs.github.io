@@ -1,7 +1,7 @@
 ---
 layout: post
-title : songs for karaoke
-date  : 2009-02-27T15:40:37Z
+title : "songs for karaoke"
+date  : "2009-02-27T15:40:37Z"
 tags  : ["karaoke", "music"]
 ---
 This list was inspired by my buddy Marcelo, who made a [similar

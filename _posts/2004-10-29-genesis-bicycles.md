@@ -1,8 +1,7 @@
 ---
 layout: post
-title : genesis bicycles
-date  : 2004-10-29T18:52:00Z
-
+title : "genesis bicycles"
+date  : "2004-10-29T18:52:00Z"
 ---
 As I believe the kids say, "Mad props due."
 

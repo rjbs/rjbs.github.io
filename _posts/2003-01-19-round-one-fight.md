@@ -1,7 +1,7 @@
 ---
 layout: post
-title : round one.  fight!
-date  : 2003-01-19T05:00:00Z
+title : "round one.  fight!"
+date  : "2003-01-19T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "mk", "videogame"]
 ---
 Most of what I could say will be, pretty much, a repetition of statements already given by the usual suspects.  In brief:

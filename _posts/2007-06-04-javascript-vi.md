@@ -1,7 +1,7 @@
 ---
 layout: post
-title : javascript vi
-date  : 2007-06-04T11:25:38Z
+title : "javascript vi"
+date  : "2007-06-04T11:25:38Z"
 tags  : ["javascript", "vi"]
 ---
 John Cappiello pointed me at this really pretty excellent vi-in-javascript

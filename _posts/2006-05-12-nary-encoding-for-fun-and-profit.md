@@ -1,7 +1,7 @@
 ---
 layout: post
-title : nary encoding for fun and profit
-date  : 2006-05-12T14:52:48Z
+title : "nary encoding for fun and profit"
+date  : "2006-05-12T14:52:48Z"
 tags  : ["perl", "programming"]
 ---
 I got an email from Tom about a problem he was having with Number::Tolerant.

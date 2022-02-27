@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more more cpan metrics
-date  : 2008-11-04T19:06:29Z
+title : "more more cpan metrics"
+date  : "2008-11-04T19:06:29Z"
 tags  : ["cpan", "perl"]
 ---
 As suggested, I have run the code such that a dist's mere appearance on the

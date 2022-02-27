@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Zork Ⅱ
-date  : 2013-02-03T03:15:15Z
+title : "The Great Infocom Replay: Zork Ⅱ"
+date  : "2013-02-03T03:15:15Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 In my memory, before I "came back" to adventure games in the mid-nineties, Zork

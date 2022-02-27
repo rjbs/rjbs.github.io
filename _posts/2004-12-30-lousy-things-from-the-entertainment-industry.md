@@ -1,8 +1,7 @@
 ---
 layout: post
-title : lousy things from the entertainment industry
-date  : 2004-12-30T03:59:00Z
-
+title : "lousy things from the entertainment industry"
+date  : "2004-12-30T03:59:00Z"
 ---
 Racing Stripes - a young girl decides to jockey a zebra, and rides it to victory.  Featuring Steve Harvey and David Spade as the voices of horseflies, one of whom swims around in a human's coffee, farting.  At the Snicket movie, also lousy, the audience laughed.
 

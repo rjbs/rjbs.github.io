@@ -1,7 +1,7 @@
 ---
 layout: post
-title : freemium: the abomination of desolation
-date  : 2014-02-24T15:38:37Z
+title : "freemium: the abomination of desolation"
+date  : "2014-02-24T15:38:37Z"
 tags  : ["games"]
 ---
 I've never been a fan of "freemium," although I understand that game developers

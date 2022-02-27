@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my boot stomping on character builder's face, forever
-date  : 2009-05-03T18:55:54Z
+title : "my boot stomping on character builder's face, forever"
+date  : "2009-05-03T18:55:54Z"
 tags  : ["dnd", "games", "rpg", "software", "stupid"]
 ---
 I write software for a living, and because some of it powers publicly available

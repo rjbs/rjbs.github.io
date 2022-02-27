@@ -1,7 +1,7 @@
 ---
 layout: post
-title : still no repaired macbook
-date  : 2007-10-17T17:24:36Z
+title : "still no repaired macbook"
+date  : "2007-10-17T17:24:36Z"
 tags  : ["apple", "hardware"]
 ---
 Yesterday, I called Double Click, my friendly local repair place, and I said, "Um, what's the deal with my MacBook?  Where is it?"  The guy said, "Oh.  I just left you a message: it's here!"  I was hoping that would be the case.  I left my phone at home, so I got to spend much of the day fantasizing about what kind of awesome voicemails I would have: I'd have won the lottery, my laptop would be in.  Heck, maybe just my brother would be visiting.  Anything!

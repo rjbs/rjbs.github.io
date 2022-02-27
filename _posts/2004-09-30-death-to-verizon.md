@@ -1,8 +1,7 @@
 ---
 layout: post
-title : death to verizon
-date  : 2004-09-30T20:57:00Z
-
+title : "death to verizon"
+date  : "2004-09-30T20:57:00Z"
 ---
 I abandoned Verizon when MCI introduced The Neighborhood.  I'd long wanted unlimited long distance.  "Verizon," I said, "will you do that for me?"  They said, "No."
 

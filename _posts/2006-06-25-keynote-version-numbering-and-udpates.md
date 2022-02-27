@@ -1,7 +1,7 @@
 ---
 layout: post
-title : keynote version numbering and udpates
-date  : 2006-06-25T19:02:31Z
+title : "keynote version numbering and udpates"
+date  : "2006-06-25T19:02:31Z"
 tags  : ["apple", "macosx", "software"]
 ---
 My MacBook came with iWork, and thus Keynote, installed on it.  It was a demo version, so when I bought the full version, I just downloaded a serial number. (I wouldn't have minded getting a copy of the manuals, but the help has been good enough, so far.)

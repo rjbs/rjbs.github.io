@@ -1,8 +1,7 @@
 ---
 layout: post
-title : my speakeasy mug story
-date  : 2007-04-25T00:38:38Z
-
+title : "my speakeasy mug story"
+date  : "2007-04-25T00:38:38Z"
 ---
 A few years ago, I received a plain brown box in the mail. It came from my ISP,
 Speakeasy, and contained a nice Speakeasy-branded mug. There was nothing else

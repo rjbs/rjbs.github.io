@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Perl 5.16.0 is coming soon!
-date  : 2012-04-28T19:23:21Z
+title : "Perl 5.16.0 is coming soon!"
+date  : "2012-04-28T19:23:21Z"
 tags  : ["perl", "programming"]
 ---
 In October 2011, Jesse Vincent [handed me the patch

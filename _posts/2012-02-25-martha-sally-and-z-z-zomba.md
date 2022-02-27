@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Martha, Sally, and Z. Z. Zomba
-date  : 2012-02-25T16:11:47Z
+title : "Martha, Sally, and Z. Z. Zomba"
+date  : "2012-02-25T16:11:47Z"
 tags  : ["martha", "zombies"]
 ---
 Today, in the back yard, Martha told me...

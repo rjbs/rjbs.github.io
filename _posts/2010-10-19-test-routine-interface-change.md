@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Test::Routine interface change
-date  : 2010-10-19T13:51:26Z
+title : "Test::Routine interface change"
+date  : "2010-10-19T13:51:26Z"
 tags  : ["perl", "programming", "testing"]
 ---
 I've been trying to learn more about different patterns people use while

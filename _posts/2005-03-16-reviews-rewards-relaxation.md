@@ -1,8 +1,7 @@
 ---
 layout: post
-title : reviews, rewards, relaxation
-date  : 2005-03-16T03:06:00Z
-
+title : "reviews, rewards, relaxation"
+date  : "2005-03-16T03:06:00Z"
 ---
 I just finished writing some short, so-so <a href='http://abe-pm.manxome.org/wiki/index.cgi?BookLibrary'>reviews</a> on the ABE.pm page.  Dave Cross mentioned that someone at O'Reilly felt that the UG program was underused, so I'm going to try to use it.  I'll see if I can't get some of the other guys to express some opinions on the books, and see if there aren't any nice books coming out for review soon.  (This summer, at least, I can try to get a review copy of Simon's new Advanced Perl Programming.)
 

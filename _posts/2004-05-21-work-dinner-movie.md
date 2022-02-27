@@ -1,8 +1,7 @@
 ---
 layout: post
-title : work, dinner, movie
-date  : 2004-05-21T02:39:00Z
-
+title : "work, dinner, movie"
+date  : "2004-05-21T02:39:00Z"
 ---
 Work was so-so today.  I got some stuff done, including some things that should, I hope, fix some pretty big problems.  I also took on another pretty massive project, but I feel good about my ability to make it work.  I need to put together a little overview about what projects fit where in the big picture.  I think there's some confusion, even on the part of my boss.  I know it's because I haven't bothered being really clear about how I think everything should work.  In the end, nobody really needs to care but the coders.  We're the only ones who'll see the dotted lines separating the projects.
 

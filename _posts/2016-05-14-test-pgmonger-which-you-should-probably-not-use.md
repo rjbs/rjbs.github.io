@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Test::PgMonger, which you should probably not use
-date  : 2016-05-14T17:52:06Z
+title : "Test::PgMonger, which you should probably not use"
+date  : "2016-05-14T17:52:06Z"
 tags  : ["perl", "programming"]
 ---
 [JMAP](http://jmap.io/) is a protocol that is meant to replace IMAP, CalDAV,

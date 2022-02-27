@@ -1,8 +1,7 @@
 ---
 layout: post
-title : rjbs goes blog shopping
-date  : 2008-08-17T01:44:14Z
-
+title : "rjbs goes blog shopping"
+date  : "2008-08-17T01:44:14Z"
 ---
 The canonical source for my journal posts is at rjbs.manxome.org in my Rubric install.  Rubric doesn't do comments, though, and I am really, really not interested in adding that feature.  That's why I syndicate to use.perl.org.
 

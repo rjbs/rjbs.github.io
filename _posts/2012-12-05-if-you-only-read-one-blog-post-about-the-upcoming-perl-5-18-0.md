@@ -1,7 +1,7 @@
 ---
 layout: post
-title : if you only read one blog post about the upcoming perl 5.18.0...
-date  : 2012-12-05T15:39:30Z
+title : "if you only read one blog post about the upcoming perl 5.18.0..."
+date  : "2012-12-05T15:39:30Z"
 tags  : ["perl", "programming"]
 ---
 ...it probably shouldn't be this one.  Instead, go read [Breno G. de Oliveira's

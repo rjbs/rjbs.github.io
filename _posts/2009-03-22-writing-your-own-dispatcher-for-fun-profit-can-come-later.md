@@ -1,7 +1,7 @@
 ---
 layout: post
-title : writing your own dispatcher for fun (profit can come later)
-date  : 2009-03-22T17:10:35Z
+title : "writing your own dispatcher for fun (profit can come later)"
+date  : "2009-03-22T17:10:35Z"
 tags  : ["perl", "programming"]
 ---
 Almost a year ago, [I wrote to p5p asking about overloading the arrow

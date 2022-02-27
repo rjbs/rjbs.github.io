@@ -1,8 +1,7 @@
 ---
 layout: post
-title : bible references, red bull, reading books, being relaxed
-date  : 2005-01-16T18:10:00Z
-
+title : "bible references, red bull, reading books, being relaxed"
+date  : "2005-01-16T18:10:00Z"
 ---
 I just got back from 7-11.  Gloria is having lunch with one of her fellow instructors from the gym, so I decided to slum it up and get a hot dog.  This is also what I did last week when she was at a kickboxing workshop.  I got a "spicy italian sausage" and a can of Red Bull.  The sausage was pretty good, although a little greasy.  It would've been good if patted dry and impaled on a stick.  I had an empty water glass on my desk, so I poured my red bull into it. This was the first time I've really seen red bull, as I usually drink it right from the can.
 

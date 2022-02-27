@@ -1,7 +1,7 @@
 ---
 layout: post
-title : email mime breakage, line breaks, loathing
-date  : 2009-04-30T02:42:52Z
+title : "email mime breakage, line breaks, loathing"
+date  : "2009-04-30T02:42:52Z"
 tags  : ["email", "perl", "programming"]
 ---
 About two weeks ago, Max [reported a bug with

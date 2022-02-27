@@ -1,7 +1,7 @@
 ---
 layout: post
-title : In Soviet Minecraft, server op you!
-date  : 2014-11-29T14:50:40Z
+title : "In Soviet Minecraft, server op you!"
+date  : "2014-11-29T14:50:40Z"
 tags  : ["minecraft", "perl", "programming"]
 ---
 ## Prelude

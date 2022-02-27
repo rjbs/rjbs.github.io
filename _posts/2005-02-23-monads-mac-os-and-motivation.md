@@ -1,8 +1,7 @@
 ---
 layout: post
-title : monads, mac os, and motivation
-date  : 2005-02-23T02:56:00Z
-
+title : "monads, mac os, and motivation"
+date  : "2005-02-23T02:56:00Z"
 ---
 As is too often the case, I feel uninspired to get things done.  I really want to stop being a lump, but I sit and try to work, and I just don't want to.  I can't feel like I have anything to contribute to my own projects, and I feel like if I try to just work through it I will become horribly depressed.
 

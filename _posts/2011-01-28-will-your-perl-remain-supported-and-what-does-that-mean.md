@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Will your perl remain supported -- and what does that mean?
-date  : 2011-01-28T16:11:13Z
+title : "Will your perl remain supported -- and what does that mean?"
+date  : "2011-01-28T16:11:13Z"
 tags  : ["perl", "programming"]
 ---
 Yesterday, I tweeted this:

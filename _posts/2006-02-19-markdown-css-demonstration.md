@@ -1,7 +1,7 @@
 ---
 layout: post
-title : markdown css demonstration
-date  : 2006-02-19T23:52:10Z
+title : "markdown css demonstration"
+date  : "2006-02-19T23:52:10Z"
 tags  : ["rubric"]
 ---
 # ALL ABOUT MARKUP

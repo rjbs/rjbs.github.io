@@ -1,7 +1,7 @@
 ---
 layout: post
-title : testing work on Dist::Zilla to begin
-date  : 2010-03-14T04:24:58Z
+title : "testing work on Dist::Zilla to begin"
+date  : "2010-03-14T04:24:58Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 Guess what I worked on today in Dist::Zilla?  Logging!  I'm beginning to think

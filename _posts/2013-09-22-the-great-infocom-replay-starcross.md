@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Starcross
-date  : 2013-09-22T23:51:31Z
+title : "The Great Infocom Replay: Starcross"
+date  : "2013-09-22T23:51:31Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 Having finished the Zork trilogy, it was time for me to continue on into the

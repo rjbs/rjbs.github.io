@@ -1,7 +1,7 @@
 ---
 layout: post
-title : metroid 3 in review
-date  : 2007-09-04T15:52:06Z
+title : "metroid 3 in review"
+date  : "2007-09-04T15:52:06Z"
 tags  : ["games", "metroid", "videogame"]
 ---
 First, let me say up front that I have not finished Metroid Prime 3: Corruption.  I did what I have done many times before:  I got to the last boss. I fought the last boss to the last phase, came very close to winning, and died. Then I was too frustrated to continue and turned off the game system, meaning that it'll take me at least twenty minutes to make another attempt -- you can't save once you're in the final section, you see.

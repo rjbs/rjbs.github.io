@@ -1,7 +1,7 @@
 ---
 layout: post
-title : where are all my secret characters?
-date  : 2003-09-01T04:00:00Z
+title : "where are all my secret characters?"
+date  : "2003-09-01T04:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "golf", "mario", "videogame"]
 ---
 September 30th was chock full of Mario Golf.  I played 54 holes of tournament mode, followed by a few holes of ring target.  Later that night, some friends came over and we played nine holes of multiplayer and nine of doubles and then some of the coin challenge.  I may have played some more holes that I can't remember, too.

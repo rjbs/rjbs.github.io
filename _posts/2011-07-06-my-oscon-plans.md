@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my OSCON plans
-date  : 2011-07-06T15:16:12Z
+title : "my OSCON plans"
+date  : "2011-07-06T15:16:12Z"
 tags  : ["oscon", "programming", "travel"]
 ---
 I thought I'd post my travel plans, in case anybody else is by some strange

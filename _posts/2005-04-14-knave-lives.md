@@ -1,7 +1,7 @@
 ---
 layout: post
-title : knave lives!
-date  : 2005-04-14T12:38:51Z
+title : "knave lives!"
+date  : "2005-04-14T12:38:51Z"
 tags  : ["apple", "hardware", "repair"]
 ---
 Once I had proven that my laptop would boot and basically run, I ejected the DVD that I'd managed to cram through the misaligned loading slot.  It had a tiny crack in it, which I'm sure it got from being jammed in and pried out.  This was madness!  I wasn't going to go for a year with a disc-breaking optical drive!

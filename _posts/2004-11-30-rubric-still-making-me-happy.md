@@ -1,8 +1,7 @@
 ---
 layout: post
-title : rubric still making me happy
-date  : 2004-11-30T02:49:00Z
-
+title : "rubric still making me happy"
+date  : "2004-11-30T02:49:00Z"
 ---
 I'm happy that I haven't been distracted by some other object, yet.  There are a number of reasons, the most important are probably that I've got a real use for Rubric, I'm taking it slow, and there are a few other people who have requests of it.
 

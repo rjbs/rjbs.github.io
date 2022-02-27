@@ -1,7 +1,7 @@
 ---
 layout: post
-title : old navy pass / fail
-date  : 2008-06-09T00:50:25Z
+title : "old navy pass / fail"
+date  : "2008-06-09T00:50:25Z"
 tags  : ["retail"]
 ---
 So, I finally own a pair of shorts, again.  I owned about four, I think.  I've put on a fair bit of weight (ugh) since I stopped going to the gym, and some of my shorts no longer fit.  One pair lost a button, but was mostly wearable with a belt, and the other pair split up the back while I was doing yardwork.  For weeks, I've been wearing trousers for everything.  I nearly ruined a pair while wearing them to haul and lay down sod.  Ugh!

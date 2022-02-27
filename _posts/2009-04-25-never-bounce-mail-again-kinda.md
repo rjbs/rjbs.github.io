@@ -1,7 +1,7 @@
 ---
 layout: post
-title : never bounce mail again (kinda)
-date  : 2009-04-25T17:25:33Z
+title : "never bounce mail again (kinda)"
+date  : "2009-04-25T17:25:33Z"
 tags  : ["email", "perl", "programming"]
 ---
 I am an idiot.

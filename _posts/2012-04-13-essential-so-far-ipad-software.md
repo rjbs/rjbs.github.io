@@ -1,7 +1,7 @@
 ---
 layout: post
-title : essential (so far) iPad software
-date  : 2012-04-13T21:19:57Z
+title : "essential (so far) iPad software"
+date  : "2012-04-13T21:19:57Z"
 tags  : ["software"]
 ---
 I just got my first receipt for iPad software that I bought since buying my

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : switching to cable modem
-date  : 2007-09-20T01:54:40Z
+title : "switching to cable modem"
+date  : "2007-09-20T01:54:40Z"
 tags  : ["networking", "stupid"]
 ---
 I've been a Speakeasy customer for about seven years now, and a Service Electric TV customer for about as long.  Come next week, though, I will no longer be either.  I am switching to RCN cable TV and cable modem.

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : rubric, reading, and repair
-date  : 2005-03-26T22:42:00Z
-
+title : "rubric, reading, and repair"
+date  : "2005-03-26T22:42:00Z"
 ---
 If you look at the entries in del.icio.us for del.irio.us, you find someone with these tags: { ripoff lame loser sucks bastard plagiarism assclown failure faux false hellalame hellahellalame }.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : obsidian portal and me
-date  : 2009-07-12T03:13:57Z
+title : "obsidian portal and me"
+date  : "2009-07-12T03:13:57Z"
 tags  : ["dnd", "game", "programming", "rpg", "software", "wiki"]
 ---
 A while ago, someone directed me to [Obsidian

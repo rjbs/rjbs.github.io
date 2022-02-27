@@ -1,7 +1,7 @@
 ---
 layout: post
-title : print-ing to UDP sockets: not so good
-date  : 2013-06-28T00:21:16Z
+title : "print-ing to UDP sockets: not so good"
+date  : "2013-06-28T00:21:16Z"
 tags  : ["network", "perl", "programming"]
 ---
 We've been rolling out more and more metrics at work using Graphite and StatsD.

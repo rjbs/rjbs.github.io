@@ -1,8 +1,7 @@
 ---
 layout: post
-title : death to xp sp2
-date  : 2004-08-31T15:34:00Z
-
+title : "death to xp sp2"
+date  : "2004-08-31T15:34:00Z"
 ---
 I've been running the "Prime Number Shitting Bear" at work.
 <pre><code>	http://members.surfeu.fi/kklaine/primebear.html

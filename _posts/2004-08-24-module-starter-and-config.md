@@ -1,7 +1,7 @@
 ---
 layout: post
-title : module-starter and config
-date  : 2004-08-24T00:00:00Z
+title : "module-starter and config"
+date  : "2004-08-24T00:00:00Z"
 tags  : ["code", "perl"]
 ---
 So, I really like Module::Starter.  There are a number of little things in it that bug me, but mostly they only bug me because of the way they're coded or because of the way I want to extend them.  In other words, they're things that wouldn't bother users (I think).

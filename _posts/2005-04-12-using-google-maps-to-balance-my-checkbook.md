@@ -1,7 +1,7 @@
 ---
 layout: post
-title : using google maps to balance my checkbook
-date  : 2005-04-12T17:05:57Z
+title : "using google maps to balance my checkbook"
+date  : "2005-04-12T17:05:57Z"
 tags  : ["google", "maps"]
 ---
 Sometimes, a transaction shows up in my online bank statement that I can't identify.  This is nearly always because it shows up as an address instead of a business name.  Most credit charges show up by name, but debit charges sometimes just say "1234 Street Drive."

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : candelmas, catholicism, and coding
-date  : 2005-02-04T04:33:00Z
-
+title : "candelmas, catholicism, and coding"
+date  : "2005-02-04T04:33:00Z"
 ---
 I haven't been to Mass in quite a while, and I got to thinking that it's a pretty good time to try to start going again.  Tuesday night while Gloria was at yoga practise, I walked over to St. Anne's and checked out the schedule. The church was closed, but I copied down the contents of their display board.
 

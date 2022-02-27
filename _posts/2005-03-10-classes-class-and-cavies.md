@@ -1,8 +1,7 @@
 ---
 layout: post
-title : classes, class, and cavies
-date  : 2005-03-10T02:25:00Z
-
+title : "classes, class, and cavies"
+date  : "2005-03-10T02:25:00Z"
 ---
 Ok, I'll seriously try to lay off the guinea pig news after this update! Snoozer and Wookie seem pretty happy.  We took them out for a joint game of "sit on Rik's chest," and Wookie won.  They both seem happy to let us reach into the cage and pet them, although they still run for the pipes when we walk into view.
 

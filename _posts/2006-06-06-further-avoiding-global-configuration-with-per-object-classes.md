@@ -1,7 +1,7 @@
 ---
 layout: post
-title : further avoiding global configuration with per-object classes
-date  : 2006-06-06T12:14:00Z
+title : "further avoiding global configuration with per-object classes"
+date  : "2006-06-06T12:14:00Z"
 tags  : ["perl", "programming"]
 ---
 Every time I see a package variable used for configuration, I wince and shake my fist. Despite this, I have a number of modules that use globally-defined plugins. Some of these are usually not a big deal, because the modules are almost always going to be used in programs with one object of the class. Module::Starter and Mail::Audit fall into this group. (I don't really think this is a good excuse, but it's a reasonable explanation.)

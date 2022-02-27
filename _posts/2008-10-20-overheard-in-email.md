@@ -1,7 +1,7 @@
 ---
 layout: post
-title : overheard in #email
-date  : 2008-10-20T21:40:29Z
+title : "overheard in #email"
+date  : "2008-10-20T21:40:29Z"
 tags  : ["email", "programming"]
 ---
 Programming email can leave you a bit ... touched.  Here are some recent gems

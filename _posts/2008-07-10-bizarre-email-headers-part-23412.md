@@ -1,7 +1,7 @@
 ---
 layout: post
-title : bizarre email headers, part 23412
-date  : 2008-07-10T20:07:46Z
+title : "bizarre email headers, part 23412"
+date  : "2008-07-10T20:07:46Z"
 tags  : ["email", "wtf"]
 ---
 I see a lot of crazy email content and headers.  I should post more of them,

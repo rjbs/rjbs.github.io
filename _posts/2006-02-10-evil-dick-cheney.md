@@ -1,7 +1,7 @@
 ---
 layout: post
-title : evil dick cheney
-date  : 2006-02-10T11:29:15Z
+title : "evil dick cheney"
+date  : "2006-02-10T11:29:15Z"
 tags  : ["dreams"]
 ---
 I had a weird, bad dream.  On my way home, I saw a couple of mentally disabled people jogging.  One of them fell down and I heard a shot.  Later, I was called in to talk to the police.  It turned out that they had been carrying a gun and accidentally shot someone -- or so everyone thought, including Dick Cheney and his bodyguard, who were there.  For some reason.

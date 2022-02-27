@@ -1,7 +1,7 @@
 ---
 layout: post
-title : notes on drawing programming for children
-date  : 2015-03-22T03:10:54Z
+title : "notes on drawing programming for children"
+date  : "2015-03-22T03:10:54Z"
 tags  : ["programming"]
 ---
 Once in a while, my daughter asks me to teach her programming.  We've done a

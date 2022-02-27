@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more thoughts on mobile phones
-date  : 2007-10-06T01:21:19Z
+title : "more thoughts on mobile phones"
+date  : "2007-10-06T01:21:19Z"
 tags  : ["phone"]
 ---
 So, it's funny that I ended up with a phone that can't iSync, because this

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : generating mailtool configuration with addex
-date  : 2008-02-18T13:52:42Z
+title : "generating mailtool configuration with addex"
+date  : "2008-02-18T13:52:42Z"
 tags  : ["addex", "email", "perl"]
 ---
 I've [complained](http://rjbs.manxome.org/rubric/entry/1414) before about how

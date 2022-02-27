@@ -1,8 +1,7 @@
 ---
 layout: post
-title : i prepare for departure
-date  : 2002-10-20T15:43:00Z
-
+title : "i prepare for departure"
+date  : "2002-10-20T15:43:00Z"
 ---
 I'm just typing this before I check out and head to Heathrow.  Once I'm there, I might write more, if I can find a plug and a cheap adapter.
 

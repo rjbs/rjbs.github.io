@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the new guy
-date  : 2005-08-09T16:22:44Z
+title : "the new guy"
+date  : "2005-08-09T16:22:44Z"
 tags  : ["work"]
 ---
 So, there's a new guy at work.  His name is John, and he is my neighbor.

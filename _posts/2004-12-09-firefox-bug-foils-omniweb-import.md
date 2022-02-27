@@ -1,8 +1,7 @@
 ---
 layout: post
-title : firefox bug foils omniweb import
-date  : 2004-12-09T14:53:00Z
-
+title : "firefox bug foils omniweb import"
+date  : "2004-12-09T14:53:00Z"
 ---
 I don't understand my own modus operandi, but here it is:
 <ol>

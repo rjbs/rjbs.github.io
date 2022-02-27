@@ -1,7 +1,7 @@
 ---
 layout: post
-title : oscon bound
-date  : 2005-08-01T13:32:38Z
+title : "oscon bound"
+date  : "2005-08-01T13:32:38Z"
 tags  : ["convention", "oscon", "perl"]
 ---
 Gloria and I slept in, today.  More accurately, I slept in, and when she got back from working the four to eight a.m. shift at the gym, Gloria got back in bed with me while I finished out my one to ten shift in bed.  She made waffles, I packed, and we went to Mass.  (This morning's Mass was sort of disjointed.  I think we should try for the 10:30 next week.  It is the Cadillac of Masses.)

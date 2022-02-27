@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rcn.com's selfcare center needs help
-date  : 2009-01-30T15:45:29Z
+title : "rcn.com's selfcare center needs help"
+date  : "2009-01-30T15:45:29Z"
 tags  : ["javascript", "stupid"]
 ---
 Some time ago I wrote [an entry about RCN's dumb password

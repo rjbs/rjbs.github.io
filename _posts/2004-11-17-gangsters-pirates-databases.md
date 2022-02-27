@@ -1,8 +1,7 @@
 ---
 layout: post
-title : gangsters, pirates, databases
-date  : 2004-11-17T04:16:00Z
-
+title : "gangsters, pirates, databases"
+date  : "2004-11-17T04:16:00Z"
 ---
 I spent a lot of my weekend playing GTA: San Andreas.  A lot.  Maybe too much. I got to the pleasant part of the game where I had four or five missions available at any given time.  As I recall from Vice City, it's the best part. Once you get to a bottleneck of one or two missions, it gets really frustrating.  There's an extent to which you can just tool around and have fun, but when large sections of the game are still off limits, that gets frustrating.  Anyway, it's staying fun, although I'm still a pretty horrible driver.  I do feel like I'm better this time around than I was in VC.  I'm thinking about sticking Vice City in sometime to see if I can beat any of the missions that I left undone.
 

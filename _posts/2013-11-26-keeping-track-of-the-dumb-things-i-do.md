@@ -1,7 +1,7 @@
 ---
 layout: post
-title : keeping track of the (dumb) things I do
-date  : 2013-11-26T03:39:31Z
+title : "keeping track of the (dumb) things I do"
+date  : "2013-11-26T03:39:31Z"
 tags  : ["productivity", "programming"]
 ---
 Last week, I was thinking about how sometimes I do something I have to do and

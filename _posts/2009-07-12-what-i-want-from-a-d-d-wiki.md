@@ -1,7 +1,7 @@
 ---
 layout: post
-title : what i want from a d&d wiki
-date  : 2009-07-12T19:03:28Z
+title : "what i want from a d&d wiki"
+date  : "2009-07-12T19:03:28Z"
 tags  : ["dnd", "rpg", "software", "wiki"]
 ---
 I want a system in which my players can keep logs of the adventures.  I want

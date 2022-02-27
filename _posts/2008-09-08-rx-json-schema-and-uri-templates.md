@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rx, json schema, and uri templates
-date  : 2008-09-08T04:04:15Z
+title : "rx, json schema, and uri templates"
+date  : "2008-09-08T04:04:15Z"
 tags  : ["programming", "rx", "web"]
 ---
 I got to feeling like maybe JSON Schema was not yet firm enough to give up on,

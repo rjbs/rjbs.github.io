@@ -1,7 +1,7 @@
 ---
 layout: post
-title : one more reason to dislike mutability
-date  : 2011-12-22T04:43:59Z
+title : "one more reason to dislike mutability"
+date  : "2011-12-22T04:43:59Z"
 tags  : ["perl", "programming"]
 ---
 Here is a sample from work IRC today, as I pounded on a weird test failure I'd

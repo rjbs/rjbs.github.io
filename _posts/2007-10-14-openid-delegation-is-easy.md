@@ -1,7 +1,7 @@
 ---
 layout: post
-title : openid delegation is easy!
-date  : 2007-10-14T21:06:10Z
+title : "openid delegation is easy!"
+date  : "2007-10-14T21:06:10Z"
 tags  : ["openid", "perl", "ppw2007"]
 ---
 I'm at the Pittsburgh Perl Workshop this weekend, giving a few talks and listening to a few others.  I'll write more about that later.  Here's the coolest thing I think I've learned so far.

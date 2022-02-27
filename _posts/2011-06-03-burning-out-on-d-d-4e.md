@@ -1,7 +1,7 @@
 ---
 layout: post
-title : burning out on D&D 4E
-date  : 2011-06-03T16:18:37Z
+title : "burning out on D&D 4E"
+date  : "2011-06-03T16:18:37Z"
 tags  : ["dnd", "games", "rpg"]
 ---
 First, I feel like I should make something really clear:  I like D&D 4E.  I

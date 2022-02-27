@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Email::MIME::Kit v3 will fix-and-or-break your code
-date  : 2014-11-21T02:47:38Z
+title : "Email::MIME::Kit v3 will fix-and-or-break your code"
+date  : "2014-11-21T02:47:38Z"
 tags  : ["perl", "programming"]
 ---
 Ever since its early releases, Email::MIME::Kit had a big problem.  It screwed

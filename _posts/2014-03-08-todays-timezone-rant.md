@@ -1,7 +1,7 @@
 ---
 layout: post
-title : today's timezone rant
-date  : 2014-03-08T00:02:27Z
+title : "today's timezone rant"
+date  : "2014-03-08T00:02:27Z"
 tags  : ["perl", "programming", "time"]
 ---
 Everybody knows, I hope, that you have to be really careful when dealing with

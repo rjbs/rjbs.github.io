@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yet another wretched perl tutorial
-date  : 2007-10-09T01:08:09Z
+title : "yet another wretched perl tutorial"
+date  : "2007-10-09T01:08:09Z"
 tags  : ["perl", "programming", "stupid", "tutorial"]
 ---
 Sorry, I mean "PERL tutorial."  I guess there are so many of these that it's

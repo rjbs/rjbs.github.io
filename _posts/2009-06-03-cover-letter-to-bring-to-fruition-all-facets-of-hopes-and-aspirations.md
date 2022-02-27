@@ -1,8 +1,7 @@
 ---
 layout: post
-title : cover letter to bring to fruition all facets of hopes and aspirations
-date  : 2009-06-03T17:51:21Z
-
+title : "cover letter to bring to fruition all facets of hopes and aspirations"
+date  : "2009-06-03T17:51:21Z"
 ---
 Wow.
 

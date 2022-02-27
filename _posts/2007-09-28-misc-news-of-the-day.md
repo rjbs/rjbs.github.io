@@ -1,7 +1,7 @@
 ---
 layout: post
-title : misc. news of the day
-date  : 2007-09-28T03:15:58Z
+title : "misc. news of the day"
+date  : "2007-09-28T03:15:58Z"
 tags  : ["martha", "networking", "phone", "tv"]
 ---
 I have lost my cell phone.  I think John C. thinks this was an excuse to have to get a new one.  In fact, it just sucks.  I'll either have to pay full price or extend my contract, and I have no idea what phone will be tolerable.

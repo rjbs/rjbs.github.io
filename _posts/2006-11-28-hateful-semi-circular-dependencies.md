@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hateful semi-circular dependencies
-date  : 2006-11-28T00:39:26Z
+title : "hateful semi-circular dependencies"
+date  : "2006-11-28T00:39:26Z"
 tags  : ["email", "perl", "programming"]
 ---
 Recently, I've been trying to help do my part to prevent needless memory

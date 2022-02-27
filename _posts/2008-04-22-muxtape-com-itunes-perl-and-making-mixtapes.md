@@ -1,7 +1,7 @@
 ---
 layout: post
-title : muxtape.com, itunes, perl, and making mixtapes
-date  : 2008-04-22T04:11:57Z
+title : "muxtape.com, itunes, perl, and making mixtapes"
+date  : "2008-04-22T04:11:57Z"
 tags  : ["music", "perl", "programming"]
 ---
 [muxtape.com](http://muxtape.com/) is a site where you can build mix tapes by

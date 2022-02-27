@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Behold!  The first useful Dist::Zilla test...
-date  : 2010-03-15T13:26:04Z
+title : "Behold!  The first useful Dist::Zilla test..."
+date  : "2010-03-15T13:26:04Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I've made a [rough

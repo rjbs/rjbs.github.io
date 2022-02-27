@@ -1,7 +1,7 @@
 ---
 layout: post
-title : remarkable behavior of sprintf
-date  : 2009-11-15T19:56:18Z
+title : "remarkable behavior of sprintf"
+date  : "2009-11-15T19:56:18Z"
 tags  : ["c", "perl", "programming"]
 ---
 I've been working on a library for writing sprintf-like routines.  This has led

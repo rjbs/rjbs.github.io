@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Test::Fatal, for simpler exception testing
-date  : 2010-10-25T14:30:45Z
+title : "Test::Fatal, for simpler exception testing"
+date  : "2010-10-25T14:30:45Z"
 tags  : ["perl", "programming", "testing"]
 ---
 Right now, the most popular Perl library for testing code that throws

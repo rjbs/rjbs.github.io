@@ -1,7 +1,7 @@
 ---
 layout: post
-title : fixing my accidentally strict mail rules… or not
-date  : 2014-02-25T01:36:20Z
+title : "fixing my accidentally strict mail rules… or not"
+date  : "2014-02-25T01:36:20Z"
 tags  : ["perl", "productivity", "programming", "ywar"]
 ---
 I recently made some changes to Ywar, my personal goal tracker, and I couldn't

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : passing undef from tt2
-date  : 2004-11-01T17:34:00Z
-
+title : "passing undef from tt2"
+date  : "2004-11-01T17:34:00Z"
 ---
 url: http://template-toolkit.org/pipermail/tt3/2004-March/000050.html
 

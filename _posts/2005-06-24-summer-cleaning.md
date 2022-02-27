@@ -1,8 +1,7 @@
 ---
 layout: post
-title : summer cleaning
-date  : 2005-06-24T01:23:34Z
-
+title : "summer cleaning"
+date  : "2005-06-24T01:23:34Z"
 ---
 My office has been a big mess, especially since all my things from my IQE office invaded it.  I kept meaning to clean it, and finally I put it on my To Do list.  I put it off for a few days, but the shame of writing the same thing over and over on my daily list finally caught up with me and I started cleaning up.  So far, in cleaning out some Really Old boxes from the shelf in the office closet, I have found the following things:
 

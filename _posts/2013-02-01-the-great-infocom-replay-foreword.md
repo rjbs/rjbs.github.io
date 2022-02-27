@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Foreword
-date  : 2013-02-01T14:48:35Z
+title : "The Great Infocom Replay: Foreword"
+date  : "2013-02-01T14:48:35Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 Quite a while ago, I decided that I had too many petty interests, and that I

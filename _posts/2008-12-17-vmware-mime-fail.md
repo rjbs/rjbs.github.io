@@ -1,7 +1,7 @@
 ---
 layout: post
-title : vmware mime fail
-date  : 2008-12-17T17:48:03Z
+title : "vmware mime fail"
+date  : "2008-12-17T17:48:03Z"
 tags  : ["email"]
 ---
 VMware keeps sending me newsletters.  Too bad they're horribly broken MIME.

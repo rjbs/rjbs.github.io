@@ -1,8 +1,7 @@
 ---
 layout: post
-title : itunes must die
-date  : 2006-04-25T23:18:43Z
-
+title : "itunes must die"
+date  : "2006-04-25T23:18:43Z"
 ---
 At first, I wrote this introduction to this entry:
 

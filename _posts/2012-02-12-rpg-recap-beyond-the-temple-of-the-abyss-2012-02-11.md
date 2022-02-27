@@ -1,7 +1,7 @@
 ---
 layout: post
-title : RPG Recap: Beyond the Temple of the Abyss, 2012-02-11
-date  : 2012-02-12T16:43:18Z
+title : "RPG Recap: Beyond the Temple of the Abyss, 2012-02-11"
+date  : "2012-02-12T16:43:18Z"
 tags  : ["rpg-beyond", "dnd", "rpg"]
 ---
 ## Saturday, the 7th day of the Red Moon, 937

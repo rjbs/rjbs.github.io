@@ -1,7 +1,7 @@
 ---
 layout: post
-title : new distribution: mixin-linewise
-date  : 2008-06-07T15:52:07Z
+title : "new distribution: mixin-linewise"
+date  : "2008-06-07T15:52:07Z"
 tags  : ["perl", "programming"]
 ---
 I was almost led astray into the den of releasing a module with a name ending

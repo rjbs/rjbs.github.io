@@ -1,7 +1,7 @@
 ---
 layout: post
-title : small progress with rubric
-date  : 2005-04-11T02:45:46Z
+title : "small progress with rubric"
+date  : "2005-04-11T02:45:46Z"
 tags  : ["perl", "programming", "rubric"]
 ---
 I released 0.08 of Rubric the other day, which had quite a few improvements over 0.06.  There weren't any really major changes, but the little changes added up to, in my opinion, a greatly improved user experience.

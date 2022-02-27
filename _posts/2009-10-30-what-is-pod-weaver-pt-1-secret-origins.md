@@ -1,7 +1,7 @@
 ---
 layout: post
-title : what is pod weaver? (pt. 1: secret origins)
-date  : 2009-10-30T04:54:10Z
+title : "what is pod weaver? (pt. 1: secret origins)"
+date  : "2009-10-30T04:54:10Z"
 tags  : ["perl", "pod", "programming"]
 ---
 One or two people who write Pod regularly said, "Yeah, I saw you blogging about

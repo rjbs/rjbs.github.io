@@ -1,7 +1,7 @@
 ---
 layout: post
-title : our text editors, our secret masters
-date  : 2008-10-08T12:33:37Z
+title : "our text editors, our secret masters"
+date  : "2008-10-08T12:33:37Z"
 tags  : ["editor", "programming"]
 ---
 Ever wonder how much of our programming style is dictated by our desire to see the right pretty colors?  In Perl, I think it's a good bit.

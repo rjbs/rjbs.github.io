@@ -1,7 +1,7 @@
 ---
 layout: post
-title : padwalking, paperwork, and productivity
-date  : 2005-03-29T20:56:00Z
+title : "padwalking, paperwork, and productivity"
+date  : "2005-03-29T20:56:00Z"
 tags  : ["perl", "productivity", "programming", "pvoice", "xbox"]
 ---
 First, a question.  When I run this code:

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : My Appendix N
-date  : 2012-04-06T15:31:46Z
+title : "My Appendix N"
+date  : "2012-04-06T15:31:46Z"
 tags  : ["dnd"]
 ---
 The original AD&D Dungeon Master's Guide is often considered one of the best

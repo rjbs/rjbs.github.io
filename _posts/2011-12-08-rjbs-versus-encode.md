@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rjbs versus Encode
-date  : 2011-12-08T05:08:32Z
+title : "rjbs versus Encode"
+date  : "2011-12-08T05:08:32Z"
 tags  : ["email", "perl", "programming"]
 ---
 What a day!  I kept really busy.  I did some good (I think) refactoring of some

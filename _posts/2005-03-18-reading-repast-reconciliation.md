@@ -1,8 +1,7 @@
 ---
 layout: post
-title : reading, repast, reconciliation
-date  : 2005-03-18T00:23:00Z
-
+title : "reading, repast, reconciliation"
+date  : "2005-03-18T00:23:00Z"
 ---
 I'm not getting much reading done at all, lately, which is no good, since I really need to finish and return the library book I have out.  It's due on Monday!  I hope I can get another renewal.
 

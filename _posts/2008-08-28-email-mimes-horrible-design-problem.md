@@ -1,7 +1,7 @@
 ---
 layout: post
-title : email::mime's horrible design problem
-date  : 2008-08-28T18:30:07Z
+title : "email::mime's horrible design problem"
+date  : "2008-08-28T18:30:07Z"
 tags  : ["email", "perl", "programming"]
 ---
 ...or at least the problem that came to light recently.

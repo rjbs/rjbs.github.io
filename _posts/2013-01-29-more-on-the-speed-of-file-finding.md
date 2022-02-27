@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more on the speed of file finding
-date  : 2013-01-29T03:33:15Z
+title : "more on the speed of file finding"
+date  : "2013-01-29T03:33:15Z"
 tags  : ["perl", "programming"]
 ---
 Last week I wrote about [the speed of Perl file

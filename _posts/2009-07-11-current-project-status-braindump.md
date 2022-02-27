@@ -1,7 +1,7 @@
 ---
 layout: post
-title : current project status braindump
-date  : 2009-07-11T18:40:52Z
+title : "current project status braindump"
+date  : "2009-07-11T18:40:52Z"
 tags  : ["perl", "productivity", "programming"]
 ---
 Lately, I have a lot going on.  I think I need to recalibrate my "very busy"

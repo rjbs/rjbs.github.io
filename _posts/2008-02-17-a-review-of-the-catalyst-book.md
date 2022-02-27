@@ -1,7 +1,7 @@
 ---
 layout: post
-title : a review of the catalyst book
-date  : 2008-02-17T02:28:55Z
+title : "a review of the catalyst book"
+date  : "2008-02-17T02:28:55Z"
 tags  : ["book", "perl", "programming", "review"]
 ---
 In the index for "Catalyst" book, you'll find no entry for model, controller, action, dispatch, or ActionClass.  These are some of the most fundamental concepts in Catalyst.

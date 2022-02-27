@@ -1,7 +1,7 @@
 ---
 layout: post
-title : platforming with link
-date  : 2003-03-26T05:00:00Z
+title : "platforming with link"
+date  : "2003-03-26T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "videogame", "zelda"]
 ---
 Yesterday was my second "No Work, Just Zelda" day, and it was good.  I didn't make as much plot-based progress as I had the day before; I only beat one temple.  Instead, I spent nearly the whole day mapping the gameworld.  Think about that:  I spent hours sailing thea sea and drawing maps of the islands. In the process, I found a few heart container pieces, which was good.

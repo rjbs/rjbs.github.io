@@ -1,7 +1,7 @@
 ---
 layout: post
-title : improving our doors
-date  : 2006-12-15T14:11:40Z
+title : "improving our doors"
+date  : "2006-12-15T14:11:40Z"
 tags  : ["house"]
 ---
 We had an electrician out last week, and we've gotten just about all of our electrical work done.  We still have our crappy old front porch light, as the one we got wasn't going to be a suitable replacement.  We found another one to use, but I haven't picked it up yet.  Instead, we got some more smoke detectors, a fire extinguisher for the kitchen, and a new doorknob.  I really like the knobs we picked; we're planning to use them in all the interior doors. They're brushed nickel, lever-style knobs.  (There are photos on Flickr.)

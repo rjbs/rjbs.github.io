@@ -1,7 +1,7 @@
 ---
 layout: post
-title : last entry before yapc
-date  : 2006-06-25T02:05:39Z
+title : "last entry before yapc"
+date  : "2006-06-25T02:05:39Z"
 tags  : ["perl", "travel", "yapc"]
 ---
 Tomorrow begins my trip to YAPC::NA::2006.  I'm really looking forward to this year's YAPC.  The talks look exceptionally interesting, and I'm going to be giving on myself.  I've been spending a lot of time poking at it and poking at the code I'm presenting (Sub::Exporter), deciding what things I feel like trying to show off.

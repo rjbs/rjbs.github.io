@@ -1,7 +1,7 @@
 ---
 layout: post
-title : perl 5.10 assertions: friend or foe?
-date  : 2007-05-30T22:19:40Z
+title : "perl 5.10 assertions: friend or foe?"
+date  : "2007-05-30T22:19:40Z"
 tags  : ["perl", "programming"]
 ---
 I've been writing mini-articles about some of 5.10's new features for ABE.pm, this past week.  It's been fun, and I've learned a few things that I didn't know in the process.  The feature that I knew the least before covering it, so far, has been assertions.  Assertions let you have code that only runs if some set of assertions are enabled.  It's something like this:

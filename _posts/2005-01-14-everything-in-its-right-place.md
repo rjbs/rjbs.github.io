@@ -1,7 +1,7 @@
 ---
 layout: post
-title : everything in its right place
-date  : 2005-01-14T12:52:00Z
+title : "everything in its right place"
+date  : "2005-01-14T12:52:00Z"
 tags  : ["apple", "computers", "home", "macosx"]
 ---
 Visitors to my apartment may be astounded to learn that there are no longer any CDs, DVDs, or video games piled on the floor.  Gloria has long been saying that we needed to get them into shelves, and I finally got around to taking her advice.  I ordered three "Atlantic Oskar Multimedia Storage System" units from racksandstands.com, and we've installed the first two.

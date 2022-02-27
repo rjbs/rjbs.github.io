@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hilarious bug visible in perl 5.10.1's perldoc
-date  : 2009-10-28T15:33:19Z
+title : "hilarious bug visible in perl 5.10.1's perldoc"
+date  : "2009-10-28T15:33:19Z"
 tags  : ["perl", "pod"]
 ---
 There's a bug in, I think, Pod::Simple.  It's been fixed, and affects only one release of the perl distribution: 5.10.1.  Its effect is really amusing, though.

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : I took some time off!
-date  : 2019-08-12T02:27:48Z
-
+title : "I took some time off!"
+date  : "2019-08-12T02:27:48Z"
 ---
 With a lot of PTO hours piled up, leave accounting somewhat in flux at work,
 and [MoMA](https://www.moma.org/) incredibly closed until *October*, I resolved

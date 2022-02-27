@@ -1,7 +1,7 @@
 ---
 layout: post
-title : a new zsh prompt
-date  : 2006-03-28T05:03:43Z
+title : "a new zsh prompt"
+date  : "2006-03-28T05:03:43Z"
 tags  : ["zsh"]
 ---
 I was looking into some `zsh` functionality today and decided it was time to

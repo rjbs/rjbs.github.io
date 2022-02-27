@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rubric v0.10 released; plans for v0.12
-date  : 2005-06-02T01:23:27Z
+title : "rubric v0.10 released; plans for v0.12"
+date  : "2005-06-02T01:23:27Z"
 tags  : ["perl", "programming", "rubric"]
 ---
 I released 0.10 last night, and I felt pretty good about it being free of major stupid bugs.  So far, I have only found two major-ish stupid bugs, so I'm not feeling too bad about that.  I thought I'd totally consolidated all checking for validity of a tagstring to one place, but I was wrong.  When getting a query-by-tags from the URI, I'm using outdated logic, which means that tags with hyphens in them are still invalid.  I probably wouldn't have noticed this, if I hadn't wanted to look up my int-fiction links for Thomas, today.

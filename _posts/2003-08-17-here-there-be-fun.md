@@ -1,7 +1,7 @@
 ---
 layout: post
-title : here there be fun!
-date  : 2003-08-17T04:00:00Z
+title : "here there be fun!"
+date  : "2003-08-17T04:00:00Z"
 tags  : ["games", "gamesite", "videogame"]
 ---
 I don't like any of the MMORPG's that I've seen.  Some of them look like they'd be fun games, but most of them are full of idiots who seem to want to "win." Given that an MMORPG is usually designed to be unwinnable, this leads to idiocy.  On MU*'s, we'd call these people twinks.  Their goal wasn't to play the game as it was designed (as a place to play for fun) but to play to "win," which generally meant "to get more powers and stuff than anyone else."

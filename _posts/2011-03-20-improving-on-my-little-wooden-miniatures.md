@@ -1,7 +1,7 @@
 ---
 layout: post
-title : improving on my little wooden \"miniatures\"
-date  : 2011-03-20T23:47:28Z
+title : "improving on my little wooden \"miniatures\""
+date  : "2011-03-20T23:47:28Z"
 tags  : ["dnd", "rpg"]
 ---
 A few years ago, I wrote about [cheap wooden discs as D&D

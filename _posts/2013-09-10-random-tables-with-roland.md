@@ -1,7 +1,7 @@
 ---
 layout: post
-title : random tables with Roland
-date  : 2013-09-10T12:42:54Z
+title : "random tables with Roland"
+date  : "2013-09-10T12:42:54Z"
 tags  : ["dnd", "perl", "programming", "rpg"]
 ---
 This post is tagged `programming` *and* `dnd`.  I don't get to do that often,

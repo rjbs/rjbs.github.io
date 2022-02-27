@@ -1,8 +1,7 @@
 ---
 layout: post
-title : We went to New York!
-date  : 2012-08-29T00:37:17Z
-
+title : "We went to New York!"
+date  : "2012-08-29T00:37:17Z"
 ---
 Last week, Gloria, Martha, and I took our first official family vacation.  It
 was great!

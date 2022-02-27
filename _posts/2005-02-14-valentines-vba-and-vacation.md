@@ -1,8 +1,7 @@
 ---
 layout: post
-title : valentine's, vba, and ... vacation?
-date  : 2005-02-14T20:29:00Z
-
+title : "valentine's, vba, and ... vacation?"
+date  : "2005-02-14T20:29:00Z"
 ---
 It's Valentine's Day!  That's all I have to say about it so far.  Tonight, Gloria and I are going to go to Ichiban for sushi, and I am looking forward to it, especially after today.
 

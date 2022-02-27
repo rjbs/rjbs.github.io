@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dear lazyweb: looking for a little nas/router combo
-date  : 2009-04-05T17:38:37Z
+title : "dear lazyweb: looking for a little nas/router combo"
+date  : "2009-04-05T17:38:37Z"
 tags  : ["hardware", "lazyweb", "programming"]
 ---
 I'm getting ready to write up events of the Birmingham QA Hackathon.  One of

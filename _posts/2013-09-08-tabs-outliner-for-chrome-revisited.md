@@ -1,8 +1,7 @@
 ---
 layout: post
-title : Tabs Outliner for Chrome revisited
-date  : 2013-09-08T16:29:42Z
-
+title : "Tabs Outliner for Chrome revisited"
+date  : "2013-09-08T16:29:42Z"
 ---
 Earlier this year, I [lamented the state of "workspaces" in
 Chrome](http://rjbs.manxome.org/rubric/entry/1980).  I said that I'd settled on

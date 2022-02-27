@@ -1,7 +1,7 @@
 ---
 layout: post
-title : note to self: salary requirements up front
-date  : 2008-08-11T14:34:41Z
+title : "note to self: salary requirements up front"
+date  : "2008-08-11T14:34:41Z"
 tags  : ["dreams"]
 ---
 Last night, I dreamed that I quit my job to return to work at my previous employer.  There would be lots of ups and downs to this, the two most important of which would be that I'd be closer to home and that I'd be developing in Visual Studio and its suite of languages.  I got to my office, and it was pretty high-tech.  I don't remember just why, but the computer was running some evolved version of Windows that looked sort of Blackbox-y.  (I used to run Blackbox on Win32, there.)  My fellow developers and I shared a nice office space.

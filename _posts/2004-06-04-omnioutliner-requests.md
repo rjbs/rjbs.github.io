@@ -1,8 +1,7 @@
 ---
 layout: post
-title : omnioutliner requests
-date  : 2004-06-04T02:30:00Z
-
+title : "omnioutliner requests"
+date  : "2004-06-04T02:30:00Z"
 ---
 I'm sure the OmniOutliner guys read my journal, so I'm going to note some requests here.
 

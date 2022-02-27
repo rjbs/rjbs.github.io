@@ -1,7 +1,7 @@
 ---
 layout: post
-title : logging changes in Dist::Zilla were not complete
-date  : 2010-03-12T04:15:10Z
+title : "logging changes in Dist::Zilla were not complete"
+date  : "2010-03-12T04:15:10Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 In short, there was just too much copy and paste.  It wasn't really trivial,

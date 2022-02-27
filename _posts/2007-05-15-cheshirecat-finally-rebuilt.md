@@ -1,7 +1,7 @@
 ---
 layout: post
-title : cheshirecat finally rebuilt
-date  : 2007-05-15T03:12:53Z
+title : "cheshirecat finally rebuilt"
+date  : "2007-05-15T03:12:53Z"
 tags  : ["linux"]
 ---
 I've long been meaning to install a new operating system and services on my home server, cheshirecat.  Mostly it only exists to host my big old RAID that stores ~rjbs, my MP3's, and a few other personal things.  It used to host my website, the primary MX for manxome.org, and some other important things, so replacing it was going to be a pain.  Still, it was running Slackware 7, dating from 1999, and it had only been patchily upgraded here and there.

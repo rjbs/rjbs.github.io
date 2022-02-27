@@ -1,7 +1,7 @@
 ---
 layout: post
-title : disincentivizing free software 
-date  : 2009-05-30T14:05:02Z
+title : "disincentivizing free software "
+date  : "2009-05-30T14:05:02Z"
 tags  : ["programming", "stupid"]
 ---
 I got this message:

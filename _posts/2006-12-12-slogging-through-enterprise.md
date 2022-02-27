@@ -1,7 +1,7 @@
 ---
 layout: post
-title : slogging through enterprise
-date  : 2006-12-12T02:50:20Z
+title : "slogging through enterprise"
+date  : "2006-12-12T02:50:20Z"
 tags  : ["startrek", "tv"]
 ---
 Every once in a while I hear about how good Enterprise got by the end.  I watched the first season a year or two ago, and it was so-so, but had some pretty good episodes.  I'm working through the second season, now, and it's consistently mediocre.  It's also got the most bizarre sexual overtones.  In the episode I'm watching now, Stigma, there are two plots.  In one, it turns out that T'Pol was mind meld raped by a Vulcan gay and has contracted Vulcan brain AIDS.  Vulcan doctors are out to end her career, so Archer and T'Pol go have a Philadelphia-style trial where the gay judge doctor stands up and says, "I am a Vulcan gay!"  Well, actually he says something like, "I am a member of that minority which practices a different form of intimacy, due to either birth or genetics; it isn't clear."

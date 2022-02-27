@@ -1,7 +1,7 @@
 ---
 layout: post
-title : final report on 2010Q1 TPF grant work for Dist::Zilla
-date  : 2010-05-04T18:36:17Z
+title : "final report on 2010Q1 TPF grant work for Dist::Zilla"
+date  : "2010-05-04T18:36:17Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 Here's the meaningless top-level lines-of-code changes performed during my

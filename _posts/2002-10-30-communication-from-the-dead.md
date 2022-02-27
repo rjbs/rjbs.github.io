@@ -1,8 +1,7 @@
 ---
 layout: post
-title : communication from the dead
-date  : 2002-10-30T05:00:00Z
-
+title : "communication from the dead"
+date  : "2002-10-30T05:00:00Z"
 ---
 Well, thanks to mdxi's mirror, I've just read the letter left behind by the man who shot his professors in Arizona.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : running late, the author recounts recent dreams
-date  : 2007-09-07T23:07:26Z
+title : "running late, the author recounts recent dreams"
+date  : "2007-09-07T23:07:26Z"
 tags  : ["bus", "dreams"]
 ---
 Normally, I take the 17:15 bus from Philadelphia, and it gets me to Bethlehem around 19:10.  On Fridays, traffic is worse, and its arrival is closer to 19:30.  I'm writing this at 18:50, and we've just now gotten off the streets of downtown Philadelphia.  We spent about ninety minutes sitting on Walnut Street, doing nothing.  A cab driver insisted that the bus hit him, but couldn't show much or any damage.  Despite this, and despite exchanging insurance information, he was not going to let us go.  He demanded that we wait for his insurance agent.  The bus driver was livid and the other passengers exasperated.  I was just disappointed that I'd be getting home in time for nearly no time with Martha before she starts heading to bed.

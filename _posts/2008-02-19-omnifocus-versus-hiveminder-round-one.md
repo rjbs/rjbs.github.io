@@ -1,7 +1,7 @@
 ---
 layout: post
-title : omnifocus versus hiveminder: round one
-date  : 2008-02-19T04:16:09Z
+title : "omnifocus versus hiveminder: round one"
+date  : "2008-02-19T04:16:09Z"
 tags  : ["hiveminder", "omnifocus", "productivity", "review"]
 ---
 The first thing I really had to do in order to start giving Hiveminder a try

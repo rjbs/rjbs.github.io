@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hearts were entertaining june
-date  : 2008-10-08T01:13:44Z
+title : "hearts were entertaining june"
+date  : "2008-10-08T01:13:44Z"
 tags  : ["hardware", "stupid"]
 ---
 I feel like I'm living in Brazil.  No, not the nation, the film.

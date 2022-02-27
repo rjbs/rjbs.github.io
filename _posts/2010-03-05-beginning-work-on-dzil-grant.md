@@ -1,7 +1,7 @@
 ---
 layout: post
-title : beginning work on dzil grant!
-date  : 2010-03-05T04:18:09Z
+title : "beginning work on dzil grant!"
+date  : "2010-03-05T04:18:09Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I proposed [a grant for Dist::Zilla

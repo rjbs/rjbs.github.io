@@ -1,7 +1,7 @@
 ---
 layout: post
-title : continuing raid saga
-date  : 2006-02-01T15:25:06Z
+title : "continuing raid saga"
+date  : "2006-02-01T15:25:06Z"
 tags  : ["hardware", "linux"]
 ---
 Last night, I was complaining that it was going to take six forevers to build my RAID.  This morning, it was still going, and expecting over a day to complete.  I whined about this to Dieter, who was similarly perplexed.  He asked a few questions, including, "Well, of course you're using DMA, right?"

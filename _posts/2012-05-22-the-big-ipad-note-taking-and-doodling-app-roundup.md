@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the big iPad note-taking-and-doodling app roundup
-date  : 2012-05-22T03:16:47Z
+title : "the big iPad note-taking-and-doodling app roundup"
+date  : "2012-05-22T03:16:47Z"
 tags  : ["dnd", "ipad", "software"]
 ---
 Ever since I got my iPad, I've felt like it should be possible to use it to

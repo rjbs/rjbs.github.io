@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the nintendo zapper is just fine
-date  : 2008-02-16T18:53:44Z
+title : "the nintendo zapper is just fine"
+date  : "2008-02-16T18:53:44Z"
 tags  : ["review", "videogame"]
 ---
 For St. Valentine's Day, Gloria gave me a [Nintendo

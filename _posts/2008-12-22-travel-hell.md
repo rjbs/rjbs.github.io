@@ -1,8 +1,7 @@
 ---
 layout: post
-title : travel hell
-date  : 2008-12-22T13:44:04Z
-
+title : "travel hell"
+date  : "2008-12-22T13:44:04Z"
 ---
 The plan, yesterday, was (all times shown in Eastern):
 

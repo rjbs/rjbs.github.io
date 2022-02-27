@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the rpg is dead; long live the rpg
-date  : 2008-12-10T04:42:01Z
+title : "the rpg is dead; long live the rpg"
+date  : "2008-12-10T04:42:01Z"
 tags  : ["dnd", "games", "rpg"]
 ---
 I don't mean "the RPG" in general is dead.  I mean that the game I've been running, the ABE RPG, has come to an end.  We first met on October 15, 2005, meaning that the game ran for over three years.  Wow!

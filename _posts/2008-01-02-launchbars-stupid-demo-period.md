@@ -1,7 +1,7 @@
 ---
 layout: post
-title : launchbar's stupid demo period
-date  : 2008-01-02T14:56:23Z
+title : "launchbar's stupid demo period"
+date  : "2008-01-02T14:56:23Z"
 tags  : ["macosx", "software", "stupid"]
 ---
 [hide](http://blogs.sackheads.org/hide/) recently told me that he'd moved from

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my new daily agenda emails
-date  : 2013-09-04T01:27:46Z
+title : "my new daily agenda emails"
+date  : "2013-09-04T01:27:46Z"
 tags  : ["productivity", "ywar"]
 ---
 I've finally finished (for now, anyway) another hunk of code in my ever-growing

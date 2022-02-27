@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Horror Movie Month 2014
-date  : 2014-11-11T16:19:01Z
+title : "Horror Movie Month 2014"
+date  : "2014-11-11T16:19:01Z"
 tags  : ["movies"]
 ---
 Last year, I forgot to write up our horror movie watching until about eleven

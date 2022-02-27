@@ -1,7 +1,7 @@
 ---
 layout: post
-title : new app cmd interface finally released
-date  : 2008-09-15T12:30:59Z
+title : "new app cmd interface finally released"
+date  : "2008-09-15T12:30:59Z"
 tags  : ["perl", "programming"]
 ---
 One of the earliest libraries I wrote for Pobox is ICG::CLI.  It makes it easy to write CLI programs by tying together Getopt::Long::Descriptive with some common options (like help and verbose) and a few bits of code to make them work.  So, you got three routines, `whisper`, `say`, and `yell`, which were like `printf`, but respected the verbose and quiet flags.  (This got refactored into Log::Speak, which I don't think was ever released.  Oh well.)

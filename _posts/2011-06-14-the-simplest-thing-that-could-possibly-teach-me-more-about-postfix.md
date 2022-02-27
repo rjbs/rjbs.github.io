@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the simplest thing that could possibly teach me more about postfix
-date  : 2011-06-14T23:01:31Z
+title : "the simplest thing that could possibly teach me more about postfix"
+date  : "2011-06-14T23:01:31Z"
 tags  : ["perl", "postfix", "programming"]
 ---
 Earlier today, I tweeted:

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : death to wallpaper
-date  : 2006-10-23T14:31:20Z
+title : "death to wallpaper"
+date  : "2006-10-23T14:31:20Z"
 tags  : ["house"]
 ---
 This weekend, my brother was in town and offered to help me with some house work.  I took almost all of his aid in the form of wallpaper removal.  I got some scrapers, a paper tiger, a few spray bottles, and two gallons of vinegar. As things stand now, the third floor is mostly depapered, except for some hard-to-reach areas high above the stairwell.  I would say that on average, Steve was about ten times as productive as I was.

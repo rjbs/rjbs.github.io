@@ -1,8 +1,7 @@
 ---
 layout: post
-title : third time's the charm?
-date  : 2007-02-22T00:50:17Z
-
+title : "third time's the charm?"
+date  : "2007-02-22T00:50:17Z"
 ---
 Today, I got my learner's permit (again).  It's the paperwork I need to have in order to be allowed to drive in the company of someone else, and I need it before I can apply for a driver's license.
 

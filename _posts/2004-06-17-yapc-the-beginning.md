@@ -1,8 +1,7 @@
 ---
 layout: post
-title : yapc: the beginning
-date  : 2004-06-17T05:04:00Z
-
+title : "yapc: the beginning"
+date  : "2004-06-17T05:04:00Z"
 ---
 What a long, long day it's been!
 

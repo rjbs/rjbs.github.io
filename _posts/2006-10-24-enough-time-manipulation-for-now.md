@@ -1,7 +1,7 @@
 ---
 layout: post
-title : enough time manipulation for now
-date  : 2006-10-24T03:11:33Z
+title : "enough time manipulation for now"
+date  : "2006-10-24T03:11:33Z"
 tags  : ["calendar", "perl", "rpg"]
 ---
 I might go ahead and write a few tests, just to ensure that everything that I

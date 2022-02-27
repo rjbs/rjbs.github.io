@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yapc, day zero
-date  : 2006-06-26T04:02:07Z
+title : "yapc, day zero"
+date  : "2006-06-26T04:02:07Z"
 tags  : ["travel", "yapc"]
 ---
 John and Gloria and I got waffles this morning.  They were good.  From there, we started our trip: down to the Philly airport, over to O'Hare, cross town to IIT.  This was all pretty standard, with a few ups and downs.  As the three of us (John, Dieter, and I) struggled to decide what kind of CTA pass to buy, and how to buy it, a few random tourists on their way out of Chicago stopped and asked us if we wanted their remaining day's worth of tourist pass.  There were three of them, and we said yes.  That saved us about $15 and a good bit of time.  On the way to our train, I found a phone change return full of quarters. (Yes, I compulsively check them for change, I admit it.)

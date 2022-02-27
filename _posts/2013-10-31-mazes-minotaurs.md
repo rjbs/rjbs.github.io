@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Mazes & Minotaurs
-date  : 2013-10-31T03:06:50Z
+title : "Mazes & Minotaurs"
+date  : "2013-10-31T03:06:50Z"
 tags  : ["mnm", "rpg"]
 ---
 Over a decade ago, Paul Elliott wrote a tiny piece of counterfactual history

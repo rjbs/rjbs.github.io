@@ -1,7 +1,7 @@
 ---
 layout: post
-title : consolidating email::mime
-date  : 2009-11-03T22:57:42Z
+title : "consolidating email::mime"
+date  : "2009-11-03T22:57:42Z"
 tags  : ["email", "perl", "programming"]
 ---
 Originally, Email::MIME was part of the big initiative to make email modules

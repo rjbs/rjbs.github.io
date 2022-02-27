@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Throwable::X: common behavior for thrown exceptions
-date  : 2010-10-19T15:05:06Z
+title : "Throwable::X: common behavior for thrown exceptions"
+date  : "2010-10-19T15:05:06Z"
 tags  : ["perl", "programming"]
 ---
 When I first wrote about

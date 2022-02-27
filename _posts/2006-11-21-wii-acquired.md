@@ -1,7 +1,7 @@
 ---
 layout: post
-title : wii acquired
-date  : 2006-11-21T22:52:58Z
+title : "wii acquired"
+date  : "2006-11-21T22:52:58Z"
 tags  : ["games", "videogame"]
 ---
 I had thought that I'd just pre-order a Wii from Amazon and not worry about it. Then they failed to ever inform me of any pre-order periods, which filled up quickly and didn't include me.  The local video game places only took pre-orders if you'd agree to buy a pile of games.  When the weekend came, I figured I'd be willing to wait a few hours in line, but not overnight.

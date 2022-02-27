@@ -1,7 +1,7 @@
 ---
 layout: post
-title : So, I bought an iPad.
-date  : 2012-04-09T21:49:13Z
+title : "So, I bought an iPad."
+date  : "2012-04-09T21:49:13Z"
 tags  : ["apple", "hardware"]
 ---
 For a long time, I had no interest in an iPad, especially for $500.  Mostly I

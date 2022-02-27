@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my own templating engine
-date  : 2005-12-11T03:46:05Z
+title : "my own templating engine"
+date  : "2005-12-11T03:46:05Z"
 tags  : ["perl", "programming"]
 ---
 It had to happen eventually, didn't it?

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rjbs vs. the perl email project
-date  : 2006-02-02T04:44:30Z
+title : "rjbs vs. the perl email project"
+date  : "2006-02-02T04:44:30Z"
 tags  : ["email", "perl", "programming"]
 ---
 I really like the Perl Email Project, in theory.  Lately it's been getting my goat, due to weird interfaces, backwards compatibility glitches, and one particularly troublesome bug.

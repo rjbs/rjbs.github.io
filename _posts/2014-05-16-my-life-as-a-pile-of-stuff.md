@@ -1,8 +1,7 @@
 ---
 layout: post
-title : my life as a pile of stuff
-date  : 2014-05-16T02:17:27Z
-
+title : "my life as a pile of stuff"
+date  : "2014-05-16T02:17:27Z"
 ---
 I took this photo of my desk the other day:
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : class dbi community explosion
-date  : 2005-08-01T18:46:14Z
+title : "class dbi community explosion"
+date  : "2005-08-01T18:46:14Z"
 tags  : ["cdbi", "culture", "dbi", "perl", "programming"]
 ---
 Well, I suppose it was just a matter of time before I said something about this.  I love Class::DBI, I use it all the time, it makes me happy, and it had a very good mailing list community.  For a while, Tony had been taking flak for not having released a new Class::DBI.  He got more and more defensive about it, so the peanut gallery got more and more demanding.

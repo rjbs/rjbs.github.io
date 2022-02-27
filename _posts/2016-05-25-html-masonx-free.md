@@ -1,8 +1,7 @@
 ---
 layout: post
-title : HTML::MasonX::Free
-date  : 2016-05-25T01:45:18Z
-
+title : "HTML::MasonX::Free"
+date  : "2016-05-25T01:45:18Z"
 ---
 Who's ready to live in the past?  Me!
 

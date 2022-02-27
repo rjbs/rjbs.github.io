@@ -1,7 +1,7 @@
 ---
 layout: post
-title : please write tests
-date  : 2006-05-30T19:53:00Z
+title : "please write tests"
+date  : "2006-05-30T19:53:00Z"
 tags  : ["perl", "programming"]
 ---
 This weekend, a few of the friends I've made through work came to Bethlehem to

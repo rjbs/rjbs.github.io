@@ -1,7 +1,7 @@
 ---
 layout: post
-title : managing GitHub Issues labels
-date  : 2013-09-06T23:14:55Z
+title : "managing GitHub Issues labels"
+date  : "2013-09-06T23:14:55Z"
 tags  : ["github", "perl", "programming"]
 ---
 I've been slowly switching all my code projects to use GitHub's bug tracking

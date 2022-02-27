@@ -1,8 +1,7 @@
 ---
 layout: post
-title : oscon is over
-date  : 2004-07-31T04:52:00Z
-
+title : "oscon is over"
+date  : "2004-07-31T04:52:00Z"
 ---
 I slept later today than I have all week.  Well, I stayed in bed longer, anyway.  Staying in bed when you could get up is a strange thing.  Sometimes, you feel incredibly relaxed, and sometimes you just feel lazy and bored.  Once I started to go from relaxed to lazy, I got up and headed down to the lobby, without time for my usual muffin-and-juice breakfast.  I headed right to the keynotes, which were not very interesting.  The first keynote was a presentation of some incredible software for relating and browsing geo-locational data.  While the software was wild, the talk was tame, and I felt like it was too easy to get distracted by my laptop screen.  Of course, I can't entirely blame the speaker, but I guess he was mostly interested in showing off the technology, and not talk about the ramifications of the freedom of his data.  In fact, I'm still not sure what parts were free and what (if any) were not.
 

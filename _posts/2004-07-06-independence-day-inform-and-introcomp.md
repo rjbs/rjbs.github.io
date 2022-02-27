@@ -1,8 +1,7 @@
 ---
 layout: post
-title : independence day, inform, and introcomp
-date  : 2004-07-06T03:13:00Z
-
+title : "independence day, inform, and introcomp"
+date  : "2004-07-06T03:13:00Z"
 ---
 Yesterday was pretty good, but not very holidayriffic.  We mostly hung out, went to the mall, watched some TV, and relaxed.  We took my mom to Perkin's for pie, and my pie (apple caramel pie) was good.  I had ice cream, too.  We had some corn dogs for dinner, and they were tasty.
 

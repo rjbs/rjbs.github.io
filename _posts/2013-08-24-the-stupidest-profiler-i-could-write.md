@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the stupidest profiler I could write
-date  : 2013-08-24T03:10:22Z
+title : "the stupidest profiler I could write"
+date  : "2013-08-24T03:10:22Z"
 tags  : ["perl", "programming"]
 ---
 There's a stupid program I rewrite every few months.  It goes like this:

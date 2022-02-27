@@ -1,7 +1,7 @@
 ---
 layout: post
-title : D&D Edition Synopsis: Monster Blocks
-date  : 2011-04-01T22:49:19Z
+title : "D&D Edition Synopsis: Monster Blocks"
+date  : "2011-04-01T22:49:19Z"
 tags  : ["dnd"]
 ---
 Recently, I made a daily agenda for myself.  Each day of the week, I spend a good part of my "free" time working on something important to me, like maintaining my free software, reading my queue of books, or working on my D&D games.  This has been really helpful, and on the D&D front, I've been getting a lot of thinking done about the changes that Dungeons and Dragons has gone through over the years.  I'm not a hardcore fan of any particular edition.  There are things I like about each of them.  I've been thinking about trying to write a really comprehensive explanation of what I do and don't like, but I don't think that's really going to happen.

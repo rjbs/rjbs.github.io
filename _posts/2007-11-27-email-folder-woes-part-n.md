@@ -1,7 +1,7 @@
 ---
 layout: post
-title : email::folder woes (part n)
-date  : 2007-11-27T23:44:55Z
+title : "email::folder woes (part n)"
+date  : "2007-11-27T23:44:55Z"
 tags  : ["email", "perl", "programming", "stupid"]
 ---
 I mumbled something about Email::Folder hating me, today, but I was too busy to

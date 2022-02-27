@@ -1,7 +1,7 @@
 ---
 layout: post
-title : google calendar
-date  : 2006-04-14T03:08:29Z
+title : "google calendar"
+date  : "2006-04-14T03:08:29Z"
 tags  : ["free", "software"]
 ---
 Someone I know wrote something like this in his blog, this week:

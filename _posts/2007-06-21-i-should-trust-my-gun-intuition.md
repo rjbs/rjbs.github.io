@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i should trust my gun intuition
-date  : 2007-06-21T14:44:15Z
+title : "i should trust my gun intuition"
+date  : "2007-06-21T14:44:15Z"
 tags  : ["gun"]
 ---
 I just finished watching the first season of Jericho, this week.  It has made me think that I should turn my cistern into a shelter and stock up on weapons. I thought, "maybe it's time to get that Yugo SKS that I've been thinking about."

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more \"security question\" stupidity
-date  : 2010-06-27T23:48:20Z
+title : "more \"security question\" stupidity"
+date  : "2010-06-27T23:48:20Z"
 tags  : ["security", "stupid", "yahoo"]
 ---
 I just needed to create a Yahoo! account for someone who wanted to be able to

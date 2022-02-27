@@ -1,7 +1,7 @@
 ---
 layout: post
-title : kwiki kampfen
-date  : 2005-08-01T13:33:04Z
+title : "kwiki kampfen"
+date  : "2005-08-01T13:33:04Z"
 tags  : ["kwiki", "perl", "programming", "wiki"]
 ---
 I made some remarks like this on #perl recently:  Every time I make a new Kwiki, I dislike it because it has no features.  Then I install a few plugins, and I like it a little, because it's nearly what I need.  Then I decide to write a few plugins to add the last few features I want, and I hate Kwiki because I realize that I need to deal with some part of plugin writing that isn't documented, even on the Kwiki Kwiki.  Finally, I get things working and I love Kwiki because I have conquered it.  The thing is, I want to love it because writing plugins is so easy, not because it's an ordeal that I can survive.

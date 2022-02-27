@@ -1,7 +1,7 @@
 ---
 layout: post
-title : transcoding stuff to play on Roku
-date  : 2011-04-09T19:32:28Z
+title : "transcoding stuff to play on Roku"
+date  : "2011-04-09T19:32:28Z"
 tags  : ["programming", "tool", "video"]
 ---
 A few weeks ago, I was near my wits end with our XBMC box.  XBMC itself seemed pretty good, but the hardware I had it running on wasn't so great, and one complication after another just made it a pain.  What I'd wanted when I set the box up was something less annoying than trying to play video over pseudo-UPnP stuff supported by XBox or PS3.  My XBMC setup wasn't quite living up to that.

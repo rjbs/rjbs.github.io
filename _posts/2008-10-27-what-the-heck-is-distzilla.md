@@ -1,7 +1,7 @@
 ---
 layout: post
-title : what the heck is distzilla?
-date  : 2008-10-27T15:58:02Z
+title : "what the heck is distzilla?"
+date  : "2008-10-27T15:58:02Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 At the Pittsburgh Perl Workshop this year, I gave a [lightning talk about

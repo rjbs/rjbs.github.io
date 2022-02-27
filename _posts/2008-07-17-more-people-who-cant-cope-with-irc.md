@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more people who can't cope with irc
-date  : 2008-07-17T20:36:27Z
+title : "more people who can't cope with irc"
+date  : "2008-07-17T20:36:27Z"
 tags  : ["irc", "stupid"]
 ---
 If you can't handle even this light amount of attitude, you probably should

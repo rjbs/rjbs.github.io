@@ -1,7 +1,7 @@
 ---
 layout: post
-title : integrating Ywar with Goodreads
-date  : 2014-02-18T01:37:51Z
+title : "integrating Ywar with Goodreads"
+date  : "2014-02-18T01:37:51Z"
 tags  : ["perl", "productivity", "programming", "reading", "ywar"]
 ---
 [Ywar](https://github.com/rjbs/Ywar) is a little piece of productivity software

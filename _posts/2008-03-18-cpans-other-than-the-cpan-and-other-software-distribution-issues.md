@@ -1,7 +1,7 @@
 ---
 layout: post
-title : cpans other than the cpan and other software distribution issues
-date  : 2008-03-18T03:10:33Z
+title : "cpans other than the cpan and other software distribution issues"
+date  : "2008-03-18T03:10:33Z"
 tags  : ["perl", "programming"]
 ---
 One of our current projects at work involves streamlining the way we deploy

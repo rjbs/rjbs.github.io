@@ -1,7 +1,7 @@
 ---
 layout: post
-title : omnifocus versus hiveminder: the prelude
-date  : 2008-02-15T03:38:50Z
+title : "omnifocus versus hiveminder: the prelude"
+date  : "2008-02-15T03:38:50Z"
 tags  : ["hiveminder", "omnifocus", "productivity", "software"]
 ---
 A million (alternately, five) years ago, when I was working at IQE, I got sick

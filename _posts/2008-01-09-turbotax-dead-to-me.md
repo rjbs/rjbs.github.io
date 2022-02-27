@@ -1,7 +1,7 @@
 ---
 layout: post
-title : turbotax: dead to me
-date  : 2008-01-09T03:54:28Z
+title : "turbotax: dead to me"
+date  : "2008-01-09T03:54:28Z"
 tags  : ["security", "stupid"]
 ---
 I've been working on changing the way my mailflow works, mostly so that I can

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : abe.pm lives... almost
-date  : 2004-10-12T02:32:00Z
-
+title : "abe.pm lives... almost"
+date  : "2004-10-12T02:32:00Z"
 ---
 Today was to be the first ABE.pm meeting in six months.  I got to Lehigh just a few minutes before seven, and at ten after, I was still alone.  I called Phil, who I knew was en route, and he said we probably shouldn't expect Jim or Steve. In other words, it was just Phil and I.
 

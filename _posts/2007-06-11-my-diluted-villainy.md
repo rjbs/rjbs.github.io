@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my diluted villainy
-date  : 2007-06-11T01:11:02Z
+title : "my diluted villainy"
+date  : "2007-06-11T01:11:02Z"
 tags  : ["gloria", "movies"]
 ---
 Tonight, we (mostly I) watched The African Queen, one of the three movies left

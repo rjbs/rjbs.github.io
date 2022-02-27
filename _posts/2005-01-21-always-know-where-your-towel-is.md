@@ -1,8 +1,7 @@
 ---
 layout: post
-title : always know where your towel is
-date  : 2005-01-21T03:16:00Z
-
+title : "always know where your towel is"
+date  : "2005-01-21T03:16:00Z"
 ---
 Tonight, I knew where my towel was.  It was on the third hook from the shower entrance.  That's the one directly over the plug and one to the right.  It was there when I went into the shower, hung on top of my locker key.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Notes from YAPC in Austin
-date  : 2013-07-01T14:34:59Z
+title : "Notes from YAPC in Austin"
+date  : "2013-07-01T14:34:59Z"
 tags  : ["perl", "yapc"]
 ---
 *I'm posting this much later than I started writing it.  I thought I'd get back

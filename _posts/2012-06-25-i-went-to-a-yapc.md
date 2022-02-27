@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I went to a YAPC!
-date  : 2012-06-25T15:01:52Z
+title : "I went to a YAPC!"
+date  : "2012-06-25T15:01:52Z"
 tags  : ["perl", "yapc"]
 ---
 Earlier this month, I was at [YAPC::NA](http://yapcna.org/) in Madison,

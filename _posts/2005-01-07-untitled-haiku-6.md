@@ -1,7 +1,7 @@
 ---
 layout: post
-title : untitled haiku 6
-date  : 2005-01-07T15:15:00Z
+title : "untitled haiku 6"
+date  : "2005-01-07T15:15:00Z"
 tags  : ["haiku"]
 ---
 staring at my screen  

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more mysql things that make you go hmmm
-date  : 2007-06-21T12:31:25Z
+title : "more mysql things that make you go hmmm"
+date  : "2007-06-21T12:31:25Z"
 tags  : ["mysql", "stupid"]
 ---
 I know that there's a MySQL 5 out.  I do.  It's just that upgrading a big

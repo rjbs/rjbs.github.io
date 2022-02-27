@@ -1,7 +1,7 @@
 ---
 layout: post
-title : new distribution: data-section
-date  : 2008-06-08T00:18:54Z
+title : "new distribution: data-section"
+date  : "2008-06-08T00:18:54Z"
 tags  : ["perl", "programming"]
 ---
 I've, uh, been writing a lot of new general-purpose modules this week. This happens sometimes when I suddenly find myself writing a new program and I want to reuse mostly generic tricks that I wrote into an old program. I split a lot of things out of Rubric, eventually, and now I'm splitting things off of this and that. I broke Config::INI::MVP::Reader out of App::Addex::Config, Mixin::Linewise out of Config::INI, and this next module out of Software::License -- although it's something I've done in other ways, before.

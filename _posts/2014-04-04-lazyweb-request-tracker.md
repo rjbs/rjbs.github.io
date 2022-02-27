@@ -1,8 +1,7 @@
 ---
 layout: post
-title : lazyweb request tracker
-date  : 2014-04-04T03:22:59Z
-
+title : "lazyweb request tracker"
+date  : "2014-04-04T03:22:59Z"
 ---
 I like using [Remember the Milk](https://www.rememberthemilk.com/).  It's a to
 do list tracker.  I use it for lots of little one-off tasks (blog ideas, games

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I played Ogre!
-date  : 2014-06-01T02:22:53Z
+title : "I played Ogre!"
+date  : "2014-06-01T02:22:53Z"
 tags  : ["games"]
 ---
 [Steve Jackson](http://www.sjgames.com/) is a famous game designer and his

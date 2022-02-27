@@ -1,8 +1,7 @@
 ---
 layout: post
-title : a bad day for fingers
-date  : 2008-02-04T03:27:27Z
-
+title : "a bad day for fingers"
+date  : "2008-02-04T03:27:27Z"
 ---
 Earlier today, I shaved my face.  At one point during the routine, I noticed that a lot of hair had collected under the blade and wasn't rinsing out. Rather than wipe perpendicular to the blade, I tried to clear the razor by running my index finger across it.  What was I thinking?  I didn't even draw blood, but I have a nice slice across my fingertip now.
 

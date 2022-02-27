@@ -1,7 +1,7 @@
 ---
 layout: post
-title : grumpy on christmas
-date  : 2005-12-26T04:42:38Z
+title : "grumpy on christmas"
+date  : "2005-12-26T04:42:38Z"
 tags  : ["christmas"]
 ---
 I'm feeling pretty grumpy, which is pretty much the exact opposite of the way I'd like to be feeling around bedtime on Christmas.  I blame the Marquis Theater in Easton.

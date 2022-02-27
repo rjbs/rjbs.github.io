@@ -1,7 +1,7 @@
 ---
 layout: post
-title : an open letter to my state representative
-date  : 2008-02-25T22:53:49Z
+title : "an open letter to my state representative"
+date  : "2008-02-25T22:53:49Z"
 tags  : ["booze", "pennsylvania", "rant"]
 ---
 Rep. Samuelson:

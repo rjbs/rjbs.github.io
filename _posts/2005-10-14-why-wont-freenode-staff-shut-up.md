@@ -1,7 +1,7 @@
 ---
 layout: post
-title : why won't freenode staff shut up?
-date  : 2005-10-14T23:01:00Z
+title : "why won't freenode staff shut up?"
+date  : "2005-10-14T23:01:00Z"
 tags  : ["irc", "stupid"]
 ---
 Seriously, if I ever go 48 hours without seeing a global notice on freenode IRC, I think I will fall over in disbelief.

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : thanksgiving and annoyance
-date  : 2004-11-27T01:51:00Z
-
+title : "thanksgiving and annoyance"
+date  : "2004-11-27T01:51:00Z"
 ---
 Thanksgiving was great, despite several attempts by Fate and Me to screw things up.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : changing jobs!
-date  : 2005-04-29T23:29:31Z
+title : "changing jobs!"
+date  : "2005-04-29T23:29:31Z"
 tags  : ["work"]
 ---
 Well, after about four and a half years, I am leaving IQE.  That's a pretty impressive stint, I think, for a job I started as a temp.  I was hired to make Excel charts, and I ended up sticking around to write a lot of Perl.  I had a lot of good time and a lot of bad times, but finally I just needed to get out of there.  I think my enthusiasm was gradually ground down to a point from which I'm not sure it could've recovered, and I feel that's it's better for me to go, now, than to try and stay.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my love/hate relationship with javascript
-date  : 2004-08-30T19:43:00Z
+title : "my love/hate relationship with javascript"
+date  : "2004-08-30T19:43:00Z"
 tags  : ["code", "javascript"]
 ---
 Last week, I got TT2, CGI::Application, Class::DBI, and Number::Tolerant all engaging in wonderful harmony.  It turned out, by the way, that I didn't need any kind of magic trigger to catch strings and convert them before they hit the database.  It's more like this:  my class has some fields that are inflated into tolerance objects.  I can assign tolerances to them, and their stringification is stored to the database.  When Class::DBI finds that stringification, it knows how to turn it back into an object.  The beauty is that I can just assign a stringification directly.  When I access it, I get the "inflated" version back.  I had thought I needed to inflate it before assigning, but I was wrong.  All I needed to to, to preserve my sanity, was to put a constraint on the column that only tolerances, valid strings, and undef were allowed to be set.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I rewrote uni
-date  : 2014-10-21T14:49:48Z
+title : "I rewrote uni"
+date  : "2014-10-21T14:49:48Z"
 tags  : ["perl", "programming", "unicode"]
 ---
 For years, I've used [Audrey Tang's uni](https://metacpan.org/pod/App::Uni)

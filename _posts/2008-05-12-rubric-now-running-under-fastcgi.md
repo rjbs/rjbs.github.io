@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rubric now running under fastcgi
-date  : 2008-05-12T02:58:29Z
+title : "rubric now running under fastcgi"
+date  : "2008-05-12T02:58:29Z"
 tags  : ["lighttpd", "perl", "programming", "rubric", "web"]
 ---
 In case anyone has been thinking, "Gosh, I haven't seen anything from rjbs

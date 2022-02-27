@@ -1,7 +1,7 @@
 ---
 layout: post
-title : curse you, bethlehem bus terminal!
-date  : 2006-01-03T14:28:42Z
+title : "curse you, bethlehem bus terminal!"
+date  : "2006-01-03T14:28:42Z"
 tags  : ["stupid"]
 ---
 I got up at 5:15 this morning so I could get in to work on the 6:30 bus.  When I got to the terminal, I tried to purchase a new ten trip book of tickets.  The clerk, however, didn't understand how they worked.

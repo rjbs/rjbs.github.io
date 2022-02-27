@@ -1,7 +1,7 @@
 ---
 layout: post
-title : poetic meter and poetic form
-date  : 2005-06-23T03:01:24Z
+title : "poetic meter and poetic form"
+date  : "2005-06-23T03:01:24Z"
 tags  : ["books", "poetry"]
 ---
 TorgoX has a great <a href='http://interglacial.com/rss/aldaily_content.rss'>RSS feed</a> for Arts and Letters Daily.  Not too long ago, they posted an <a href='http://www.newcriterion.com/archive/23/apr05/yezzi.htm'>interesting article</a> on the fate of formalism in English poetry.  So many current poets are rushing into free verse without learning the received forms that they never master the techniques that formalism tries to perfect.

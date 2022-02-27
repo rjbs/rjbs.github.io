@@ -1,7 +1,7 @@
 ---
 layout: post
-title : continued vim syntax to rtf conversions
-date  : 2007-09-08T03:23:39Z
+title : "continued vim syntax to rtf conversions"
+date  : "2007-09-08T03:23:39Z"
 tags  : ["perl", "programming", "rtf", "syntax", "vim"]
 ---
 I've implemented a very, very crude Vim colorscheme parser.  It's a terrible implementation, but it probably works against most color schemes.  Most importantly, it works against mine.  Patches welcome.

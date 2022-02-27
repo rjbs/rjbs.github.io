@@ -1,8 +1,7 @@
 ---
 layout: post
-title : a reading drought
-date  : 2006-07-14T11:11:51Z
-
+title : "a reading drought"
+date  : "2006-07-14T11:11:51Z"
 ---
 If my wiki's ReadingQueue page is to be trusted -- although it seems broken rght now -- I have't read any books in months.  What's going on?  If I count comic books, I've read two.  That's hardly a big improvement over nothing, I think.
 

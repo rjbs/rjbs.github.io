@@ -1,7 +1,7 @@
 ---
 layout: post
-title : addex entry data: for when a lousy hack is too good
-date  : 2008-02-19T03:45:06Z
+title : "addex entry data: for when a lousy hack is too good"
+date  : "2008-02-19T03:45:06Z"
 tags  : ["addex", "perl", "programming"]
 ---
 A lot of Addex features rely on your ability to put extra information onto

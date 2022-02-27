@@ -1,7 +1,7 @@
 ---
 layout: post
-title : coping with solaris cron
-date  : 2008-10-18T16:25:04Z
+title : "coping with solaris cron"
+date  : "2008-10-18T16:25:04Z"
 tags  : ["cron", "perl", "programming", "solaris"]
 ---
 More and more, we're eliminating Linux boxes in favor of Solaris.  This is

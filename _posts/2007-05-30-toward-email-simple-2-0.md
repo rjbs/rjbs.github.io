@@ -1,7 +1,7 @@
 ---
 layout: post
-title : toward email::simple 2.0
-date  : 2007-05-30T13:25:21Z
+title : "toward email::simple 2.0"
+date  : "2007-05-30T13:25:21Z"
 tags  : ["email", "perl", "programming"]
 ---
 First:                                                                          

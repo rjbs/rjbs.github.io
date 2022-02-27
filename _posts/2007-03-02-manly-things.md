@@ -1,7 +1,7 @@
 ---
 layout: post
-title : manly things
-date  : 2007-03-02T14:07:27Z
+title : "manly things"
+date  : "2007-03-02T14:07:27Z"
 tags  : ["booze", "shaving", "smoking"]
 ---
 Yesterday was a pretty good day for doing good old fashioned manly things.

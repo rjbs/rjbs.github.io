@@ -1,8 +1,7 @@
 ---
 layout: post
-title : what ever happened to quick start guides?
-date  : 2006-12-03T01:11:28Z
-
+title : "what ever happened to quick start guides?"
+date  : "2006-12-03T01:11:28Z"
 ---
 This week, I bought a Canon Elura 100.  I figure that once we've got a screaming baby, we'll want to take lots of video, so that when we have a screaming teenager, we can embarass him or her in front of his friends.  When I unpacked the camera (which is absolutely tiny), I found lots of little scraps of paper.  There was a registration card; a leaflet suggesting, in eleven different languages, that only Canon accessories should be used; a pamphlet explaining how to install the Windows-based video software; a blue-on-white page explaining, in fourteen different languages, how to clean the tape heads; and a 366 page manual, containing 133 pages in each of three languages.
 

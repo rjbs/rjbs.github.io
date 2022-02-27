@@ -1,7 +1,7 @@
 ---
 layout: post
-title : modules seeking homes
-date  : 2013-10-25T02:26:07Z
+title : "modules seeking homes"
+date  : "2013-10-25T02:26:07Z"
 tags  : ["perl", "programming"]
 ---
 I don't use Module::Install or Module::Starter anymore.  For the most part, I

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : where have I been?
-date  : 2002-07-18T04:00:00Z
-
+title : "where have I been?"
+date  : "2002-07-18T04:00:00Z"
 ---
 Ok, I actually feel pretty lousy about ignoring my journal for so long.  Once I reach 4-5 days without an entry, though, it becomes a hassle to write one, because there's too much to write.  So, now it's been eight days, which is a double hassle. 
 

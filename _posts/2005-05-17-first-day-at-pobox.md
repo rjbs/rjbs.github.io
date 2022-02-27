@@ -1,7 +1,7 @@
 ---
 layout: post
-title : first day at pobox
-date  : 2005-05-17T01:28:21Z
+title : "first day at pobox"
+date  : "2005-05-17T01:28:21Z"
 tags  : ["keyboard", "work"]
 ---
 Today was my first day at pobox!  It was a short day, work-wise, as I basically worked from noon to five.  For most of the next two weeks, or so, I'll be working more like nine to five, which should be good.  It should, that is, provide more knowledge-acquisition time.

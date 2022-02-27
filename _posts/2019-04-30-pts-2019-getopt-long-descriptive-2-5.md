@@ -1,7 +1,7 @@
 ---
 layout: post
-title : PTS 2019: Getopt::Long::Descriptive (2/5)
-date  : 2019-04-30T00:37:51Z
+title : "PTS 2019: Getopt::Long::Descriptive (2/5)"
+date  : "2019-04-30T00:37:51Z"
 tags  : ["perl", "programming"]
 ---
 One non-PAUSE thing I worked on was

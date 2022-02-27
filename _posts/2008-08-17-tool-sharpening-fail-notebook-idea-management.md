@@ -1,7 +1,7 @@
 ---
 layout: post
-title : tool sharpening fail: notebook / idea management
-date  : 2008-08-17T18:28:41Z
+title : "tool sharpening fail: notebook / idea management"
+date  : "2008-08-17T18:28:41Z"
 tags  : ["productivity", "software", "tiddlywiki"]
 ---
 At work, we recently moved our internal project and defect tracking from Trac to LiquidPlanner.  I've said it before, and I'll probably say it again: LiquidPlanner is fantastic.  It's really helping get an eye on what's going on.

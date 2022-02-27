@@ -1,7 +1,7 @@
 ---
 layout: post
-title : maine road trip, drew's wedding, sortilege
-date  : 2005-06-07T02:54:08Z
+title : "maine road trip, drew's wedding, sortilege"
+date  : "2005-06-07T02:54:08Z"
 tags  : ["friends"]
 ---
 My good friend from college, Drew, got married on Saturday.  He was the best man at my wedding, and he invited me to be a groomsman at his.  I had a good time, and I think he and his new wife are going to be happy together.

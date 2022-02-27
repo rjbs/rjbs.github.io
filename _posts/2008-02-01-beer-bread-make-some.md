@@ -1,7 +1,7 @@
 ---
 layout: post
-title : beer bread: make some
-date  : 2008-02-01T02:21:39Z
+title : "beer bread: make some"
+date  : "2008-02-01T02:21:39Z"
 tags  : ["baking", "beer", "food"]
 ---
 How on Earth have I not yet written anything about how good beer bread is, and how easy it is to make, and how everyone should make more of it?

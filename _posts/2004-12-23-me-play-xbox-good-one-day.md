@@ -1,7 +1,7 @@
 ---
 layout: post
-title : me play xbox good one day
-date  : 2004-12-23T13:19:00Z
+title : "me play xbox good one day"
+date  : "2004-12-23T13:19:00Z"
 tags  : ["games", "videogame", "xbox"]
 ---
 Last night, I "finished" the single player campaign in Halo 2.  Why the scare quotes, you ask?  It's not because I wasn't playing Legendary (I was playing Normal).  It's that Halo 2 didn't have a very satisfying ending.  I heard no end of complaining about this in the internets, so I was pretty well prepared.

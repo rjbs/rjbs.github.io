@@ -1,8 +1,7 @@
 ---
 layout: post
-title : scary noises
-date  : 2004-10-14T02:20:00Z
-
+title : "scary noises"
+date  : "2004-10-14T02:20:00Z"
 ---
 I have two scary noises to report one.  One of them is the blather coming from the TV.  It's the final debate, and I wish we had politicians who were just a little frank.  I want the debate to be like a spelling bee: the candidate has to say the question before and after answering, to remind the audience what he should be answering.
 

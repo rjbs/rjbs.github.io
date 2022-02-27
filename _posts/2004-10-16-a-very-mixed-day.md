@@ -1,8 +1,7 @@
 ---
 layout: post
-title : a very mixed day
-date  : 2004-10-16T01:59:00Z
-
+title : "a very mixed day"
+date  : "2004-10-16T01:59:00Z"
 ---
 I've been annoyed at my performance at work these last two weeks.  Yesterday it was really coming to a head, as I was accomplishing too little /and/ was having incredible hand pain.  I even put aside my beloved IBM m101 to use a Belkin split keyboard.  So far, so good.  I need to see if I can find one with the \ in the right place, though, above the carriage return.
 

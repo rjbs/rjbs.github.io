@@ -1,7 +1,7 @@
 ---
 layout: post
-title : i only paid fifteen bucks for this!
-date  : 2003-01-15T05:00:00Z
+title : "i only paid fifteen bucks for this!"
+date  : "2003-01-15T05:00:00Z"
 tags  : ["dreamcast", "games", "gamesite", "typing", "videogame"]
 ---
 <h5>the background</h5>

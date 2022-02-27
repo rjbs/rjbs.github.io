@@ -1,7 +1,7 @@
 ---
 layout: post
-title : andy's winter wine warmer
-date  : 2006-02-21T12:59:50Z
+title : "andy's winter wine warmer"
+date  : "2006-02-21T12:59:50Z"
 tags  : ["booze", "friends"]
 ---
 Saturday was Andy's annual wine tasting party, at his eternally in-progress house.  We picked up a French blend that I hadn't tried before and headed over at about 19:30, and found the place pretty packed already.  By the end of the night, his house was positively jam-packed with people -- at least on the first floor.  The second floor never got particularly busy, even though it had plenty of room, some seating, and a nice warm fire.

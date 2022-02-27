@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all hail tom
-date  : 2006-01-27T04:42:50Z
+title : "all hail tom"
+date  : "2006-01-27T04:42:50Z"
 tags  : ["perl", "programming"]
 ---
 Today, I got an email from Tom, my replacement at IQE.  He'd found himself needing a new kind of tolerance for Number::Tolerant.  I originally wrote Number::Tolerant for IQE's characterization system, and I really enjoyed working on it.  Once I left, though, I didn't have much reason to work on it.

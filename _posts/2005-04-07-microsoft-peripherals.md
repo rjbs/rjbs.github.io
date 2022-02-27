@@ -1,7 +1,7 @@
 ---
 layout: post
-title : microsoft peripherals
-date  : 2005-04-07T15:02:02Z
+title : "microsoft peripherals"
+date  : "2005-04-07T15:02:02Z"
 tags  : ["hardware", "microsoft"]
 ---
 Why does MS introduce peripherals that are well-designed, and then make them less so?  Their Natural keyboards used to have normal inverted-T style arrow keys.  Now they have some sort of insane cross configuration.  There, they took the standard and ditched it for something dumb.  I guess that's par for the course.

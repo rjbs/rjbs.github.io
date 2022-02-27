@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all mail software sucks (thunderbird doesn't suck less)
-date  : 2005-09-20T13:27:12Z
+title : "all mail software sucks (thunderbird doesn't suck less)"
+date  : "2005-09-20T13:27:12Z"
 tags  : ["email", "software", "thunderbird"]
 ---
 Last time on "rjbs hates email software," I was hating on Mail.app, which (as you may recall) sucks.  I still use mutt for most of my email needs, but sometimes I (sort of) need to use a client with HTML support, for work. Lately, Mail.app doesn't even start up anymore.  (I probably need to go into ~/Library and delete things.  Ugh.)  Without sucky Mail.app, I've been using sucky Thunderbird.

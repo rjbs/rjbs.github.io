@@ -1,7 +1,7 @@
 ---
 layout: post
-title : slouching toward friday
-date  : 2005-05-10T02:59:07Z
+title : "slouching toward friday"
+date  : "2005-05-10T02:59:07Z"
 tags  : ["perl", "productivity", "work"]
 ---
 I spent today running through a lot of the non-rjbs Perl code with Jay, today. Mostly we looked at huge, scary programs written by and for the engineers, and also at the mostly sane characterization code.  My belief now is that the Perl I wrote will be discarded or replaced with VB and Access.  I think this may well be good for IQE.  They can be one big happy Microsoft family, and they can quickly implement good-enough solutions that they'll never need to extend in the ways they previously demanded.

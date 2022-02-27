@@ -1,7 +1,7 @@
 ---
 layout: post
-title : why sigils are great
-date  : 2008-09-05T00:11:26Z
+title : "why sigils are great"
+date  : "2008-09-05T00:11:26Z"
 tags  : ["perl", "programming", "ruby"]
 ---
 Last night at [ABE.pm](http://abe.pm.org/), I was talking a little bit with The

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Q&A with Larry Wall
-date  : 2015-04-09T01:48:31Z
+title : "Q&A with Larry Wall"
+date  : "2015-04-09T01:48:31Z"
 tags  : ["perl", "yapc"]
 ---
 At the Perl conference, [YAPC::NA](http://yapcna.org/), there will be a ninety

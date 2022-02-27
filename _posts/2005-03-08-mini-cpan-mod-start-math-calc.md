@@ -1,8 +1,7 @@
 ---
 layout: post
-title : mini-cpan, mod-start, math-calc
-date  : 2005-03-08T03:11:00Z
-
+title : "mini-cpan, mod-start, math-calc"
+date  : "2005-03-08T03:11:00Z"
 ---
 The CPAN mirror on my laptop now has an index that starts like this:
 <pre><code>	File:       02packages.details.txt

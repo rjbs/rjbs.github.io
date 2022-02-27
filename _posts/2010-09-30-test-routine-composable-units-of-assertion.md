@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Test::Routine: composable units of assertion
-date  : 2010-09-30T19:15:09Z
+title : "Test::Routine: composable units of assertion"
+date  : "2010-09-30T19:15:09Z"
 tags  : ["perl", "programming", "testing"]
 ---
 [Test::Routine](http://search.cpan.org/dist/Test-Routine) is a new system for

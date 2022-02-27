@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all hail kip
-date  : 2007-05-13T01:09:40Z
+title : "all hail kip"
+date  : "2007-05-13T01:09:40Z"
 tags  : ["house"]
 ---
 I've been wanted to get rid of the stupid concrete walkway in my back yard ever

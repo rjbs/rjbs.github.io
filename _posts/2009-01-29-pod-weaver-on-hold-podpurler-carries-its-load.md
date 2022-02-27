@@ -1,7 +1,7 @@
 ---
 layout: post
-title : pod::weaver on hold, podpurler carries its load
-date  : 2009-01-29T04:39:47Z
+title : "pod::weaver on hold, podpurler carries its load"
+date  : "2009-01-29T04:39:47Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 As I recently explained in an [email to the Dist::Zilla

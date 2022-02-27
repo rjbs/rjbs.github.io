@@ -1,7 +1,7 @@
 ---
 layout: post
-title : flavor text considered harmful
-date  : 2011-08-22T15:19:29Z
+title : "flavor text considered harmful"
+date  : "2011-08-22T15:19:29Z"
 tags  : ["dnd", "rpg"]
 ---
 I really don't like the "flavor text" used in 4E D&D power descriptions.  It is

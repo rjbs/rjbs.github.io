@@ -1,7 +1,7 @@
 ---
 layout: post
-title : wtf macosx and other annoying things programming
-date  : 2007-10-05T00:51:21Z
+title : "wtf macosx and other annoying things programming"
+date  : "2007-10-05T00:51:21Z"
 tags  : ["macosx", "phone", "stupid"]
 ---
 I still have no phone.  Well, that's not true.  I have a really neat-looking

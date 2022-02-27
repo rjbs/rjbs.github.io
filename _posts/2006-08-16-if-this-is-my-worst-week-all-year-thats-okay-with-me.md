@@ -1,7 +1,7 @@
 ---
 layout: post
-title : if this is my worst week all year, that's okay with me
-date  : 2006-08-16T21:48:15Z
+title : "if this is my worst week all year, that's okay with me"
+date  : "2006-08-16T21:48:15Z"
 tags  : ["hardware"]
 ---
 Where have I been?  The pits!

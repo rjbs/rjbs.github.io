@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more on ebooks, Kindle, O'Reilly, and Amazon
-date  : 2010-08-02T23:35:56Z
+title : "more on ebooks, Kindle, O'Reilly, and Amazon"
+date  : "2010-08-02T23:35:56Z"
 tags  : ["ebooks"]
 ---
 First off, I will note that I've decided to make a little Amazon "aStore" for

@@ -1,8 +1,7 @@
 ---
 layout: post
-title : fletch, city of god, and more
-date  : 2005-01-19T04:11:00Z
-
+title : "fletch, city of god, and more"
+date  : "2005-01-19T04:11:00Z"
 ---
 We finally watched City of God, today.  It had been sitting on our floor for a week or so, so it will be good to get it back to Netflix.  When I first heard about this movie, I thought, "How could they possibly make a /movie/ of the City of God?"  I'd assumed it was St. Augustine's work.
 

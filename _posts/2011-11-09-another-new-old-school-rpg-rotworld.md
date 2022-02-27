@@ -1,7 +1,7 @@
 ---
 layout: post
-title : another new old-school RPG: Rotworld
-date  : 2011-11-09T14:55:57Z
+title : "another new old-school RPG: Rotworld"
+date  : "2011-11-09T14:55:57Z"
 tags  : ["games", "rpg"]
 ---
 A week or two ago, I read [Grognardia's quick write-up of

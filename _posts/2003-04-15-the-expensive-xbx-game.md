@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the expensive xbx game
-date  : 2003-04-15T04:00:00Z
+title : "the expensive xbx game"
+date  : "2003-04-15T04:00:00Z"
 tags  : ["games", "gamesite", "mecha", "steelbat", "videogame", "xbox"]
 ---
 So, for a long time I thought of Steel Battalion as "that expensive game." Slowly, though, ever so slowly, it wormed its way into the gottahaveit center of my brain.  Steel Battalion was one of the big reasons I wanted an XBX, in the end.  Less than a week after my wife gave me the XBX, I gave myself Steel Battalion.

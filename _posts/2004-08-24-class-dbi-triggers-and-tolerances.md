@@ -1,7 +1,7 @@
 ---
 layout: post
-title : class::dbi, triggers, and tolerances
-date  : 2004-08-24T00:54:00Z
+title : "class::dbi, triggers, and tolerances"
+date  : "2004-08-24T00:54:00Z"
 tags  : ["code", "perl"]
 ---
 I'm a real newbie to Class::DBI.  I've known about it for quite a while, but I never used it until OSCON, when I attended Casey's crash course.  I got a nice crash course once I got home, too, when I had to figure out how to make Class::DBI work with MSSQL and ODBC.  Some of the problems I had were self-inflicted, like when I didn't realize I had to include default options (like DBIx::ContextualFetch) if I subclassed db_Main.  A few others were caused by ActiveState's apparently broken Class-DBI ppd, which claimed to be 0.96 but was really 0.95.  I did find a nice little bug in Class::DBI itself, though, which apparently only mattered with ODBC+MSSQL.  I'm hoping to see my name in the changelog for 0.97; I'll settle for seeing 0.97 at all, though.  I'm trying to avoid needing custom versions of CPAN modules at work.

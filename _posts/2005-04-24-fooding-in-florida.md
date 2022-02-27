@@ -1,7 +1,7 @@
 ---
 layout: post
-title : fooding in florida
-date  : 2005-04-24T23:44:36Z
+title : "fooding in florida"
+date  : "2005-04-24T23:44:36Z"
 tags  : ["food", "travel"]
 ---
 written: 2005-04-22 18:19

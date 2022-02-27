@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all bug trackers suck (bugzilla sucks most)
-date  : 2005-10-07T13:34:10Z
+title : "all bug trackers suck (bugzilla sucks most)"
+date  : "2005-10-07T13:34:10Z"
 tags  : ["bugzilla", "software", "stupid"]
 ---
 Actually, I'm sure Bugzilla is better than some things.  I wrote a ticket tracker at IQE.  I think most small business programmers write a ticket system at some point.  Mine was sort of complicated, in a good way.  If the code hadn't sucked, I'd release it.  I think I'd like to get really good with RT instead, though.

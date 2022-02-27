@@ -1,7 +1,7 @@
 ---
 layout: post
-title : der wille zur macht
-date  : 2003-03-17T05:00:00Z
+title : "der wille zur macht"
+date  : "2003-03-17T05:00:00Z"
 tags  : ["games", "gamesite", "ps2", "rpg", "videogame"]
 ---
 I took mdxi's advice and bought Xenosaga.  Sure, I waited a week or so, but I bought it.  So far, so good.  Lots of praise and a few major annoyances to follow.

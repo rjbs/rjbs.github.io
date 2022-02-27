@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Safari Rough Cuts disappointment
-date  : 2011-05-05T14:41:46Z
+title : "Safari Rough Cuts disappointment"
+date  : "2011-05-05T14:41:46Z"
 tags  : ["books"]
 ---
 In June, the [Sixth Edition of JavaScript: The Definitive

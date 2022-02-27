@@ -1,7 +1,7 @@
 ---
 layout: post
-title : kwiki templates
-date  : 2005-08-01T17:58:09Z
+title : "kwiki templates"
+date  : "2005-08-01T17:58:09Z"
 tags  : ["kwiki", "perl", "programming", "wiki"]
 ---
 Jim Brandt mentioned my previous Kwiki-related post to me, this morning, and I remembered that I forgot to mention one more little Kwiki hack.

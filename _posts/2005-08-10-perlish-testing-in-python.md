@@ -1,7 +1,7 @@
 ---
 layout: post
-title : perlish testing in python
-date  : 2005-08-10T01:47:00Z
+title : "perlish testing in python"
+date  : "2005-08-10T01:47:00Z"
 tags  : ["programming", "python"]
 ---
 I am not a Python programmer.  I don't do much work at all in Python.  (It is almost entirely accurate to say that I do not use Python at all.)  I haven't tried their test systems, which seem sort of OK.  One is jUnit.  The other sounds neater: you provide a transcript of an interactive Python session, which the test framework tries to reproduce.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : hardware sucks, software sucks, taxes suck
-date  : 2005-04-12T02:28:04Z
+title : "hardware sucks, software sucks, taxes suck"
+date  : "2005-04-12T02:28:04Z"
 tags  : ["apple", "hardware", "perl", "programming", "rubric", "taxes"]
 ---
 This morning, I stumbled out of bed and to my laptop, only to find the machine asleep.  It wouldn't wake, which told me that the battery was nearly empty.  It was still plugged in, but the plug light was off.  I unplugged and replugged it a few times, but nothing helped.  I used Gloria's brick for a while and just before leaving home gave it another go.  This time, it worked.

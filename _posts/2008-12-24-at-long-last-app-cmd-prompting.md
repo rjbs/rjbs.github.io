@@ -1,7 +1,7 @@
 ---
 layout: post
-title : at long last, app::cmd prompting
-date  : 2008-12-24T04:03:03Z
+title : "at long last, app::cmd prompting"
+date  : "2008-12-24T04:03:03Z"
 tags  : ["perl", "programming"]
 ---
 At work, we have two kits for writing CLI programs:  App::Cmd and ICG::CLI.  I wrote both of them, and they're not quite compatible.  Oops!

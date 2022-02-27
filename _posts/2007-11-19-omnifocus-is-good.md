@@ -1,7 +1,7 @@
 ---
 layout: post
-title : omnifocus is good
-date  : 2007-11-19T02:23:39Z
+title : "omnifocus is good"
+date  : "2007-11-19T02:23:39Z"
 tags  : ["omnifocus", "productivity", "software"]
 ---
 I've been using OmniFocus since pretty early on in the private beta.  It

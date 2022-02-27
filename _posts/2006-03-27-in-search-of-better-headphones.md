@@ -1,7 +1,7 @@
 ---
 layout: post
-title : in search of better headphones
-date  : 2006-03-27T17:20:59Z
+title : "in search of better headphones"
+date  : "2006-03-27T17:20:59Z"
 tags  : ["hardware", "music"]
 ---
 Sometimes, I plug my laptop into the little amplifier we use for the TV.  It's nothing special, although I've got a nice pair of Bose bookshelf speakers connected to it.  The sound quality is really great compared to my laptop's built in speakers, or even to the little panel speakers I have in my office. This should not be surprising to anyone.  What is a little disappointing, if not quite surprising, is that I get nowhere near that quality out of my iPod headphones.  The problem isn't the headphones' drivers, as far as I can tell, but their fit.  When I accidentally (or intentionally) press the little earbuds into my ears, tighter and at a weirder angle, I get a really superior sound. It's like several accompanists just joined in.

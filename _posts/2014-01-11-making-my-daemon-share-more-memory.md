@@ -1,7 +1,7 @@
 ---
 layout: post
-title : making my daemon share more memory
-date  : 2014-01-11T00:45:16Z
+title : "making my daemon share more memory"
+date  : "2014-01-11T00:45:16Z"
 tags  : ["perl", "programming"]
 ---
 Quick refresher:  when you've got a unix process and it forks, the new fork can share memory with its parent, unless it starts making changes.  Lots of stuff is in memory, including your program's code.  This means that if you're going to `require` a lot of Perl modules, you should strongly consider loading them early, rather than later.  Although a runtime `require` statement can make program start faster, it's often a big loss for a forking daemon: the module gets re-compiled for every forked child, multiplying both the time and memory cost.

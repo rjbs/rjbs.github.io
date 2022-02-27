@@ -1,7 +1,7 @@
 ---
 layout: post
-title : iTunes 11 displeases me
-date  : 2012-11-30T04:00:48Z
+title : "iTunes 11 displeases me"
+date  : "2012-11-30T04:00:48Z"
 tags  : ["itunes", "software"]
 ---
 Okay, look, it's really nice that iTunes is so much faster, now.  I mean, it's

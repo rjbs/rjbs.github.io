@@ -1,7 +1,7 @@
 ---
 layout: post
-title : journal entry from beyond the grave
-date  : 2005-09-26T17:20:56Z
+title : "journal entry from beyond the grave"
+date  : "2005-09-26T17:20:56Z"
 tags  : ["work"]
 ---
 [ About a year ago, I wrote this to put "in escrow" until some future time.  I meant to post it pretty soon after writing it, but I lost track of it.  I stumbled across it recently while restoring some files from a backup. ]

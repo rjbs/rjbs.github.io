@@ -1,8 +1,7 @@
 ---
 layout: post
-title : kinesis (again), notational velocity, delicious
-date  : 2004-11-02T19:07:00Z
-
+title : "kinesis (again), notational velocity, delicious"
+date  : "2004-11-02T19:07:00Z"
 ---
 Kinesis replied to my request for information, solving my problems.  On these older Contours, (Keymap,PrintScn) is not Windows.  Instead, I need (Keymap,H). That works, so I can now correctly map keys using the keyboard's own remappability.  I've removed (again) my scancode registry entry, and am going to give things another go!
 

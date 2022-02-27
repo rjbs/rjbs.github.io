@@ -1,7 +1,7 @@
 ---
 layout: post
-title : upgrading my macbook's hard drive fails to be as easy as pie
-date  : 2008-01-23T14:40:56Z
+title : "upgrading my macbook's hard drive fails to be as easy as pie"
+date  : "2008-01-23T14:40:56Z"
 tags  : ["apple", "backup", "hardware", "macosx", "stupid"]
 ---
 Before the semiannual Big Mac Announcements, I was thinking that I might buy a

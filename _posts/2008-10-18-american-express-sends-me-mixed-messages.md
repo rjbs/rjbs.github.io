@@ -1,8 +1,7 @@
 ---
 layout: post
-title : american express sends me mixed messages
-date  : 2008-10-18T02:06:12Z
-
+title : "american express sends me mixed messages"
+date  : "2008-10-18T02:06:12Z"
 ---
 In general, I am a very, very happy cardholder.  Just recently, when my EVDO modem died, American Express paid for me to replace it with nearly no questions asked.  That saved me about $250, since the modem had just gone out of warranty.  That pays for over half my annual membership.  They also paid for some MacBook repairs earlier this year, which was a real plus.
 

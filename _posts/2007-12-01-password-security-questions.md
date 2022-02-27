@@ -1,7 +1,7 @@
 ---
 layout: post
-title : password security questions
-date  : 2007-12-01T14:16:26Z
+title : "password security questions"
+date  : "2007-12-01T14:16:26Z"
 tags  : ["security", "stupid"]
 ---
 RCN has been hassling me with automated phone calls to set up a new account

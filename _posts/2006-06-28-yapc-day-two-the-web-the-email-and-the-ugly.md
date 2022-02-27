@@ -1,7 +1,7 @@
 ---
 layout: post
-title : yapc day two: the web, the email, and the ugly
-date  : 2006-06-28T14:51:36Z
+title : "yapc day two: the web, the email, and the ugly"
+date  : "2006-06-28T14:51:36Z"
 tags  : ["perl", "yapc"]
 ---
 Today there were two ugly talks -- I don't mean talks that disgusted.  Really, they were just talks that made me wince.  Cog talked about Acme modules (Acme::ProgressBar made his list!), and he showed a few modules I hadn't seen before.  Acme::Octarine was amusing.  I think the biggest laughs were for Acme::Lingua::NIGERIAN.

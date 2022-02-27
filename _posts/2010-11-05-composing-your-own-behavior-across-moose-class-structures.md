@@ -1,7 +1,7 @@
 ---
 layout: post
-title : composing your own behavior across Moose class structures
-date  : 2010-11-05T15:50:10Z
+title : "composing your own behavior across Moose class structures"
+date  : "2010-11-05T15:50:10Z"
 tags  : ["moose", "perl", "programming"]
 ---
 In my last entry, I wrote about [how role composition and advice and `BUILD`

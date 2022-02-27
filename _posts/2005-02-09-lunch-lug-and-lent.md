@@ -1,8 +1,7 @@
 ---
 layout: post
-title : lunch, lug, and lent
-date  : 2005-02-09T03:13:00Z
-
+title : "lunch, lug, and lent"
+date  : "2005-02-09T03:13:00Z"
 ---
 Work today was OK.  My ur-boss is in town, and I sat with him and went over The Big Project.  He seemed impressed and enthused, which was good for my morale, I think.
 

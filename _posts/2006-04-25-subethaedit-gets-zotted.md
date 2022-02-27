@@ -1,7 +1,7 @@
 ---
 layout: post
-title : subethaedit gets zotted
-date  : 2006-04-25T18:34:48Z
+title : "subethaedit gets zotted"
+date  : "2006-04-25T18:34:48Z"
 tags  : ["ads", "macosx", "software"]
 ---
 I've been using a [SubEthaEdit from CodingMonkeys](http://www.codingmonkeys.de/subethaedit/) since it was Hydra.  I basically can't deal with it as a full-time editor, but for things like brainstorming and some forms of pairing, it's totally fantastic.  I can /msg my coworkers about some upcoming software, and once it's clear that we'd rather be writing tests than talking about design, I can fire up SEE and paste around a URL.  Everybody drops into the file, and we write tests and comments and maybe even documentation until we're all tired of it, and we end up with a document that we can all work against to Get Things Done.

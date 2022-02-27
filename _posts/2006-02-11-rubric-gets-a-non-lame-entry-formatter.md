@@ -1,7 +1,7 @@
 ---
 layout: post
-title : rubric gets a non-lame entry formatter
-date  : 2006-02-11T02:11:40Z
+title : "rubric gets a non-lame entry formatter"
+date  : "2006-02-11T02:11:40Z"
 tags  : ["perl", "programming", "rubric"]
 ---
 For a long, long time, I have thought, "It will be way cool to have better text-to-html in Rubric!"  I really wanted a decent markup system for doing this, and I didn't want to make any decisions.  Decisions are hard.  Instead, I punted: "I'll figure it out later!"

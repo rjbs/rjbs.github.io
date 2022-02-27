@@ -1,8 +1,7 @@
 ---
 layout: post
-title : busy-ish weekend
-date  : 2005-05-09T02:06:41Z
-
+title : "busy-ish weekend"
+date  : "2005-05-09T02:06:41Z"
 ---
 My hands are hurting quite a lot, again, lately, so I'll keep this brief.
 

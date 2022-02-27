@@ -1,7 +1,7 @@
 ---
 layout: post
-title : my big dumb URI router
-date  : 2011-07-15T15:47:32Z
+title : "my big dumb URI router"
+date  : "2011-07-15T15:47:32Z"
 tags  : ["perl", "programming"]
 ---
 While hacking on a large system at work, months ago, I spent about a day

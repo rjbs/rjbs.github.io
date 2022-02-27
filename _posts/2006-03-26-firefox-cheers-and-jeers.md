@@ -1,7 +1,7 @@
 ---
 layout: post
-title : firefox cheers and jeers
-date  : 2006-03-26T20:06:10Z
+title : "firefox cheers and jeers"
+date  : "2006-03-26T20:06:10Z"
 tags  : ["firefox"]
 ---
 Really, I think Firefox deserves mostly cheers.  I reserve most of my jeers for

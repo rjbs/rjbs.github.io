@@ -1,7 +1,7 @@
 ---
 layout: post
-title : coping with mac os 10.5
-date  : 2007-11-06T23:51:11Z
+title : "coping with mac os 10.5"
+date  : "2007-11-06T23:51:11Z"
 tags  : ["macosx", "stupid"]
 ---
 I've been running Leopard for just over a week, and it's a really mixed bag. My memory is that Tiger and Panther were only annoying because they failed to fix things I wanted fixed.  Leopard has broken quite a bunch of stuff, and I afraid that some of it just isn't going to get fixed.

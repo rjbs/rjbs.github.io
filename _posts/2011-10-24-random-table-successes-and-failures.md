@@ -1,7 +1,7 @@
 ---
 layout: post
-title : random table successes and failures
-date  : 2011-10-24T14:55:15Z
+title : "random table successes and failures"
+date  : "2011-10-24T14:55:15Z"
 tags  : ["dnd", "rpg"]
 ---
 A couple months ago, I produced a set of fourteen tables for generating random

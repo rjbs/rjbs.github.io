@@ -1,8 +1,7 @@
 ---
 layout: post
-title : r((jb)|s?ignes)
-date  : 2005-11-30T00:33:50Z
-
+title : "r((jb)|s?ignes)"
+date  : "2005-11-30T00:33:50Z"
 ---
 I started using "rjbs" as my identifier everywhere a few years ago.  It was a very good idea, and I should have started using it years earlier.  I've given a fairly detailed history of other usernames I used in the past elsewhere.  I'll move that history to my wiki at some point, I guess.  I just got to thinking about "rjbs" and other actually-related-to-my-name names on Thanksgiving, when talking with my Uncle Richard.
 

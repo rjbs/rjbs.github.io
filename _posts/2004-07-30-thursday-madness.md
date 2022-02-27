@@ -1,8 +1,7 @@
 ---
 layout: post
-title : thursday madness
-date  : 2004-07-30T13:39:00Z
-
+title : "thursday madness"
+date  : "2004-07-30T13:39:00Z"
 ---
 The morning started with Freeman Dyson engaging in a "moderated discussion" with Tim O'Reilly and the audience.  While Dyson was very charming and is cool, the talk was sort of uninteresting.  This was followed by a guy from HP whom I completely ignored, basically because he was completely ignorable.
 

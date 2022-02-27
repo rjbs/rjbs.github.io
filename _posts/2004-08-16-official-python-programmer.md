@@ -1,7 +1,7 @@
 ---
 layout: post
-title : official python programmer
-date  : 2004-08-16T03:25:00Z
+title : "official python programmer"
+date  : "2004-08-16T03:25:00Z"
 tags  : ["code", "python"]
 ---
 I had the week off from work.  Gloria and I stayed at home, ignored Musikfest as much as possible, and relaxed.  We saw a lot of movies, ate some good food, and avoided the downtown area.

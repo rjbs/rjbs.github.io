@@ -1,7 +1,7 @@
 ---
 layout: post
-title : bundles are awesome and suck
-date  : 2005-08-12T03:37:50Z
+title : "bundles are awesome and suck"
+date  : "2005-08-12T03:37:50Z"
 tags  : ["perl", "programming"]
 ---
 John and I, both unhappy with the lack of awesome plugins on the Kwiki at work, made a list of what we wanted and got things installed.  "Hey," I said, "I'll just make a Bundle!"

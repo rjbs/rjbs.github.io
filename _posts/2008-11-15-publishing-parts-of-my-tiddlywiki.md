@@ -1,7 +1,7 @@
 ---
 layout: post
-title : publishing parts of my tiddlywiki
-date  : 2008-11-15T04:19:56Z
+title : "publishing parts of my tiddlywiki"
+date  : "2008-11-15T04:19:56Z"
 tags  : ["perl", "programming", "tiddlywiki", "wiki"]
 ---
 Some time ago I wrote that I had [moved my D&D wiki to

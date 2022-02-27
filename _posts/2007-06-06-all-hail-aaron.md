@@ -1,7 +1,7 @@
 ---
 layout: post
-title : all hail aaron
-date  : 2007-06-06T12:26:01Z
+title : "all hail aaron"
+date  : "2007-06-06T12:26:01Z"
 tags  : ["perl", "programming"]
 ---
 Once again, Aaron Straup Cope has written code so I don't have to.  Last time, I wanted to back up my bookmarks from del.icio.us, so I didn't feel paranoid that they might go away and take my bookmarks with them.  (This was before I switched to Rubric.)  Because Net::Delicious existed, I was able to write Net::Delicious::Simple on top of it, taking only a few minutes instead of hours of toiling with XML.

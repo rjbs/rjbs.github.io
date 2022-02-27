@@ -1,7 +1,7 @@
 ---
 layout: post
-title : me and my new pal thomas jefferson
-date  : 2007-04-21T02:19:07Z
+title : "me and my new pal thomas jefferson"
+date  : "2007-04-21T02:19:07Z"
 tags  : ["money"]
 ---
 I am now fulfilling my long-time dream of using almost exclusively $2 bils as

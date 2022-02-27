@@ -1,7 +1,7 @@
 ---
 layout: post
-title : more notes from tiddlytown
-date  : 2007-06-08T14:43:24Z
+title : "more notes from tiddlytown"
+date  : "2007-06-08T14:43:24Z"
 tags  : ["javascript", "programming", "tiddlywiki", "wiki"]
 ---
 No sooner did I get my RPG notes put into nice comfortable TiddlyWikis than

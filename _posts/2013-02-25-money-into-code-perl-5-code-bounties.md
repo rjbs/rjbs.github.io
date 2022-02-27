@@ -1,7 +1,7 @@
 ---
 layout: post
-title : money into code: Perl 5 code bounties
-date  : 2013-02-25T03:44:58Z
+title : "money into code: Perl 5 code bounties"
+date  : "2013-02-25T03:44:58Z"
 tags  : ["perl"]
 ---
 If there's money earmarked to be spent improving Perl 5, one seemingly obvious

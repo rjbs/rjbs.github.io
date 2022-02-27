@@ -1,7 +1,7 @@
 ---
 layout: post
-title : anybody here see tron?
-date  : 2003-01-20T05:00:00Z
+title : "anybody here see tron?"
+date  : "2003-01-20T05:00:00Z"
 tags  : ["games", "gamesite", "ps2", "videogame"]
 ---
 It's not that Rez plays like Tron.  It's not very light-bikey or disc-tossey. It's the pure, unadulterated visuals.  The wireframe is a serious piece of coolness, and Rez does not mess around with it.  It reminds you that polygons aren't just cool when used, /en masse/, to simulate curves.  They are cool on their own, thank you very much.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : at long last, email sender is released
-date  : 2008-12-10T18:04:09Z
+title : "at long last, email sender is released"
+date  : "2008-12-10T18:04:09Z"
 tags  : ["email", "perl", "programming"]
 ---
 When I started at Pobox, we had a few different ways we sent or delivered mail.

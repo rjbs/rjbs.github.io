@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Infidel
-date  : 2015-10-23T03:31:24Z
+title : "The Great Infocom Replay: Infidel"
+date  : "2015-10-23T03:31:24Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 These replay write-ups get shorter and shorter as I go.  I think it's because I'm growing more and more confident in what I like and don't like, and what I will and won't spend my time on.  Infidel has a nice setup.  I liked the setting, the starting plot, and the way the game got started.  Soon enough, though, I got a "you're quite thirsty" message, and I groaned.

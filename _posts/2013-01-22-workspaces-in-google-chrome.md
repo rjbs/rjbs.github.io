@@ -1,7 +1,7 @@
 ---
 layout: post
-title : workspaces in Google Chrome
-date  : 2013-01-22T03:35:15Z
+title : "workspaces in Google Chrome"
+date  : "2013-01-22T03:35:15Z"
 tags  : ["chrome"]
 ---
 I really liked using [OmniWeb](https://www.omnigroup.com/products/omniweb/).

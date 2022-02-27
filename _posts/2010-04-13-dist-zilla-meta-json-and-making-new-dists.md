@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla, META.json, and making new dists
-date  : 2010-04-13T02:40:11Z
+title : "Dist::Zilla, META.json, and making new dists"
+date  : "2010-04-13T02:40:11Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 This weekend, David Golden and I holed up in the Pobox offices and worked on

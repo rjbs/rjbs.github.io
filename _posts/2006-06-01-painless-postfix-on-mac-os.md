@@ -1,7 +1,7 @@
 ---
 layout: post
-title : painless postfix on mac os
-date  : 2006-06-01T08:57:00Z
+title : "painless postfix on mac os"
+date  : "2006-06-01T08:57:00Z"
 tags  : ["howto", "macosx", "postfix"]
 ---
 Sometime during the past year I got a few things working on my Mac that really

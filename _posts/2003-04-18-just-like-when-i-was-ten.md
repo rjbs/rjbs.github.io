@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Just like when I was ten.
-date  : 2003-04-18T04:00:00Z
+title : "Just like when I was ten."
+date  : "2003-04-18T04:00:00Z"
 tags  : ["games", "gamesite", "videogame"]
 ---
 I used to play a lot of top-down shooters.  When I was a kid, there was a little smokey room in the back of 7-11, and it always had three or four cabinet games.  I remember a lot of them, especially a few that I really liked.  One of those was 1941.  I guess it isn't fair to say this, but I'll say it anyway: all top-down shooters are basically the same.  There are some simple variations -- bombs, power-ups, even elevation -- but basically they were all the same game.  This made it pretty easy to go from one to the other, especially if you hadn't bothered doing crazy things like memorizing enemy attack patterns.

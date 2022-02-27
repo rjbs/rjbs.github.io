@@ -1,7 +1,7 @@
 ---
 layout: post
-title : defending copyright on the bible
-date  : 2005-09-08T02:43:35Z
+title : "defending copyright on the bible"
+date  : "2005-09-08T02:43:35Z"
 tags  : ["christianity", "religion", "stupid"]
 ---
 A few weeks ago, I got an email asking about my RSS feeds for the daily bible reading provided by the USCCB.  (The USCCB is the US Conference of Catholic Bishops.)  I said that I hadn't heard back from the USCCB since I last tried to contact them in June and they stopped returning my emails (though they seemed to be interested in providing RSS).

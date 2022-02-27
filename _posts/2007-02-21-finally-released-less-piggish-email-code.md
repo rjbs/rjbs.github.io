@@ -1,7 +1,7 @@
 ---
 layout: post
-title : finally released: less piggish email code
-date  : 2007-02-21T02:25:58Z
+title : "finally released: less piggish email code"
+date  : "2007-02-21T02:25:58Z"
 tags  : ["email", "perl", "programming"]
 ---
 Last week, I finally released the long-ago-announced new versions of

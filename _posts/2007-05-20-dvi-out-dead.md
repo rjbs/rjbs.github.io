@@ -1,7 +1,7 @@
 ---
 layout: post
-title : dvi out dead?
-date  : 2007-05-20T13:37:54Z
+title : "dvi out dead?"
+date  : "2007-05-20T13:37:54Z"
 tags  : ["apple", "hardware"]
 ---
 The svideo out on my MacBook has never, as far as I know, worked.  I didn't bother getting it repaired because I never needed to use it.  Now a larger problem has cropped up:  I no longer seem able to connect my flat panel to my MacBook.  I can use my work flat panel, presumably because I'm using an analog connection.  At home, using a DVI connection, it fails.  Another laptop works on my flat panel, but I can only test it with analog.  I need to get someone with a DVI out on his laptop to come swing by.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : vim, my new netflix client
-date  : 2005-09-16T04:21:22Z
+title : "vim, my new netflix client"
+date  : "2005-09-16T04:21:22Z"
 tags  : ["html", "movies", "perl", "programming", "web"]
 ---
 Tonight, I was struck by an urge to JFDI.  For a long time, I've wanted a better way to organize my Netflix queue.  There used to be Netflix Freak, which was decent, but cost money, and I think it went away.  I think it had other problems, I just can't remember anymore.

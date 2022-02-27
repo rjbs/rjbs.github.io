@@ -1,7 +1,7 @@
 ---
 layout: post
-title : splitting up a \"big\" git repo, take two
-date  : 2007-09-11T01:37:17Z
+title : "splitting up a \"big\" git repo, take two"
+date  : "2007-09-11T01:37:17Z"
 tags  : ["git"]
 ---
 Converting to git has been fun, educational, and annoying, at various times.

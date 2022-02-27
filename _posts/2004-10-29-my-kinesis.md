@@ -1,8 +1,7 @@
 ---
 layout: post
-title : \"my\" kinesis
-date  : 2004-10-29T00:19:00Z
-
+title : "\"my\" kinesis"
+date  : "2004-10-29T00:19:00Z"
 ---
 cwinters has been awesome enough to lend me his extra Kinesis Ergo Contour keyboard.  Since I've got someone visiting this week, I've stuck to the simple split-key keyboard, so that I can continue to work as normal.  The plan is to really start using it next week.  Today, though, the guest left work for a few hours, feeling under the weather, so I hooked up the Kinesis and got to work. Sort of.
 

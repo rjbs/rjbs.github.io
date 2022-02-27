@@ -1,7 +1,7 @@
 ---
 layout: post
-title : what CPAN code did I install when?
-date  : 2021-07-03T17:56:11Z
+title : "what CPAN code did I install when?"
+date  : "2021-07-03T17:56:11Z"
 tags  : ["perl", "programming"]
 ---
 When I upgrade my perl, which I do pretty often, the first thing I do is

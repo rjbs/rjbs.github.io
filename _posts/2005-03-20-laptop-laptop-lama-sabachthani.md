@@ -1,8 +1,7 @@
 ---
 layout: post
-title : laptop, laptop, lama sabachthani
-date  : 2005-03-20T23:10:00Z
-
+title : "laptop, laptop, lama sabachthani"
+date  : "2005-03-20T23:10:00Z"
 ---
 My laptop is dead. I am not happy about it.
 

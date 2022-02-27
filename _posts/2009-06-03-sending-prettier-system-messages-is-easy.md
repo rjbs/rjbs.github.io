@@ -1,7 +1,7 @@
 ---
 layout: post
-title : sending prettier system messages is easy
-date  : 2009-06-03T17:16:23Z
+title : "sending prettier system messages is easy"
+date  : "2009-06-03T17:16:23Z"
 tags  : ["email", "perl", "programming"]
 ---
 I've always liked

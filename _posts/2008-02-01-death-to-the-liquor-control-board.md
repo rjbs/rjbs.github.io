@@ -1,7 +1,7 @@
 ---
 layout: post
-title : death to the liquor control board!
-date  : 2008-02-01T15:16:06Z
+title : "death to the liquor control board!"
+date  : "2008-02-01T15:16:06Z"
 tags  : ["booze", "pennsylvania", "stupid"]
 ---
 Ugh.  A while ago, I wrote about the difficulties involved in [getting wasted

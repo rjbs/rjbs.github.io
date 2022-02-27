@@ -1,8 +1,7 @@
 ---
 layout: post
-title : today's weird spam
-date  : 2004-12-15T14:30:00Z
-
+title : "today's weird spam"
+date  : "2004-12-15T14:30:00Z"
 ---
 Subject: Religious-Like Footage of Hollywood Actresses
 

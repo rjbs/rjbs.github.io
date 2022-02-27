@@ -1,7 +1,7 @@
 ---
 layout: post
-title : agency, old timer, encore, and other projects
-date  : 2005-07-12T16:27:42Z
+title : "agency, old timer, encore, and other projects"
+date  : "2005-07-12T16:27:42Z"
 tags  : ["int-fiction", "writing"]
 ---
 At Pobox, I met this guy Thomas Thurman.  One day Dieter gave me a link to a funny little page on his site, where I saw a Gnusto link in his sidebar. Gnusto is a few things.  First and foremost, it's a spell in the Zork universe; it makes things glow.  Beyond that, it's a Mozilla extension that lets you play Infocom (Z-Machine) games in your browser.  I never really used Gnusto; I'd tried the first few releases, which were very, very experimental, and went back to Frotz.  Still, it was neat.

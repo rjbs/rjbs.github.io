@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Great Infocom Replay: Deadline
-date  : 2013-02-16T22:24:52Z
+title : "The Great Infocom Replay: Deadline"
+date  : "2013-02-16T22:24:52Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 Last weekend, I went to Las Vegas for a one-day trip to attend a party in honor

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : regarding reputation
-date  : 2008-06-22T16:36:58Z
+title : "regarding reputation"
+date  : "2008-06-22T16:36:58Z"
 tags  : ["perl", "yapc"]
 ---
 Last week, I was at YAPC::NA in Chicago.  It was a good YAPC, and I'll probably write a little more about it later, if I can think of anything worth relating. One thing came up, though, that I really wanted to mention.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : from vim to tiddlywiki
-date  : 2007-06-01T12:24:21Z
+title : "from vim to tiddlywiki"
+date  : "2007-06-01T12:24:21Z"
 tags  : ["tiddlywiki", "wiki"]
 ---
 I run two RPG groups, and they take place in the same campaign world.  I've got a lot of notes on it, and I'd like to make it easier for the notes to cross-reference one another.  I didn't want to use a server-based wiki, because I wanted to use Vim to edit things, and Mozex seemed like a big pain, at least on OS X.

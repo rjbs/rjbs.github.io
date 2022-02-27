@@ -1,7 +1,7 @@
 ---
 layout: post
-title : The Slack IRC gateway drops your messages.
-date  : 2017-01-24T01:42:40Z
+title : "The Slack IRC gateway drops your messages."
+date  : "2017-01-24T01:42:40Z"
 tags  : ["perl", "programming", "slack"]
 ---
 So, imagine the following exchange in private message with one of your team

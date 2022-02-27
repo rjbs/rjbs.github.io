@@ -1,7 +1,7 @@
 ---
 layout: post
-title : I still hate email
-date  : 2014-04-19T03:15:35Z
+title : "I still hate email"
+date  : "2014-04-19T03:15:35Z"
 tags  : ["email"]
 ---
 Last week, Yahoo! changed their DMARC policy.  Since that event, I have grown

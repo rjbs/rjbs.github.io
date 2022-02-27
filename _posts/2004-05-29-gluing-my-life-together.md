@@ -1,7 +1,7 @@
 ---
 layout: post
-title : gluing my life together
-date  : 2004-05-29T01:56:00Z
+title : "gluing my life together"
+date  : "2004-05-29T01:56:00Z"
 tags  : ["code"]
 ---
 I did a bunch of AppleScripting today, making me both like and dislike AppleScript more than ever.  It reminds me of OLE and VBA in a lot of ways. The fact that so much stuff is scriptable is great.  The underlying models are often not awful, and it's easy to do easy stuff.  The problem isn't (always) the object models, but the language.  Just like VBA, AppleScript sucks.  I think it sucks differently, but it sucks nonetheless.  It makes it easy to dismiss scripting of applications, in fact, which is sad.

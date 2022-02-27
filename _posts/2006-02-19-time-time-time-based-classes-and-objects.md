@@ -1,7 +1,7 @@
 ---
 layout: post
-title : time, time, time (-based classes and objects)
-date  : 2006-02-19T15:22:33Z
+title : "time, time, time (-based classes and objects)"
+date  : "2006-02-19T15:22:33Z"
 tags  : ["perl", "programming"]
 ---
 Someone complained, looking at the beta version of some new reports, that the "when" field was too precise.  They didn't need "17 days and 6 hours ago," "17 days ago" would do.  I was doing this with Sean Burke's Time::Duration, wrapped by my own Time::Duration::Object, which just turns a number of seconds into an object with methods based on the functions provided by Time::Duration.  It's been a very useful module, but I never noticed that it had a major bug.

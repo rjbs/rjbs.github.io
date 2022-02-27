@@ -1,7 +1,7 @@
 ---
 layout: post
-title : cpants whoring
-date  : 2005-09-20T03:21:07Z
+title : "cpants whoring"
+date  : "2005-09-20T03:21:07Z"
 tags  : ["perl", "programming"]
 ---
 I think the preferred term is "gaming," but I don't feel the need to whitewash it.  I am a kwalitee monger.

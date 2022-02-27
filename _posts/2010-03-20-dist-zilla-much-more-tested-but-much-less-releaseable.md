@@ -1,7 +1,7 @@
 ---
 layout: post
-title : Dist::Zilla much more tested, but much less releaseable
-date  : 2010-03-20T02:54:23Z
+title : "Dist::Zilla much more tested, but much less releaseable"
+date  : "2010-03-20T02:54:23Z"
 tags  : ["distzilla", "perl", "programming"]
 ---
 I've added a bunch more tests to Dist::Zilla as I try to work through my

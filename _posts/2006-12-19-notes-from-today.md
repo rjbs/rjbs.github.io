@@ -1,7 +1,7 @@
 ---
 layout: post
-title : notes from today
-date  : 2006-12-19T02:14:07Z
+title : "notes from today"
+date  : "2006-12-19T02:14:07Z"
 tags  : ["baby", "banjo", "music", "perl", "programming"]
 ---
 Today has been a weird day, full of all kinds of stuff.

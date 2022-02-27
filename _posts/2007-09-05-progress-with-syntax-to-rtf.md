@@ -1,7 +1,7 @@
 ---
 layout: post
-title : progress with syntax-to-rtf
-date  : 2007-09-05T14:25:02Z
+title : "progress with syntax-to-rtf"
+date  : "2007-09-05T14:25:02Z"
 tags  : ["perl", "programming", "rtf", "syntax"]
 ---
 I had really wanted to use the Kate syntax stuff, because it's pure Perl, but

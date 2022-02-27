@@ -1,7 +1,7 @@
 ---
 layout: post
-title : the annoying last battle of every crpg
-date  : 2007-03-06T16:34:17Z
+title : "the annoying last battle of every crpg"
+date  : "2007-03-06T16:34:17Z"
 tags  : ["games", "videogame"]
 ---
 There are a number of Mario and Luigi RPGs, and I've enjoyed just about all of

@@ -1,7 +1,7 @@
 ---
 layout: post
-title : come to OSCON, learn Moose, throw fireballs
-date  : 2011-06-03T22:22:39Z
+title : "come to OSCON, learn Moose, throw fireballs"
+date  : "2011-06-03T22:22:39Z"
 tags  : ["moose", "perl", "programming"]
 ---
 **What is Moose?**

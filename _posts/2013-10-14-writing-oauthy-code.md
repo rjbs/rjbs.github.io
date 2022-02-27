@@ -1,7 +1,7 @@
 ---
 layout: post
-title : writing OAuthy code
-date  : 2013-10-14T14:56:19Z
+title : "writing OAuthy code"
+date  : "2013-10-14T14:56:19Z"
 tags  : ["oauth", "perl", "programming"]
 ---
 I've written a bunch of code that deals with APIs behind OAuth before.  I wrote

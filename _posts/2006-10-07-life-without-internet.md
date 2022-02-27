@@ -1,8 +1,7 @@
 ---
 layout: post
-title : life without internet
-date  : 2006-10-07T13:03:51Z
-
+title : "life without internet"
+date  : "2006-10-07T13:03:51Z"
 ---
 [ Written Oct 3rd ]
 
