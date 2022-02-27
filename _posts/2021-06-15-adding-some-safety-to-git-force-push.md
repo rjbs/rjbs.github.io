@@ -15,23 +15,25 @@ write a *different* program to do something similar.  See, about a week ago, I
 did a force-push that I shouldn't have.  The history looked something like
 this:
 
-      * [733401c] (github/rewrites) add the EIGHT file
-      * [036a97a] SIX: rewrite file number six
-      * [5d8e998] FIVE: rewrite file number five
-      * [40778dd] FOUR: rewrite file number four
-      * [624f233] THREE: rewrite file number three
-      * [249af25] TWO: rewrite file number two
-      * [2ac9796] ONE: rewrite file number one
-      | * [d2e2cfb] (HEAD -> rewrites) add the ZERO file
-      | * [2fadf99] SIX: rewrite file number six
-      | * [6a2218f] FIVE: rewrite file number five
-      | * [bbbe25a] FOUR: rewrite file number four
-      | * [adda952] THREE: rewrite file number three
-      | * [5d7c662] TWO: rewrite file number two
-      | * [f656f0f] ONE: rewrite file number one
-      | * [4623ca5] (github/main, main) add a seventh file for good luck
-      |/
-      * [4c74ba5] add some random content
+```
+* [733401c] (github/rewrites) add the EIGHT file
+* [036a97a] SIX: rewrite file number six
+* [5d8e998] FIVE: rewrite file number five
+* [40778dd] FOUR: rewrite file number four
+* [624f233] THREE: rewrite file number three
+* [249af25] TWO: rewrite file number two
+* [2ac9796] ONE: rewrite file number one
+| * [d2e2cfb] (HEAD -> rewrites) add the ZERO file
+| * [2fadf99] SIX: rewrite file number six
+| * [6a2218f] FIVE: rewrite file number five
+| * [bbbe25a] FOUR: rewrite file number four
+| * [adda952] THREE: rewrite file number three
+| * [5d7c662] TWO: rewrite file number two
+| * [f656f0f] ONE: rewrite file number one
+| * [4623ca5] (github/main, main) add a seventh file for good luck
+|/
+* [4c74ba5] add some random content
+```
 
 What you'll see here is that there's a common base, then two versions of the
 same branch.  One version (the local one) has been rebased on `main`.  The
@@ -53,11 +55,11 @@ that tries to turn the problem into this one:
 
 * While working on the `foo` branch, I run `git publish`
 * If there is no foo branch on my remote, my local branch is published to my
-    remote.
+  remote.
 * If there *is* a remote branch foo, and my changes are a fast forward, they're
-    pushed up.
+  pushed up.
 * If there's a remote branch foo, and my copy has rebased it and then (maybe)
-    added commits to the end, a force-with-lease push is made.
+  added commits to the end, a force-with-lease push is made.
 
 Already, this is a pretty good win, covering some of the "is it safe?"
 questions in code so that I don't need to.  The last case is "the difference is
@@ -65,10 +67,10 @@ more than a rebase", and what I wanted was a means to see that explained.  So,
 the last option is:
 
 * If the remote branch exists and my local branch doesn't just
-    rebase-and/or-add, then an explanation of the changes (and non-changes) is
-    printed, showing me what I'd really be doing if I force-pushed.  I can
-    instruct the program to continue (and it will force-with-lease push) or I can
-    abort and sort things out by hand.
+  rebase-and/or-add, then an explanation of the changes (and non-changes) is
+  printed, showing me what I'd really be doing if I force-pushed.  I can
+  instruct the program to continue (and it will force-with-lease push) or I can
+  abort and sort things out by hand.
 
 I'll probably refine this last step a bit more.  I think I can at least add a
 step that's "cherry pick commits from the remote that aren't on this branch",
