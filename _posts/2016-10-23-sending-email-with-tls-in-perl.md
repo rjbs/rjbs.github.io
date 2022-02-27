@@ -30,12 +30,14 @@ About two years ago, Net::SMTP got native support for TLS and STARTTLS.  About
 six months ago, the stock Email::Sender SMTP transport was upgraded to use it.
 Now you can just write:
 
-    my $xport = Email::Sender::Transport::SMTP->new({
-      host => 'smtp.pobox.com',
-      ssl  => 'starttls', # or 'ssl'
-      sasl_username => 'devnull@example.com',
-      sasl_password => 'aij2$j3!aa(',
-    );
+```perl
+my $xport = Email::Sender::Transport::SMTP->new({
+  host => 'smtp.pobox.com',
+  ssl  => 'starttls', # or 'ssl'
+  sasl_username => 'devnull@example.com',
+  sasl_password => 'aij2$j3!aa(',
+);
+```
 
 ...and not think about installing anything else.  This is what I suggest you
 do.
