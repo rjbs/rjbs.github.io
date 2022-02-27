@@ -25,28 +25,30 @@ useful, although… well, I guess it could happen!
 
 So, a typical Mason component might look like:
 
-      <%args>
-      $name
-      </%arg>
+```mason
+<%args>
+$name
+</%arg>
 
-      <%method greeting>
-      <%args>$name</$args>
-      Hey, <% $name %>
-      </%method>
+<%method greeting>
+<%args>$name</$args>
+Hey, <% $name %>
+</%method>
 
-      <html>
-        <head><title>Your face</title></head>
-        <& SELF:body, name => $name &>
-      </html>
+<html>
+  <head><title>Your face</title></head>
+  <& SELF:body, name => $name &>
+</html>
 
-      <%method body>
-      <%args>$name</$args>
-        <body>
-        <div><& SELF:greeting, name => $name &><div>
-        </body>
-      </%method>
+<%method body>
+<%args>$name</$args>
+  <body>
+  <div><& SELF:greeting, name => $name &><div>
+  </body>
+</%method>
 
-      <!-- good night! -->
+<!-- good night! -->
+```
 
 Even in this dumb contrived example, it can be hard to figure out the entry
 point.  Basically, anything that isn't part of some other special block like
@@ -101,30 +103,34 @@ treated like overlays.
 I'll elaborate.  In the standard configuration, `/X/vehicle/car` can never have
 a parent under `/Z`.  The default tree is:
 
-      /X/vehicle/car
-        -> /X/vehicle/autohandler
-          -> /X/autohandler
+    /X/vehicle/car
+      -> /X/vehicle/autohandler
+        -> /X/autohandler
 
 With HTML::MasonX::Free::Resolver, we'd get:
 
-      /X/vehicle/car
-        -> /Z/vehicle/car
+    /X/vehicle/car
+      -> /Z/vehicle/car
 
 And while traditional Mason would call its tree from the bottom up, ours calls
 from the top down.  Since all our components have a `main` method, then a
 pretty simple thing to do is to have this in the "base" template
 `/Z/vehicle/car`:
 
-    <%method main>
-    This is a <% SELF:color %> <% SELF:type %> car.
-    </%method>
+```mason
+<%method main>
+This is a <% SELF:color %> <% SELF:type %> car.
+</%method>
 
-    <%method color>grey</%method>
-    <%method type>motorized</%method>
+<%method color>grey</%method>
+<%method type>motorized</%method>
+```
 
 …and in your "derived" template, `/X/vehicle/car` just:
 
-    <%method type>hybrid</%method>
+```mason
+<%method type>hybrid</%method>
+```
 
 This makes it easy to have a generic pack of templates that you customized on a
 per-install basis by adding a new root at the derived end of the list.
@@ -139,21 +145,27 @@ realize this won't ever get used."
 
 Say your template has this:
 
-      <input value='<% $value %>' />
+```mason
+<input value='<% $value %>' />
+```
 
 Well, you'd never do that, right, because you'd use a widget generator?  But
 let's pretend you would.  The other bug is that you probably didn't escape the
 entites in `$value`, so maybe there's an HTML injection attack there.  You
 might have wanted:
 
-      <input value='<% $value |html %>' />
+```mason
+<input value='<% $value |html %>' />
+```
 
 That weird-o pipe thing is Mason's filtering syntax.  You probably *almost
 always* want to entity encode things, so you might set the
 `default_escape_flags` on your compiler to `html`.  Then, when you *don't*
 wan't to encode, you do this:
 
-      <div><% $known_html |n %></div>
+```mason
+<div><% $known_html |n %></div>
+```
 
 This means, "*no* escaping for this, please."  The problem is that you might
 want to write a method that accepts a parameter that could be of either type.
@@ -164,15 +176,19 @@ HTML::MasonX::Free::Escape provides a replacement for the default `html` filter
 that can be given an argument that is *known* to be HTML.  You generate it by
 using the `html_hunk` routine, like this:
 
-      % my $text = "D&D";
-      % my $html = html_hunk("D&amp;D");
-      I like playing <% $text %> and more <% $html %>.
+```mason
+% my $text = "D&D";
+% my $html = html_hunk("D&amp;D");
+I like playing <% $text %> and more <% $html %>.
+```
 
 The rendered text will encode `$text` without double-encoding `$html`.  You
 also can't accidentally do this:
 
-      % my $html = html_hunk("D&amp;D");
-      % my $string = "My favorite game is $html."
+```mason
+% my $html = html_hunk("D&amp;D");
+% my $string = "My favorite game is $html."
+```
 
 Or, rather, you *can*, but it will be a runtime error instead of a weird-o
 double encoding showing up somewhere.
