@@ -21,7 +21,7 @@ implementation of Logo I could find.  At first, it went well.  We drew some
 stuff.  She drew a vampire girl.
 
 <center>
-![vampire girl](/img/journal/turtle-vampire.png)
+![vampire girl](/assets/turtle-vampire.png)
 </center>
 
 I wanted, next, to show her how to do some of the more commonly-seen tricks,
@@ -48,7 +48,7 @@ where she picked this up.  Kids these days!
 Anyway, she drew a skull, and it was awesome:
 
 <center>
-![vampire girl](/img/journal/ps-skull.png)
+![vampire girl](/assets/ps-skull.png)
 </center>
 
 Those three squares were going to be a lesson.  After we did one square, we
@@ -105,7 +105,7 @@ with, we could write named functions, and the kid was pleased that TextMate had
 good syntax highlighting for it.  She made the long-overdue flower:
 
 <center>
-![vampire girl](/img/journal/turtle-flower.png)
+![vampire girl](/assets/turtle-flower.png)
 </center>
 
 Next up, I'd like to make it easier for her to run the program without a bunch
