@@ -28,13 +28,15 @@ Strings and numbers can be produced by serializing `"$x"` or `0+$x` directly,
 or by starting with string or number literals, which is *maybe* okay, but
 inspecting the data before it gets serialized can ruin this effect:
 
-      ~$ perl -MJSON -E '$x = 0; say $x; say JSON->new->encode([$x])'
-      0
-      [0]
+```
+~$ perl -MJSON -E '$x = 0; say $x; say JSON->new->encode([$x])'
+0
+[0]
 
-      ~$ perl -MJSON -E '$x = 0; say "$x"; say JSON->new->encode([$x])'
-      0
-      ["0"]
+~$ perl -MJSON -E '$x = 0; say "$x"; say JSON->new->encode([$x])'
+0
+["0"]
+```
 
 That `say "$x"` could always be buried deep in some subroutine, and you end up
 with spooky action at a distance.
@@ -48,15 +50,17 @@ it!
 I wrote JSON::Typist, which walks a structure produced by a JSON decode and
 returns a new structure, replacing string and number leafs with objects:
 
-      my $content = q<{ "number": 5, "string": "5" }>;
+```perl
+my $content = q<{ "number": 5, "string": "5" }>;
 
-      my $json = JSON->new->convert_blessed->canonical;
+my $json = JSON->new->convert_blessed->canonical;
 
-      my $payload = $json->decode( $content );
-      my $typed   = JSON::Typist->new->apply_types( $payload );
+my $payload = $json->decode( $content );
+my $typed   = JSON::Typist->new->apply_types( $payload );
 
-      $typed->{string}->isa('JSON::Typist::String'); #true
-      $typed->{number}->isa('JSON::Typist::Number'); # true
+$typed->{string}->isa('JSON::Typist::String'); # true
+$typed->{number}->isa('JSON::Typist::Number'); # true
+```
 
 I'm using it for testing a web service that must provide data in the right
 types.  It isn't enough to make sure that `$data->{id} eq $expected`, I also
