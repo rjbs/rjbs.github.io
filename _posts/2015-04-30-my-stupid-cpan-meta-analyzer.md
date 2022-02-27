@@ -10,15 +10,17 @@ produce most dists.  That is: it looked at the `generated_by` field in the META
 files and categorized them.  Here's what the first report, from April 11, 2010,
 looked like:
 
-      generator             | dists | authors | %
-      ExtUtils::MakeMaker   | 7864  | 2193    | 39.49%
-                            | 5273  | 2228    | 26.48%
-      Module::Install       | 3149  |  465    | 15.81%
-      Module::Build         | 3104  |  618    | 15.59%
-      Dist::Zilla           |  475  |   64    | 2.39%
-      ExtUtils::MY_Metafile |   25  |    3    | 0.13%
-      __OTHER__             |   20  |    8    | 0.10%
-      software              |    5  |    1    | 0.03%
+```
+generator             | dists | authors | %
+ExtUtils::MakeMaker   | 7864  | 2193    | 39.49%
+                      | 5273  | 2228    | 26.48%
+Module::Install       | 3149  |  465    | 15.81%
+Module::Build         | 3104  |  618    | 15.59%
+Dist::Zilla           |  475  |   64    | 2.39%
+ExtUtils::MY_Metafile |   25  |    3    | 0.13%
+__OTHER__             |   20  |    8    | 0.10%
+software              |    5  |    1    | 0.03%
+```
 
 Over time, I puttered around with it, but mostly I just ran it once in a while
 to see how things changed.  (The above data is actually a truncation.  The
@@ -27,18 +29,20 @@ to see how things changed.  (The above data is actually a truncation.  The
 Here's what the data look like for last month, only generators with at least
 100 dists:
 
-      generator                    | dists | authors | %
-      ExtUtils::MakeMaker          | 10419 | 2997    | 34.27%
-      Dist::Zilla                  |  6225 |  836    | 20.48%
-                                   |  4807 | 2299    | 15.81%
-      Module::Build                |  3931 |  918    | 12.93%
-      Module::Install              |  3549 |  622    | 11.67%
-      __OTHER__                    |   792 |  189    | 2.61%
-      Dist::Milla                  |   225 |   54    | 0.74%
-      Dist::Inkt::Profile::TOBYINK |   141 |    3    | 0.46%
-      The Hand of Barbie 1.0       |   106 |    1    | 0.35%
-      Minilla/v2.3.0               |   104 |   55    | 0.34%
-      Minilla/v2.1.1               |   103 |   46    | 0.34%
+```
+generator                    | dists | authors | %
+ExtUtils::MakeMaker          | 10419 | 2997    | 34.27%
+Dist::Zilla                  |  6225 |  836    | 20.48%
+                             |  4807 | 2299    | 15.81%
+Module::Build                |  3931 |  918    | 12.93%
+Module::Install              |  3549 |  622    | 11.67%
+__OTHER__                    |   792 |  189    | 2.61%
+Dist::Milla                  |   225 |   54    | 0.74%
+Dist::Inkt::Profile::TOBYINK |   141 |    3    | 0.46%
+The Hand of Barbie 1.0       |   106 |    1    | 0.35%
+Minilla/v2.3.0               |   104 |   55    | 0.34%
+Minilla/v2.1.1               |   103 |   46    | 0.34%
+```
 
 The program that generates this data is (now) pretty fast.  It generates all
 the data for a minicpan in about fifteen minutes.  Generating the above table

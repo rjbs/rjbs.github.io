@@ -31,7 +31,10 @@ there will no longer be any reference to the data on disk, and it can be freed.
 
 Perl even makes this easy to do:
 
-    open my $fh, '+>', undef or die "can't create anonymous storage: $!";
+```perl
+open my $fh, '+>', undef
+  or die "can't create anonymous storage: $!";
+```
 
 This creates a file in your temporary directory (either `$TMPDIR` or `/tmp` or
 your current directory) with a name like "PerlIO_TQ50Oh" and then immediately
