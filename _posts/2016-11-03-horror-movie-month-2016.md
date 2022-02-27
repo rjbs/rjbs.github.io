@@ -349,9 +349,9 @@ Is this the last 31 movie Horror Movie Month?  Maybe.
 
 We've found fewer great new horror movies, the last few years, and often best
 ones we find, we watch during the year, meaning that October is a bit of a
-slog.  This year was much better, but I'm not sure we'll have that luck in
-2017.  Maybe we'll switch to mostly watching horror movies with Martha in
-October instead.
+slog.  This year was much better, but I'm not sure we'll have that luck in 2017.
+Maybe we'll switch to mostly watching horror movies with Martha in October
+instead.
 
 We've got a good eleven months to decide, though.
 

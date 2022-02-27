@@ -57,32 +57,34 @@ test suite for the indexer.  To be fair, a couple tests existed already, but
 they tested very, very few things.  By just a bit before four in the afternoon
 on that day in 2011, David and I had a passing test that looked like this:
 
-      my $result = PAUSE::TestPAUSE->new({
-        author_root => 'corpus/authors',
-      })->test;
+```perl
+my $result = PAUSE::TestPAUSE->new({
+  author_root => 'corpus/authors',
+})->test;
 
-      ok(
-        -e $result->tmpdir->file(qw(cpan modules 02packages.details.txt.gz)),
-        "our indexer indexed",
-      );
+ok(
+  -e $result->tmpdir->file(qw(cpan modules 02packages.details.txt.gz)),
+  "our indexer indexed",
+);
 
-      my $pkg_rows = $result->connect_mod_db->selectall_arrayref(
-        'SELECT * FROM packages ORDER BY package, version',
-        { Slice => {} },
-      );
+my $pkg_rows = $result->connect_mod_db->selectall_arrayref(
+  'SELECT * FROM packages ORDER BY package, version',
+  { Slice => {} },
+);
 
-      my @want = (
-        { package => 'Bug::Gold',      version => '9.001' },
-        { package => 'Hall::MtKing',   version => '0.01'  },
-        { package => 'XForm::Rollout', version => '1.00'  },
-        { package => 'Y',              version => 2       },
-      );
+my @want = (
+  { package => 'Bug::Gold',      version => '9.001' },
+  { package => 'Hall::MtKing',   version => '0.01'  },
+  { package => 'XForm::Rollout', version => '1.00'  },
+  { package => 'Y',              version => 2       },
+);
 
-      cmp_deeply(
-        $pkg_rows,
-        [ map {; superhashof($_) } @want ],
-        "we indexed exactly the dists we expected to",
-      );
+cmp_deeply(
+  $pkg_rows,
+  [ map {; superhashof($_) } @want ],
+  "we indexed exactly the dists we expected to",
+);
+```
 
 Further refinements would come, but many of the tests still look quite a lot
 like this.  Note how it begins:  we name an `author_root`  This is a directory
@@ -112,29 +114,35 @@ my fist and cried, "Never again!"
 
 By 2019, test had changed so that rather than this:
 
-      my $result = PAUSE::TestPAUSE->new({
-        author_root => 'corpus/authors',
-      })->test;
+```perl
+my $result = PAUSE::TestPAUSE->new({
+  author_root => 'corpus/authors',
+})->test;
+```
 
 You'd be likely to write:
 
-      my $pause = PAUSE::TestPAUSE->new;
+```perl
+my $pause = PAUSE::TestPAUSE->new;
 
-      $pause->import_author_root('corpus/authors');
+$pause->import_author_root('corpus/authors');
 
-      my $result = $pause->test_reindex;
+my $result = $pause->test_reindex;
+```
 
 (This means you'd be able to later add more files, index again, and see what
 changed.  Useful!)
 
 To make the tests clearer, I added a new method, `upload_author_fake`:
 
-      $pause->upload_author_fake(JBLOE => {
-        name     => 'Example-Dist',
-        version  => '1.0',
-        packages => [ qw(Example::Dist Example::Dist::Package) ]
-        more_metadata => { x_Example => 'This is an example, too.' },
-      });
+```perl
+$pause->upload_author_fake(JBLOE => {
+  name     => 'Example-Dist',
+  version  => '1.0',
+  packages => [ qw(Example::Dist Example::Dist::Package) ]
+  more_metadata => { x_Example => 'This is an example, too.' },
+});
+```
 
 Hey, it's using `from_struct` like we saw in [my Module::Faker report from this
 PTS](https://rjbs.manxome.org/rubric/entry/2115)!  Now you can always know
@@ -142,7 +150,9 @@ exactly what is interesting about a fake.  Sometimes, though, you don't need
 an interesting fake, you just need totally boring dist to be uploaded.  In
 those cases, now you can just write
 
-      $pause->upload_author_fake(JBLOE => 'Example-Dist-1.0.tar.gz');
+```perl
+$pause->upload_author_fake(JBLOE => 'Example-Dist-1.0.tar.gz');
+```
 
 ...and Module::Faker will know what you mean.
 

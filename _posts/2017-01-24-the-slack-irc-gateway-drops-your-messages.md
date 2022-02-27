@@ -7,9 +7,11 @@ tags  : ["perl", "programming", "slack"]
 So, imagine the following exchange in private message with one of your team
 members:
 
-      <alice> So, how have I been doing?
-      <bob> Frankly, I don't think it's working out.
-      * bob is joking!  You're doing great.
+```
+<alice> So, how have I been doing?
+<bob> Frankly, I don't think it's working out.
+* bob is joking!  You're doing great.
+```
 
 Maybe Bob shouldn't be such a joker here, but sometimes Bob can't help himself.
 Unfortunately, Bob has just caused Alice an incredible amount of stress.  Or,
@@ -38,28 +40,30 @@ garbage.**
 I can't fix Slack from my desk, but I can fix my IRC client to prevent *me*
 from making this error.  I wrote this `irssi` plugin:
 
-    use warnings;
-    use strict;
+```
+use warnings;
+use strict;
 
-    use Irssi ();
+use Irssi ();
 
-    our $VERSION = '0.001';
-    our %IRSSI = (
-      authors => 'rjbs',
-      name    => 'slack-privmsg-me',
-    );
+our $VERSION = '0.001';
+our %IRSSI = (
+  authors => 'rjbs',
+  name    => 'slack-privmsg-me',
+);
 
-    Irssi::signal_add('message irc own_action'  => sub {
-      my ($server, $message, $target) = @_;
+Irssi::signal_add('message irc own_action'  => sub {
+  my ($server, $message, $target) = @_;
 
-      # only stop /me on Slack
-      return unless $server->{address} =~ /\.slack\.com\z/i;
+  # only stop /me on Slack
+  return unless $server->{address} =~ /\.slack\.com\z/i;
 
-      return if $target =~ /^#/; # allow /me in channels
+  return if $target =~ /^#/; # allow /me in channels
 
-      Irssi::print("Sorry, Slack drops /me silently in private chat.");
-      Irssi::signal_stop();
-    });
+  Irssi::print("Sorry, Slack drops /me silently in private chat.");
+  Irssi::signal_stop();
+});
+```
 
 This intercepts every "about to send an action" event and, if it's to a Slack
 chatnet and in a private message, reports an error to the user and aborts.  I
