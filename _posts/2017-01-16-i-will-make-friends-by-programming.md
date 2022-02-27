@@ -30,14 +30,15 @@ Carbon was retired.
 
 Here's the JavaScript program in its entirety:
 
-      #!/usr/bin/osascript
-      Contacts = Application("Contacts");
+```javascript
+#!/usr/bin/osascript
+Contacts = Application("Contacts");
 
-      var people = Contacts.groups.byName("Correspondents").people;
-      var target = people[ Math.floor( Math.random() * people.length ) ];
+var people = Contacts.groups.byName("Correspondents").people;
+var target = people[ Math.floor( Math.random() * people.length ) ];
 
-      var first = target.firstName.get();
-      var last  = target.lastName.get();
+var first = target.firstName.get();
+var last  = target.lastName.get();
 
-      first + " " + last;
-
+first + " " + last;
+```

@@ -74,12 +74,14 @@ was.
 I was delayed by an astounding bug in DB_File that manifested on my machine,
 but not his.  This code:
 
-      tie my %hash, 'DB_File', ...;
+```perl
+tie my %hash, 'DB_File', ...;
 
-      $hash{ $_ } = $_ for @data;
+$hash{ $_ } = $_ for @data;
 
-      say "Exists" if exists $hash{foo};
-      say "Grep"   if grep {; $_ eq 'foo' } keys %hash;
+say "Exists" if exists $hash{foo};
+say "Grep"   if grep {; $_ eq 'foo' } keys %hash;
+```
 
 ...would print "Grep" but not "Exists".  In other words, `exists` was broken on
 these tied hashes.  Rather than go further down this rabbit hole, we removed
@@ -155,15 +157,17 @@ I added a new method, `upload_fake`, that takes a `META.yml` file, builds the
 dist that that file might represent, and uploads that file for indexing.  For
 example, given this metafile:
 
-    # filename: Foo-Bar-0.001.yml
-    name: Foo-Bar
-    version: 0.001
-    provides:
-      Foo::Bar:
-       version: 0.001
-       file: lib/Foo/Bar.pm
-    X_Module_Faker:
-      cpan_author: FCOME
+```yaml
+# filename: Foo-Bar-0.001.yml
+name: Foo-Bar
+version: 0.001
+provides:
+  Foo::Bar:
+   version: 0.001
+   file: lib/Foo/Bar.pm
+X_Module_Faker:
+  cpan_author: FCOME
+```
 
 ...the test suite will make a file with `lib/Foo/Bar.pm` in it with the code
 needed: package statements, version declarations, and so on.  The it will
@@ -200,27 +204,29 @@ CPAN](https://github.com/rjbs/CPAN-Metanalyzer), unpacking every distribution
 and building a small report about its contents.  Here's an example report on
 one dist:
 
-      sqlite> select * from dists where dist = 'Dist-Zilla';
-               distfile = RJBS/Dist-Zilla-6.012.tar.gz
-                   dist = Dist-Zilla
-           dist_version = 6.012
-                 cpanid = RJBS
-                  mtime = 1524298921
-           has_meta_yml = 1
-          has_meta_json = 1
-              meta_spec = 2
-      meta_dist_version = 6.012
-         meta_generator = Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150010
-       meta_gen_package = Dist::Zilla
-       meta_gen_version = 6.012
-          meta_gen_perl = v5.26.1
-           meta_license = perl_5
-         meta_yml_error = {}
-       meta_yml_backend = YAML::Tiny version 1.70
-        meta_json_error = {}
-      meta_json_backend = YAML::Tiny version 1.70
-      meta_struct_error = {}
-           has_dist_ini = 1
+```
+sqlite> select * from dists where dist = 'Dist-Zilla';
+         distfile = RJBS/Dist-Zilla-6.012.tar.gz
+             dist = Dist-Zilla
+     dist_version = 6.012
+           cpanid = RJBS
+            mtime = 1524298921
+     has_meta_yml = 1
+    has_meta_json = 1
+        meta_spec = 2
+meta_dist_version = 6.012
+   meta_generator = Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150010
+ meta_gen_package = Dist::Zilla
+ meta_gen_version = 6.012
+    meta_gen_perl = v5.26.1
+     meta_license = perl_5
+   meta_yml_error = {}
+ meta_yml_backend = YAML::Tiny version 1.70
+  meta_json_error = {}
+meta_json_backend = YAML::Tiny version 1.70
+meta_struct_error = {}
+     has_dist_ini = 1
+```
 
 I originally wrote this to tell me how many people were using Dist::Zilla, but
 it's useful for other things, like dependency analysis (not shown, above, is
@@ -232,25 +238,27 @@ looks for output from MetaConfig.  You won't yet see these data for dists not
 built by Dist::Zilla.  I looked for what perl version was being used to build
 distributions with Dist::Zilla v6:
 
-      sqlite> SELECT SUBSTR(meta_gen_perl, 1, 5) AS perl, COUNT(*) AS dists
-              FROM dists
-              WHERE meta_gen_package = 'Dist::Zilla'
-                AND meta_gen_perl IS NOT NULL
-                AND SUBSTR(meta_gen_version,1,1)='6'
-              GROUP BY SUBSTR(meta_gen_perl, 1, 5);
+```
+sqlite> SELECT SUBSTR(meta_gen_perl, 1, 5) AS perl, COUNT(*) AS dists
+        FROM dists
+        WHERE meta_gen_package = 'Dist::Zilla'
+          AND meta_gen_perl IS NOT NULL
+          AND SUBSTR(meta_gen_version,1,1)='6'
+        GROUP BY SUBSTR(meta_gen_perl, 1, 5);
 
-      perl        dists
-      ----------  ----------
-      v5.14       2
-      v5.16       5
-      v5.18       4
-      v5.20       29
-      v5.22       98
-      v5.23       7
-      v5.24       675
-      v5.25       204
-      v5.26       563
-      v5.27       54
+perl        dists
+----------  ----------
+v5.14       2
+v5.16       5
+v5.18       4
+v5.20       29
+v5.22       98
+v5.23       7
+v5.24       675
+v5.25       204
+v5.26       563
+v5.27       54
+```
 
 This isn't the best data-gathering in the world, but it made me feel confident
 about moving to v5.20.  I started a branch, applied the commits that had been
@@ -268,9 +276,11 @@ introduced a new problem.
 Subroutine signatures enforce strict arity checking by default.  That is, if
 you write this:
 
-      sub add ($x, $y) { $x + $y }
+```perl
+sub add ($x, $y) { $x + $y }
 
-      add(1, 2, 3);
+add(1, 2, 3);
+```
 
 ...then you get an error about too many arguments.  This is good!  (It's also
 easy to make your subroutine accept and throw away unwanted arguments.)  The
@@ -280,7 +290,9 @@ signatures were introduced.  For the most part, even though I use signatures
 daily, I hadn't found this to be a major problem.  This time, though, a new
 pattern kept coming up:
 
-      around some_method ($orig, $self, @rest) { ... }
+```perl
+around some_method ($orig, $self, @rest) { ... }
+```
 
 Now, if the caller of `some_method` got the argument count wrong, I'd only be
 told that `Class::MOP::around` was called incorrectly.  This could be
