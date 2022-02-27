@@ -422,6 +422,4 @@ Thanks very much to Salve, Stig, Philippe, Laurent, Neil, and our sponsors:
 <a href="http://opusvl.com">OpusVL</a>,
 <a href="https://eligo.co.uk">Eligo</a>,
 <a href="https://www.perl-services.de">Perl Services</a>,
-and <a href="https://www.oetiker.ch">Oetiker+Partner</a>.</p>
-
-
+and <a href="https://www.oetiker.ch">Oetiker+Partner</a>.
