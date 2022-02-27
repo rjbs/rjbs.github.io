@@ -1,46 +1,30 @@
 ---
-layout: default
+layout: page
+title: About
+permalink: /about/
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
+I made my first home page back when <acronym title="HyperText Markup
+Language">HTML</acronym> 1.1 was just coming out and some guy named Mozilla was
+releasing Netscape, which he said would replace the <acronym title="National
+Center for Supercomputing Applications">NCSA</acronym> Mosaic browser.  I'll
+let you in on a little secret:  I didn't believe for a minute that <acronym
+title="HyperText Transfer Protocol">HTTP</acronym> would replace such
+tried-and-true services as Archie, Veronica, and (my favorite) Gopher.
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+Sure, I was wrong, but I've never admitted it enough to really dive into
+producing amazing web content.  I just write articles once in a while.
 
-      <div class="entry">
-        <b>{{ post.date | date: "%B %e, %Y" }}</b>
-        {{ post.excerpt }}
-      </div>
+### Contact me
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+If you know me, please be in touch.  I always like to hear from old friends.
+If you don't know me, but have something interesting to say or ask, feel free
+to contact me.  If you don't know me, and have nothing to say or have something
+to sell, please don't bother me.  This is my personal contact info, *not
+work*.  I will never, ever give my custom to merchants **or recruiters** who
+solicit me directly via email or telephone.
 
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
+* by email: [www@rjbs.manxome.org](mailto:www@rjbs.manxome.org)
+* by IRC: rjbs @ irc.perl.org; rjbs @ freenode<
+* by Twitter: [@rjbs](https://twitter.com/rjbs)
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <em>{{ page }}</em>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | relative_url }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-  </div>
-  {% endif %}
-
-</div>
