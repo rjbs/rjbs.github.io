@@ -51,26 +51,28 @@ and it can manage auth tokens for users and call API methods.  API calls return
 futures that, when ready, produce simple objects.  Here's how it looks, more or
 less, in use in the Synergy plugin:
 
-      my $rsp_f = $self->rtm_client->api_call('rtm.tasks.add' => {
-        auth_token => $token,
-        timeline   => $tl,
-        name  => $todo_description,
-        parse => 1,
-      });
+```perl
+my $rsp_f = $self->rtm_client->api_call('rtm.tasks.add' => {
+  auth_token => $token,
+  timeline   => $tl,
+  name  => $todo_description,
+  parse => 1,
+});
 
-      $rsp_f->then(sub ($rsp) {
-        unless ($rsp->is_success) {
-          $Logger->log([
-            "failed to cope with a request to make a task: %s", $rsp->_response,
-          ]);
-          return $event->reply("Something went wrong creating that task, sorry.");
-        }
+$rsp_f->then(sub ($rsp) {
+  unless ($rsp->is_success) {
+    $Logger->log([
+      "failed to cope with a request to make a task: %s", $rsp->_response,
+    ]);
+    return $event->reply("Something went wrong creating that task, sorry.");
+  }
 
-        $Logger->log([ "made task: %s", $rsp->_response ]);
-        return $event->reply("Task created!");
-      })->else(sub (@fail) {
-        $Logger->log(...);
-      })->retain;
+  $Logger->log([ "made task: %s", $rsp->_response ]);
+  return $event->reply("Task created!");
+})->else(sub (@fail) {
+  $Logger->log(...);
+})->retain;
+```
 
 Nice!  This code is called in response to a user saying `todo eat a whole pie
 ^tomorrow`.  It returns immediately while the API call happens in the
@@ -96,12 +98,14 @@ problem is *timelines*.  Here's what the API docs say:
 
 So, that `api_call` call above was actually inside another call:
 
-        my $tl_f = $self->timeline_for($event->from_user);
+```perl
+my $tl_f = $self->timeline_for($event->from_user);
 
-        $tl_f->then(sub ($tl) {
-          my $rsp_f = $self->rtm_client->api_call('rtm.tasks.add' => {…});
-          ...
-        );
+$tl_f->then(sub ($tl) {
+  my $rsp_f = $self->rtm_client->api_call('rtm.tasks.add' => {…});
+  ...
+);
+```
 
 Either we have a timeline id for that user already ready or we go get one,
 meaning there's either an additional API call or local state management.  That
@@ -135,43 +139,47 @@ Here's how it might work in [JMAP](https://jmap.io) if JMAP task lists were a
 standard.  You have a task with id 123 and you want to do the updates above.
 You'd make a single JMAP call:
 
-      methodCalls: [
-        [ "Task/set", {
-            "update": { "123": {
-              "dueDate": "2019-11-08T00:00:00Z",
-              "priority": 1,
-              "tags/boring": false,
-              "tags/omg": true,
-            } },
-          },
-          "a",
-        ]
-      ]
+```javascript
+methodCalls: [
+  [ "Task/set", {
+      "update": { "123": {
+        "dueDate": "2019-11-08T00:00:00Z",
+        "priority": 1,
+        "tags/boring": false,
+        "tags/omg": true,
+      } },
+    },
+    "a",
+  ]
+]
+```
 
 Note that the update argument is an object with the id as a key.  You can
 update many tasks at once.  Note, too, that Task/set and its arguments are in
 an array.  You can update multiple kinds of things at once.  I could create two
 new lists and all their items like this...
 
-      methodCalls: [
-        [ "TaskList/set", {
-            "create": {
-              "work": { "name": "Work Stuff" },
-              "home": { "name": "Home Todos" }
-            },
-          },
-          "a",
-        ],
-        [ "Task/set", {
-            "create": {
-              "w1": { "name": "Get Hired", "listId": "#work" },
-              "w2": { "name": "Get Raise", "listId": "#work" },
-              "h1": { "name": "Take Nap",  "listId": "#home" },
-            }
-          },
-          "b"
-        ]
-      ]
+```javascript
+methodCalls: [
+  [ "TaskList/set", {
+      "create": {
+        "work": { "name": "Work Stuff" },
+        "home": { "name": "Home Todos" }
+      },
+    },
+    "a",
+  ],
+  [ "Task/set", {
+      "create": {
+        "w1": { "name": "Get Hired", "listId": "#work" },
+        "w2": { "name": "Get Raise", "listId": "#work" },
+        "h1": { "name": "Take Nap",  "listId": "#home" },
+      }
+    },
+    "b"
+  ]
+]
+```
 
 Working with a protocol like this makes working in an event loop driven system
 really nice.  You have a lot of options, but a simple one is to stick all your

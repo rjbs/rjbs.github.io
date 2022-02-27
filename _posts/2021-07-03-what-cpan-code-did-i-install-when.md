@@ -24,38 +24,39 @@ accordingly.
 
 Here it is:
 
-      #!perl
-      use v5.34.0;
-      use warnings;
+```perl
+#!perl
+use v5.34.0;
+use warnings;
 
-      use File::stat;
-      use Term::ANSIColor;
+use File::stat;
+use Term::ANSIColor;
 
-      my @perl_inc = `perl -E 'say for grep { m{/.plenv/versions/} } \@INC'`;
-      chomp @perl_inc;
+my @perl_inc = `perl -E 'say for grep { m{/.plenv/versions/} } \@INC'`;
+chomp @perl_inc;
 
-      my @lines = `find @perl_inc -name MYMETA.json`;
-      chomp @lines;
+my @lines = `find @perl_inc -name MYMETA.json`;
+chomp @lines;
 
-      my %mtime;
+my %mtime;
 
-      for my $line (@lines) {
-        my ($dist) = $line =~ m{/([^/]+)/MYMETA.json\z};
-        my $mtime  = stat($line)->mtime;
-        $mtime{$dist} = $mtime;
-      }
+for my $line (@lines) {
+  my ($dist) = $line =~ m{/([^/]+)/MYMETA.json\z};
+  my $mtime  = stat($line)->mtime;
+  $mtime{$dist} = $mtime;
+}
 
-      my $prev = 0;
-      for my $dist (sort { $mtime{$a} <=> $mtime{$b} } keys %mtime) {
-        my $mtime = $mtime{$dist};
-        if ($mtime - $prev > 3600) {
-          print "\n";
-          printf "%s %s %s\n",
-            colored(['bright_cyan'], '==['),
-            colored(['bright_yellow'], scalar localtime $mtime),
-            colored(['bright_cyan'], ']==');
-        }
-        $prev = $mtime;
-        say "$dist";
-      }
-
+my $prev = 0;
+for my $dist (sort { $mtime{$a} <=> $mtime{$b} } keys %mtime) {
+  my $mtime = $mtime{$dist};
+  if ($mtime - $prev > 3600) {
+    print "\n";
+    printf "%s %s %s\n",
+      colored(['bright_cyan'], '==['),
+      colored(['bright_yellow'], scalar localtime $mtime),
+      colored(['bright_cyan'], ']==');
+  }
+  $prev = $mtime;
+  say "$dist";
+}
+```

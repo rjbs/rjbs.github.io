@@ -37,26 +37,32 @@ easy to produce given any data structure describing a maze, even if it would be
 a sort of stupid format to actually store a maze in.  I went with a
 line-oriented format like this:
 
-      1 2 3
-      4 5 6
-      7 8 9
+```
+1 2 3
+4 5 6
+7 8 9
+```
 
 Every line in this example is row of three rooms in the maze.  This input would
 actually be illegal, but it's a useful starting point.  Every room in the maze
 is represented by an integer, which in turn represents a four-bit bitfield,
 where each bit tell us whether the room links in the indicated direction
 
-        1
-       8•2
-        4
+```
+ 1
+8•2
+ 4
+```
 
 So if a cell in the maze has passages leading south and east, it would be
 represented in the file by a 6.  This means some kinds of input are
 nonsensical.  What does this input mean?
 
-      0 0 0
-      0 2 0
-      0 0 0
+```
+0 0 0
+0 2 0
+0 0 0
+```
 
 The center cell has a passage east, but the cell to its east has no passage
 west.  Easy solution:  this is illegal.
@@ -67,49 +73,57 @@ Eventually, though, I decided that the key was not to draw cells (rooms), but
 to draw lines.  That meant that for a three by three grid of cells, I'd need to
 draw a four by four grid of lines.  It's that old fencepost problem.
 
-       1   2   3   4
-     1 +---+---+---+
-       | 0 | 0 | 0 |
-     2 +---+---+---+
-       | 0 | 2 | 8 |
-     3 +---+---+---+
-       | 0 | 0 | 0 |
-     4 +---+---+---+
+```
+  1   2   3   4
+1 +---+---+---+
+  | 0 | 0 | 0 |
+2 +---+---+---+
+  | 0 | 2 | 8 |
+3 +---+---+---+
+  | 0 | 0 | 0 |
+4 +---+---+---+
+```
 
 Here, there's only one linkage, so really the map could be drawn like this:
 
-       1   2   3   4
-     1 +---+---+---+
-       | 0 | 0 | 0 |
-     2 +---+---+---+
-       | 0 | 2   8 |
-     3 +---+---+---+
-       | 0 | 0 | 0 |
-     4 +---+---+---+
+```
+  1   2   3   4
+1 +---+---+---+
+  | 0 | 0 | 0 |
+2 +---+---+---+
+  | 0 | 2   8 |
+3 +---+---+---+
+  | 0 | 0 | 0 |
+4 +---+---+---+
+```
 
 My reference map while testing was:
 
-       1   2   3   4
-     1 +---+---+---+
-        10  12 | 0 |
-     2 +---+   +---+
-       | 0 | 5 | 0 |
-     3 +---+   +---+
-       | 0 | 3  12 |
-     4 +---+---+   +
+```
+  1   2   3   4
+1 +---+---+---+
+   10  12 | 0 |
+2 +---+   +---+
+  | 0 | 5 | 0 |
+3 +---+   +---+
+  | 0 | 3  12 |
+4 +---+---+   +
+```
 
 This wasn't too, too difficult to get, but it was pretty ugly.  What I actually
 wanted was something drawn from nice box-drawing characters, which would look
 like this:
 
-       1   2   3   4
-     1 ╶───────┬───┐
-        10  12 │ 0 │
-     2 ┌───┐   ├───┤
-       │ 0 │ 5 │ 0 │
-     3 ├───┤   └───┤
-       │ 0 │ 3  12 │
-     4 └───┴───╴  ╵
+```
+  1   2   3   4
+1 ╶───────┬───┐
+   10  12 │ 0 │
+2 ┌───┐   ├───┤
+  │ 0 │ 5 │ 0 │
+3 ├───┤   └───┤
+  │ 0 │ 3  12 │
+4 └───┴───╴   ╵
+```
 
 Drawing this was going to be trickier.  I couldn't just assume that every
 intersection was a `+`.  I needed to decide how to pick the character at every
@@ -121,16 +135,18 @@ southeast, southwest, and northwest cells, relative to the intersection,
 respectively.  Then determined whether a line extended from the middle of an
 intersection in a given direction as follows:
 
-      # Remember, if the bit is set, then a link (or passageway) in that
-      # direction exists.
-      my $n = (defined $ne && ! ($ne & WEST ))
-           || (defined $nw && ! ($nw & EAST ));
-      my $e = (defined $se && ! ($se & NORTH))
-           || (defined $ne && ! ($ne & SOUTH));
-      my $s = (defined $se && ! ($se & WEST ))
-           || (defined $sw && ! ($sw & EAST ));
-      my $w = (defined $sw && ! ($sw & NORTH))
-           || (defined $nw && ! ($nw & SOUTH));
+```perl
+# Remember, if the bit is set, then a link (or passageway) in that
+# direction exists.
+my $n = (defined $ne && ! ($ne & WEST ))
+     || (defined $nw && ! ($nw & EAST ));
+my $e = (defined $se && ! ($se & NORTH))
+     || (defined $ne && ! ($ne & SOUTH));
+my $s = (defined $se && ! ($se & WEST ))
+     || (defined $sw && ! ($sw & EAST ));
+my $w = (defined $sw && ! ($sw & NORTH))
+     || (defined $nw && ! ($nw & SOUTH));
+```
 
 For example, how do I know that at (2,2) the intersection should only have
 limbs headed west and south?  Well, it has cells to the northeast and
@@ -145,32 +161,36 @@ Now, for each intersection, we'd have a four-bit number.  What did that mean?
 Well, it was easy to make a little hash table with some bitwise operators and
 the Unicode character set…
 
-      my %WALL = (
-        0     | 0     | 0     | 0     ,=> ' ',
-        0     | 0     | 0     | WEST  ,=> '╴',
-        0     | 0     | SOUTH | 0     ,=> '╷',
-        0     | 0     | SOUTH | WEST  ,=> '┐',
-        0     | EAST  | 0     | 0     ,=> '╶',
-        0     | EAST  | 0     | WEST  ,=> '─',
-        0     | EAST  | SOUTH | 0     ,=> '┌',
-        0     | EAST  | SOUTH | WEST  ,=> '┬',
-        NORTH | 0     | 0     | 0     ,=> '╵',
-        NORTH | 0     | 0     | WEST  ,=> '┘',
-        NORTH | 0     | SOUTH | 0     ,=> '│',
-        NORTH | 0     | SOUTH | WEST  ,=> '┤',
-        NORTH | EAST  | 0     | 0     ,=> '└',
-        NORTH | EAST  | 0     | WEST  ,=> '┴',
-        NORTH | EAST  | SOUTH | 0     ,=> '├',
-        NORTH | EAST  | SOUTH | WEST  ,=> '┼',
-      );
+```perl
+my %WALL = (
+  0     | 0     | 0     | 0     ,=> ' ',
+  0     | 0     | 0     | WEST  ,=> '╴',
+  0     | 0     | SOUTH | 0     ,=> '╷',
+  0     | 0     | SOUTH | WEST  ,=> '┐',
+  0     | EAST  | 0     | 0     ,=> '╶',
+  0     | EAST  | 0     | WEST  ,=> '─',
+  0     | EAST  | SOUTH | 0     ,=> '┌',
+  0     | EAST  | SOUTH | WEST  ,=> '┬',
+  NORTH | 0     | 0     | 0     ,=> '╵',
+  NORTH | 0     | 0     | WEST  ,=> '┘',
+  NORTH | 0     | SOUTH | 0     ,=> '│',
+  NORTH | 0     | SOUTH | WEST  ,=> '┤',
+  NORTH | EAST  | 0     | 0     ,=> '└',
+  NORTH | EAST  | 0     | WEST  ,=> '┴',
+  NORTH | EAST  | SOUTH | 0     ,=> '├',
+  NORTH | EAST  | SOUTH | WEST  ,=> '┼',
+);
+```
 
 At first, I *only* drew the intersections, so my reference map looked like
 this:
 
-      ╶─┬┐
-      ┌┐├┤
-      ├┤└┤
-      └┴╴╵
+```
+╶─┬┐
+┌┐├┤
+├┤└┤
+└┴╴╵
+```
 
 When that worked -- which took quite a while -- I added code so that cells
 could have both horizontal and vertical fillter.  My reference map had a width
@@ -179,10 +199,12 @@ filler and 3 columns of horizontal-only drawing per cell.  The weird map just
 above had a zero height and width.  Here's the same map with a width of 6 and a
 height of zero:
 
-      ╶─────────────┬──────┐
-      ┌──────┐      ├──────┤
-      ├──────┤      └──────┤
-      └──────┴──────╴      ╵
+```
+╶─────────────┬──────┐
+┌──────┐      ├──────┤
+├──────┤      └──────┤
+└──────┴──────╴      ╵
+```
 
 I have no idea whether this program will end up being useful in my maze
 testing, but it was (sort of) fun to write.  At this point, I'm mostly
@@ -201,152 +223,154 @@ overstriken character is fully replaced by the overstriking character.
 
 It's all on GitHub, but here's my program as I stands tonight:
 
-      #!perl
-      use v5.20.0;
-      use warnings;
+```
+#!perl
+use v5.20.0;
+use warnings;
 
-      use Getopt::Long::Descriptive;
+use Getopt::Long::Descriptive;
 
-      my ($opt, $usage) = describe_options(
-        '%c %o',
-        [ 'debug|D',    'show debugging output' ],
-        [ 'width|w=i',  'width of cells', { default => 3 } ],
-        [ 'height|h=i', 'height of cells', { default => 1 } ],
-      );
+my ($opt, $usage) = describe_options(
+  '%c %o',
+  [ 'debug|D',    'show debugging output' ],
+  [ 'width|w=i',  'width of cells', { default => 3 } ],
+  [ 'height|h=i', 'height of cells', { default => 1 } ],
+);
 
-      use utf8;
-      binmode *STDOUT, ':encoding(UTF-8)';
+use utf8;
+binmode *STDOUT, ':encoding(UTF-8)';
 
-      #  1   A maze file, in the first and stupidest form, is a sequence of lines.
-      # 8•2  Every line is a sequence of numbers.
-      #  4   Every number is a 4-bit number.  *On* sides are linked.
-      #
-      # Here are some (-w 3 -h 1) depictions of mazes as described by the numbers
-      # shown in their cells:
-      #
-      # ┌───┬───┬───┐ ╶───────┬───┐
-      # │ 0 │ 0 │ 0 │  10  12 │ 0 │
-      # ├───┼───┼───┤ ┌───┐   ├───┤
-      # │ 0 │ 0 │ 0 │ │ 0 │ 5 │ 0 │
-      # ├───┼───┼───┤ ├───┤   └───┤
-      # │ 0 │ 0 │ 0 │ │ 0 │ 3  12 │
-      # └───┴───┴───┘ └───┴───╴   ╵
+#  1   A maze file, in the first and stupidest form, is a sequence of lines.
+# 8•2  Every line is a sequence of numbers.
+#  4   Every number is a 4-bit number.  *On* sides are linked.
+#
+# Here are some (-w 3 -h 1) depictions of mazes as described by the numbers
+# shown in their cells:
+#
+# ┌───┬───┬───┐ ╶───────┬───┐
+# │ 0 │ 0 │ 0 │  10  12 │ 0 │
+# ├───┼───┼───┤ ┌───┐   ├───┤
+# │ 0 │ 0 │ 0 │ │ 0 │ 5 │ 0 │
+# ├───┼───┼───┤ ├───┤   └───┤
+# │ 0 │ 0 │ 0 │ │ 0 │ 3  12 │
+# └───┴───┴───┘ └───┴───╴   ╵
 
-      use constant {
-        NORTH => 1,
-        EAST  => 2,
-        SOUTH => 4,
-        WEST  => 8,
-      };
+use constant {
+  NORTH => 1,
+  EAST  => 2,
+  SOUTH => 4,
+  WEST  => 8,
+};
 
-      my @lines = <>;
-      chomp @lines;
+my @lines = <>;
+chomp @lines;
 
-      my $grid = [ map {; [ split /\s+/, $_ ] } @lines ];
+my $grid = [ map {; [ split /\s+/, $_ ] } @lines ];
 
-      die "bogus input\n" if grep {; grep {; /[^0-9]/ } @$_ } @$grid;
+die "bogus input\n" if grep {; grep {; /[^0-9]/ } @$_ } @$grid;
 
-      my $max_x = $grid->[0]->$#*;
-      my $max_y = $grid->$#*;
+my $max_x = $grid->[0]->$#*;
+my $max_y = $grid->$#*;
 
-      die "not all rows of uniform length\n" if grep {; $#$_ != $max_x } @$grid;
+die "not all rows of uniform length\n" if grep {; $#$_ != $max_x } @$grid;
 
-      for my $y (0 .. $max_y) {
-        for my $x (0 .. $max_x) {
-          my $cell  = $grid->[$y][$x];
-          my $south = $y < $max_y ? $grid->[$y+1][$x] : undef;
-          my $east  = $x < $max_x ? $grid->[$y][$x+1] : undef;
+for my $y (0 .. $max_y) {
+  for my $x (0 .. $max_x) {
+    my $cell  = $grid->[$y][$x];
+    my $south = $y < $max_y ? $grid->[$y+1][$x] : undef;
+    my $east  = $x < $max_x ? $grid->[$y][$x+1] : undef;
 
-          die "inconsistent vertical linkage at ($x, $y) ($cell v $south)"
-            if $south && ($cell & SOUTH  xor  $south & NORTH);
+    die "inconsistent vertical linkage at ($x, $y) ($cell v $south)"
+      if $south && ($cell & SOUTH  xor  $south & NORTH);
 
-          die "inconsistent horizontal linkage at ($x, $y) ($cell v $east)"
-            if $east  && ($cell & EAST   xor  $east  & WEST );
-        }
-      }
+    die "inconsistent horizontal linkage at ($x, $y) ($cell v $east)"
+      if $east  && ($cell & EAST   xor  $east  & WEST );
+  }
+}
 
-      my %WALL = (
-        0     | 0     | 0     | 0     ,=> ' ',
-        0     | 0     | 0     | WEST  ,=> '╴',
-        0     | 0     | SOUTH | 0     ,=> '╷',
-        0     | 0     | SOUTH | WEST  ,=> '┐',
-        0     | EAST  | 0     | 0     ,=> '╶',
-        0     | EAST  | 0     | WEST  ,=> '─',
-        0     | EAST  | SOUTH | 0     ,=> '┌',
-        0     | EAST  | SOUTH | WEST  ,=> '┬',
-        NORTH | 0     | 0     | 0     ,=> '╵',
-        NORTH | 0     | 0     | WEST  ,=> '┘',
-        NORTH | 0     | SOUTH | 0     ,=> '│',
-        NORTH | 0     | SOUTH | WEST  ,=> '┤',
-        NORTH | EAST  | 0     | 0     ,=> '└',
-        NORTH | EAST  | 0     | WEST  ,=> '┴',
-        NORTH | EAST  | SOUTH | 0     ,=> '├',
-        NORTH | EAST  | SOUTH | WEST  ,=> '┼',
-      );
+my %WALL = (
+  0     | 0     | 0     | 0     ,=> ' ',
+  0     | 0     | 0     | WEST  ,=> '╴',
+  0     | 0     | SOUTH | 0     ,=> '╷',
+  0     | 0     | SOUTH | WEST  ,=> '┐',
+  0     | EAST  | 0     | 0     ,=> '╶',
+  0     | EAST  | 0     | WEST  ,=> '─',
+  0     | EAST  | SOUTH | 0     ,=> '┌',
+  0     | EAST  | SOUTH | WEST  ,=> '┬',
+  NORTH | 0     | 0     | 0     ,=> '╵',
+  NORTH | 0     | 0     | WEST  ,=> '┘',
+  NORTH | 0     | SOUTH | 0     ,=> '│',
+  NORTH | 0     | SOUTH | WEST  ,=> '┤',
+  NORTH | EAST  | 0     | 0     ,=> '└',
+  NORTH | EAST  | 0     | WEST  ,=> '┴',
+  NORTH | EAST  | SOUTH | 0     ,=> '├',
+  NORTH | EAST  | SOUTH | WEST  ,=> '┼',
+);
 
-      sub wall {
-        my ($n, $e, $s, $w) = @_;
-        return $WALL{ ($n ? NORTH : 0)
-                    | ($e ? EAST : 0)
-                    | ($s ? SOUTH : 0)
-                    | ($w ? WEST : 0) } || '+';
-      }
+sub wall {
+  my ($n, $e, $s, $w) = @_;
+  return $WALL{ ($n ? NORTH : 0)
+              | ($e ? EAST : 0)
+              | ($s ? SOUTH : 0)
+              | ($w ? WEST : 0) } || '+';
+}
 
-      sub get_at {
-        my ($x, $y) = @_;
-        return undef if $x < 0 or $y < 0;
-        return undef if $x > $max_x or $y > $max_y;
-        return $grid->[$y][$x];
-      }
+sub get_at {
+  my ($x, $y) = @_;
+  return undef if $x < 0 or $y < 0;
+  return undef if $x > $max_x or $y > $max_y;
+  return $grid->[$y][$x];
+}
 
-      my @output;
+my @output;
 
-      for my $y (0 .. $max_y+1) {
-        my $row = q{};
+for my $y (0 .. $max_y+1) {
+  my $row = q{};
 
-        my $filler;
+  my $filler;
 
-        for my $x (0 .. $max_x+1) {
-          my $ne = get_at($x    , $y - 1);
-          my $se = get_at($x    , $y    );
-          my $sw = get_at($x - 1, $y    );
-          my $nw = get_at($x - 1, $y - 1);
+  for my $x (0 .. $max_x+1) {
+    my $ne = get_at($x    , $y - 1);
+    my $se = get_at($x    , $y    );
+    my $sw = get_at($x - 1, $y    );
+    my $nw = get_at($x - 1, $y - 1);
 
-          my $n = (defined $ne && ! ($ne & WEST ))
-               || (defined $nw && ! ($nw & EAST ));
-          my $e = (defined $se && ! ($se & NORTH))
-               || (defined $ne && ! ($ne & SOUTH));
-          my $s = (defined $se && ! ($se & WEST ))
-               || (defined $sw && ! ($sw & EAST ));
-          my $w = (defined $sw && ! ($sw & NORTH))
-               || (defined $nw && ! ($nw & SOUTH));
+    my $n = (defined $ne && ! ($ne & WEST ))
+         || (defined $nw && ! ($nw & EAST ));
+    my $e = (defined $se && ! ($se & NORTH))
+         || (defined $ne && ! ($ne & SOUTH));
+    my $s = (defined $se && ! ($se & WEST ))
+         || (defined $sw && ! ($sw & EAST ));
+    my $w = (defined $sw && ! ($sw & NORTH))
+         || (defined $nw && ! ($nw & SOUTH));
 
-          if ($opt->debug) {
-            printf "(%u, %u) -> NE:%2s SE:%2s SW:%2s NW:%2s -> (%s %s %s %s) -> %s\n",
-              $x, $y,
-              (map {; $_ // '--'  } ($ne, $se, $sw, $nw)),
-              (map {; $_ ? 1 : 0 } ($n,  $e,  $s,  $w)),
-              wall($n, $e, $s, $w);
-          }
+    if ($opt->debug) {
+      printf "(%u, %u) -> NE:%2s SE:%2s SW:%2s NW:%2s -> (%s %s %s %s) -> %s\n",
+        $x, $y,
+        (map {; $_ // '--'  } ($ne, $se, $sw, $nw)),
+        (map {; $_ ? 1 : 0 } ($n,  $e,  $s,  $w)),
+        wall($n, $e, $s, $w);
+    }
 
-          $row .= wall($n, $e, $s, $w);
+    $row .= wall($n, $e, $s, $w);
 
-          if ($x > $max_x) {
-            # The rightmost wall is just the right joiner.
-            $filler .=  wall($s, 0, $s, 0);
-          } else {
-            # Every wall but the last gets post-wall spacing.
-            $row .= ($e ? wall(0,1,0,1) : ' ') x $opt->width;
-            $filler .=  wall($s, 0, $s, 0);
-            $filler .= ' ' x $opt->width;
-          }
-        }
+    if ($x > $max_x) {
+      # The rightmost wall is just the right joiner.
+      $filler .=  wall($s, 0, $s, 0);
+    } else {
+      # Every wall but the last gets post-wall spacing.
+      $row .= ($e ? wall(0,1,0,1) : ' ') x $opt->width;
+      $filler .=  wall($s, 0, $s, 0);
+      $filler .= ' ' x $opt->width;
+    }
+  }
 
-        push @output, $row;
-        if ($y <= $max_y) {
-          push @output, ($filler) x $opt->height;
-        }
-      }
+  push @output, $row;
+  if ($y <= $max_y) {
+    push @output, ($filler) x $opt->height;
+  }
+}
 
-      say for @output;
+say for @output;
+```
 
