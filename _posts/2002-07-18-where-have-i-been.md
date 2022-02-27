@@ -43,7 +43,15 @@ Last week, I picked up a Memory Card 251 to replace my slightly twitchy Interact
 
 ### birthday week
 
-Gloria and I carry on her family's "Birthday Week" tradition, so I've already been showered with some pretty rad stuff.<h6>saturday</h6>Gloria gave me a bottle of ... er ... some kind of fancy water.  A trip to the cabinet reminds me that it's "VOSS."  I just wanted to try it because it's  ridiculously expensive and comes in a neat-o cylindrical bottle.  The water was pretty good, but certainly not worth the three or four dollars they charge for it.  I'm keeping the bottle for some future use.  I don't think I can take the lettering off, though.<h6>sunday</h6>Puttering About in a Small Land is one of Philip K. Dick's more obscure books. It was published after his death, and is one of his "realistic" novels.  I'll probably read it after I finish Choke and The Shining.  Gloria gave me a copy of it.
+Gloria and I carry on her family's "Birthday Week" tradition, so I've already been showered with some pretty rad stuff.
+
+#### saturday
+
+Gloria gave me a bottle of ... er ... some kind of fancy water.  A trip to the cabinet reminds me that it's "VOSS."  I just wanted to try it because it's  ridiculously expensive and comes in a neat-o cylindrical bottle.  The water was pretty good, but certainly not worth the three or four dollars they charge for it.  I'm keeping the bottle for some future use.  I don't think I can take the lettering off, though.
+
+#### sunday
+
+Puttering About in a Small Land is one of Philip K. Dick's more obscure books. It was published after his death, and is one of his "realistic" novels.  I'll probably read it after I finish Choke and The Shining.  Gloria gave me a copy of it.
 
 ### monday, tuesday, wednesday, thursday
 
