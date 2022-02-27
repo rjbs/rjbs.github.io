@@ -46,7 +46,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://blog.rjbs.cloud/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -79,10 +79,10 @@ sass:
 
 # Use the following plug-ins
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-paginate
-  - jekyll-seo-tag
+  - jekyll-sitemap  # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed     # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate # Provide paginator (not 1,000 entries on a page!)
+  - jekyll-seo-tag  # Provide opengraph tags and more
 
 paginate: 10
 
