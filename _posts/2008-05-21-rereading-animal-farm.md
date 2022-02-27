@@ -18,4 +18,3 @@ Do not forget Old Major's teaching:
 > all brothers.  No animal must ever kill any other animal.  All animals are
 > equal.
 
-

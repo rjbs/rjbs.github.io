@@ -31,23 +31,23 @@ pudge about it for a while.
 You can see the horrible, horrible steps I've taken below.  This code will be
 optional in the next App::Addex.
 
-    use Unicode::Normalize qw(normalize);
-    use Unicode::UCD 'charinfo';
-    use charnames ':full';
+```perl
+use Unicode::Normalize qw(normalize);
+use Unicode::UCD 'charinfo';
+use charnames ':full';
 
-    sub __degrade_to_ascii {
-      return $_[0] if $_[0] =~ /^[\x01-\x79]*$/;
-      my $decomp = normalize(D => $_[0]);
-      my $recomp =
-        join '', map { chr(hex($_->{code})) }
-        map  {
-          ($_->{name} =~ /^(LATIN \w+ LETTER .) WITH/)
-          ? charinfo(charnames::vianame("$1"))
-          : $_
-        }
-        grep { $_->{code} =~ /[^0]/ }
-        grep { $_->{block} !~ /combin/i }
-        map  { charinfo(ord substr $decomp, $_, 1) }  0 .. length $decomp;
+sub __degrade_to_ascii {
+  return $_[0] if $_[0] =~ /^[\x01-\x79]*$/;
+  my $decomp = normalize(D => $_[0]);
+  my $recomp =
+    join '', map { chr(hex($_->{code})) }
+    map  {
+      ($_->{name} =~ /^(LATIN \w+ LETTER .) WITH/)
+      ? charinfo(charnames::vianame("$1"))
+      : $_
     }
-
-
+    grep { $_->{code} =~ /[^0]/ }
+    grep { $_->{block} !~ /combin/i }
+    map  { charinfo(ord substr $decomp, $_, 1) }  0 .. length $decomp;
+}
+```

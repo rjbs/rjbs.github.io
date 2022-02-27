@@ -77,5 +77,3 @@ local branch.  Even without that, though, this is a pretty nice little tool.  I
 hope to use it more than `git push` from now on.
 
 ![screenshot of git-publish](https://rjbs.manxome.org/img/journal/git-publish.png)
-
-

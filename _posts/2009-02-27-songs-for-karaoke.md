@@ -33,5 +33,3 @@ Ten songs I would like to sing at Karaoke but couldn't possibly:
 7. Golden Slumbers (The Beatles)
 8. Heaven (Talking Heads)
 9. anything from Jesus Christ Superstar
-
-

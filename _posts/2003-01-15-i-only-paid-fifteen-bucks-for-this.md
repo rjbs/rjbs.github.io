@@ -6,7 +6,6 @@ tags  : ["dreamcast", "games", "gamesite", "typing", "videogame"]
 ---
 <h5>the background</h5>
 
-
 First of all, I didn't even pay fifteen bucks.  Including S&H, it was $14.90.
 
 One of the games that really made me /want/ a Dreamcast to begin with was Typing of the Dead.  I wasn't a big House of the Dead fan.  To be totally honest, I didn't even like the game.  It was fun to watch a good player play HOTD, but I wasn't any good.  There are some shooting games at which I've excelled, and some at which I stink.  I stunk at HOTD, and I didn't enjoy the game enough to dump an endless supply of quarters into it.  I played Ms. Pac-Man or Puzzle Fighter instead.
@@ -17,7 +16,6 @@ When I saw IGN's announcement that there was going to be a HOTD spin-off /typing
 
 After a few months, though, there was a price drop, and the game became available for about ten dollars.  I got it on eBay and agonized while I waited for it to ship.  It arrived today, and I tore it open and showed it to all of my co-workers.  They said, "Uh.  Ok."  Once I got home and settled, I stuck it in and played for a few hours.
 <h5>the game</h5>
-
 
 I'll be frank:  this game does not present me with a big challenge.  This actually makes me feel /good/, because I know it would be a very hard game for some people.  Is it wrong that I feel sheer glee at being better than others?  Yes.  Still, I love it.
 

@@ -92,5 +92,3 @@ R.I.P., Heron the Medium
 ## XP
 
     Yuki  = 0 + 137 = 137
-
-
