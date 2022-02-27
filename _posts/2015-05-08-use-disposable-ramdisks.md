@@ -18,69 +18,75 @@ case conflicts, which would cause errors in analysis.  Instead of running
 against `/tmp`, I set up my program to build a case-sensitive filesystem on a
 ramdisk and use that.  It's easy, here's the code:
 
-    use 5.20.0;
-    use warnings;
-    package Ramdisk;
-    use Process::Status;
+```perl
+use 5.20.0;
+use warnings;
+package Ramdisk;
+use Process::Status;
 
-    sub new {
-      my ($class, $mb) = @_;
+sub new {
+  my ($class, $mb) = @_;
 
-      state $i = 1;
+  state $i = 1;
 
-      my $dev  = $class->_mk_ramdev($mb);
-      my $type = q{Case-sensitive Journaled HFS+};
-      my $name = sprintf "ramdisk-%s-%05u-%u", $^T, $$, $i++;
+  my $dev  = $class->_mk_ramdev($mb);
+  my $type = q{Case-sensitive Journaled HFS+};
+  my $name = sprintf "ramdisk-%s-%05u-%u", $^T, $$, $i++;
 
-      system(qw(diskutil eraseVolume), $type, $name, $dev)
-        and die "couldn't create fs on $dev: " . Process::Status->as_string;
+  system(qw(diskutil eraseVolume), $type, $name, $dev)
+    and die "couldn't create fs on $dev: " . Process::Status->as_string;
 
-      my $guts = {
-        root => "/Volumes/$name",
-        size => $mb,
-        dev  => $dev,
-        pid  => $$,
-      };
+  my $guts = {
+    root => "/Volumes/$name",
+    size => $mb,
+    dev  => $dev,
+    pid  => $$,
+  };
 
-      return bless $guts, $class;
-    }
+  return bless $guts, $class;
+}
 
-    sub root { $_[0]{root} }
-    sub size { $_[0]{size} }
-    sub dev  { $_[0]{dev}  }
+sub root { $_[0]{root} }
+sub size { $_[0]{size} }
+sub dev  { $_[0]{dev}  }
 
-    sub DESTROY {
-      return unless $$ == $_[0]{pid};
-      system(qw(diskutil eject), $_[0]->dev)
-        and warn "couldn't unmount $_[0]{root}: " . Process::Status->as_string;
-    }
+sub DESTROY {
+  return unless $$ == $_[0]{pid};
+  system(qw(diskutil eject), $_[0]->dev)
+    and warn "couldn't unmount $_[0]{root}: " . Process::Status->as_string;
+}
 
-    sub _mk_ramdev {
-      my ($class, $mb) = @_;
+sub _mk_ramdev {
+  my ($class, $mb) = @_;
 
-      my $size_arg = $mb * 2048;
-      my $dev  = `hdiutil attach -nomount ram://$size_arg`;
+  my $size_arg = $mb * 2048;
+  my $dev  = `hdiutil attach -nomount ram://$size_arg`;
 
-      chomp $dev;
-      $dev =~ s/\s+\z//;
+  chomp $dev;
+  $dev =~ s/\s+\z//;
 
-      return $dev;
-    }
+  return $dev;
+}
+```
 
 So, you can call:
 
-    my $disk = Ramdisk->new(1024);
+```perl
+my $disk = Ramdisk->new(1024);
+```
 
 …and get an object representing a gigabyte ramdisk.  Its `root` method tells
 you where it's mounted, and when the object is garbage collected, the
 filesystem is unmounted and the device destroyed.  This means that for any code
 that's going to use a tempdir, you can write:
 
-    {
-      my $ramdisk = Ramdisk->new(...);
-      local $ENV{TEMPDIR} = $ramdisk->root;
-      call_that_code;
-    }
+```perl
+{
+  my $ramdisk = Ramdisk->new(...);
+  local $ENV{TEMPDIR} = $ramdisk->root;
+  call_that_code;
+}
+```
 
 There's overhead to making the ramdisk, but it's not programmer overhead, and
 that's the important part.  All you have to do is figure out whether it's worth
