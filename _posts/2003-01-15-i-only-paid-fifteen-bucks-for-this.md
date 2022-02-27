@@ -4,7 +4,11 @@ title : "i only paid fifteen bucks for this!"
 date  : "2003-01-15T05:00:00Z"
 tags  : ["dreamcast", "games", "gamesite", "typing", "videogame"]
 ---
-<h5>the background</h5>
+
+
+### the background
+
+
 
 First of all, I didn't even pay fifteen bucks.  Including S&H, it was $14.90.
 
@@ -15,7 +19,11 @@ Still, it was a zombie game, and I am a /serious/ sucker for zombies.
 When I saw IGN's announcement that there was going to be a HOTD spin-off /typing game/, I was amazed and elated.  I /like/ typing games.  This may well be due to the fact that typing is one of the few things at which I really excel, compared to most gamers.  It also may well be because I used to play kiddie typing games on my old TI-99.  At any rate, the prospect of a modern, console typing game blew my mind.  I had to have it, even if I didn't have a DC.  Eventually, though, I broke down and got the DC -- but /no one/ had Typing of the Dead around.  It was only on eBay, and I didn't like the prices. Was I nuts for buying a system largely for one game and then putting off buying the game when it cost $30?  Probably.
 
 After a few months, though, there was a price drop, and the game became available for about ten dollars.  I got it on eBay and agonized while I waited for it to ship.  It arrived today, and I tore it open and showed it to all of my co-workers.  They said, "Uh.  Ok."  Once I got home and settled, I stuck it in and played for a few hours.
-<h5>the game</h5>
+
+
+### the game
+
+
 
 I'll be frank:  this game does not present me with a big challenge.  This actually makes me feel /good/, because I know it would be a very hard game for some people.  Is it wrong that I feel sheer glee at being better than others?  Yes.  Still, I love it.
 
