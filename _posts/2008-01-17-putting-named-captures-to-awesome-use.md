@@ -20,7 +20,7 @@ Anyway, here's some slightly simplified code (using MooseX::POE):
       for (my $i = 0; $i < @MSG_PATTERNS; $i += 2) {
         my ($pattern, $method) = @MSG_PATTERNS[ $i, $i + 1 ];
         next unless $msg =~ /\A$pattern\z/;
-        my $result = $self->$method({%+});
+        my $result = $self->$method({{ "{%" }}+});
         if (ref $result) {
           $self->privmsg($self->channel => $_) for @$result;
           return;
