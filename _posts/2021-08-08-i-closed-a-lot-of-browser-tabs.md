@@ -148,7 +148,9 @@ tabulator:setPort(9876)
 tabulator:setCallback(function (method, path, headers, body)
   if (method == "GET") and (path == "/metrics") then
     bool, tabcounts, descriptor = hs.osascript.javascript([[
-      const Chrome  = new Application("/Applications/Google Chrome.app");
+      const Chrome  = new Application(
+        "/Applications/Google Chrome.app"
+      );
 
       let tabCounts = [];
 
@@ -177,6 +179,7 @@ tabulator:setCallback(function (method, path, headers, body)
     return "No good.\n", 404, {}
   end
 end)
+
 tabulator:start()
 ```
 
