@@ -40,7 +40,7 @@ things in Forth, and they live on their own stack.  If you want to add the
 integer 1 to the float 2.5, you don't just cast 1 to int, you move it from the
 data stack to the float stack:
 
-```forth
+```
 2.5e0 1. d>f f+
 ```
 
@@ -67,7 +67,7 @@ I'm going to run through how my Forth 24 solver works, not in the order its
 written, but top-down, from most to least abstract.  The last few lines of the
 program, something like `int main` are:
 
-```forth
+```
 17e set-target
 6e 6e 5e 2e set-inputs
 
@@ -87,9 +87,9 @@ test my concentration!)
 mechanics of initializing these memory locations.  The code to name these
 locations, and to work with them, looks like this:
 
-```forth
-create inputs 4 floats allot              \ the starting set of numbers
-create target 24 ,                        \ the target number
+```
+create inputs 4 floats allot  \ the starting set of numbers
+create target 24 ,            \ the target number
 
 : set-target target f! ;
 
@@ -116,14 +116,14 @@ value to set from the *float* stack.
 address for given offset from `inputs`.  If you want the final (3rd) input,
 it's stored at `inputs` plus the size of three floats.  That's:
 
-```forth
+```
 inputs 3 floats +
 ```
 
 When we make the three a parameter, we swap the order of the operands to plus so
 we can write:
 
-```forth
+```
 floats inputs + ( the definition of input-addr )
 ```
 
@@ -138,7 +138,7 @@ operator and one for a name for the operator.  (In fact, we could store only
 the name, and then interpret the name to get the code, but I decided I'd rather
 have two arrays.)
 
-```forth
+```
 create op-xts ' f+ , ' f- , ' f* , ' f/ ,
 create op-chr '+  c, '-  c, '*  c, '/  c,
 ```
@@ -161,21 +161,21 @@ the operators, we need to allow for repeated operators, so we can't just
 shuffle the source list.  Instead, we'll make a three-element array to store
 the indexes of the operators being considered at any given moment:
 
-```forth
+```
 create curr-ops 0 , 0 , 0 ,
 ```
 
 We'll make a word `curr-op!`, like ones we've seen before, for setting the op
 in position *i*.
 
-```forth
+```
 : curr-op! cells curr-ops + ! ;
 ```
 
 If we want the 0th current operator to be the 3rd one from the operators array,
 we'd write:
 
-```forth
+```
 3 0 curr-op!
 ```
 
@@ -183,7 +183,7 @@ Then when we want to execute the operator currently assigned to position *i*,
 we'd use `op-do`.  To get the name (a single character) of the operator at
 position *i*, we'd use `op-c@`:
 
-```forth
+```
 : op-do    cells curr-ops + @ cells op-xts + @ execute ;
 : op-c@    cells curr-ops + @ op-chr + c@ ;
 ```
@@ -201,7 +201,7 @@ iteratively because I kept hitting difficulties in stack management.  In my
 experience, when you manage your own stacks, recursion gets significantly
 harder.
 
-```forth
+```
 : each-permutation ( xt -- )
   init-state
 
@@ -250,7 +250,7 @@ the program, and `again` jumps back to it.  This isn't the only kind of loop in
 Forth.  For example, `init-state` initializes our four-element state array like
 this:
 
-```forth
+```
 : init-state 4 0 do 0 i hstate! loop ;
 ```
 
@@ -289,7 +289,7 @@ non-resetting loop iteration, we increment `i` with `inc-i`.  Of course, `i`
 isn't a variable, it's a thing on the return stack.  I made these words up, and
 they're implemented like this:
 
-```forth
+```
 : zero-i r> rdrop 0 >r >r ;
 : inc-i  r> r> 1+ >r >r ;
 ```
@@ -310,14 +310,14 @@ from Wikipedia!
 Now, the program didn't start by using `each-iteration`, but `each-expression`.
 Remember?
 
-```forth
+```
 ' check-solved each-expression
 ```
 
 That doesn't just iterate over operand iterations, but also over operations and
 groupings.  It looks like this:
 
-```forth
+```
 : each-expression ( xt -- )
   2 0 do
     i 0= linear !
@@ -340,7 +340,7 @@ repeatedly passes it to something else.  This time, it calls
 `each-permutation`, above, once with each possible combination of operator
 indexes in `curr-op`.
 
-```forth
+```
 : each-opset ( xt -- )
   4 0 do i 0 curr-op!
     4 0 do i 1 curr-op!
@@ -372,7 +372,7 @@ operands to rearrange.  We have two possible groupings.  We should end up with
 `4! x 4³ x 2` expression.  That's 3072.  It should be easy to count them by
 passing a counting function to the iteator!
 
-```forth
+```
 create counter 0 ,
 : count-iteration
   1 counter +!    \ add one to the counter
@@ -389,7 +389,7 @@ different state-printing words, but I'll only show two here.  First was
 Forth to start a string printing word's name with a dot, and to end a number
 printing word's name with a dot.)
 
-```forth
+```
 : .input  input@ fe. ;
 : .inputs 4 0 do i .input loop cr ;
 ```
@@ -403,7 +403,7 @@ the array has [8, 6, 2, 1], we print that.
 On the other hand, when we actually evaluate the expression, which we'll do a
 bit further on, we get the values like this:
 
-```forth
+```
 4 0 do i input@ loop \ get all four inputs onto the float stack
 ```
 
@@ -417,7 +417,7 @@ just self-torture, but it's what I did.
 The other printing word I wanted to show is `.equation`, which prints out the
 equation currently being considered.
 
-```forth
+```
 : .equation
   linear @
   if
@@ -439,13 +439,13 @@ evaluation.  Then we print out the ops and inputs in the right order, adding
 parentheses as needed.  We're printing the parens with `((` and `))`, which are
 words I wrote.  The alternative would have been to write things like:
 
-```forth
+```
 ." ( " 2 .input 2 .op 3 .input ." ) "
 ```
 
 ...or maybe...
 
-```forth
+```
 .oparen 2 .input 2 .op 3 .input
 ```
 
@@ -454,7 +454,7 @@ programmers talk about how you don't program *in* Forth.  Instead, you program
 Forth itself to build the language you want, then do that.  This is my pathetic
 dime store version of doing that.  The paren-printing functions look like:
 
-```forth
+```
 : (( ." ( " ;
 : )) ." ) " ;
 ```
@@ -464,7 +464,7 @@ dime store version of doing that.  The paren-printing functions look like:
 Now all we need to do is write something to actually test whether the equations
 hold and tell us when we get a winner.  That looks like this:
 
-```forth
+```
 : check-solved
   this-solution target f@ 0.001e f~rel
   if .equation then ;
@@ -486,7 +486,7 @@ out the solution we found.
 
 The evaluator, `this-solution`, looks like this:
 
-```forth
+```
 : this-solution
   4 0 do i input@ loop
 
@@ -507,7 +507,7 @@ now in reverse order on the stack) and pick an evaluation strategy based on the
 `linear` flag.  If we're evaluating linearly, we execute each operator's
 execution token in order.  If we're grouping, it works like this:
 
-```forth
+```
         ( r1 r2 r3 r4 ) \ first, all four inputs are on the stack
 2 op-do ( r1 r2 r5    ) \ we do first op, putting its result on stack
 frot    ( r2 r5 r1    ) \ we rotate the third float to the top
