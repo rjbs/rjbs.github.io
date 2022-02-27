@@ -40,7 +40,7 @@ garbage.**
 I can't fix Slack from my desk, but I can fix my IRC client to prevent *me*
 from making this error.  I wrote this `irssi` plugin:
 
-```
+```perl
 use warnings;
 use strict;
 
