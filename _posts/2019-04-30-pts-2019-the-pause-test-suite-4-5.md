@@ -4,12 +4,12 @@ title : "PTS 2019: The PAUSE Test Suite (4/5)"
 date  : "2019-04-30T00:45:11Z"
 tags  : ["perl", "programming"]
 ---
-## PAUSE and case insensitivity
-
 All that Module::Faker and Getopt work was really in furtherance of PAUSE work.
 When I arrived in Marlow, I had been given just request by Neil:  sort out
 [PAUSE!320](https://github.com/andk/pause/pull/320), a change in behavior we've
 been slowly getting right for years now.
+
+## PAUSE and case insensitivity
 
 Once upon a time, the PAUSE index was case sensitive.  [Andreas
 König](https://github.com/andk), the author and maintainer of PAUSE, says he's
