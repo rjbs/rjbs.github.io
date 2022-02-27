@@ -20,9 +20,9 @@ footer-links:
   pinterest:
   rss: rjbs # just type anything here for a working RSS icon
   twitter: rjbs
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
-  # below is correct but pointless: -- rjbs, 2022-02-27
+  # below are correct but pointless: -- rjbs, 2022-02-27
+  # stackoverflow: users/10478/rjbs
   # youtube: channel/UC80JPlphpCMlDRjvxcHVYZg
 
 twiter:
