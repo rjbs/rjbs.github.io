@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About
+layout: no-title
+title: Home
 permalink: /
 ---
 
@@ -20,6 +20,9 @@ producing amazing web content.  I just write articles once in a while.
 ## Content
 
 * [my journal](/blog/)
+* [my photos](https://flickr.com/photos/rjbs/)
+* [my code](https://github.com/rjbs/)
+* [my wishlist](https://www.gifthero.com/list/fc09773d-4d29-4ed8-bd03-c6b2f4f038f5)
 
 (I'll maybe fill this out more over time — it got shrunk quite a bit when I
 moved to Jekyll for my site!)
