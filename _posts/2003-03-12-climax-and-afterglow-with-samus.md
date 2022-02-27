@@ -4,7 +4,11 @@ title : "climax and afterglow with samus"
 date  : "2003-03-12T05:00:00Z"
 tags  : ["gamecube", "games", "gamesite", "metroid", "videogame"]
 ---
-<h5>long-delayed TRIUMPH</h5>
+
+
+### long-delayed TRIUMPH
+
+
 
 
 I convinced a friend of mine to pick up a GameCube a while ago, and then to pick up M'.  He did so, and sped through it.  Pretty soon, he said he'd made it to Metroid Prime.
@@ -16,7 +20,11 @@ I broke out Metroid last night and fought Metroid Prime.  This was a harsh re-in
 Tonight, I made a second attempt.  After thinking, "You know, I never scanned that last thing -- I almost hope I don't beat Prime this time!" my fate was sealed.  I beat it to a phazony pulp with an energy tank or two to spare.  The final boss battle had stages and waves, and was really long.  Having won it, I enjoyed it.  The times that I failed were not so enjoyable.  I think it's just a bit too long a battle.  The closing FMV briefly terrified me with the suggestion that I might need to get through another final ordeal before saving, but I was comforted.
 
 I played with the Fusion Suit tie-in from M4, but I haven't finished M4 yet, either, so I didn't get to play any classic Metroid. through further harrowing, 
-<h5>basking in the awesome</h5>
+
+
+### basking in the awesome
+
+
 
 
 Gamesite came online just the littlest bit too late for me to chronicle my initial play; I was surprised to see I hadn't talked about the intense awesomeness of M'.  It took everything good about the classic Metroid games, successfully made them into a 3-D game, /somehow/, and then gave it a really fresh, suitable control scheme. 

@@ -42,11 +42,19 @@ Friday night, Gloria and I went out to dinner at the Apollo Grill, where we were
 
 ## 23:50
 
-<h5>the day that never ends</h5>Well, it's about ten of midnight, here.  Despite a few bouts of sleep since my trip began, I sort of feel like I haven't slept since Friday night.  I was surprised to reach Gloria at home, because I had gotten it into my head that it was Monday.  Basically, my internal clock is all messed up.  Usually I don't have much trouble changing time zones, but this has been a weird change.
+
+
+### the day that never ends
+
+Well, it's about ten of midnight, here.  Despite a few bouts of sleep since my trip began, I sort of feel like I haven't slept since Friday night.  I was surprised to reach Gloria at home, because I had gotten it into my head that it was Monday.  Basically, my internal clock is all messed up.  Usually I don't have much trouble changing time zones, but this has been a weird change.
 
 Around 1600, we got some dinner at the pub.  The pub, the Herron March, is just about the only thing in walking distance from the hotel other than the office. I don't think I can walk to any other restaurants or stores.  Fortunately, the food at the pub is good.  I knew since last week what I wanted to order, and I ordered it:  steak and ale pie.  That's good eats!
 
-Of course, I don't want to end up eating strictly at the pub and the hotel, so I'm hoping the staying-with-my-coworker thing works out.  That should make it easier to get out and do different things.<h5>british tv</h5>The television here sucks.
+Of course, I don't want to end up eating strictly at the pub and the hotel, so I'm hoping the staying-with-my-coworker thing works out.  That should make it easier to get out and do different things.
+
+### british tv
+
+The television here sucks.
 
 There are some American shows on a few of the channels.  I've seen Stargate, Voyager, the Shield, and a commercial for Malcolm in the Middle.  Basically, all the shows I don't want to watch.  There are some good documentaries on, now and then, but I'm not ready, on my first day here, to watch hours and hours about the decline of the impartial civil service or the ongoing effects on Brittish Imperialism and its decline.  They're also broadcasting Formula One racing and <em>baseball</em>, for Pete's sake!
 
