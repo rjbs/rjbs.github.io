@@ -21,25 +21,49 @@ title: My Journal
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | relative_url }}">⬅ Prev</a>
     {% else %}
-      <span>&laquo; Prev</span>
+      <span>⬅ Prev</span>
+    {% endif %}
+    ┃
+
+    {% assign min_page = paginator.page | minus: 5 %}
+    {% if min_page < 2 %}{% assign min_page = 2 %}{% endif %}
+    {% assign max_page = paginator.page | plus:  5 %}
+    {% if max_page >= paginator.total_pages %}{% assign max_page = paginator.total_pages | minus: 1 %}{% endif %}
+
+    <!-- min: {{ min_page }} -->
+    <!-- max: {{ max_page }} -->
+
+    {% if paginator.page == 1 %}
+      <b>1</b>
+    {% else %}
+      <a href="{{ '/blog/' | relative_url }}">1</a>
     {% endif %}
 
-    {% for page in (1..paginator.total_pages) %}
+    {% unless min_page == 2 %}…{% endunless %}
+
+    {% for page in (min_page..max_page) %}
       {% if page == paginator.page %}
         <em>{{ page }}</em>
-      {% elsif page == 1 %}
-        <a href="{{ '/blog/' | relative_url }}">{{ page }}</a>
       {% else %}
         <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
       {% endif %}
     {% endfor %}
 
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% unless max_page == paginator.total_pages - 1 %}…{% endunless %}
+
+    {% if paginator.page == paginator.total_pages %}
+      <b>{{ paginator.total_pages }}</b>
     {% else %}
-      <span>Next &raquo;</span>
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a>
+    {% endif %}
+
+    ┃
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next ⮕</a>
+    {% else %}
+      <span>Next ⮕</span>
     {% endif %}
   </div>
   {% endif %}
