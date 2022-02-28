@@ -30,7 +30,8 @@ title: My Journal
     {% assign min_page = paginator.page | minus: 5 %}
     {% if min_page < 2 %}{% assign min_page = 2 %}{% endif %}
     {% assign max_page = paginator.page | plus:  5 %}
-    {% if max_page >= paginator.total_pages %}{% assign max_page = paginator.total_pages | minus: 1 %}{% endif %}
+    {% assign max_prev = paginator.total_pages | minus: 1 %}
+    {% if max_page >= paginator.total_pages %}{% assign max_page = max_prev %}{% endif %}
 
     <!-- min: {{ min_page }} -->
     <!-- max: {{ max_page }} -->
@@ -51,7 +52,7 @@ title: My Journal
       {% endif %}
     {% endfor %}
 
-    {% unless max_page == paginator.total_pages - 1 %}…{% endunless %}
+    {% unless max_page == max_prev %}…{% endunless %}
 
     {% if paginator.page == paginator.total_pages %}
       <b>{{ paginator.total_pages }}</b>
