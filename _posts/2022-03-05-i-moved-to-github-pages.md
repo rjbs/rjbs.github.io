@@ -211,7 +211,7 @@ do arithmetic.  I will elaborate.
 You can't write:
 
 ```liquid
-{% if x > y + 1 %}
+{{ "{%" }} if x > y + 1 %}
 ```
 
 If you do… honestly, I'm not sure what happens.  There is no `+` operator in
@@ -220,8 +220,8 @@ I don't want it enough to dig.  Anyway, it turns out you have to do this,
 instead:
 
 ```liquid
-{% assign y1 = y | plus: 1 %}
-{% if x > y1 %}
+{{ "{%" }} assign y1 = y | plus: 1 %}
+{{ "{%" }} if x > y1 %}
 ```
 
 I know this is not the greatest horror in the history of programming, but it's
