@@ -1,3 +1,11 @@
+---
+layout: post
+title: the scientologists
+date: "2002-06-06T12:09:00Z"
+---
+
+[ rjbs, March 2022: I don't really know when I wrote this, but probably 2002
+sometime ]
 
 I arrived in Boston in late August in 1996.  I would start college, as a
 Philosophy and Mathematics major, in a few weeks.  Until then, I had nothing to
@@ -12,8 +20,8 @@ me.
 
 "Hi," he said, "would you like to take a personality survey?"
 
-Well, I guessed that this guy was a grad student who needed to collect data.
-I wanted to help him.  I said, "Yeah, okay."  I was young and naive.
+Well, I guessed that this guy was a grad student who needed to collect data.  I
+wanted to help him.  I said, "Yeah, okay."  I was young and naive.
 
 We started walking down Exeter, and he asked me whether I was from Boston, and
 why I was there.  When I told him that I was going to study philosophy, he was
@@ -29,14 +37,14 @@ I figured it would be pretty rude to just run, so I spoke with him politely
 until we got to the Church of Scientology.  They put me in the basement with a
 standardized test form, and I answered a lot of questions.
 
-	Do you often sing or whistle just for fun?
+* Do you often sing or whistle just for fun?
 
-	Does emotional music have quite an effect on you?
+* Does emotional music have quite an effect on you?
 
-	Do you feel sometimes that your age is against you?
+* Do you feel sometimes that your age is against you?
 
-	You are an angel heading for the land of sunshine, and fortune is smiling on
-	you!
+* You are an angel heading for the land of sunshine, and fortune is smiling on
+  you!
 
 Ok, I made the last one up.  I was mildly mind-blown when I realized that the
 lyrics to Land of Sunshine came from the Scientologist personality evaluation.
@@ -57,8 +65,8 @@ unhappy, and I said no."
 
 Questions like these continued for a while, and finally the guy reverted to
 smalltalk.  "What will you be studying?"  So, the previous talk of Jesus and
-Buddha repeated, and the guy said, "Oh, Buddha!  He's great!  Scientology is
-a lot like Buddhism."
+Buddha repeated, and the guy said, "Oh, Buddha!  He's great!  Scientology is a
+lot like Buddhism."
 
 I think I did a spit take at this point, so the guy pulled out a big textbook
 about Scientology and turned to some page in the middle, where there was a
