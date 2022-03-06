@@ -4,7 +4,7 @@ title : "new minicpan trial release"
 date  : "2011-04-26T13:06:34Z"
 tags  : ["cpan", "perl", "programming"]
 ---
-Part of [my work at the QA Hackathon](http://rjbs.manxome.org/rubric/entry/1888) led to making it quite a lot easier to test [minicpan](http://search.cpan.org/dist/CPAN-Mini).  I'm pretty happy with that, and got to work writing tests.  Once I had the basic "mirroring works" tests written, I wanted to have a quick look at testing logging.  Unfortunately, it turned out that logging was a big mess.
+Part of [my work at the QA Hackathon]({% post_url 2011-04-21-the-2011-perl-qa-hackathon-in-amsterdam %}) led to making it quite a lot easier to test [minicpan](http://search.cpan.org/dist/CPAN-Mini).  I'm pretty happy with that, and got to work writing tests.  Once I had the basic "mirroring works" tests written, I wanted to have a quick look at testing logging.  Unfortunately, it turned out that logging was a big mess.
 
 The log level was determined by three pseudo-boolean flags: errors, trace, and quiet.  Their interaction was not well-explained, and I say *pseudo*-boolean because trace, at least, had three different behaviors: set to true, set to false, or unset.  It was a big mess, and to emulate CPAN::Mini's behavior, subclasses would have to look at the object guts.  Ugh.
 

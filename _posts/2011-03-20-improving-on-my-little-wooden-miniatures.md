@@ -5,7 +5,7 @@ date  : "2011-03-20T23:47:28Z"
 tags  : ["dnd", "rpg"]
 ---
 A few years ago, I wrote about [cheap wooden discs as D&D
-minis](http://rjbs.manxome.org/rubric/entry/1717), and I've been using them
+minis]({% post_url 2008-12-28-cheap-dnd-miniature-substitutes %}), and I've been using them
 ever since.  They do a great job, and cost nearly nothing.  For the most part,
 we've used a few for the PCs, marked with the characters' initials, and the
 rest for NPCs and enemies, usually marked with numbers.
@@ -31,7 +31,7 @@ during real combats.
 
 These colored tokens should work together well with my previous post about
 [using a whiteboard for combat
-overview](http://rjbs.manxome.org/rubric/entry/1876).  Like-type monsters will
+overview]({% post_url 2011-03-11-low-tech-combat-and-character-tracker %}).  Like-type monsters will
 get one color, and will all get grouped to one slot on initiative.  Last night,
 for example, the two halfling warriors were red and acted in the same
 initiative slot.  The three halfling minions were unpainted, and acted in

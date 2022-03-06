@@ -4,7 +4,7 @@ title : "soulver v2 is here"
 date  : "2010-05-18T22:14:10Z"
 tags  : ["math", "software", "stupid"]
 ---
-[I wrote about Soulver](http://rjbs.manxome.org/rubric/entry/1465) about three years ago when I accidentally acquired a free license.  This morning, I saw Marcus promoting a new version and I thought I'd give it a look.
+[I wrote about Soulver]({% post_url 2007-07-02-why-would-anyone-use-soulver %}) about three years ago when I accidentally acquired a free license.  This morning, I saw Marcus promoting a new version and I thought I'd give it a look.
 
 On one hand, it looks to have gotten lots of neat new features, some of which could be very useful.  It also no longer bills itself as understanding mathematical expressions in English quite so literally.  It focuses more on simple, loosely structured shorthand for simple math.  On the other hand, it still accepts lots of stuff that it just doesn't know what to do with.  It doesn't say, "I have no idea what I'm doing, so I can't answer."  Instead, it just does crazy things.
 

@@ -4,7 +4,7 @@ title : "my next laptop: ordered"
 date  : "2006-05-16T14:15:17Z"
 tags  : ["apple", "hardware"]
 ---
-[Previously](http://rjbs.manxome.org/rubric/entry/1268), I had wondered whether
+[Previously]({% post_url 2006-04-13-my-next-laptop %}), I had wondered whether
 I could cope if the new iBook replacement phased out the twelve-inch PowerBook.
 I made a list of my requirements:
 

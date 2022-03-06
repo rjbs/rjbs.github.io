@@ -13,7 +13,7 @@ it.  They are:
 * [Path::Resolver](http://search.cpan.org/dist/Path-Resolver)
 
 EMK is something of a templating system for whole MIME messages.  I [wrote
-about EMK before](http://rjbs.manxome.org/rubric/entry/1724), explaining why
+about EMK before]({% post_url 2009-01-25-constructing-email-messages-painlessly %}), explaining why
 it's useful and how it works and how I tried to avoid being just another
 templating system.
 

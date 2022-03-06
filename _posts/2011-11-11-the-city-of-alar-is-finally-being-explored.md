@@ -26,7 +26,7 @@ In March, put together a campaign overview document and told a bunch of people
 I'd be starting the game.  People made characters, talked about background, and
 so on.  I kept sitting on my hands.  To be fair, summer was really busy, but
 every part of my year tends to be really busy.  Also, I was [growing less and
-less interested in 4E](http://rjbs.manxome.org/rubric/entry/1895) for various
+less interested in 4E]({% post_url 2011-06-03-burning-out-on-d-d-4e %}) for various
 reasons.  Finally, as I continued to squirm and waffle, I discovered [Mazes &
 Minotaurs](http://mazesandminotaurs.free.fr/).  M&M is half joke, half serious.
 It tries to be what D&D would have been if its origins had been [sword and

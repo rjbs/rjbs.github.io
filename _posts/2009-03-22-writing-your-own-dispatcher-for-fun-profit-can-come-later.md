@@ -35,7 +35,7 @@ writing [MRO::Define](http://github.com/rafl/mro-define), a library for writing
 defining a new method resolution order.  Then he used the totally awesome
 [Variable::Magic](http://search.cpan.org/dist/Variable-Magic/) (from Vincent
 Pit, who once again [deserves your
-praise](http://rjbs.manxome.org/rubric/entry/1731)) to apply magic to package
+praise]({% post_url 2009-02-25-all-hail-vincent-pit %})) to apply magic to package
 stashes.
 
 If this sounds like mumbo jumbo, don't panic.  I will explain more shortly.

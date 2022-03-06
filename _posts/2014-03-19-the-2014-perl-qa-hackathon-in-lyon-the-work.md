@@ -46,13 +46,13 @@ responsible for:
 
 In the summer of 2011, [David Golden](http://www.dagolden.com/) and I got
 together for a [one-day
-micro-hackathon](http://rjbs.manxome.org/rubric/entry/1904).  Our goal was to
+micro-hackathon]({% post_url 2011-08-14-the-pause-micro-hackathon %}).  Our goal was to
 make it possible to write tests for the indexer's behavior, and I think we
 succeeded.  I'm proud of what we accomplished that day, and it's made all my
 subsequent work on PAUSE possible.
 
 I also [worked on PAUSE change last
-year](http://rjbs.manxome.org/rubric/entry/1992), and a few of the things we'd
+year]({% post_url 2013-04-15-the-2013-perl-qa-hackathon-in-lancaster %}), and a few of the things we'd
 done then had not ever been quite finished.  I decided that my first course of
 action would be to try to get those sorted out.
 

@@ -12,7 +12,7 @@ similar but end up coming out of my mouth with very different tones of voice.
 That's a problem specific to Mass Effect, and it has some others.  The thing
 that annoys me the most, though, is that it suffers particularly badly from a
 case of Stupid Game Economy.  I wrote about the [stupid Cyberpunk
-2020](http://rjbs.manxome.org/rubric/entry/1381) economy before, and it's a
+2020]({% post_url 2007-01-01-the-cyberpunk-2020-economy %}) economy before, and it's a
 problem you can find all over the place if you look.
 
 Mass Effect is a space opera.  It has laser guns, super armor, space grenades,

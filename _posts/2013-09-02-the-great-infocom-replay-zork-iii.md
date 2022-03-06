@@ -5,7 +5,7 @@ date  : "2013-09-02T02:38:04Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 It's been over six months since [my last bit of progress on The Great Infocom
-Replay](http://rjbs.manxome.org/rubric/entry/1985), but I have not given up.
+Replay]({% post_url 2013-02-03-the-great-infocom-replay-zork-ii %}), but I have not given up.
 In fact, I've put "make progress on the Replay" into my [daily
 practice](http://tdp.me/person/rjbs), so maybe I'll keep making progress from
 here on out.

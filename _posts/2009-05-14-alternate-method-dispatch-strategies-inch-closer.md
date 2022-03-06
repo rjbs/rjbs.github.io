@@ -5,7 +5,7 @@ date  : "2009-05-14T21:04:31Z"
 tags  : ["perl", "programming"]
 ---
 It's been nearly two months since [my last update on writing new method
-resolvers in Perl](http://rjbs.manxome.org/rubric/entry/1739), and not much has
+resolvers in Perl]({% post_url 2009-03-22-writing-your-own-dispatcher-for-fun-profit-can-come-later %}), and not much has
 happened.  I was very disheartened to learn that while it was easy (for some
 value of "easy") to make this work:
 

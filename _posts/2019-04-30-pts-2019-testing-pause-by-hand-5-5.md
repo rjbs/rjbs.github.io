@@ -197,7 +197,7 @@ prog and progcmd output can split instructions across multiple lines.  Lines
 that begin with whitespace will be appended to the line preceding them.
 ```
 
-Oh, and see that big table?  That's why I needed to [fix Getopt::Long::Descriptive](https://rjbs.manxome.org/rubric/entry/2114)!
+Oh, and see that big table?  That's why I needed to [fix Getopt::Long::Descriptive]({% post_url 2019-04-30-pts-2019-getopt-long-descriptive-2-5 %})!
 
 ## ...but what about logging?
 

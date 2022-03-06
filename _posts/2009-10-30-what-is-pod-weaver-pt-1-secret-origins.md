@@ -100,5 +100,5 @@ more special commands like `=list` and I want to write a few more dialects so I
 can `=begin Markdown` and maybe `=begin KindaPod6`.
 
 So, [tomorrow I'll show how you can use and configure Pod::Weaver either using
-Dist::Zilla or by writing your own document-munging tool](http://rjbs.manxome.org/rubric/entry/1809).  For now, it is way,
+Dist::Zilla or by writing your own document-munging tool]({% post_url 2009-10-30-what-is-pod-weaver-pt-2-pod-weaver-and-you %}).  For now, it is way,
 way past my bedtime.

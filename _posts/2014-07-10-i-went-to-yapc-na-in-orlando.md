@@ -6,7 +6,7 @@ tags  : ["perl", "yapc"]
 ---
 A few weeks ago was YAPC in Orland, Florida, and I attended!  I already wrote
 about [the amazingly great video
-recording](http://rjbs.manxome.org/rubric/entry/2053) of the conference.  It
+recording]({% post_url 2014-07-02-yapc-na-is-on-youtube %}) of the conference.  It
 was great, and I was amazed.  I watched some of the videos just today!
 
 I thought I'd write down a couple more things that I remember.
@@ -114,7 +114,7 @@ year… I don't think I wrote a single line.
 
 ### I didn't meet enough new people.
 
-When I wrote about going to [!!Con](http://rjbs.manxome.org/rubric/entry/2049),
+When I wrote about going to [!!Con]({% post_url 2014-05-23-i-went-to-con %}),
 I said that it was hard to meet people when I didn't know anybody to start
 with, and that I wanted to try to meet more new people at YAPC.  I didn't do a
 great job of following through with that, although I did better than I might

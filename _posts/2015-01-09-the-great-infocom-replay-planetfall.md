@@ -20,7 +20,7 @@ a number of the puzzles were fun, and it seemed to be on the better end of the
 spectrum so far… but the thing that everybody complains about is what I am
 going to complain about:  the "you have to eat and sleep" problem.  I'm not
 opposed to a time management problem.  I really enjoy Pikmin, and I just love
-[Suspended](http://rjbs.manxome.org/rubric/entry/2046), but the basic "you have
+[Suspended]({% post_url 2014-04-28-the-great-infocom-replay-suspended %}), but the basic "you have
 to eat or you will die" problem is just too frustrating and not at all fun.
 I'm not sure exactly why, but I think it's because it boils down to this:  Your
 problem is to find a food object.  If you don't find it, you die, and your last

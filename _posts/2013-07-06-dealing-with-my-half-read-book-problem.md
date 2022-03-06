@@ -5,7 +5,7 @@ date  : "2013-07-06T02:47:10Z"
 tags  : ["reading"]
 ---
 I just recently [wrote about trying to deal with my backlog of bug reports and
-feature requests](http://rjbs.manxome.org/rubric/entry/1996).  It is not, sad
+feature requests]({% post_url 2013-07-04-once-again-trying-to-keep-up-with-the-tickets %}).  It is not, sad
 to say, the only backlog of stuff I've been meaning, but failing, to do.
 There's also my backlog of reading.
 

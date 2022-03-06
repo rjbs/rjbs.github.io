@@ -103,7 +103,7 @@ Great!  Somewhere in there, I ended up writing this code:
 
 ...and something bizarre happened!  The test suite entered an infinite loop as
 it tried to get from the starting month to the ending month.  I [added more
-print statements](http://rjbs.manxome.org/rubric/entry/1897) and got this:
+print statements]({% post_url 2011-06-14-the-simplest-thing-that-could-possibly-teach-me-more-about-postfix %}) and got this:
 
     CURRENTLY (2001-10-01 00:00) PLUS ONE MONTH: (2001-10-31 23:00)
 

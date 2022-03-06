@@ -7,7 +7,7 @@ tags  : ["dnd", "rpg"]
 ### 1. If you had to pick a single invention in a game you were most proud of what would it be?
 
 I'm pretty happy with [Awesome
-Points](http://rjbs.manxome.org/rubric/entry/1931) so far, although it's
+Points]({% post_url 2011-12-30-no-more-healing-surges-awesome-points-are-here %}) so far, although it's
 probably too early to say I'm entirely sure they're a success.  Still, I'm
 sticking with it.
 

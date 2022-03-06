@@ -145,7 +145,7 @@ $pause->upload_author_fake(JBLOE => {
 ```
 
 Hey, it's using `from_struct` like we saw in [my Module::Faker report from this
-PTS](https://rjbs.manxome.org/rubric/entry/2115)!  Now you can always know
+PTS]({% post_url 2019-04-30-pts-2019-module-faker-3-5 %})!  Now you can always know
 exactly what is interesting about a fake.  Sometimes, though, you don't need
 an interesting fake, you just need totally boring dist to be uploaded.  In
 those cases, now you can just write

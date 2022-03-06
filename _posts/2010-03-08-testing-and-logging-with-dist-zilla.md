@@ -9,7 +9,7 @@ day.  I don't know how long this will last, but I'm glad that it's going so
 well, so far.
 
 I got a lot of preliminary improvements done to logging, mostly described in
-[yeserday's post](http://rjbs.manxome.org/rubric/entry/1820).  They scrunched
+[yeserday's post]({% post_url 2010-03-07-more-dzil-improvements-mostly-logging %}).  They scrunched
 the default output way down to fit on the screen and be readable.  Now that I
 had logging working, it seemed like time to bite the bullet and really get to
 work on testing.

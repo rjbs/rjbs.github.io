@@ -4,7 +4,7 @@ title : "no more healing surges, Awesome Points are here!"
 date  : "2011-12-30T20:15:43Z"
 tags  : ["dnd", "rpg"]
 ---
-I [wrote about healing surges](http://rjbs.manxome.org/rubric/entry/1907) a few
+I [wrote about healing surges]({% post_url 2011-08-24-too-many-healing-surges %}) a few
 months ago, and have implemented some of the things I said I would, and am now
 going to implement the rest and more.  Here are the new official rules for my
 "Ethos" campaign (aka, Monsters on a Plain):

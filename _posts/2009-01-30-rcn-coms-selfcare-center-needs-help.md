@@ -5,7 +5,7 @@ date  : "2009-01-30T15:45:29Z"
 tags  : ["javascript", "stupid"]
 ---
 Some time ago I wrote [an entry about RCN's dumb password
-questions](http://rjbs.manxome.org/rubric/entry/1552).  Today, I got to deal
+questions]({% post_url 2007-12-01-password-security-questions %}).  Today, I got to deal
 with this crap again.  I tried to reset my password and saw:
 
     Q: What is the account holder\'s favorite food?

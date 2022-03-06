@@ -9,7 +9,7 @@ book](https://doc.rust-lang.org/book/) a while ago, and did some trivial
 exercises, but I didn't write any real programs.  This is a pretty common
 problem for me:  I learn the basics of a language, but don't put it to any real
 use.  Writing [my stupid 24 game solver in
-Forth](https://rjbs.manxome.org/rubric/entry/2102) definitely helped me think
+Forth]({% post_url 2016-08-23-solving-the-24-game-in-forth %}) definitely helped me think
 about writing real Forth programs, even if it was just a goof.
 
 Now I'm working on implementing the [Software Tools](http://amzn.to/2edFnB4)

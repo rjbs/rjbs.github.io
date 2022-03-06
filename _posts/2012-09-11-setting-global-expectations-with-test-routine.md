@@ -7,7 +7,7 @@ tags  : ["perl", "programming"]
 Today I finished a bunch of work that significantly improved the test suite of
 [our billing system](http://github.com/pobox/Moonpig).  It all sprang from two
 of my favorite things coming together:  [adding more `print`
-statements](http://rjbs.manxome.org/rubric/entry/1897) and
+statements]({% post_url 2011-06-14-the-simplest-thing-that-could-possibly-teach-me-more-about-postfix %}) and
 [Test::Routine](http://advent.rjbs.manxome.org/2010/2010-12-21.html).
 
 I'm going to simplify the truth a little bit, but here's what happened.

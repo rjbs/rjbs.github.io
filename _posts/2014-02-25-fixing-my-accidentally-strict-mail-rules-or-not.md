@@ -17,7 +17,7 @@ For the most part, this wasn't a big problem, but I wanted to be able to run
 things more often.
 
 Last week, when I was working on my [Goodreads/Ywar
-integration](http://rjbs.manxome.org/rubric/entry/2035), I also made the
+integration]({% post_url 2014-02-18-integrating-ywar-with-goodreads %}), I also made the
 changes needed to run `ywar update` more often.  There were two main changes:
 every measurement now carries a log of whether it resulted in goal completion,
 and checks don't get the last measured value, but the "last state," which

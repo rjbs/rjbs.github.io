@@ -86,7 +86,7 @@ secret languages, they're just secret languages.
 
 Yeah, sure, XP for all kinds of stuff.  Gold, monsters, traps, fast-talking,
 whatever.  I [wrote about gold as
-experience](http://rjbs.manxome.org/rubric/entry/1924) before.
+experience]({% post_url 2011-11-16-on-gold-as-experience %}) before.
 
 ### 10. Which is the best edition?
 

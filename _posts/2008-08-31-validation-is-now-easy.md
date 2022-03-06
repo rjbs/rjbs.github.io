@@ -5,7 +5,7 @@ date  : "2008-08-31T03:11:18Z"
 tags  : ["programming", "rx"]
 ---
 Okay, the title might be a filthy lie, but it's just a reference to my
-[previous posting](http://rjbs.manxome.org/rubric/entry/1647) about the fact
+[previous posting]({% post_url 2008-07-18-validation-is-hard %}) about the fact
 that I couldn't find a single data validation system (read: schemata) for
 JSON-like data.  I found plenty of schema languages for XML, one for YAML that
 was never going to be suitably cross-platform, and one for JSON (json-schema)

@@ -5,7 +5,7 @@ date  : "2013-08-28T14:34:34Z"
 tags  : ["perl", "productivity", "programming"]
 ---
 Just about two months ago, I posted about [my revived "work through some
-tickets in each queue then rotate"](http://rjbs.manxome.org/rubric/entry/1996)
+tickets in each queue then rotate"]({% post_url 2013-07-04-once-again-trying-to-keep-up-with-the-tickets %})
 strategy.  When I had first tried to do it, I hadn't had enough discipline, and
 it failed.  After a month, it seemed to be going very well, because of two
 minor changes:
@@ -16,7 +16,7 @@ minor changes:
       whether I was actually getting work done on the list regularly.
 
 About a month later, [I automated step
-2](http://rjbs.manxome.org/rubric/entry/1998).  I just had my cron job keep
+2]({% post_url 2013-07-25-i-get-points-for-blogging-this %}).  I just had my cron job keep
 track of the SHA1 of the file in git.  If it changed, I must have done some
 work.
 

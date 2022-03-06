@@ -12,7 +12,7 @@ much."
 
 Tanczos is one of our local beverage distributors, which is the kind of
 business you need to go to buy beer by the case in Pennsylvania.  [Buying
-alcohol in PA is weird.](http://rjbs.manxome.org/rubric/entry/1500)  Tanczos is
+alcohol in PA is weird.]({% post_url 2007-08-30-getting-wasted-in-pennsylvania %})  Tanczos is
 very, very good.  They have a huge selection, friendly staff, and they're
 well-organized.  Newcomers to town are usually pretty impressed.  (I'm told
 that Tanczos is often among the higest-rated beverage distributors in the

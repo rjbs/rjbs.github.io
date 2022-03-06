@@ -57,7 +57,7 @@ wants to make a big noise at a 1 or a 20.
 
 I've been thinking about this a lot lately as I prepare to switch my 4E
 campaign to a hacked B/X.  I'm thinking about extending [my list of saving
-throws](http://rjbs.manxome.org/rubric/entry/1932) to add a few more categories
+throws]({% post_url 2012-01-06-rationalizing-basic-d-d-saving-throws %}) to add a few more categories
 and just using that.  I'm also tempted to just say "we're gonna use FUDGE dice"
 and bring in FAE-style Approaches, because those seem pretty awesome.
 
@@ -75,7 +75,7 @@ the highest orders while they undertake holy quests:
 **Boundless Knowledge.**  Can learn any fact through a turn of meditation.
 The cost:
 
-* widely known mundane fact: 1 [awesome point](http://rjbs.manxome.org/rubric/entry/1931)
+* widely known mundane fact: 1 [awesome point]({% post_url 2011-12-30-no-more-healing-surges-awesome-points-are-here %})
 * secret (secret keeper present): 10 awesome points
 * secret (secret keeper not present): takes 8 hours, 10 temporary wisdom, recover 1/day
 * arcane secret: 1 permanent wisdom

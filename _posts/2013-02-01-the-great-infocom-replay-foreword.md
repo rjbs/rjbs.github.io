@@ -11,7 +11,7 @@ regular-enough group of players, and have not felt entirely compatible with
 some of the players who I was able to attract.  It has been a big let down.
 
 Something recently reminded me of
-[Suspended](http://rjbs.manxome.org/rubric/entry/975), and I thought I'd give
+[Suspended]({% post_url 2003-01-16-a-cryogenic-nightmare %}), and I thought I'd give
 it another play.  I found that I could still beat it from memory, which made me
 happy, and I played around with the custom and advanced scenarios, too.  I also
 finally learned how to get a good score.  (I don't think I ever got a better

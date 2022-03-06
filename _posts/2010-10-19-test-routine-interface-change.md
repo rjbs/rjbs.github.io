@@ -6,7 +6,7 @@ tags  : ["perl", "programming", "testing"]
 ---
 I've been trying to learn more about different patterns people use while
 writing test code, and to make sure that
-[Test::Routine](http://rjbs.manxome.org/rubric/entry/1858) accomodates them all
+[Test::Routine]({% post_url 2010-09-30-test-routine-composable-units-of-assertion %}) accomodates them all
 fairly easily.  So far, I'm happy with it, but I've had a few changes I've
 made.  So far, only one is intended to be user visible.  From now on, instead
 of writing:
