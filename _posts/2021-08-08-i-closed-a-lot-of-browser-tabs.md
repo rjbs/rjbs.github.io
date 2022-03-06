@@ -105,7 +105,7 @@ to a function, but that function may throw a "no such function" exception when
 called.  Array-like objects aren't iterable, so you'll do a lot of looping over
 indexes instead of iterating over value.  Still, this isn't so bad:
 
-```applescript
+```javascript
 let tabcount = 0;
 const Chrome = new Application("Google Chrome");
 
