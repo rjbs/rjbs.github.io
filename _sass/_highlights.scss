@@ -23,6 +23,10 @@ code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
 
+p code {
+  color: #808;
+}
+
 .highlight .hll { background-color: #404040 }
 .highlight  { background: #202020; color: #d0d0d0 }
 .highlight .c { color: #1ac81f; font-style: italic } /* Comment */
