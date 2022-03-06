@@ -223,7 +223,7 @@ overstriken character is fully replaced by the overstriking character.
 
 It's all on GitHub, but here's my program as I stands tonight:
 
-```
+```perl
 #!perl
 use v5.20.0;
 use warnings;
