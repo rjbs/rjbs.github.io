@@ -228,7 +228,7 @@ I know this is not the greatest horror in the history of programming, but it's
 a week later and I'm still grumbling.  Sorry.  The good news is that I got it
 working.
 
-![bad pagination](/assets/2022/03/bad-paginator.png)
+![good pagination](/assets/2022/03/good-paginator.png)
 
 With that done, I spent some time looking at the formatting of code blocks.
 I went through a bunch of blog posts and switched to fenced code blocks with
