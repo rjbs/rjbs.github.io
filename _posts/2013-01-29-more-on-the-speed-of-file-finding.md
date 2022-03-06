@@ -5,7 +5,7 @@ date  : "2013-01-29T03:33:15Z"
 tags  : ["perl", "programming"]
 ---
 Last week I wrote about [the speed of Perl file
-finders](http://rjbs.manxome.org/rubric/entry/1981), including a somewhat
+finders]({% post_url 2013-01-23-the-speed-of-perl-file-finders %}), including a somewhat
 difficult to read chart of their relative speeds in a pretty contrived race.
 My intent wasn't really to compare the "good" ones, but to call out the "bad"
 ones.  Looking at that graph, it should be clear that you "never" want to use

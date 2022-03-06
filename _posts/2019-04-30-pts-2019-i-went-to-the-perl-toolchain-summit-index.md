@@ -27,11 +27,11 @@ some reference material for future PAUSE contributors.
 
 Here are my posts about the summit:
 
-1. [Marlow](https://rjbs.manxome.org/rubric/entry/2113)
-2. [Getopt::Long::Descriptive](https://rjbs.manxome.org/rubric/entry/2114)
-3. [Module::Faker](https://rjbs.manxome.org/rubric/entry/2115)
-4. [Automated PAUSE Testing](https://rjbs.manxome.org/rubric/entry/2116)
-5. [PAUSE Inspection Tools](https://rjbs.manxome.org/rubric/entry/2117)
+1. [Marlow]({% post_url 2019-04-30-pts-2019-marlow-1-5 %})
+2. [Getopt::Long::Descriptive]({% post_url 2019-04-30-pts-2019-getopt-long-descriptive-2-5 %})
+3. [Module::Faker]({% post_url 2019-04-30-pts-2019-module-faker-3-5 %})
+4. [Automated PAUSE Testing]({% post_url 2019-04-30-pts-2019-the-pause-test-suite-4-5 %})
+5. [PAUSE Inspection Tools]({% post_url 2019-04-30-pts-2019-testing-pause-by-hand-5-5 %})
 
 PTS is made possible by the generosity of its sponsors, who are making it possible for useful work to happen that would, quite simply, not happen otherwise.  Thanks to them: [Booking.com](https://www.booking.com),
 [cPanel](https://cpanel.com),

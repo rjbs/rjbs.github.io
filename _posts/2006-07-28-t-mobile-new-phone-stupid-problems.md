@@ -42,7 +42,7 @@ With that working, my address book synced, and my account reactived, I was
 almost done.  All that remained was to get Google SMS working.
 
 Quite some time ago, I had [some stupid
-problems](http://rjbs.manxome.org/rubric/entry/1238) with scammerly charges on
+problems]({% post_url 2006-03-04-t-mobile-and-telephone-scammers %}) with scammerly charges on
 my phone.  Recently, it happened again.  I called in to have it taken care of,
 and was told that numbers couldn't be blacklisted -- just like I was told last
 time, until I was told otherwise.

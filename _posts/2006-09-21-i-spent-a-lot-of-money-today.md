@@ -6,7 +6,7 @@ tags  : ["house"]
 ---
 Well, there are two ways to look at it.  On one hand, I have about a thousand more dollars in my bank account now than I did yesterday.  On the other hand, I am in well over a hundred thousand dollars in debt, now.
 
-I haven't wanted to shout too loudly about it, lest I invoke bad luck upon myself, but Gloria and I have been in the process of buying a house.  This completes one of my [2006 todo's](http://rjbs.manxome.org/rubric/entry/1203), which is looking like one of the only ones likely to get a green stamp.
+I haven't wanted to shout too loudly about it, lest I invoke bad luck upon myself, but Gloria and I have been in the process of buying a house.  This completes one of my [2006 todo's]({% post_url 2006-01-03-todo-for-2006 %}), which is looking like one of the only ones likely to get a green stamp.
 
 We looked at maybe a half-dozen houses, and it came down to two, both very close to each other and to our current apartment.  We chose the nearer one, which is in slightly poorer shape, but sold for about 10% less.  There were a number of obnoxious little problems along the way, but far fewer than I heard about from friends who wanted to tell horror stories.  In the end, it went pretty smoothly.  Everyone we dealt with was just great.  [Our realtors](http://cassidonrealty.com/) were really easy-going and helpful.  [Our mortgage advisor](http://www.hmspa.com/) was the same.  I really don't like dealing with large financial issues, and they made me feel pretty comfortable. I said, "this is what we want to do," and they told us how to make it happen.
 

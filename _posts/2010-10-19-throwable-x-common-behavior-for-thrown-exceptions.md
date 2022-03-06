@@ -5,7 +5,7 @@ date  : "2010-10-19T15:05:06Z"
 tags  : ["perl", "programming"]
 ---
 When I first wrote about
-[Test::Routine](http://rjbs.manxome.org/rubric/entry/1858), I said it was a way
+[Test::Routine]({% post_url 2010-09-30-test-routine-composable-units-of-assertion %}), I said it was a way
 of building a replacement for Test::Class that relied on Moose for all of its
 class composition.  I compared it to replacing
 [Exception::Class](http://search.cpan.org/dist/Exception-Class/) with

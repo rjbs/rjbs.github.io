@@ -6,8 +6,8 @@ tags  : ["perl", "programming"]
 ---
 In 2007, I wrote code to generate RTF that syntax highlights code, using Vim's
 syntax highlighting.  I wrote about it in [an earlier
-post](http://rjbs.manxome.org/rubric/entry/1509) [or
-two](http://rjbs.manxome.org/rubric/entry/1507).  After that, I didn't think
+post]({% post_url 2007-09-08-continued-vim-syntax-to-rtf-conversions %}) [or
+two]({% post_url 2007-09-05-progress-with-syntax-to-rtf %}).  After that, I didn't think
 about it much, apart from fixing a couple things once in a while or running it
 once every year or so.
 

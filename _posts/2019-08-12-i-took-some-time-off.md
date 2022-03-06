@@ -29,7 +29,7 @@ I fixed a bunch of my config files, especially for offlineimap and Vim.  Doing
 this briefly added about sixty extraneous folders to my IMAP store, but
 fortunately, as an email professional, I knew how to delete them.
 
-Ages ago, [I lost a lot of my mp3s](https://rjbs.manxome.org/rubric/entry/2052)
+Ages ago, [I lost a lot of my mp3s]({% post_url 2014-06-15-just-how-much-data-did-i-lose %})
 due to my own idiocy.  Since then, I've really pulled back on my use of iTunes.
 In part, because I lost so much music.  In part, because iTunes has continued
 to get worse.  In part, because I just like Spotify a whole lot.  Despite this,
@@ -56,7 +56,7 @@ quite a bit of that.  A bunch of it was tedious, but it got done, and *that*
 felt good.
 
 Another kind of tedious but necessary task: My little goal-tracking
-API-masher-up, [Ywar](https://rjbs.manxome.org/rubric/entry/2010) has been
+API-masher-up, [Ywar]({% post_url 2013-09-04-my-new-daily-agenda-emails %}) has been
 suffering from a bit of bit rot, especially with its Withings integration,
 which I used to fetch my daily weight measurements.  They recently turned off
 OAuth1 support, so I had to switch to OAuth2.  I find OAuth pretty tedious in

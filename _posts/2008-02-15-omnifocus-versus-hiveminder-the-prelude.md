@@ -53,7 +53,7 @@ I got into the early semi-public beta, and once I figured out how to use it, I
 loved it.  I loved it so much that pretty soon I threw away my stack of index
 cards.  I got a lot of stuff done, and was pretty well able to ignore OmniFocus
 while doing it.  I have already [written about
-OmniFocus](http://rjbs.manxome.org/rubric/entry/1544) and how great it is.
+OmniFocus]({% post_url 2007-11-19-omnifocus-is-good %}) and how great it is.
 
 One of the things I tried, and abandoned, while I was still on index cards was
 [Hiveminder](http://hiveminder.com/), the GTD-ish todo manager from [Best

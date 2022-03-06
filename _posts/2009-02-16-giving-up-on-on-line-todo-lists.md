@@ -4,7 +4,7 @@ title : "giving up on on-line todo lists?"
 date  : "2009-02-16T04:05:01Z"
 tags  : ["productivity"]
 ---
-I [gave up on index cards for OmniFocus](http://rjbs.manxome.org/rubric/entry/1578) about a year ago. OmniFocus was pretty easy to deal with, and it meant I didn't need to carry around index cards and a pen.  Not too much later, I [gave up OmniFocus for Hiveminder](http://rjbs.manxome.org/rubric/entry/1584).  Hiveminder was available from anywhere on the network, and its IM-based interface was fantastic.
+I [gave up on index cards for OmniFocus]({% post_url 2008-02-15-omnifocus-versus-hiveminder-the-prelude %}) about a year ago. OmniFocus was pretty easy to deal with, and it meant I didn't need to carry around index cards and a pen.  Not too much later, I [gave up OmniFocus for Hiveminder]({% post_url 2008-02-19-omnifocus-versus-hiveminder-round-one %}).  Hiveminder was available from anywhere on the network, and its IM-based interface was fantastic.
 
 Eventually I stopped using Hiveminder because I couldn't use it for things to do "later today" because it didn't do any smaller resolution of promised-by than calendar dates.  That made it more useful for longer-term plans.  This made me think I'd use it for bug tracking or managing simple projects like some of my free software, but it doesn't support dependencies or publicly readable groups.
 

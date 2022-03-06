@@ -109,7 +109,7 @@ favorites.  We thought that would be all we watched, but it turned out that we
 felt up to watching a movie afterward, so we watched Rise of the Reeker.  Ugh.
 
 Then came [the weekend when David Golden and I fixed Dist::Zilla's handling of
-encodings](http://rjbs.manxome.org/rubric/entry/2021).  We declined to force
+encodings]({% post_url 2013-10-20-dist-zilla-v5-will-break-and-or-fix-your-code %}).  We declined to force
 David to sit through horror movies with us, because we're good hosts.
 
 The Hitcher was really formulaic and shouldn't have been very good, but for

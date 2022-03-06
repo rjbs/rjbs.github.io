@@ -23,7 +23,7 @@ König, who takes great care of it – which is good, since there aren't many
 people who know the code very well, in case Andreas ever decides to retire to
 the Schwartzwald and enjoy the simple life.  Last year, David Golden and I
 [spent a lovely day doing some refactoring and testing of
-PAUSE](http://rjbs.manxome.org/rubric/entry/1904).  We got quite a big of work
+PAUSE]({% post_url 2011-08-14-the-pause-micro-hackathon %}).  We got quite a big of work
 done on getting a grip on how everything had to work, and the tests made it
 easy to start making minor changes without fear.
 

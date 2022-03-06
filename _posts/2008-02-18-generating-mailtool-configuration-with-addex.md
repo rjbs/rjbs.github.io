@@ -4,7 +4,7 @@ title : "generating mailtool configuration with addex"
 date  : "2008-02-18T13:52:42Z"
 tags  : ["addex", "email", "perl"]
 ---
-I've [complained](http://rjbs.manxome.org/rubric/entry/1414) before about how
+I've [complained]({% post_url 2007-03-19-gui-mail-apps-considered-stifling %}) before about how
 stifling I find GUI mail apps.  I can't commit a few twitches to muscle memory
 that allow me to perform useful and complex operations the way I can with mutt.
 There are some things that GUI apps get right, like high-level folder browsing,
@@ -43,7 +43,7 @@ I had to write that plugin for myself, and it took about 20 lines of code.
 
 Configuring addex is really easy, and the way configuration works was so
 satisfying to implement that [I wrote about it
-already](http://rjbs.manxome.org/rubric/entry/1435), long before writing much
+already]({% post_url 2007-05-11-application-config-that-makes-me-happy %}), long before writing much
 about addex itself.
 
 My `.addex` file looks more or less like this:

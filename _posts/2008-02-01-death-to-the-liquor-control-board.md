@@ -5,7 +5,7 @@ date  : "2008-02-01T15:16:06Z"
 tags  : ["booze", "pennsylvania", "stupid"]
 ---
 Ugh.  A while ago, I wrote about the difficulties involved in [getting wasted
-in Pennsylvania](http://rjbs.manxome.org/rubric/entry/1500).  Normally, it only
+in Pennsylvania]({% post_url 2007-08-30-getting-wasted-in-pennsylvania %}).  Normally, it only
 affects me as trivia.  The thrice-cursed monopoly's stores carry the brands
 that I'm used to buying.  Their prices aren't intolerable.
 

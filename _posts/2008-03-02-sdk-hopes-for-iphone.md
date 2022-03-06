@@ -5,7 +5,7 @@ date  : "2008-03-02T13:15:42Z"
 tags  : ["phone"]
 ---
 I haven't made up my mind that I want an iPhone yet, but it really has a lot of
-the [features that I want](http://rjbs.manxome.org/rubric/entry/1524).  It even
+the [features that I want]({% post_url 2007-10-06-more-thoughts-on-mobile-phones %}).  It even
 has the bonus feature of replacing my iPod.  Sure, it won't hold as much as my
 40 gig (third generation) iPod, but it will be one less thing to put in my
 pocket, and I was pretty happy using my 1 gig shuffle for most things, before I

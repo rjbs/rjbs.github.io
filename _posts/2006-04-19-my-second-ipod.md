@@ -42,7 +42,7 @@ can't move to a non-iPod player.  (More on that problem another day.)
 
 Most of the time I listen to my 3G iPod, I listen to "Radio RJBS," which is a
 bit more complicated, and which I've [talked about
-before](http://rjbs.manxome.org/rubric/entry/577).  Sometimes, though, I listen
+before]({% post_url 2004-12-01-itunes-light-and-dark %}).  Sometimes, though, I listen
 to Shuffle instead, because it gets a different distribution of songs.  It's a
 good playlist.
 

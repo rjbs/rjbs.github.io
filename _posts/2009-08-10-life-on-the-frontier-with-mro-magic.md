@@ -5,7 +5,7 @@ date  : "2009-08-10T15:02:07Z"
 tags  : ["perl", "programming"]
 ---
 `MRO::Magic` is a system for writing your own method dispatcher in Perl.  I have
-[written about MRO::Magic](http://rjbs.manxome.org/rubric/entry/1739) before,
+[written about MRO::Magic]({% post_url 2009-03-22-writing-your-own-dispatcher-for-fun-profit-can-come-later %}) before,
 but it's rushing toward being useful as 5.10.1 rushes toward release.
 
 Right now, I have two weird issues.  Neither is a real blocker, but both

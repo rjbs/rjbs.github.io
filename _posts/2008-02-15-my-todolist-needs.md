@@ -5,7 +5,7 @@ date  : "2008-02-15T16:36:20Z"
 tags  : ["productivity"]
 ---
 I felt pretty good after cataloging [what I want from a mobile
-phone](http://rjbs.manxome.org/rubric/entry/1524), so I think it'll be a good
+phone]({% post_url 2007-10-06-more-thoughts-on-mobile-phones %}), so I think it'll be a good
 idea to do the same thing for productivity/todo software.
 
 ## The Features I Want

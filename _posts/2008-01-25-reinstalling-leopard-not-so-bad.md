@@ -42,7 +42,7 @@ own future reference):
 1. re-installed the apps that I use the most, using the old /Applications as a guide
 1. used the Migration Assistant to move my user data from the old to the new system
 1. ran a lot of system updates
-1. reapplied my [postfix configuration](http://rjbs.manxome.org/rubric/entry/1297), using [Lingon](http://lingon.sourceforge.net/) for the launchd stuff
+1. reapplied my [postfix configuration]({% post_url 2006-06-01-painless-postfix-on-mac-os %}), using [Lingon](http://lingon.sourceforge.net/) for the launchd stuff
 1. installed [MacPorts](http://www.macports.org/)
 1. found out that MacPorts' `mutt` sucked and rolled my own
 1. reinstalled `perl` 5.10 and a bunch of my most-needed modules (note to self: make a Bundle)

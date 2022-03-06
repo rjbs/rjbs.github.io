@@ -5,7 +5,7 @@ date  : "2015-05-08T14:42:58Z"
 tags  : ["perl", "programming"]
 ---
 Recently I wrote about [my dumb CPAN metafile
-analyzer](http://rjbs.manxome.org/rubric/entry/2079), and how I'd tried to keep
+analyzer]({% post_url 2015-04-30-my-stupid-cpan-meta-analyzer %}), and how I'd tried to keep
 it fast.  One of the things I tried to speed it up was creating a ramdisk for
 all of the archive extraction.  The speed boost in this case turned out to be
 low, but it isn't always.  (Also, I inexplicably used a journaling filesystem

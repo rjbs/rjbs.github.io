@@ -22,7 +22,7 @@ was not easy to do, and I have put it back on my list of things that I am
 unlikely to do myself.
 
 Finding the problems was fun, though, as was [explaining the problem with as
-little English as possible](http://rjbs.manxome.org/rubric/entry/1912).  I
+little English as possible]({% post_url 2011-10-19-yapc-asia-awesome %}).  I
 promised to publish the explanation, but before I got a chance to, someone
 submitted [some patches](https://github.com/rjbs/throwable/pull/1) to do the
 conversion.  Awesome!  Unfortunately, it was someone who hadn't been there, and

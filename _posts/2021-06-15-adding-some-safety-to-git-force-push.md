@@ -5,7 +5,7 @@ date  : "2021-06-15T16:29:21Z"
 tags  : ["git", "programming"]
 ---
 Just the other day, I [wrote about my little git branch manager
-tool](https://rjbs.manxome.org/rubric/entry/2122).  I use it to make sure I
+tool]({% post_url 2021-06-13-my-git-branch-manager %}).  I use it to make sure I
 know what branches I have lying around, and to delete branches that have
 already been merged.  I wrote the post because I had updated the code to work
 on more kinds of respository.

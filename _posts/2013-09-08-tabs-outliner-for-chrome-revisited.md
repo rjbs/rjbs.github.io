@@ -4,7 +4,7 @@ title : "Tabs Outliner for Chrome revisited"
 date  : "2013-09-08T16:29:42Z"
 ---
 Earlier this year, I [lamented the state of "workspaces" in
-Chrome](http://rjbs.manxome.org/rubric/entry/1980).  I said that I'd settled on
+Chrome]({% post_url 2013-01-22-workspaces-in-google-chrome %}).  I said that I'd settled on
 using Tabs Outliner, but that I basically didn't like it.  The author of the
 plugin asked me to elaborate, and I said I would.  It has been sitting in my
 todo list for months and I have felt bad about that.  Today, Gregory Meyers

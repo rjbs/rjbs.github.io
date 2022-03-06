@@ -13,7 +13,7 @@ what it can now do.
 
 First, I have it read in the very basic Pod events from a document and convert
 them into elements.  This is exercising only the [most basic dialect of
-Pod](http://rjbs.manxome.org/rubric/entry/1763).  If I load in this document
+Pod]({% post_url 2009-05-29-reimagining-pod-or-breaking-all-my-pod-libraries %}).  If I load in this document
 and then dump out its structure (using Pod::Elemental's `as_debug_string` code)
 I get this:
 

@@ -85,7 +85,7 @@ configuration, it looks like this:
     ./take
 
 I need to do a bit of work to make
-[WhichConfig](http://rjbs.manxome.org/rubric/entry/1592) check `$0` (or
+[WhichConfig]({% post_url 2008-03-03-more-portable-mutt-configuration-tricks %}) check `$0` (or
 something) to notice that I want to use Hiveminder, rather than the "normal"
 mail available to it.  Even without having done that, the IMAP interface is
 pretty fantastic.  I see a lot of weird Maildir tricks in my future.  Until I

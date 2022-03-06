@@ -14,8 +14,8 @@ means it doesn't actually do me much good.
 
 I'm on-again, though, and I'm trying to use it to combine some of my other
 recent changes to my routine.  For example, I wrote about [using a big queue to
-many all my projects' bug queues](http://rjbs.manxome.org/rubric/entry/1996)
-and [forcing a reading bottleneck](http://rjbs.manxome.org/rubric/entry/1997)
+many all my projects' bug queues]({% post_url 2013-07-04-once-again-trying-to-keep-up-with-the-tickets %})
+and [forcing a reading bottleneck]({% post_url 2013-07-06-dealing-with-my-half-read-book-problem %})
 to avoid reading too many books at once, and thus getting none read.  I also
 want to try to get sustained momentum on keeping my email read and replied-to.
 I'm not sure whether TDP will help me stay on target, but I think it will help

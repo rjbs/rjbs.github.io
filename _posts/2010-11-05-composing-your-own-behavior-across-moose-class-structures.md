@@ -5,11 +5,11 @@ date  : "2010-11-05T15:50:10Z"
 tags  : ["moose", "perl", "programming"]
 ---
 In my last entry, I wrote about [how role composition and advice and `BUILD`
-interact](http://rjbs.manxome.org/rubric/entry/1864).  A number of times, I've
+interact]({% post_url 2010-11-05-roles-advice-and-build-in-moose %}).  A number of times, I've
 wanted to get behavior that was *like* `BUILD`, but without needing the stub
 method hacks that are needed to get roles to participate in the method call.  A
 very simple example came when I was [writing
-Throwable::X](http://rjbs.manxome.org/rubric/entry/1860), which had a mechanism
+Throwable::X]({% post_url 2010-10-19-throwable-x-common-behavior-for-thrown-exceptions %}), which had a mechanism
 for all of its contituent parts to contribute tags.  The idea was that any
 class or role that was part of your class hierarchy could implement an `x_tags`
 method that would return a list of tag strings.  These methods would all get

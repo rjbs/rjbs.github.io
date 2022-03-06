@@ -5,7 +5,7 @@ date  : "2008-11-15T04:19:56Z"
 tags  : ["perl", "programming", "tiddlywiki", "wiki"]
 ---
 Some time ago I wrote that I had [moved my D&D wiki to
-TiddlyWiki](http://rjbs.manxome.org/rubric/entry/1444).  This has worked pretty
+TiddlyWiki]({% post_url 2007-06-01-from-vim-to-tiddlywiki %}).  This has worked pretty
 well, although I've mostly given up storing YAML in my TiddlyWiki -- mostly
 because I didn't end up using the tools that used it all that much.  Maybe next
 time.

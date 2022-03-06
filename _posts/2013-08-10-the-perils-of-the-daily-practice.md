@@ -7,7 +7,7 @@ tags  : ["productivity"]
 **Warning**:  This is sort of rambling.
 
 I have no doubt that [automating a bunch of my
-goals](http://rjbs.manxome.org/rubric/entry/1998) on [The Daily
+goals]({% post_url 2013-07-25-i-get-points-for-blogging-this %}) on [The Daily
 Practice](http://tdp.me/) has helped me keep up with doing them.  As I keep
 working to stay on top of my goals, though, I'm finding that the effects of TDP
 on my activity are more complex and subtle than I had anticipated.
@@ -26,7 +26,7 @@ while.  After that comes "catch up with p5p," which is the same.
 
 The next goals are in the form "do work on things which you will then record by
 making commits in git."  For example, [I try to keep more on top of bug
-reports](http://rjbs.manxome.org/rubric/entry/1996) lately.  So far, so good.
+reports]({% post_url 2013-07-04-once-again-trying-to-keep-up-with-the-tickets %}) lately.  So far, so good.
 These goals are still going strong, and have been going strong for as long as
 my other automated goals.  The score is lower, though, because they don't show
 up as done each day, but only on days I do the work.  Despite that, the

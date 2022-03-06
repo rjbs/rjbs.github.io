@@ -4,7 +4,7 @@ title : "more tips for job applicants"
 date  : "2008-08-13T19:03:35Z"
 tags  : ["hiring"]
 ---
-My [previous complaint](http://rjbs.manxome.org/rubric/entry/1648) is really
+My [previous complaint]({% post_url 2008-07-19-on-the-hiring-process %}) is really
 not a big deal, I think.  I think I've even given up immediate junking for
 that.  However...
 

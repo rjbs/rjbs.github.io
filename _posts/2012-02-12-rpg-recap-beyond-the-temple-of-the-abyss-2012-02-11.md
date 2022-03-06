@@ -41,7 +41,7 @@ be a dead end.  From there, the whole party trooped up to the big room with the
 big round table.  Torben asked about the the boarded up passage at the east
 end, but Alp and Delian said that while they'd been through there, neither
 could remember [what they'd seen
-there](http://rjbs.manxome.org/rubric/entry/1928).
+there]({% post_url 2011-12-20-rpg-recap-beyond-the-temple-of-the-abyss-2011-12-17 %}).
 
 Lyweylln decided it was worth investigating, and he asked Rocky to axe down the
 barricade, which Rocky did happily.  Delian, Lyweylln, Rocky, Sadie, and Mero

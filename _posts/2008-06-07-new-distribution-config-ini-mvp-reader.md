@@ -5,7 +5,7 @@ date  : "2008-06-07T15:23:01Z"
 tags  : ["perl", "programming"]
 ---
 Some time ago, I [wrote about Addex's
-config](http://rjbs.manxome.org/rubric/entry/1435), which used a slight
+config]({% post_url 2007-05-11-application-config-that-makes-me-happy %}), which used a slight
 variation on INI files and really hit the spot for what I needed.  It was
 possible because of the way Config::INI::Reader acts like a state machine,
 turning each line into a simple event that can be handled however you want.  By

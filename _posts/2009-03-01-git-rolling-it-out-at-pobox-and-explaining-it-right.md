@@ -5,7 +5,7 @@ date  : "2009-03-01T19:11:57Z"
 tags  : ["git", "pobox", "vcs"]
 ---
 Just over a year ago, I [complained about the complexity of Git
-tutorials](http://rjbs.manxome.org/rubric/entry/1567) found online.  My
+tutorials]({% post_url 2008-01-25-git-youre-explaining-it-wrong %}) found online.  My
 complaint was something like this: /I have no damn idea how Git works, and I'm
 using it just fine.  Stop suggesting that people need to understand how all
 these things work and just explain the commands./
