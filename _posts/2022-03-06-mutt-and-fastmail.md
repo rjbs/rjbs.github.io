@@ -36,10 +36,9 @@ here.
 (Why two lines?  One sets up the keybinding when listing messages, the other
 when reading an individual message.)
 
-The way the program works is tied to how Fastmail's URLs, which aren't
-guaranteed stable.  I figure, if they change, I can adapt.  If I can't adapt,
-at least I had a good run.  Anyway, a Fastmail email URL looks something like
-this:
+The way the program works is tied to how Fastmail's URLs work, which isn't a
+stable API.  I figure, if they change, I can adapt.  If I can't adapt, at least
+I had a good run.  Anyway, a Fastmail email URL looks something like this:
 
 ```
 https://www.fastmail.com/mail/Inbox/Mxxxxxxxxxxxxxxxxxxxxxxxx?u=yyyyyyyy
