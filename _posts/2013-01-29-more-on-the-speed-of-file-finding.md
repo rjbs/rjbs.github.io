@@ -38,10 +38,12 @@ possibly be, given the fastest possible bare iteration over a bunch of
 entities, since that's the starting point for any real work I'd do.  For
 example, this was the test code for File::Next:
 
-      my $iter = File::Next::everything({}, $root);
-      while (defined ( my $file = $iter->() )) {
-        last if $i++ > $max;
-      }
+```perl
+my $iter = File::Next::everything({}, $root);
+while (defined ( my $file = $iter->() )) {
+  last if $i++ > $max;
+}
+```
 
 Let's face it:  that's not much of a real world use case.  In real life, you're
 going to want to look at the filename, maybe its size or type, and quite likely
@@ -54,17 +56,19 @@ Path::Iterator::Rule was lagging behind File::Next, and he sped it up.  Some of
 that speedup was just plain speedup, but much of it comes from providing the
 `iter_fast` iterator constructor:
 
-      sub iter_fast {
-        my $self     = shift;
-        my %defaults = (
-          follow_symlinks => 1,
-          depthfirst      => -1,
-          sorted          => 0,
-          loop_safe       => 0,
-          error_handler   => undef,
-        );
-        $self->_iter( \%defaults, @_ );
-      }
+```perl
+sub iter_fast {
+  my $self     = shift;
+  my %defaults = (
+    follow_symlinks => 1,
+    depthfirst      => -1,
+    sorted          => 0,
+    loop_safe       => 0,
+    error_handler   => undef,
+  );
+  $self->_iter( \%defaults, @_ );
+}
+```
 
 Why is this one faster?  Well, it stops worrying about symlinks, so there's no
 `-l` involved.  It doesn't sort names, which makes it unpredictable between
@@ -91,14 +95,16 @@ Finally, there are plenty of things to judge more than the raw speed of the
 library's fastest base configuration.  Path::Iterator::Rule, for example, has
 a very pleasant interface, in my opinion:
 
-      my $rule = Path::Iterator::Rule->new;
-      my $iter = $rule->or( $rule->new->name('*.txt'),
-                            $rule->new->name('*.html')
-                          )
-                      ->size('<10k')
-                      ->file
-                      ->readable
-                      ->iter($root);
+```perl
+my $rule = Path::Iterator::Rule->new;
+my $iter = $rule->or( $rule->new->name('*.txt'),
+                      $rule->new->name('*.html')
+                    )
+                ->size('<10k')
+                ->file
+                ->readable
+                ->iter($root);
+```
 
 That's going to build about a half dozen subs that will test each file to
 decide whether to include it in the results, and three of them will called for
@@ -106,13 +112,15 @@ each kick of the iterator (I think!).  That's fine, it's still really fast, but
 you can start to imagine how this can get microöptimized.  After all, with
 File::Next:
 
-    my $iter = File::Next::files($root);
-    while (defined (my $file = $iter->())) {
-      next unless $file =~ /\.(?:html|txt)\z/;
-      next unless -f -r $file;
-      next unless -s $file < 10240;
-      ...
-    }
+```perl
+my $iter = File::Next::files($root);
+while (defined (my $file = $iter->())) {
+  next unless $file =~ /\.(?:html|txt)\z/;
+  next unless -f -r $file;
+  next unless -s $file < 10240;
+  ...
+}
+```
 
 Will this be faster?  I bet it will.  Will I *ever* notice the difference…?
 I'm not so sure.  If I thought it would matter, I'd perform *another*
@@ -135,4 +143,3 @@ Andy and David have provided me with better tools, and all I had to do to get
 them was whine and make a chart.
 
 The free software community is fantastic!
-
