@@ -51,9 +51,11 @@ was mostly a job for `s///` and a little poking around here and there.  All the
 tests passed that didn't throw errors.  The errors failed because
 Email::Sender::Failure said this:
 
-    package Email::Sender::Failure;
-    use Any::Moose;
-    extends 'Throwable::Error';
+```perl
+package Email::Sender::Failure;
+use Any::Moose;
+extends 'Throwable::Error';
+```
 
 When the Failure class was being loaded, other Email::Sender had already
 loaded, setting Any::Moose to use Mouse, and now a Mouse class
@@ -62,40 +64,46 @@ loaded, setting Any::Moose to use Mouse, and now a Mouse class
 So, now you'd think you could go and make Throwable an Any::Moose role.  This
 is not really a good idea, and here is the code I used to explain it:
 
-    # Abc.pm
-    package Abc;
-    use lib 'lib';
-    use Moose;
-    with('Role::AnyThing');
-    1;
+```perl
+# Abc.pm
+package Abc;
+use lib 'lib';
+use Moose;
+with('Role::AnyThing');
+1;
 
-    # Xyz.pm
-    package Xyx;
-    use lib 'lib';
-    use Any::Moose;
-    with( 'Role::AnyThing' );
-    no Any::Moose;
-    1;
+# Xyz.pm
+package Xyx;
+use lib 'lib';
+use Any::Moose;
+with( 'Role::AnyThing' );
+no Any::Moose;
+1;
 
-    # Role/AnyThing.pm
-    package Role::AnyThing;
-    use lib 'lib';
-    use Any::Moose 'Role';
-    sub foo { ... }
-    no Any::Moose;
-    1;
+# Role/AnyThing.pm
+package Role::AnyThing;
+use lib 'lib';
+use Any::Moose 'Role';
+sub foo { ... }
+no Any::Moose;
+1;
+```
 
 Here I have two classes, one Moose and one Any::Moose.  They both consume an
 Any::Moose role.  So, what's the problem?  Well:
 
-    $ perl -I lib -MAbc -MXyz -e0
-    $ echo $?
-    0
+```
+$ perl -I lib -MAbc -MXyz -e0
+$ echo $?
+0
+```
 
 Great!  I can use these in the same program!  Or can I?
 
-    $ perl -I lib -MXyz -MAbc -e0
-    You can only consume roles, Role::AnyThing is not a Moose role at … line 137
+```
+$ perl -I lib -MXyz -MAbc -e0
+You can only consume roles, Role::AnyThing is not a Moose role at … line 137
+```
 
 What happened?  Well, in the *first* example, Abc is compiled first.  It loads
 Moose.  When Xyz is compiled, it loads Any::Moose, which sees that Moose is

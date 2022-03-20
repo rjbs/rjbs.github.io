@@ -5,15 +5,16 @@ date  : "2010-11-05T15:50:10Z"
 tags  : ["moose", "perl", "programming"]
 ---
 In my last entry, I wrote about [how role composition and advice and `BUILD`
-interact]({% post_url 2010-11-05-roles-advice-and-build-in-moose %}).  A number of times, I've
-wanted to get behavior that was *like* `BUILD`, but without needing the stub
-method hacks that are needed to get roles to participate in the method call.  A
-very simple example came when I was [writing
-Throwable::X]({% post_url 2010-10-19-throwable-x-common-behavior-for-thrown-exceptions %}), which had a mechanism
-for all of its contituent parts to contribute tags.  The idea was that any
-class or role that was part of your class hierarchy could implement an `x_tags`
-method that would return a list of tag strings.  These methods would all get
-called and the resulting set of tags would be uniqued and returned.
+interact]({% post_url 2010-11-05-roles-advice-and-build-in-moose %}).  A number
+of times, I've wanted to get behavior that was *like* `BUILD`, but without
+needing the stub method hacks that are needed to get roles to participate in
+the method call.  A very simple example came when I was [writing
+Throwable::X]({% post_url
+2010-10-19-throwable-x-common-behavior-for-thrown-exceptions %}), which had a
+mechanism for all of its contituent parts to contribute tags.  The idea was
+that any class or role that was part of your class hierarchy could implement an
+`x_tags` method that would return a list of tag strings.  These methods would
+all get called and the resulting set of tags would be uniqued and returned.
 
 The only problem was that it totally didn't work.  I tried to implement it by
 copying from `BUILDALL`, the mechanism by which `BUILD` methods are called.
@@ -24,14 +25,16 @@ these, I fault myself more for (b).)
 
 This is what `BUILDALL` looks like, boiled down:
 
-    sub BUILDALL {
-        my ($self, $params) = @_;
-        foreach my $method (
-            reverse( class_of($self)->find_all_methods_by_name('BUILD'))
-        ) {
-            $method->{code}->execute($self, $params);
-        }
-    }
+```perl
+sub BUILDALL {
+  my ($self, $params) = @_;
+  foreach my $method (
+    reverse( class_of($self)->find_all_methods_by_name('BUILD'))
+  ) {
+    $method->{code}->execute($self, $params);
+  }
+}
+```
 
 So, find the `BUILD` method in every class that has it (started with the least
 derived class) and then call it.  For tags, I also had to gather up return
@@ -51,50 +54,60 @@ interpret the results.  In other words, something like this:
 
 ### TagProvider.pm
 
-      package TagProvider;
+```perl
+package TagProvider;
 
-      use MooseX::ComposedBehavior {
-        sugar_name   => 'add_tags',
-        compositor   => sub {
-          my ($self, $results) = @_;
-          return uniq( map { @$_ } @$results );
-        },
-        method_name  => 'tags',
-      };
+use MooseX::ComposedBehavior {
+  sugar_name   => 'add_tags',
+  compositor   => sub {
+    my ($self, $results) = @_;
+    return uniq( map { @$_ } @$results );
+  },
+  method_name  => 'tags',
+};
+```
 
 ### Foo.pm
 
-      package Foo;
-      use Moose::Role;
-      use TagProvider;
+```perl
+package Foo;
+use Moose::Role;
+use TagProvider;
 
-      add_tags { qw(foo bar) };
+add_tags { qw(foo bar) };
+```
 
 ### Bar.pm
 
-      package Bar;
-      use Moose::Role;
-      use TagProvider;
+```perl
+package Bar;
+use Moose::Role;
+use TagProvider;
 
-      add_tags { qw(bar quux) };
+add_tags { qw(bar quux) };
+```
 
 ### ParentClass.pm
 
-      package ParentClass;
-      use Moose;
-      use TagProvider;
-      with qw(Foo Bar);
+```perl
+package ParentClass;
+use Moose;
+use TagProvider;
+with qw(Foo Bar);
 
-      add_tags { qw(parent) };
+add_tags { qw(parent) };
+```
 
 ### ChildClass.pm
 
-      package ChildClass;
-      use Moose;
-      extends 'ParentClass';
-      use TagProvider;
+```perl
+package ChildClass;
+use Moose;
+extends 'ParentClass';
+use TagProvider;
 
-      add_tags { qw(child) };
+add_tags { qw(child) };
+```
 
 Phew!  So, the TagProvider library is generated mostly by this
 "MooseX::ComposedBehavior" thing, which I was going to have to write.  We told
@@ -106,9 +119,11 @@ flattening them and picking the unique values.
 
 Then we get this behavior:
 
-      my $obj = ChildClass->new;
+```perl
+my $obj = ChildClass->new;
 
-      $obj->tags;  # set of: foo bar quux parent child
+$obj->tags;  # set of: foo bar quux parent child
+```
 
 This is just one use for this kind of "call everything everywhere!" behavior.
 We could, for example, have each sub-block return a deep hashref and then have
@@ -117,7 +132,7 @@ have merged our list of arrayrefs-of-tags into a hash telling us how many time
 each tag occurred.  *Further*, the sub-blocks are all passed the object on
 which `tags` was called, along with any arguments passed.  Each block could
 perform analysis on the arguments, for example, and the compositor could reduce
-the analyses to a single report.  
+the analyses to a single report.
 
 One of my other use cases is similar to that final example.  We don't want to
 use the compositor for reducing reports -- there are other facilities better

@@ -9,15 +9,17 @@ methods in my code and they never got called."  There are a lot of variations
 on this.  They tend to come from the fact that `BUILD` is not called like almost
 any other method.  Imagine the following class hierarchy:
 
-      ParentClass   <--(does)--<   Role1, Role2
-          |
-        (isa)
-          |
-      ChildClass    <--(does)--<   Role3
-          |
-        (isa)
-          |
-      GrandChild
+```
+ParentClass   <--(does)--<   Role1, Role2
+    |
+  (isa)
+    |
+ChildClass    <--(does)--<   Role3
+    |
+  (isa)
+    |
+GrandChild
+```
 
 Normally if we call a method on an object of GrandChild, we first look for that
 method in GrandChild itself.  If we find it, we call it, and we're done.  If
@@ -58,10 +60,12 @@ them *in* the role.  Here are some of the things that get interpreted as bugs:
 So, to let roles contribute their own independent behavior to `BUILD`, this has
 emerged:
 
-    package Role1;
-    use Moose::Role;
+```perl
+package Role1;
+use Moose::Role;
 
-    after BUILD => sub { ... real behavior goes here... };
+after BUILD => sub { ... real behavior goes here... };
+```
 
 So, after the `BUILD` behavior on the class is called, the role's behavior is
 called.  This is generally good enough for the kind of thing people want in a
@@ -70,11 +74,13 @@ is that maybe no class has defined a `BUILD` method, so the after advice can't
 attach to anything and you get a compile error.  To combat this, the actual
 pattern used is this:
 
-    package Role1;
-    use Moose::Role;
+```perl
+package Role1;
+use Moose::Role;
 
-    sub BUILD {}
-    after BUILD => sub { ... real behavior goes here... };
+sub BUILD {}
+after BUILD => sub { ... real behavior goes here... };
+```
 
 We create a stub BUILD and attach to that.  If the class using Role1 already
 has a BUILD, it is not replaced.  If it doesn't, we get that basic stub for the

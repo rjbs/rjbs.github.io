@@ -70,8 +70,10 @@ string, or maybe a URL.
 The ident is the only part of the exception you absolutely must provide, and
 since that's true, you can provide it as a single argument:
 
-      Some::Exception->throw($ident); # same as...
-      Some::Exception->throw({ ident => $ident });
+```perl
+Some::Exception->throw($ident); # same as...
+Some::Exception->throw({ ident => $ident });
+```
 
 The exception is tagged with a list of simple strings.  These can be provided
 as arguments to `throw`, but the list also includes tags provided by any of the
@@ -81,26 +83,30 @@ just ensure that the new roles add up to the same tags.
 
 We can define several units of behavior:
 
-    package OurException::Role::Network;
-    use Moose::Role;
-    sub x_tags { qw(network) }
+```perl
+package OurException::Role::Network;
+use Moose::Role;
+sub x_tags { qw(network) }
 
-    package OurException::ServerDown;
-    use Moose;
-    with 'OurException::Role::Common', 'OurException::Role::Network';
-    sub x_tags { qw(unavailable) }
+package OurException::ServerDown;
+use Moose;
+with 'OurException::Role::Common', 'OurException::Role::Network';
+sub x_tags { qw(unavailable) }
 
-    has service_name => (...);
+has service_name => (...);
+```
 
 ...and then easily see what's what:
 
-    OurException::ServerDown->throw({
-      ident => ...,
-      tags  => [ 'memcached' ],
-      service_name => 'cache',
-    });
+```
+OurException::ServerDown->throw({
+  ident => ...,
+  tags  => [ 'memcached' ],
+  service_name => 'cache',
+});
 
-    # the exception has tags: memcached network unavailable
+# the exception has tags: memcached network unavailable
+```
 
 Tags are easy to check with the `has_tag` method.
 
@@ -115,26 +121,30 @@ even computed or implicit attributes.
 We mark attributes that we want to be available in formats with the Payload
 trait:
 
-    package OurException::OnThisHost;
-    use Moose;
-    use Throwable::X -all;
-    with 'Throwable::X';
+```perl
+package OurException::OnThisHost;
+use Moose;
+use Throwable::X -all;
+with 'Throwable::X';
 
-    has hostname => (
-      is => 'ro',
-      default  => sub { Sys::Hostname::hostname },
-      traits   => [ Payload ],
-      init_arg => undef,
-    );
+has hostname => (
+  is => 'ro',
+  default  => sub { Sys::Hostname::hostname },
+  traits   => [ Payload ],
+  init_arg => undef,
+);
+```
 
 Then, when an exception is thrown:
 
-    OurException::OnThisHost->throw({
-      ident   => ...,
-      message => "can't connect to gopher server from %{hostname}s",
-    });
+```perl
+OurException::OnThisHost->throw({
+  ident   => ...,
+  message => "can't connect to gopher server from %{hostname}s",
+});
 
-    # $err->message will be "can't connect to gopher server from real-hostname"
+# $err->message will be "can't connect to gopher server from real-hostname"
+```
 
 ## Serializing and Presenting
 
@@ -155,12 +165,14 @@ So, how do we communiate it to the web client?  This is easy, too.  Everything
 we've done so far works nicely to make our exceptions easy to represent with a
 simple data structure:
 
-    {
-      ident       => $err->ident,
-      tags        => [ $err->tags ],
-      message_fmt => $err->message_fmt,
-      payload     => $err->payload,  # the attr values available in message_fmt
-    }
+```perl
+{
+  ident       => $err->ident,
+  tags        => [ $err->tags ],
+  message_fmt => $err->message_fmt,
+  payload     => $err->payload,  # the attr values available in message_fmt
+}
+```
 
 Since we rely on tags and ident for identification, we don't need to worry
 about indicating any sort of class hierarchy or role inclusion.  Anything that
@@ -183,7 +195,12 @@ Finally, all of these features are implemented individually as roles, so you
 can pick and choose which ones to offer in your own exceptions, in the event
 that you don't care for them all.
 
-One thing that has still not been reconstructed, which was present in Exception::Class, is an exception factory that builds all the classes desired from a structure describing the exception class hierarchy.  For now, I'm not sure I need something like that, but it should quite simple to build something like that without altering Throwable::X, and to discard it later if it is determined to be a mistake.
+One thing that has still not been reconstructed, which was present in
+Exception::Class, is an exception factory that builds all the classes desired
+from a structure describing the exception class hierarchy.  For now, I'm not
+sure I need something like that, but it should quite simple to build something
+like that without altering Throwable::X, and to discard it later if it is
+determined to be a mistake.
 
 I think it's likely that we'll find a few more common patterns worth coding up,
 but for now I think these can help to solve a lot of problems.
