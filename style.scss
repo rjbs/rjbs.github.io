@@ -285,6 +285,22 @@ footer {
   text-align: center;
 }
 
+.entry table {
+  width: 75%;
+  margin: auto;
+  border: solid $purple 1px;
+}
+
+.entry table tbody td {
+  padding: 0 1em;
+  border: solid $purple 1px;
+}
+
+.entry table thead th {
+  background-color: $purple;
+  color: $white;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
