@@ -13,7 +13,9 @@ turned up.  I'm pretty sure that I wrote the offending line.  I feel fairly
 silly about it now, since it is a pretty clear one-line red flag.  This is a
 close approximation:
 
-    $m->{_timer} = HTML::Mason::Timer->new(m => $m);
+```perl
+$m->{_timer} = HTML::Mason::Timer->new(m => $m);
+```
 
 Ha!
 
@@ -22,11 +24,13 @@ problem.  The error log kept showing "closing dbh with active statement
 handles" even though everything relevant seemed to be calling `$sth->finish`.
 Finally, this helped:
 
-    sub DESTROY {
-      my ($self) = @_;
-      $_->finish for $self->{dbh}->ChildHandles; # This had to be added.
-      $self->{dbh}->disconnect;
-    }
+```perl
+sub DESTROY {
+  my ($self) = @_;
+  $_->finish for $self->{dbh}->ChildHandles; # This had to be added.
+  $self->{dbh}->disconnect;
+}
+```
 
 Yow!  I wonder whether there are a huge pile of people being affected by this.
 Maybe not, since using SQLite for sessions required a bit of a hack.

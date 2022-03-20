@@ -26,20 +26,24 @@ with a comma, or that you named a method after a builtin.
 
 Here's tonights example, which drove me to rant about this:
 
-    sub prepare_report {
-      my ($self, $file) = @_;
-      $self->analyze($file)->report;
-    }
+```perl
+sub prepare_report {
+  my ($self, $file) = @_;
+  $self->analyze($file)->report;
+}
+```
 
 Oh no!  There's no explicit return statement!  We better fix that or
 Perl::Critic will complain!
 
-    sub prepare_report {
-      my ($self, $file) = @_;
-      $self->analyze($file)->report;
-      
-      return;
-    }
+```
+sub prepare_report {
+  my ($self, $file) = @_;
+  $self->analyze($file)->report;
+
+  return;
+}
+```
 
 Ugh!
 

@@ -10,42 +10,46 @@ discussions with its author, Johan Lodin.  Several of these deal with warning
 handling, which has led me to produce this little routine.  I'm finding that I
 really like it:
 
-    my $eow_re;
-    BEGIN { $eow_re = qr/ at .+? line \d+\.\Z/ };
+```perl
+my $eow_re;
+BEGIN { $eow_re = qr/ at .+? line \d+\.\Z/ };
 
-    sub _do_with_warn {
-      my ($patterns) = @_;
-      sub {
-        my ($code) = @_;
+sub _do_with_warn {
+  my ($patterns) = @_;
+  sub {
+    my ($code) = @_;
 
-        my $old_warn_sig = $SIG{__WARN__};
-        local $SIG{__WARN__} = sub {
-          my ($error) = @_;
-          for (@{ $patterns->{suppress} }) {
-              return if $error =~ $_;
-          }
-          for (@{ $patterns->{croak} }) {
-            if (my ($base_error) = $error =~ /\A($_) $eow_re/x) {
-              Carp::croak $base_error;
-            }
-          }
-          for (@{ $patterns->{carp} }) {
-            if (my ($base_error) = $error =~ /\A($_) $eow_re/x) {
-              $error = Carp::shortmess $base_error;
-              last;
-            }
-          }
-          $old_warn_sig ? $old_warn_sig->($error) : (warn $error)
-        };
-        $code->();
-      };
-    }
+    my $old_warn_sig = $SIG{__WARN__};
+    local $SIG{__WARN__} = sub {
+      my ($error) = @_;
+      for (@{ $patterns->{suppress} }) {
+          return if $error =~ $_;
+      }
+      for (@{ $patterns->{croak} }) {
+        if (my ($base_error) = $error =~ /\A($_) $eow_re/x) {
+          Carp::croak $base_error;
+        }
+      }
+      for (@{ $patterns->{carp} }) {
+        if (my ($base_error) = $error =~ /\A($_) $eow_re/x) {
+          $error = Carp::shortmess $base_error;
+          last;
+        }
+      }
+      $old_warn_sig ? $old_warn_sig->($error) : (warn $error)
+    };
+    $code->();
+  };
+}
+```
 
 I'm probably going to add something like this, later:
 
-    for my $re (keys %{ $patterns->{custom} }) {
-      return $patterns->{custom}{$re}->($error) if $error =~ $re;
-    }
+```perl
+for my $re (keys %{ $patterns->{custom} }) {
+  return $patterns->{custom}{$re}->($error) if $error =~ $re;
+}
+```
 
 I also spent a little time trying to deal with CarpLevel, but I found that when
 I set it, it caused carp to act more like cluck, and when I skipped it, the
@@ -56,14 +60,16 @@ I knew, when releasing Sub::Install, that it omitted one feature of
 Sub::Installer.  Sub::Installer can, given a destination and a string, evaluate
 the string as a sub definition for the destination.  In other words:
 
-    Target->install_sub(foo => "return scalar localtime");
+```
+Target->install_sub(foo => "return scalar localtime");
 
-    # is equivalent to:
-    
-    eval q{
-      package Target;
-      sub foo { return scalar localtime }
-    };
+# is equivalent to:
+
+eval q{
+  package Target;
+  sub foo { return scalar localtime }
+};
+```
 
 The advantage over supplying a coderef is that some things are, much to my
 chagrin, determined based on code compilation location rather than code
@@ -99,20 +105,21 @@ open-ended customization system.  I'm happy with sticking to callbacks, but I
 want to provide a nice generator for installers, so that a finicky user can
 say something like:
 
-      # Install by passing to self-redefining methods?
-      *install_sub = Sub::Instal::generate_installer({
-        inst => sub {
-          my ($pkg, $name, $code) = @_;
-          $pkg->$name($code);
-        },
-        inst_wrapper => Sub::Install::warning_handler({
-          carp    => [ $redef_warning ],
-          default => 'croak',
-        }),
-        return => 'inst_return',
-      });
+```perl
+# Install by passing to self-redefining methods?
+*install_sub = Sub::Instal::generate_installer({
+  inst => sub {
+    my ($pkg, $name, $code) = @_;
+    $pkg->$name($code);
+  },
+  inst_wrapper => Sub::Install::warning_handler({
+    carp    => [ $redef_warning ],
+    default => 'croak',
+  }),
+  return => 'inst_return',
+});
+```
 
 The above sucks in the specifics, but hopefully the actually implemented and
 published version will be tolerable and extensible.  Maybe I'll get to work on
 that, instead of just mumbling about it here...
-

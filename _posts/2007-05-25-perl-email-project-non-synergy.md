@@ -13,16 +13,22 @@ because it was written before ::FromHandle.  Here's the bizarre thing, though:
 
 Email::LocalDelivery accepts only a string to deliver.  In fact:
 
-    croak "Mail argument to deliver should just be a plain string"
-      if ref $mail;
+```perl
+croak "Mail argument to deliver should just be a plain string"
+  if ref $mail;
+```
 
 It calls the deliver method on the various Email::LocalDelivery::* classes,
 like ::Maildir, which says:
 
-    sub deliver {
-      my ($class, $mail, @files) = @_;
-      $mail = Email::Simple->new($mail)
-        unless ref $mail eq "Email::Simple"; # For when we recurse
+```perl
+sub deliver {
+  my ($class, $mail, @files) = @_;
+  $mail = Email::Simple->new($mail)
+    unless ref $mail eq "Email::Simple"; # For when we recurse
+  ...
+}
+```
 
 Unfortunately, ::Mbox does nothing of the sort, only writing a string to a file
 with no provision for receiving an Email::Simple object, so the exception in

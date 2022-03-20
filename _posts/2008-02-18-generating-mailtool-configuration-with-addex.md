@@ -22,10 +22,9 @@ little before, but never anything comprehensive.  I realized that I really had
 to write up an explanation after the nth conversation with a Close Personal
 Friend that went like this:
 
-    <rjbs> I'm so happy with Addex.  It's one of the most useful things I've
-    written.
-
-    <friend> What's Addex?
+> rjbs: I'm so happy with Addex.  It's one of the most useful things I've written.
+>
+> friend: What's Addex?
 
 Addex is a tool that turns address book information into mailtool
 configuration.  It's a very simple program, most geared toward making it easy
@@ -48,19 +47,21 @@ about addex itself.
 
 My `.addex` file looks more or less like this:
 
-    addressbook = App::Addex::AddressBook::Apple
-    output = App::Addex::Output::Mutt
-    output = App::Addex::Output::SpamAssassin
-    output = AddexYAML
+```ini
+addressbook = App::Addex::AddressBook::Apple
+output = App::Addex::Output::Mutt
+output = App::Addex::Output::SpamAssassin
+output = AddexYAML
 
-    [App::Addex::Output::Mutt]
-    filename = mutt/alias-abook
+[App::Addex::Output::Mutt]
+filename = mutt/alias-abook
 
-    [AddexYAML]
-    filename = abook.yaml
+[AddexYAML]
+filename = abook.yaml
 
-    [App::Addex::Output::SpamAssassin]
-    filename = spamassassin/whitelists-abook
+[App::Addex::Output::SpamAssassin]
+filename = spamassassin/whitelists-abook
+```
 
 When I run `addex`, the requested classes are loaded and initialized with the
 supplied configuration, then addex gets to work.
@@ -69,14 +70,16 @@ Output plugins are really easy to write, especially if they do the usual thing
 and write some text to a file for each entry.  For example, here's the entire
 code of the SpamAssassin plugin:
 
-    package App::Addex::Output::SpamAssassin;
-    use base 'App::Addex::Output::ToFile';
+```perl
+package App::Addex::Output::SpamAssassin;
+use base 'App::Addex::Output::ToFile';
 
-    sub process_entry {
-      my ($self, $addex, $entry) = @_;
+sub process_entry {
+  my ($self, $addex, $entry) = @_;
 
-      $self->output("whitelist_from $_") for grep { $_->sends } $entry->emails;
-    }
+  $self->output("whitelist_from $_") for grep { $_->sends } $entry->emails;
+}
+```
 
 ...and that's it.  The base class takes care of dealing with file IO.  Of
 course, it would be easy to write a more complex plugin.  I keep thinking I
