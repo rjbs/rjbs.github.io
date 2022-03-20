@@ -41,12 +41,12 @@ see that I can solve it in under five minutes and just go do so.
 When I'm done with this, my browser is empty and I can reload my dashboard: now
 I have a list of tickets to work on.
 
-<img src='/img/journal/bookmarked-tickets.jpg' />
+![bookmarked tickets](/assets/2011/06/bookmarked-tickets.jpg)
 
 I want to see how I do each day, so I put another box under that: tickets I've
 closed today.
 
-<img src='/img/journal/closed-today.jpg' />
+![tickets closed today](/assets/2011/06/closed-today.jpg)
 
 This was easy to set up, too.  In the [Query
 Builder](https://rt.cpan.org/Search/Build.html), I made a query with the

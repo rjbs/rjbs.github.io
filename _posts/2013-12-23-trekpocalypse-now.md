@@ -63,7 +63,7 @@ stood between London and the War Sanctum.
 
 # Trekpocalypse!
 
-<center><img src='/img/trekpocalypse/riker.jpg' /></center>
+![Panic Riker!](/assets/2013/12/riker.jpg)
 
 The game was set aboard Enterprise (NCC-1701-D) several generations after [a
 catastrophic space
@@ -85,7 +85,7 @@ about even more ridiculous backstory.
 Eventually, I forced myself to stop thinking of new ideas, since I already had
 way too many, and get to work on some rules.
 
-<center><a href='https://dl.dropboxusercontent.com/u/88746/Trekpocalypse.pdf'><img src='/img/trekpocalypse/charsheet.png' /></a></center>
+[![Trekpocalypse Character Sheet](/assets/2013/12/charsheet.png)](https://dl.dropboxusercontent.com/u/88746/Trekpocalypse.pdf)
 
 I started with [the Moldvay
 rules](http://www.dndclassics.com/product/110274/D%26D-Basic-Set-Rulebook-%28B-X-ed%29-%28Basic%29),
