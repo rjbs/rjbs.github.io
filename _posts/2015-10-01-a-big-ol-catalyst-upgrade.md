@@ -57,7 +57,9 @@ logging system to our internal subclass of
 [Log::Dispatchouli::Global](https://metacpan.org/pod/Log::Dispatchouli::Global),
 and that was replaced by roughly one line:
 
-    Pobox::Web->log( Pobox::Web::Logger->new );
+```perl
+Pobox::Web->log( Pobox::Web::Logger->new );
+```
 
 So, we killed off a grody plugin and replaced it with a tiny wrapper object.
 Win!
@@ -66,10 +68,12 @@ I also had to make this change to our configuration, which seemed a bit
 gratuitous, but the error message was so helpful that I couldn't be too
 bothered:
 
-    -view: 'View::Mason'
-    -default_view: 'View::Mason'
-    +view: 'Mason'
-    +default_view: 'Mason'
+```diff
+- view: 'View::Mason'
+- default_view: 'View::Mason'
++ view: 'Mason'
++ default_view: 'Mason'
+```
 
 Encoding issues ended up being mostly the same.  We dropped the Unicode plugin
 and then killed off one or two places where we were fiddling with encodings in
@@ -82,14 +86,18 @@ The missing actions were a bigger concern.  What happened?!
 
 Well, it turned out that we had a bunch of actions like this:
 
-    sub index : Chained('whatever') Args(0) { ... }
+```perl
+sub index : Chained('whatever') Args(0) { ... }
+```
 
 These were meant to handle `/whatever`, and worked just fine, because in our
 ancient Catalyst, the `index` subroutine was still handled specially.  In the
 new version, it was just like anything else, so it started handling
 `/whatever/index`.  The fix was simple:
 
-    sub index : Chained('whatever') Args(0) PathPart('') { ... }
+```perl
+sub index : Chained('whatever') Args(0) PathPart('') { ... }
+```
 
 Deployment issues were minor.  We were using the old Catalyst::Helper scripts,
 which I always hated, and still do.  Back in the day, and in fact before
@@ -123,4 +131,3 @@ All told, I spent about three work days doing the upgrade and then one doing
 the deploy and dealing with little bugs that we hadn't detected in testing.  It
 was time well spent, and now we just have one last non-Plack service to
 convert… from HTML::Mason.
-

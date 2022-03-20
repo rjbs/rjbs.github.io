@@ -12,24 +12,26 @@ to see whether it does a good job at loading everything pre-fork."  I realized
 that it might be a place to quickly get a lot of benefit, assuming I could
 figure out what was getting loaded post-fork.  So I wrote this:
 
-    use strict;
-    use warnings;
-    package PostForkINC;
+```perl
+use strict;
+use warnings;
+package PostForkINC;
 
-    sub import {
-      my ($self, $code) = @_;
+sub import {
+  my ($self, $code) = @_;
 
-      my $pid = $$;
+  my $pid = $$;
 
-      my $callback = sub {
-        return if $pid == $$;
-        my (undef, $filename) = @_;
-        $code->($filename);
-        return;
-      };
+  my $callback = sub {
+    return if $pid == $$;
+    my (undef, $filename) = @_;
+    $code->($filename);
+    return;
+  };
 
-      unshift @INC, $callback;
-    };
+  unshift @INC, $callback;
+};
+```
 
 When loaded, PostForkINC puts a callback at the head of `@INC` so that any
 subsequent attempt to load a module hits the callback.  As long as the process
