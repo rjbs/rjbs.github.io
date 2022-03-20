@@ -8,20 +8,35 @@ tags  : ["rubric"]
 
 ## THE MAIN DATA
 
-This is a paragraph.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in pede. Vestibulum lectus. Curabitur pharetra nunc sit amet purus. Duis quis eros. Aenean ut nisi eu turpis viverra scelerisque. *Vivamus* sodales tellus ac nulla. Suspendisse tortor. Proin nec justo. Sed eleifend velit. Praesent iaculis. In vel **quam** accumsan felis malesuada vehicula. Morbi ut nibh in purus euismod sagittis. Maecenas quis orci sit amet arcu auctor pharetra. In auctor porta eros. Aenean nonummy.
+This is a paragraph.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Praesent in pede. Vestibulum lectus. Curabitur pharetra nunc sit amet purus.
+Duis quis eros. Aenean ut nisi eu turpis viverra scelerisque. *Vivamus* sodales
+tellus ac nulla. Suspendisse tortor. Proin nec justo. Sed eleifend velit.
+Praesent iaculis. In vel **quam** accumsan felis malesuada vehicula. Morbi ut
+nibh in purus euismod sagittis. Maecenas quis orci sit amet arcu auctor
+pharetra. In auctor porta eros. Aenean nonummy.
 
-Isn't that fascinating?  I'd **really** like to talk about this more, so let me quote myself:
+Isn't that fascinating?  I'd **really** like to talk about this more, so let me
+quote myself:
 
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in pede. Vestibulum lectus. Curabitur pharetra nunc sit amet purus. Duis quis eros. Aenean ut nisi eu turpis viverra scelerisque. *Vivamus* sodales tellus ac nulla. Suspendisse tortor. Proin nec justo. Sed eleifend velit. Praesent iaculis. In vel **quam** accumsan felis malesuada vehicula. Morbi ut nibh in purus euismod sagittis. Maecenas quis orci sit amet arcu auctor pharetra. In auctor porta eros. Aenean nonummy.
+> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in pede.
+> Vestibulum lectus. Curabitur pharetra nunc sit amet purus. Duis quis eros.
+> Aenean ut nisi eu turpis viverra scelerisque. *Vivamus* sodales tellus ac
+> nulla. Suspendisse tortor. Proin nec justo. Sed eleifend velit. Praesent
+> iaculis. In vel **quam** accumsan felis malesuada vehicula. Morbi ut nibh in
+> purus euismod sagittis. Maecenas quis orci sit amet arcu auctor pharetra. In
+> auctor porta eros. Aenean nonummy.
 
 
 ## EXTRA CRAP
 
 You can do all this and more with a little code...
 
-    sub code :simply {
-      my ($self) = @@__@@;
-    }
+```perl
+sub code :simply {
+  my ($self) = @@__@@;
+}
+```
 
 ### reasons this is awesome
 

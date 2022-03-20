@@ -15,11 +15,13 @@ of its foibles.  Here is another one that makes me wonder...
 passed in, along with each name/value pair for the headers.  `_add_to_header`
 appends a line to the string.
 
-    sub _add_to_header {
-        my ($class, $header, $key, $value) = @_;
-        return unless $value;
-        ${$header} .= join(": ", $key, $value) . $CRLF;
-    }
+```perl
+sub _add_to_header {
+  my ($class, $header, $key, $value) = @_;
+  return unless $value;
+  ${$header} .= join(": ", $key, $value) . $CRLF;
+}
+```
 
 That `return unless $value` is nuts!  It means that you can't create a message
 with "0" or "" as a header value.  This is clearly a bug.
@@ -30,10 +32,12 @@ either the given (false) value or a generated value.
 
 The code below creates a message with one header, Subject:
 
-    my $email = Email::Simple->create(
-      header => [ Date => undef, Subject => 'foo' ],
-      body   => "Hello sailor.",
-    );
+```perl
+my $email = Email::Simple->create(
+  header => [ Date => undef, Subject => 'foo' ],
+  body   => "Hello sailor.",
+);
+```
 
 If the bug is fixed in the way that seem obvious to me -- use '' for empty and
 undefined headers and 0 for literal zero headers -- then people using

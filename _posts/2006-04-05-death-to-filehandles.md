@@ -11,19 +11,23 @@ use.  Maybe I should, but I don't.
 
 The one routine that I do often use from it is one that I donated: `_CALLABLE`:
 
-    sub _CALLABLE {
-      (Scalar::Util::reftype($_[0])||'') eq 'CODE'
-      or
-      Scalar::Util::blessed($_[0]) and overload::Method($_[0],'&{}')
+```perl
+sub _CALLABLE {
+  (Scalar::Util::reftype($_[0])||'') eq 'CODE'
+  or
+  Scalar::Util::blessed($_[0]) and overload::Method($_[0],'&{}')
 
-      ? $_[0]
-      : undef;
-    }
+  ? $_[0]
+  : undef;
+}
+```
 
 I've reformatted it for slightly better readability.  Basically, it tells you
 whether this will work:
 
-    $value->();
+```
+$value->();
+```
 
 It's nice to be able to pass a bit of code into another bit of code.  If you've
 never done it, give it a try.  It's also nice that you can pass in things that
@@ -34,11 +38,13 @@ question.
 If someone is checking whether you've passed in `$data` that is actually
 callable, you might see one of these:
 
-    if (ref $data eq 'CODE') { act_on $data->() }
+```perl
+if (ref $data eq 'CODE') { act_on $data->() }
 
-    if (UNIVERSAL::isa($data, 'CODE')) { act_on $data->() }
+if (UNIVERSAL::isa($data, 'CODE')) { act_on $data->() }
 
-    if (my $result = eval { $data->() }) { act_on $result }
+if (my $result = eval { $data->() }) { act_on $result }
+```
 
 These all suck.
 
@@ -72,7 +78,9 @@ even if it was usually to throw an exception.  It would mean that they could
 all answer to `isa` and can as methods, which could let us replace that second
 choice, above, with:
 
-    if ($data->isa('CODE')) { act_on $data->() }
+```perl
+if ($data->isa('CODE')) { act_on $data->() }
+```
 
 This would be a little weird, but it would be entirely acceptable.  Perl
 doesn't have a big history of duck typing, so we can forgive that we're not
@@ -80,7 +88,9 @@ checking, I don't know... `can('&{}')` or something wretched like that.
 
 The last remaining option was
 
-    if (my $result = eval { $data->() }) { act_on $result }
+```
+if (my $result = eval { $data->() }) { act_on $result }
+```
 
 This sucks the most.  It work as long as `$data` is callable and returns
 something true.  (It could be tweaked to work as long as it's callable, but
@@ -123,7 +133,9 @@ Eventually, the IO::String was passed to Mail::Internet, which will accept a
 filehandle of data to turn into a piece of mail.  It checks whether that's what
 it's gotten like this:
 
-    if (defined fileno($data)) { ... }
+```
+if (defined fileno($data)) { ... }
+```
 
 `fileno` throws an exception if the value passed to it can't be coerced into a
 glob reference.  That means that if you built an object on top of a non-glob
@@ -147,16 +159,18 @@ rely on FileHandle...
 I think, in the end, this problem is less solvable than the coderef one.
 Writing _ITERABLE is pretty simple:
 
-    sub _ITERABLE {
-      (Scalar::Util::reftype($_[0])||'') eq 'GLOB'
-      or
-      Scalar::Util::blessed($_[0])
-        and
-        (overload::Method($_[0],'*{}') or overload::Method($_[0],'<>'))
+```
+sub _ITERABLE {
+  (Scalar::Util::reftype($_[0])||'') eq 'GLOB'
+  or
+  Scalar::Util::blessed($_[0])
+    and
+    (overload::Method($_[0],'*{}') or overload::Method($_[0],'<>'))
 
-      ? $_[0]
-      : undef;
-    }
+  ? $_[0]
+  : undef;
+}
+```
 
 This mostly gets the job done, although it assumes that any glob can be
 meaningfully iterated, which isn't really true.  The bigger problem, for me, is
@@ -172,4 +186,3 @@ In my own code, I know how I will avoid this problem: I won't accept
 filehandles.  They are dead to me.  Instead, I will accept coderefs which
 stream the data.  After all, I already know how to tell whether something is
 callable.
-

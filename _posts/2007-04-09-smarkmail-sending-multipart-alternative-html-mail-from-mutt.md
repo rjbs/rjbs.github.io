@@ -28,45 +28,48 @@ Content-Type and MIME-Version headers.  I got around that by writing my own
 It's not quite ready for use yet; I need to decide on a way to indicate that
 the message is ready to send, and I need to test it with a few quoting styles.
 I'd also like to make it use the desperately-in-need-of-dev-release
-Email::Sender rather than Email::Send.  I'd love to make [Addex](http://search.cpan.org/dist/App-Addex) help decide who gets HTML mail.  Still, it basically works.
+Email::Sender rather than Email::Send.  I'd love to make
+[Addex](http://search.cpan.org/dist/App-Addex) help decide who gets HTML mail.
+Still, it basically works.
 
-    use strict;
-    use warnings;
+```perl
+use strict;
+use warnings;
 
-    use Email::MIME;
-    use Email::MIME::Creator;
-    use Email::Send ();
-    use Text::Markdown ();
+use Email::MIME;
+use Email::MIME::Creator;
+use Email::Send ();
+use Text::Markdown ();
 
-    sub markdown_email {
-      my ($email) = @_;
+sub markdown_email {
+  my ($email) = @_;
 
-      my $body_text = $email->body;
+  my $body_text = $email->body;
 
-      my $html = Text::Markdown::markdown($body_text, { tab_width => 2 });
+  my $html = Text::Markdown::markdown($body_text, { tab_width => 2 });
 
-      my $html_part = Email::MIME->create(
-        attributes => { content_type => 'text/html', },
-        body       => $html,
-      );
+  my $html_part = Email::MIME->create(
+    attributes => { content_type => 'text/html', },
+    body       => $html,
+  );
 
-      my $text_part = Email::MIME->create(
-        attributes => { content_type => 'text/plain', },
-        body       => $body_text,
-      );
+  my $text_part = Email::MIME->create(
+    attributes => { content_type => 'text/plain', },
+    body       => $body_text,
+  );
 
-      $email->content_type_set('multipart/alternative');
-      $email->parts_set([ $html_part, $text_part ]);
-    }
+  $email->content_type_set('multipart/alternative');
+  $email->parts_set([ $html_part, $text_part ]);
+}
 
-    my $text = do { local $/; <STDIN> };
+my $text = do { local $/; <STDIN> };
 
-    my $email = Email::MIME->new(\$text);
+my $email = Email::MIME->new(\$text);
 
-    markdown_email($email);
+markdown_email($email);
 
-    my $rv = Email::Send->new({ mailer => 'SMTP' })->send($email);
-    die "$rv" unless $rv;
+my $rv = Email::Send->new({ mailer => 'SMTP' })->send($email);
+die "$rv" unless $rv;
+```
 
 I'll make noise again when it's done-er.
-

@@ -15,37 +15,41 @@ Number::Nary does n-ary encoding of numbers into different digit sets.  I've
 written before about its work-related uses, but I also have a silly
 play-related use that is now officially supported.
 
-    #!/usr/bin/perl -l
-    # jaencode - encode a number in Japanese syllables
+```perl
+#!/usr/bin/perl -l
+# jaencode - encode a number in Japanese syllables
 
-    use strict;
-    use warnings;
+use strict;
+use warnings;
 
-    # missing: a i u e o n chi tsu shi (non-uniform length)
-    use Number::Nary -codec_pair => {
-      digits => [ qw(
-        ka ki ku ke ko ta te to sa su se so na ni nu ne no ha
-        hi fu he ho ma mi mu me mo ya yu yo ra ri ru re ro wa wo 
-      ), ]
-    };
+# missing: a i u e o n chi tsu shi (non-uniform length)
+use Number::Nary -codec_pair => {
+  digits => [ qw(
+    ka ki ku ke ko ta te to sa su se so na ni nu ne no ha
+    hi fu he ho ma mi mu me mo ya yu yo ra ri ru re ro wa wo 
+  ), ]
+};
 
-    sub xlate { $_[0] =~ /[a-z]/ ? decode($_[0]) : encode($_[0]) }
+sub xlate { $_[0] =~ /[a-z]/ ? decode($_[0]) : encode($_[0]) }
 
-       if (@ARGV == 0) { die "usage: jaencode <string ...>\n"  }
-    elsif (@ARGV == 1) { print xlate($ARGV[0]);                }
-    else               { print $_ . ": " . xlate($_) for @ARGV }
+   if (@ARGV == 0) { die "usage: jaencode <string ...>\n"  }
+elsif (@ARGV == 1) { print xlate($ARGV[0]);                }
+else               { print $_ . ": " . xlate($_) for @ARGV }
+```
 
 Then:
 
-    knave!rjbs$ jaencode 867 530 999
-    867: mino
-    530: nuna
-    999: yaka
+```
+knave!rjbs$ jaencode 867 530 999
+867: mino
+530: nuna
+999: yaka
 
-    knave!rjbs$ jaencode mino nuna yaka
-    mino: 867
-    nuna: 530
-    yaka: 999
+knave!rjbs$ jaencode mino nuna yaka
+mino: 867
+nuna: 530
+yaka: 999
+```
 
 I feel like there are probably other fun or useful things to do with this
 (where "this" is either Number::Nary or jaencode), but I don't know what, yet.
