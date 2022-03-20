@@ -66,13 +66,13 @@ Let's start with the character set.  The Z-Machine character set is not one
 character set, but a per-program set.  The basic mapping looks something like
 this:
 
-| 000 - 01F | unassigned, save for (␀, ␡, ␉, ␤, and "sentence space") |
-| 020 - 07E | same as ASCII                                           |
-| 07F - 080 | unassigned                                              |
-| 081 - 09A | control characters                                      |
-| 09B - 0FB | extra characters                                        |
-| 0FC - 0FE | control characters                                      |
-| 0FF - 3FF | unassigned                                              |
+| 000-01F | unassigned, save for (␀, ␡, ␉, ␤, and "sentence space") |
+| 020-07E | same as ASCII                                           |
+| 07F-080 | unassigned                                              |
+| 081-09A | control characters                                      |
+| 09B-0FB | extra characters                                        |
+| 0FC-0FE | control characters                                      |
+| 0FF-3FF | unassigned                                              |
 
 There are a few things of note:  first, the overlap with ASCII is great if
 you're American:
@@ -143,29 +143,28 @@ We start by looking up Z-characters in this table:
 ```
 0                               1
 0 1 2 3 4 5 6 7 8 9 A B C D E F 0 1 2 3 4 5 6 7 8 9 A B C D E F
-␠       ␏ ␏ a b c d e f g h i j k l m n o p q r s t u v w x y z
+␠       ↑ ↑ a b c d e f g h i j k l m n o p q r s t u v w x y z
 ```
 
 In all cases, the value at the bottom is a ZSCII character, so you can
 represent a space (␠) with ZSCII character 0x020, and encode that to the
 Z-character 0x00.  So, where's everything else?  It's got to be in that range
-from 0x00 to 0x1F, somehow!  The answer lies with those funny little "shift in"
-glyphs under 0x04 and 0x05.  The table above was incomplete.  It is only the
-first of the three "alphabets" of available Z-characters.  The full table would
-look like this:
+from 0x00 to 0x1F, somehow!  The answer lies with those "up arrows" under 0x04
+and 0x05.  The table above was incomplete.  It is only the first of the three
+"alphabets" of available Z-characters.  The full table would look like this:
 
 ```
     0                               1
     0 1 2 3 4 5 6 7 8 9 A B C D E F 0 1 2 3 4 5 6 7 8 9 A B C D E F
-A0  ␠       ␏ ␏ a b c d e f g h i j k l m n o p q r s t u v w x y z
-A1  ␠       ␏ ␏ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-A2  ␠       ␏ ␏ … ␤ 0 1 2 3 4 5 6 7 8 9 . , ! ? _ # ' " / \ - : ( )
+A0  ␠       ↑ ↑ a b c d e f g h i j k l m n o p q r s t u v w x y z
+A1  ␠       ↑ ↑ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+A2  ␠       ↑ ↑ … ␤ 0 1 2 3 4 5 6 7 8 9 . , ! ? _ # ' " / \ - : ( )
 ```
 
 Strings always begin in alphabet 0.  Z-characters 0x04 and 0x05 mark the next
 character as being in alphabet 1 or alphabet 2, respectively.  After that
-character, the shift is over, so there's no shift character to get to alphabet
-0.  You won't need it.
+character, the shift is over, so there's no shift character to get to
+alphabet 0.  You won't need it.
 
 So, this gets us all the ZSCII/ASCII intersection characters… almost.  The
 percent sign, for example, is missing.  Beyond that, there's no sign of the
@@ -216,11 +215,13 @@ bit for later.  That means we can fit "!«" into two words like so:
 
 …so…
 
+<center>
 <div class='code'>
     <span style='color:#0A0'>0</span><span style='color:red'>001 01</span><span style='color:blue'>01   110</span><span style='color:red'>0 0101</span>
     <br />
     <span style='color:#0A0'>1</span><span style='color:blue'>001 10</span><span style='color:red'>00   101</span><span style='color:blue'>0 0011</span>
 </div>
+</center>
 
 Red and blue runs are the bits of our Z-characters.  You can see that each word
 is three complete Z-characters.  The green bits are the per-word high bits.
@@ -234,7 +235,7 @@ Okay!  Now we can take a string of text, represent it as ZSCII characters,
 convert those to Z-characters, and then pack the whole thing into pairs of
 octets.  Are we done?
 
-Not quite.    There are just two things I think are still worth mentioning.
+Not quite.  There are just two things I think are still worth mentioning.
 
 The first is that the three alphabet tables that I named above are *not
 constant*.  Just like the Unicode translation table, they can be overridden on
