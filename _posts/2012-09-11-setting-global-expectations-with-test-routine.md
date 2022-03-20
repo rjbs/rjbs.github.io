@@ -59,12 +59,14 @@ and one of the most commonly-used Test::Routine roles in the system is
 LedgerTester.  It provides useful behavior for testing all kinds of
 ledger-related stuff.  I added this method:
 
-      sub assert_n_deliveries {
-        my ($self, $n) = @_;
-        my @deliveries = $self->get_and_clear_deliveries;
-        is(@deliveries, $n);
-        return @deliveries
-      }
+```perl
+sub assert_n_deliveries {
+  my ($self, $n) = @_;
+  my @deliveries = $self->get_and_clear_deliveries;
+  is(@deliveries, $n);
+  return @deliveries
+}
+```
 
 Then, in any test where I wanted to say "by this point in the test I expect to
 see 1 message," I'd just call that method.  I went through the code with the
@@ -78,48 +80,54 @@ the place.
 
 So, back to LedgerTester!  Among other things, it does something like this:
 
-      around run_test => sub {
-        my ($orig, $self, @rest) = @_;
+```perl
+around run_test => sub {
+  my ($orig, $self, @rest) = @_;
 
-        local $ENV{MOONPIG_STORAGE_ROOT} = $self->tempdir;
-        $self->$orig(@rest);
+  local $ENV{MOONPIG_STORAGE_ROOT} = $self->tempdir;
+  $self->$orig(@rest);
 
-        Moonpig->env->clear_storage;
-      };
+  Moonpig->env->clear_storage;
+};
+```
 
 This means that every individual test in any LedgerTester routine will get its
 own temporary storage space for the persistence layer.  Incidentally, if you
 can't tell why that storage space would be different between runs, it's because
 LedgerTester composes another Test::Routine role, HasTempdir:
 
-      has tempdir => (
-        is   => 'ro',
-        isa  => 'Str',
-        lazy => 1,
-        default => sub { tempdir(CLEANUP => 1 ) },
-        clearer => 'clear_tempdir',
-      );
+```perl
+has tempdir => (
+  is   => 'ro',
+  isa  => 'Str',
+  lazy => 1,
+  default => sub { tempdir(CLEANUP => 1 ) },
+  clearer => 'clear_tempdir',
+);
 
-      before run_test => sub { $_[0]->clear_tempdir };
+before run_test => sub { $_[0]->clear_tempdir };
+```
 
 Thanks, roles!
 
 Anyway, all I did was update that `run_test` advice:
 
-      around run_test => sub {
-        my ($orig, $self, @rest) = @_;
+```perl
+around run_test => sub {
+  my ($orig, $self, @rest) = @_;
 
-        local $ENV{MOONPIG_STORAGE_ROOT} = $self->tempdir;
-        $self->$orig(@rest);
+  local $ENV{MOONPIG_STORAGE_ROOT} = $self->tempdir;
+  $self->$orig(@rest);
 
-        my @deliveries = $self->assert_n_deliveries(0, "no unexpected mail");
-        for (map {; $_->{email} } @deliveries) {
-          diag "-- Date: " . $_->header('Date');
-          diag "   Subj: " . $_->header('Subject');
-        }
+  my @deliveries = $self->assert_n_deliveries(0, "no unexpected mail");
+  for (map {; $_->{email} } @deliveries) {
+    diag "-- Date: " . $_->header('Date');
+    diag "   Subj: " . $_->header('Subject');
+  }
 
-        Moonpig->env->clear_storage;
-      };
+  Moonpig->env->clear_storage;
+};
+```
 
 Now every time a test method ran, if its assertions didn't add up to the total
 mail count, there would be a failing test telling me how many unexpected

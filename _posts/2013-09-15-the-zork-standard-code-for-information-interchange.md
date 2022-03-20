@@ -66,26 +66,24 @@ Let's start with the character set.  The Z-Machine character set is not one
 character set, but a per-program set.  The basic mapping looks something like
 this:
 
-    +-----------+---------------------------------------------------------+
-    | 000 - 01F | unassigned, save for (␀, ␡, ␉, ␤, and "sentence space") |
-    | 020 - 07E | same as ASCII                                           |
-    | 07F - 080 | unassigned                                              |
-    | 081 - 09A | control characters                                      |
-    | 09B - 0FB | extra characters                                        |
-    | 0FC - 0FE | control characters                                      |
-    | 0FF - 3FF | unassigned                                              |
-    +-----------+---------------------------------------------------------+
+| 000 - 01F | unassigned, save for (␀, ␡, ␉, ␤, and "sentence space") |
+| 020 - 07E | same as ASCII                                           |
+| 07F - 080 | unassigned                                              |
+| 081 - 09A | control characters                                      |
+| 09B - 0FB | extra characters                                        |
+| 0FC - 0FE | control characters                                      |
+| 0FF - 3FF | unassigned                                              |
 
 There are a few things of note:  first, the overlap with ASCII is great if
 you're American:
 
-    20-2F: ␠ ! " # $ % & ' ( ) * + , - . /
-    20-39: 0 1 2 3 4 5 6 7 8 9
-    3A-40: : ; < = > ? @
-    41-5A: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-    5B-60: [ \ ] ^ _ `
-    61-7A: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    7B-7E: { | } ~
+| 20-2F |  ␠ ! " # $ % & ' ( ) * + , - . /                      |
+| 20-39 |  0 1 2 3 4 5 6 7 8 9                                  |
+| 3A-40 |  : ; < = > ? @                                        |
+| 41-5A |  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  |
+| 5B-60 |  [ \ ] ^ _ `                                          |
+| 61-7A |  a b c d e f g h i j k l m n o p q r s t u v w x y z  |
+| 7B-7E |  { \| } ~                                             |
 
 The next thing to note is the "extra characters," which is where you'll be
 headed if you're *not* just speaking English.  Those 96 code points can be
@@ -114,9 +112,8 @@ Here's a string of text: `Queensrÿche`
 
 Assuming the default Unicode translation table, here are the codepoints:
 
-    Unicode: 51 75 65 65 6E 73 72 FF 63 68 65
-
-    ZSCII  : 51 75 65 65 6E 73 72 A6 63 68 65
+| Unicode | 51 75 65 65 6E 73 72 FF 63 68 65 |
+| ZSCII   | 51 75 65 65 6E 73 72 A6 63 68 65 |
 
 This all seems pretty simple so far, I think.  The per-program table of extra
 characters is a bit weird, and the set of control characters (which I didn't
@@ -143,9 +140,11 @@ five bits.  What's going on?
 
 We start by looking up Z-characters in this table:
 
-      0                               1
-      0 1 2 3 4 5 6 7 8 9 A B C D E F 0 1 2 3 4 5 6 7 8 9 A B C D E F
-      ␠       ␏ ␏ a b c d e f g h i j k l m n o p q r s t u v w x y z
+```
+0                               1
+0 1 2 3 4 5 6 7 8 9 A B C D E F 0 1 2 3 4 5 6 7 8 9 A B C D E F
+␠       ␏ ␏ a b c d e f g h i j k l m n o p q r s t u v w x y z
+```
 
 In all cases, the value at the bottom is a ZSCII character, so you can
 represent a space (␠) with ZSCII character 0x020, and encode that to the
@@ -155,11 +154,13 @@ glyphs under 0x04 and 0x05.  The table above was incomplete.  It is only the
 first of the three "alphabets" of available Z-characters.  The full table would
 look like this:
 
-          0                               1
-          0 1 2 3 4 5 6 7 8 9 A B C D E F 0 1 2 3 4 5 6 7 8 9 A B C D E F
-      A0  ␠       ␏ ␏ a b c d e f g h i j k l m n o p q r s t u v w x y z
-      A1  ␠       ␏ ␏ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-      A2  ␠       ␏ ␏ … ␤ 0 1 2 3 4 5 6 7 8 9 . , ! ? _ # ' " / \ - : ( )
+```
+    0                               1
+    0 1 2 3 4 5 6 7 8 9 A B C D E F 0 1 2 3 4 5 6 7 8 9 A B C D E F
+A0  ␠       ␏ ␏ a b c d e f g h i j k l m n o p q r s t u v w x y z
+A1  ␠       ␏ ␏ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+A2  ␠       ␏ ␏ … ␤ 0 1 2 3 4 5 6 7 8 9 . , ! ? _ # ' " / \ - : ( )
+```
 
 Strings always begin in alphabet 0.  Z-characters 0x04 and 0x05 mark the next
 character as being in alphabet 1 or alphabet 2, respectively.  After that
@@ -183,22 +184,24 @@ Z-characters, any given ZSCII character might take up:
 So, now that we know how to convert a ZSCII character to Z-characters without
 fail, how do we store that in octets?  Easy.  Let's encode this string:
 
-    »Gruß Gott!«
+```
+»Gruß Gott!«
+```
 
 That maps to these twenty-four Z-characters:
 
-    »   05 06 05 02
-    G   04 0C
-    r   17
-    u   1A
-    ß   05 06 05 01
-    ␤   00
-    G   04 0C
-    o   14
-    t   19
-    t   19
-    !   05 14
-    «   05 06 05 03
+| » | 05 06 05 02 |
+| G | 04 0C       |
+| r | 17          |
+| u | 1A          |
+| ß | 05 06 05 01 |
+| ␤ | 00          |
+| G | 04 0C       |
+| o | 14          |
+| t | 19          |
+| t | 19          |
+| ! | 05 14       |
+| « | 05 06 05 03 |
 
 We start off with a four Z-character sequence, then a two Z-character sequence,
 then a few single Z-characters.  The whole string of Z-characters should be
@@ -208,8 +211,8 @@ Z-character, and in 1979 every byte of memory was (in theory) precious.
 Instead, we'll pack three Z-characters into every word, saving the word's high
 bit for later.  That means we can fit "!«" into two words like so:
 
-    !   05 14         0b00101 0b01110
-    «   05 06 05 03   0b00101 0b00110 0b00101 0b00011
+| ! | 05 14       | 0b00101 0b01110                 |
+| « | 05 06 05 03 | 0b00101 0b00110 0b00101 0b00011 |
 
 …so…
 
@@ -247,10 +250,12 @@ Abbreviations make use of the Z-characters I ignored above: 0x01 through 0x03.
 When one of these Z-characters is seen, the next character is read.  Then this
 happens:
 
-    if (just_saw in (1, 2, 3)) {
-      next   = read_another
-      offset = 32 * (just_saw - 1) + next
-    }
+```
+if (just_saw in (1, 2, 3)) {
+  next   = read_another
+  offset = 32 * (just_saw - 1) + next
+}
+```
 
 `offset` is the offset into the "abbreviations table."  Values in that table
 are pointers to memory locations of string.  When the Z-Machine is printing a
@@ -264,16 +269,18 @@ throughout your program.
 
 The two main methods of ZMachine::ZSCII should make good sense now:
 
-    sub encode {
-      my ($self, $string) = @_;
+```perl
+sub encode {
+  my ($self, $string) = @_;
 
-      $string =~ s/\n/\x0D/g; # so we can just use \n instead of \r
+  $string =~ s/\n/\x0D/g; # so we can just use \n instead of \r
 
-      my $zscii  = $self->unicode_to_zscii($string);
-      my $zchars = $self->zscii_to_zchars($zscii);
+  my $zscii  = $self->unicode_to_zscii($string);
+  my $zchars = $self->zscii_to_zchars($zscii);
 
-      return $self->pack_zchars($zchars);
-    }
+  return $self->pack_zchars($zchars);
+}
+```
 
 First we fix up newlines.  Then we map the Unicode string's characters to a
 string of ZSCII characters.  Then we map the ZSCII characters into a sequence
