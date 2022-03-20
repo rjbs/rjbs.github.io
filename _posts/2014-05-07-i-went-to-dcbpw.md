@@ -21,11 +21,10 @@ of a surprise, give how significantly I rewrote it, repeatedly, from my
 original plans.  I was also pleased to finally get a shirt with the way-cool
 DCBPW logo on it:
 
-<center><img src='http://rjbs.manxome.org/img/journal/dcbpw.png' /></center>
+![DCBPW](/assets/2014/05/dcbpw.png)
 
 Unfortunately, I vainly requested a large, which I've grown a bit out of again.
 Getting into my cool eaglecrab shirt is just one more thing to motivate me to
 get back down to 180.
 
 I look forward to the next DC conference!
-
