@@ -39,88 +39,90 @@ work really well.
 
 Here is the hacky script I'm using:
 
-    use strict;
-    use warnings;
-    use 5.010;
-    use HTML::TreeBuilder;
-    use Text::Autoformat;
-    use Text::Balanced qw(gen_extract_tagged);
+```perl
+use strict;
+use warnings;
+use 5.010;
+use HTML::TreeBuilder;
+use Text::Autoformat;
+use Text::Balanced qw(gen_extract_tagged);
 
-    my $extractor = gen_extract_tagged(map quotemeta, qw( [[ ]] ));
+my $extractor = gen_extract_tagged(map quotemeta, qw( [[ ]] ));
 
-    my $tree = HTML::TreeBuilder->new->parse_file($ARGV[0]);
+my $tree = HTML::TreeBuilder->new->parse_file($ARGV[0]);
 
-    my @tiddlers = grep { ($_->attr('tags') || '') =~ /\bPublic\b/ }
-                   $tree->look_down(_tag => 'div');
+my @tiddlers = grep { ($_->attr('tags') || '') =~ /\bPublic\b/ }
+               $tree->look_down(_tag => 'div');
 
-    sub eq_pad {
-      my ($str) = @_;
-      my $total = 73 - length $str;
-      return "$str " . ('=' x $total);
+sub eq_pad {
+  my ($str) = @_;
+  my $total = 73 - length $str;
+  return "$str " . ('=' x $total);
+}
+
+sub filename {
+  my ($title) = @_;
+  $title =~ s/\W+/-/g;
+  return lc "$title.txt";
+}
+
+for my $tiddler (@tiddlers) {
+  my $title = $tiddler->attr('title');
+  my $fn = filename($title);
+  open my $fh, '>', $fn or die "can't open $fn to write: $!";
+
+  my $tag_str = $tiddler->attr('tags') || '';
+  my @tags;
+  while (length $tag_str) {
+    my $tag;
+    ($tag, $tag_str) = $extractor->($tag_str);
+    if ($tag) {
+      push @tags, $tag;
+      next;
+    } else {
+      push @tags, split /\s+/, $tag_str;
+      last;
+    }
+  }
+
+  my $mod_date = $tiddler->attr('modified') || '';
+  my (@date) = $mod_date =~ /^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})$/;
+
+  say $fh 'Title   : ', $title;
+  say $fh 'Tags    : ', join ', ', sort @tags;
+  say $fh join ' ', 'Modified:',
+    ($mod_date ? (join('-', @date[0,1,2]), join(':', @date[3,4])) : '??'),
+    'by', $tiddler->attr('modifier') || '?';
+  say $fh '';
+
+  my $text = $tiddler->as_text;
+  $text =~ s{<part \w+>\n}{}g;
+  $text =~ s{</part>\n?}{}g;
+
+  $text =~ s/^!!(.+)$/"\n\n== " . eq_pad($1) . "\n"/meg;
+
+  my @chunks = split /\n{2,}/, $text;
+  my @xref;
+
+  for my $chunk (@chunks) {
+    last if $chunk =~ /^----/;
+    next if $chunk =~ /@@/;
+
+    $chunk =~ s/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/$1/g;
+    if ($chunk =~ /<<tiddler Template:Summary with: ([\s\w]+)>>/) {
+      push @xref, $1;
+      next;
     }
 
-    sub filename {
-      my ($title) = @_;
-      $title =~ s/\W+/-/g;
-      return lc "$title.txt";
+    if ($chunk =~ /^== /) {
+      $chunk .= "\n\n";
+    } else {
+      $chunk = autoformat $chunk
     }
+    print $fh $chunk;
+  }
 
-    for my $tiddler (@tiddlers) {
-      my $title = $tiddler->attr('title');
-      my $fn = filename($title);
-      open my $fh, '>', $fn or die "can't open $fn to write: $!";
-
-      my $tag_str = $tiddler->attr('tags') || '';
-      my @tags;
-      while (length $tag_str) {
-        my $tag;
-        ($tag, $tag_str) = $extractor->($tag_str);
-        if ($tag) {
-          push @tags, $tag;
-          next;
-        } else {
-          push @tags, split /\s+/, $tag_str;
-          last;
-        }
-      }
-
-      my $mod_date = $tiddler->attr('modified') || '';
-      my (@date) = $mod_date =~ /^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})$/;
-
-      say $fh 'Title   : ', $title;
-      say $fh 'Tags    : ', join ', ', sort @tags;
-      say $fh join ' ', 'Modified:',
-        ($mod_date ? (join('-', @date[0,1,2]), join(':', @date[3,4])) : '??'),
-        'by', $tiddler->attr('modifier') || '?';
-      say $fh '';
-
-      my $text = $tiddler->as_text;
-      $text =~ s{<part \w+>\n}{}g;
-      $text =~ s{</part>\n?}{}g;
-
-      $text =~ s/^!!(.+)$/"\n\n== " . eq_pad($1) . "\n"/meg;
-
-      my @chunks = split /\n{2,}/, $text;
-      my @xref;
-
-      for my $chunk (@chunks) {
-        last if $chunk =~ /^----/;
-        next if $chunk =~ /@@/;
-
-        $chunk =~ s/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/$1/g;
-        if ($chunk =~ /<<tiddler Template:Summary with: ([\s\w]+)>>/) {
-          push @xref, $1;
-          next;
-        }
-
-        if ($chunk =~ /^== /) {
-          $chunk .= "\n\n";
-        } else {
-          $chunk = autoformat $chunk
-        }
-        print $fh $chunk;
-      }
-
-      say $fh "SEE ALSO: $_" for @xref;
-    }
+  say $fh "SEE ALSO: $_" for @xref;
+}
+```
 

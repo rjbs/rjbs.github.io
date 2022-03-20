@@ -47,38 +47,42 @@ ended the night by making a fantastic discovery:  I didn't really need
 MRO::Define.  I could accompolish what I wanted on a stock install of perl5
 version 10.
 
-    my $class = Class->new({
-      class_methods => {
-        ping => sub { return 'pong' },
-      },
-      instance_methods => {
-        pong => sub { return 'ping' },
-      },
-    });
+```perl
+my $class = Class->new({
+  class_methods => {
+    ping => sub { return 'pong' },
+  },
+  instance_methods => {
+    pong => sub { return 'ping' },
+  },
+});
 
-    my $instance = $class->new;
+my $instance = $class->new;
+```
 
 So, now we have a class, which is a perl-style instance (a blessed reference)
 of Class.  We also have an instance of that class.
 
-    Class->ping;     # fatal: no such metaclass method
+```perl
+Class->ping;     # fatal: no such metaclass method
 
-    $class->ping;    # returns 'pong'
+$class->ping;    # returns 'pong'
 
-    $instance->new;  # fatal: no such instance method
+$instance->new;  # fatal: no such instance method
 
-    $instance->ping; # fatal: no such instance method
+$instance->ping; # fatal: no such instance method
 
-    $instance->pong; # returns 'ping'
+$instance->pong; # returns 'ping'
+```
 
 This really works!  There is no AUTOLOAD or auto-creation of packages involved.
 
 Now, Florian's code worked by doing two things:
 
-1. It made a magic class that did something magical instead of looking for
-     methods in the package.
-2. It made a new MRO that would fall back to the magic class after the default
-     class.
+1.  It made a magic class that did something magical instead of looking for
+    methods in the package.
+2.  It made a new MRO that would fall back to the magic class after the default
+    class.
 
 That meant that you could write your own class, MyClass, with subroutines
 defined in it, and write MagicClass, with its magical method dispatching.
@@ -96,8 +100,10 @@ So, how does the magic class work?  Well, by default a Perl 5 class is just a
 package -- a namespace -- into which references are blessed.  A namespace is
 just a special kind of hash, called a stash.  When you say:
 
-    my $obj = Class->new;
-    $obj->do_something(1);
+```perl
+my $obj = Class->new;
+$obj->do_something(1);
+```
 
 Then, simplifying only slightly, perl looks for a subroutine called
 `Class::new`, which it does by looking for a subroutine stored in the variable
@@ -113,34 +119,42 @@ find when you look something up in a hash.
 
 Florian's discovery was this particular magic spell:
 
-    cast %Class::, wizard fetch => sub {
-      $_[2] = 'invoke_method';
-      return;
-    };
+```perl
+cast %Class::, wizard fetch => sub {
+  $_[2] = 'invoke_method';
+  return;
+};
+```
 
 In other words: when looking for an entry in the Class package, lookup the
 entry for `invoke_method` instead.  So, when you say:
 
-    my $obj = Class->new;
-    $obj->do_something(1);
+```perl
+my $obj = Class->new;
+$obj->do_something(1);
+```
 
 It acts as if you did this:
 
-    my $obj = Class->invoke_method;
-    $obj->invoke_method(1);
+```perl
+my $obj = Class->invoke_method;
+$obj->invoke_method(1);
+```
 
 Obviously, this isn't very useful without knowing what method you meant to
 invoke, so actually the magic is set up more like this:
 
-    my $method_name;
-    cast %{"::$caller\::"}, wizard(
-      data  => sub { \$method_name },
-      fetch => sub {
-          ${ $_[1] } = $_[2];
-          $_[2] = 'invoke_method';
-          return;
-      },
-    );
+```perl
+my $method_name;
+cast %{"::$caller\::"}, wizard(
+  data  => sub { \$method_name },
+  fetch => sub {
+      ${ $_[1] } = $_[2];
+      $_[2] = 'invoke_method';
+      return;
+  },
+);
+```
 
 The `data` magic is called every time a wizard casts over a new variable, and
 it returns a reference that's available to other magic.  In this case, we're
@@ -152,78 +166,82 @@ Now, when a method is looked up, we first set `$method_name` to the method name
 that should have been looked up, before carrying on with our previous hack of
 looking up `invoke_method` instead.  So, we can write something like this:
 
-    # Class->
-    my %STATIC = (
-      new => sub { ... }, # create a new class when Class->new called
-    );
+```
+# Class->
+my %STATIC = (
+  new => sub { ... }, # create a new class when Class->new called
+);
 
-    # $class->
-    my %UNIVERSAL = (
-      new          => sub { ... }, # create a new instance when $class->new called
-      new_subclass => sub { ... }, # create a new class deriving from this one
-      base_class   => sub { ... }, # return our base class
-    );
+# $class->
+my %UNIVERSAL = (
+  new          => sub { ... }, # create a new instance when $class->new called
+  new_subclass => sub { ... }, # create a new class deriving from this one
+  base_class   => sub { ... }, # return our base class
+);
 
-    ## PUT THE VARIABLE::MAGIC SNIPPET HERE
+## PUT THE VARIABLE::MAGIC SNIPPET HERE
 
-    sub invoke_method {
-      my ($invocant, @args) = @_;
-      my $curr = $invocant;
-      my $code;
-        
-      unless (ref $invocant) {
-        die "no metaclass method $method_name on $invocant"
-          unless $code = $STATIC{$method_name};
-      
-        return $code->($invocant, @args);
-      }
+sub invoke_method {
+  my ($invocant, @args) = @_;
+  my $curr = $invocant;
+  my $code;
 
-      while ($curr) {
-        my $methods = $curr->{class_methods};
-        $code = $methods->{$method_name}, last
-          if exists $methods->{$method_name};
-        $curr = $curr->{base};
-      }
+  unless (ref $invocant) {
+    die "no metaclass method $method_name on $invocant"
+      unless $code = $STATIC{$method_name};
 
-      Carp::confess("no class method $method_name on $invocant->{name}")
-        unless $code ||= $UNIVERSAL{$method_name};
+    return $code->($invocant, @args);
+  }
 
-      $code->($invocant, @args);
-    };
+  while ($curr) {
+    my $methods = $curr->{class_methods};
+    $code = $methods->{$method_name}, last
+      if exists $methods->{$method_name};
+    $curr = $curr->{base};
+  }
+
+  Carp::confess("no class method $method_name on $invocant->{name}")
+    unless $code ||= $UNIVERSAL{$method_name};
+
+  $code->($invocant, @args);
+};
+```
 
 Of course, nobody wants to inline that Variable::Magic block all the time, so I
 wrote a simple helper class that lets me write this, instead:
 
-    class Class;
+```perl
+class Class;
 
-    my %STATIC    = ...;
-    my %UNIVERSAL = ...;
+my %STATIC    = ...;
+my %UNIVERSAL = ...;
 
-    # Make my methods /meta/!
-    use mmmm sub {
-      my ($invocant, $method_name, $args) = @_;
-      my $curr = $invocant;
-      my $code;
-        
-      unless (ref $invocant) {
-        die "no metaclass method $method_name on $invocant"
-          unless $code = $STATIC{$method_name};
-      
-        return $code->($invocant, @$args);
-      }
+# Make my methods /meta/!
+use mmmm sub {
+  my ($invocant, $method_name, $args) = @_;
+  my $curr = $invocant;
+  my $code;
 
-      while ($curr) {
-        my $methods = $curr->{class_methods};
-        $code = $methods->{$method_name}, last
-          if exists $methods->{$method_name};
-        $curr = $curr->{base};
-      }
+  unless (ref $invocant) {
+    die "no metaclass method $method_name on $invocant"
+      unless $code = $STATIC{$method_name};
 
-      Carp::confess("no class method $method_name on $invocant->{name}")
-        unless $code ||= $UNIVERSAL{$method_name};
+    return $code->($invocant, @$args);
+  }
 
-      $code->($invocant, @$args);
-    };
+  while ($curr) {
+    my $methods = $curr->{class_methods};
+    $code = $methods->{$method_name}, last
+      if exists $methods->{$method_name};
+    $curr = $curr->{base};
+  }
+
+  Carp::confess("no class method $method_name on $invocant->{name}")
+    unless $code ||= $UNIVERSAL{$method_name};
+
+  $code->($invocant, @$args);
+};
+```
 
 The little block of code, above, effectively replaces all Perlish method
 dispatch for the class Class.  This is real, ultimate power.
