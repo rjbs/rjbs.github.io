@@ -22,26 +22,25 @@ listings.  I picked one of my favorites to use as an example:  the lich.
 
 This is what the Monster Manual entry for the Lich looked like in 1E:
 
-> ```
-> LICH
-> FREQUENCY: Very rare
-> NO. APPEARING: 1
-> ARMOR CLASS: 0
-> MOVE: 6"
-> HIT DICE: 11+
-> % IN LAIR: 90%
-> TREASURE TYPE: A
-> NO. OF ATTACKS: 1
-> DAMAGE/ATTACK: 1-10
-> SPECIAL ATTACKS: See below
-> SPECIAL DEFENSES: +1 or better weapon to hit
-> MAGIC RESISTANCE: Standard
-> INTELLIGENCE: Supra-genius
-> ALIGNMENT: Neutral (evil)
-> SIZE: M
-> PSIONIC ABILITY: See below
+> ## Lich
+>
+> FREQUENCY: Very rare  
+> NO. APPEARING: 1  
+> ARMOR CLASS: 0  
+> MOVE: 6"  
+> HIT DICE: 11+  
+> % IN LAIR: 90%  
+> TREASURE TYPE: A  
+> NO. OF ATTACKS: 1  
+> DAMAGE/ATTACK: 1-10  
+> SPECIAL ATTACKS: See below  
+> SPECIAL DEFENSES: +1 or better weapon to hit  
+> MAGIC RESISTANCE: Standard  
+> INTELLIGENCE: Supra-genius  
+> ALIGNMENT: Neutral (evil)  
+> SIZE: M  
+> PSIONIC ABILITY: See below  
 > Attack/Defense Modes: See below
-> ```
 >
 > A lich exists because of its own desires and the use of powerful and
 > arcane magic. The lich passes from a state of humanity to a non-human,
