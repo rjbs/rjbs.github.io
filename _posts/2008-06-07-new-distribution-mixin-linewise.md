@@ -9,11 +9,13 @@ in `::Tiny`, but then I saved myself.
 
 I found myself implementing these three methods, again:
 
-    sub read_handle { ... }
+```perl
+sub read_handle { ... }
 
-    sub read_file   { ... }
+sub read_file   { ... }
 
-    sub read_string { ... }
+sub read_string { ... }
+```
 
 So, the second two translate the input into something the first can understand
 and business continues as normal.  How often have I written this, or something

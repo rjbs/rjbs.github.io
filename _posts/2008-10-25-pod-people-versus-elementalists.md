@@ -9,18 +9,22 @@ contain its own coverage
 hints](http://search.cpan.org/dist/Pod-Coverage-TrustPod/).  I gave up when I
 found out that it was not going to be trivial to say something like this:
 
-    my @blocks = PodParser->read_file($my_perl_module)->data_for('coverage');
+```perl
+my @blocks = PodParser->read_file($my_perl_module)->data_for('coverage');
+```
 
 In order to extract "foo\nbar" from:
 
-    sub foo { ... }
+```perl
+sub foo { ... }
 
-    =begin coverage
+=begin coverage
 
-    foo
-    bar
+foo
+bar
 
-    =end coverage
+=end coverage
+```
 
 I found ways, but they all bugged me.  I gave up on the project for a long
 time, because it was a real
@@ -47,7 +51,7 @@ Here are some of the simple things:
 * paragraphs are separated by blank lines (but 'cut' commands are special)
 * pod can be interwoven with non-pod in a document
 * pod paragraphs are either:
-    * commands (start with =) 
+    * commands (start with =)
     * verbatim (start with whitespace)
     * text (start with anything else)
 * the non-whitespace characters after the = in a command are the command
@@ -66,11 +70,13 @@ paragraphs.  In fact, this is true.  The problem is that on top of the
 syntax of paragraphs, there are paragraph semantics that make this, for
 example, an illegal document:
 
-    =pod
+```perl
+=pod
 
-    =item * Isn't this simple?
+=item * Isn't this simple?
 
-    =end
+=end
+```
 
 We have an `=item` outside of an `=over` and an `=end` outside of a `=begin`.
 Wait... outside?  If a pod document is just a sequence of paragraphs, how does
