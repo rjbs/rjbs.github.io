@@ -8,29 +8,33 @@ There's a file in every CPAN mirror called `03modlist.data` that contains the
 "registered module list."  It's got no indenting, but if it did, it would look
 something like this:
 
-    sub data {
-      my $result  = {};
-      my $primary = "modid";
-      for (@$CPAN::Modulelist::data) {
-        my %hash;
-        @hash{@$CPAN::Modulelist::cols} = @$_;
-        $result->{ $hash{$primary} } = \%hash;
-      }
-      $result;
-    }
-    $CPAN::Modulelist::cols = [
-      'modid',       'statd', 'stats', 'statl', 'stati', 'statp',
-      'description',
-      'userid',      'chapterid',
-    ];
-    $CPAN::Modulelist::data = [
-      [
-        'ACL::Regex', 'b', 'd', 'p', 'O', 'b',
-        'Validation of actions via regular expression',
-        'PBLAIR', '11'
-      ],
-      ...
-    ];
+```perl
+sub data {
+  my $result  = {};
+  my $primary = "modid";
+  for (@$CPAN::Modulelist::data) {
+    my %hash;
+    @hash{@$CPAN::Modulelist::cols} = @$_;
+    $result->{ $hash{$primary} } = \%hash;
+  }
+  $result;
+}
+
+$CPAN::Modulelist::cols = [
+  'modid',       'statd', 'stats', 'statl', 'stati', 'statp',
+  'description',
+  'userid',      'chapterid',
+];
+
+$CPAN::Modulelist::data = [
+  [
+    'ACL::Regex', 'b', 'd', 'p', 'O', 'b',
+    'Validation of actions via regular expression',
+    'PBLAIR', '11'
+  ],
+  ...
+];
+```
 
 It's an index of some of the stuff on the CPAN, broken down into categories,
 sort of like the original Yahoo index.  Or [dmoz](http://dmoz.org/), which is

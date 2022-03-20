@@ -43,38 +43,42 @@ The library is Pod::Elemental, and there's a tool called
 that bridges the gap between Dist::Zilla::Plugin::PodWeaver and Pod::Weaver.
 Given some Perl source code, it does this:
 
-1. make a PPI::Document from the source code
-2. extract the Pod elements from the PPI::Document
-3. build a Pod::Elemental::Document from the Pod
-4. pass the Pod and (Pod-free) PPI document to an arbitrary piece of code,
-     which is expected to alter the documents
-5. recombine the two documents, generally by putting the Pod at the end of the
-     Perl
+1.  make a PPI::Document from the source code
+2.  extract the Pod elements from the PPI::Document
+3.  build a Pod::Elemental::Document from the Pod
+4.  pass the Pod and (Pod-free) PPI document to an arbitrary piece of code,
+    which is expected to alter the documents
+5.  recombine the two documents, generally by putting the Pod at the end of the
+    Perl
 
 The issue was that step two, extracting Pod, was deleting all the Pod from the
 source code.  Given this document:
 
-    package X;
+```perl
+package X;
 
-    =head1 OVERVIEW
+=head1 OVERVIEW
 
-    X is the best!
+X is the best!
 
-    =cut
+=cut
 
-    sub do_things { ... }
+sub do_things { ... }
+```
 
 ...we would rewrite it to look like this:
 
-    package X;
+```perl
+package X;
 
-    sub do_things { ... }
-    __END__
-    =head1 OVERVIEW
+sub do_things { ... }
+__END__
+=head1 OVERVIEW
 
-    X is the best!
+X is the best!
 
-    =cut
+=cut
+```
 
 ...we'd see `do_things` as being line 9 in the pre-munging Perl, but line 3 in
 the post-munging Perl.  Given a more realistic piece of code with interleaved
@@ -92,21 +96,23 @@ There was a much simpler solution, which occurred to me out of the blue and
 made me feel foolish for not having thought of it when writing the original
 code.  I'd rewrite the document to look like this:
 
-    package X;
+```perl
+package X;
 
-    # =head1 OVERVIEW
-    #
-    # X is the best!
-    #
-    # =cut
+# =head1 OVERVIEW
+#
+# X is the best!
+#
+# =cut
 
-    sub do_things { ... }
-    __END__
-    =head1 OVERVIEW
+sub do_things { ... }
+__END__
+=head1 OVERVIEW
 
-    X is the best!
+X is the best!
 
-    =cut
+=cut
+```
 
 Actually, my initial idea was to insert stretches of blank lines.  David Golden
 suggested just commenting out the Pod.  I implemented both and started off
@@ -137,23 +143,25 @@ Pod rewriting wasn't the only thing affecting my line numbers.  The other thing
 was the insertion of a `$VERSION` assignment, carried out by the core plugin
 PkgVersion.  Its rules are simple:
 
-1. look for each `package` statement in each Perl file
-2. skip it if it's private (i.e., there's a line break between `package` and
-     the package name)
-3. insert a version assignment on the line after the `package` statement
+1.  look for each `package` statement in each Perl file
+2.  skip it if it's private (i.e., there's a line break between `package` and
+    the package name)
+3.  insert a version assignment on the line after the `package` statement
 
 ...and a version assignment looked like this:
 
-    {
-      $My::Package::VERSION = '1.234';
-    }
+```perl
+{
+  $My::Package::VERSION = '1.234';
+}
+```
 
 Another version-assignment-inserter exists,
 [OurPkgVersion](https://metacpan.org/pod/Dist::Zilla::Plugin::OurPkgVersion).
 It works like this:
 
-1. look for each comment like `# VERSION`
-2. put, on the same line:  `our $VERSION = '1.234';`
+1.  look for each comment like `# VERSION`
+2.  put, on the same line:  `our $VERSION = '1.234';`
 
 I had two objections to just switching to OurPkgVersion.  First, the idea of
 adding a magic comment that conveyed no information, and served only as a
@@ -177,12 +185,12 @@ served no purpose.
 
 Then, I updated its rules of operation:
 
-1. look for each `package` statement in each Perl file
-2. skip it if it's private (i.e., there's a line break between `package` and
-     the package name)
-3. skip forward past any full-line comments following the `package` statement
-4. if you ended up at a blank line, put the version assignment there
-5. otherwise, insert a new line
+1.  look for each `package` statement in each Perl file
+2.  skip it if it's private (i.e., there's a line break between `package` and
+    the package name)
+3.  skip forward past any full-line comments following the `package` statement
+4.  if you ended up at a blank line, put the version assignment there
+5.  otherwise, insert a new line
 
 This means that as long as you leave a blank line after your package statement,
 your code's line numbers won't change.  I'm now leaving this code after the
@@ -201,5 +209,3 @@ which I benefit from them, because they're mostly going to prevent me from
 having occasional annoyances in the future, but I feel good about that.  I'm so
 sure that they're going to reduce my annoyance, that I'll just enjoy the idea
 of it now, and then forget, later, that I ever did this work.
-
-

@@ -7,17 +7,21 @@ tags  : ["perl", "programming"]
 One of the big new experimental features in Perl 5.18.0 is lexical subroutines.
 In other words, you can write this:
 
-    my sub quickly { ... }
-    my @sorted = sort quickly @list;
+```perl
+my sub quickly { ... }
+my @sorted = sort quickly @list;
 
-    my sub greppy (&@) { ... }
-    my @grepped = greppy { ... } @input;
+my sub greppy (&@) { ... }
+my @grepped = greppy { ... } @input;
+```
 
 These two examples highlight cases where lexical *references* to anonymous
 subroutines would not have worked.  The first argument to `sort` must be a
 block or a subroutine *name*, which leads to awful code like this:
 
-    sort { $subref->($a, $b) } @list
+```perl
+sort { $subref->($a, $b) } @list
+```
 
 With our `greppy`, above, we get to benefit from the parser-affecting behaviors
 of subroutine prototypes.  Although you can *write* `sub (&@) { ... }`, it has
@@ -25,17 +29,20 @@ no effect unless you install that into a named subroutine, and it needs to be
 done early enough.
 
 On the other hand, lexical subroutines aren't just drop-in replacements for
-code refs.  You can't pass them around and have them retain their
-named-sub behavior, because you'll still just have a *reference* to them.  They won't be "really named."  So if you
-can't use them as parameters, what are their benefits over named subs?
+code refs.  You can't pass them around and have them retain their named-sub
+behavior, because you'll still just have a *reference* to them.  They won't be
+"really named."  So if you can't use them as parameters, what are their
+benefits over named subs?
 
 First of all, privacy.  Sometimes, I see code like this:
 
-    package Abulafia;
+```perl
+package Abulafia;
 
-    our $Counter = 0;
+our $Counter = 0;
 
-    ...
+...
+```
 
 Why isn't `$Counter` lexical?  Is it part of the interface?  Is it useful to
 have it shared?  Would my code be safer if that was lexical, and thus hidden
@@ -49,8 +56,10 @@ think you should be using lexical variables for things that aren't API, maybe
 you should be using lexical subroutines, too.  Then again, you may have to be
 careful in thinking about what "aren't API" means.  Consider this:
 
-    package Service::Client;
-    sub _ua { LWP::UserAgent->new(...) }
+```perl
+package Service::Client;
+sub _ua { LWP::UserAgent->new(...) }
+```
 
 In testing, you've been making a subclass of Service::Client that overrides
 `_ua` to use a test UA.  If you make that subroutine lexical, you can't
@@ -69,17 +78,19 @@ The first is when you want to build a closure that's only used in one
 subroutine.  You could make a big stretch, here, and talk about creating a DSL
 within your subroutine.  I wouldn't, though.
 
-    # Please forgive this extremely contrived example. -- rjbs, 2013-09-25
-    sub dothings {
-      my ($x, $y, @rest) = @_;
+```perl
+# Please forgive this extremely contrived example. -- rjbs, 2013-09-25
+sub dothings {
+  my ($x, $y, @rest) = @_;
 
-      my sub with_rest (&) { map $_[0]->(), @rest; }
+  my sub with_rest (&) { map $_[0]->(), @rest; }
 
-      my @to_x = with_rest { $_ ** $x };
-      my @to_y = with_rest { $_ ** $y };
+  my @to_x = with_rest { $_ ** $x };
+  my @to_y = with_rest { $_ ** $y };
 
-      ...
-    }
+  ...
+}
+```
 
 I have no doubt that I will end up using this pattern someday.  Why do I know
 this?  Because I have written Python, and this is how named functions work
@@ -89,40 +100,44 @@ There's another form, though, which I find even more interesting.
 
 In my tests, I often make a bunch of little packages or classes in one file.
 
-    package Tester {
-      sub do_testing {
-        ...
-      }
-    }
+```perl
+package Tester {
+  sub do_testing {
+    ...
+  }
+}
 
-    package Targeter {
-      sub get_targets {
-        ...
-      }
-    }
+package Targeter {
+  sub get_targets {
+    ...
+  }
+}
 
-    Tester->do_testing($_) for Targeter->get_targets(%param);
+Tester->do_testing($_) for Targeter->get_targets(%param);
+```
 
 Sometimes, I want to have some helper that they can all use, which I might
 write like this:
 
-    sub logger { diag shift; diag explain(shift) }
+```perl
+sub logger { diag shift; diag explain(shift) }
 
-    package Tester {
-      sub do_testing {
-        logger(testing => \@_);
-        ...
-      }
-    }
+package Tester {
+  sub do_testing {
+    logger(testing => \@_);
+    ...
+  }
+}
 
-    package Targeter {
-      sub get_targets {
-        logger(targeting => \@_);
-        ...
-      }
-    }
+package Targeter {
+  sub get_targets {
+    logger(targeting => \@_);
+    ...
+  }
+}
 
-    Tester->do_testing($_) for Targeter->get_targets;
+Tester->do_testing($_) for Targeter->get_targets;
+```
 
 Well… I *might* write it like that, but it won't work.  `logger` is defined in
 one package (presumably `main::`) and then called from two different packages.
@@ -139,7 +154,9 @@ stuff is more acceptable in tests than in the production code, in my book.)
 What we might want instead is a lexical *name* to a package variable.  We have
 that already!  We just write this:
 
-    our sub logger { ... }
+```perl
+our sub logger { ... }
+```
 
 I'm not using lexical subs much, yet, but I'm pretty sure I will use them a
 good bit more in the future!
