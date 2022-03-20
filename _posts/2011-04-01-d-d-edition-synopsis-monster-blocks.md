@@ -4,13 +4,26 @@ title : "D&D Edition Synopsis: Monster Blocks"
 date  : "2011-04-01T22:49:19Z"
 tags  : ["dnd"]
 ---
-Recently, I made a daily agenda for myself.  Each day of the week, I spend a good part of my "free" time working on something important to me, like maintaining my free software, reading my queue of books, or working on my D&D games.  This has been really helpful, and on the D&D front, I've been getting a lot of thinking done about the changes that Dungeons and Dragons has gone through over the years.  I'm not a hardcore fan of any particular edition.  There are things I like about each of them.  I've been thinking about trying to write a really comprehensive explanation of what I do and don't like, but I don't think that's really going to happen.
+Recently, I made a daily agenda for myself.  Each day of the week, I spend a
+good part of my "free" time working on something important to me, like
+maintaining my free software, reading my queue of books, or working on my D&D
+games.  This has been really helpful, and on the D&D front, I've been getting a
+lot of thinking done about the changes that Dungeons and Dragons has gone
+through over the years.  I'm not a hardcore fan of any particular edition.
+There are things I like about each of them.  I've been thinking about trying to
+write a really comprehensive explanation of what I do and don't like, but I
+don't think that's really going to happen.
 
-Instead, I think I'll just make some posts over the next few days or weeks about specific things that I like or don't like -- something that I began ages ago when talking about [the Bard through the ages]({% post_url 2009-09-18-lament-on-the-bard %}).  Today, I want to talk about monster listings.  I picked one of my favorites to use as an example:  the lich.
+Instead, I think I'll just make some posts over the next few days or weeks
+about specific things that I like or don't like -- something that I began ages
+ago when talking about [the Bard through the ages]({% post_url
+2009-09-18-lament-on-the-bard %}).  Today, I want to talk about monster
+listings.  I picked one of my favorites to use as an example:  the lich.
 
 This is what the Monster Manual entry for the Lich looked like in 1E:
 
-> <pre>LICH
+> ```
+> LICH
 > FREQUENCY: Very rare
 > NO. APPEARING: 1
 > ARMOR CLASS: 0
@@ -27,7 +40,8 @@ This is what the Monster Manual entry for the Lich looked like in 1E:
 > ALIGNMENT: Neutral (evil)
 > SIZE: M
 > PSIONIC ABILITY: See below
-> Attack/Defense Modes: See below</pre>
+> Attack/Defense Modes: See below
+> ```
 >
 > A lich exists because of its own desires and the use of powerful and
 > arcane magic. The lich passes from a state of humanity to a non-human,
