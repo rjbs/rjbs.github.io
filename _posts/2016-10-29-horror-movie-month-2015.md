@@ -2,7 +2,7 @@
 layout: post
 title : "Horror Movie Month 2015"
 date  : "2016-10-29T23:57:49Z"
-tags  : ["movies"]
+tags  : ["horror-movie-month","movies"]
 ---
 So, it turns out I never posted a summary of our Horror Movie Month for 2015!
 I tried to recreate our viewing list by looking up my tweets, but there are a
