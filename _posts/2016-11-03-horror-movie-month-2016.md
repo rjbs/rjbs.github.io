@@ -2,7 +2,7 @@
 layout: post
 title : "Horror Movie Month 2016"
 date  : "2016-11-03T03:21:58Z"
-tags  : ["horror-movie-month","movies"]
+tags  : ["#🎃","horror-movie-month","movies"]
 ---
 Another year, another thirty-one days of horror movies!  I think our selections
 this year had fewer losers than some past years, but probably also fewer
