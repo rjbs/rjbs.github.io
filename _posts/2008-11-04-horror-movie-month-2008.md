@@ -1,8 +1,9 @@
 ---
 layout: post
-title : "october horror recap"
+title : "Horror Movie Month 2008"
 date  : "2008-11-04T03:42:25Z"
 tags  : ["movies"]
+tags  : ["#🎃","horror-movie-month","movies"]
 ---
 As is our tradition, Gloria and I watched a bunch of horror movies this
 October.  Here's a quick recap:
