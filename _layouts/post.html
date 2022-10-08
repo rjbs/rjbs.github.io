@@ -18,9 +18,9 @@ layout: default
 
 <div class="post-tags">
   {% if post %}
-    {% assign tags = post.tags %}
+    {% assign tags = post.tags | sort %}
   {% else %}
-    {% assign tags = page.tags %}
+    {% assign tags = page.tags | sort %}
   {% endif %}
   {% for tag in tags %}
   <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
