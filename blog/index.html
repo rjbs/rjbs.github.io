@@ -5,18 +5,18 @@ title: My Journal
 
 <div class="posts">
   {% for post in paginator.posts %}
+    {% assign tags = post.tags | sort %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
         <b>{{ post.date | date: "%B %e, %Y" }}</b>
+        {% for tag in tags %}{% if site.data.tagmoji[tag] != empty %}<span>&nbsp;{{ site.data.tagmoji[tag] }}</span>{% endif %}{% endfor %}
         {{ post.excerpt }}
       </div>
 
       <div>
-      {% assign tags = post.tags | sort %}
-      {% for tag in tags %}<span>{{ tag }}</span>&nbsp;{% endfor %}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
