@@ -2,6 +2,7 @@
 layout: post
 title : I moved my blog to GitHub pages
 date  : "2022-03-05T21:53:08Z"
+tags: [ "rubric" ]
 ---
 
 In 2004 or so I wrote [Rubric](https://metacpan.org/dist/Rubric), which was
