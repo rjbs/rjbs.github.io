@@ -12,7 +12,7 @@ title: My Journal
 
       <div class="entry">
         <b>{{ post.date | date: "%B %e, %Y" }}</b>
-        {% for tag in tags %}{% if site.data.tagmoji[tag] != empty %}<span title="{{ tag }}">&nbsp;{{ site.data.tagmoji[tag] }}</span>{% endif %}{% endfor %}
+        {% for tag in tags %}{% if site.data.tagmoji[tag] %}<span title="{{ tag }}">&nbsp;{{ site.data.tagmoji[tag] }}</span>{% endif %}{% endfor %}
         {{ post.excerpt }}
       </div>
 

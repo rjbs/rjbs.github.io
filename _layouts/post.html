@@ -21,7 +21,7 @@ layout: default
     {% assign tags = page.tags | sort %}
   {% endif %}
   {% for tag in tags %}
-    {% if site.data.tagmoji[tag] != empty %}{{ site.data.tagmoji[tag] }}{% else %}🏷{% endif %}
+    {% if site.data.tagmoji[tag] %}{{ site.data.tagmoji[tag] }}{% else %}🏷{% endif %}
     <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
     {% unless forloop.last %}<br>{% endunless %}
   {% endfor %}
