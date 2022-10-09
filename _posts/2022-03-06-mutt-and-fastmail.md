@@ -2,6 +2,7 @@
 layout: post
 title: mutt and Fastmail go together
 date: "2022-03-06T14:50:19-05:00"
+tags: [ "email", "fastmail", "mutt" ]
 ---
 
 This is not a long paean for mutt or Fastmail, although I'm a big fan of both.
