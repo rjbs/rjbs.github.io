@@ -2,6 +2,7 @@
 layout: post
 title : "why I'm not sold on YubiKey OTP"
 date  : "2015-03-07T19:19:44Z"
+tags  : [ "hardware", "security" ]
 ---
 [ **update**: I added a bit of an update at the end, in which I find that my fundamental worries were wrong, because the system is less convenient than I hoped!  So it goes.  ☹  I decided to post this anyway, because the thoughts were worth thinking, so maybe somebody else will find them interesting to see.  Or not.  Who even reads this thing? ]
 
