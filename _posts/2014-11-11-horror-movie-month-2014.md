@@ -2,7 +2,7 @@
 layout: post
 title : "Horror Movie Month 2014"
 date  : "2014-11-11T16:19:01Z"
-tags  : ["🎃","horror-movie-month","movies"]
+tags  : ["horror-movie-month","movies"]
 ---
 Last year, I forgot to write up our horror movie watching until about eleven
 months later.  This year, I'm going to write things down while they're still
