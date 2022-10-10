@@ -23,3 +23,17 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+
+    {% if page.tags %}
+      {% assign tagmoji = "" %}
+      {% assign tags = page.tags | sort %}
+      {% for tag in page.tags %}
+        {% if site.data.tagmoji[tag] %}
+          {% assign tagmoji = tagmoji | append: site.data.tagmoji[tag] %}
+        {% endif %}
+      {% endfor %}
+      {% if tagmoji %}
+    <meta name="twitter:label1" value="Relevant Emoji" />
+    <meta name="twitter:data1"  value="{{ tagmoji }}" />
+      {% endif %}
+    {% endif %}

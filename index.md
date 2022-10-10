@@ -2,6 +2,7 @@
 layout: no-title
 title: Home
 permalink: /
+image: https://avatars.githubusercontent.com/u/30682?v=4
 ---
 
 ## Hello, world!
