@@ -10,15 +10,13 @@ My name is Ricardo Signes.  I live in Philadelphia.  I do lots of normal human
 things, including sometimes writing computer software.
 
 I made my first home page back when <acronym title="HyperText Markup
-Language">HTML</acronym> 1.1 was just coming out and some guy named Mozilla was
-releasing Netscape, which he said would replace the <acronym title="National
-Center for Supercomputing Applications">NCSA</acronym> Mosaic browser.  I'll
-let you in on a little secret:  I didn't believe for a minute that <acronym
-title="HyperText Transfer Protocol">HTTP</acronym> would replace such
-tried-and-true services as Archie, Veronica, and (my favorite) Gopher.
+Language">HTML</acronym> 1.0 was cutting edge and Netscape Navigator had just
+hit the scene.  I didn't believe for a minute that <acronym title="HyperText
+Transfer Protocol">HTTP</acronym> would replace such tried-and-true services as
+Archie, Veronica, and (my favorite) Gopher.
 
 Sure, I was wrong, but I've never admitted it enough to really dive into
-producing amazing web content.  I just write articles once in a while.
+producing amazing web content.  I just write blog posts once in a while.
 
 ## Contact me
 
