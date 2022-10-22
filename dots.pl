@@ -19,7 +19,7 @@ for my $repo (@repos) {
   chdir("$home/dots") || die "can't chdir to $home: $!\n";
 
   die "$repo already exists!\n" if -e $repo || -l $repo;
-  system('git', 'clone', "git\@github.com:rjbs/$repo.git");
+  system('git', 'clone', "https://github.com/rjbs/$repo.git");
   die "error cloning $repo\n" if $?;
 
   chdir($repo) || die "can't chdir to $home/code/$repo: $!\n";
