@@ -15,6 +15,10 @@ unless (-d "dots") {
   mkdir("dots") || die "can't mkdir dots: $!\n";
 }
 
+if (-f '/etc/fmisproduction.boxdc') {
+  unlink("/home/rjbs/.bashrc") || warn "couldn't unlink ~/.bashrc: $!";
+}
+
 for my $repo (@repos) {
   chdir("$home/dots") || die "can't chdir to $home: $!\n";
 
