@@ -19,6 +19,11 @@ if (-f '/etc/fmisproduction.boxdc') {
   unlink("/home/rjbs/.bashrc") || warn "couldn't unlink ~/.bashrc: $!";
 }
 
+if (-f '/etc/fmisproduction.boxdc') {
+  system('sudo', 'rm', '-f', '/root/.bashrc') && warn "couldn't unlink ~root/.bashrc: $!";
+  system('sudo', 'rm', '-f', '/root/.vimrc')  && warn "couldn't unlink ~root/.vimrc: $!";
+}
+
 for my $repo (@repos) {
   chdir("$home/dots") || die "can't chdir to $home: $!\n";
 
@@ -36,4 +41,9 @@ for my $repo (@repos) {
 
   system("$home/dots/rjbs-dots/bin/link-install", "--really");
   die "error installing $repo\n" if $?;
+
+  if (-f '/etc/fmisproduction.boxdc') {
+    system('sudo', "$home/dots/rjbs-dots/bin/link-install", '--really');
+    warn "error installing $repo to ~root\n" if $?;
+  }
 }
