@@ -20,8 +20,9 @@ if (-f '/etc/fmisproduction.boxdc') {
 }
 
 if (-f '/etc/fmisproduction.boxdc') {
-  system('sudo', 'rm', '-f', '/root/.bashrc') && warn "couldn't unlink ~root/.bashrc: $!";
-  system('sudo', 'rm', '-f', '/root/.vimrc')  && warn "couldn't unlink ~root/.vimrc: $!";
+  for my $file (qw( /root/.bashrc /root/.vimrc /root/.gitconfig )) {
+    system('sudo', 'rm', '-f', $file) && warn "couldn't unlink $file: $!";
+  }
 }
 
 for my $repo (@repos) {
@@ -45,5 +46,11 @@ for my $repo (@repos) {
   if (-f '/etc/fmisproduction.boxdc') {
     system('sudo', "$home/dots/rjbs-dots/bin/link-install", '--really');
     warn "error installing $repo to ~root\n" if $?;
+  }
+}
+
+if (-f '/etc/fmisproduction.boxdc') {
+  for my $file (qw( /root/.ssh/config )) {
+    system('sudo', 'rm', '-f', $file) && warn "couldn't unlink $file: $!";
   }
 }
