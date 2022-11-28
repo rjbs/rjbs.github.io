@@ -8,7 +8,7 @@ tags  : ["horror-movie-month","movies"]
 Another year, another thirty-one days of horror movies.  Actually, we missed
 quite a few days as far as watching things all together.  I worked a fair
 number of late nights, and I left town for a few days to see family in New
-England.  We started a few days early, in fact, knowing that thsi would happen.
+England.  We started a few days early, in fact, knowing that this would happen.
 So, plenty of things were watched, and here's how it went…
 
 ### September 24: [Dead Hooker in a Trunk (2009)](https://www.imdb.com/title/tt1508661/)
