@@ -520,5 +520,5 @@ fswap   ( r6 r5       ) \ we restore the "real" order of the two groups
 
 That's it!  That's the whole 24 solver, minus a few tiny bits of trivia.  I've
 published [the full source of the
-program](https://github.com/rjbs/misc/blob/master/solve24.forth) on GitHub.
+program](https://github.com/rjbs/misc/blob/main/games/solve24.forth) on GitHub.
 
