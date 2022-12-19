@@ -30,6 +30,6 @@ solicit me directly via email or telephone.
 
 * by email: [hello@rjbs.cloud](mailto:hello@rjbs.cloud)
 * by IRC: rjbs on libera.chat
-* by Twitter: [@rjbs](https://twitter.com/rjbs)
+* by ActivityPub: [@rjbs@public.garden](https://public.garden/@rjbs)
 * by bribery: I'm on [Gift Hero](https://www.gifthero.com/list/fc09773d-4d29-4ed8-bd03-c6b2f4f038f5)
 
