@@ -20,7 +20,8 @@ footer-links:
   linkedin:
   pinterest:
   rss: rjbs # just type anything here for a working RSS icon
-  twitter: rjbs
+  # twitter: rjbs
+  activity: https://public.garden/@rjbs
 
   # below are correct but pointless: -- rjbs, 2022-02-27
   # stackoverflow: users/10478/rjbs
