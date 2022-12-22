@@ -193,7 +193,7 @@ response.
 
 To collect this locally and not let just anybody on the internet trigger this
 JavaScript running, I have a locally running Prometheus instance on my MacBook.
-It hits this endpoing and then relays the results to my Prometheus instance in
+It hits this endpoint and then relays the results to my Prometheus instance in
 the cloud.  Grafana looks at that and shows me my tab count.  When it's in the
 red, I sigh, look through my tabs, and close what I can.
 
