@@ -142,7 +142,7 @@ We push a nul and CRLF onto the stack (well, LFCR, but I was still figuring
 things out), and then store a nul.  We store it where that `§` is, which I put
 there to remind myself which cell I was using for data.  This turned out to be
 a bit of a pain, because the debugger really wants you to use ASCII for
-everything.  If I implement my own befunge — and I might — it will mostly be to
+everything.  If I implement my own befunge — and I might — it will mostly be to
 get UTF-8 support.
 
 Anyway, with those terminators in place, we move on to the next line, where we
@@ -157,7 +157,7 @@ keep up!) and then hit `#`.  That doesn't quite introduce a comment.  It's the
 "skip the next cell" instruction from above.  We skip over the just-for-data
 cell, cruise along the left edge, and go into a branch like the one I showed
 above.  If the top of the stack (which we dup before testing) is zero, we head
-toward the drain — but not before getting (`g`) the value at (0,4) and printing
+toward the drain — but not before getting (`g`) the value at (0,4) and printing
 it.  That was our accumulator, even though it hasn't accumulated anything yet.
 
 Otherwise, we loop up, left, down, and around, printing out the string on each
@@ -244,10 +244,10 @@ space.  Even so, it seems wildly inefficient in terms of space.  I feel pretty
 confident I could squish out lots of the whitespace.  In the end, though, I
 *liked* this shape.  It was what felt natural to build, and I built it.
 
-Of course, we never talked about the ` ` (space) instruction.  Every cell is an
+Of course, we never talked about the `␠` (space) instruction.  Every cell is an
 instruction after all!  The space character is a no-op.  It doesn't do
 anything, but it also takes a cycle to execute.  The more space in your
-program, the more cycles it wastes — a real demonstration of the battle between
+program, the more cycles it wastes — a real demonstration of the battle between
 readability and efficiency, right?
 
 What I didn't do was try to generalize the organ detectors.  It doesn't seem
