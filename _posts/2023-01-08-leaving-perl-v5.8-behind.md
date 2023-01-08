@@ -233,7 +233,7 @@ by everything on CPAN at the time.  The big questions were:
 The answers at the time were "yes" and "no" respectively, but the "no" was very
 tentative.  We agreed that if toolchain maintainers hit significant problems in
 v5.8.1 that would be fixed by later v5.8 versions, we could bump to those
-versions, up to and included v5.8.4, which shipped with Solaris 10.
+versions, up to and including v5.8.4, which shipped with Solaris 10.
 
 This decision was part of "[The Lancaster
 Consensus](https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/lancaster-consensus.md)",
