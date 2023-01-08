@@ -101,8 +101,8 @@ time, v5.8 got deeply entrenched.
 
 But that was all ages ago.  Perl v5.10 came out in 2007, during the presidency
 of George W. Bush, the same year as the first iPhone.  Anyway, around fifteen
-years ago.  So, when a new version of a CPAN library starts to require a
-version newer than v5.8, the affected audience is people who:
+years ago.  So, when a new version of a CPAN library *today* starts to require
+a version newer than v5.8, the affected audience is people who:
 
 1. have had fifteen years to upgrade their perl, but chose not to
 2. continue to want to install the latest versions of libraries from the CPAN
