@@ -238,9 +238,8 @@ versions, up to and including v5.8.4, which shipped with Solaris 10.
 This decision was part of "[The Lancaster
 Consensus](https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/lancaster-consensus.md)",
 which agreed a number of other things, too.  I remember the process very well,
-as well as the little hotel we stayed at.  The towel they gave me was so bad
-that I went down the road to Aldi and bought myself a new one, which I still
-use sometimes at the gym, now.
+as well as the little hotel we stayed at.  Also, I had "Life in a Northern
+Town" in my head all week.
 
 But I digress.
 
