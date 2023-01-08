@@ -2,7 +2,7 @@
 layout: post
 title : "leaving perl v5.8 behind"
 date  : "2023-01-08T16:17:11Z"
-tags  : ["perl", "programming"]
+tags  : ["cpan", "perl", "programming"]
 ---
 
 On New Year's Eve, I [posted that I'd uploaded 114 updated
