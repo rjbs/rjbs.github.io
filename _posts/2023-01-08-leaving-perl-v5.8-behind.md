@@ -27,10 +27,10 @@ for perls up to five years old.  Another says ten.  Another tracks the
 p5p-supported perl versions, which is also effectively time-based.  There are
 three that don't:
 
-* toolchain:  This says the code will abide by the consensus of The Toolchain
+* **toolchain**:  This says the code will abide by the consensus of The Toolchain
   Gang, which mean v5.8.1 until further notice.  (More on that below.)
-* none:  This is abandoned software.
-* no-mercy:  I will change anything at any time.  Do not rely on anything about
+* **none**:  This is abandoned software.
+* **no-mercy**:  I will change anything at any time.  Do not rely on anything about
   this software.
 
 I use those quite rarely.  I find that mostly I'm putting long-term support
