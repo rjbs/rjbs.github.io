@@ -71,7 +71,7 @@ continuously integrating, and they'll be better served by "fix this soon" than
 "stop everything and fix it now."
 
 On the other hand, I think there should be a basic assumption that eventually a
-plaform will become obsolete and abandoned.  That is:  at some point, it is
+platform will become obsolete and abandoned.  That is:  at some point, it is
 reasonable to assume that anybody on an *n* year old platform is accepting the
 implicit risk that they will be unable to run new versions of programs.  They
 can, of course, keep running the old version!  Also, if they really need *part*
