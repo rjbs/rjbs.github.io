@@ -27,10 +27,10 @@ weird or problematic for some people.  That was obvious, and it was something I
 weighed and thought about and decided I was okay with.  It also meant, for me,
 that if somebody wanted to contribute and was confused, it would be up to me to
 help them, because I wanted, personally, to make them feel like I was
-interested in working with them¹.  At any rate, *of course* it's one more thing
-to know, to know what the heck to do when you look at a git repository and see
-no Makefile.PL or Build.PL, and having to know one more thing is a drag.
-Dist::Zilla imposes that drag on outsiders (at least in its most common
+interested in working with them[^1].  At any rate, *of course* it's one more
+thing to know, to know what the heck to do when you look at a git repository
+and see no Makefile.PL or Build.PL, and having to know one more thing is a
+drag.  Dist::Zilla imposes that drag on outsiders (at least in its most common
 configurations), and it has to be used with that in mind.
 
 Another thing I've often said is that Dist::Zilla is something to be used
@@ -52,6 +52,4 @@ hostile.
 
 Hopefully my next post will be about some fun code or maybe D&D.
 
-1: My big failure on this front, I think, is replying promptly, rather than not
-being a big jerk.  I must improve, I must improve, I must improve...
-
+[^1]: My big failure on this front, I think, is replying promptly, rather than not being a big jerk.  I must improve, I must improve, I must improve...
