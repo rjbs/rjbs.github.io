@@ -297,6 +297,8 @@ interface, which would make it easier to do more things than issue the basic
 commands I issue.  Again: maybe next time.  For now, though, how *does* it
 work?
 
+<div style="background-color: #cbc2d5; padding: 0.5em 1em" markdown="1">
+
 ### an update: Cunningham's Law
 
 This section has been added a little less than a day after the first
@@ -331,6 +333,8 @@ different data, and getting it up the ancestor tree isn't trivial)
 So:  I have `/dev/blink/${serial}` paths now, and they go to the hidraw
 devices, and I will now go [delete a bunch of
 code](https://github.com/rjbs/Wink/commit/e1d68933100e2784268022dfedfa26eed87a8325)!
+
+</div>
 
 ## sending commands to the device
 
