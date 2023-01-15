@@ -287,7 +287,7 @@ So, the code now works like this:
    number
 
 The [code is stupid, but it
-works](https://github.com/rjbs/Wink/blob/main/lib/Wink/Util.pm#L21).
+works](https://github.com/rjbs/Wink/blob/3958ba721885212e7dd28476e948493a8a0831f8/lib/Wink/Util.pm#L21).
 
 It works, but is it the right solution?  Well, for my goal of "just make it
 go", sure.  But in reality, it seems like it'd actually be easier to learn to
@@ -296,6 +296,41 @@ identifiers.  While doing that, I could also switch to using the standard HID
 interface, which would make it easier to do more things than issue the basic
 commands I issue.  Again: maybe next time.  For now, though, how *does* it
 work?
+
+### an update: Cunningham's Law
+
+This section has been added a little less than a day after the first
+publication of this post.  Let us recall the great Ward Cunningham, from whom
+we have Cunningham's Law:
+
+> The best way to get the right answer on the Internet is not to ask a
+> question; it's to post the wrong answer.
+
+After posting this (and in part after rambling about it in private), I received
+suggestions from [Andrew Rodland](https://cleverdomain.org/) and [Tom
+Sibley](https://tsibley.net/), both of whom suggested very similar ways to
+avoid a lot of my nonsense.  Thanks, you two!
+
+Andrew's explanation was great, because it affirmed that my theory was right:
+all the data was available, I just didn't know how to get at it all at once.
+Even better, both of them *told me how to do so*.  The rule now in my udev
+rules is:
+
+```
+SUBSYSTEM=="hidraw",
+  ATTRS{idVendor}=="27b8", ATTRS{idProduct}=="01ed", ATTRS{serial}=="?*",
+  SYMLINK+="blink/$attr{serial}", MODE:="0666", GROUP="plugdev"
+```
+
+This rule has to fire when dealing with the hidraw subsystem, where we can't
+get the `ID_MODEL` or `ID_SERIAL_SHORT` properties.  We *can* get the
+`idProduct` and `serial` attributes, though.  Why?  Best not to ask.  (It's not
+interesting, best I can tell.  Different layers of the USB system have
+different data, and getting it up the ancestor tree isn't trivial)
+
+So:  I have `/dev/blink/${serial}` paths now, and they go to the hidraw
+devices, and I will now go [delete a bunch of
+code](https://github.com/rjbs/Wink/commit/e1d68933100e2784268022dfedfa26eed87a8325)!
 
 ## sending commands to the device
 
