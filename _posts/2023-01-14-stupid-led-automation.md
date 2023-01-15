@@ -1,7 +1,7 @@
 ---
 layout: post
 title : "my stupid LED blinking server"
-date  : "2023-01-08T16:17:11Z"
+date  : "2023-01-14T16:17:11Z"
 tags  : ["hardware", "perl", "programming"]
 ---
 
