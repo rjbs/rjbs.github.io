@@ -25,7 +25,8 @@ I don't want you to get the idea that I'm incredibly vain.  I don't think I
 spend much time thinking about how I look, but in mid-2020, I was on Zoom *all
 the time*, and I was literally distracted by the my terrible color.  It
 sometimes helped if I closed all the white-background windows on my desktop,
-but this wasn't really an option.  Just look at this horribleness:
+but this wasn't really an option.  Just look at this horribleness (warm light
+on the left, cold light on the right):
 
 ![me looking purple and me looking normal](/assets/2023/01/two-headshots.jpg)
 
