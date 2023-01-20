@@ -153,10 +153,10 @@ It cost nine dollars and took a single AAA battery.  That was cool, but now
 what?  The idea was "push those buttons to change the lights", but my next step
 was to make that happen, and I had no idea how to go about it.  So, I read
 things on the Internet.  I went down several blind alleys before finding
-[Triggerhappy](https://github.com/wertarbyte/triggerhappy).  There have been
-any commits to the (seemingly) official Triggerhappy repository, so I'm
-concerned that it's dead.  Instead, though, I will choose to believe that it is
-complete as well as perfect.
+[Triggerhappy](https://github.com/wertarbyte/triggerhappy).  There haven't been
+any commits to the (seemingly) official Triggerhappy repository in years, so
+I'm concerned that it's dead.  Instead, though, I will choose to believe that
+it is complete as well as perfect.
 
 Triggerhappy is a hotkey daemon.  It runs in the background, monitoring input
 devices, and when it sees certain kinds of input it *does stuff*.  Now my job
