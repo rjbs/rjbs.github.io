@@ -247,14 +247,12 @@ nav {
 // .main
 //
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+.posts > .post > h1 {
+  color: #6b1818;
 }
 
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+.posts > .post > div {
+  margin-left: 1em;
 }
 
 .post {
