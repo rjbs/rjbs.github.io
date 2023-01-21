@@ -302,7 +302,7 @@ sub rgb_to_xy ($r_i, $g_i, $b_i) {
 }
 ```
 
-Feed this `(0xff, 0x8c, 0x00)` and you get a nice orange light's xy values.
+Feed this `(1.00, 0.55, 0.00)` and you get a nice orange light's xy values.
 
 ## end of part one!
 
