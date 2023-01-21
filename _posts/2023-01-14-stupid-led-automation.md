@@ -160,8 +160,10 @@ they show up.  I wrote two, only one of which I ended up needing:
 
 ```
 # The wrapping is just for nice display.  These go on single lines, really.
+
 ATTRS{idVendor}=="27b8", ATTRS{idProduct}=="01ed",
   MODE:="666", GROUP="plugdev"
+
 ENV{ID_MODEL}=="blink_1__mk3", ENV{ID_SERIAL_SHORT}=="?*",
   SYMLINK+="blink/$env{ID_SERIAL_SHORT}"
 ```
