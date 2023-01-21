@@ -44,7 +44,7 @@ I will now tell you about those tedious parts!
 I had done the discovery work on this years ago, and just yesterday I found out
 that this means of discovery has been deprecated.  I have [written about its
 replacement](/blog/2023/01/talking-to-philips-hue-lights-3/) in a later post.
-But hey, this stuff below is still neat to read about~
+But hey, this stuff below is still neat to read about!
 </div>
 
 So, how do you find the bridge?  I have a number of little servers on my home
