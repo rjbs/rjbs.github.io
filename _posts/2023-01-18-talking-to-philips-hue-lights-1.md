@@ -38,6 +38,15 @@ I will now tell you about those tedious parts!
 
 ## discovery: UPnP and HTTPMU
 
+<div style="background-color: #cbc2d5; padding: 0.5em 1em" markdown="1">
+### an update: this is obsolete (but still interesting)
+
+I had done the discovery work on this years ago, and just yesterday I found out
+that this means of discovery has been deprecated.  I have [written about its
+replacement](/blog/2023/01/talking-to-philips-hue-lights-3/) in a later post.
+But hey, this stuff below is still neat to read about~
+</div>
+
 So, how do you find the bridge?  I have a number of little servers on my home
 network, and I generally rely on them showing up as `whatever.local`, or I make
 a DHCP reservation for them.  In those cases, I'd have set the hostname or
