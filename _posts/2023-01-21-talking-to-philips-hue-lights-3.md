@@ -5,13 +5,12 @@ date  : "2023-01-21T17:54:00Z"
 tags  : ["hardware", "programming"]
 ---
 
-I made two recent posts about writing code to control my Philips Hue lights:
-* [connecting to them](/blog/2023/01/talking-to-philips-hue-lights-1/)
-* [making a physical interface](/blog/2023/01/talking-to-philips-hue-lights-2/)
-
-I thought I was done, except maybe for something really straightforward: making
-a tiny web service for the lights.  Here I am, though, making a (quick) third
-post.
+I made two recent posts about writing code to [connect
+software](/blog/2023/01/talking-to-philips-hue-lights-1/) and [connect
+hardware](/blog/2023/01/talking-to-philips-hue-lights-2/) to Philips Hue
+lights.  I thought I was done, except maybe for something really
+straightforward: making a tiny web service for the lights.  Here I am, though,
+making a (quick) third post.
 
 I *did* write that little web interface.  It's called Huell.  You can [get Huell
 from GitHub](https://github.com/rjbs/Huell).  It's sort of a thrown-together
