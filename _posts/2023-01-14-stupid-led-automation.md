@@ -300,8 +300,7 @@ interface, which would make it easier to do more things than issue the basic
 commands I issue.  Again: maybe next time.  For now, though, how *does* it
 work?
 
-<div class='update'>
-
+<div class='update' markdown=1>
 ### an update: Cunningham's Law
 
 This section has been added a little less than a day after the first
