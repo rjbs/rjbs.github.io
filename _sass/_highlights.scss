@@ -14,6 +14,8 @@ pre.highlight {
   border-radius: 0.5em;
   margin: 20px 0 20px 0;
   overflow: scroll;
+
+  box-shadow: 5px 5px rgb(0 0 0 / 50%);
 }
 
 @media screen and (min-width:480px) {
