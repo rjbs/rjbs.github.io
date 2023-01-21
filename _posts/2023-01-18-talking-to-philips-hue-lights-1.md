@@ -38,7 +38,7 @@ I will now tell you about those tedious parts!
 
 ## discovery: UPnP and HTTPMU
 
-<div class='update'>
+<div class='update' markdown=1>
 ### an update: this is obsolete (but still interesting)
 
 I had done the discovery work on this years ago, and just yesterday I found out
