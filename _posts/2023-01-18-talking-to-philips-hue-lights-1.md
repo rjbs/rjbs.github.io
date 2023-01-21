@@ -38,7 +38,7 @@ I will now tell you about those tedious parts!
 
 ## discovery: UPnP and HTTPMU
 
-<div style="background-color: #cbc2d5; padding: 0.5em 1em" markdown="1">
+<div class='update'>
 ### an update: this is obsolete (but still interesting)
 
 I had done the discovery work on this years ago, and just yesterday I found out

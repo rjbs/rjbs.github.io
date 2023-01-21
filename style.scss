@@ -129,11 +129,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $palePurple;
+  background: $pink;
 }
 ::selection {
   color: $black;
-  background: $palePurple;
+  background: $pink;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -260,7 +260,8 @@ nav {
 .post {
   blockquote {
     border-left: 4px solid $purple;
-    background-color: $palePurple;
+    border-radius: 0.5em;
+    background-color: $pink;
     padding: 0.1em 1em;
     font-size: 18px;
   }
@@ -272,6 +273,12 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+  }
+
+  .update {
+    border-radius: 0.5em;
+    background-color: $palePurple;
+    padding: 0.5em 1em;
   }
 }
 
