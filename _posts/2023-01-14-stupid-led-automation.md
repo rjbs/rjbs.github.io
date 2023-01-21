@@ -300,7 +300,7 @@ interface, which would make it easier to do more things than issue the basic
 commands I issue.  Again: maybe next time.  For now, though, how *does* it
 work?
 
-<div style="background-color: #cbc2d5; padding: 0.5em 1em" markdown="1">
+<div class='update'>
 
 ### an update: Cunningham's Law
 
