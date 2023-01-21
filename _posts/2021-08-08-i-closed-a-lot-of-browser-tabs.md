@@ -3,7 +3,7 @@ layout: post
 title : "I closed a lot of browser tabs"
 date  : "2021-08-08T15:39:36Z"
 tags  : ["programming"]
-image : "https://rjbs.cloud/assets/tab-count-graph.png"
+image : "/assets/tab-count-graph.png"
 ---
 I am widely admired at work for my ability to have many, many browser tabs
 open.  (That, at least, is what I take from the frequent shouts of "holy cow,

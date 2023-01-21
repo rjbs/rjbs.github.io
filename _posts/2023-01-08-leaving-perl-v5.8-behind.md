@@ -6,11 +6,11 @@ tags  : ["cpan", "perl", "programming"]
 ---
 
 On New Year's Eve, I [posted that I'd uploaded 114 updated
-distributions](https://rjbs.cloud/blog/2022/12/so-many-cpan-uploads-code-review-mark-iii/)
-to the CPAN.  Many of those, in addition to updating distribution metadata,
-made some changes to the version of perl they require, or say they may require
-in the future.  I mentioned that in my last post.  I was adding text something
-like this:
+distributions](/blog/2022/12/so-many-cpan-uploads-code-review-mark-iii/) to the
+CPAN.  Many of those, in addition to updating distribution metadata, made some
+changes to the version of perl they require, or say they may require in the
+future.  I mentioned that in my last post.  I was adding text something like
+this:
 
 > This library should run on perls released even a long time ago. It should
 > work on any version of perl released in the last five years.
@@ -45,14 +45,13 @@ to v5.12 for the simple creature comforts provided there, and I don't feel bad
 about it.  So, why not?
 
 Let's consider Test::Fatal.  [I wrote Test::Fatal in
-2010](https://rjbs.cloud/blog/2010/10/test-fatal-for-simpler-exception-testing/),
-and I wrote it to make it easier to run the most cutting edge perl.  The
-previous solution, Test::Exception, would break now and then on development
-versions of perl.  In 2010, I wasn't project manager for perl5 yet, but I was
-involved in p5p, and I ran the monthly snapshots as my primary development
-perl.  I wrote Test::Fatal so more code would keep working on the newest
-versions of perl.  We converted Moose to use Test::Fatal within a week of its
-release.
+2010](/blog/2010/10/test-fatal-for-simpler-exception-testing/), and I wrote it
+to make it easier to run the most cutting edge perl.  The previous solution,
+Test::Exception, would break now and then on development versions of perl.  In
+2010, I wasn't project manager for perl5 yet, but I was involved in p5p, and I
+ran the monthly snapshots as my primary development perl.  I wrote Test::Fatal
+so more code would keep working on the newest versions of perl.  We converted
+Moose to use Test::Fatal within a week of its release.
 
 Test::Fatal was pretty widely adopted.  Today, 16k other CPAN distributions
 depend on Test::Fatal, either directly or indirectly.  In CPAN jargon, we
@@ -262,15 +261,15 @@ effort on continued compatibility with v5.8.  As I release more software, I
 will require newer versions of perl.  That's what's next.
 
 I've done a [decent amount of
-work](https://rjbs.cloud/blog/2015/04/my-stupid-cpan-meta-analyzer/), [over the
-years](https://rjbs.cloud/blog/2018/04/i-went-to-the-perl-toolchain-summit-in-oslo/),
-on a [little set of programs](https://github.com/rjbs/CPAN-Metanalyzer) that
-gather and analyze dist metadata from the CPAN.  I'll probably write a bit more
-about them, and how I have used them to see things about versions and
-prerequisites.  I also might write a bit about Miyagawa's report on [what
-version of perl is using cpanm](https://cpanmetadb.plackperl.org/versions/) and
-some similar work I did recently.  But I might not, we'll see where I get to in
-the next week or two.
+work](/blog/2015/04/my-stupid-cpan-meta-analyzer/), [over the
+years](/blog/2018/04/i-went-to-the-perl-toolchain-summit-in-oslo/), on a
+[little set of programs](https://github.com/rjbs/CPAN-Metanalyzer) that gather
+and analyze dist metadata from the CPAN.  I'll probably write a bit more about
+them, and how I have used them to see things about versions and prerequisites.
+I also might write a bit about Miyagawa's report on [what version of perl is
+using cpanm](https://cpanmetadb.plackperl.org/versions/) and some similar work
+I did recently.  But I might not, we'll see where I get to in the next week or
+two.
 
 I'll also keep trying to make progress on bug backlogs, build improvements, and
 improvements to perl.  Wish me luck!
