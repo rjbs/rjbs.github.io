@@ -259,7 +259,9 @@ nav {
 
 .post {
   blockquote {
-    border-left: 4px solid $purple;
+    border-width: 1px 1px 1px 4px;
+    border-color: $purple;
+    border-style: solid;
     border-radius: 0.5em;
     background-color: $pink;
     padding: 0.1em 1em;
