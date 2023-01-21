@@ -206,7 +206,7 @@ dedicated long-term readers of this blog (?!) might remember…
 
 Here's a screenshot of my `code-review` program from [a 2013 post about how I
 keep track of my open source
-projects](https://rjbs.cloud/blog/2013/08/personal-code-review-practices-mark-ii/).
+projects](/blog/2013/08/personal-code-review-practices-mark-ii/).
 
 <center><a href="http://www.flickr.com/photos/rjbs/9613007993/" title="code-review by rjbs, on Flickr"><img src="http://farm4.staticflickr.com/3671/9613007993_cb3511b3f4_o.png" width="650" height="459" alt="code-review"></a></center>
 

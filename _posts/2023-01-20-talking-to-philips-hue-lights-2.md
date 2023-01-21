@@ -6,10 +6,10 @@ tags  : ["hardware", "programming"]
 ---
 
 Okay, so [last time, I wrote about connecting to my
-lights](https://rjbs.cloud/blog/2023/01/talking-to-philips-hue-lights-1/).
-This time, I'm going to write about what I actually did to put my code to use.
-It's all well and good to have a working library to control the lights, but I
-was going to need a way to actually cause useful network calls to be made.
+lights](/blog/2023/01/talking-to-philips-hue-lights-1/).  This time, I'm going
+to write about what I actually did to put my code to use.  It's all well and
+good to have a working library to control the lights, but I was going to need a
+way to actually cause useful network calls to be made.
 
 Starting off, I had to figure out what I actually wanted to be able to do.  My
 primary goal was simple:  I wanted to have an easy way to toggle my lights
@@ -38,9 +38,9 @@ specifics.
 Remember how, last time, I said the API was boring and like every other API?
 That's still true.  So talking about the program itself isn't very interesting.
 I *do* want to write a more interesting program and tie this into the [Wink LED
-server](https://rjbs.cloud/blog/2023/01/stupid-led-automation/) I wrote, but I
-haven't and honestly it's hardly a high priority.  Anyway, the little program
-is called (right now) `lights` and looks like this:
+server](/blog/2023/01/stupid-led-automation/) I wrote, but I haven't and
+honestly it's hardly a high priority.  Anyway, the little program is called
+(right now) `lights` and looks like this:
 
 ```perl
 use v5.30.0;

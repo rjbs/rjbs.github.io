@@ -131,7 +131,7 @@ Final Girls Support Group.
 ### October 6: [Housebound (2014)](https://www.imdb.com/title/tt3504048/)
 
 [We watched this in
-2015](https://rjbs.cloud/blog/2016/10/horror-movie-month-2015/), and maybe
+2015](/blog/2016/10/horror-movie-month-2015/), and maybe
 again since, and already that was the second time Gloria had watched this.
 It's a lot of fun, and I just recommended it to somebody again this week.  This
 time, though, I realized that I would really enjoy a remake of this where the
@@ -149,13 +149,12 @@ didn't feel worth watching the hour it took to get there.  Meh.
 ### October 8: [The Innkeepers (2011)](https://www.imdb.com/title/tt1594562/)
 
 Another repeat, this one from [Horror Movie Month
-2013](https://rjbs.cloud/blog/2014/09/horror-movie-month-2013/).  We love the
-characters and the pacing and the setting… but the ending is a hot mess.  I
-would definitely rewatch it if Ti West shot an alternate ending.  Because, oh
-right, this is a [Ti West](https://en.wikipedia.org/wiki/Ti_West) movie.  He's
-the guy behind [X](https://www.imdb.com/title/tt13560574), which we all found
-pretty unremarkable earlier this year, and also Pearl, which I'll write about
-below.
+2013](/blog/2014/09/horror-movie-month-2013/).  We love the characters and the
+pacing and the setting… but the ending is a hot mess.  I would definitely
+rewatch it if Ti West shot an alternate ending.  Because, oh right, this is a
+[Ti West](https://en.wikipedia.org/wiki/Ti_West) movie.  He's the guy behind
+[X](https://www.imdb.com/title/tt13560574), which we all found pretty
+unremarkable earlier this year, and also Pearl, which I'll write about below.
 
 ### October 9: [Glorious (2022)](https://www.imdb.com/title/tt12724306/)
 
@@ -243,12 +242,11 @@ Witch](https://www.imdb.com/title/tt0085636/).   Dan O'Herlihy is great
 
 ### October 22: [The Stepfather (1987)](https://www.imdb.com/title/tt0094035/)
 
-Here's [a repeat from
-2012](https://rjbs.cloud/blog/2012/11/horror-movie-month-2012/).  I said, "It
-wasn't great, but I liked Terry O'Quinn."  I think I stand by that, but "wasn't
-great" sounds negative.  It was *good*, just not great.  Really, the movie is
-absolutely about Terry O'Quinn, who is so scary because he's so charming.  It's
-worth seeing.
+Here's [a repeat from 2012](/blog/2012/11/horror-movie-month-2012/).  I said,
+"It wasn't great, but I liked Terry O'Quinn."  I think I stand by that, but
+"wasn't great" sounds negative.  It was *good*, just not great.  Really, the
+movie is absolutely about Terry O'Quinn, who is so scary because he's so
+charming.  It's worth seeing.
 
 ### October 22: [Bodies, Bodies, Bodies (2022)](https://www.imdb.com/title/tt8110652/)
 
@@ -331,7 +329,7 @@ confident it'll feel more like X than like Pearl.
 ### October 29: [Basket Case 2](https://www.imdb.com/title/tt0099108/)
 
 We watched this for the first time [in
-2008](https://rjbs.cloud/blog/2008/11/horror-movie-month-2008/).  I've been
+2008](/blog/2008/11/horror-movie-month-2008/).  I've been
 agitating to re-watch this one since we re-watched the first Basket Case last
 year.  It's a great movie, not because of its acting or script, but because of
 its audacity at even getting made.  The prosthetics are utterly beyond belief,
