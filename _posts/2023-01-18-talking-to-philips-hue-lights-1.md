@@ -69,10 +69,11 @@ about how it's different!
 
 HTTPMU is HTTP but Multicast UDP.  Yup!
 
-So, you want to know what UPnP stuff is on your network?  Just broadcast a
-request for them to sing out.  Find your local broadcast address, and send a
-UDP datagram to it on port 1900.  The datagram should contain an HTTPMU
-request, which will look recognizably like an HTTP request:
+So, you want to know what UPnP stuff is on your network?  Just multicast a
+request for them to sing out.  Use the discovery link-local multicast address
+(239.255.255.250) and send a UDP datagram to it on port 1900.  The datagram
+should contain an HTTPMU request, which will look recognizably like an HTTP
+request:
 
 ```
 M-SEARCH * HTTP/1.1
