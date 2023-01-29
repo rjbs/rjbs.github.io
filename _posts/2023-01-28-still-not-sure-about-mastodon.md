@@ -54,7 +54,7 @@ for granted.  I know I'll get a better end result by paying, so today I set up
 a server hosted by [Mastohost](https://masto.host/), which I reckon I'll use
 for the foreseeable future.
 
-During [!!Con 2023](https://bangbangcon.com/), I spent a few hours standing up
+During [!!Con 2022](https://bangbangcon.com/), I spent a few hours standing up
 my own basic ActivityPub server.  From a Mastodon server, I could type in my
 personal server's username and subscribe to its posts.  I know I could've taken
 it further, but eventually I would've gotten to needing to make it work with a
