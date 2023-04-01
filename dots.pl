@@ -9,19 +9,23 @@ my @repos = qw(
 
 my $home = $ENV{HOME};
 
+my $IS_FM_VM    = -f '/etc/fmisproduction.boxdc';
+my $START_OVER  = $IS_FM_VM;
+my $UPDATE_ROOT = $IS_FM_VM;
+
 chdir($home) || die "can't chdir to $home: $!\n";
 
 unless (-d "dots") {
   mkdir("dots") || die "can't mkdir dots: $!\n";
 }
 
-if (-f '/etc/fmisproduction.boxdc') {
-  unlink("/home/rjbs/.bashrc") || warn "couldn't unlink ~/.bashrc: $!";
-}
+if ($START_OVER) {
+  unlink("$home/.bashrc") || warn "couldn't unlink ~/.bashrc: $!";
 
-if (-f '/etc/fmisproduction.boxdc') {
-  for my $file (qw( /root/.bashrc /root/.vimrc /root/.gitconfig )) {
-    system('sudo', 'rm', '-f', $file) && warn "couldn't unlink $file: $!";
+  if ($UPDATE_ROOT) {
+    for my $file (qw( /root/.bashrc /root/.vimrc /root/.gitconfig )) {
+      system('sudo', 'rm', '-f', $file) && warn "couldn't unlink $file: $!";
+    }
   }
 }
 
@@ -43,13 +47,13 @@ for my $repo (@repos) {
   system("$home/dots/rjbs-dots/bin/link-install", "--really");
   die "error installing $repo\n" if $?;
 
-  if (-f '/etc/fmisproduction.boxdc') {
+  if ($UPDATE_ROOT) {
     system('sudo', "$home/dots/rjbs-dots/bin/link-install", '--really');
     warn "error installing $repo to ~root\n" if $?;
   }
 }
 
-if (-f '/etc/fmisproduction.boxdc') {
+if ($IS_FM_VM) {
   for my $file (qw( /root/.ssh/config )) {
     system('sudo', 'rm', '-f', $file) && warn "couldn't unlink $file: $!";
   }
