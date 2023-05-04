@@ -5,8 +5,6 @@ date  : "2023-05-04T12:09:01Z"
 tags  : ["perl", "programming"]
 ---
 
-## Minimum Toolchain Perl
-
 Ten years ago, the "toolchain gang" who manage the libraries most central to
 deploying and testing CPAN libraries came to [an
 agreement](https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/lancaster-consensus.md)
@@ -18,11 +16,12 @@ targeting v5.8, and have [written about this before]({% post_url
 earlier this year.  I got some feedback, both positive and negative, but I felt
 good about it.
 
-This year, a number of people wanted to talk about bumping that number.  To me,
-the interesting question wasn't about the toolchain per se, but about what
-version of perl people feel they can rely upon in CPAN without being a pain to
-others.  I didn't have strong feelings, coming into this conversation, but I
-thought it would be nice if the version number moved.
+This year, a number of people wanted to talk about bumping the maximum target
+version for toolchain.  To me, the interesting question wasn't about the
+toolchain per se, but about what version of perl people feel they can rely upon
+in CPAN without being a pain to others.  I didn't have strong feelings, coming
+into this conversation, but I thought it would be nice if the version number
+moved.
 
 There were a few positions voiced in these conversations:
 
