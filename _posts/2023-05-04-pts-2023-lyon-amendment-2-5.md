@@ -13,10 +13,10 @@ agreement](https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/lan
 on the minimum supported version of perl.  Nobody needed to keep maintaining
 v5.6, and everyone who hadn't already, moved to v5.8.  That was ten years ago,
 but the toolchain was still pinned to v5.8.  I am not enthusiastic about
-targeting v5.8, and have [written about this
-before](https://rjbs.cloud/blog/2023/01/leaving-perl-v5.8-behind/).  I bumped
-some modules to v5.12, earlier this year.  I got some feedback, both positive
-and negative, but I felt good about it.
+targeting v5.8, and have [written about this before]({% post_url
+2023-01-08-leaving-perl-v5.8-behind %}).  I bumped some modules to v5.12,
+earlier this year.  I got some feedback, both positive and negative, but I felt
+good about it.
 
 This year, a number of people wanted to talk about bumping that number.  To me,
 the interesting question wasn't about the toolchain per se, but about what
