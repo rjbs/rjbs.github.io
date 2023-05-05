@@ -1,7 +1,7 @@
 ---
 layout: post
 title : "PTS 2023: more PAUSE work (3/5)"
-date  : "2023-05-05T16:07:01Z"
+date  : "2023-05-05T12:07:01Z"
 tags  : ["perl", "programming"]
 ---
 
@@ -70,7 +70,12 @@ duplicates, or things we agreed to do.  The rest, I categorized like this:
   database transaction instead of inside.
 * **Issue with emails, indexing, and error reporting**:  I ended up spending my
   time on these, so I'll write more below!  (If you want to go look at these,
-  they're labeled with *indexer* and *metadata* and *email*.)
+  they're labeled with
+  *[indexer](https://github.com/andk/pause/issues?q=is%3Aissue+label%3Aindexer+)*
+  and
+  *[metadata](https://github.com/andk/pause/issues?q=is%3Aissue+label%3Ametadata)*
+  and
+  *[email](https://github.com/andk/pause/issues?q=is%3Aissue+label%3Aemail)*.)
 
 ## Email, indexing, and error reporting
 
@@ -79,37 +84,39 @@ little bug fixes and enhancements, and also one big pile of work related to
 making fixing these kinds of things easier.  I'll write about the big pile in
 another post.  For now, the little stuff.
 
-I updated all the email code to use Email::Sender to send mail.  Sometimes it
-used Mail::Send, which is what it all used ten years ago.  This makes it just a
-little easier to write automated tests that can see all the mail that would've
-been sent by PAUSE.  I also tweaked some of Matthew Horsfall's work from a
-couple years ago, making it easier to say "run tests and let them see all the
-mail they'd send, but *also* save a copy to disk."  This is useful when I want
-to compare the exact emails sent before and after patching PAUSE.  I can write
-a test that the things I expect are there, but it's nice to check the exact
-emails, to avoid surprise content (or blank space)!
+I updated all the email code to [use Email::Sender to send
+mail](https://github.com/andk/pause/pull/389).  Sometimes it used Mail::Send,
+which is what it all used ten years ago.  This makes it just a little easier to
+write automated tests that can see all the mail that would've been sent by
+PAUSE.  I also tweaked some of Matthew Horsfall's work from a couple years ago,
+making it easier to say "run tests and let them see all the mail they'd send,
+but *also* save a copy to disk."  This is useful when I want to compare the
+exact emails sent before and after patching PAUSE.  I can write a test that the
+things I expect are there, but it's nice to check the exact emails, to avoid
+surprise content (or blank space)!
 
 There was an 18 year old hack to support some weird packaging in mod\_perl 1.
-I removed this without regret.
+[I removed this without regret](https://github.com/andk/pause/pull/402).
 
 I learned that there was a short list of files that you *can* replace after
 uploading on PAUSE.  If you upload `Perfect-Project-1.234.tar.gz`, you can't
 upload it again, even if you realize that you screwed up and included your
 GitHub API token in the release.  You have to upload a new file and delete the
 old one.  You can replace things like `README` or `documentation.pdf`, though.
-I made that code a little easier to read, in furtherance of allowing Markdown
-files.  I mostly did this because I stumbled across the code when talking about
-the "CPAN index for ancient version of Perl" idea.
+I [made that code a little easier to
+read](https://github.com/andk/pause/pull/393), in furtherance of allowing
+Markdown files.  I mostly did this because I stumbled across the code when
+talking about the "CPAN index for ancient version of Perl" idea.
 
 I nudged Andreas to upgrade the SSL bindings on PAUSE, meaning we *should* stop
 seeing PAUSE fail to retrieve files from URLs at stricter hosts.
 
-I finally flipped the switch on a years-old decision: all distributions must
-have a META file (JSON or YAML) to be indexed.  It isn't carefully validated
-yet, but that will come next.  Last year, only about a half of a percent of all
-uploads were missing a META file.  Looking into the thirteen distributions,
-most of them appeared to have made a mistake in their MANIFEST.  (Once again,
-MANIFEST causes hassle!)
+I finally flipped the switch on a years-old decision: [all distributions must
+have a META file](https://github.com/andk/pause/pull/401) (JSON or YAML) to be
+indexed.  It isn't carefully validated yet, but that will come next.  Last
+year, only about a half of a percent of all uploads were missing a META file.
+Looking into the thirteen distributions, most of them appeared to have made a
+mistake in their MANIFEST.  (Once again, MANIFEST causes hassle!)
 
 ## Module::Faker changes
 
@@ -120,10 +127,10 @@ hand, with the minimum set of files to make the test go.  They needed
 rebuilding.
 
 I converted those to use Module::Faker directly.  I [wrote about Module::Faker
-last year]({% post_url 2019-04-30-pts-2019-module-faker-3-5 %}), when I added
-the ability to specify what the faked-up distribution should look like.  I was
-easy to handle removing the META file, but some of the distributions needed
-weirder changes, like bogus version declarations.
+after last PTS]({% post_url 2019-04-30-pts-2019-module-faker-3-5 %}), when I
+added the ability to specify what the faked-up distribution should look like.
+I was easy to handle removing the META file, but some of the distributions
+needed weirder changes, like bogus version declarations.
 
 I made a new 0.025 release of Module::Faker that includes more options for how
 to build a fake distribution with weird properties.  Some aren't so weird.
