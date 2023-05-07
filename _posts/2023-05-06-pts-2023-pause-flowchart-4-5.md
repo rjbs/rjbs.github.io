@@ -155,10 +155,8 @@ $ctx->abort_indexing_dist(DISTERROR('multiroot'));
 No further error handling is needed there, because it throws an exception that
 gets caught upstream.
 
-This work isn't quite finished yet.  First, I did all the distribution errors.
-Those were pretty easy, but meant I had to build the context object and
-try/catch code.  Then I did the package errors, but they're not entirely done.
-I'll finish those in the next week, most likely.
+This work is all [ready and waiting to be reviewed and
+merged](https://github.com/andk/pause/pull/405)!
 
 Unsurprisingly, doing this refactoring exposed a few bugs in PAUSE.  It has
 probably introduced some new ones, but hopefully they'll be easy to fix when
