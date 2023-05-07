@@ -1,7 +1,7 @@
 ---
 layout: post
 title : "PTS 2023: the CPAN Meta Analyzer (5/5)"
-date  : "2023-05-06T16:07:01Z"
+date  : "2023-05-07T16:07:01Z"
 tags  : ["perl", "programming"]
 ---
 
@@ -26,10 +26,10 @@ know what I think about that, but there it is.
 Anyway, what is this thing?
 
 Right now, it's still not on the CPAN, although I should really get around to
-making that happen.  It's on GitHub, though, and you can clone and install it.
-You can also see its output over the last 13 years (sampled very infrequently)
-on my possibly-moving-somday [CPAN data
-page](https://semiotic.systems/cpandata/).  The key bit is the program
+making that happen.  It's [on GitHub](https://github.com/rjbs/CPAN-Analyzer/),
+though, and you can clone and install it.  You can also see its output over the
+last 13 years (sampled very infrequently) on my possibly-moving-somday [CPAN
+data page](https://semiotic.systems/cpandata/).  The key bit is the program
 `analyze-metacpan`.  When run, it finds your minicpan clone (as long as it's in
 `~/minicpan` where I would put it) and fires up a CPAN::Visitor.  That walks
 through the latest version of every distribution on the index.  It extracts

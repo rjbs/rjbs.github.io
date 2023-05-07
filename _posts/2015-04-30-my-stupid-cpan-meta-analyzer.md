@@ -68,7 +68,7 @@ which I used for similar things.
 My code isn't on the CPAN yet, because it's sort of a mess.  It was a gross
 hack for years and only now am I trying to make it sort of semi-reusable.  Give
 it a try yourself!  You can clone [the
-CPAN-Metanalyzer](https://github.com/rjbs/CPAN-Metanalyzer) GitHub repo, edit
+CPAN-Metanalyzer](https://github.com/rjbs/CPAN-Analyzer) GitHub repo, edit
 `meta-gen.pl` to point to your own repo, and have a look at the messy results.
 
 I'll probably write more about some of the fun of implementing this in the next
