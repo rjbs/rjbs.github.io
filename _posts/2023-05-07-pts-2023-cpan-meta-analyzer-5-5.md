@@ -85,11 +85,22 @@ CREATE TABLE dists (
   has_dist_ini INTEGER
 );
 
-CREATE TABLE dist_prereqs (dist, phase, type, module, requirements, module_dist);
+CREATE TABLE dist_prereqs (
+  dist,
+  phase,
+  type,
+  module,
+  requirements,
+  module_dist
+);
 
 CREATE INDEX dist_prereqs_by_dist on dist_prereqs (dist, phase, type);
 
-CREATE INDEX dist_prereqs_by_target on dist_prereqs (module_dist, phase, type);
+CREATE INDEX dist_prereqs_by_target on dist_prereqs (
+  module_dist,
+  phase,
+  type
+);
 ```
 
 I use this for lots of little queries.  For example, does *anybody* use the
