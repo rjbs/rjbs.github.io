@@ -102,7 +102,7 @@ If you GET the root of the API, you get something like this:
 ```json
 {
 	"name": "Shapes B77A",
-	"serialNo": ...
+	"serialNo": "...",
 	"manufacturer": "Nanoleaf",
 	"firmwareVersion": "9.2.0",
 	"hardwareVersion": "1.4-0",
@@ -111,9 +111,9 @@ If you GET the root of the API, you get something like this:
 	"effects": {
 		"effectsList": [
 			"Beatdrop",
-			...
+			"...",
 		],
-		"select": ...
+		"select": "...",
 	},
 	"firmwareUpgrade": {},
 	"panelLayout": {
@@ -241,7 +241,7 @@ PUT the following JSON to `/api/v1/{your-auth-key}/effects`:
 ```json
 {
     "write": {
-        "animType": 'custom',
+        "animType": "custom",
         "animData": "2 123 2 255 ...",
         "command": "display",
         "loop":     true,
