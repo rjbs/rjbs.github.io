@@ -101,59 +101,59 @@ If you GET the root of the API, you get something like this:
 
 ```json
 {
-	"name": "Shapes B77A",
-	"serialNo": "...",
-	"manufacturer": "Nanoleaf",
-	"firmwareVersion": "9.2.0",
-	"hardwareVersion": "1.4-0",
-	"model": "NL42",
-	"discovery": {},
-	"effects": {
-		"effectsList": [
-			"Beatdrop",
-			"...",
-		],
-		"select": "...",
-	},
-	"firmwareUpgrade": {},
-	"panelLayout": {
-		"globalOrientation": {
-			"value": 240,
-			"max": 360,
-			"min": 0
-		},
-		"layout": {
-			"numPanels": 3,
-			"sideLength": 27,
-			"positionData": [
-				{
-					"panelId": 22456,
-					"x": 73, "y": 58, "o": 0,
-					"shapeType": 9
-				},
-				{
-					"panelId": 9927,
-					"x": 106, "y": 77, "o": 60,
-					"shapeType": 9
-				},
-				{
-					"panelId": 0,
-					"x": 47, "y": 73, "o": 60,
-					"shapeType": 12
-				}
-			]
-		}
-	},
-	"qkihnokomhartlnp": {},
-	"schedules": {},
-	"state": {
-		"brightness": { "value": 100, "max": 100, "min": 0 },
-		"colorMode": "effect",
-		"ct": { "value": 2700, "max": 6500, "min": 1200 },
-		"hue": { "value": 0, "max": 360, "min": 0 },
-		"on": { "value": true },
-		"sat": { "value": 0, "max": 100, "min": 0 }
-	}
+  "name": "Shapes B77A",
+  "serialNo": "...",
+  "manufacturer": "Nanoleaf",
+  "firmwareVersion": "9.2.0",
+  "hardwareVersion": "1.4-0",
+  "model": "NL42",
+  "discovery": {},
+  "effects": {
+    "effectsList": [
+      "Beatdrop",
+      "...",
+    ],
+    "select": "...",
+  },
+  "firmwareUpgrade": {},
+  "panelLayout": {
+    "globalOrientation": {
+      "value": 240,
+      "max": 360,
+      "min": 0
+    },
+    "layout": {
+      "numPanels": 3,
+      "sideLength": 27,
+      "positionData": [
+        {
+          "panelId": 22456,
+          "x": 73, "y": 58, "o": 0,
+          "shapeType": 9
+        },
+        {
+          "panelId": 9927,
+          "x": 106, "y": 77, "o": 60,
+          "shapeType": 9
+        },
+        {
+          "panelId": 0,
+          "x": 47, "y": 73, "o": 60,
+          "shapeType": 12
+        }
+      ]
+    }
+  },
+  "qkihnokomhartlnp": {},
+  "schedules": {},
+  "state": {
+    "brightness": { "value": 100, "max": 100, "min": 0 },
+    "colorMode": "effect",
+    "ct": { "value": 2700, "max": 6500, "min": 1200 },
+    "hue": { "value": 0, "max": 360, "min": 0 },
+    "on": { "value": true },
+    "sat": { "value": 0, "max": 100, "min": 0 }
+  }
 }
 ```
 
@@ -240,13 +240,13 @@ PUT the following JSON to `/api/v1/{your-auth-key}/effects`:
 
 ```json
 {
-    "write": {
-        "animType": "custom",
-        "animData": "2 123 2 255 ...",
-        "command": "display",
-        "loop":     true,
-        "palette": [],
-    }
+  "write": {
+    "animType": "custom",
+    "animData": "2 123 2 255 ...",
+    "command": "display",
+    "loop":     true,
+    "palette": [],
+  }
 }
 ```
 
