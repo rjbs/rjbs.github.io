@@ -89,15 +89,22 @@ that's what I want out of an API, so I started out theoretically happy.
 The root of the API is:
 
 ```
-https://your-device.local.:16021/api/v1/{your-auth-key}
+https://your-device.local.:16021/api/v1/{your-auth-token}
 ```
 
 In theory, the port number can vary, but I get the impression it never does.
-It's in the mDNS discovery data, though.  Oh, and see that `{your-auth-key}`?
+It's in the mDNS discovery data, though.  Oh, and see that `{your-auth-token}`?
 That's one of the things often found in the official docs as `<auth_token>`,
 and therefore never rendered.  Yow!
 
-If you GET the root of the API, you get something like this:
+Before you can make any other API calls, you'll need one of those auth tokens.
+They're easy to get.  First, you hold down the power button for about seven
+seconds, until the lights on the control panel start flashing.  Then you can
+POST an empty body to `/api/v1/new`.  You'll get back a JSON document with your
+auth token.  Save that, you'll need it!
+
+With that, if you GET the root of the API (that URL above, ending in your auth
+token), you get something like this:
 
 ```json
 {
@@ -194,9 +201,9 @@ An animation is basically defined like this:
 ```
 nPanels
     [0] panelId_0 nFrames
-        [0] r g b w delay
+        [0] r g b w time 
         …
-        [n] r g b w delay
+        [n] r g b w time 
     [1] panelId_1 nFrames
     …
     [n] panelId_n nFrames
@@ -206,7 +213,9 @@ The things in brackets are just so you can see things that repeat.  The short
 English description is:  First, the number of panels involved in the animation.
 Then, for each panel, its identifier followed by the number of frames that
 panel will animate through.  Then, for each frame, RGBW values and a transition
-time.  Transition times are given in deciseconds.
+time.  The RGBW value for a frame is four numbers, each ranging from 0 to 255,
+for the intensity of red, green, blue, and white.  (Actually, though, white is
+always ignored.)  Transition times are given in deciseconds.
 
 When you provide the animation to the server, it's given as a string.  So,
 imagine you have two panels.  Their ids are 123 and 678.  You want them to
@@ -236,7 +245,7 @@ document this, but it really doesn't get the point across.  I struggled with
 this a few times, and now you shouldn't have to.
 
 To set your two-panel Nanoleaf Shapes setup to use the above animation, you'd
-PUT the following JSON to `/api/v1/{your-auth-key}/effects`:
+PUT the following JSON to `/api/v1/{your-auth-token}/effects`:
 
 ```json
 {
