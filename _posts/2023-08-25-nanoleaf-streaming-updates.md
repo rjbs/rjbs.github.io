@@ -82,3 +82,10 @@ I'd also like to do some work on visualizing the configuration of the panels,
 just for fun.  More importantly, though, I'd like to know how to implement
 things like "sweep colors left to right" based on the arrangement and
 orientation data.  I'll look at that in a couple weeks, maybe.
+
+Until then, here is an extremely thrilling video of streaming mode being used
+to cycle through colors around a set of panels:
+
+<center>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/53137890469/in/dateposted/" title="nanoleaf spinner"><img src="https://live.staticflickr.com/31337/53137890469_25a6db5549_c.jpg" width="800" height="450" alt="nanoleaf spinner"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</center>
