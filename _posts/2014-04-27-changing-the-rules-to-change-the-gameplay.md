@@ -92,7 +92,7 @@ earlier today:
 
 What does this tell me?  My score would go up 78% instantly if I'd just make
 some progress on my "[Great Infocom
-Replay](http://rjbs.manxome.org/rubric/entries/tags/infocom-replay)", which
+Replay](https://rjbs.cloud/tags/#infocom-replay)", which
 I've ignored horribly since declaring I'd do it.  (It's been over a year and
 I've only played six of the thirty-ish games.)  In other words:  if I make
 something a goal, I should do it, even if I'm not doing it as frequently as I

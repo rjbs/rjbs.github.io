@@ -4,7 +4,7 @@ title : "addex and hiveminder, together at last"
 date  : "2008-02-27T02:33:06Z"
 tags  : ["addex", "email", "hiveminder", "perl", "productivity", "programming"]
 ---
-I've written [too much](http://rjbs.manxome.org/rubric/~rjbs/addex) already
+I've written [too much](https://rjbs.cloud/tags/#addex) already
 about [Addex](http://search.cpan.org/dist/Addex) so I will only review for just
 a few paragraphs.  Addex uses your address book to produce configuration for
 your various mailtools.

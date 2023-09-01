@@ -5,7 +5,7 @@ date  : "2008-12-17T00:39:52Z"
 tags  : ["hiveminder", "liquidplanner", "productivity", "software"]
 ---
 I've written a few times about how much I like
-[Hiveminder](http://rjbs.manxome.org/rubric/entries/tags/hiveminder), Best
+[Hiveminder](https://rjbs.cloud/tags/#hiveminder), Best
 Practical's to do list manager.  (As an aside, I really need to decide on
 whether I write "to do" or "todo" or "to-do."  I keep switching between them in
 single documents.  It's silly.)  I've also mentioned LiquidPlanner a few times.
