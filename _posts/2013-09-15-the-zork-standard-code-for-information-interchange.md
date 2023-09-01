@@ -16,7 +16,7 @@ book at one point and looking up answers for problems we hadn't seen yet.  What
 was I thinking?
 
 Still, it's stuck with me, and I'm glad, because I still enjoy [replaying those
-games](http://rjbs.manxome.org/rubric/entries/user/rjbs/tags/infocom-replay),
+games](https://rjbs.cloud/tags/#infocom-replay),
 trying to write my own, and [reading about the
 craft](http://www.lulu.com/us/en/shop/kevin-jackson-mead-and-j-robinson-wheeler/if-theory-reader/ebook/product-17551190.html).
 Most of my (lousy, unfinished) attempts to make good text adventures have been

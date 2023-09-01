@@ -6,7 +6,7 @@ tags  : ["perl", "productivity", "programming", "reading", "ywar"]
 ---
 [Ywar](https://github.com/rjbs/Ywar) is a little piece of productivity software
 that I wrote.  I've [written about Ywar
-before](http://rjbs.manxome.org/rubric/entries/tags/productivity), so I won't
+before](https://rjbs.cloud/tags/#productivity), so I won't
 rehash it much.  The idea is that I use [The Daily Practice](https://tdp.me/)
 to track whether I'm doing things that I've decided to do.  I track a lot of
 these things already, and Ywar connects up my existing tracking with The Daily

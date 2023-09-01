@@ -19,7 +19,7 @@ templating system.
 
 [Rx](http://rjbs.manxome.org/rx) is an extensible cross-language data
 validation system.  It's extensible and easy to use in many places.  I've
-[written a bit about it](http://rjbs.manxome.org/rubric/~rjbs/rx) already, and
+[written a bit about it](https://rjbs.cloud/tags/#rx) already, and
 I'll probably write more as it gets better in the future.
 
 Path::Resolver is not a dispatcher.  I mention this only because a few of the

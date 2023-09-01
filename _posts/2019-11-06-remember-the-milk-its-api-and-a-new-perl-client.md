@@ -12,19 +12,20 @@ been using it for years, and I wax and wane in my attention to my tasks, but
 it's been a good help and I'm glad to have it.  I'd be even happier with some
 changes, but more on that later.
 
-Years ago, I built [Ywar](https://rjbs.manxome.org/entries/2010), and I still
-use it.  It tracks my habits, when possible, using the APIs of services where I
-leave footprints.  Am I weighing myself?  Am I exercising?  Am I doing some
-reading?  Am I closing todo items in Remember the Milk?  I get a congratulatory
-push notification when I hit a goal, and I get an email in the morning telling
-me what I should do today.  These notices help keep me paying attention and
-motivated.  One of the reasons this has worked okay — although I'll definitely
-admit that Ywar has not remained a massive force for productivity of late — is
-that it's there's not much extra work involved.  It looks at what I'm already
-doing and records whether I did what I wanted.  This means I have good "did
-exercise" feedback when I go for a run, because my running app logs to
-RunKeeper, but nearly no feedback when I lift weights, because my weightlifting
-app has no API.  Less friction leads to greater success.
+Years ago, I built [Ywar]({% post_url 2013-07-25-i-get-points-for-blogging-this
+%}), and I still use it.  It tracks my habits, when possible, using the APIs of
+services where I leave footprints.  Am I weighing myself?  Am I exercising?  Am
+I doing some reading?  Am I closing todo items in Remember the Milk?  I get a
+congratulatory push notification when I hit a goal, and I get an email in the
+morning telling me what I should do today.  These notices help keep me paying
+attention and motivated.  One of the reasons this has worked okay — although
+I'll definitely admit that Ywar has not remained a massive force for
+productivity of late — is that it's there's not much extra work involved.  It
+looks at what I'm already doing and records whether I did what I wanted.  This
+means I have good "did exercise" feedback when I go for a run, because my
+running app logs to RunKeeper, but nearly no feedback when I lift weights,
+because my weightlifting app has no API.  Less friction leads to greater
+success.
 
 So, I wanted to apply this to my interactions with RTM.  Its web UI is pretty
 good, and there's a native macOS app that's pretty good, too.  (Its macOS app

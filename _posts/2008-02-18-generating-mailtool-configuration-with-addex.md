@@ -16,13 +16,13 @@ mutt aliases file from my address book.  Later it grew to produce some other
 configuration, and finally it became
 [addex](http://search.cpan.org/dist/App-Addex).
 
-I've [written about
-addex](http://rjbs.manxome.org/rubric/entries/tags/addex/created_before/2008) a
-little before, but never anything comprehensive.  I realized that I really had
-to write up an explanation after the nth conversation with a Close Personal
-Friend that went like this:
+I've [written about addex](https://rjbs.cloud/tags/#addex) a little before, but
+never anything comprehensive.  I realized that I really had to write up an
+explanation after the nth conversation with a Close Personal Friend that went
+like this:
 
-> rjbs: I'm so happy with Addex.  It's one of the most useful things I've written.
+> rjbs: I'm so happy with Addex.  It's one of the most useful things I've
+> written.
 >
 > friend: What's Addex?
 
