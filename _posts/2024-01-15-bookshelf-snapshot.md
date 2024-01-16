@@ -21,12 +21,9 @@ go in.
 
 ## Shelf 1: Notebooks
 
-<a data-flickr-embed="true"
-href="https://www.flickr.com/photos/rjbs/53466831710/in/dateposted/"
-title="shelfie, shelf 1 (top shelf)"><img
-src="https://live.staticflickr.com/65535/53466831710_b2a7637ff6_c.jpg"
-width="800" height="600" alt="shelfie, shelf 1 (top shelf)"/></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://flic.kr/p/2psFuj3">
+<img src="https://live.staticflickr.com/65535/53466831710_b2a7637ff6_c.jpg">
+</a>
 
 My top shelf is sort of ridiculous.  Also, in the last six months, it's gotten
 more ridiculous.  That wooden box is a [Field Notes archival
@@ -52,12 +49,9 @@ I am going to stop buying notebooks until I fill more of them.  Probably.
 
 ## Shelf 2: some books
 
-<a data-flickr-embed="true"
-href="https://www.flickr.com/photos/rjbs/53466831685/in/photostream/"
-title="shelfie, shelf 2"><img
-src="https://live.staticflickr.com/65535/53466831685_0e310016a5_c.jpg"
-width="800" height="600" alt="shelfie, shelf 2"/></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://flic.kr/p/2psFuiB">
+<img src="https://live.staticflickr.com/65535/53466831685_0e310016a5_c.jpg">
+</a>
 
 Unfortunately, it is here, at the first shelf of books, that I am reminded that
 my bookshelf is not really organized in any coherent way.  I think that when I
@@ -109,12 +103,9 @@ moves, but I try to keep it looking good.
 
 ## Shelf 3: another bunch of books
 
-<a data-flickr-embed="true"
-href="https://www.flickr.com/photos/rjbs/53466407921/in/photostream/"
-title="shelfie, shelf 3"><img
-src="https://live.staticflickr.com/65535/53466407921_3a33146069_c.jpg"
-width="800" height="600" alt="shelfie, shelf 3"/></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://flic.kr/p/2psDjkk">
+<img src="https://live.staticflickr.com/65535/53466407921_3a33146069_c.jpg">
+</a>
 
 Before we talk books, though: check it out!  A sheet of the rare, staff-only
 Fastmail Melbourne Office stickers, including fairy bread, a Keep Cup, and
@@ -154,12 +145,9 @@ software alone or as a team.
 
 ## Shelf 4: TCP/IP Illustrated and other thick books
 
-<a data-flickr-embed="true"
-href="https://www.flickr.com/photos/rjbs/53465500127/in/photostream/"
-title="shelfie, shelf 4"><img
-src="https://live.staticflickr.com/65535/53465500127_e593237eb8_c.jpg"
-width="800" height="600" alt="shelfie, shelf 4"/></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://flic.kr/p/2psyEtH">
+<img src="https://live.staticflickr.com/65535/53465500127_e593237eb8_c.jpg">
+</a>
 
 So many thick books on this shelf!  TCP/IP Illustrated gets a lot more shelf
 space than I think it deserves.  Or, maybe what I mean is:  volumes 2 and 3
