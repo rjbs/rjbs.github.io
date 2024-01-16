@@ -189,12 +189,9 @@ did on the subject, including a slide that said "cow eye sucker".
 
 ## Shelf 5: the bottom shelf
 
-<a data-flickr-embed="true"
-href="https://www.flickr.com/photos/rjbs/53466407911/in/photostream/"
-title="shelfie, shelf 5"><img
-src="https://live.staticflickr.com/65535/53466407911_93079d2fa5_c.jpg"
-width="800" height="600" alt="shelfie, shelf 5"/></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://flic.kr/p/2psDjka">
+<img src="https://live.staticflickr.com/65535/53466407911_93079d2fa5_c.jpg">
+</a>
 
 Honestly, this whole exercise has felt really weird.  Why are my books
 organized like this?  Why do I have so many that I haven't read?  Why am I
