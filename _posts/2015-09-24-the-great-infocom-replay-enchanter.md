@@ -16,7 +16,7 @@ gutted me:  hunger and mazes.  "You are getting hungry" is one of my least
 favorite things to see in a game.  It is a *guarantee* that I will end up dead
 and have to figure out how to replay the game in fewer moves, next time.
 Similarly awful is the feeling of leaving "The Transparent Room" only to find
-myself in "The Transparent Room" with a slightly different descrpition.  It
+myself in "The Transparent Room" with a slightly different description.  It
 means I'm going to waste half an hour figuring out a maze using the "gather a
 bunch of items and drop them in different rooms" technique.  It's not fun.
 

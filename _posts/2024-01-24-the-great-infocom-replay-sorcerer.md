@@ -15,7 +15,7 @@ out on whether I'll follow through and love it.  On the other hand, the Great
 Infocom Replay seemed like something that would be fun, not too taxing, and
 that I'd feel good about doing.
 
-I looked at, and lamente,d the state of Z-Machine interpreters for macOS,
+I looked at, and lamented, the state of Z-Machine interpreters for macOS,
 shrugged, and got to work.  (I started on Frotz, my old stand-by, but due to
 terminal problems, I eventually moved on to Yazmin.  More on this another time,
 maybe.)
@@ -44,7 +44,7 @@ Enchanter, the game to which Sorcerer is a sequel:
 > least favorite things to see in a game. It is a guarantee that I will end up
 > dead and have to figure out how to replay the game in fewer moves, next time.
 > Similarly awful is the feeling of leaving “The Transparent Room” only to find
-> myself in “The Transparent Room” with a slightly different descrpition. It
+> myself in “The Transparent Room” with a slightly different description. It
 > means I’m going to waste half an hour figuring out a maze using the “gather a
 > bunch of items and drop them in different rooms” technique. It’s not fun.
 
