@@ -55,16 +55,16 @@ often correct in my assumptions about what was going on.  I often knew what I
 had to do.  I just didn't know how to do it.  It was a "guess the verb" puzzle
 on a very frustrating level.
 
-> › dig in dirt  
+> ❯ dig in dirt  
 > Although everything is coming up roses, you haven't found anything
 > unusual except for a few pieces of a hard substance which fall back to
 > the ground.
 > 
-> › look in holes  
+> ❯ look in holes  
 > There are two holes here, each about two inches by four inches. They are
 > at least three inches deep and the soil is compacted around them.
 >
-> › look near holes  
+> ❯ look near holes  
 > Ouch! You cut your finger on a sharp edge as you dig. You search
 > carefully in the dirt, now that you are sure something is there, and
 > pull up a piece of porcelain, covered with dirt and dried mud.
@@ -75,7 +75,7 @@ of the dispensing pharmacy.  I couldn't call the pharmacist to ask, "How
 would Allergone interact with Ebullion?"  I couldn't even ask the
 coroner to check for these drugs in the victim's system:
 
-> › analyze Mr. Robner for loblo  
+> ❯ analyze Mr. Robner for loblo  
 >
 > Duffy appears in an instant. "Well, I might be able to analyze the Mr.
 > Robner, but you don't even have it with you!"  With that, he discreetly
