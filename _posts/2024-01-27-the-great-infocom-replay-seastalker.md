@@ -30,7 +30,7 @@ beginning, I had a bad feeling about this.
 > A microphone is sitting on your workbench.
 > 
 > **Okay, Rik, what do you want to do now?**  
-> › answer phone
+> ❯ answer phone
 > 
 > As the alarm bell stops ringing, a picture of a woman holding a microphone
 > appears, and you can hear her voice from the speaker. But both sound and
@@ -39,13 +39,13 @@ beginning, I had a bad feeling about this.
 > (Your score just went up by 1 point!)
 > 
 > **What next?**  
-> ›examine phone
+> ❯ examine phone
 > 
 > You can see a fuzzy picture of a woman on the videophone. Maybe you should
 > turn the knob.
 > 
 > **What next?**  
-> ›turn knob
+> ❯ turn knob
 > 
 > Ah, that's better! You recognize the woman as Commander Bly, who's in charge of
 > the Undersea Research Station of Inventions Unlimited, called the Aquadome,
@@ -55,11 +55,11 @@ beginning, I had a bad feeling about this.
 > (Your score just went up by 1 point!)
 > 
 > **What next?**  
-> ›quit
+> ❯ quit
 
 This was bad enough.  But then this happened over and over:
 
-> ›read logbook  
+> ❯ read logbook  
 > (You'll find the Logbook in your SEASTALKER package.)
 
 So many things were "go look at the feelies".  I have images of the feelies,
