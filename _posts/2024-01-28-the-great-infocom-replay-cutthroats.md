@@ -5,7 +5,7 @@ date  : "2024-01-28T20:00:24Z"
 tags  : ["games", "infocom-replay", "int-fiction"]
 ---
 I guess feel a *little* sheepish that I'm not really going to play much
-Seastalker.  Maybe it's some kind of shame at quitting early that made me stop
+Cutthroats.  Maybe it's some kind of shame at quitting early that made me stop
 the replay ages ago.  This is silly, though.  I don't think the game is fun,
 and I don't really want to force myself to sit through it.
 
