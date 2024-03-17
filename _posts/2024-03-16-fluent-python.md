@@ -3,6 +3,7 @@ layout: post
 title : "I read Fluent Python"
 date  : "2024-02-18T19:04:00Z"
 image : /assets/2024/03/fluent-python.jpg
+tags  : ["books", "python", "review"]
 ---
 
 Almost a year ago, I started reading Fluent Python.  I finished it yesterday,
