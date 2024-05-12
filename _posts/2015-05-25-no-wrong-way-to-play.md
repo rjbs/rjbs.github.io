@@ -54,13 +54,14 @@ players.  Or "I don't know how to do this in a way that players will like,"
 which is a totally okay thing to be true.  There's plenty of stuff I can't do,
 even though players might like it, and so I avoid it, because it would be bad.
 
-The whole thing reminds me of [an episode of Parks and Recreation].  Ron
-"Mustache Guy" Swanson and Leslie "Amy Poehler" Knope have competing scouting
-groups.  Leslie's group focuses on singing songs, baking cookies, and pillow
-fights.  Ron's group struggles to build shelter and find something to eat.  He
-tells his scouts, "We have one activity planned: not getting killed." By the
-end of the episode, all the scouts in Ron's group have defected to Leslie's,
-because they don't think Ron's group is fun.  Leslie wins, Ron loses.
+The whole thing reminds me of [an episode of Parks and
+Recreation](https://en.wikipedia.org/wiki/Pawnee_Rangers).  Ron "Mustache Guy"
+Swanson and Leslie "Amy Poehler" Knope have competing scouting groups.
+Leslie's group focuses on singing songs, baking cookies, and pillow fights.
+Ron's group struggles to build shelter and find something to eat.  He tells his
+scouts, "We have one activity planned: not getting killed." By the end of the
+episode, all the scouts in Ron's group have defected to Leslie's, because they
+don't think Ron's group is fun.  Leslie wins, Ron loses.
 
 There is where a lesser show would end, but Parks and Rec is better than that.
 Leslie takes out an ad in the paper, calling for the kinds of kids who *would*
