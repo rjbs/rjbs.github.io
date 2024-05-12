@@ -72,7 +72,7 @@ wasn't trivial to say "this package failed, report this reason, and now proceed
 to the next package."
 
 <center>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/52869038908/in/dateposted/" title="how the PAUSE indexer works"><img src="https://live.staticflickr.com/65535/52869038908_a2106ab1dd_z.jpg" width="640" height="480" alt="how the PAUSE indexer works"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/52869038908/in/dateposted/" title="how the PAUSE indexer works"><img src="https://live.staticflickr.com/65535/52869038908_a2106ab1dd_z.jpg" alt="how the PAUSE indexer works"/></a>
 </center>
 
 I've encountered this problem a bunch of times when working on the indexer.

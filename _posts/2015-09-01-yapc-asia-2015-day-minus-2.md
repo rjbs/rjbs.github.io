@@ -81,16 +81,9 @@ firm).  The water pressure was high.  The smallness seemed to say, "Get out of
 here and do something else."  This photo does not do justice to its size.
 
 <center>
-<a data-flickr-embed="true" data-header="false" data-footer="false"
-data-context="false"
-href="https://www.flickr.com/photos/rjbs/20909410785/in/dateposted-public/"
-title="my tiny hotel room"><img
-src="https://farm6.staticflickr.com/5695/20909410785_416171c0a4_z.jpg"
-width="640" height="480" alt="my tiny hotel room"></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/20909410785/in/dateposted-public/" title="my tiny hotel room"><img src="https://farm6.staticflickr.com/5695/20909410785_416171c0a4_z.jpg" alt="my tiny hotel room"></a>
 </center>
 
 I got back to the hotel pretty late and had a nice (but short) FaceTime call
 home.  I was pleased, too, to be getting to bed so late.  Surely, I thought,
 I'd be able to sleep until a reasonable hour the next day.  Well…
-

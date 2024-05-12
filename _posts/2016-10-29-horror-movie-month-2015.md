@@ -229,10 +229,5 @@ the world!
 After the movie, we treated ourselves to some of that wonderful Stuff!
 
 <center>
-<a data-flickr-embed="true"
-href="https://www.flickr.com/photos/rjbs/22885455575/in/photolist-GAcq7C-ASiWCg-AekMPp-wbuamZ-ouS4P8-g8YP4a-dFtpFv-cSoyxW-b1ENFv-aMppxT-aMpnnK-aMpoE6-aMpm2F-aLaNs6-8Ej7LJ-4EUkhN-4fRcbL-4fRbh7-4fRcVo-CWXAS-yoGBR-vqjuF-vqjaS-vqj5C-vqjkS-uTn6o-uTmpn-vqe5q-uTmB6-uThqU-uTh9R-s7pee-v2bmm-uUNWf-v5Ne1-v5N8b-v5NaL-uT8Li-uTn9W-uThjN-uThd6-uThgq-uThnX-uUyg4-uTfJm-uTfqT"
-title="The Stuff"><img
-src="https://c8.staticflickr.com/6/5800/22885455575_08b08106f8_z.jpg"
-width="640" height="480" alt="The Stuff"></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/22885455575/in/photolist-GAcq7C-ASiWCg-AekMPp-wbuamZ-ouS4P8-g8YP4a-dFtpFv-cSoyxW-b1ENFv-aMppxT-aMpnnK-aMpoE6-aMpm2F-aLaNs6-8Ej7LJ-4EUkhN-4fRcbL-4fRbh7-4fRcVo-CWXAS-yoGBR-vqjuF-vqjaS-vqj5C-vqjkS-uTn6o-uTmpn-vqe5q-uTmB6-uThqU-uTh9R-s7pee-v2bmm-uUNWf-v5Ne1-v5N8b-v5NaL-uT8Li-uTn9W-uThjN-uThd6-uThgq-uThnX-uUyg4-uTfJm-uTfqT" title="The Stuff"><img src="https://c8.staticflickr.com/6/5800/22885455575_08b08106f8_z.jpg" alt="The Stuff"></a>
 </center>

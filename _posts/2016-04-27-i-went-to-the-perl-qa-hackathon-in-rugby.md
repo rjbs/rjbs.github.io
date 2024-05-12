@@ -16,12 +16,7 @@ dinner with the folks there so far.  I was delighted to get a (totally
 adequate) steak and ale pie.  Why can't I find these in Philly?  No idea.
 
 <center>
-<a data-flickr-embed="true"
-href="https://www.flickr.com/photos/rjbs/26641264166/in/dateposted-public/"
-title="steak and ale pie!!"><img
-src="https://farm2.staticflickr.com/1509/26641264166_22e05ed59c_z.jpg"
-width="640" height="480" alt="steak and ale pie!!" /></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/26641264166/in/dateposted-public/" title="steak and ale pie!!"><img src="https://farm2.staticflickr.com/1509/26641264166_22e05ed59c_z.jpg" alt="steak and ale pie!!" /></a>
 </center>
 
 The next day, we got down to business quickly.  We started, as usual, with
@@ -39,12 +34,7 @@ most of which I attended.
 The view over my shoulder most of the time, though, was this:
 
 <center>
-<a data-flickr-embed="true"
-href="https://www.flickr.com/photos/rjbs/26574786172/in/dateposted-public/"
-title="getting to work!"><img
-src="https://farm2.staticflickr.com/1713/26574786172_2b2014dddb_z.jpg"
-width="640" height="480" alt="getting to work!" /></a><script async
-src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/26574786172/in/dateposted-public/" title="getting to work!"><img src="https://farm2.staticflickr.com/1713/26574786172_2b2014dddb_z.jpg" alt="getting to work!" /></a>
 </center>
 
 Philippe wasn't always there with that camera, though.  Just most of the time.
@@ -158,7 +148,7 @@ This time, I was involved in review, pairing, or discussion on:
 ...and probably other things I've already forgotten.
 
 <center>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/rjbs/26602149941/in/dateposted-public/" title="more hard work"><img src="https://farm2.staticflickr.com/1622/26602149941_a50853c4b1_z.jpg" width="640" height="480" alt="more hard work" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/26602149941/in/dateposted-public/" title="more hard work"><img src="https://farm2.staticflickr.com/1622/26602149941_a50853c4b1_z.jpg" alt="more hard work" /></a>
 </center>
 
 ## Pumpking Updates

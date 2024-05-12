@@ -285,7 +285,7 @@ $ ./demo/panel-ident
 ```
 
 <center>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/53138167713/in/dateposted/" title="nanoleaf panel identifier"><img src="https://live.staticflickr.com/65535/53138167713_ff335af0ec_c.jpg" width="800" height="781" alt="nanoleaf panel identifier"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/53138167713/in/dateposted/" title="nanoleaf panel identifier"><img src="https://live.staticflickr.com/65535/53138167713_ff335af0ec_c.jpg" alt="nanoleaf panel identifier"/></a>
 </center>
 
 The x and y values above are fabrications.  In reality, they're more
