@@ -7,23 +7,23 @@ tags  : ["dnd"]
 I am always baffled by the neverending stream of remarks of the form, "you
 people are playing D&D wrong."  Here's one that particularly bugged me, today:
 
-<center>
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I think
-starting off a new player’s <a
-href="https://twitter.com/hashtag/dnd?src=hash">#dnd</a> experience with
-character death is a poor way to introduce the game and it’s more likely at lvl
-1.</p>— SlyFlourish (@SlyFlourish) <a
-href="https://twitter.com/SlyFlourish/status/602464582016344064">May 24,
-2015</a></blockquote>
-
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Everyone is
-free to their opinion. I feel that the high risk of char death at lvl 1 hurts
-our ability to bring in and keep new <a
-href="https://twitter.com/hashtag/dnd?src=hash">#dnd</a> players.</p>—
-SlyFlourish (@SlyFlourish) <a
-href="https://twitter.com/SlyFlourish/status/602472222440173568">May 24,
-2015</a></blockquote>
-</center>
+<blockquote>
+  <p>
+    I think starting off a new player’s <a
+    href="https://twitter.com/hashtag/dnd?src=hash">#dnd</a> experience with
+    character death is a poor way to introduce the game and it’s more likely at
+    lvl 1.
+  </p>
+  <p>
+    Everyone is free to their opinion. I feel that the high risk of char death
+    at lvl 1 hurts our ability to bring in and keep new <a href="https://twitter.com/hashtag/dnd?src=hash">#dnd</a> players.
+  </p>
+  <cite>by SlyFlourish (
+    <a href="https://twitter.com/SlyFlourish/status/602464582016344064">1st</a>,
+2015</a>
+    <a href="https://twitter.com/SlyFlourish/status/602472222440173568">2nd</a>
+  )</cite>
+</blockquote>
 
 What SlyFlourish should be saying, here, is "hurts my ability to bring in and
 keep new players *who care about the things I care about*."  Some players
