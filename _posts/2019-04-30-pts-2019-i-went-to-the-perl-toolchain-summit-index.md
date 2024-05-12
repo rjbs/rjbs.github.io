@@ -13,7 +13,7 @@ feedback, advice, or just expressions of appreciation (or sympathy, as the case
 may require).
 
 <center>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/rjbs/32794032017/in/album-72157704854535142/" title="Bisham Abbey"><img src="https://live.staticflickr.com/65535/32794032017_520a64eeb7_z.jpg" width="640" height="480" alt="Bisham Abbey"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/32794032017/in/album-72157704854535142/" title="Bisham Abbey"><img src="https://live.staticflickr.com/65535/32794032017_520a64eeb7_z.jpg" alt="Bisham Abbey"></a>
 </center>
 
 The most common topics for me at past summits have been PAUSE, CPAN Testers,

@@ -147,7 +147,9 @@ suggested I just get a cheap wireless numeric keypad.  I bristled at the idea,
 because it didn't seem very *cool*, but I liked that it seemed cheap and easy,
 so I got one.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/52631374634/in/dateposted/" title="critical control panel"><img src="https://live.staticflickr.com/65535/52631374634_5dae6aecb4_c.jpg" width="800" height="562" alt="critical control panel"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<center>
+<a href="https://www.flickr.com/photos/rjbs/52631374634/in/dateposted/" title="critical control panel"><img src="https://live.staticflickr.com/65535/52631374634_5dae6aecb4_c.jpg" alt="critical control panel"></a>
+</center>
 
 It cost nine dollars and took a single AAA battery.  That was cool, but now
 what?  The idea was "push those buttons to change the lights", but my next step

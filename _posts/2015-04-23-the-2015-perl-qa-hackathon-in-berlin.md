@@ -124,13 +124,7 @@ I'm going to throw in one negative thing, though, which came up not just during
 the big meetings, but all the time.
 
 <center>
-<blockquote class="twitter-tweet" lang="en"><p>Things I am officially tired of:
-jokes about how "$X might be a code of conduct violation!" <a
-href="https://twitter.com/hashtag/perlqah2015?src=hash">#perlqah2015</a></p>—
-Ricardo Signes (@rjbs) <a
-href="https://twitter.com/rjbs/status/589761053380182016">April 19,
-2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js"
-charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>Things I am officially tired of: jokes about how "$X might be a code of conduct violation!" <a href="https://twitter.com/hashtag/perlqah2015?src=hash">#perlqah2015</a></p>— Ricardo Signes (@rjbs) <a href="https://twitter.com/rjbs/status/589761053380182016">April 19, 2015</a></blockquote>
 </center>
 
 I get it.  People have feelings about a written and enforceable code of
@@ -214,15 +208,7 @@ attendees.
 Then, this happened:
 
 <center>
-<blockquote class="twitter-tweet" lang="en"><p>So, <a
-href="https://twitter.com/charsbar">@charsbar</a> says "Are you still
-plackifying PAUSE?"
-"No, I gave it up as not doable in three
-days," I say.
-Five hours later, he has it! 😄</p>— Ricardo Signes
-(@rjbs) <a href="https://twitter.com/rjbs/status/589052578991833088">April 17,
-2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js"
-charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>So, <a href="https://twitter.com/charsbar">@charsbar</a> says "Are you still plackifying PAUSE?" "No, I gave it up as not doable in three days," I say.  Five hours later, he has it! 😄</p>— Ricardo Signes (@rjbs) <a href="https://twitter.com/rjbs/status/589052578991833088">April 17, 2015</a></blockquote>
 </center>
 
 Amazing!  Now, "he has it" may have been a mild overstatement, but not really.
@@ -321,17 +307,7 @@ You could only get the string form out, leading to re-parsing stuff like `>= 4.2
 could do it the next day.  The next day...
 
 <center>
-<blockquote class="twitter-tweet" lang="en"><p>So, <a
-href="https://twitter.com/miyagawa">@miyagawa</a> asks, "Can you implement
-this?" I say, "Maybe tomorrow."
-
-Turns out I'd done
-it 3 yr ago in an unmerged branch. <a
-href="https://twitter.com/hashtag/perlqah2015?src=hash">#perlqah2015</a></p>—
-Ricardo Signes (@rjbs) <a
-href="https://twitter.com/rjbs/status/589383742780768256">April 18,
-2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js"
-charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>So, <a href="https://twitter.com/miyagawa">@miyagawa</a> asks, "Can you implement this?" I say, "Maybe tomorrow." Turns out I'd done it 3 yr ago in an unmerged branch. <a href="https://twitter.com/hashtag/perlqah2015?src=hash">#perlqah2015</a></p>— Ricardo Signes (@rjbs) <a href="https://twitter.com/rjbs/status/589383742780768256">April 18, 2015</a></blockquote>
 </center>
 
 The API was even exactly what I'd suggested.  Woah!

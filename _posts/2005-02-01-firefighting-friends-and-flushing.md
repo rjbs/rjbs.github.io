@@ -56,7 +56,7 @@ went to the dentist on Friday morning, walking past the scene, and the streets
 were clean.  The trees, though, were still encased in ice.
 
 <center>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/albums/72157594427572839" title="the alphagraphics fire, 2005-01"><img src="https://live.staticflickr.com/138/326725438_682c19f701_z.jpg" width="640" height="480" alt="the alphagraphics fire, 2005-01"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/albums/72157594427572839" title="the alphagraphics fire, 2005-01"><img src="https://live.staticflickr.com/138/326725438_682c19f701_z.jpg" alt="the alphagraphics fire, 2005-01"></a>
 </center>
 
 Bryan came up this weekend.  He rolled in Saturday morning and stuck around
@@ -66,7 +66,7 @@ but didn't.  It was his loss; he could've played with the new toy Bryan gave me
 for Christmas:
 
 <center>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/328829289/in/photolist-v4kz8-v4kuv-uUE1y-v4kjX/" title="unicron"><img src="https://live.staticflickr.com/144/328829289_672966814b_z.jpg" width="480" height="640" alt="unicron"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/328829289/in/photolist-v4kz8-v4kuv-uUE1y-v4kjX/" title="unicron"><img src="https://live.staticflickr.com/144/328829289_672966814b_z.jpg" alt="unicron"></a>
 </center>
 
 Eric said, "What's a unicron?"  I was horrified at the question, and when I

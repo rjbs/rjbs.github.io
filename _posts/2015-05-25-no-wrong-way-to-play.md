@@ -15,6 +15,7 @@ character death is a poor way to introduce the game and it’s more likely at lv
 1.</p>— SlyFlourish (@SlyFlourish) <a
 href="https://twitter.com/SlyFlourish/status/602464582016344064">May 24,
 2015</a></blockquote>
+
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Everyone is
 free to their opinion. I feel that the high risk of char death at lvl 1 hurts
 our ability to bring in and keep new <a
@@ -23,7 +24,6 @@ SlyFlourish (@SlyFlourish) <a
 href="https://twitter.com/SlyFlourish/status/602472222440173568">May 24,
 2015</a></blockquote>
 </center>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 What SlyFlourish should be saying, here, is "hurts my ability to bring in and
 keep new players *who care about the things I care about*."  Some players
