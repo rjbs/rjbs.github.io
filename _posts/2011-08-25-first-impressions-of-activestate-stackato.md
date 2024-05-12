@@ -39,7 +39,7 @@ slogan would've been true -- and that's pretty impressive.
 
 The contest was to bring up an open-source web application on Stackato.  At
 first, I thought I'd have to write something new, which seemed like a big drag.
-I found out that I could use an existing program, whcih was great news.  It
+I found out that I could use an existing program, which was great news.  It
 also helped me focus on understanding Stackato instead of writing a web app.
 If I had written a new app, the easy deployment wouldn't have made any impact,
 because I would've been spending all my time debugging new code.  I decided to
