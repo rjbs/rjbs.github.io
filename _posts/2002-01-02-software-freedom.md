@@ -20,10 +20,12 @@ crusaders.  He said, in his <a
 href='http://www.gnu.org/philosophy/free-sw.html'>free software definition</a>
 that there are four kinds of freedom involved in software:
 
-* 0. freedom to run a program for any reason
-* 1. freedom to study the program's workings and modify it
-* 2. freedom to redistribute copies
-* 3. freedom to improve the program and release your improvements
+<ol start="0">
+<li>freedom to run a program for any reason</li>
+<li>freedom to study the program's workings and modify it</li>
+<li>freedom to redistribute copies</li>
+<li>freedom to improve the program and release your improvements</li>
+</ol>
 
 If a program is licensed such that all four freedoms are granted, it is
 (says Stallman), *free software*.
