@@ -73,8 +73,11 @@ result of calling the generators given as values in the `fake_hash` call.
 
 It takes a little while to get used to working with the code generators this
 way, but once you do, it comes very easy to snap together generators of random
-data structures.  Helpfully, as you can see above, Data::Fake comes with
-generators for a bunch of data types.
+data structures.  (When you're done here, why not check out [David Golden's
+talk about using higher-order functions to create
+Data::Fake](https://xdg.me/taking-perl-to-eleven-with-higher-order-functions-tpc/)?)
+Helpfully, as you can see above, Data::Fake comes with generators for a bunch
+of data types.
 
 What I did was write a Data::Fake plugin,
 [Data::Fake::CPAN](https://metacpan.org/pod/Data::Fake::CPAN), that provides
