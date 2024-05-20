@@ -3,6 +3,7 @@ layout: post
 title : "World Uncovered is cool"
 date  : "2024-05-19T12:00:00Z"
 tags  : ["travel"]
+image : /assets/2024/05/vienna-uncovered.png
 ---
 
 Years ago, I found an iOS app called [World
