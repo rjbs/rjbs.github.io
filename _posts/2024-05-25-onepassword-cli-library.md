@@ -30,15 +30,15 @@ your clipboard:
 "op://rjbs/Pobox/password"
 ```
 
-The 1Password command line tool is `op`.  You can pass that URL to `op read`
-and it will print out the value of the field.  Here's that's the password.
-Getting one field at a time can be useful if you only need to retrieve a
-password or TOTP secret or API token.  Often, though, you'll want to get the
-whole login at once.  It would mean you could just store the item's id rather
-than a cleartext username and a reference to the password field.  Or worse, the
-a reference to the password field and another one to the the TOTP field.  Also,
-since each field needs to be retrieved separately with `op read`, it means more
-external processes and more possibility of weird errors.
+You can pass that URL to `op read` and it will print out the value of the
+field.  Here, that's the password.  Getting one field at a time can be useful
+if you only need to retrieve a password or TOTP secret or API token.  Often,
+though, you'll want to get the whole login at once.  It would mean you could
+just store the item's id rather than a cleartext username and a reference to
+the password field.  Or worse, a reference to the password field and another
+one to the the TOTP field.  Also, since each field needs to be retrieved
+separately with `op read`, it means more external processes and more
+possibility of weird errors.
 
 The `op item get` command can fetch an entire item with all its fields.  It can
 spit the whole item out as JSON.  Here's a limited subset of such a document:
