@@ -33,7 +33,7 @@ I guess some programmers are really scared about injection attacks, and don't
 know quite how to prevent them.  I mean, look at this error message from
 T-Mobile:
 
-> Please do not use a space or ' or \" or ; or % or , in your password. 
+> Please do not use a space or ' or \\" or ; or % or , in your password.
 
 See that backslash in front of the double-quote?  Yeah, that shows up on their
 web site, too.  If they're afraid of SQL injection, I can tolerate the quotes
