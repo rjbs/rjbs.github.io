@@ -8,8 +8,8 @@
     <link rel="me" href="https://oulipo.social/@rjbs" title="Mastodon (lipogrammatic)"</link>
 
     {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    <meta name="description" content="{{ page.excerpt| strip_html | normalize_whitespace }}" />
+    <meta property="og:description" content="{{ page.excerpt| strip_html | normalize_whitespace }}" />
     {% else %}
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
