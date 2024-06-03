@@ -73,3 +73,7 @@ the 15th time."  This can be annoying, but I'd rather receive those emails and
 know that branches were cleaned up.  Also, I don't think GitHub sends them —
 let me know if I'm wrong!
 
+**Update**:  Eventually I made `git-scrub-branches` not rebase any remote that
+had an open request related to it, unless a given switch was passed.  This
+avoids most of the "rude" rebasing.
+
