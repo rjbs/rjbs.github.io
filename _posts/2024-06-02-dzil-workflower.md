@@ -1,8 +1,8 @@
 ---
 layout: post
 title : "workflower, for my dzil testing workflows"
-date  : "2024-05-25T12:00:00Z"
-tags  : ["perl","programming","security"]
+date  : "2024-06-02T12:00:00Z"
+tags  : ["perl","programming","testing"]
 ---
 
 Starting ages ago, once in a while somebody would show up and offer me a commit
