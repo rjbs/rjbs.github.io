@@ -103,7 +103,8 @@ delight, but I'm not super into hearing complaints about it.
 Anyway, rebuilding Dist::Zilla's own workflow takes its full test run down from
 about 3.5 minutes to about 2.5.  Email::MIME's went down from around 2.5
 minutes to around 1.5.  They're going from fast to slightly faster, but it's
-still satisfying.
+still satisfying.  Depending on when you read this, you may be able to see
+[workflow results on GitHub](https://github.com/rjbs/Dist-Zilla/actions).
 
 I do expect that in the future I'll make the whole thing better, but not until
 I have some code I'm working on a lot more.  We'll see when that happens…
