@@ -163,3 +163,50 @@ action will upgrade all my workflows that use it by name, which is a big deal.
 Maybe I'll never make many changes to these actions, and so there won't be a
 lot of benefit in that sense, but going through the process was pretty helpful
 for my ongoing learning of how to use GitHub Actions.  I'm glad I did it.
+
+## ❗️ Update: a few hours later…
+
+After posting this, I mentioned it on the `#distzilla` IRC channel, saying:
+
+> I think next is having the `dzil-build` action also create something storing
+> the perl version range to test, which would mean the workflow would very
+> rarely need a rebuild.
+
+[Graham Knop](https://github.com/haarg) replied with only a URL, pointing me at
+the [perl-actions/perl-versions](https://github.com/perl-actions/perl-versions)
+action.  This action takes a minimum version as an input and spits out a range
+of actions, suitable for passing to the matrix strategy.
+
+With that, I knew it would easy to let the actions compute the required perl,
+instead of having to rebuild it.  This is a nice win!  Until today, when a new
+perl is release, or when I change the required perl for a distribution, I'd
+had to rebuild the workflow to get the new version range in place.  Now, it'll
+just work.  Any new run, for any reason, like a new pull request, will run
+against the latest perl.  If somebody submits a perl request that bumps the
+minimum perl, it won't test on the dropped versions.  Great!
+
+Once again, this required weird stuff, because programming in GitHub Actions is
+often programming in a rich melange of YAML and bash.  For example, here's some
+of the newly-added code:
+
+```yaml
+- name: Get minimum perl version
+id: minimum-perl
+shell: bash
+run: |
+  PERL_MINIMUM=$(
+    jq --raw-output 'if (.prereqs.runtime.requires.perl == null) then "v5.8" else .prereqs.runtime.requires.perl end' ${{ inputs.dist-name }}/META.json
+  )
+  echo "minimum-perl $PERL_MINIMUM"
+  PERL_MINIMUM_NORMAL=$(perl -Mversion -E "say version->parse(q{$PERL_MINIMUM})->normal")
+  echo "minimum-perl-normal $PERL_MINIMUM_NORMAL"
+  echo "minimum-perl=$PERL_MINIMUM_NORMAL" >> $GITHUB_OUTPUT
+- name: Get testable perl versions
+id: perl-versions
+uses: perl-actions/perl-versions@v1
+with:
+  since-perl: ${{ steps.minimum-perl.outputs.minimum-perl }}
+  with-devel: true
+```
+
+Oh, right: YAML, bash, and *jq*.  Yow.
