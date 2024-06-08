@@ -21,8 +21,8 @@ Here's a really commonly-seen bit of GitHub Actions workflow code:
 
 ```yaml
 steps:
-  - name: Check out repo
-    uses: actions/checkout@v4
+- name: Check out repo
+  uses: actions/checkout@v4
 ```
 
 This clones the repository being tested onto the "runner" where your action is
@@ -124,8 +124,8 @@ jobs:
   build-tarball:
     runs-on: ubuntu-latest
     steps:
-      - name: Build archive
-        uses: rjbs/dzil-build@v0
+    - name: Build archive
+      uses: rjbs/dzil-build@v0
 
   multiperl-test:
     needs: build-tarball
@@ -140,8 +140,8 @@ jobs:
       image: perldocker/perl-tester:${{ matrix.perl-version }}
 
     steps:
-      - name: Test distribution
-        uses: rjbs/test-perl-dist@v0
+    - name: Test distribution
+      uses: rjbs/test-perl-dist@v0
 ```
 
 The actions themselves are pretty straightforward, too.
