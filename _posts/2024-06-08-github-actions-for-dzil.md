@@ -119,7 +119,7 @@ So, my goal was to make my workflow definition look like this:
 That seemed like the least complexity I could produce, for now.  And I achieved
 it!
 
-```
+```yaml
 jobs:
   build-tarball:
     runs-on: ubuntu-latest
