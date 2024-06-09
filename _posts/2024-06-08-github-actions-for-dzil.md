@@ -146,25 +146,24 @@ jobs:
 
 The actions themselves are pretty straightforward, too.
 
-The [dzil-build](https://github.com/rjbs/dzil-build) action is a good fifty
-lines, but it does more or less exactly one thing, and I bet it could be used
-by other people for other purposes.  I think it could also be a good place to
-put some little improvements like the caching of the installed prereqs.  I only
-gave it one parameter, `dist-name`, which is used to create the tarball.
-Generally, you don't need to supply this, because the action will use your
-repository name.  This is a little improvement on the previous workflow, which
-always created `Dist-To-Test.tar.gz`.
+The `dzil-build` action is a good fifty lines, but it does more or less exactly
+one thing, and I bet it could be used by other people for other purposes.  I
+think it could also be a good place to put some little improvements like the
+caching of the installed prereqs.  I only gave it one parameter, `dist-name`,
+which is used to create the tarball.  Generally, you don't need to supply this,
+because the action will use your repository name.  This is a little improvement
+on the previous workflow, which always created `Dist-To-Test.tar.gz`.
 
-The [test-perl-dist](https://github.com/rjbs/test-perl-dist/) action is the
-other fifty lines.  I'm less certain that this action would be useful in other
-contexts, but it still might be!  Even if not, it means that upgrades to the
-action will upgrade all my workflows that use it by name, which is a big deal.
+The `test-perl-dist` action is the other fifty lines.  I'm less certain that
+this action would be useful in other contexts, but it still might be!  Even if
+not, it means that upgrades to the action will upgrade all my workflows that
+use it by name, which is a big deal.
 
 Maybe I'll never make many changes to these actions, and so there won't be a
 lot of benefit in that sense, but going through the process was pretty helpful
 for my ongoing learning of how to use GitHub Actions.  I'm glad I did it.
 
-## ❗️ Update: a few hours later…
+## ❗️ Update 1: a few hours later…
 
 After posting this, I mentioned it on the `#distzilla` IRC channel, saying:
 
@@ -210,3 +209,13 @@ with:
 ```
 
 Oh, right: YAML, bash, and *jq*.  Yow.
+
+## ❗️ Update 2: the next day…
+
+I spent a bunch of time reading more about how to compose workflows and actions
+and overhauled things some more.  See [my next entry]({ post_url
+2024-06-09-dzil-actions }) for more.
+
+Having done that, the `rjbs/dzil-build` and `rjbs/test-perl-dist` actions were
+no longer relevant, so I will be deleting them.  I removed links to them from
+this post.
