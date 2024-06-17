@@ -15,14 +15,15 @@ lazy when the project will need other people to be interested, unless I'm sure
 they will be.  Who wants to launch a flop to their friends?
 
 Anyway, yesterday I was talking to my friend [Joe](https://joewoods.dev/) and
-he mentioned some recent [last.fm](https://last.fm/) crossovers.  See, Joe stil
-uses last.fm, and seems to be one of the last people I know who does so.  But I
-do so, too, so always interested in the stuff he says about it.  Us last.fm
-users have to stick together.  If you don't know what last.fm is:  it tracks
-the music you listen to and keeps records.  You can mine your own history, or
-the history of most other users, and like… do stuff.  Clients to log plays are
-built into a number of music apps, including Spotify, so why not turn it on
-today, so I can look over shoulder while you listen?  You'll love it!
+he mentioned some recent [last.fm](https://last.fm/) crossovers.  See, Joe
+still uses last.fm, and seems to be one of the last people I know who does so.
+But I do so, too, so always interested in the stuff he says about it.  Us
+last.fm users have to stick together.  If you don't know what last.fm is:  it
+tracks the music you listen to and keeps records.  You can mine your own
+history, or the history of most other users, and like… do stuff.  Clients to
+log plays are built into a number of music apps, including Spotify, so why not
+turn it on today, so I can look over shoulder while you listen?  You'll love
+it!
 
 Apparently last.fm is now owned by CBS, who probably would be asking themselves
 why they bought it, if they ever bothered to think about it at all.
