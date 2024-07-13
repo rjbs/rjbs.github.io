@@ -34,7 +34,7 @@ stuff!  I decided to teach her PostScript.  We'd already played with RPN
 calculators, so we were halfway there, right?  She was a natural.  I showed her
 this little box-drawer:
 
-```
+```postscript
 newpath
   250 225 moveto 275 225 lineto
   275 200 lineto 250 200 lineto
@@ -47,7 +47,7 @@ where she picked this up.  Kids these days!
 
 Anyway, she drew a skull, and it was awesome:
 
-![skull](/assets/ps-skull.png)
+![skull](/assets/2015/03/ps-skull.png)
 
 Those three squares were going to be a lesson.  After we did one square, we
 could turn it into a square subroutine!  Only as I began to say this out loud
@@ -58,14 +58,14 @@ got there.
 
 A routine to compute `a²+b²` would look something like:
 
-```
+```postscript
 /sum2sq { dup mul swap dup mul add }
 ```
 
 If you wanted to actually get "a" and "b" to use, you'd write something like
 (and please forgive the fact that I will get this wrong, probably):
 
-```
+```postscript
 /sum2sq {
   2 dict
   /b exch def
@@ -116,4 +116,3 @@ She tells me that when she gets older, she'll be a better programmer than I am,
 because her programs "won't have bugs."
 
 Ah, innocence!
-
