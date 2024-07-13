@@ -78,4 +78,4 @@ and I'd put them *after* the common commits but *before* the new commits on my
 local branch.  Even without that, though, this is a pretty nice little tool.  I
 hope to use it more than `git push` from now on.
 
-![screenshot of git-publish](/assets/git-publish.png)
+![screenshot of git-publish](/assets/2021/06/git-publish.png)
