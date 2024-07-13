@@ -69,5 +69,5 @@ Argo puts a closed chest in the party's wagon, and attaches a tapestry to it, co
 
 We reach the end of the woods and enter a clearing, where we can see at a distance two burning torches and a fence.
 
-![the gate?](/assets/gate.jpg)
+![the gate?](/assets/2015/02/gate.jpg)
 
