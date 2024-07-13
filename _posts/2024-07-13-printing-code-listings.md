@@ -55,7 +55,8 @@ drive printers.  It's a bit of a weird language, but it's postfix and
 stack-based, so I have a soft spot in my heart for it.  You can see three books
 on PostScript on shelf three in my [post about my technical bookshelf]({%
 post_url 2024-01-15-bookshelf-snapshot %}).  Ten years ago, showing the kid
-different kinds of programming, we wrote this program:
+different kinds of programming, [we wrote this program]({% post_url
+2015-03-22-notes-on-drawing-programming-for-children %}):
 
 ```postscript
 /text {
@@ -80,7 +81,8 @@ newpath 300 225 moveto 325 225 lineto
         300 225 lineto stroke
 ```
 
-It draws a skull with the caption "You're standing on my neck!".  Try it!
+It draws [a skull with the caption "You're standing on my
+neck!"](/assets/2015/03/ps-skull.png).  Try it!
 
 But how?  Well, in theory you can send it directly to your printer with `lp`,
 but on current macOS (unlike older versions) you will get this error:
