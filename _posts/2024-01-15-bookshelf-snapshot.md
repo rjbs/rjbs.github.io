@@ -2,7 +2,7 @@
 layout: post
 title : "a bookshelf snapshot"
 date  : "2024-01-15T14:35:56Z"
-image : /assets/2024/shelfie.jpg
+image : /assets/2024/05/shelfie.jpg
 ---
 
 For some reason, in mid-2023, and I really have no idea why, I took photos of
