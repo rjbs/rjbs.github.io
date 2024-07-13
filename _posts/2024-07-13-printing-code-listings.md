@@ -57,7 +57,7 @@ on PostScript on shelf three in my [post about my technical bookshelf]({%
 post_url 2024-01-15-bookshelf-snapshot %}).  Ten years ago, showing the kid
 different kinds of programming, we wrote this program:
 
-```
+```postscript
 /text {
   /Times-Roman findfont exch scalefont setfont
 } def
@@ -156,7 +156,7 @@ it for syntax highlighting, and then emits a program.  For example, here's a
 hunk of output for the Perl code that I'll be using in all the samples in this
 post.
 
-```
+```postscript
 0 T () S
 (sub) K
 ( ) p
@@ -176,7 +176,7 @@ string "richsection" on the stack.  True, there may be other things on the
 stack, but I happen to know that `L` is a one-argument function.  It looks like
 this:
 
-```
+```postscript
 /L {
   0 0 0 FG
   1 1 0 true BG
@@ -225,7 +225,7 @@ option for that, right?  Sadly, no.  I decided to use my PostScript expertise
 to work.  Here's the `N` function, which renders a line and moves to the next
 position:
 
-```
+```postscript
 /N {
   Show
   /y0 y0 bfs sub store
@@ -236,7 +236,7 @@ position:
 `bfs` is the "body font size".  We're moving a little down the page by reducing
 the `y` position of the cursor by the font size.  What if we did this?
 
-```
+```postscript
 /y0 y0 bfs 1.1 mul sub store
 ```
 
@@ -247,7 +247,7 @@ mucking with the vertical spacing, we start running off the end of the page.
 We need to change the number of lines that `a2ps` puts on the page.  No
 problem, we'd just tweak this code:
 
-```
+```c
 job->status->linesperpage =
   (int) ((printing_h / job->fontsize) - BOTTOM_MARGIN_RATIO);
 ```
@@ -419,7 +419,7 @@ Vim ships with a helper file called `2html.vim`, which exports the current
 buffer as HTML, using the settings and colors currently in use.  You can enter
 this in your Vim command line:
 
-```
+```vim
 runtime! syntax/2html.vim
 ```
 
