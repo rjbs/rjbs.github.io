@@ -3,7 +3,7 @@ layout: post
 title : "my git branch manager"
 date  : "2021-06-13T14:30:08Z"
 tags  : ["git", "perl", "programming"]
-image : /assets/branch-scrubber.png
+image : /assets/2021/06/branch-scrubber.png
 ---
 Like a lot of people, I have not been great at cleaning up my old git branches
 over time.  Sometimes they get merged but I don't delete them.  (The "delete
@@ -45,7 +45,7 @@ this, more or less:
 I have a lot of branches in my work code, so here's the program running on a
 repo where I have fewer, the perl5.git repo:
 
-![screenshot of branch scrubber](/assets/branch-scrubber.png)
+![screenshot of branch scrubber](/assets/2021/06/branch-scrubber.png)
 
 The existence of this screenshot might alert you to the fact that I've now made
 the tool work on perl5.git.  In fact, it should work on any GitHub or GitLab
