@@ -1,4 +1,6 @@
-# Ethos
+---
+title: Ethos
+---
 
 The Ethos campaign started when Complexity (a cyberpunk space pirates
 campaign) ended.  Our first game was in January 2009.  It ended in 2014.

@@ -1,3 +1,7 @@
+---
+title: Alar
+---
+
 When I was having trouble getting a new tabletop game going, I started to
 grumble that it would be a lot easier to get a game going online.  Instead of
 telling me to quit whining, a few friends encouraged me to get to work on
