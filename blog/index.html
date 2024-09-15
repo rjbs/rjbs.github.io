@@ -15,13 +15,6 @@ title: My Journal
         {% for tag in tags %}{% if site.data.tagmoji[tag] %}<span title="{{ tag }}">&nbsp;{{ site.data.tagmoji[tag] }}</span>{% endif %}{% endfor %}
         {{ post.excerpt }}
       </div>
-
-      <div>
-      </div>
-
-      <!-- Eh.  This felt like noise.
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      -->
     </article>
   {% endfor %}
 
