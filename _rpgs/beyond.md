@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Beyond the Temple of the Abyss
 ---
 
