@@ -3,8 +3,15 @@ layout: default
 title: My RPGs
 ---
 
-<ul>
-{% for rpg in site.rpgs %}
-  <li><a href="{{ site.baseurl }}{{ rpg.url }}">{{ rpg.title }}</a></li>
-{% endfor %}
-</ul>
+<div class="posts">
+  {% for rpg in site.rpgs %}
+  <article class="post">
+    <h1><a href="{{ site.baseurl }}{{ rpg.url }}">{{ rpg.title }}</a></h1>
+
+    <div class="entry">
+      {{ rpg.excerpt }}
+    </div>
+  </article>
+
+  {% endfor %}
+</div>
