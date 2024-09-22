@@ -46,7 +46,7 @@ worked pretty well.
 
 ## Setting
 
-<a href="https://www.flickr.com/photos/rjbs/5493850823/" title="&quot;Alar&quot; - Vorica Minor and Alar"><img src="https://live.staticflickr.com/5013/5493850823_6b100a8c78_c.jpg" width="800" height="742" alt="&quot;Alar&quot; - Vorica Minor and Alar"/></a>
+<img src="https://live.staticflickr.com/5014/5494444760_4ba67eed86_c.jpg" width="800" height="450" alt="&quot;Alar&quot; - the western Castaign empire"/></a>
 
 Alar was set in the massive city of Alar, one of the largest cities in the
 sprawling and powerful Castaigne Empire.  In recent months, the city had become
