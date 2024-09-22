@@ -1,0 +1,156 @@
+body,
+html {
+  margin:0;
+  padding:0;
+  background:#000;
+  color:#000;
+}
+a, a:visited {
+  color: #000;
+  text-decoration: none;
+  border-bottom: dotted 1px black;
+}
+a:hover {
+  color: #ff0;
+  border-bottom: dotted 1px yellow;
+}
+body {
+  min-width:775px;
+}
+#content {
+  background-color: rgb( 55, 144,  86);
+  margin:0 auto;
+  width:775px;
+}
+#header {
+  background: #eee;
+  color: rgb( 60,  79, 133);
+}
+#header h1 {
+  padding:5px;
+  margin:0;
+}
+#nav {
+  background:#bbb;
+  padding:5px;
+}
+#nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+#nav li{
+  display:inline;
+  margin:0;
+  padding:0;
+  padding-left:1em;
+}
+#nav a:hover { color: #555; border-bottom: #555 1px dotted }
+#main {
+  background-color: rgb(120, 139, 193);
+  float:right;
+  width:625px;
+}
+#main h2, #main h3, #main p {
+  padding:0 10px;
+}
+#main ul {
+  padding:0 20px;
+}
+#main a:hover { color: #036; border-bottom: #036 1px dotted }
+#sidebar {
+  background-color: rgb( 55, 144,  86);
+  float:right;
+  width:140px;
+}
+#sidebar ul {
+  margin-bottom:0;
+}
+#sidebar h3, #sidebar p {
+  padding:0 10px 0 0;
+}
+#sidebar a, #sidebar a:visited {
+  color: #eee;
+  border-bottom: 1px #fff dotted;
+}
+#sidebar a:hover {
+  color: #040;
+  border-bottom: 1px #040 dotted;
+}
+#sidebar p.type {
+  margin-top: .5em;
+  margin-bottom: 0;
+}
+#footer {
+  background: #ccc;
+  clear:both;
+}
+#footer p {
+  padding:5px;
+  margin:0;
+}
+
+button {
+  border:1px black solid;
+  font-size: 100%;
+  background-color: #aaa;
+}
+
+div.sample {
+  background-color: #eee;
+  text-align: center;
+  padding: 1em;
+  margin: 1em 7%;
+  -moz-border-radius: 10px;
+  width: 80%;
+}
+div.sample p {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+pre {
+  padding: 1em;
+  text-align: left;
+  -moz-border-radius: 10px;
+  background-color: #cca;
+}
+pre.yaml { background-color: #cce; }
+pre.json { background-color: #cec; }
+
+
+span.logo  { white-space: nowrap; }
+span.paren { font-weight: normal; color: rgb( 45, 100,  76) }
+.cons { color: rgb( 60,  79, 133); }
+.cdr  { color: rgb( 45, 134,  76); font-style: italic; }
+
+table {
+  padding:0 40px;
+}
+
+th, td.prefix {
+  text-align: left;
+  vertical-align: top;
+  width: 4em;
+}
+
+td {
+  text-align: left;
+  width: 25em;
+}
+
+table#demoInputs { margin: 0 10px; }
+table#demoInputs td{
+  margin: 0;
+  border-spacing: 0
+
+}
+#status        {
+  background-color: #eee;
+  border: 1px black solid;
+  width: 80%;
+  margin-left: 7%;
+}
+#status.error  { color: red    }
+#status.accept { color: green  }
+#status.reject { color: orange }

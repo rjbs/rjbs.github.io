@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Rx: Simple, Extensible Schemata</title>
+  <link rel='stylesheet' href='../rx.css' />
+</head>
+
+<body>
+
+<script src='http://rjbs.manxome.org/js/jquery.js'></script>
+<script lang='text/javascript'>
+function addSidebarLink(uri, txt, cls) {
+  $('#sidebar').append(
+    '<p class="' + cls + '"><a href="' + uri + '">' + txt + '</a></p>'
+  );
+}
+
+$(function() {
+  $('div.toggle pre.yaml').before("<button class='jy'>toggle json/yaml</button>");
+  $('div.toggle pre.json').hide();
+  $('button.jy').toggle(
+    function () { $('pre.json').show(); $('pre.yaml').hide(); },
+    function () { $('pre.yaml').show(); $('pre.json').hide(); }
+  );
+
+  $('h2').each(function () {
+    if (true) return;
+    var $this = $(this);
+    addSidebarLink('#' + $this.attr('id'), $this.text(), '');
+  });
+
+  if (true) {
+    var types = ["all","any","arr","bool","def","int","map","nil","num","one","rec","seq","str"];
+    for (i in types) {
+      addSidebarLink(
+        '../coretype/' + types[i] + '.html',
+        '//' + types[i],
+        'type'
+      );
+    }
+  }
+});
+</script>
+
+<div id='content'>
+<div id='header'><h1>Rx: Simple, Extensible Schemata</h1></div>
+
+<div id='nav'>
+  <ul>
+    <li><a href='../index.html'>About</a></li>
+    <li><a href='../coretypes.html'>Core Types</a></li>
+    <li><a href='../moretypes.html'>More Types</a></li>
+    <li><a href='../demo.html'>Demonstration</a></li>
+    <li><a href='../download.html'>Download</a></li>
+    <li><a href='../faq.html'>FAQ</a></li>
+  </ul>
+</div>
+
+<div id='main'>
+<h2>//def</h2>
+
+<p>
+  <tt>//def</tt> will accept absolutely any value that has a value.  That is,
+  anything that would not be matched by <tt>//nil</tt>.
+</p>
+
+<p>
+  The <tt>//def</tt> type takes no parameters.
+</p>
+
+<div class='sample'>
+  <p>/.meta/def, the schema for //def definitions:</p>
+  <pre class='json'>{
+  "type": "//rec",
+  "required": {
+    "type": { "type": "//str", "value": "//def" }
+  }
+}</pre>
+</div>
+
+</div>
+
+<div id='sidebar'>
+</div>
+
+<div id='footer'>
+  <p>
+  Rx, Copyright 2008,
+  <span class="logo">(<span class='cons'>code</span> (<span
+  class='cdr'>simply</span><span style='font-size:.5em'> </span>))</span>
+  </p>
+</div>
+
+</body>
+</html>

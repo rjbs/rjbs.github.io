@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Rx: Simple, Extensible Schemata</title>
+  <link rel='stylesheet' href='rx.css' />
+</head>
+
+<body>
+
+<script src='http://rjbs.manxome.org/js/jquery.js'></script>
+<script lang='text/javascript'>
+function addSidebarLink(uri, txt, cls) {
+  $('#sidebar').append(
+    '<p class="' + cls + '"><a href="' + uri + '">' + txt + '</a></p>'
+  );
+}
+
+$(function() {
+  $('div.toggle pre.yaml').before("<button class='jy'>toggle json/yaml</button>");
+  $('div.toggle pre.json').hide();
+  $('button.jy').toggle(
+    function () { $('pre.json').show(); $('pre.yaml').hide(); },
+    function () { $('pre.yaml').show(); $('pre.json').hide(); }
+  );
+
+  $('h2').each(function () {
+    if (false) return;
+    var $this = $(this);
+    addSidebarLink('#' + $this.attr('id'), $this.text(), '');
+  });
+
+  if (false) {
+    var types = ["all","any","arr","bool","def","int","map","nil","num","one","rec","seq","str"];
+    for (i in types) {
+      addSidebarLink(
+        'coretype/' + types[i] + '.html',
+        '//' + types[i],
+        'type'
+      );
+    }
+  }
+});
+</script>
+
+<div id='content'>
+<div id='header'><h1>Rx: Simple, Extensible Schemata</h1></div>
+
+<div id='nav'>
+  <ul>
+    <li><a href='index.html'>About</a></li>
+    <li><a href='coretypes.html'>Core Types</a></li>
+    <li><a href='moretypes.html'>More Types</a></li>
+    <li><a href='demo.html'>Demonstration</a></li>
+    <li><a href='download.html'>Download</a></li>
+    <li><a href='faq.html'>FAQ</a></li>
+  </ul>
+</div>
+
+<div id='main'>
+<h2 id='terms'>Terminology</h2>
+
+<script lang='text/javascript'>
+$(function() {
+  $('table.types th').each(function () {
+    var $this = $(this);
+    var m = $this.text().match(/^\/\/(\w+)$/);
+    $this.html('<a href="coretype/' + m[1] + '.html">' + m[0] + '</a>');
+  });
+});
+</script>
+
+<p>
+  There are really only two things you need to know about in Rx: types and
+  schemata.  A type is an abstract description of a type of data.  For
+  example, "an integer" or "an associative array" are data types.  When they're
+  made into concrete, checkable constraints, they become schemata.  This is
+  done by parameterizing them.
+</p>
+
+<p>
+  A Rx type is identified by a unique URL, generally in the <a
+  href='http://taguri.org/'><tt>tag:</tt></a> schema.  When writing these in
+  schema definitions, there is a form of shorthand available.  If the string
+  begins with a slash, it is assumed to be in the format:
+  <tt>/<em>id</em>/<em>rest</em></tt>, where <em>id</em> is in a list of known
+  identifiers that expand to base URLs.
+</p>
+
+<p>
+  For example, given this prefix table:
+</p>
+
+<table>
+  <tr><td class='prefix'>rubric</td><td>tag:codesimply.com,2008:rubric/</td></tr>
+  <tr><td class='prefix'>x</td>     <td>http://example.com/x-ample/</td></tr>
+</table>
+
+<p>
+  ...then type names may be supplied as <tt>/rubric/tag</tt> or <tt>/x/int</tt>
+  instead of <tt>tag:codesimply.com,2008:rubric/tag</tt> or
+  <tt>http://example.com/x-ample/tag</tt> respectively.
+</p>
+
+<p>
+  The empty prefix is always reserved for the core type tag prefix:
+</p>
+
+<table>
+  <tr><td class='prefix'>(empty)</td><td>tag:codesimply.com,2008:rx/core/</td></tr>
+</table>
+
+<p>
+  Types located under <tt>tag:codesimply.com,2008:rx/core/</tt> are the
+  <em>core types</em> and must be implemented by all Rx implementations.  These
+  are detailed below.  While users can define their own custom types, quite a
+  lot of data validation rules can be expressed using the core types.
+</p>
+
+<p>
+  Prefixes starting with a period are reserved for use by Rx.  The following
+  are defined:
+</p>
+
+<table>
+  <tr><td class='prefix'>.rx</td>  <td>tag:codesimply.com,2008:rx/</td></tr>
+  <tr><td class='prefix'>.meta</td><td>tag:codesimply.com,2008:rx/meta/</td></tr>
+</table>
+
+<p>
+  This page gives a brief overview of the core types, which will be defined
+  in detail elsewhere, later.
+</p>
+
+<h2 id='single'>Single Types</h2>
+
+<p>
+  The basic scalar (one-value) types are:
+</p>
+
+<table class='types'>
+  <tr>
+    <th>//nil</th>
+    <td>the lack of a value (undef, null, nil, etc)</td>
+  </tr>
+
+  <tr>
+    <th>//def</th>
+    <td>any defined value; anything that is not //nil</td>
+  </tr>
+
+  <tr>
+    <th>//bool</th><td>a value that is either true or false</td>
+  </tr>
+
+  <tr>
+    <th>//num</th><td>a number; may be parameterized by a range</td>
+  </tr>
+
+  <tr>
+    <th>//int</th>
+    <td>an integer; any number such that <tt>(x == floor(x))</tt>; may be
+    parameterized by a range</td>
+  </tr>
+
+  <tr>
+    <th>//str</th>
+    <td>a string, even the empty string; may require a specific string or be
+    parameterized by length range</td>
+  </tr>
+
+  <tr>
+    <th>//one</th>
+    <td>any single value -- anything //def that is not a collection</td>
+  </tr>
+</table>
+
+<h2 id='collect'>Collection Types</h2>
+<p>
+  The basic collection (many-value) types are:
+</p>
+
+<table class='types'>
+  <tr>
+    <th>//arr</th>
+    <td>a list of values all of one type; may be parameterized by length</td>
+  </tr>
+
+  <tr>
+    <th>//seq</th>
+    <td>a list of values of varying types; each slot has a schema</td>
+  </tr>
+
+  <tr>
+    <th>//rec</th>
+    <td>a record of named entries, each with its own schema</td>
+  </tr>
+
+  <tr>
+    <th>//map</th>
+    <td>a map of names to values, with all the values matching one schema</td>
+  </tr>
+</table>
+
+<h2 id='combo'>Combination Types</h2>
+
+<p>
+  The basic combination types are:
+</p>
+
+<table class='types'>
+  <tr>
+    <th>//any</th>
+    <td>either anything at all, or any of a given list of schemata</td>
+  </tr>
+
+  <tr>
+    <th>//all</th>
+    <td>a list of schemata; checked data must validate against them all</td>
+  </tr>
+</table>
+
+</div>
+
+<div id='sidebar'>
+</div>
+
+<div id='footer'>
+  <p>
+  Rx, Copyright 2008,
+  <span class="logo">(<span class='cons'>code</span> (<span
+  class='cdr'>simply</span><span style='font-size:.5em'> </span>))</span>
+  </p>
+</div>
+
+</body>
+</html>
