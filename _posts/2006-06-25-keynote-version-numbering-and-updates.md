@@ -1,6 +1,6 @@
 ---
 layout: post
-title : "keynote version numbering and udpates"
+title : "keynote version numbering and updates"
 date  : "2006-06-25T19:02:31Z"
 tags  : ["apple", "macosx", "software"]
 ---
