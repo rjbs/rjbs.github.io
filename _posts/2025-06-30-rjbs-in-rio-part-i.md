@@ -122,10 +122,10 @@ weird.
 
 There was at least one fruit on the list that I *did* know: pineapple.  I was
 surprised and pleased to learn, though, that in Brazil they *don't* call
-pineapple *ananás*, as they do in Portugal and nearly everywhere else.
-Rejecting the worldwide standard name for that fruit made the people of Brazil
-seem even more like my brothers and sisters.  Too bad they still use the metric
-system.
+pineapple *ananás*, as they do in Portugal and nearly everywhere else.  They
+call it *abacaxi*.  Rejecting the worldwide standard name for that fruit made
+the people of Brazil seem even more like my brothers and sisters.  Too bad they
+still use the metric system.
 
 <a href="https://www.flickr.com/photos/rjbs/54617692667/in/album-72177720327189278" title="Feira de São Cristóvão"><img src="https://live.staticflickr.com/65535/54617692667_d26d836796_c.jpg" width="800" height="600" alt="Feira de São Cristóvão, a caipirinha"/></a>
 
