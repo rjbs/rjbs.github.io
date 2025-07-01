@@ -112,7 +112,7 @@ very famous song," was definitely one of the things Breno said to me the most.
 
 Also notable: the ice cream.  Breno pointed at the menu -- and I'm sorry to say
 I didn't get a photo!  "On the right," he said, "are all the boring flavors you
-know.  Chocolate, vanilla, mint.  Who cares?  On the *right*, though, it's all
+know.  Chocolate, vanilla, mint.  Who cares?  On the *left*, though, it's all
 fruit flavors, and I won't bother translating, because you don't have words in
 English for any of these.  They're all South American fruits."  I had
 [jaboticaba](https://en.wikipedia.org/wiki/Jabuticaba).  The ice cream was very
