@@ -159,8 +159,8 @@ It certainly seemed like it to me!
 The other notable part of the meal was the fried hunks of cassava.  At first I
 said, "Hey these potatoes are great!"  Almost as soon as I said it, I realized
 it wasn't potato, and Barbara said, "This is cassava."  I said, "This is just
-like the yucca fries they used to serve at the Cuban place we liked."  Barbara
-politely explained that cassava and yucca are the same thing, and my mind was
+like the yuca fries they used to serve at the Cuban place we liked."  Barbara
+politely explained that cassava and yuca are the same thing, and my mind was
 totally blown.  I feel like I really should've know this, but I didn't.  Then
 again, I don't live in a place where every single meal contains cassava!
 
