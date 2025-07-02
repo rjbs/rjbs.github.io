@@ -1,6 +1,6 @@
 ---
 layout: post
-title : "rjbs in Rio, part ii"
+title : "rjbs in Rio, part ⅱ"
 date  : "2025-07-01T12:00:00Z"
 tags  : ["travel"]
 ---
@@ -8,7 +8,7 @@ tags  : ["travel"]
 After a rocky start, I had two great days in Rio, leaving me about four days of
 vacation.  This meant lots more walking around, a little more beach, a bunch
 more food (70% cassava, 20% pork, 10% other), more forró music, and not enough
-caipirinhas.  If you didn't read "[rjbs in Rio, part i]({% post_url
+caipirinhas.  If you didn't read "[rjbs in Rio, part ⅰ]({% post_url
 2025-06-30-rjbs-in-rio-part-i %})", you should start there.
 
 ## Saturday
