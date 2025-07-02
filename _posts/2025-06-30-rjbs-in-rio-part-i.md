@@ -1,6 +1,6 @@
 ---
 layout: post
-title : "rjbs in Rio, part i"
+title : "rjbs in Rio, part ⅰ"
 date  : "2025-06-30T12:00:00Z"
 tags  : ["travel"]
 ---
