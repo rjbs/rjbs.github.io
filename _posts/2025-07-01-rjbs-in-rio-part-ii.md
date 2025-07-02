@@ -21,9 +21,9 @@ around to cool things I would never have done on my own.  I had a lazy morning
 of scrambed eggs and orange juice, and some amount of walking around the
 neighborhood.  By this point, I'd decided that all the fearmongering around
 getting mugged in Rio was wildly overblown, but it did seem like I should pay
-attention to where I wandered, so I didn't head too far in unknown directions,
-but I did see a bunch more shops, including things that I probably should've
-tried eating, but didn't.  A little after ten, though, I headed to the farmer's
+attention to where I wandered, so I didn't head too far in unknown directions.
+I did see a bunch more shops, including things that I probably should've tried
+eating, but didn't.  A little after ten, though, I headed to the farmer's
 market at General Glicério street.  I was interested in lots of the things, but
 stuck to the suggestions: a *pastel* (sort of like an empanada), a *tapioca*
 (like a taco or crêpe made with cassava), and *caldo de cana* (sugarcane
@@ -32,12 +32,12 @@ tapioca:
 
 <a href="https://www.flickr.com/photos/rjbs/54617669272/in/album-72177720327189278" title="farmer&#x27;s market"><img src="https://live.staticflickr.com/65535/54617669272_783ddc26ac_c.jpg" width="600" height="800" alt="farmer&#x27;s market"/></a>
 
-It doesn't look like much, but it was weirdly delicious.  Breno and his
-daughter had one with nutella and banana — a classic pairing to stuff into
-anything.  I had the more traditional cheese and coconut, which seemed weird
-but tasted great.  I was also simultaneously pleased and weirded out by the
-shell.  It was soft and chewy, and had a subtle flavor that I can't describe.
-I would eat many more, with many different fillings.
+It doesn't look like much, but it was delicious.  Breno and his daughter had
+one with nutella and banana — a classic pairing to stuff into anything.  I had
+the more traditional cheese and coconut, which seemed weird but tasted great.
+I was also simultaneously pleased and weirded out by the shell.  It was soft
+and chewy, and had a subtle flavor that I can't describe.  I would eat many
+more, with many different fillings.
 
 We ran into a bunch of their friends and their friends' kids, which made for a
 good farmer's market experience.  Who doesn't like watching little kids play in
@@ -53,7 +53,7 @@ There was some debate over whether I should get a huge order or a tiny order.
 We settled on tiny (I was so full already!), but what we got seemed pretty big
 to me!  If you haven't had an açai bowl (or maybe if you've only had whatever
 it is we serve in the US), I guess I'd say it's a bit like frozen yogurt or
-masked frozen bananas, like a cold, sweet, stiff pudding.  It came with two
+mashed frozen bananas, like a cold, sweet, stiff pudding.  It came with two
 little pots, one of tapioca beads and one of granola.  I love putting granola
 into goo, so that was great.  Even so, I couldn't eat more than half of it.
 Even if I'd been very hungry, I'm not sure I could've.  Meanwhile, people all
@@ -77,8 +77,8 @@ us toward the [Candelária
 Church](https://en.wikipedia.org/wiki/Candel%C3%A1ria_Church), a beautiful (but
 slightly dilapidated) church.  Across the street, there were June Festival
 celebrations, and that's where we were headed.  One of Breno's friends was
-going to be part of the celebration, as a stilt walker.  This was a good value
-event.  We watched a bunch of stilt walking, heard a bunch of music, saw some
+going to be part of the celebration, as a stilt walker.  This event was good
+value.  We watched a bunch of stilt walking, heard a bunch of music, saw some
 unexpected [Capoeira](https://en.wikipedia.org/wiki/Capoeira), and even ran
 into Breno's brother and family!  We saw the thing that had been the Olympic
 torch when Rio hosted.  Also, critically, we got caipirinhas.
