@@ -86,6 +86,4 @@ orientation data.  I'll look at that in a couple weeks, maybe.
 Until then, here is an extremely thrilling video of streaming mode being used
 to cycle through colors around a set of panels:
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/53137890469/in/dateposted/" title="nanoleaf spinner"><video src="https://www.flickr.com/photos/rjbs/53137890469/play/720p/25a6db5549/" width="720" height="405" poster="https://live.staticflickr.com/31337/53137890469_25a6db5549_c.jpg" controls=""></video>
-</center>

@@ -44,10 +44,7 @@ the program.
 
 Here's what one of the messages looks like:
 
-<center><a href="http://www.flickr.com/photos/rjbs/9665618769/" title="Ywar Notice by
-rjbs, on Flickr"><img
-src="http://farm4.staticflickr.com/3780/9665618769_50b1de5dc1_o.png"
-width="650" height="629" alt="Ywar Notice"></a></center>
+<a href="http://www.flickr.com/photos/rjbs/9665618769/" title="Ywar Notice by rjbs, on Flickr"><img src="http://farm4.staticflickr.com/3780/9665618769_50b1de5dc1_o.png" width="650" height="629" alt="Ywar Notice"></a>
 
 Right now it's plaintext only.  Eventually, I might make a nice HTML version,
 but I'm in no rush.  I do most of my mail reading in `mutt`, and the email

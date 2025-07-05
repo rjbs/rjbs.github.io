@@ -284,9 +284,7 @@ $ ./demo/panel-ident
   16        cyan    ( -1,  1),   0°
 ```
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/53138167713/in/dateposted/" title="nanoleaf panel identifier"><img src="https://live.staticflickr.com/65535/53138167713_ff335af0ec_c.jpg" alt="nanoleaf panel identifier"/></a>
-</center>
 
 The x and y values above are fabrications.  In reality, they're more
 surprising, as the axes don't appear to follow the device orientation.  If I

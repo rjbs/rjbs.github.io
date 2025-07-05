@@ -5,9 +5,7 @@ date  : "2014-05-16T02:17:27Z"
 ---
 I took this photo of my desk the other day:
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/14008705710" title="my desk by Ricardo SIGNES, on Flickr"><img src="https://farm6.staticflickr.com/5528/14008705710_9850529a51_z.jpg" width="640" height="480" alt="my desk"></a>
-</center>
 
 I was pretty happy with how well it summed up all my hobby activities.  I could
 probably write a blog post on each of these things and feel okay about it.

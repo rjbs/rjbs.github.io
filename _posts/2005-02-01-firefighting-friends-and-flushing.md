@@ -55,9 +55,7 @@ were covered in a sheet of ice; the hoses' water had frozen on the ground.  I
 went to the dentist on Friday morning, walking past the scene, and the streets
 were clean.  The trees, though, were still encased in ice.
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/albums/72157594427572839" title="the alphagraphics fire, 2005-01"><img src="https://live.staticflickr.com/138/326725438_682c19f701_z.jpg" alt="the alphagraphics fire, 2005-01"></a>
-</center>
 
 Bryan came up this weekend.  He rolled in Saturday morning and stuck around
 until last night.  We watched a bunch of Law and Order, played through all of
@@ -65,9 +63,7 @@ Halo 2 in co-op mode, and wondered where John C was.  John said he might come,
 but didn't.  It was his loss; he could've played with the new toy Bryan gave me
 for Christmas:
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/328829289/in/photolist-v4kz8-v4kuv-uUE1y-v4kjX/" title="unicron"><img src="https://live.staticflickr.com/144/328829289_672966814b_z.jpg" alt="unicron"></a>
-</center>
 
 Eric said, "What's a unicron?"  I was horrified at the question, and when I
 explained he told me that he should be excused, because he's younger than I.

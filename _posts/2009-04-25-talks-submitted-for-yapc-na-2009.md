@@ -10,8 +10,7 @@ Living!" will have to wait for next year.  Instead, I submitted a new talk on
 [Rx](http://rjbs.manxome.org/rx), a talk on various new email libraries
 released in the last year, and my long-threatened intro to git, "Git is Easy!"
 
-<center><img
-src='http://farm4.static.flickr.com/3626/3319250417_8fb047ab18.jpg' /></center>
+<img src='http://farm4.static.flickr.com/3626/3319250417_8fb047ab18.jpg' />
 
 Dieter submitted a talk about
 [Dist::Zilla](http://search.cpan.org/dist/Dist-Zilla), and I'll be tickled if

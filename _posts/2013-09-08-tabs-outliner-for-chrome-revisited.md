@@ -36,10 +36,7 @@ This just doesn't seem like that Tabs Outliner is good at.
 
 Let's look at how it works.  This is a capture of the Tabs Outliner window:
 
-<center><a href="http://www.flickr.com/photos/rjbs/9699467755/" title="tab
-outliner plugin by rjbs, on Flickr"><img
-src="http://farm6.staticflickr.com/5524/9699467755_267ed11aae_o.png"
-width="400" height="589" alt="tabs outliner plugin"></a></center>
+<a href="http://www.flickr.com/photos/rjbs/9699467755/" title="tab outliner plugin by rjbs, on Flickr"><img src="http://farm6.staticflickr.com/5524/9699467755_267ed11aae_o.png" width="400" height="589" alt="tabs outliner plugin"></a>
 
 It's an outliner, just like its name implies.  Each of the second-level
 elements is a window, and the third level elements are tabs.

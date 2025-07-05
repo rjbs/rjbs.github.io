@@ -29,12 +29,10 @@ all programming languages past and present, is moving to the Netherlands, and
 couldn't take all his stuff.  "You know who'd like a book on Algol-60?" he
 asked him self.  "Rik!"
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/14482080510" title="books from
 stevan by Ricardo SIGNES, on Flickr"><img
 src="https://farm4.staticflickr.com/3881/14482080510_1a2701ce76_z.jpg"
 width="640" height="480" alt="books from stevan"></a>
-</center>
 
 I'm not sure where I'll start.  The Forth book isn't likely, as I've already
 got some.  PostScript might be out for a while, since it's a bit Forthy on its

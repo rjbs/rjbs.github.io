@@ -65,10 +65,7 @@ get back on the ball!
 Instead, I planned to play and teach Steve Jackson's
 [Ogre](http://www.sjgames.com/ogre/), a tank battle board game of some fame.
 
-<center><a href="https://www.flickr.com/photos/rjbs/14522435732" title="YAPC
-Game Night by Ricardo SIGNES, on Flickr"><img
-src="https://farm3.staticflickr.com/2913/14522435732_a1475937a8_z.jpg"
-width="640" height="480" alt="YAPC Game Night"></a></center>
+<a href="https://www.flickr.com/photos/rjbs/14522435732" title="YAPC Game Night by Ricardo SIGNES, on Flickr"><img src="https://farm3.staticflickr.com/2913/14522435732_a1475937a8_z.jpg" width="640" height="480" alt="YAPC Game Night"></a>
 
 It was a success!  I think I lost every game, but I'm not sure.  Anyway, I had
 a great time, and at least 2-3 games of Ogre occurred without me after I showed

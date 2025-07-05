@@ -23,10 +23,7 @@ Initially, I put these charts in
 [Numbers](https://en.wikipedia.org/wiki/Numbers_(spreadsheet)), which worked
 pretty well.
 
-<center><a href="http://www.flickr.com/photos/rjbs/9715303822/" title="Random
-Encounters spreadsheet by rjbs, on Flickr"><img
-src="http://farm3.staticflickr.com/2833/9715303822_1c2a6f4967_z.jpg"
-width="640" height="429" alt="Random Encounters spreadsheet"></a></center>
+<a href="http://www.flickr.com/photos/rjbs/9715303822/" title="Random Encounters spreadsheet by rjbs, on Flickr"><img src="http://farm3.staticflickr.com/2833/9715303822_1c2a6f4967_z.jpg" width="640" height="429" alt="Random Encounters spreadsheet"></a>
 
 I was happy with some stupid little gimmicks.  I color-coded tables to remind
 me which dice they'd need.  The color codes matched up to colored boxes that
