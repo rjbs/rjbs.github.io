@@ -27,10 +27,10 @@ Still, I thought I had a good handle on how much needed to be explained.  I
 even started work on a somewhat sarcastic set of slides that would reject the
 "learn how git works before running git init" style of tutorial.
 
-<center><a href="http://www.flickr.com/photos/rjbs/3319250417/" title="Git is Easy! by
+<a href="http://www.flickr.com/photos/rjbs/3319250417/" title="Git is Easy! by
 rjbs, on Flickr"><img
 src="http://farm4.static.flickr.com/3626/3319250417_8fb047ab18.jpg" width="500"
-height="374" alt="Git is Easy!" /></a></center>
+height="374" alt="Git is Easy!" /></a>
 
 In the last month, I finished converting Pobox to Git.  It was a fair amount of
 work, but most of it was easy and fun.  On the first day of work in an
@@ -56,8 +56,8 @@ Friday, I tried again: I got up and explained more about how merging works,
 what push and pull requests do, and how remotes are used to share changes.  I
 drew all the box and arrow diagrams that I thought I could avoid, originally.
 
-<center><a href='http://www.flickr.com/photos/packetdump/3317874717/'><img src='http://farm4.static.flickr.com/3446/3317874717_35f90f3191.jpg'
-alt='rjbs explains git' /></a></center>
+<a href='http://www.flickr.com/photos/packetdump/3317874717/'><img src='http://farm4.static.flickr.com/3446/3317874717_35f90f3191.jpg'
+alt='rjbs explains git' /></a>
 
 It seemed to go pretty well.  Despite a few blasphemous interjections and
 remarks about glassy eyes, I actually think it managed to explain the basics

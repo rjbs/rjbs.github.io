@@ -80,9 +80,7 @@ surprised by how much I enjoyed that.  The bed was comfortable (and very, very
 firm).  The water pressure was high.  The smallness seemed to say, "Get out of
 here and do something else."  This photo does not do justice to its size.
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/20909410785/in/dateposted-public/" title="my tiny hotel room"><img src="https://farm6.staticflickr.com/5695/20909410785_416171c0a4_z.jpg" alt="my tiny hotel room"></a>
-</center>
 
 I got back to the hotel pretty late and had a nice (but short) FaceTime call
 home.  I was pleased, too, to be getting to bed so late.  Surely, I thought,

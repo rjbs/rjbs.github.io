@@ -76,12 +76,7 @@ server, which led me to realize that booth-to-booth teleporters would not
 scale.  I could build a targeting system, but that would become very
 complicated quickly.  Instead, I built a hub.
 
-<center>
-<a href="https://www.flickr.com/photos/rjbs/15900530961" title="Minecraft
-Teleport Network v2.0 by Ricardo SIGNES, on Flickr"><img
-src="https://farm8.staticflickr.com/7493/15900530961_97fa5f45e4_z.jpg"
-width="640" height="400" alt="Minecraft Teleport Network v2.0"></a>
-</center>
+<a href="https://www.flickr.com/photos/rjbs/15900530961" title="Minecraft Teleport Network v2.0 by Ricardo SIGNES, on Flickr"><img src="https://farm8.staticflickr.com/7493/15900530961_97fa5f45e4_z.jpg" width="640" height="400" alt="Minecraft Teleport Network v2.0"></a>
 
 I left the two booths in place, but now instead of linking to each other,
 they'd drop you at a floating platform at (0,0) on the map.  This place, "the

@@ -32,6 +32,6 @@ If you already use Dist::Zilla, you know how this should work:  more roles for p
 
 You can configure as many different sets of plugins as you like and drop them in `~/.dzil/profiles` so that you can create dists with different build types. Later, we'll make it possible to add new content to an existing dist.  For now, we have enough new behavior to reasonable use `dzil new` for new work, and we have enough plugin roles to implement VCS integration.  Here's what it looks like in action:
 
-<center><a href="http://www.flickr.com/photos/rjbs/4576716361/" title="first run of the new, complete-ish `dzil new` by rjbs, on Flickr"><img src="http://farm4.static.flickr.com/3319/4576716361_3dd5a5f9ab.jpg" width="447" height="500" alt="first run of the new, complete-ish `dzil new`" /></a></center>
+<a href="http://www.flickr.com/photos/rjbs/4576716361/" title="first run of the new, complete-ish `dzil new` by rjbs, on Flickr"><img src="http://farm4.static.flickr.com/3319/4576716361_3dd5a5f9ab.jpg" width="447" height="500" alt="first run of the new, complete-ish `dzil new`" /></a>
 
 All of this is available in Dist-Zilla 2.101230, which I've just uploaded to the CPAN.

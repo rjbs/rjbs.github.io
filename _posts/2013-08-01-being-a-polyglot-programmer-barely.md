@@ -14,10 +14,7 @@ statsd](https://github.com/sivy/py-statsd), and I started on a tool to build
 [Z-machine](http://en.wikipedia.org/wiki/Z-machine) programs in Perl 6.  I took
 an online course in Scala and got this:
 
-<center><a href="http://www.flickr.com/photos/rjbs/9413234348/" title="I know Scala! by
-rjbs, on Flickr"><img
-src="http://farm4.staticflickr.com/3711/9413234348_d0f2f0e267_z.jpg"
-width="640" height="628" alt="I know Scala!"></a></center>
+<a href="http://www.flickr.com/photos/rjbs/9413234348/" title="I know Scala! by rjbs, on Flickr"><img src="http://farm4.staticflickr.com/3711/9413234348_d0f2f0e267_z.jpg" width="640" height="628" alt="I know Scala!"></a>
 
 That was fun, and I did write some things more complex that I might have
 written if I was working through a book.  Speaking of working through books, I

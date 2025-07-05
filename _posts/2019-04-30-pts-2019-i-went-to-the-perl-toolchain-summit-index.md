@@ -12,9 +12,7 @@ everybody is interested in what everybody else is doing and will offer good
 feedback, advice, or just expressions of appreciation (or sympathy, as the case
 may require).
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/32794032017/in/album-72157704854535142/" title="Bisham Abbey"><img src="https://live.staticflickr.com/65535/32794032017_520a64eeb7_z.jpg" alt="Bisham Abbey"></a>
-</center>
 
 The most common topics for me at past summits have been PAUSE, CPAN Testers,
 Dist::Zilla, and the CPAN::Meta specification.  This year, I focused almost

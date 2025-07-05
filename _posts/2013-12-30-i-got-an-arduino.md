@@ -64,10 +64,11 @@ exponentiation, which introduces some minor type complications.  I was about to
 sort them out when I remembered that I could just use bit shifting.  That was a
 nice (if tiny) relief.
 
-Here's what the decide looks like in action:
+Here's what the device looks like in action:
 
-<center><iframe width="560" height="315" src="//www.youtube.com/embed/rEUEBzIkBR4"
-frameborder="0" allowfullscreen></iframe></center>
+<center>
+<iframe width="560" height="315" src="//www.youtube.com/embed/rEUEBzIkBR4" frameborder="0" allowfullscreen></iframe>
+</center>
 
 Working with hardware is different from software in ways that are easy to
 imagine, but that don't really bug you until you're experiencing them.  If I

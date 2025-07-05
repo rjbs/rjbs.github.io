@@ -71,9 +71,7 @@ other kinds of bad version.  In the place we could detect this, though, it
 wasn't trivial to say "this package failed, report this reason, and now proceed
 to the next package."
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/52869038908/in/dateposted/" title="how the PAUSE indexer works"><img src="https://live.staticflickr.com/65535/52869038908_a2106ab1dd_z.jpg" alt="how the PAUSE indexer works"/></a>
-</center>
 
 I've encountered this problem a bunch of times when working on the indexer.
 Generally, my approach has been to figure out how to best cram something in

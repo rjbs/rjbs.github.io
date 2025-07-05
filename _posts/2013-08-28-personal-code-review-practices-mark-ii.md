@@ -56,7 +56,7 @@ dist, but not built by Dist::Zilla?  Did I forget to enable Issues at GitHub?
 Am I missing any "Kwalitee point" on [the CPANTS game
 scoreboard](http://cpants.cpanauthors.org/author/RJBS)?
 
-<center><a href="http://www.flickr.com/photos/rjbs/9613007993/" title="code-review by rjbs, on Flickr"><img src="http://farm4.staticflickr.com/3671/9613007993_cb3511b3f4_o.png" width="650" height="459" alt="code-review"></a></center>
+<a href="http://www.flickr.com/photos/rjbs/9613007993/" title="code-review by rjbs, on Flickr"><img src="http://farm4.staticflickr.com/3671/9613007993_cb3511b3f4_o.png" width="650" height="459" alt="code-review"></a>
 
 Writing the whole program took an hour, or maybe two, and it will clearly save
 me a fair bit of time whenever I do project review.  I even added a

@@ -10,14 +10,12 @@ some bad talks, and some nice socializing.  At the Perl QA Hackathon, *stuff
 gets done*.  I usually leave feeling like a champ, and that was generally the
 case this time, too.
 
-I flew over with Matt Horsfall, and the trip was fine.  We got to the hotel in
-the early afternoon, settled in, played some chess (stalemate) and then got
+I flew over with Matthew Horsfall, and the trip was fine.  We got to the hotel
+in the early afternoon, settled in, played some chess (stalemate) and then got
 dinner with the folks there so far.  I was delighted to get a (totally
 adequate) steak and ale pie.  Why can't I find these in Philly?  No idea.
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/26641264166/in/dateposted-public/" title="steak and ale pie!!"><img src="https://farm2.staticflickr.com/1509/26641264166_22e05ed59c_z.jpg" alt="steak and ale pie!!" /></a>
-</center>
 
 The next day, we got down to business quickly.  We started, as usual, with
 about thirty seconds of introduction from each person, and then we shut up and
@@ -33,9 +31,7 @@ most of which I attended.
 
 The view over my shoulder most of the time, though, was this:
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/26574786172/in/dateposted-public/" title="getting to work!"><img src="https://farm2.staticflickr.com/1713/26574786172_2b2014dddb_z.jpg" alt="getting to work!" /></a>
-</center>
 
 Philippe wasn't always there with that camera, though.  Just most of the time.
 
@@ -147,9 +143,7 @@ This time, I was involved in review, pairing, or discussion on:
 
 ...and probably other things I've already forgotten.
 
-<center>
 <a href="https://www.flickr.com/photos/rjbs/26602149941/in/dateposted-public/" title="more hard work"><img src="https://farm2.staticflickr.com/1622/26602149941_a50853c4b1_z.jpg" alt="more hard work" /></a>
-</center>
 
 ## Pumpking Updates
 
