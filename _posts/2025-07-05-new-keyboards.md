@@ -226,7 +226,7 @@ like, but the stabilizers on this key were now partly stuck in place.  They'd
 move if pushed or pulled, but it took more force than the spring in the
 keyswitch.  Here's a demonstration:
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/54629774990/in/dateposted-ff/" title="stuck stabs"><img src="https://live.staticflickr.com/31337/54629774990_405daa8fab_c.jpg" width="450" height="800" alt="stuck stabs"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/rjbs/54629774990/in/dateposted-ff/" title="stuck stabs"><video src="https://www.flickr.com/photos/rjbs/54629774990/play/1080p/405daa8fab/" width="450" height="800" poster="https://live.staticflickr.com/31337/54629774990_405daa8fab_c.jpg" controls=""></video></a>
 
 I asked Jesse, but he didn't have any advice that avoided disassembling the
 dang thing again.  I really, *really* wanted to avoid that.  I'd had this thing
