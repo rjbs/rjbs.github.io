@@ -314,6 +314,11 @@ footer {
   color: $white;
 }
 
+p:has( img[src*="staticflickr.com"] ),
+p:has( video[src*="flickr.com"] ) {
+  text-align: center;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
