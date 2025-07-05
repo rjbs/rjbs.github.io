@@ -172,7 +172,7 @@ Earlier, I mentioned that my office had a window onto an ugly wall.  Well, I
 have a photo:
 
 <center>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/51074509211/in/album-72157718784948161/" title="my &quot;view&quot;"><img src="https://live.staticflickr.com/65535/51074509211_146f7d6d0c_c.jpg" alt="my &quot;view&quot;"/></a>
+<a href="https://www.flickr.com/photos/rjbs/51074509211/in/album-72157718784948161/" title="my &quot;view&quot;"><img src="https://live.staticflickr.com/65535/51074509211_146f7d6d0c_c.jpg" alt="my &quot;view&quot;"/></a>
 </center>
 
 Awful.  Just awful.  Eventually that wall was resurfaced, so it went from
