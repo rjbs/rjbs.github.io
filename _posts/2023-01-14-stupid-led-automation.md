@@ -15,7 +15,9 @@ stick with a translucent plastic case.  You plug it in and control it to do
 *whatever you want*.  Here's a toy application, picked to show because it's the
 only video I already had ready.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rjbs/52588732190/in/photostream/" title="IMG_9293"><img src="https://live.staticflickr.com/31337/52588732190_83fd1938d9_c.jpg" width="800" height="450" alt="three red LEDs pulsing left to right"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<center>
+<a href="https://www.flickr.com/photos/rjbs/52588732190/in/photostream/" title="KITT, but blink(1)"><video src="https://www.flickr.com/photos/rjbs/52588732190/play/720p/83fd1938d9/" width="720" height="405" poster="https://live.staticflickr.com/31337/52588732190_83fd1938d9_c.jpg" controls=""></video></a>
+</center>
 
 The hardware and software for blink(1) are open source.  The code is [all on
 GitHub](https://github.com/todbot/blink1-tool), and I even have [some
