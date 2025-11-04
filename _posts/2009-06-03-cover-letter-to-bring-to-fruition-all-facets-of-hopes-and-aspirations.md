@@ -12,7 +12,7 @@ Wow.
 > years as well as Apache via Mod_Perl), 10 plus year open source Linux
 > and the DBI database connection, are but a few of the reasons I
 > strongly wish to be considered concerning your Perl Programmer,
-> Pobox.com (Philadelphia, PA) Craig‚Äôs listing. For this reason, please
+> Pobox.com (Philadelphia, PA) Craig’s listing. For this reason, please
 > accept the attached (plain text) resume.
 > 
 > My syntactical manipulative abilities in Perl (both structured and
