@@ -143,7 +143,7 @@ Special note:  I kept thinking, "Who *is* this actor?"  Turns out he played
 Bill in GTA V, and I recognized his face from his likeness in a video game.
 Woah!
 
-### October 19: [https://letterboxd.com/film/together-2025/](https://letterboxd.com/film/together-2025/)
+### October 19: [Together](https://letterboxd.com/film/together-2025/)
 
 This was another "best of the year" candidate, said the Internet.  It wasn't my
 favorite, but it was good.  It had some serious ideas, and was nicely creepy,
@@ -241,6 +241,18 @@ point of view, but we're following the dog, so we have to work things out from
 what the dog can see.
 
 The dog was great.  The movie was only okay.
+
+## Ghosted
+
+**Oops, this is a later addition!**  Sometimes we fill in some days with TV.
+In the past, this was often when we'd watch American Horror Story.  This year,
+we watched about half of Ghosted, a 2017 show starring Adam Scott and Craig
+Robinson as an odd couple of kinda-losers who get recruited into a secret
+government agency that pursues X-files.  How had I never heard of this before?
+And, in fact, nearly nobody I've talked to has.
+
+Gloria and I liked it, but it was pretty uneven.  The structure of the show
+takes a hard left turn partway through, and it's worse for sure.
 
 ## That's it!
 
