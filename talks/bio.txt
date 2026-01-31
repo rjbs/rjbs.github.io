@@ -1,0 +1,6 @@
+Ricardo Signes spent four years studying philosophy and religion before
+learning that jobs in those fields did not abound.  He managed to convert his
+hobby into his profession, convincing his employer that it was a good idea to
+pay him to create software in Perl.  Ricardo currently works at IC Group,
+where he writes and maintains free and proprietary software.  In his free time,
+he writes code to help making writing code easier.

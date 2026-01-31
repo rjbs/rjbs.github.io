@@ -1,0 +1,10 @@
+INPUT:
+$line = <>;
+chomp $line;
+($m, $n) = split(/ /,$line);
+exit unless $m and $n;
+while ($m != 0) {
+  ($n, $m) = ($m, $n % $m);
+}
+print "gcd is $n\n";
+goto INPUT;
