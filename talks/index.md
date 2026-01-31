@@ -13,7 +13,8 @@ My long form talk on Moose, [Moose is Perl: A Guide to the New
 Revolution](/talks/moose) is available on its own page.
 
 <div class="talks-grid">
-{% for talk in site.talks %}
+{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+{% for talk in sorted_talks %}
   <div class="talk-card">
     {% assign talk_dir = talk.path | remove: '_talks/' | remove: 'index.md' %}
     {% if talk.image %}
