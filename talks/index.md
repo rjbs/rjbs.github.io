@@ -14,8 +14,12 @@ Revolution](/talks/moose) is available on its own page.
 
 * [JMAP: the absolute minimum[.pdf]](https://www.youtube.com/watch?v=8Y5U7OHtr24)
 * [Synergy: a chat bot framework](https://www.youtube.com/watch?v=3YlJHX1QO0Y)
+* [The Perl 5 Debugger: Wuh?](https://www.youtube.com/watch?v=LtAGbUYTnR0)
+* [What's new in Perl (5.34)?](https://www.youtube.com/watch?v=FlGpiS39NMY)
 * [A Million Billion Squiggly Characters](https://www.youtube.com/watch?v=TmTeXcEixEg)
 * [Moose: a guide to the new revolution](https://www.youtube.com/watch?v=LKXvG6VKew4)
+* [Email Hates the Living (YAPC::Asia)](https://www.youtube.com/watch?v=9ncQc3bGMhw)
+* [Email Hates the Living (YAPC Chicago)](https://www.youtube.com/watch?v=4s9IjkMAmns)
 * [The Ongoing Disaster that is Perl 5](https://www.youtube.com/watch?v=gmmVGPdcItM)
 * [Perl 5.22 and You](https://www.youtube.com/watch?v=I8VVtqVh9y0)
 * [Perl 5.20: Perl 5 at 20 (OSCON)](https://www.youtube.com/watch?v=tGoXN0Txl1s)
