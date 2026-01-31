@@ -1,4 +1,3 @@
-# Talks with video recordings
 - title: "JMAP: the absolute minimum"
   description: "An introduction to JMAP email protocol basics."
   video_url: "https://www.youtube.com/watch?v=8Y5U7OHtr24"
@@ -6,6 +5,7 @@
 - title: "Synergy: a chat bot framework"
   description: "Building chat bots with the Synergy framework."
   video_url: "https://www.youtube.com/watch?v=3YlJHX1QO0Y"
+  image: "/assets/talks/synergy.jpg"
 
 - title: "The Perl 5 Debugger: Wuh?"
   description: "Understanding and using the Perl 5 debugger."
@@ -89,7 +89,7 @@
   slides_url: "https://speakerdeck.com/rjbs/validating-data-everywhere-with-rx"
   image: "https://speakerd.s3.amazonaws.com/presentations/c03e7dc0e37901309a7e42f703aafd03/thumb_slide_0.jpg"
 
-- title: "Email"
+- title: "rjbs <3 Email"
   description: "Working with email in Perl."
   slides_url: "https://speakerdeck.com/rjbs/rjbs-3-email"
   image: "https://speakerd.s3.amazonaws.com/presentations/f4c61aa0e3790130c4bc42093019a534/thumb_slide_0.jpg"
