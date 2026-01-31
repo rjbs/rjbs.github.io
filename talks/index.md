@@ -19,7 +19,8 @@ Revolution](/talks/moose) is available on its own page.
       {% if talk.image contains '://' %}
         {% assign image_url = talk.image %}
       {% else %}
-        {% assign image_url = talk.url | append: talk.image %}
+        {% assign talk_dir = talk.path | remove: '_talks/' | remove: 'index.md' %}
+        {% assign image_url = '/talks/' | append: talk_dir | append: talk.image %}
       {% endif %}
       <a href="{{ talk.slides_url | default: talk.video_url }}">
         <img class="talk-image" src="{{ image_url }}" alt="{{ talk.title }}">
