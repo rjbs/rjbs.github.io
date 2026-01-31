@@ -3,92 +3,36 @@ layout: default
 title: Talks
 ---
 
-<div id='content'>
-	<p>
-		I present talks and tutorials about programming, UNIX, and other topics.
-    I've published most of my slides, although they're much less informative
-    without me narrating and gesticulating wildly.  Ask me to come speak for
-    your group!  If I can make it to your public group, I'd love to come.  I'm
-    also available for professional instruction.
-	</p>
+I present talks and tutorials about programming, UNIX, and other topics.  I've
+published most of my slides, although they're much less informative without me
+narrating and gesticulating wildly.  Ask me to come speak for your group!  If I
+can make it to your public group, I'd love to come.  I'm also available for
+professional instruction.
 
-  <p>My long form talk on Moose, <a href='/talks/moose'>Moose is Perl: A Guide
-  to the New Revolution</a> is available on its own page.</p>
+My long form talk on Moose, [Moose is Perl: A Guide to the New
+Revolution](/talks/moose) is available on its own page.
 
-  <ul>
-    <li>
-      <a href='https://www.youtube.com/watch?v=8Y5U7OHtr24'>JMAP: the absolute minimum[.pdf]</a>
-    </li>
-    <li>
-      <a href='https://www.youtube.com/watch?v=3YlJHX1QO0Y'>Synergy: a chat bot
-      framework</a>
-    </li>
-  </ul>
+* [JMAP: the absolute minimum[.pdf]](https://www.youtube.com/watch?v=8Y5U7OHtr24)
+* [Synergy: a chat bot framework](https://www.youtube.com/watch?v=3YlJHX1QO0Y)
 
-  <center>
+<center>
   <div class='images' style='margin-left:auto;margin-right:auto;width:90%'>
-
     <a href='https://speakerdeck.com/rjbs/perl-5-postcards-from-the-edge'><img src='https://speakerd.s3.amazonaws.com/presentations/1fa60ca0e36701309a7f42f703aafd03/thumb_slide_0.jpg' /></a>
-
     <a href='https://speakerdeck.com/rjbs/perl-today-tomorrow-and-christmas'><img src='https://speakerd.s3.amazonaws.com/presentations/4f9e3760e3670130e8c43a22532026d5/thumb_slide_0.jpg' /></a>
-
     <a href='https://speakerdeck.com/rjbs/perl-5-dot-16-for-the-working-programmer'><img src='https://speakerd.s3.amazonaws.com/presentations/64bd7530e3410130bc3a3e950739397c/thumb_slide_0.jpg' /></a>
-
     <br />
-
     <a href='https://speakerdeck.com/rjbs/perl-5-dot-14-for-pragmatists'><img src='https://speakerd.s3.amazonaws.com/presentations/010bda40e34101302bc7765f3158560b/thumb_slide_0.jpg' /></a>
-
     <a href='https://speakerdeck.com/rjbs/perl-5-dot-12-for-everyday-use'><img src='https://speakerd.s3.amazonaws.com/presentations/524183c0e34001309a8042f703aafd03/thumb_slide_0.jpg' /></a>
-
     <a href='https://speakerdeck.com/rjbs/dist-zilla-raaaaaaaaar'><img src='https://speakerd.s3.amazonaws.com/presentations/6f22d0e0e33f0130c4bc42093019a534/thumb_slide_0.jpg' /></a>
-
     <br />
-
     <a href='https://speakerdeck.com/rjbs/validating-data-everywhere-with-rx'><img src='https://speakerd.s3.amazonaws.com/presentations/c03e7dc0e37901309a7e42f703aafd03/thumb_slide_0.jpg' /></a>
-
     <a href='https://speakerdeck.com/rjbs/rjbs-3-email'><img src='https://speakerd.s3.amazonaws.com/presentations/f4c61aa0e3790130c4bc42093019a534/thumb_slide_0.jpg' /></a>
-
     <a href='https://speakerdeck.com/rjbs/writing-maintainable-commands-with-app-cmd'><img src='https://speakerd.s3.amazonaws.com/presentations/009ddcb0e33f0130e8c53a22532026d5/thumb_slide_0.jpg' /></a>
-
     <br />
-
     <a href='https://speakerdeck.com/rjbs/perl-5-dot-10-for-people-who-are-not-totally-insane'><img src='https://speakerd.s3.amazonaws.com/presentations/f667a390e33f01302bc5765f3158560b/thumb_slide_0.jpg' /></a>
-
     <a href='https://speakerdeck.com/rjbs/how-i-learned-to-stop-worrying-and-love-email'><img src='https://speakerd.s3.amazonaws.com/presentations/9c05e9d0e33f01304c6722e2f5ab2796/thumb_slide_0.jpg' /></a>
-
     <a href='https://speakerdeck.com/rjbs/crafting-custom-interfaces-with-sub-exporter'><img src='https://speakerd.s3.amazonaws.com/presentations/9a3f1b90e32f0130ae563679ef66b301/thumb_slide_0.jpg' /></a>
-
     <br />
-
     <a href='https://speakerdeck.com/rjbs/antediluvian-unix'><img src='https://speakerd.s3.amazonaws.com/presentations/6a5af950e32b01302bc5765f3158560b/thumb_slide_0.jpg' /></a>
-
   </div>
-  </center>
-</div>
-
-<div id='footer'>
-
-<table width="95%">
-  <tr>
-    <td align="left" style='width:100px'>
-	<!-- Creative Commons License -->
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/"><img
-	alt="Creative Commons License" style='border:none'
-	src="http://creativecommons.org/images/public/somerights.png" /></a>
-	<!-- /Creative Commons License -->
-    </td>
-		<td></td>
-    <td align="center" style='width:100px'>
-      <a href="http://jigsaw.w3.org/css-validator/check/referer">
-      <img style='border:none'
-        src="http://jigsaw.w3.org/css-validator/images/vcss.png" 
-        alt="Valid CSS!" /></a>
-		</td>
-    <td align="center" style='width:100px'>
-      <a href="http://validator.w3.org/check/referer">
-        <img style='border:none' src="http://www.w3.org/Icons/valid-xhtml10.png" 
-          alt="Valid XHTML 1.0!" height="31" width="88" /></a>
-    </td>
-  </tr>
-</table>
-</div>
+</center>
