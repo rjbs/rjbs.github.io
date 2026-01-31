@@ -13,11 +13,16 @@ My long form talk on Moose, [Moose is Perl: A Guide to the New
 Revolution](/talks/moose) is available on its own page.
 
 <div class="talks-grid">
-{% for talk in site.data.talks %}
+{% for talk in site.talks %}
   <div class="talk-card">
     {% if talk.image %}
+      {% if talk.image contains '://' %}
+        {% assign image_url = talk.image %}
+      {% else %}
+        {% assign image_url = talk.url | append: talk.image %}
+      {% endif %}
       <a href="{{ talk.slides_url | default: talk.video_url }}">
-        <img class="talk-image" src="{{ talk.image }}" alt="{{ talk.title }}">
+        <img class="talk-image" src="{{ image_url }}" alt="{{ talk.title }}">
       </a>
     {% endif %}
     <div class="talk-content">
