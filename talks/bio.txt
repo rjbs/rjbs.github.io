@@ -1,6 +1,7 @@
-Ricardo Signes spent four years studying philosophy and religion before
-learning that jobs in those fields did not abound.  He managed to convert his
-hobby into his profession, convincing his employer that it was a good idea to
-pay him to create software in Perl.  Ricardo currently works at IC Group,
-where he writes and maintains free and proprietary software.  In his free time,
-he writes code to help making writing code easier.
+Ricardo Signes is a chief engineer at Fastmail, a leader in email innovation.
+He has long been a prolific author of open source code, especially in the Perl
+email ecosystem. He is part of the "Toolchain Gang" that maintains the Perl
+library packaging and distribution infrastructure. He spent five years as
+"Pumpking," the Perl 5 project manager, followed by two more on the
+three-person Perl Steering Council that replaced the Pumpking role. In his free
+time, Rik likes to learn new programming languages and swear at his computer.
