@@ -319,6 +319,59 @@ p:has( video[src*="flickr.com"] ) {
   text-align: center;
 }
 
+// Talks grid
+.talks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.talk-card {
+  background: $white;
+  border: 1px solid darken($lightGray, 10%);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .talk-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+  }
+
+  .talk-content {
+    padding: 0.75em;
+  }
+
+  .talk-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+    line-height: 1.3;
+  }
+
+  .talk-description {
+    font-size: 12px;
+    color: $gray;
+    margin: 0 0 0.5em 0;
+    line-height: 1.4;
+  }
+
+  .talk-links {
+    font-size: 12px;
+
+    a {
+      margin-right: 0.75em;
+    }
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

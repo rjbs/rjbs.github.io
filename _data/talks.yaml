@@ -1,0 +1,120 @@
+# Talks with video recordings
+- title: "JMAP: the absolute minimum"
+  description: "An introduction to JMAP email protocol basics."
+  video_url: "https://www.youtube.com/watch?v=8Y5U7OHtr24"
+
+- title: "Synergy: a chat bot framework"
+  description: "Building chat bots with the Synergy framework."
+  video_url: "https://www.youtube.com/watch?v=3YlJHX1QO0Y"
+
+- title: "The Perl 5 Debugger: Wuh?"
+  description: "Understanding and using the Perl 5 debugger."
+  video_url: "https://www.youtube.com/watch?v=LtAGbUYTnR0"
+
+- title: "What's new in Perl (5.34)?"
+  description: "Overview of new features in Perl 5.34."
+  video_url: "https://www.youtube.com/watch?v=FlGpiS39NMY"
+
+- title: "A Million Billion Squiggly Characters"
+  description: "Unicode and character encoding in Perl."
+  video_url: "https://www.youtube.com/watch?v=TmTeXcEixEg"
+
+- title: "Moose: a guide to the new revolution"
+  description: "Introduction to Moose, Perl's postmodern object system."
+  video_url: "https://www.youtube.com/watch?v=LKXvG6VKew4"
+
+- title: "Email Hates the Living (YAPC::Asia)"
+  description: "The horrors of email parsing and generation."
+  video_url: "https://www.youtube.com/watch?v=9ncQc3bGMhw"
+
+- title: "Email Hates the Living (YAPC Chicago)"
+  description: "The horrors of email parsing and generation."
+  video_url: "https://www.youtube.com/watch?v=4s9IjkMAmns"
+
+- title: "The Ongoing Disaster that is Perl 5"
+  description: "Challenges and issues in maintaining Perl 5."
+  video_url: "https://www.youtube.com/watch?v=gmmVGPdcItM"
+
+- title: "Perl 5.22 and You"
+  description: "New features and changes in Perl 5.22."
+  video_url: "https://www.youtube.com/watch?v=I8VVtqVh9y0"
+
+- title: "Perl 5.20: Perl 5 at 20 (OSCON)"
+  description: "Celebrating 20 years of Perl 5 at OSCON."
+  video_url: "https://www.youtube.com/watch?v=tGoXN0Txl1s"
+
+- title: "Perl 5.20: Perl 5 at 20 (YAPC)"
+  description: "Celebrating 20 years of Perl 5 at YAPC."
+  video_url: "https://www.youtube.com/watch?v=D1LHFKGHceY"
+
+- title: "1.21 Gigawatts"
+  description: "Perl conference talk at YAPC."
+  video_url: "https://www.youtube.com/watch?v=IG425RMEkRo"
+
+- title: "Perl 5: Postcards from the Edge"
+  description: "Updates from the Perl 5 development front."
+  video_url: "https://www.youtube.com/watch?v=UNP90HzJANA"
+  slides_url: "https://speakerdeck.com/rjbs/perl-5-postcards-from-the-edge"
+  image: "https://speakerd.s3.amazonaws.com/presentations/1fa60ca0e36701309a7f42f703aafd03/thumb_slide_0.jpg"
+
+- title: "Perl 5: Today, Tomorrow, and Christmas"
+  description: "The state and future of Perl 5."
+  video_url: "https://www.youtube.com/watch?v=SUzO5lPhcIk"
+  slides_url: "https://speakerdeck.com/rjbs/perl-today-tomorrow-and-christmas"
+  image: "https://speakerd.s3.amazonaws.com/presentations/4f9e3760e3670130e8c43a22532026d5/thumb_slide_0.jpg"
+
+# Talks with slides only
+- title: "Perl 5.16 for the Working Programmer"
+  description: "New features in Perl 5.16 for everyday use."
+  slides_url: "https://speakerdeck.com/rjbs/perl-5-dot-16-for-the-working-programmer"
+  image: "https://speakerd.s3.amazonaws.com/presentations/64bd7530e3410130bc3a3e950739397c/thumb_slide_0.jpg"
+
+- title: "Perl 5.14 for Pragmatists"
+  description: "Practical new features in Perl 5.14."
+  slides_url: "https://speakerdeck.com/rjbs/perl-5-dot-14-for-pragmatists"
+  image: "https://speakerd.s3.amazonaws.com/presentations/010bda40e34101302bc7765f3158560b/thumb_slide_0.jpg"
+
+- title: "Perl 5.12 for Everyday Use"
+  description: "Getting started with Perl 5.12 features."
+  slides_url: "https://speakerdeck.com/rjbs/perl-5-dot-12-for-everyday-use"
+  image: "https://speakerd.s3.amazonaws.com/presentations/524183c0e34001309a8042f703aafd03/thumb_slide_0.jpg"
+
+- title: "Dist::Zilla: RAAAAAAAAAR!"
+  description: "Automating CPAN distribution building with Dist::Zilla."
+  slides_url: "https://speakerdeck.com/rjbs/dist-zilla-raaaaaaaaar"
+  image: "https://speakerd.s3.amazonaws.com/presentations/6f22d0e0e33f0130c4bc42093019a534/thumb_slide_0.jpg"
+
+- title: "Validating Data Everywhere with Rx"
+  description: "Using Rx for data validation across languages."
+  slides_url: "https://speakerdeck.com/rjbs/validating-data-everywhere-with-rx"
+  image: "https://speakerd.s3.amazonaws.com/presentations/c03e7dc0e37901309a7e42f703aafd03/thumb_slide_0.jpg"
+
+- title: "Email"
+  description: "Working with email in Perl."
+  slides_url: "https://speakerdeck.com/rjbs/rjbs-3-email"
+  image: "https://speakerd.s3.amazonaws.com/presentations/f4c61aa0e3790130c4bc42093019a534/thumb_slide_0.jpg"
+
+- title: "Writing Maintainable Commands with App::Cmd"
+  description: "Building command-line applications with App::Cmd."
+  slides_url: "https://speakerdeck.com/rjbs/writing-maintainable-commands-with-app-cmd"
+  image: "https://speakerd.s3.amazonaws.com/presentations/009ddcb0e33f0130e8c53a22532026d5/thumb_slide_0.jpg"
+
+- title: "Perl 5.10 for People Who Are Not Totally Insane"
+  description: "A practical introduction to Perl 5.10 features."
+  slides_url: "https://speakerdeck.com/rjbs/perl-5-dot-10-for-people-who-are-not-totally-insane"
+  image: "https://speakerd.s3.amazonaws.com/presentations/f667a390e33f01302bc5765f3158560b/thumb_slide_0.jpg"
+
+- title: "How I Learned to Stop Worrying and Love Email"
+  description: "Making peace with email processing in Perl."
+  slides_url: "https://speakerdeck.com/rjbs/how-i-learned-to-stop-worrying-and-love-email"
+  image: "https://speakerd.s3.amazonaws.com/presentations/9c05e9d0e33f01304c6722e2f5ab2796/thumb_slide_0.jpg"
+
+- title: "Crafting Custom Interfaces with Sub::Exporter"
+  description: "Building flexible export interfaces with Sub::Exporter."
+  slides_url: "https://speakerdeck.com/rjbs/crafting-custom-interfaces-with-sub-exporter"
+  image: "https://speakerd.s3.amazonaws.com/presentations/9a3f1b90e32f0130ae563679ef66b301/thumb_slide_0.jpg"
+
+- title: "Antediluvian Unix"
+  description: "Exploring ancient Unix history and archaeology."
+  slides_url: "https://speakerdeck.com/rjbs/antediluvian-unix"
+  image: "https://speakerd.s3.amazonaws.com/presentations/6a5af950e32b01302bc5765f3158560b/thumb_slide_0.jpg"
