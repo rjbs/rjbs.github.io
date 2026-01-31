@@ -21,7 +21,7 @@ Revolution](/talks/moose) is available on its own page.
       </a>
     {% endif %}
     <div class="talk-content">
-      <div class="talk-title">{{ talk.title }}</div>
+      <div class="talk-title"><a href="{{ talk.slides_url | default: talk.video_url }}">{{ talk.title }}</a></div>
       <div class="talk-description">{{ talk.description }}</div>
       <div class="talk-links">
         {% if talk.video_url %}<a href="{{ talk.video_url }}">Video</a>{% endif %}
