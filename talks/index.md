@@ -3,14 +3,10 @@ layout: default
 title: Talks
 ---
 
-I present talks and tutorials about programming, UNIX, and other topics.  I've
-published most of my slides, although they're much less informative without me
-narrating and gesticulating wildly.  Ask me to come speak for your group!  If I
-can make it to your public group, I'd love to come.  I'm also available for
-professional instruction.
-
-My long form talk on Moose, [Moose is Perl: A Guide to the New
-Revolution](/talks/moose) is available on its own page.
+I present talks and tutorials about programming, UNIX, and other topics.  You
+can see some of them below.  Videos are generally better than slides, because
+the slides are much less informative without me narrating and gesticulating
+wildly.  Ask me to come speak for your group!
 
 <div class="talks-grid">
 {% assign sorted_talks = site.talks | sort: 'date' | reverse %}
