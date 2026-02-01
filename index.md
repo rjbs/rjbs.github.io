@@ -19,6 +19,12 @@ Archie, Veronica, and (my favorite) Gopher.
 Sure, I was wrong, but I've never admitted it enough to really dive into
 producing amazing web content.  I just write blog posts once in a while.
 
+## Stuff by me
+
+* my [blog](/blog)
+* my [code](https://github.com/rjbs)
+* my [talks](/talks)
+
 ## Contact me
 
 If you know me, please be in touch.  I always like to hear from old friends.
@@ -29,8 +35,6 @@ work*.  I will never, ever give my custom to merchants **or recruiters** who
 solicit me directly via email or telephone.
 
 * by email: [hello@rjbs.cloud](mailto:hello@rjbs.cloud)
-* by IRC: rjbs on libera.chat
-* by ActivityPub:
-  [@rjbs@social.semiotic.systems](https://social.semiotic.systems/@rjbs)
+* by ActivityPub: [@rjbs@social.semiotic.systems](https://social.semiotic.systems/@rjbs)
 * by bribery: I'm on [Gift Hero](https://www.gifthero.com/list/fc09773d-4d29-4ed8-bd03-c6b2f4f038f5)
 
