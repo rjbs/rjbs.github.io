@@ -20,6 +20,7 @@ exists" plugin, but then I decided it would be pretty easy to just start using
 
 **profile.ini**:
 
+{% raw %}
 ```ini
 [DistINI]
 append_file = plugins.ini
@@ -39,6 +40,7 @@ content = Revision history for {{$dist->name}}
 content =
 content = {{$NEXT}}
 ```
+{% endraw %}
 
 **plugins.ini**:
 

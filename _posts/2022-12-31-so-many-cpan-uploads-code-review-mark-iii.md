@@ -94,6 +94,7 @@ Here's the thing… Dist::Zilla mostly helps with step eight.  The other ones ar
 all sort of the work normally left to me, the human.  I didn't want to do that
 work one hundred fourteen times!  So, I wrote a stupid little program:
 
+{% raw %}
 ```perl
 #!/usr/bin/env perl
 use v5.36.0;
@@ -190,6 +191,7 @@ system(qw( git add Changes .mailmap .gitignore dist.ini ));
 Process::Status->assert_ok("staging files");
 system(qw( git commit -m ), 'auto-preparation of updated release of ancient code');
 ```
+{% endraw %}
 
 With that program, my human-operated steps became:
 

@@ -32,9 +32,11 @@ the major number (`x`) and a `cldr` function for doing CLDR pattern formatting
 on a DateTime object representing "now."  That means the default configuration
 is equivalent to:
 
+{% raw %}
     [AutoVersion]
     major  = 1
     format = {{ $major }}.{{ cldr('yyDDD') }}0
+{% endraw %}
 
 I look forward to integrating this with the someday-future VCS integration
 framework.

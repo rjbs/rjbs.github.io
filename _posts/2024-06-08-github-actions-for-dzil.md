@@ -119,6 +119,7 @@ So, my goal was to make my workflow definition look like this:
 That seemed like the least complexity I could produce, for now.  And I achieved
 it!
 
+{% raw %}
 ```yaml
 jobs:
   build-tarball:
@@ -143,6 +144,7 @@ jobs:
     - name: Test distribution
       uses: rjbs/test-perl-dist@v0
 ```
+{% endraw %}
 
 The actions themselves are pretty straightforward, too.
 
@@ -188,6 +190,7 @@ Once again, this required weird stuff, because programming in GitHub Actions is
 often programming in a rich melange of YAML and bash.  For example, here's some
 of the newly-added code:
 
+{% raw %}
 ```yaml
 - name: Get minimum perl version
 id: minimum-perl
@@ -207,6 +210,7 @@ with:
   since-perl: ${{ steps.minimum-perl.outputs.minimum-perl }}
   with-devel: true
 ```
+{% endraw %}
 
 Oh, right: YAML, bash, and *jq*.  Yow.
 

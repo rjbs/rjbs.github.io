@@ -251,6 +251,7 @@ rewrote many of them to have a more self-similar format, and used
 Log::Dispatchouli's data printing facilities.  Here's the same operation in the
 new log format:
 
+{% raw %}
 ```
 2019-03-29 13:27:28.0774 [23234] FRESH: just uploaded fake: cpan/authors/id/R/RJ/RJBS/Fake-Dist-1.23.tar.gz
 2019-03-29 13:27:28.0861 [23234] PAUSE::mldistwatch object created
@@ -278,6 +279,7 @@ new log format:
 2019-03-29 13:27:29.0213 [23234] finished rewriting indexes
 2019-03-29 13:27:29.0268 [23234] running a shell (/opt/local/bin/zsh)
 ```
+{% endraw %}
 
 It's not perfect, but I think it's much easier to read.
 

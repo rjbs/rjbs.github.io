@@ -12,6 +12,7 @@ I had complained that I'd had to leave the matrixing of perl versions in my
 per-repo workflow, so the structure of any given repository's workflow was
 something like this:
 
+{% raw %}
 ```yaml
 jobs:
   build-tarball:
@@ -27,6 +28,7 @@ jobs:
     - name: Test distribution
       uses: rjbs/test-perl-dist@v0
 ```
+{% endraw %}
 
 I've eliminated a lot of content from the above, to keep it short.  My
 complaint was that I wanted to put the matrix stuff out in some abstracted
