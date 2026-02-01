@@ -5,4 +5,6 @@ date: 2014-07-20
 urls:
   - label: Video
     url: https://www.youtube.com/watch?v=LKXvG6VKew4
+  - label: Slides
+    url: /talks/moose/Moose.pdf
 ---
