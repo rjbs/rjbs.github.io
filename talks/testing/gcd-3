@@ -1,8 +1,0 @@
-use GCD; # exports &gcd
-
-INPUT:
-$line = <>;
-chomp $line;
-($m, $n) = split(/ /,$line);
-print "gcd is ", gcd($m,$n);
-goto INPUT;

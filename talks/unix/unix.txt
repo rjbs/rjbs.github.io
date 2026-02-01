@@ -1,7 +1,0 @@
-Antediluvian Unix
-
-Unix was long a system learned through oral tradition, its philosophy handed
-down from sysop to sysop.  The success of the GNU/Linux system has overwhelmed
-this tradition, though, and many Unix users are left adrift, using Unix without
-understanding it.  This talk will explain how to use Unix like Unix, with a
-focus on the toolkit, pipelines, and shell scripts.
