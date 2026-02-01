@@ -1,7 +1,6 @@
 ---
 title: "Writing Maintainable Commands with App::Cmd"
 description: "building command-line applications with App::Cmd"
-image: "https://speakerd.s3.amazonaws.com/presentations/009ddcb0e33f0130e8c53a22532026d5/thumb_slide_0.jpg"
 date: 1978-12-05
 urls:
   - label: Slides
