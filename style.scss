@@ -378,6 +378,35 @@ p:has( video[src*="flickr.com"] ) {
   }
 }
 
+// Individual talk page
+.talk-page {
+  .talk-page-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 1em;
+  }
+
+  .talk-page-date {
+    margin-bottom: 0.5em;
+  }
+
+  .talk-page-description {
+    font-size: 16px;
+    color: $gray;
+    line-height: 1.5;
+  }
+
+  .talk-page-links {
+    margin: 1em 0;
+
+    a {
+      margin-right: 1em;
+      font-weight: bold;
+    }
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

@@ -52,7 +52,13 @@ collections:
     output: true
     permalink: /rpg/:title/
   talks:
-    output: false
+    output: true
+
+defaults:
+  - scope:
+      type: talks
+    values:
+      layout: talk
 
 # The release of Jekyll Now that you're using
 version: v1.2.0

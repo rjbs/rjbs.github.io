@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<article class="talk-page">
+  {% assign talk_dir = page.path | remove: '_talks/' | remove: 'index.md' %}
+
+  {% if page.image %}
+    <img class="talk-page-image" src="{{ page.image }}" alt="{{ page.title }}">
+  {% else %}
+    {% assign image_path = '/talks/' | append: talk_dir | append: "preview.jpg" %}
+    <object class="talk-page-image" data="{{ image_path }}">
+    </object>
+  {% endif %}
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="talk-page-date date">{{ page.date | date: "%B %-d, %Y" }}</div>
+
+  {% if page.description %}
+    <p class="talk-page-description">{{ page.description }}</p>
+  {% endif %}
+
+  {% if page.urls.size > 0 %}
+    <div class="talk-page-links">
+      {% for link in page.urls %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if content != "" %}
+    <div class="entry">
+      {{ content }}
+    </div>
+  {% endif %}
+</article>
