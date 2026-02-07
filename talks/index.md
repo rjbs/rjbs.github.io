@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Talks
+image: /talks/preview.jpg
 ---
 
 I present talks and tutorials about programming, UNIX, and other topics.  You
