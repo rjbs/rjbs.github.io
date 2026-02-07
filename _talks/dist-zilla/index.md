@@ -4,6 +4,8 @@ description: "automating CPAN distribution building with Dist::Zilla"
 date: 2010-06-21
 tags: [ perl, programming ]
 urls:
+  - label: Video
+    url: https://www.youtube.com/watch?v=QCPARw84SQE
   - label: Slides
     url: https://speakerdeck.com/rjbs/dist-zilla-raaaaaaaaar
 ---
