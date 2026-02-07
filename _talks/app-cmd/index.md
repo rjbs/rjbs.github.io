@@ -2,6 +2,7 @@
 title: "Writing Maintainable Commands with App::Cmd"
 description: "building command-line applications with App::Cmd"
 date: 2007-10-14
+tags: [ perl, programming ]
 urls:
   - label: Slides
     url: https://speakerdeck.com/rjbs/writing-maintainable-commands-with-app-cmd

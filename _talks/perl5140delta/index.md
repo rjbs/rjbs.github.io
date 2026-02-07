@@ -2,6 +2,7 @@
 title: "Perl 5.14 for Pragmatists"
 description: "just the most useful stuff in perl 5.14"
 date: 2011-06-28
+tags: [ perl, programming ]
 urls:
   - label: Slides
     url: https://speakerdeck.com/rjbs/perl-5-dot-14-for-pragmatists

@@ -2,6 +2,7 @@
 title: "Perl 5.22 and You"
 description: "new features, fixes, and updates in perl 5.22"
 date: 2015-06-10
+tags: [ perl, programming ]
 urls:
   - label: Video
     url: https://www.youtube.com/watch?v=I8VVtqVh9y0

@@ -2,6 +2,7 @@
 title: "Validating Data Everywhere with Rx"
 description: "a cross-language schema-based data validation system"
 date: 2009-06-24
+tags: [ programming ]
 urls:
   - label: Slides
     url: https://speakerdeck.com/rjbs/validating-data-everywhere-with-rx

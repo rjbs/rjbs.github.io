@@ -2,6 +2,7 @@
 title: "JMAP: Destroy All Monsters"
 description: "how to use JMAP to replace CalDAV and CardDAV (and… davDAV?)"
 date: 2026-01-31
+tags: [ email, programming ]
 urls:
   - label: Video
     url: https://youtu.be/aCbr8xIR2vU

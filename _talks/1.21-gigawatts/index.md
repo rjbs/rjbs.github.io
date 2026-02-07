@@ -2,6 +2,7 @@
 title: "1.21 Gigawatts"
 description: "lightning talk after lightning talk, back to back"
 date: 2014-01-23
+tags: [ perl, programming ]
 urls:
   - label: Video (NY.pm)
     url: https://www.youtube.com/watch?v=Sp102BECq8s

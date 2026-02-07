@@ -2,6 +2,7 @@
 title: "Email Hates the Living (YAPC::Asia)"
 description: "email: a set of standards that came from Beyond to destroy humanity"
 date: 2008-06-16
+tags: [ email, programming ]
 urls:
   - label: Video (Tokyo)
     url: https://www.youtube.com/watch?v=9ncQc3bGMhw

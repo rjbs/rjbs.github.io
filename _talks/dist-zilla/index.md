@@ -2,6 +2,7 @@
 title: "Dist::Zilla: RAAAAAAAAAR!"
 description: "automating CPAN distribution building with Dist::Zilla"
 date: 2010-06-21
+tags: [ perl, programming ]
 urls:
   - label: Slides
     url: https://speakerdeck.com/rjbs/dist-zilla-raaaaaaaaar

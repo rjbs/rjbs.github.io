@@ -2,6 +2,7 @@
 title: "Perl 5.10 for People Who Are Not Totally Insane"
 description: "just the most useful new stuff in perl 5.10"
 date: 2007-10-13
+tags: [ perl ]
 urls:
   - label: Slides
     url: https://speakerdeck.com/rjbs/perl-5-dot-10-for-people-who-are-not-totally-insane

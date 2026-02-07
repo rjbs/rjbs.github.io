@@ -2,6 +2,7 @@
 title: "The Ongoing Disaster that is Perl 5"
 description: "what's new in perl 5.24, and the challenges of maintaining Perl 5"
 date: 2016-06-21
+tags: [ perl, programming ]
 urls:
   - label: Video
     url: https://www.youtube.com/watch?v=gmmVGPdcItM

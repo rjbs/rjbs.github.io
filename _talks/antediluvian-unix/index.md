@@ -2,6 +2,7 @@
 title: "Antediluvian Unix"
 description: "a guide to unix fundamentals"
 date: 2009-09-09
+tags: [ unix ]
 urls:
   - label: Slides
     url: https://speakerdeck.com/rjbs/antediluvian-unix

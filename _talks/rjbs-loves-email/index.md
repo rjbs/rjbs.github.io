@@ -2,6 +2,7 @@
 title: "rjbs <3 Email"
 description: "topics in email programming in Perl"
 date: 2009-06-23
+tags: [ email, perl, programming ]
 urls:
   - label: Slides
     url: https://speakerdeck.com/rjbs/rjbs-3-email

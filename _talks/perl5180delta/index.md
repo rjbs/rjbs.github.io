@@ -2,6 +2,7 @@
 title: "Perl 5: Postcards from the Edge"
 description: "updates from the perl5-porters"
 date: 2012-06-05
+tags: [ perl ]
 urls:
   - label: Video
     url: https://www.youtube.com/watch?v=UNP90HzJANA
