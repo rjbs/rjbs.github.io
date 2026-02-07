@@ -7,7 +7,10 @@
     <link rel="me" href="https://social.semiotic.systems/@rjbs" title="Mastodon (boring)"</link>
     <link rel="me" href="https://oulipo.social/@rjbs" title="Mastodon (lipogrammatic)"</link>
 
-    {% if page.excerpt %}
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    {% elsif page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html | normalize_whitespace }}" />
     <meta property="og:description" content="{{ page.excerpt| strip_html | normalize_whitespace }}" />
     {% else %}
@@ -18,6 +21,10 @@
 
     {% if page.image %}
     <meta property="og:image" content="{{ page.image }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    {% elsif page.collection == 'talks' %}
+    {% assign talk_dir = page.path | remove: '_talks/' | remove: 'index.md' %}
+    <meta property="og:image" content="{{ site.url }}/talks/{{ talk_dir }}preview.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     {% else %}
     <!-- <meta property="og:image" content="/assets/title-card.png" /> -->
