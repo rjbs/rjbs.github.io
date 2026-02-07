@@ -34,4 +34,14 @@ layout: default
       {{ content }}
     </div>
   {% endif %}
+
+  {% if page.tags.size > 0 %}
+    <div class="talk-page-tags">
+      {% assign tags = page.tags | sort %}
+      {% for tag in tags %}
+        {% if site.data.tagmoji[tag] %}{{ site.data.tagmoji[tag] }}{% else %}🏷{% endif %} {{ tag }}
+        {% unless forloop.last %}<br>{% endunless %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </article>
