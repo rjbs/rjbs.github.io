@@ -15,7 +15,7 @@ layout: default
 
   <h1>{{ page.title }}</h1>
 
-  <div class="talk-page-date date">{{ page.date | date: "%B %-d, %Y" }}</div>
+  <div class="talk-page-date date">First given: {{ page.date | date: "%B %-d, %Y" }}</div>
 
   {% if page.description %}
     <p class="talk-page-description">{{ page.description }}</p>
