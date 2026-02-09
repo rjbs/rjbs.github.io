@@ -247,6 +247,14 @@ nav {
 // .main
 //
 
+.posts > .post {
+  border: 1px solid darken($lightGray, 10%);
+  border-radius: 4px;
+  padding: 0 1.5em;
+  margin-bottom: 1.5em;
+  background: $white;
+}
+
 .posts > .post > h1 {
   color: #6b1818;
 }
