@@ -250,19 +250,21 @@ nav {
 .posts > .post {
   border: 1px solid darken($lightGray, 10%);
   border-radius: 4px;
-  padding: 0 1.5em;
+  padding: 0 1.5em 0.5em;
   margin-bottom: 1.5em;
   background: $white;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .posts > .post > h1 {
   color: #6b1818;
-  margin-top: 0.25em;
+  margin-top: 0.5em;
 }
 
-.posts > .post > div {
-  margin-left: 0;
-}
 
 .post {
   blockquote {
