@@ -14,6 +14,7 @@ title: My Journal
         <b>{{ post.date | date: "%B %e, %Y" }}</b>
         {% for tag in tags %}{% if site.data.tagmoji[tag] %}<span title="{{ tag }}">&nbsp;{{ site.data.tagmoji[tag] }}</span>{% endif %}{% endfor %}
         {{ post.excerpt }}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more →</a>
       </div>
     </article>
   {% endfor %}
