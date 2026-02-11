@@ -24,15 +24,15 @@ producing amazing web content.  I just write blog posts once in a while.
 <div class="card-grid">
   <a class="stuff-card" href="/blog">
     <div class="stuff-card-title">Blog</div>
-    <div class="stuff-card-desc">Posts about programming, games, and whatever else comes to mind.</div>
+    <div class="stuff-card-desc">Posts about programming, games, and whatever else comes to mind</div>
   </a>
   <a class="stuff-card" href="https://github.com/rjbs">
     <div class="stuff-card-title">Code</div>
-    <div class="stuff-card-desc">Open source projects on GitHub, mostly Perl.</div>
+    <div class="stuff-card-desc">Open source software on GitHub, mostly Perl</div>
   </a>
   <a class="stuff-card" href="/talks">
     <div class="stuff-card-title">Talks</div>
-    <div class="stuff-card-desc">Presentations about programming, UNIX, and other topics.</div>
+    <div class="stuff-card-desc">Presentations about programming, email, and other topics</div>
   </a>
 </div>
 
