@@ -330,12 +330,41 @@ p:has( video[src*="flickr.com"] ) {
   text-align: center;
 }
 
-// Talks grid
-.talks-grid {
+// Card grid (shared by index page and talks page)
+.card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1.5em;
-  margin: 2em 0;
+  margin: 1em 0 2em;
+}
+
+.stuff-card {
+  background: $white;
+  border: 1px solid darken($lightGray, 10%);
+  border-radius: 4px;
+  padding: 1em;
+  display: block;
+  color: $darkGray;
+  transition: box-shadow 0.2s ease;
+
+  &:hover, &:active {
+    color: $darkGray;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .stuff-card-title {
+    font-family: $helveticaNeue;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+    color: #6b1818;
+  }
+
+  .stuff-card-desc {
+    font-size: 14px;
+    color: $gray;
+    line-height: 1.4;
+  }
 }
 
 .talk-card {

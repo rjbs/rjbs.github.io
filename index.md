@@ -21,9 +21,20 @@ producing amazing web content.  I just write blog posts once in a while.
 
 ## Stuff by me
 
-* my [blog](/blog)
-* my [code](https://github.com/rjbs)
-* my [talks](/talks)
+<div class="card-grid">
+  <a class="stuff-card" href="/blog">
+    <div class="stuff-card-title">Blog</div>
+    <div class="stuff-card-desc">Posts about programming, games, and whatever else comes to mind.</div>
+  </a>
+  <a class="stuff-card" href="https://github.com/rjbs">
+    <div class="stuff-card-title">Code</div>
+    <div class="stuff-card-desc">Open source projects on GitHub, mostly Perl.</div>
+  </a>
+  <a class="stuff-card" href="/talks">
+    <div class="stuff-card-title">Talks</div>
+    <div class="stuff-card-desc">Presentations about programming, UNIX, and other topics.</div>
+  </a>
+</div>
 
 ## Contact me
 

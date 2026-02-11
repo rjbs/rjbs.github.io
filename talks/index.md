@@ -9,7 +9,7 @@ can see some of them below.  Videos are generally better than slides, because
 the slides are much less informative without me narrating and gesticulating
 wildly.  Ask me to come speak for your group!
 
-<div class="talks-grid">
+<div class="card-grid">
 {% assign sorted_talks = site.talks | sort: 'date' | reverse %}
 {% for talk in sorted_talks %}
     <div class="talk-card">
