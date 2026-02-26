@@ -5,5 +5,3 @@
 _site/
 vendor/
 .bundle/
-Gemfile
-Gemfile.lock
