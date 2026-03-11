@@ -28,9 +28,10 @@ downsides.  One of the smaller, but noticeable, downsides: basically none of
 that code used subroutine signatures.  I try to always use subroutine
 signatures in new Perl code.  I'd begun using them in some new Cassandane code,
 but it was just a drop in the ocean.  I wanted them everywhere, and to be the
-clear default.  My existing "convert so signatures" program I had lying didn't
-cut it, for a variety of boring reasons, including that it didn't cope with
-Perl subroutine attributes, which Cassandane uses extensively.
+clear default.  My existing "convert subs to use signatures" code munging
+program I had lying didn't cut it, for a variety of boring reasons, including
+that it didn't cope with Perl subroutine attributes, which Cassandane uses
+extensively.
 
 I wanted to, in one swoop, convert all of Cassandane's tests to use subroutine
 signatures.  I considered futzing with my old code for this, but then I
