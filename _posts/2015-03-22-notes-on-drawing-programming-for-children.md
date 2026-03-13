@@ -20,7 +20,7 @@ limited in others.  I decided we'd stick to Logo.  I downloaded
 implementation of Logo I could find.  At first, it went well.  We drew some
 stuff.  She drew a vampire girl.
 
-![vampire girl](/assets/2015/03/turtle-vampire.png)
+![vampire girl](/assets/2015/03/turtle-vampire.webp)
 
 I wanted, next, to show her how to do some of the more commonly-seen tricks,
 like rotated squares making a flower.  This is simple: you define a function
@@ -47,7 +47,7 @@ where she picked this up.  Kids these days!
 
 Anyway, she drew a skull, and it was awesome:
 
-![skull](/assets/2015/03/ps-skull.png)
+![skull](/assets/2015/03/ps-skull.webp)
 
 Those three squares were going to be a lesson.  After we did one square, we
 could turn it into a square subroutine!  Only as I began to say this out loud
@@ -108,7 +108,7 @@ already done some Python, so this was familiar!  It was a lot easier to work
 with, we could write named functions, and the kid was pleased that TextMate had
 good syntax highlighting for it.  She made the long-overdue flower:
 
-![turtle flower](/assets/2015/03/turtle-flower.png)
+![turtle flower](/assets/2015/03/turtle-flower.webp)
 
 Next up, I'd like to make it easier for her to run the program without a bunch
 of terminal nonsense and "hit a key to continue" stuff.  Still, so far so good.

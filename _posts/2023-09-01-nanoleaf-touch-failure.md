@@ -184,7 +184,7 @@ number of touched panels.  The first two bytes provide *n*.  Great!
 Now we just need to know how to interpret the per-panel touch type and
 strength, helpfully given in a diagram.  Here it is:
 
-![mostly-worthless diagram](/assets/2023/09/bad-packet-diagram.png)
+![mostly-worthless diagram](/assets/2023/09/bad-packet-diagram.webp)
 
 Oh.
 
@@ -206,7 +206,7 @@ my $sock = IO::Async::Socket->new(
 
 A couple events get dumped like this:
 
-![much better diagram](/assets/2023/09/good-packet-diagram.png)
+![much better diagram](/assets/2023/09/good-packet-diagram.webp)
 
 I got everything working, it seems, but it's really not satisfactory.  First
 off, I can tap as much as I want, I get "hover" events.  I can get a swipe (as

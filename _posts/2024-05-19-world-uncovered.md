@@ -3,7 +3,7 @@ layout: post
 title : "World Uncovered is cool"
 date  : "2024-05-19T12:00:00Z"
 tags  : ["travel"]
-image : /assets/2024/05/vienna-uncovered.png
+image : /assets/2024/05/vienna-uncovered.webp
 ---
 
 Years ago, I found an iOS app called [World
@@ -17,7 +17,7 @@ in, it tells you where you've ever walked, ever.  Keeping in mind that I
 sometimes have it turned off, and forgot about it for years, check out my map
 for Philadelphia:
 
-![Philly Uncovered](/assets/2024/05/philly-uncovered.png)
+![Philly Uncovered](/assets/2024/05/philly-uncovered.webp)
 
 Sometimes I joke with my coworkers that I have never been to West Philadelphia.
 It's not true, but… I mean, you can see my usual stomping grounds.  You can
@@ -33,14 +33,14 @@ and it made me realize all the trips I had failed to log for the past few
 years:  Norway, Brussels, England, Australia, and others.  I like to see new
 places, and these little marked-up maps are a fun memento.  Here's Vienna:
 
-![Vienna Uncovered](/assets/2024/05/vienna-uncovered.png)
+![Vienna Uncovered](/assets/2024/05/vienna-uncovered.webp)
 
 A few months later, I was in Lisbon, which you'll know if you've been keeping
 up with my posts here.  Lisbon was fun because I took a train off to the west
 coast, so I got a map with two hubs of activity with a long straight train ride
 between them:
 
-![Lisbon Uncovered](/assets/2024/05/lisbon-uncovered.png)
+![Lisbon Uncovered](/assets/2024/05/lisbon-uncovered.webp)
 
 Lisbon was also where I *finally* got a "landmark" achievement.  The app has
 its own (somewhat eccentric, I think) collection of landmarks, and by visiting
@@ -103,7 +103,7 @@ about a quarter of the city, tops, but it's a start.
 The real treat is when I stop at a street that's really rich in shorties,
 especially interior second-order ones, like this gem:
 
-![10th and Locust](/assets/2024/05/tenth-and-locust.png)
+![10th and Locust](/assets/2024/05/tenth-and-locust.webp)
 
 Honestly, look at that tiny length of Irving Street, which often connects two
 numbered streets east to west.  Here, it's a tiny little alley inside the

@@ -135,7 +135,7 @@ Invisiclues for this game in a few places, but I also felt I went through it
 quite quickly.  I wondered whether part of that is that via OmniGraffle, I have
 much better map-making tools than the average player of 1984.  Here's my map:
 
-![a map of Sorcerer](/assets/2024/01/sorcerer-map.png)
+![a map of Sorcerer](/assets/2024/01/sorcerer-map.webp)
 
 Next up is [Seastalker](https://en.wikipedia.org/wiki/Seastalker).  I hope to
 report on that sooner than eight years from now.

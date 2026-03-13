@@ -85,7 +85,7 @@ about even more ridiculous backstory.
 Eventually, I forced myself to stop thinking of new ideas, since I already had
 way too many, and get to work on some rules.
 
-[![Trekpocalypse Character Sheet](/assets/2013/12/charsheet.png)](https://dl.dropboxusercontent.com/u/88746/Trekpocalypse.pdf)
+[![Trekpocalypse Character Sheet](/assets/2013/12/charsheet.webp)](https://dl.dropboxusercontent.com/u/88746/Trekpocalypse.pdf)
 
 I started with [the Moldvay
 rules](http://www.dndclassics.com/product/110274/D%26D-Basic-Set-Rulebook-%28B-X-ed%29-%28Basic%29),

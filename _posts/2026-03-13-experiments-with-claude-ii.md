@@ -145,4 +145,4 @@ GitHub access through Claude.  I need to really read the docs, here.
 On the *other hand*, I fixed a bit of styling on my blog from a chat on my
 tablet.  This all fell under "pretty neat, worked great, not interested".
 
-![Claude Code on the Web](/assets/2026/claude-code-on-the-web.png)
+![Claude Code on the Web](/assets/2026/claude-code-on-the-web.webp)

@@ -42,7 +42,7 @@ Then it's easy to use that variable in a bunch of places to remind yourself of
 context.  The most important for me are tmux config and shell prompt.  That
 way, I can see when I've ssh'd into host A from a tmux on host B, like this:
 
-![shell on wabe, and tmux on snowdrop](/assets/2023/09/tmux-and-shell-colors.png)
+![shell on wabe, and tmux on snowdrop](/assets/2023/09/tmux-and-shell-colors.webp)
 
 In my `.zshrc`:
 

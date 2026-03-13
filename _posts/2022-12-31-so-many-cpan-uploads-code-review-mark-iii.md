@@ -222,7 +222,7 @@ Since then, I turned the whole thing into a captive user interface application
 using my little CUI application framework,
 [Yakker](https://github.com/rjbs/Yakker).  Here's a screenshot of a bit of it:
 
-![code-review screenshot](/assets/2022/12/code-review.png)
+![code-review screenshot](/assets/2022/12/code-review.webp)
 
 At the top, you can see help for the commands available.  Some of them open
 URLs in my browser, taking me to the project on GitHub or CPAN.  The `shell`

@@ -18,7 +18,7 @@ good.
 only concerned with two:  It lets you read single fields from the vault and it
 lets you read entire items.  For example, take this login:
 
-![a screenshot of my Pobox login](/assets/2024/05/pobox-pw-item.png)
+![a screenshot of my Pobox login](/assets/2024/05/pobox-pw-item.webp)
 
 You can see there are a bunch of fields, like `username` and `password` and
 `website`.  You can fetch all of them or just one.  It's a little weird, but

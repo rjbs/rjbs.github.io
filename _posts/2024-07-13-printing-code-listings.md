@@ -3,7 +3,7 @@ layout: post
 title : "I still like printing code listings"
 date  : "2024-07-12T12:00:00Z"
 tags  : ["programming"]
-image : /assets/2024/07/vim.png
+image : /assets/2024/07/vim.webp
 ---
 
 I used to program on paper, then type it in later.  Not all the time, but
@@ -82,7 +82,7 @@ newpath 300 225 moveto 325 225 lineto
 ```
 
 It draws [a skull with the caption "You're standing on my
-neck!"](/assets/2015/03/ps-skull.png).  Try it!
+neck!"](/assets/2015/03/ps-skull.webp).  Try it!
 
 But how?  Well, in theory you can send it directly to your printer with `lp`,
 but on current macOS (unlike older versions) you will get this error:
@@ -204,7 +204,7 @@ display function.
 
 This got me some pretty decent output, shown here, and linked to a PDF:
 
-[![a page of code from a2ps](/assets/2024/07/a2ps.png)](/assets/2024/07/a2ps.pdf)
+[![a page of code from a2ps](/assets/2024/07/a2ps.webp)](/assets/2024/07/a2ps.pdf)
 
 By the way, all the samples in this post will be from formatting [this copy of
 Slack::BlockKit::Sugar](https://github.com/rjbs/Slack-BlockKit/blob/0.002/lib/Slack/BlockKit/Sugar.pm).
@@ -291,7 +291,7 @@ enscript lib/Slack/BlockKit/Sugar.pm \
 It looked pretty good at first, when looking at the first page of output (not
 pictured here).  On the other hand, here's page three:
 
-[![a page of code from enscript](/assets/2024/07/enscript.png)](/assets/2024/07/enscript.pdf)
+[![a page of code from enscript](/assets/2024/07/enscript.webp)](/assets/2024/07/enscript.pdf)
 
 The line spacing is nice (and maybe nicer when cranked up), and the colors
 aren't offensive.  But they're all wrong.  Part of the issue is that this
@@ -345,7 +345,7 @@ usually do that in the whitespace on the right side of the code.  To print to a
 file in Vim, you can execute `:hardcopy > filename.ps`.  With these settins, I
 got this output:
 
-[![a page of code from Vim](/assets/2024/07/vim-1.png)](/assets/2024/07/vim-1.pdf)
+[![a page of code from Vim](/assets/2024/07/vim-1.webp)](/assets/2024/07/vim-1.pdf)
 
 The main problem here is that it's one-up.  Only one page of code per sheet of
 paper.  It's easy to read, but it takes twice as much paper.  It's a waste, and
@@ -374,7 +374,7 @@ each listing.
 
 Here's what we get:
 
-[![a page of code from Vim, sent through mpage](/assets/2024/07/vim.png)](/assets/2024/07/vim.pdf)
+[![a page of code from Vim, sent through mpage](/assets/2024/07/vim.webp)](/assets/2024/07/vim.pdf)
 
 I wasn't sure how to get a better set of colors.  I'm pretty sure it's
 possible, but I'll have to think about it and play around.  There is a
@@ -428,7 +428,7 @@ runtime! syntax/2html.vim
 …and you'll get a new Vim buffer full of HTML.  The parity with the Vim display
 is impressive.
 
-[![HTML output and Vim side by side](/assets/2024/07/vim-html.png)](/assets/2024/07/vim-html.png)
+[![HTML output and Vim side by side](/assets/2024/07/vim-html.webp)](/assets/2024/07/vim-html.webp)
 
 The problem is that so far, I've found going from HTML to a two-up PDF is too
 much of a pain.  Possibly there's some weird route from HTML to PostScript to

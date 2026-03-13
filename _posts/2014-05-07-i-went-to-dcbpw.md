@@ -21,7 +21,7 @@ of a surprise, give how significantly I rewrote it, repeatedly, from my
 original plans.  I was also pleased to finally get a shirt with the way-cool
 DCBPW logo on it:
 
-![DCBPW](/assets/2014/05/dcbpw.png)
+![DCBPW](/assets/2014/05/dcbpw.webp)
 
 Unfortunately, I vainly requested a large, which I've grown a bit out of again.
 Getting into my cool eaglecrab shirt is just one more thing to motivate me to

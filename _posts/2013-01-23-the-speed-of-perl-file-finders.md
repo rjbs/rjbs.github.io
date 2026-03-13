@@ -11,7 +11,7 @@ find.  Those other finds… *shudder*.
 If you're in Perl, of course, there's more than one way to do it!  Today's
 question is, how do they perform?
 
-![file finder slowness](/assets/2013/01/finder-slowness.png)
+![file finder slowness](/assets/2013/01/finder-slowness.webp)
 
 This charts the time required to find every entity under a root directory.  The
 *y* axis is the amount of time it took.  The *x* axis is the number of files
