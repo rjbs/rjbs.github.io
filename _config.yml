@@ -95,3 +95,8 @@ exclude:
   - README.md
   - CNAME
   - vendor
+
+chat:
+  speakers:
+    rjbs:  "#710193"
+    claude: "#ea580c"
