@@ -248,10 +248,11 @@ nav {
 
 .posts > .post {
   border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 0 1.5em 0.5em;
   margin-bottom: 1.5em;
   background: $white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.2s ease;
 
   &:hover {
@@ -340,7 +341,8 @@ p:has( video[src*="flickr.com"] ) {
 .stuff-card {
   background: $white;
   border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1em;
   display: block;
   color: $darkGray;
@@ -369,7 +371,8 @@ p:has( video[src*="flickr.com"] ) {
 .talk-card {
   background: $white;
   border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: box-shadow 0.2s ease;
   display: flex;
