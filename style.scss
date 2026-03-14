@@ -24,7 +24,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 840px;
   padding: 0 10px;
   width: 100%;
 }
@@ -181,7 +181,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 8px;
   }
 }
 
@@ -246,12 +246,21 @@ nav {
 // .main
 //
 
-.posts > .post {
+// Shared card base — individual rules add padding/margin/hover as needed
+.posts > .post,
+.post,
+.stuff-card,
+.talk-card,
+.talk-page {
+  background: $white;
   border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.posts > .post {
   padding: 0 1.5em 0.5em;
   margin-bottom: 1.5em;
-  background: $white;
   transition: box-shadow 0.2s ease;
 
   &:hover {
@@ -265,7 +274,36 @@ nav {
 }
 
 
+.post-header {
+  margin-bottom: 1.25em;
+  padding-bottom: 0.75em;
+  border-bottom: 1px solid $lightGray;
+
+  h1 {
+    margin: 0 0 0.25em;
+    color: #6b1818;
+  }
+}
+
+.post-meta {
+  font-size: 15px;
+  color: $gray;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em 1em;
+  align-items: baseline;
+}
+
+.post-tag {
+  a {
+    color: $gray;
+  }
+}
+
 .post {
+  padding: 1.5em 2em 1em;
+  margin-bottom: 1.5em;
+
   blockquote {
     border-width: 1px 1px 1px 4px;
     border-color: $purple;
@@ -283,6 +321,8 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+    display: inline-block;
+    margin-bottom: 0.5em;
   }
 
   .update {
@@ -338,9 +378,6 @@ p:has( video[src*="flickr.com"] ) {
 }
 
 .stuff-card {
-  background: $white;
-  border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 4px;
   padding: 1em;
   display: block;
   color: $darkGray;
@@ -367,9 +404,6 @@ p:has( video[src*="flickr.com"] ) {
 }
 
 .talk-card {
-  background: $white;
-  border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 4px;
   overflow: hidden;
   transition: box-shadow 0.2s ease;
   display: flex;
@@ -418,13 +452,27 @@ p:has( video[src*="flickr.com"] ) {
 }
 
 // Individual talk page
-.talk-page {
-  .talk-page-image {
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 0 auto 1em;
+.talk-page-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 1em;
+  border-radius: 8px;
+}
+
+.entry h2, .entry h3 {
+  color: #6b1818;
+}
+
+.page {
+  h1, h2, h3 {
+    color: #6b1818;
   }
+}
+
+.talk-page {
+  padding: 1.5em 2em 1em;
+  margin-bottom: 1.5em;
 
   .talk-page-date {
     margin-bottom: 0.5em;
