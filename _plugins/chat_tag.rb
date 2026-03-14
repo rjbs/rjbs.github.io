@@ -29,7 +29,13 @@ module Jekyll
       auto_colors  = {}
       palette_pos  = 0
 
-      lines = content.split("\n").map(&:strip).reject(&:empty?)
+      lines = content.split("\n").each_with_object([]) do |line, acc|
+        if line.match?(/\A\s/) && !acc.empty?
+          acc.last << " " << line.strip
+        elsif !line.strip.empty?
+          acc << line.strip
+        end
+      end
 
       html_lines = lines.map do |line|
         if line.start_with?("* ")
