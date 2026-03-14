@@ -181,7 +181,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 8px;
   }
 }
 
@@ -321,6 +321,8 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+    display: inline-block;
+    margin-bottom: 0.5em;
   }
 
   .update {
@@ -463,6 +465,13 @@ p:has( video[src*="flickr.com"] ) {
   max-width: 500px;
   display: block;
   margin: 0 auto 1em;
+  border-radius: 8px;
+}
+
+.page {
+  h1, h2, h3 {
+    color: #6b1818;
+  }
 }
 
 .talk-page {
