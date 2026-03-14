@@ -7,11 +7,11 @@ tags  : ["perl", "programming", "slack"]
 So, imagine the following exchange in private message with one of your team
 members:
 
-```
-<alice> So, how have I been doing?
-<bob> Frankly, I don't think it's working out.
-* bob is joking!  You're doing great.
-```
+{% chat %}
+alice: So, how have I been doing?
+bob: Frankly, I don't think it's working out.
+bob: *is joking!  You're doing great.*
+{% endchat %}
 
 Maybe Bob shouldn't be such a joker here, but sometimes Bob can't help himself.
 Unfortunately, Bob has just caused Alice an incredible amount of stress.  Or,

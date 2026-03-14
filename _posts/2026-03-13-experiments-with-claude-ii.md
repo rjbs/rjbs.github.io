@@ -78,15 +78,14 @@ a bunch of individual Markdown files for me, so all was forgiven.  Then there
 was a big back and forth about how to make preview image discoverable, where
 Clade was definitely confused about how things worked.
 
-> **RJBS** 💬  How sure are you that files from a collection are part of
-> `static_files`?
->
-> **CLAUDE** 💭 The user is asking me to be honest about my certainty level
-> again.  And they're right to push - I've been making assumptions. I'm not
-> actually certain that static files within a collection directory appear in
-> `site.static_files`. They might be in a different collection-specific
-> variable, or might need to be accessed differently.
-```
+{% chat %}
+rjbs: How sure are you that files from a collection are part of `static_files`?
+claude: *(thinking to itself)* The user is asking me to be honest about my
+    certainty level again.  And they're right to push - I've been making
+    assumptions. I'm not actually certain that static files within a collection
+    directory appear in `site.static_files`. They might be in a different
+    collection-specific variable, or might need to be accessed differently.
+{% endchat %}
 
 This was really frustrating, but only about 70% because of Claude.  The Jekyll
 docs are beautiful but lousy.  They sort of vaguely describe how things work in
