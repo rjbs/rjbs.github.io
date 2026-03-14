@@ -458,12 +458,27 @@ p:has( video[src*="flickr.com"] ) {
 }
 
 // Individual talk page
+.talk-page-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 1em;
+}
+
 .talk-page {
-  .talk-page-image {
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 0 auto 1em;
+  background: $white;
+  border: 1px solid color.adjust($lightGray, $lightness: -10%);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5em 2em 1em;
+  margin-bottom: 1.5em;
+
+  h1 {
+    color: #6b1818;
+  }
+
+  .entry h2, .entry h3 {
+    color: #6b1818;
   }
 
   .talk-page-date {
