@@ -95,6 +95,8 @@ exclude:
   - README.md
   - CNAME
   - vendor
+  - .tags*
+  - .tags
 
 chat:
   speakers:
