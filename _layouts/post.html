@@ -9,7 +9,7 @@ layout: default
       <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
       {% if post %}{% assign tags = post.tags | sort %}{% else %}{% assign tags = page.tags | sort %}{% endif %}
       {% for tag in tags %}
-        <span class="post-tag">{% if site.data.tagmoji[tag] %}{{ site.data.tagmoji[tag] }}{% else %}🏷{% endif %}<a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a></span>
+        <span class="post-tag">{% if site.data.tagmoji[tag] %}{{ site.data.tagmoji[tag] }}{% else %}🏷{% endif %}<a href="{{site.baseurl}}/tags/#{{tag|slugize}}">&nbsp;{{tag}}</a></span>
       {% endfor %}
     </div>
   </div>
