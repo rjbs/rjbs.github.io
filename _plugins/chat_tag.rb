@@ -1,5 +1,68 @@
 require "cgi"
 
+# = ChatBlock — Liquid block tag for chat/dialogue transcripts
+#
+# Renders an IRC/Slack-style conversation as styled HTML. Each line of the
+# block is either a speaker line, a stage direction, or a blank line.
+#
+# == Basic usage
+#
+#   {% chat %}
+#   Alice: Hey, how's it going?
+#   Bob: Pretty well, thanks!
+#   {% endchat %}
+#
+# == Line types
+#
+# Speaker line:: <tt>Name: text</tt> — the speaker's name and their words.
+#   Markdown is rendered in the text. Speaker names are matched
+#   case-insensitively for color lookup but displayed as written.
+#
+# Stage direction:: <tt>* text</tt> — rendered centered and italicized,
+#   suitable for narration, time skips, etc.
+#
+#   * time passes
+#
+# Continuation:: A line indented with any leading whitespace is folded onto
+#   the preceding line, allowing long lines to be wrapped at 80 columns.
+#
+#   Alice: This is a longer message that I'd
+#     like to wrap neatly in my source file.
+#
+# Blank lines are ignored. Any other line raises a SyntaxError at build time.
+#
+# == Speaker colors
+#
+# Colors are resolved in priority order:
+#
+# 1. Inline tag parameter (single-token names only):
+#
+#      {% chat Alice="#005ab4" Bob="#6b1818" %}
+#
+# 2. Global config in <tt>_config.yml</tt>:
+#
+#      chat:
+#        speakers:
+#          Alice: "#005ab4"
+#          Bob:   "#6b1818"
+#
+# 3. Automatic assignment from the palette (see below).
+#
+# Speaker name matching is case-insensitive, so "Alice", "alice", and "ALICE"
+# all resolve to the same configured color.
+#
+# == Palette
+#
+# Speakers with no configured color are assigned colors from the palette in
+# order of first appearance. The built-in palette can be overridden in
+# <tt>_config.yml</tt>:
+#
+#   chat:
+#     palette:
+#       - "#005ab4"
+#       - "#6b1818"
+#       - "#2a7a2a"
+#
 module Jekyll
   class ChatBlock < Liquid::Block
     SPEAKER_LINE = /\A([^:]+?):\s+(.*)\z/m
