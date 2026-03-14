@@ -7,22 +7,22 @@ tags  : ["perl", "programming"]
 Here is a sample from work IRC today, as I pounded on a weird test failure I'd
 just introduced:
 
-```
-<rjbs> I think I see it.
-...time passes...
-<rjbs> or not.
-<rjbs> this is really ibzarre.
-<rjbs> zibarre
-...time passes...
-<rjbs> hoyl cow
-<rjbs> WOW
-<rjbs> WOW WOW WOW
-<rjbs> p.s.
-<rjbs> WOW
-<rjbs> astounding. okay, committing, pushing
-<rjbs> mjd: check my df4ae63 and be amazed
-<mjd> OMG
-```
+{% chat %}
+rjbs: I think I see it.
+* ...time passes...
+rjbs: or not.
+rjbs: this is really ibzarre.
+rjbs: zibarre
+* ...time passes...
+rjbs: hoyl cow
+rjbs: WOW
+rjbs: WOW WOW WOW
+rjbs: p.s.
+rjbs: WOW
+rjbs: astounding. okay, committing, pushing
+rjbs: mjd: check my df4ae63 and be amazed
+mjd: OMG
+{% endchat %}
 
 Then I went off and, unable to think about anything else, spent dinner
 explaining mutability, references, and action at a distance to my daughter.

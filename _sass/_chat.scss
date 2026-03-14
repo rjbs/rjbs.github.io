@@ -1,0 +1,50 @@
+// Chat transcript block — IRC/Slack style
+// Usage: {% chat %} … {% endchat %}
+//
+// Speaker lines:    SpeakerName: text
+// Stage directions: * something happens
+//
+// Colors come from (highest priority first):
+//   1. Inline tag params:       {% chat Alice="#005ab4" %}
+//   2. Global config:           chat.speakers.Alice: "#005ab4"  in _config.yml
+//   3. Auto-assigned palette:   chat.palette in _config.yml, or built-in default
+
+.chat-transcript {
+  background: #f6f6f8;
+  border: 1px solid #d8d0e0;
+  border-radius: 0.5em;
+  padding: 1em 1.25em;
+  margin: 1.5em 0;
+  font-size: 16px;
+  line-height: 1.5;
+
+  .chat-line {
+    display: flex;
+    gap: 0.75em;
+    margin: 0.15em 0;
+
+    .chat-speaker-name {
+      font-weight: bold;
+      min-width: 5em;
+      text-align: right;
+      flex-shrink: 0;
+      padding-top: 0.05em; // optical alignment
+      color: var(--speaker-color, #555);
+    }
+
+    .chat-text {
+      flex: 1;
+
+      p { margin: 0; }
+      p + p { margin-top: 0.4em; }
+    }
+  }
+
+  .chat-direction {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    font-size: 0.9em;
+    margin: 0.6em 0;
+  }
+}
