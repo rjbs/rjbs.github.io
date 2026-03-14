@@ -246,13 +246,21 @@ nav {
 // .main
 //
 
-.posts > .post {
+// Shared card base — individual rules add padding/margin/hover as needed
+.posts > .post,
+.post,
+.stuff-card,
+.talk-card,
+.talk-page {
+  background: $white;
   border: 1px solid color.adjust($lightGray, $lightness: -10%);
   border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.posts > .post {
   padding: 0 1.5em 0.5em;
   margin-bottom: 1.5em;
-  background: $white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.2s ease;
 
   &:hover {
@@ -293,10 +301,6 @@ nav {
 }
 
 .post {
-  background: $white;
-  border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1.5em 2em 1em;
   margin-bottom: 1.5em;
 
@@ -308,10 +312,6 @@ nav {
     background-color: $pink;
     padding: 0.1em 1em;
     font-size: 18px;
-  }
-
-  .entry h2, .entry h3 {
-    color: #6b1818;
   }
 
   .comments {
@@ -378,10 +378,6 @@ p:has( video[src*="flickr.com"] ) {
 }
 
 .stuff-card {
-  background: $white;
-  border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1em;
   display: block;
   color: $darkGray;
@@ -408,10 +404,6 @@ p:has( video[src*="flickr.com"] ) {
 }
 
 .talk-card {
-  background: $white;
-  border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: box-shadow 0.2s ease;
   display: flex;
@@ -468,6 +460,10 @@ p:has( video[src*="flickr.com"] ) {
   border-radius: 8px;
 }
 
+.entry h2, .entry h3 {
+  color: #6b1818;
+}
+
 .page {
   h1, h2, h3 {
     color: #6b1818;
@@ -475,20 +471,8 @@ p:has( video[src*="flickr.com"] ) {
 }
 
 .talk-page {
-  background: $white;
-  border: 1px solid color.adjust($lightGray, $lightness: -10%);
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1.5em 2em 1em;
   margin-bottom: 1.5em;
-
-  h1 {
-    color: #6b1818;
-  }
-
-  .entry h2, .entry h3 {
-    color: #6b1818;
-  }
 
   .talk-page-date {
     margin-bottom: 0.5em;
