@@ -2,7 +2,7 @@
 layout: post
 title : "experiments with claude, part ⅲ: JMAP-Tester coverage"
 date  : "2026-03-16T12:00:00"
-tags  : ["programming","agents"]
+tags  : ["programming","perl","agents"]
 ---
 
 Here's another post in which I fiddle around with Claude Code and determine
