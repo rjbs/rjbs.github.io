@@ -2,14 +2,16 @@
 Renders a Leaflet map of pinned places.
 
 Usage:
-  {% include map.html places=site.data.maps.example %}
+  {% include map.html places=site.data.maps.travel %}
 
 Parameters:
-  places  (required) an array of place hashes, each with:
+  places  (required) a hash of places keyed by a location id. Each value:
             lat, lng   numeric coordinates
             title      pin title, shown bold atop the popup
             text       optional markdown, rendered into the popup
             links      optional list of { text, url } hashes
+          Any blog post whose front matter sets `location:` to a key here
+          is linked from that key's pin automatically.
   id      (optional) DOM id for the map container; defaults to "map".
           Pass a distinct id when placing more than one map on a page.
 
@@ -21,13 +23,16 @@ loads the Leaflet assets. -- claude, 2026-07-02
 <script>
 (function () {
   var places = [
-    {% for place in include.places %}
+    {% for entry in include.places %}
+    {% assign id = entry[0] %}
+    {% assign place = entry[1] %}
+    {% assign posts_here = site.posts | where: "location", id %}
     {
       lat: {{ place.lat | jsonify }},
       lng: {{ place.lng | jsonify }},
       title: {{ place.title | jsonify }},
       type: {{ place.type | jsonify }},
-      html: {% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}{{ popup | jsonify }}
+      html: {% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links or posts_here.size > 0 %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}{% for post in posts_here %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}{{ popup | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];

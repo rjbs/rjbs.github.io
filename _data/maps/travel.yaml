@@ -1,4 +1,7 @@
-- title: Philadelphia
+# Keyed by a location id. A blog post with a matching `location` in its
+# front matter is linked automatically from that location's pin.
+philadelphia:
+  title: Philadelphia
   lat: 39.9528
   lng: -75.1636
   text: |
@@ -7,13 +10,24 @@
     - text: Philadelphia
       url: https://en.wikipedia.org/wiki/Philadelphia
 
-- title: Denver
+tokyo:
+  title: Tokyo
+  lat: 35.689722
+  lng: 139.692222
+  text: |
+    I was incredibly lucky to be invited to speak at YAPC::Asia in Tokyo,
+    *three times*!  Once each in 2011, 2013, and 2015.  Tokyo was amazing, and
+    I would love to go back.
+
+denver:
+  title: Denver
   lat: 39.74
   lng: -104.99
   type: airport
   text: I've flown through here, but never visited!
 
-- title: Rio de Janeiro
+rio:
+  title: Rio de Janeiro
   lat: -22.911111
   lng: -43.205556
   text: I went here on vacation in June 2025, and it was terrific!
