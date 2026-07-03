@@ -1,0 +1,67 @@
+{% comment %}
+Renders a Leaflet map of pinned places.
+
+Usage:
+  {% include map.html places=site.data.maps.example %}
+
+Parameters:
+  places  (required) an array of place hashes, each with:
+            lat, lng   numeric coordinates
+            title      pin title, shown bold atop the popup
+            text       optional markdown, rendered into the popup
+            links      optional list of { text, url } hashes
+  id      (optional) DOM id for the map container; defaults to "map".
+          Pass a distinct id when placing more than one map on a page.
+
+The host page must set `map: true` in its front matter so the layout
+loads the Leaflet assets. -- claude, 2026-07-02
+{% endcomment %}
+{% assign map_id = include.id | default: "map" %}
+<div id="{{ map_id }}" class="leaflet-map"></div>
+<script>
+(function () {
+  var places = [
+    {% for place in include.places %}
+    {
+      lat: {{ place.lat | jsonify }},
+      lng: {{ place.lng | jsonify }},
+      title: {{ place.title | jsonify }},
+      html: {% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}{{ popup | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  var map = L.map({{ map_id | jsonify }});
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Point Leaflet's default marker at our vendored images rather than
+  // letting it guess a path from the script URL. -- claude, 2026-07-02
+  var icon = L.icon({
+    iconUrl:       '/assets/leaflet/images/marker-icon.png',
+    iconRetinaUrl: '/assets/leaflet/images/marker-icon-2x.png',
+    shadowUrl:     '/assets/leaflet/images/marker-shadow.png',
+    iconSize:    [25, 41],
+    iconAnchor:  [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize:  [41, 41]
+  });
+
+  var group = L.featureGroup();
+  places.forEach(function (p) {
+    L.marker([p.lat, p.lng], { icon: icon, title: p.title })
+     .bindPopup(p.html)
+     .addTo(group);
+  });
+  group.addTo(map);
+
+  if (places.length) {
+    map.fitBounds(group.getBounds().pad(0.2));
+  } else {
+    map.setView([20, 0], 2);
+  }
+}());
+</script>

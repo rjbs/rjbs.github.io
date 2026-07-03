@@ -1,0 +1,22 @@
+- title: The Alamo
+  lat: 29.4260
+  lng: -98.4861
+  text: |
+    A former mission and the site of the 1836 battle.
+    *Remember it.*
+  links:
+    - text: Wikipedia
+      url: https://en.wikipedia.org/wiki/Alamo_Mission_in_San_Antonio
+
+- title: Independence Hall
+  lat: 39.9489
+  lng: -75.1500
+  text: Where both the Declaration of Independence and the Constitution were debated and adopted.
+  links:
+    - text: Wikipedia
+      url: https://en.wikipedia.org/wiki/Independence_Hall
+
+- title: Golden Gate Bridge
+  lat: 37.8199
+  lng: -122.4783
+  text: Opened in 1937, and for a while the longest suspension bridge in the world.

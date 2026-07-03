@@ -470,6 +470,22 @@ p:has( video[src*="flickr.com"] ) {
   }
 }
 
+.leaflet-map {
+  height: 480px;
+  margin-bottom: 1.5em;
+  border-radius: 8px;
+}
+
+.map-popup-title {
+  margin: 0 0 0.3em;
+  font-size: 16px;
+}
+
+.map-popup-links {
+  margin: 0.3em 0 0;
+  padding-left: 1.2em;
+}
+
 .talk-page {
   padding: 1.5em 2em 1em;
   margin-bottom: 1.5em;
