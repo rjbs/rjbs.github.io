@@ -19,4 +19,5 @@
 - title: Golden Gate Bridge
   lat: 37.8199
   lng: -122.4783
+  type: landmark
   text: Opened in 1937, and for a while the longest suspension bridge in the world.

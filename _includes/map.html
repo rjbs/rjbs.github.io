@@ -26,6 +26,7 @@ loads the Leaflet assets. -- claude, 2026-07-02
       lat: {{ place.lat | jsonify }},
       lng: {{ place.lng | jsonify }},
       title: {{ place.title | jsonify }},
+      type: {{ place.type | jsonify }},
       html: {% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}{{ popup | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
@@ -38,21 +39,38 @@ loads the Leaflet assets. -- claude, 2026-07-02
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
-  // Point Leaflet's default marker at our vendored images rather than
-  // letting it guess a path from the script URL. -- claude, 2026-07-02
-  var icon = L.icon({
-    iconUrl:       '/assets/leaflet/images/marker-icon.png',
-    iconRetinaUrl: '/assets/leaflet/images/marker-icon-2x.png',
-    shadowUrl:     '/assets/leaflet/images/marker-shadow.png',
-    iconSize:    [25, 41],
-    iconAnchor:  [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize:  [41, 41]
-  });
+  // Build a marker icon from one of our vendored image sets, pointing
+  // Leaflet at explicit paths rather than letting it guess one from the
+  // script URL. -- claude, 2026-07-02
+  function makeIcon(color) {
+    var suffix = color ? '-' + color : '';
+    return L.icon({
+      iconUrl:       '/assets/leaflet/images/marker-icon' + suffix + '.png',
+      iconRetinaUrl: '/assets/leaflet/images/marker-icon-2x' + suffix + '.png',
+      shadowUrl:     '/assets/leaflet/images/marker-shadow.png',
+      iconSize:    [25, 41],
+      iconAnchor:  [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize:  [41, 41]
+    });
+  }
+
+  var primaryIcon   = makeIcon();
+  var secondaryIcon = makeIcon('red');
+
+  // Per-type icons can go here later, keyed by a place's `type`; any type
+  // without its own entry falls back to the secondary marker, and places
+  // with no type at all use the primary. -- claude, 2026-07-02
+  var iconsByType = {};
+
+  function iconForType(type) {
+    if (!type) { return primaryIcon; }
+    return iconsByType[type] || secondaryIcon;
+  }
 
   var group = L.featureGroup();
   places.forEach(function (p) {
-    L.marker([p.lat, p.lng], { icon: icon, title: p.title })
+    L.marker([p.lat, p.lng], { icon: iconForType(p.type), title: p.title })
      .bindPopup(p.html)
      .addTo(group);
   });
