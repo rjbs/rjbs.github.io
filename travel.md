@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Travels
-permalink: /map/
+permalink: /travel/
 map: true
 ---
 
