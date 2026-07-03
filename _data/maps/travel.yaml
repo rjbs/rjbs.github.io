@@ -193,6 +193,15 @@ melbourne:
     No complaints about that:  it's a wonderful city with great food, lots
     to do and see, and great transit.
 
+montreal:
+  title: Montreal
+  lat: 45.5031824
+  lng: -73.5698065
+  text: |
+    I attended IETF here twice. Once, in 2017 or so, and it was incredibly
+    unpleasantly hot.  The other time, it was lovely weather, or at least not
+    hot.  But the highlight of that trip wasn't Montreal, it was Quebec City.
+
 moscow:
   title: Moscow
   lat: 55.6255780
@@ -251,6 +260,15 @@ portland:
   lng: -122.6741940
   text: |
     TODO
+
+quebec-city:
+  title: Quebec City
+  lat: 46.8137431
+  lng: -71.2084061
+  text: |
+    We made a day trip here while in Montreal for IETF.  Quebec City was
+    terrific, and while it was small, I could imagine spending a few quiet days
+    here just enjoying the vibe and the scenery.
 
 rio:
   title: Rio de Janeiro
