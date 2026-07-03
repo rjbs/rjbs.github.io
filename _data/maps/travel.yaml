@@ -5,84 +5,103 @@ amsterdam:
   lat: 52.3730796
   lng: 4.8924534
   text: |
-    TODO
+    I was here for the Perl QA Hackathon in 2011.  I had a good time, but I
+    didn't do a good job at seeing the city.  Next time, I should be a tourist.
 
 asheville:
   title: Asheville
   lat: 35.5953630
   lng: -82.5508407
   text: |
-    TODO
+    I've been here twice.  Once, I was at a campground with cabins for a family
+    reunion.  I had a bad time.  The other time it was for YAPC, which was
+    great.  Good people, and some great food.
 
 austin:
   title: Austin,TX
   lat: 30.2711286
   lng: -97.7436995
   text: |
-    TODO
+    I was here for a YAPC.  It was hot as heck, but I had some terrific drinks
+    with my friend Tom, including a rum old fashioned.
 
 bangkok:
   title: Bangkok
   lat: 13.7524938
   lng: 100.4935089
   text: |
-    TODO
+    I attended IETF here and did some organized walking and boat tours with my
+    colleagues.  This was great, I'm glad we took the time!
 
 berlin:
   title: Berlin
   lat: 52.5173885
   lng: 13.3951309
   text: |
-    TODO
+    I was here for the 2015 Perl QA Hackathon.  Berlin was great!
 
 birmingham:
   title: Birmingham
   lat: 52.4948994
   lng: -1.8518439
   text: |
-    TODO
+    This was the location of the 2009 Perl QA Hackathon, the second one, and I
+    had a great time.  It's the first time I had a very good hamburger in the
+    UK -- obviously a very memorable event!
 
 boston:
   title: Boston
   lat: 42.3588336
   lng: -71.0578303
   text: |
-    TODO
+    I went to Boston University, so I lived in Boston (and nearby Somerville)
+    for a few years.  It's the place I spent the most time outside of
+    Pennsylvania.
 
 braunfels:
   title: Braunfels
   lat: 50.5017248
   lng: 8.4012818
   text: |
-    TODO
+    This is my mother's home town.  I went there a few times as a kid, to visit
+    my mother's family, and I've been back several times as an adult.  It's
+    a lovely little village.
 
 brisbane:
   title: Brisbane
   lat: -27.4689623
   lng: 153.0235009
   text: |
-    TODO
+    I only went to Brisbane once, on a weekend, in February.  It was a bad time
+    to go: hot and humid and terrible.  But the city wasn't so bad, and I liked
+    that it had a sort of long, river-like swimming body running through it.
 
 brussels:
   title: Brussels
   lat: 50.8467372
   lng: 4.3524930
   text: |
-    TODO
+    I've been to Brussels a few times for FOSDEM.  I've only been in February,
+    when it's grey and miserable, but all the things it's famous for are good:
+    beer, fries, waffles, and Art Nouveau architecture.
 
 cardiff:
   title: Cardiff
   lat: 51.4816546
   lng: -3.1791934
   text: |
-    TODO
+    I used to work for IQE, a semiconductor company with its headquarters in
+    Cardiff.  I went there for work a few times, and liked it.  Most of the
+    time, I stayed at a boring country club near the office.  Once, I stayed
+    with a colleague near Roald Dahl place, and that was great.
 
 chicago:
   title: Chicago
   lat: 41.8755616
   lng: -87.6244212
   text: |
-    TODO
+    I went to a few conferences in Chicago: two YAPCs and an IETF.  They were
+    all good, and I'd go again!
 
 denver:
   title: Denver
@@ -96,35 +115,45 @@ hobart:
   lat: -42.8825088
   lng: 147.3281233
   text: |
-    TODO
+    I've been to Hobart twice as "weekend away" trips during fortnights working
+    in Melbourne.  I've really liked it both times.  Good food, the Salamanca
+    market, lots of nice walking, and [MONA](https://mona.net.au/).
 
 houston:
   title: Houston,TX
   lat: 29.7589382
   lng: -95.3676974
   text: |
-    TODO
+    I went to a YAPC here and it was unbearably hot and humid.  Also, it was
+    held on a college campus not near anything else.  I'd try it again, but …
+    hoo boy!
 
 lancaster-uk:
   title: Lancaster,UK
   lat: 54.0488219
   lng: -2.8013499
   text: |
-    TODO
+    I went to the 2013 Perl QA Hackathon here, and it was good.  The most
+    memorable bit was probably going to a farmhouse restaurant, where we could
+    watch the sun set while we ate.  Also, there was some great cheese!
 
 london:
   title: London
   lat: 51.5074456
   lng: -0.1277653
   text: |
-    TODO
+    I've been through London quite a few times going to Cardiff or other places,
+    but have really only spent a few days really visiting.  I'd like to visit
+    longer.
 
 lyon:
   title: Lyon
   lat: 45.7578137
   lng: 4.8320114
   text: |
-    TODO
+    The Perl Toolchain Summit has been in Lyon three times, and I went to two
+    of them.  Lovely city, great food, and a good time.  The first time, we
+    took a side trip to the Chartreuse distillery, which was a real treat.
 
 marlow:
   title: Marlow
@@ -141,14 +170,17 @@ melbourne:
   lat: -37.8142454
   lng: 144.9631732
   text: |
-    TODO
+    Fastmail HQ is here, so I've been quite a few times.  It's probably the
+    place I've spent the most time without actually living there full time.
+    No complaints about that:  it's a wonderful city with great food, lots
+    to do and see, and great transit.
 
 moscow:
   title: Moscow
   lat: 55.6255780
   lng: 37.6063916
   text: |
-    TODO
+    I took a tour here in 1992 with a childhood friend and his family.
 
 new-orleans:
   title: New Orleans
@@ -241,7 +273,7 @@ st-petersburg:
   lat: 59.9606739
   lng: 30.1586551
   text: |
-    TODO
+    I took a tour here in 1992 with a childhood friend and his family.
 
 sydney:
   title: Sydney

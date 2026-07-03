@@ -3,6 +3,7 @@ layout: post
 title : "the 2015 Perl QA Hackathon in Berlin"
 date  : "2015-04-23T00:20:51Z"
 tags  : ["perl", "perlqah2015", "programming"]
+location: berlin
 ---
 I spent last week in Berlin, at the [2015 Perl QA
 Hackathon](http://act.qa-hackathon.org/qa2015/).  This is an annual event where

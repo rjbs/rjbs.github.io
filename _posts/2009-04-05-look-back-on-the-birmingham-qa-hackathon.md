@@ -3,6 +3,7 @@ layout: post
 title : "look back on the birmingham qa hackathon"
 date  : "2009-04-05T18:51:50Z"
 tags  : ["perl", "programming"]
+location: birmingham
 ---
 The QA Hackathon was, just as it was last year, fantastic.  It felt really
 productive, and left me feeling really professionally refreshed and ready to

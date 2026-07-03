@@ -3,6 +3,7 @@ layout: post
 title : "the 2011 Perl QA Hackathon in Amsterdam"
 date  : "2011-04-21T14:06:45Z"
 tags  : ["perl", "perlqa2011", "programming"]
+location: amsterdam
 ---
 I was very privileged to attend the first QA Hackathon in Oslo in 2008 and also
 the second in Birmingham in 2009.  Last year I couldn't attend, but this year
