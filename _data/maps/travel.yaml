@@ -110,6 +110,15 @@ denver:
   type: airport
   text: I've flown through here, but never visited!
 
+doha:
+  title: Doha
+  lat: 25.3108807
+  lng: 51.5081812
+  type: airport
+  text: |
+    I've flown through here.  The airport was pretty cool.  I'd like to visit
+    the area more, someday.
+
 hobart:
   title: Hobart
   lat: -42.8825088
