@@ -155,6 +155,13 @@ lancaster-uk:
     memorable bit was probably going to a farmhouse restaurant, where we could
     watch the sun set while we ate.  Also, there was some great cheese!
 
+las-vegas:
+  title: Las Vegas
+  lat: 36.1674263
+  lng: -115.1484131
+  text: |
+    TODO
+
 london:
   title: London
   lat: 51.5074456
@@ -339,6 +346,13 @@ toronto:
   title: Toronto
   lat: 43.6534817
   lng: -79.3839347
+  text: |
+    TODO
+
+tucson:
+  title: Tucson
+  lat: 32.2228765
+  lng: -110.9748470
   text: |
     TODO
 
