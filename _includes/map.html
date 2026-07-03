@@ -82,14 +82,26 @@ loads the Leaflet assets. -- claude, 2026-07-02
 
   var group = L.featureGroup();
   places.forEach(function (p) {
-    // Cap popup height so a long list of posts scrolls within the popup
-    // rather than spilling past the map's edge, which the fenced view
-    // (see maxBounds above) won't let auto-pan rescue. -- claude, 2026-07-03
     L.marker([p.lat, p.lng], { icon: iconForType(p.type), title: p.title })
-     .bindPopup(p.html, { maxHeight: 200, autoPanPadding: [16, 16] })
+     .bindPopup(p.html)
      .addTo(group);
   });
   group.addTo(map);
+
+  // Size a popup to the room above its pin so a long list of posts scrolls
+  // within a popup that stays wholly on the map. The fully-zoomed-out view
+  // is fenced (see maxBounds above), so a popup that overflows the top edge
+  // can't be rescued by auto-pan -- there's no map up there to pan to.
+  // -- claude, 2026-07-03
+  map.on('popupopen', function (e) {
+    var popup = e.popup;
+    var pinY = map.latLngToContainerPoint(popup.getLatLng()).y;
+    var room = Math.max(90, Math.min(pinY - 48, 280));
+    if (popup.options.maxHeight !== room) {
+      popup.options.maxHeight = room;
+      popup.update();
+    }
+  });
 
   if (places.length) {
     map.fitBounds(group.getBounds().pad(0.2));
