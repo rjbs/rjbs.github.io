@@ -44,10 +44,14 @@ loads the Leaflet assets. -- claude, 2026-07-02
   // sits on the single copy. We deliberately leave the view unfenced (no
   // maxBounds) so a popup opening near an edge can auto-pan into view.
   // -- claude, 2026-07-03
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  //
+  // Esri's World Street Map labels places in English, unlike OSM's own
+  // tiles which use the local language and script. Note that Esri serves
+  // tiles in {z}/{y}/{x} order, not OSM's {z}/{x}/{y}. -- claude, 2026-07-03
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 19,
     noWrap: true,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: 'Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, and the GIS User Community'
   }).addTo(map);
 
   // Build a marker icon from one of our vendored image sets, pointing
