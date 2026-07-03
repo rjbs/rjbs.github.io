@@ -3,6 +3,7 @@ layout: post
 title : "rjbs in Rio, part ⅲ"
 date  : "2025-07-02T12:00:00Z"
 tags  : ["travel"]
+location: rio
 ---
 
 I'd had four days in Rio so far (and one in Miami, better left unmentioned).  I

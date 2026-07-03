@@ -3,6 +3,7 @@ layout: post
 title : "PTS 2019: I went to the Perl Toolchain Summit! (index)"
 date  : "2019-04-30T00:47:48Z"
 tags  : ["perl", "programming"]
+location: marlow
 ---
 Once again, it is spring in the northern hemisphere, and so time for the Perl
 Toolchain Summit, aka the QA Hackathon.  I've made it to most of these, and

@@ -3,6 +3,7 @@ layout: post
 title : "I went to Tokyo!"
 date  : "2013-09-26T17:30:23Z"
 tags  : ["perl", "yapc"]
+location : tokyo
 ---
 I must have done something right when I attended YAPC::Asia 2011, because they
 invited me back this year.  I was *delighted* to accept the invitation, and I'm

@@ -1,0 +1,180 @@
+#!/usr/bin/env perl
+use v5.36;
+use open ':std', ':encoding(UTF-8)';
+
+use Encode qw(decode_utf8);
+use HTTP::Tiny;
+use JSON::PP ();
+
+# add-locations - look up place names and add them, as stubs, to a
+# travel.yaml-style map data file.
+#
+# Usage:
+#   _bin/add-locations DATAFILE PLACE [PLACE ...]
+#
+# For each PLACE, this geocodes the name with OpenStreetMap's Nominatim,
+# shows what it found, and asks whether to add it. On confirmation a stub
+# entry (title, lat, lng, and a placeholder text) is inserted into
+# DATAFILE in alphabetical order by key. You pick the key at the prompt --
+# the default is a slug of the place name, but "Rio de Janeiro" might
+# deserve a tidier "rio". -- claude, 2026-07-03
+
+my $NOMINATIM = 'https://nominatim.openstreetmap.org/search';
+
+my $http = HTTP::Tiny->new(
+  # Nominatim's usage policy requires an identifying User-Agent with a way
+  # to make contact. -- claude, 2026-07-03
+  agent   => 'rjbs.cloud add-locations (hello@rjbs.cloud)',
+  timeout => 20,
+);
+
+my $json = JSON::PP->new->utf8;
+
+sub uri_escape ($str) {
+  utf8::encode($str);
+  $str =~ s/([^A-Za-z0-9_.~-])/sprintf '%%%02X', ord $1/ge;
+  return $str;
+}
+
+sub slugify ($str) {
+  my $slug = lc $str;
+  $slug =~ s/[^a-z0-9]+/-/g;
+  $slug =~ s/\A-+|-+\z//g;
+  return $slug;
+}
+
+# Query Nominatim for one place name, returning the best match as a hash
+# (or undef if nothing was found or the request failed). -- claude, 2026-07-03
+sub geocode ($query) {
+  my $url = "$NOMINATIM?q=" . uri_escape($query) . '&format=jsonv2&limit=1';
+
+  my $res = $http->get($url);
+  unless ($res->{success}) {
+    warn "  lookup failed: $res->{status} $res->{reason}\n";
+    return undef;
+  }
+
+  my $results = eval { $json->decode($res->{content}) };
+  return undef unless $results && @$results;
+  return $results->[0];
+}
+
+# Read DATAFILE and split it into a leading header (comments/blank lines
+# before the first entry) and one text block per top-level key. Blank
+# lines between entries ride along as the trailing lines of the entry
+# above them, so reassembling the pieces reproduces the file verbatim.
+# This is deliberately textual rather than a YAML round-trip, which would
+# discard the header comment and reflow everything. -- claude, 2026-07-03
+sub parse_file ($path) {
+  open my $fh, '<:encoding(UTF-8)', $path or die "can't read $path: $!\n";
+  my @lines = <$fh>;
+  close $fh;
+
+  my $is_key = sub ($line) { $line =~ /\A([A-Za-z0-9_-]+):\s*\z/ };
+
+  my @header;
+  my $i = 0;
+  $i++, push @header, $lines[$i - 1] while $i < @lines && !$is_key->($lines[$i]);
+
+  my @entries;
+  while ($i < @lines) {
+    my ($key) = $lines[$i] =~ /\A([A-Za-z0-9_-]+):/;
+    my @block = ($lines[$i++]);
+    push @block, $lines[$i++] while $i < @lines && !$is_key->($lines[$i]);
+    push @entries, { key => $key, text => join('', @block) };
+  }
+
+  return (join('', @header), \@entries);
+}
+
+# Insert $entry into the (assumed alphabetical) @$entries at the position
+# that keeps the keys sorted, then rewrite $path. -- claude, 2026-07-03
+sub write_file ($path, $header, $entries, $entry) {
+  my $pos = 0;
+  $pos++ while $pos < @$entries && lc $entries->[$pos]{key} lt lc $entry->{key};
+  splice @$entries, $pos, 0, $entry;
+
+  open my $fh, '>:encoding(UTF-8)', $path or die "can't write $path: $!\n";
+  print $fh $header;
+  print $fh $_->{text} for @$entries;
+  close $fh;
+}
+
+sub stub_for ($key, $title, $lat, $lng) {
+  return <<~"END_STUB";
+    $key:
+      title: $title
+      lat: $lat
+      lng: $lng
+      text: |
+        TODO
+
+    END_STUB
+}
+
+# Ask which key to file this place under. Returns the chosen key, or undef
+# to skip. Enter accepts the default; "n" skips; anything else is taken as
+# a replacement key. -- claude, 2026-07-03
+sub ask_key ($default) {
+  while (1) {
+    print qq{  Add as "$default"?  [Enter = yes, n = skip, or type a different key]: };
+    my $line = <STDIN>;
+    return undef unless defined $line;
+
+    $line =~ s/\A\s+|\s+\z//g;
+    return $default            if $line eq '' || lc $line eq 'y' || lc $line eq 'yes';
+    return undef               if lc $line eq 'n' || lc $line eq 'no';
+    return $line               if $line =~ /\A[A-Za-z0-9_-]+\z/;
+
+    say "  Please press Enter, type 'n', or type a key of letters, digits, - or _.";
+  }
+}
+
+my ($path, @places) = map { decode_utf8 $_ } @ARGV;
+
+die "usage: $0 DATAFILE PLACE [PLACE ...]\n" unless defined $path && @places;
+die "no such file: $path\n" unless -f $path;
+
+my ($header, $entries) = parse_file($path);
+my %have = map { $_->{key} => 1 } @$entries;
+
+my $added = 0;
+
+for my $place (@places) {
+  say "\n$place";
+
+  my $hit = geocode($place);
+  unless ($hit) {
+    say "  no match; skipping.";
+    next;
+  }
+
+  my $key = slugify($place);
+  say "    title: $place";
+  say "    lat:   $hit->{lat}";
+  say "    lng:   $hit->{lon}";
+  say "    found: $hit->{display_name}";
+
+  my $chosen = ask_key($key);
+  unless (defined $chosen) {
+    say "  skipped.";
+    next;
+  }
+
+  if ($have{$chosen}) {
+    say qq{  key "$chosen" is already in the file; skipping.};
+    next;
+  }
+
+  my $entry = {
+    key  => $chosen,
+    text => stub_for($chosen, $place, $hit->{lat}, $hit->{lon}),
+  };
+
+  write_file($path, $header, $entries, $entry);
+  $have{$chosen} = 1;
+  $added++;
+  say qq{  added "$chosen".};
+}
+
+say "\nDone. Added $added " . ($added == 1 ? 'location' : 'locations') . " to $path.";

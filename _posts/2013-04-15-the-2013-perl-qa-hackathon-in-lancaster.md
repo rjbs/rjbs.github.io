@@ -3,6 +3,7 @@ layout: post
 title : "the 2013 Perl QA Hackathon in Lancaster"
 date  : "2013-04-15T23:34:56Z"
 tags  : ["perl", "perlqa2013", "programming"]
+location: lancaster-uk
 ---
 I got home from Lancaster, this morning.  I'd been there for the sixth annual
 Perl QA Hackathon.  As usual, it was a success and made me feel pretty

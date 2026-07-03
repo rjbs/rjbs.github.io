@@ -3,6 +3,7 @@ layout: post
 title : "PTS 2019: The PAUSE Test Suite (4/5)"
 date  : "2019-04-30T00:45:11Z"
 tags  : ["perl", "programming"]
+location: marlow
 ---
 All that Module::Faker and Getopt work was really in furtherance of PAUSE work.
 When I arrived in Marlow, I had been given just request by Neil:  sort out

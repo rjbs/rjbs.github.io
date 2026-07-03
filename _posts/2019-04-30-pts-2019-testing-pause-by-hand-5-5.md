@@ -3,6 +3,7 @@ layout: post
 title : "PTS 2019: Testing PAUSE by Hand (5/5)"
 date  : "2019-04-30T00:47:27Z"
 tags  : ["perl", "programming"]
+location: marlow
 ---
 Writing tests is great, but sometimes you're not sure what you're looking for.
 Maybe you don't know what will happen *at all* if you try something new.  Maybe

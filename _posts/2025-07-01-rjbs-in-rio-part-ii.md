@@ -1,8 +1,9 @@
 ---
 layout: post
 title : "rjbs in Rio, part ⅱ"
-date  : "2025-07-01T12:00:00Z"
 tags  : ["travel"]
+date  : "2025-07-01T12:00:00Z"
+location: rio
 ---
 
 After a rocky start, I had two great days in Rio, leaving me about four days of

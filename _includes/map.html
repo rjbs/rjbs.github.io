@@ -1,0 +1,105 @@
+{% comment %}
+Renders a MapLibre GL map of pinned places.
+
+Usage:
+  {% include map.html places=site.data.maps.travel %}
+
+Parameters:
+  places  (required) a hash of places keyed by a location id. Each value:
+            lat, lng   numeric coordinates
+            title      pin title, shown bold atop the popup
+            text       optional markdown, rendered into the popup
+            links      optional list of { text, url } hashes
+          Any blog post whose front matter sets `location:` to a key here
+          is linked from that key's pin automatically.
+  id      (optional) DOM id for the map container; defaults to "map".
+          Pass a distinct id when placing more than one map on a page.
+
+The host page must set `map: true` in its front matter so the layout
+loads the MapLibre GL assets. -- claude, 2026-07-03
+{% endcomment %}
+{% assign map_id = include.id | default: "map" %}
+<div id="{{ map_id }}" class="place-map"></div>
+<script>
+(function () {
+  var places = [
+    {% for entry in include.places %}
+    {% assign id = entry[0] %}
+    {% assign place = entry[1] %}
+    {% assign posts_here = site.posts | where: "location", id | sort: "date" %}
+    {
+      lat: {{ place.lat | jsonify }},
+      lng: {{ place.lng | jsonify }},
+      title: {{ place.title | jsonify }},
+      type: {{ place.type | jsonify }},
+      html: {% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links or posts_here.size > 0 %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}{% for post in posts_here %}<li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date: "%b '%y" }})</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}{{ popup | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  // Frame the map to the pins up front, via the constructor's bounds
+  // option, so we never depend on the container being laid out before a
+  // separate fitBounds call. -- claude, 2026-07-03
+  var mapOptions = {
+    container: {{ map_id | jsonify }},
+    // OpenFreeMap: a free, key-less, actively-maintained vector tile host.
+    style: 'https://tiles.openfreemap.org/styles/liberty',
+    attributionControl: false
+  };
+
+  if (places.length) {
+    var bounds = new maplibregl.LngLatBounds();
+    places.forEach(function (p) { bounds.extend([p.lng, p.lat]); });
+    mapOptions.bounds = bounds;
+    mapOptions.fitBoundsOptions = { padding: 60, maxZoom: 6 };
+  } else {
+    mapOptions.center = [0, 20];
+    mapOptions.zoom = 1;
+  }
+
+  var map = new maplibregl.Map(mapOptions);
+
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+  map.addControl(new maplibregl.AttributionControl({
+    customAttribution: '<a href="https://openfreemap.org">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }));
+
+  // OpenFreeMap labels each place in its local language. Rewrite every
+  // text label to prefer the English name, falling back to the local one
+  // where no English name exists. -- claude, 2026-07-03
+  map.on('load', function () {
+    map.getStyle().layers.forEach(function (layer) {
+      if (layer.type === 'symbol' && layer.layout && layer.layout['text-field']) {
+        map.setLayoutProperty(layer.id, 'text-field', ['coalesce', ['get', 'name:en'], ['get', 'name']]);
+      }
+    });
+  });
+
+  const primaryStyle = {
+    color: '#880088', // purple
+  };
+
+  const fallbackStyle = {
+    color: '#008800',
+    scale: 0.5,
+  };
+
+  function styleForType(type) {
+    if (!type) { return primaryStyle; }
+
+    // Per-type marker styles can go here later, keyed by a place's `type`;
+    // any type without its own entry falls back to the secondary color, and
+    // places with no type at all use the primary.
+
+    return fallbackStyle;
+  }
+
+  places.forEach(function (p) {
+    var popup = new maplibregl.Popup({ maxWidth: '300px' }).setHTML(p.html);
+    new maplibregl.Marker({ ...styleForType(p.type) })
+      .setLngLat([p.lng, p.lat])
+      .setPopup(popup)
+      .addTo(map);
+  });
+}());
+</script>

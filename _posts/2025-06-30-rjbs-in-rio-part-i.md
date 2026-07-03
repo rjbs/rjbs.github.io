@@ -3,6 +3,7 @@ layout: post
 title : "rjbs in Rio, part ⅰ"
 date  : "2025-06-30T12:00:00Z"
 tags  : ["travel"]
+location: rio
 ---
 
 So, I went to Rio de Janeiro!  It was great, and it'll probably take me several
