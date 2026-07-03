@@ -1,0 +1,14 @@
+- title: Philadelphia
+  lat: 39.9528
+  lng: -75.1636
+  text: |
+    It's where I live!
+  links:
+    - text: Philadelphia
+      url: https://en.wikipedia.org/wiki/Philadelphia
+
+- title: Denver
+  lat: 39.74
+  lng: -104.99
+  type: airport
+  text: I've flown through here, but never visited!

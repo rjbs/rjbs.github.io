@@ -1,10 +1,11 @@
 ---
 layout: page
-title: A Map
+title: Travels
 permalink: /map/
 map: true
 ---
 
-A few notable spots, each with a pin you can click.
+These are places I've been, sometimes busy at a conference, sometimes seeing
+the sights, and sometimes just passing through.
 
-{% include map.html places=site.data.maps.example %}
+{% include map.html places=site.data.maps.travel %}
