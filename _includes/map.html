@@ -32,7 +32,7 @@ loads the Leaflet assets. -- claude, 2026-07-02
       lng: {{ place.lng | jsonify }},
       title: {{ place.title | jsonify }},
       type: {{ place.type | jsonify }},
-      html: {% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links or posts_here.size > 0 %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}{% for post in posts_here %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}{{ popup | jsonify }}
+      html: {% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links or posts_here.size > 0 %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}{% for post in posts_here %}<li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date: "%b '%y" }})</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}{{ popup | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
