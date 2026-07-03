@@ -32,10 +32,17 @@ loads the Leaflet assets. -- claude, 2026-07-02
     {% endfor %}
   ];
 
-  var map = L.map({{ map_id | jsonify }});
+  // Fence the view to a single copy of the world. Leaflet wraps longitude
+  // infinitely by default, which repeats the map (two Africas) and leaves
+  // markers drawn on only one copy. -- claude, 2026-07-02
+  var map = L.map({{ map_id | jsonify }}, {
+    maxBounds: [[-90, -180], [90, 180]],
+    maxBoundsViscosity: 1.0
+  });
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
+    noWrap: true,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
