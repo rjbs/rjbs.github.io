@@ -12,3 +12,11 @@
   lng: -104.99
   type: airport
   text: I've flown through here, but never visited!
+
+- title: Rio de Janeiro
+  lat: -22.911111
+  lng: -43.205556
+  text: I went here on vacation in June 2025, and it was terrific!
+  links:
+    - text: rjbs in Rio, part ⅰ
+      url: https://rjbs.cloud/blog/2025/06/rjbs-in-rio-part-i/
