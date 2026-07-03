@@ -26,7 +26,7 @@ loads the Leaflet assets. -- claude, 2026-07-02
     {% for entry in include.places %}
     {% assign id = entry[0] %}
     {% assign place = entry[1] %}
-    {% assign posts_here = site.posts | where: "location", id %}
+    {% assign posts_here = site.posts | where: "location", id | sort: "date" %}
     {
       lat: {{ place.lat | jsonify }},
       lng: {{ place.lng | jsonify }},
