@@ -173,6 +173,14 @@ lyon:
     of them.  Lovely city, great food, and a good time.  The first time, we
     took a side trip to the Chartreuse distillery, which was a real treat.
 
+madison:
+  title: Madison
+  lat: 43.0746900
+  lng: -89.3841663
+  text: |
+    I attended the 2012 YAPC in Madison.  I'm afraid I don't remember the city
+    too well, but I had a good time and some great ice cream.
+
 marlow:
   title: Marlow
   lat: 51.57
