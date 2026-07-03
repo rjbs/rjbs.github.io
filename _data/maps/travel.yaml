@@ -27,6 +27,12 @@ philadelphia:
     - text: Philadelphia
       url: https://en.wikipedia.org/wiki/Philadelphia
 
+rio:
+  title: Rio de Janeiro
+  lat: -22.911111
+  lng: -43.205556
+  text: I went here on vacation in June 2025, and it was terrific!
+
 tokyo:
   title: Tokyo
   lat: 35.689722
@@ -35,8 +41,3 @@ tokyo:
     I was incredibly lucky to be invited to speak at YAPC::Asia in Tokyo,
     *three times*!  Once each in 2011, 2013, and 2015.  Tokyo was amazing, and
     I would love to go back.
-rio:
-  title: Rio de Janeiro
-  lat: -22.911111
-  lng: -43.205556
-  text: I went here on vacation in June 2025, and it was terrific!
