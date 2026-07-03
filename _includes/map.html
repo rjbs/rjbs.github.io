@@ -1,5 +1,5 @@
 {% comment %}
-Renders a Leaflet map of pinned places.
+Renders a MapLibre GL map of pinned places.
 
 Usage:
   {% include map.html places=site.data.maps.travel %}
@@ -16,10 +16,10 @@ Parameters:
           Pass a distinct id when placing more than one map on a page.
 
 The host page must set `map: true` in its front matter so the layout
-loads the Leaflet assets. -- claude, 2026-07-02
+loads the MapLibre GL assets. -- claude, 2026-07-03
 {% endcomment %}
 {% assign map_id = include.id | default: "map" %}
-<div id="{{ map_id }}" class="leaflet-map"></div>
+<div id="{{ map_id }}" class="place-map"></div>
 <script>
 (function () {
   var places = [
@@ -37,77 +37,63 @@ loads the Leaflet assets. -- claude, 2026-07-02
     {% endfor %}
   ];
 
-  var map = L.map({{ map_id | jsonify }});
-
-  // noWrap stops the tile layer from repeating the world when zoomed out
-  // (the "two Africas" effect); with only one world drawn, every marker
-  // sits on the single copy. We deliberately leave the view unfenced (no
-  // maxBounds) so a popup opening near an edge can auto-pan into view.
-  // -- claude, 2026-07-03
-  //
-  // Esri's World Street Map labels places in English, unlike OSM's own
-  // tiles which use the local language and script. Note that Esri serves
-  // tiles in {z}/{y}/{x} order, not OSM's {z}/{x}/{y}. -- claude, 2026-07-03
-  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-    maxZoom: 19,
-    noWrap: true,
-    attribution: 'Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, and the GIS User Community'
-  }).addTo(map);
-
-  // Build a marker icon from one of our vendored image sets, pointing
-  // Leaflet at explicit paths rather than letting it guess one from the
-  // script URL. -- claude, 2026-07-02
-  function makeIcon(color) {
-    var suffix = color ? '-' + color : '';
-    return L.icon({
-      iconUrl:       '/assets/leaflet/images/marker-icon' + suffix + '.png',
-      iconRetinaUrl: '/assets/leaflet/images/marker-icon-2x' + suffix + '.png',
-      shadowUrl:     '/assets/leaflet/images/marker-shadow.png',
-      iconSize:    [25, 41],
-      iconAnchor:  [12, 41],
-      popupAnchor: [1, -34],
-      shadowSize:  [41, 41]
-    });
-  }
-
-  var primaryIcon   = makeIcon();
-  var secondaryIcon = makeIcon('red');
-
-  // Per-type icons can go here later, keyed by a place's `type`; any type
-  // without its own entry falls back to the secondary marker, and places
-  // with no type at all use the primary. -- claude, 2026-07-02
-  var iconsByType = {};
-
-  function iconForType(type) {
-    if (!type) { return primaryIcon; }
-    return iconsByType[type] || secondaryIcon;
-  }
-
-  var group = L.featureGroup();
-  places.forEach(function (p) {
-    L.marker([p.lat, p.lng], { icon: iconForType(p.type), title: p.title })
-     .bindPopup(p.html, { autoPanPadding: [24, 24] })
-     .addTo(group);
-  });
-  group.addTo(map);
-
-  // Keep a popup shorter than the map so a long list of posts scrolls
-  // within it rather than outgrowing the viewport (which auto-pan can't
-  // rescue). Auto-pan then slides the map to bring the whole popup into
-  // view, at whichever edge the pin sits. -- claude, 2026-07-03
-  map.on('popupopen', function (e) {
-    var popup = e.popup;
-    var cap = map.getSize().y - 90;
-    if (popup.options.maxHeight !== cap) {
-      popup.options.maxHeight = cap;
-      popup.update();
-    }
-  });
+  // Frame the map to the pins up front, via the constructor's bounds
+  // option, so we never depend on the container being laid out before a
+  // separate fitBounds call. -- claude, 2026-07-03
+  var mapOptions = {
+    container: {{ map_id | jsonify }},
+    // OpenFreeMap: a free, key-less, actively-maintained vector tile host.
+    style: 'https://tiles.openfreemap.org/styles/liberty',
+    attributionControl: false
+  };
 
   if (places.length) {
-    map.fitBounds(group.getBounds().pad(0.2));
+    var bounds = new maplibregl.LngLatBounds();
+    places.forEach(function (p) { bounds.extend([p.lng, p.lat]); });
+    mapOptions.bounds = bounds;
+    mapOptions.fitBoundsOptions = { padding: 60, maxZoom: 6 };
   } else {
-    map.setView([20, 0], 2);
+    mapOptions.center = [0, 20];
+    mapOptions.zoom = 1;
   }
+
+  var map = new maplibregl.Map(mapOptions);
+
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+  map.addControl(new maplibregl.AttributionControl({
+    customAttribution: '<a href="https://openfreemap.org">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }));
+
+  // OpenFreeMap labels each place in its local language. Rewrite every
+  // text label to prefer the English name, falling back to the local one
+  // where no English name exists. -- claude, 2026-07-03
+  map.on('load', function () {
+    map.getStyle().layers.forEach(function (layer) {
+      if (layer.type === 'symbol' && layer.layout && layer.layout['text-field']) {
+        map.setLayoutProperty(layer.id, 'text-field', ['coalesce', ['get', 'name:en'], ['get', 'name']]);
+      }
+    });
+  });
+
+  var primaryColor   = '#2a6db0';
+  var secondaryColor = '#c0392b';
+
+  // Per-type marker colours can go here later, keyed by a place's `type`;
+  // any type without its own entry falls back to the secondary colour, and
+  // places with no type at all use the primary. -- claude, 2026-07-03
+  var colorsByType = {};
+
+  function colorForType(type) {
+    if (!type) { return primaryColor; }
+    return colorsByType[type] || secondaryColor;
+  }
+
+  places.forEach(function (p) {
+    var popup = new maplibregl.Popup({ maxWidth: '300px' }).setHTML(p.html);
+    new maplibregl.Marker({ color: colorForType(p.type) })
+      .setLngLat([p.lng, p.lat])
+      .setPopup(popup)
+      .addTo(map);
+  });
 }());
 </script>
