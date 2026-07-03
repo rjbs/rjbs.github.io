@@ -37,14 +37,13 @@ loads the Leaflet assets. -- claude, 2026-07-02
     {% endfor %}
   ];
 
-  // Fence the view to a single copy of the world. Leaflet wraps longitude
-  // infinitely by default, which repeats the map (two Africas) and leaves
-  // markers drawn on only one copy. -- claude, 2026-07-02
-  var map = L.map({{ map_id | jsonify }}, {
-    maxBounds: [[-90, -180], [90, 180]],
-    maxBoundsViscosity: 1.0
-  });
+  var map = L.map({{ map_id | jsonify }});
 
+  // noWrap stops the tile layer from repeating the world when zoomed out
+  // (the "two Africas" effect); with only one world drawn, every marker
+  // sits on the single copy. We deliberately leave the view unfenced (no
+  // maxBounds) so a popup opening near an edge can auto-pan into view.
+  // -- claude, 2026-07-03
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     noWrap: true,
@@ -83,22 +82,20 @@ loads the Leaflet assets. -- claude, 2026-07-02
   var group = L.featureGroup();
   places.forEach(function (p) {
     L.marker([p.lat, p.lng], { icon: iconForType(p.type), title: p.title })
-     .bindPopup(p.html)
+     .bindPopup(p.html, { autoPanPadding: [24, 24] })
      .addTo(group);
   });
   group.addTo(map);
 
-  // Size a popup to the room above its pin so a long list of posts scrolls
-  // within a popup that stays wholly on the map. The fully-zoomed-out view
-  // is fenced (see maxBounds above), so a popup that overflows the top edge
-  // can't be rescued by auto-pan -- there's no map up there to pan to.
-  // -- claude, 2026-07-03
+  // Keep a popup shorter than the map so a long list of posts scrolls
+  // within it rather than outgrowing the viewport (which auto-pan can't
+  // rescue). Auto-pan then slides the map to bring the whole popup into
+  // view, at whichever edge the pin sits. -- claude, 2026-07-03
   map.on('popupopen', function (e) {
     var popup = e.popup;
-    var pinY = map.latLngToContainerPoint(popup.getLatLng()).y;
-    var room = Math.max(90, Math.min(pinY - 48, 280));
-    if (popup.options.maxHeight !== room) {
-      popup.options.maxHeight = room;
+    var cap = map.getSize().y - 90;
+    if (popup.options.maxHeight !== cap) {
+      popup.options.maxHeight = cap;
       popup.update();
     }
   });
