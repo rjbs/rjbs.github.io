@@ -75,22 +75,28 @@ loads the MapLibre GL assets. -- claude, 2026-07-03
     });
   });
 
-  var primaryColor   = '#2a6db0';
-  var secondaryColor = '#c0392b';
+  const primaryStyle = {
+    color: '#880088', // purple
+  };
 
-  // Per-type marker colours can go here later, keyed by a place's `type`;
-  // any type without its own entry falls back to the secondary colour, and
-  // places with no type at all use the primary. -- claude, 2026-07-03
-  var colorsByType = {};
+  const fallbackStyle = {
+    color: '#008800',
+    scale: 0.5,
+  };
 
-  function colorForType(type) {
-    if (!type) { return primaryColor; }
-    return colorsByType[type] || secondaryColor;
+  function styleForType(type) {
+    if (!type) { return primaryStyle; }
+
+    // Per-type marker styles can go here later, keyed by a place's `type`;
+    // any type without its own entry falls back to the secondary color, and
+    // places with no type at all use the primary.
+
+    return fallbackStyle;
   }
 
   places.forEach(function (p) {
     var popup = new maplibregl.Popup({ maxWidth: '300px' }).setHTML(p.html);
-    new maplibregl.Marker({ color: colorForType(p.type) })
+    new maplibregl.Marker({ ...styleForType(p.type) })
       .setLngLat([p.lng, p.lat])
       .setPopup(popup)
       .addTo(map);
