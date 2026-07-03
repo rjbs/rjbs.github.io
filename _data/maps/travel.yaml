@@ -1,5 +1,22 @@
 # Keyed by a location id. A blog post with a matching `location` in its
 # front matter is linked automatically from that location's pin.
+denver:
+  title: Denver
+  lat: 39.74
+  lng: -104.99
+  type: airport
+  text: I've flown through here, but never visited!
+
+marlow:
+  title: Marlow
+  lat: 51.57
+  lng: -0.78
+  text: |
+    It's a town in the Thames river valley.  My friend Neil lives here, and I
+    was fortunate enough to visit it when attending the Perl QA Hackathon in
+    2019.  It's also mentioned in Three Men and a Boat, which I always think of
+    when I think of Marlow.
+
 philadelphia:
   title: Philadelphia
   lat: 39.9528
@@ -18,19 +35,8 @@ tokyo:
     I was incredibly lucky to be invited to speak at YAPC::Asia in Tokyo,
     *three times*!  Once each in 2011, 2013, and 2015.  Tokyo was amazing, and
     I would love to go back.
-
-denver:
-  title: Denver
-  lat: 39.74
-  lng: -104.99
-  type: airport
-  text: I've flown through here, but never visited!
-
 rio:
   title: Rio de Janeiro
   lat: -22.911111
   lng: -43.205556
   text: I went here on vacation in June 2025, and it was terrific!
-  links:
-    - text: rjbs in Rio, part ⅰ
-      url: https://rjbs.cloud/blog/2025/06/rjbs-in-rio-part-i/
