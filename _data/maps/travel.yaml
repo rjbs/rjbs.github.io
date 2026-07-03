@@ -119,6 +119,15 @@ doha:
     I've flown through here.  The airport was pretty cool.  I'd like to visit
     the area more, someday.
 
+dublin:
+  title: Dublin
+  lat: 53.3493795
+  lng: -6.2605593
+  text: |
+    I attended the IETF general meeting in Dublin in 2025.  I had a very nice
+    time, but IETF trips aren't usually great for seeing a city, unless you
+    make special time, which I didn't.
+
 hobart:
   title: Hobart
   lat: -42.8825088
