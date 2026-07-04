@@ -2,7 +2,7 @@
 layout: post
 title : "the sony prs-300 and his robot girlfriend"
 date  : "2009-08-29T17:43:15Z"
-tags  : ["book", "ebook", "hardware"]
+tags  : ["books", "ebooks", "hardware"]
 ---
 After a few months of slowly edging toward the prospect, yesterday I bought an
 ebook.  It's a Sony PRS-300, which is their new "pocket reader."  It's about

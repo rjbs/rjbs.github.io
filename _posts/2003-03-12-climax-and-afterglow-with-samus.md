@@ -2,7 +2,7 @@
 layout: post
 title : "climax and afterglow with samus"
 date  : "2003-03-12T05:00:00Z"
-tags  : ["gamecube", "games", "gamesite", "metroid", "videogame"]
+tags  : ["gamecube", "games", "gamesite", "metroid", "videogames"]
 ---
 
 

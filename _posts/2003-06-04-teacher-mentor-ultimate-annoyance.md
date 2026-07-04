@@ -2,7 +2,7 @@
 layout: post
 title : "teacher. mentor. ultimate annoyance."
 date  : "2003-06-04T04:00:00Z"
-tags  : ["chess", "games", "gamesite", "ps2", "videogame"]
+tags  : ["chess", "games", "gamesite", "ps2", "videogames"]
 ---
 I think there's a fairly large population of people who like chess but aren't very good.  They want to play it more, but are ashamed to display their lack of skill, and therefore they play very little and don't improve.
 

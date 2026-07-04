@@ -2,7 +2,7 @@
 layout: post
 title : "disgaea earns my wrath"
 date  : "2005-10-02T14:16:25Z"
-tags  : ["games", "stupid", "videogame"]
+tags  : ["games", "stupid", "videogames"]
 ---
 I thought it would a nice relaxing way to start my Sunday!  I'd play some Disgaea, level up a few items, maybe even beat whatever level it was that I'd stopped playing on.
 

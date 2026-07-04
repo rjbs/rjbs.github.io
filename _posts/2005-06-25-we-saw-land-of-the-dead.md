@@ -2,7 +2,7 @@
 layout: post
 title : "we saw land of the dead"
 date  : "2005-06-25T04:41:12Z"
-tags  : ["movies", "zombie"]
+tags  : ["movies", "zombies"]
 ---
 Gloria, John C., and I just saw Land of the Dead.  It was good.
 

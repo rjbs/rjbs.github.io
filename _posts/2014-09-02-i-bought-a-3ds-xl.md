@@ -2,7 +2,7 @@
 layout: post
 title : "I bought a 3DS (XL)."
 date  : "2014-09-02T22:36:39Z"
-tags  : ["games", "videogame"]
+tags  : ["games", "videogames"]
 ---
 Earlier this year, I started going through my old game collection and selling
 what I could on Amazon.  This was remarkably easy (especially because of

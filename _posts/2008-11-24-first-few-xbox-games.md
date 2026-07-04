@@ -2,7 +2,7 @@
 layout: post
 title : "first few xbox games"
 date  : "2008-11-24T15:04:33Z"
-tags  : ["games", "videogame"]
+tags  : ["games", "videogames"]
 ---
 My Xbox 360 came with LEGO Indiana Jones and Kung Fu Panda.   I haven't tried
 Kung Fu Panda, but I finished the story mode of Indiana Jones.  It was pretty

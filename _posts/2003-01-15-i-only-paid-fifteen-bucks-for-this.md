@@ -2,7 +2,7 @@
 layout: post
 title : "i only paid fifteen bucks for this!"
 date  : "2003-01-15T05:00:00Z"
-tags  : ["dreamcast", "games", "gamesite", "typing", "videogame"]
+tags  : ["dreamcast", "games", "gamesite", "typing", "videogames"]
 ---
 
 

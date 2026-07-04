@@ -2,7 +2,7 @@
 layout: post
 title : "super paper mario: don't bother"
 date  : "2007-07-29T21:56:41Z"
-tags  : ["games", "videogame", "wii"]
+tags  : ["games", "videogames", "wii"]
 ---
 I was very, very excited to receive Super Paper Mario for my birthday.  I've
 been a big fan of the series (of Mario RPGs) since the first Paper Mario, and

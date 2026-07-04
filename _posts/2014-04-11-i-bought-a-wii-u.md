@@ -2,7 +2,7 @@
 layout: post
 title : "I bought a Wii U!"
 date  : "2014-04-11T03:11:17Z"
-tags  : ["videogame", "wii"]
+tags  : ["videogames", "wii"]
 ---
 On Tuesday, Gloria and I celebrated our 14th anniversary!  We went out to Tulum
 (yum!) and Vegan Treats (yum!) and it wasn't quite late enough that we wanted

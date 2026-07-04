@@ -2,7 +2,7 @@
 layout: post
 title : "i love it when an rpg comes together."
 date  : "2003-01-09T05:00:00Z"
-tags  : ["ff", "games", "gamesite", "psx", "rpg", "videogame"]
+tags  : ["ff", "games", "gamesite", "psx", "rpg", "videogames"]
 ---
 
 

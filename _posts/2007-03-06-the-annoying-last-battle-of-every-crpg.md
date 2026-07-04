@@ -2,7 +2,7 @@
 layout: post
 title : "the annoying last battle of every crpg"
 date  : "2007-03-06T16:34:17Z"
-tags  : ["games", "videogame"]
+tags  : ["games", "videogames"]
 ---
 There are a number of Mario and Luigi RPGs, and I've enjoyed just about all of
 them until just about the end.  Like most RPGs, the end with the Big Boss

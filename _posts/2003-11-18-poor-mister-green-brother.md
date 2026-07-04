@@ -2,7 +2,7 @@
 layout: post
 title : "poor mister green brother!"
 date  : "2003-11-18T05:00:00Z"
-tags  : ["games", "gamesite", "videogame"]
+tags  : ["games", "gamesite", "videogames"]
 ---
 Holy crap, this game is freakin' hilarious!
 

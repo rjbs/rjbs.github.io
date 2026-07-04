@@ -2,7 +2,7 @@
 layout: post
 title : "facebook can go to hell"
 date  : "2008-02-11T13:52:30Z"
-tags  : ["networking", "rant", "social", "stupid"]
+tags  : ["networking", "rants", "social", "stupid"]
 ---
 I've gotten some mileage out of Facebook.  I caught up with a few old friends,
 whom I otherwise would've never heard from.  That's about it.  I actually

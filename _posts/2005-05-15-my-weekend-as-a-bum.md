@@ -2,7 +2,7 @@
 layout: post
 title : "my weekend as a bum"
 date  : "2005-05-15T16:42:02Z"
-tags  : ["bicycle", "mario", "repair", "videogame", "work"]
+tags  : ["bicycle", "mario", "repair", "videogames", "work"]
 ---
 I should really be trying to uber-prep for the new job tomorrow, but instead I am making the most of my weekend of unemployment.
 

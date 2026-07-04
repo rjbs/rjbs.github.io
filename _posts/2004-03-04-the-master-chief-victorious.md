@@ -2,7 +2,7 @@
 layout: post
 title : "the master chief, victorious!"
 date  : "2004-03-04T05:00:00Z"
-tags  : ["games", "gamesite", "videogame"]
+tags  : ["games", "gamesite", "videogames"]
 ---
 After something like a year without Halo, I decided it was time to kick some more Covenant ass.  A bunch of my friends picked up Halo for their Macs, and they kept going /on/ and /on/ about how it ruled and I was a grouch for not liking it.
 

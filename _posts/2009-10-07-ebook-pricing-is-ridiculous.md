@@ -2,7 +2,7 @@
 layout: post
 title : "ebook pricing is ridiculous"
 date  : "2009-10-07T02:14:57Z"
-tags  : ["books", "ebook"]
+tags  : ["books", "ebooks"]
 ---
 I'm still really enjoying my Sony PRS-300.  It's a good piece of hardware and
 reading on it is pretty pleasant.  I've been reading mostly free material, much

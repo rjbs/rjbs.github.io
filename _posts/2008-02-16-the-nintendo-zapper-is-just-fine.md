@@ -2,7 +2,7 @@
 layout: post
 title : "the nintendo zapper is just fine"
 date  : "2008-02-16T18:53:44Z"
-tags  : ["review", "videogame"]
+tags  : ["review", "videogames"]
 ---
 For St. Valentine's Day, Gloria gave me a [Nintendo
 Zapper](http://www.amazon.com/Wii-Zapper-Links-Crossbow-Training/dp/B000W5Y49G),

@@ -2,7 +2,7 @@
 layout: post
 title : "books I've read recently"
 date  : "2012-08-03T03:34:46Z"
-tags  : ["book"]
+tags  : ["books"]
 ---
 I've ended up with a bunch of new books recently.  Gloria gave me quite a nice
 stack of them for my birthday.  Her parents gave me an Amazon gift certificate

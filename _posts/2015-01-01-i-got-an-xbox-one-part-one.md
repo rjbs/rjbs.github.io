@@ -2,7 +2,7 @@
 layout: post
 title : "I got an Xbox One (part one?)"
 date  : "2015-01-01T04:28:02Z"
-tags  : ["videogame", "xbox"]
+tags  : ["videogames", "xbox"]
 ---
 I decided quite a while ago that I'd use some of my American Express reward
 points to buy a next-generation console, eventually.  Once the intervals

@@ -2,7 +2,7 @@
 layout: post
 title : "the problem with console rpgs"
 date  : "2008-11-28T13:55:15Z"
-tags  : ["games", "videogame"]
+tags  : ["games", "videogames"]
 ---
 I'm playing Mass Effect now.  It's pretty good, although I'm starting to find
 it a bit tedious, mostly because I keep having to repeat the same bits.  This

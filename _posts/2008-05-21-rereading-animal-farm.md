@@ -2,7 +2,7 @@
 layout: post
 title : "rereading animal farm"
 date  : "2008-05-21T23:46:37Z"
-tags  : ["book"]
+tags  : ["books"]
 ---
 Last night, looking at my bookshelf, I noticed my copy of Animal Farm and
 decided to re-read it.  By the time I was finishing the first chapter, the

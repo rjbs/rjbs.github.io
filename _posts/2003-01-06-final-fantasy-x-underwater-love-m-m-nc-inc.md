@@ -2,7 +2,7 @@
 layout: post
 title : "Final Fantasy X: Underwater Love (m/m, nc, inc)"
 date  : "2003-01-06T05:00:00Z"
-tags  : ["ff", "games", "gamesite", "ps2", "rpg", "videogame"]
+tags  : ["ff", "games", "gamesite", "ps2", "rpg", "videogames"]
 ---
 I picked up FF7 recently.  Man, I loved that game.  I thought about buying a PSX or PSone a few times over the past few years, mostly for FF7.  It was just a total classic.  The depth and scope blew me away.
 

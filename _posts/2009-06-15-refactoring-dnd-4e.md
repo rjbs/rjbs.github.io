@@ -2,7 +2,7 @@
 layout: post
 title : "refactoring dnd 4e"
 date  : "2009-06-15T14:46:57Z"
-tags  : ["dnd", "game", "rpg"]
+tags  : ["dnd", "games", "rpg"]
 ---
 I'm trying to keep up to date with what's going on in the Dungeons & Dragons
 world.  I think the fourth edition rules are nice and easy to use.  On those
