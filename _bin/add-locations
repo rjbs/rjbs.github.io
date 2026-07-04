@@ -3,21 +3,26 @@ use v5.36;
 use open ':std', ':encoding(UTF-8)';
 
 use Encode qw(decode_utf8);
+use FindBin;
 use HTTP::Tiny;
 use JSON::PP ();
 
-# add-locations - look up place names and add them, as stubs, to a
-# travel.yaml-style map data file.
+# add-locations - look up place names and add them, as stub files, to the
+# locations collection under _locations/.
 #
 # Usage:
-#   _bin/add-locations DATAFILE PLACE [PLACE ...]
+#   _bin/add-locations PLACE [PLACE ...]
 #
 # For each PLACE, this geocodes the name with OpenStreetMap's Nominatim,
 # shows what it found, and asks whether to add it. On confirmation a stub
-# entry (title, lat, lng, and a placeholder text) is inserted into
-# DATAFILE in alphabetical order by key. You pick the key at the prompt --
-# the default is a slug of the place name, but "Rio de Janeiro" might
-# deserve a tidier "rio". -- claude, 2026-07-03
+# file (front matter with title/lat/lng and a TODO body) is written as
+# _locations/<key>.md. You pick the key at the prompt -- the default is a
+# slug of the place name, but "Rio de Janeiro" might deserve a tidier
+# "rio". The key becomes the filename, the page slug, and the URL segment
+# (/travel/<key>/), so it must match any `location:` used in posts.
+# -- claude, 2026-07-04
+
+my $LOCATIONS_DIR = "$FindBin::Bin/../_locations";
 
 my $NOMINATIM = 'https://nominatim.openstreetmap.org/search';
 
@@ -59,56 +64,22 @@ sub geocode ($query) {
   return $results->[0];
 }
 
-# Read DATAFILE and split it into a leading header (comments/blank lines
-# before the first entry) and one text block per top-level key. Blank
-# lines between entries ride along as the trailing lines of the entry
-# above them, so reassembling the pieces reproduces the file verbatim.
-# This is deliberately textual rather than a YAML round-trip, which would
-# discard the header comment and reflow everything. -- claude, 2026-07-03
-sub parse_file ($path) {
-  open my $fh, '<:encoding(UTF-8)', $path or die "can't read $path: $!\n";
-  my @lines = <$fh>;
-  close $fh;
-
-  my $is_key = sub ($line) { $line =~ /\A([A-Za-z0-9_-]+):\s*\z/ };
-
-  my @header;
-  my $i = 0;
-  $i++, push @header, $lines[$i - 1] while $i < @lines && !$is_key->($lines[$i]);
-
-  my @entries;
-  while ($i < @lines) {
-    my ($key) = $lines[$i] =~ /\A([A-Za-z0-9_-]+):/;
-    my @block = ($lines[$i++]);
-    push @block, $lines[$i++] while $i < @lines && !$is_key->($lines[$i]);
-    push @entries, { key => $key, text => join('', @block) };
-  }
-
-  return (join('', @header), \@entries);
+# YAML-quote a scalar for a double-quoted front-matter value. -- claude, 2026-07-04
+sub yaml_dq ($str) {
+  $str =~ s/(["\\])/\\$1/g;
+  return qq{"$str"};
 }
 
-# Insert $entry into the (assumed alphabetical) @$entries at the position
-# that keeps the keys sorted, then rewrite $path. -- claude, 2026-07-03
-sub write_file ($path, $header, $entries, $entry) {
-  my $pos = 0;
-  $pos++ while $pos < @$entries && lc $entries->[$pos]{key} lt lc $entry->{key};
-  splice @$entries, $pos, 0, $entry;
-
-  open my $fh, '>:encoding(UTF-8)', $path or die "can't write $path: $!\n";
-  print $fh $header;
-  print $fh $_->{text} for @$entries;
-  close $fh;
-}
-
-sub stub_for ($key, $title, $lat, $lng) {
+sub stub_for ($title, $lat, $lng) {
+  my $q_title = yaml_dq($title);
   return <<~"END_STUB";
-    $key:
-      title: $title
-      lat: $lat
-      lng: $lng
-      text: |
-        TODO
+    ---
+    title: $q_title
+    lat: $lat
+    lng: $lng
+    ---
 
+    TODO
     END_STUB
 }
 
@@ -130,13 +101,10 @@ sub ask_key ($default) {
   }
 }
 
-my ($path, @places) = map { decode_utf8 $_ } @ARGV;
+my @places = map { decode_utf8 $_ } @ARGV;
 
-die "usage: $0 DATAFILE PLACE [PLACE ...]\n" unless defined $path && @places;
-die "no such file: $path\n" unless -f $path;
-
-my ($header, $entries) = parse_file($path);
-my %have = map { $_->{key} => 1 } @$entries;
+die "usage: $0 PLACE [PLACE ...]\n" unless @places;
+die "no such directory: $LOCATIONS_DIR\n" unless -d $LOCATIONS_DIR;
 
 my $added = 0;
 
@@ -161,20 +129,18 @@ for my $place (@places) {
     next;
   }
 
-  if ($have{$chosen}) {
-    say qq{  key "$chosen" is already in the file; skipping.};
+  my $file = "$LOCATIONS_DIR/$chosen.md";
+  if (-e $file) {
+    say qq{  "$chosen" already exists; skipping.};
     next;
   }
 
-  my $entry = {
-    key  => $chosen,
-    text => stub_for($chosen, $place, $hit->{lat}, $hit->{lon}),
-  };
+  open my $fh, '>:encoding(UTF-8)', $file or die "can't write $file: $!\n";
+  print $fh stub_for($place, $hit->{lat}, $hit->{lon});
+  close $fh;
 
-  write_file($path, $header, $entries, $entry);
-  $have{$chosen} = 1;
   $added++;
   say qq{  added "$chosen".};
 }
 
-say "\nDone. Added $added " . ($added == 1 ? 'location' : 'locations') . " to $path.";
+say "\nDone. Added $added " . ($added == 1 ? 'location' : 'locations') . " to $LOCATIONS_DIR.";

@@ -2,19 +2,22 @@
 Renders a MapLibre GL map of pinned places.
 
 Usage:
-  {% include map.html places=site.data.maps.travel %}
+  {% include map.html places=site.locations %}
 
 Parameters:
-  places  (required) a hash of places keyed by a location id. Each value:
+  places  (required) a list of location documents (site.locations). Each
+          document's front matter provides:
             lat, lng   numeric coordinates
             title      pin title, shown bold atop the popup
-            text       optional markdown, rendered into the popup
+            type       optional marker style key
             links      optional list of { text, url } hashes
-          Any blog post whose front matter sets `location:` to a key here
-          is linked from that key's pin automatically.
+          The document body becomes the place page; its excerpt (first
+          paragraph) is shown in the popup. Any blog post whose front
+          matter sets `location:` to a document's slug is linked from that
+          pin automatically.
   id      (optional) DOM id for the map container; defaults to "map".
           Pass a distinct id when placing more than one map on a page.
-  only    (optional) a single location id. When set, only that pin is
+  only    (optional) a single location slug. When set, only that pin is
           rendered, the map is centered on it at a fixed zoom rather than
           framed to bounds, and no popup is attached (the host page shows
           the place's details itself).
@@ -27,17 +30,15 @@ loads the MapLibre GL assets. -- claude, 2026-07-03
 <script>
 (function () {
   var places = [
-    {% for entry in include.places %}
-    {% assign id = entry[0] %}
-    {% if include.only and id != include.only %}{% continue %}{% endif %}
-    {% assign place = entry[1] %}
-    {% assign posts_here = site.posts | where: "location", id | sort: "date" %}
+    {% for place in include.places %}
+    {% if include.only and place.slug != include.only %}{% continue %}{% endif %}
+    {% assign posts_here = site.posts | where: "location", place.slug | sort: "date" %}
     {
       lat: {{ place.lat | jsonify }},
       lng: {{ place.lng | jsonify }},
       title: {{ place.title | jsonify }},
       type: {{ place.type | jsonify }},
-      html: {% if include.only %}null{% else %}{% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links or posts_here.size > 0 %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}{% for post in posts_here %}<li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date: "%b '%y" }})</a></li>{% endfor %}</ul>{% endif %}<a class="map-popup-more" href="{{ site.baseurl }}/travel/{{ id }}/">Read more &rarr;</a>{% endcapture %}{{ popup | jsonify }}{% endif %}
+      html: {% if include.only %}null{% else %}{% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{{ place.excerpt }}{% if place.links or posts_here.size > 0 %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}{% for post in posts_here %}<li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date: "%b '%y" }})</a></li>{% endfor %}</ul>{% endif %}<a class="map-popup-more" href="{{ place.url }}">Read more &rarr;</a>{% endcapture %}{{ popup | jsonify }}{% endif %}
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];

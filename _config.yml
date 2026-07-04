@@ -53,12 +53,20 @@ collections:
     permalink: /rpg/:title/
   talks:
     output: true
+  locations:
+    output: true
+    permalink: /travel/:path/
 
 defaults:
   - scope:
       type: talks
     values:
       layout: talk
+  - scope:
+      type: locations
+    values:
+      layout: travel_place
+      map: true
 
 # The release of Jekyll Now that you're using
 version: v1.2.0

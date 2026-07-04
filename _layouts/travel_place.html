@@ -1,23 +1,21 @@
 ---
 layout: default
-map: true
 ---
 
-{% assign place = site.data.maps.travel[page.place_id] %}
-{% assign posts_here = site.posts | where: "location", page.place_id | sort: "date" | reverse %}
+{% assign posts_here = site.posts | where: "location", page.slug | sort: "date" | reverse %}
 
 <article class="page">
 
-  <h1>{{ place.title }}</h1>
+  <h1>{{ page.title }}</h1>
 
-  {% include map.html places=site.data.maps.travel only=page.place_id %}
+  {% include map.html places=site.locations only=page.slug %}
 
   <div class="entry">
-    {% if place.text %}{{ place.text | markdownify }}{% endif %}
+    {{ content }}
 
-    {% if place.links or posts_here.size > 0 %}
+    {% if page.links or posts_here.size > 0 %}
     <ul class="tag-posts">
-      {% for link in place.links %}
+      {% for link in page.links %}
       <li>
         <a class="tag-post-title" href="{{ link.url }}">{{ link.text | default: link.url }}</a>
       </li>
