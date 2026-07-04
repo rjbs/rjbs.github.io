@@ -3,6 +3,7 @@ layout: post
 title : "oscon: day zero"
 date  : "2004-07-25T12:11:00Z"
 tags  : ["code", "oscon", "perl"]
+location: portland
 ---
 I'm in that annoying state where I'm ready to leave, but it just isn't time to go yet.  We'll be heading out in about 45 minutes to go pick up a few last things from my office and then head to the PHL airport.  "We" are John C and me.  John came to town to hang out, drink some beers, and give me a lift to the airport.  Awesome.
 

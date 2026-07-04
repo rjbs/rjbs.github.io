@@ -3,6 +3,7 @@ layout: post
 title : "I went to OSCON!"
 date  : "2012-08-02T03:52:43Z"
 tags  : ["oscon"]
+location: portland
 ---
 This year was my eighth OSCON, all but one of which were in Portland.  Portland
 is a fantastic place, and I would not be stretching things to say that I go to

@@ -2,6 +2,7 @@
 layout: post
 title : "travel hell"
 date  : "2008-12-22T13:44:04Z"
+location: pensacola
 ---
 The plan, yesterday, was (all times shown in Eastern):
 

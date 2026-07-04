@@ -2,6 +2,7 @@
 layout: post
 title : "monday at oscon"
 date  : "2004-07-27T02:16:00Z"
+location: portland
 ---
 It's about quarter after ten, here, and I'm really ready to fall asleep.  Maybe it's that I got up at 0530 local time, or maybe it's that my body is still on Eastern time, where it's now 0115, well past my bedtime.  Either way, I'm really tired.
 

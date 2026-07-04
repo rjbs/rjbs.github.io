@@ -3,6 +3,7 @@ layout: post
 title : "Notes from YAPC in Austin"
 date  : "2013-07-01T14:34:59Z"
 tags  : ["perl", "yapc"]
+location: austin
 ---
 *I'm posting this much later than I started writing it.  I thought I'd get back
 to it and fill in details, but that basically didn't happen.  So it goes.*

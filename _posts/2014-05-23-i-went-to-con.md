@@ -2,6 +2,7 @@
 layout: post
 title : "I went to !!con!!"
 date  : "2014-05-23T15:15:23Z"
+location: new-york
 ---
 Months ago, [Mark Jason Dominus](http://blog.plover.com/) said to me, "Hey, I
 heard about a conference in New York that's going to just be two days of

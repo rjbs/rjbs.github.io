@@ -3,6 +3,7 @@ layout: post
 title : "more YAPC stuff"
 date  : "2012-06-26T14:39:16Z"
 tags  : ["perl", "yapc"]
+location: madison
 ---
 I realized that I forgot to mention a bunch of stuff from YAPC.  For one, I
 partook of "Lunch with a Perl Celebrity" and had lunch with Tommy Stanton,

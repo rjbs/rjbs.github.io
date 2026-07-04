@@ -3,6 +3,7 @@ layout: post
 title : "I went to a YAPC!"
 date  : "2012-06-25T15:01:52Z"
 tags  : ["perl", "yapc"]
+location: madison
 ---
 Earlier this month, I was at [YAPC::NA](http://yapcna.org/) in Madison,
 Wisconsin.  It was my ninth YAPC!  I'm still something of a newcomer compared

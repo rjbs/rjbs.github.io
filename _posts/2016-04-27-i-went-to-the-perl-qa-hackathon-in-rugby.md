@@ -3,6 +3,7 @@ layout: post
 title : "I went to the Perl QA Hackathon in Rugby!"
 date  : "2016-04-27T02:45:38Z"
 tags  : ["perl", "programming"]
+location: rugby
 ---
 I've long said that the Perl QA Hackathon is my favorite professional event of
 the year.  It's better than any conference, where there are some good talks and

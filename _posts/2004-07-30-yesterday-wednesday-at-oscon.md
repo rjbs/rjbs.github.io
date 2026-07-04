@@ -2,6 +2,7 @@
 layout: post
 title : "yesterday - wednesday at oscon"
 date  : "2004-07-30T04:16:00Z"
+location: portland
 ---
 I really should have blogged yesterday yesterday.  Instead, I fell asleep, and now I remember nothing.
 

@@ -3,6 +3,7 @@ layout: post
 title : "yapc asia: awesome"
 date  : "2011-10-19T13:54:41Z"
 tags  : ["perl", "travel", "yapc", "yapcasia"]
+location: tokyo
 ---
 I spent the last week in Tokyo for YAPC::Asia.  It was great!
 

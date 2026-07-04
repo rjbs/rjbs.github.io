@@ -3,6 +3,7 @@ layout: post
 title : "oslo qa hackathon day 1"
 date  : "2008-04-05T21:04:32Z"
 tags  : ["perl"]
+location: oslo
 ---
 Today was the first day of work on the Oslo QA Hackathon.  Lots of stuff went
 on, and the small fraction I was able to witness was very exciting.  TAP seems

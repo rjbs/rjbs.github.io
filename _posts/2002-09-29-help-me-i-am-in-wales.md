@@ -2,6 +2,7 @@
 layout: post
 title : "help me i am in wales"
 date  : "2002-09-29T04:00:00Z"
+location: cardiff
 ---
 
 

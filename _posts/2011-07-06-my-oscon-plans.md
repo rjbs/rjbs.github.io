@@ -3,6 +3,7 @@ layout: post
 title : "my OSCON plans"
 date  : "2011-07-06T15:16:12Z"
 tags  : ["oscon", "programming", "travel"]
+location: portland
 ---
 I thought I'd post my travel plans, in case anybody else is by some strange
 coincidence on my flights and wants to chat or hack in flight, or ride the MAX

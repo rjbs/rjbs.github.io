@@ -3,6 +3,7 @@ layout: post
 title : "I went to DCBPW!"
 date  : "2014-05-07T02:15:21Z"
 tags  : ["dcbpw", "perl"]
+location: washington-dc
 ---
 This past weekend was the [DC-Baltimore Perl
 Workshop](http://dcbpw.org/dcbpw2014/) in Silver Spring, Maryland, and I was in

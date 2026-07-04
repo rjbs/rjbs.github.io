@@ -3,6 +3,7 @@ layout: post
 title : "I went to YAPC::NA in Orlando!"
 date  : "2014-07-10T02:26:54Z"
 tags  : ["perl", "yapc"]
+location: orlando
 ---
 A few weeks ago was YAPC in Orland, Florida, and I attended!  I already wrote
 about [the amazingly great video

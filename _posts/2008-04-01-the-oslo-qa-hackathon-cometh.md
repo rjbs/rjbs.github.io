@@ -3,6 +3,7 @@ layout: post
 title : "the oslo qa hackathon cometh"
 date  : "2008-04-01T22:08:29Z"
 tags  : ["perl", "programming"]
+location: oslo
 ---
 A few months ago, Salve Nilsen was asking `#perl-qa` about interest in a QA and
 testing hackathon in Oslo.  I thought this sounded like a great idea and
