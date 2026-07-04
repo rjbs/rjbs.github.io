@@ -4,22 +4,16 @@ permalink: /tags/
 title: Tags
 ---
 
-<div id="archives">
+<ul class="tag-list">
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
-  <div class="archive-group">
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <div id="#{{ tag_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="tag-head"><a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}/">{{ tag_name }}</a></h3>
-    <a name="{{ tag_name | slugize }}"></a>
-    {% for post in site.tags[tag_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-  </div>
+  {% assign tag_name = tag | first %}
+  <li>
+    <a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}/">
+      <span class="tag-emoji">{% if site.data.tagmoji[tag_name] %}{{ site.data.tagmoji[tag_name] }}{% endif %}</span>
+      <span class="tag-name">{{ tag_name }}</span>
+      <span class="tag-count">{{ tag | last | size }}</span>
+    </a>
+  </li>
 {% endfor %}
-</div>
-
+</ul>

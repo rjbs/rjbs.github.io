@@ -470,6 +470,43 @@ p:has( video[src*="flickr.com"] ) {
   }
 }
 
+.tag-list {
+  margin: 1.5em 0 0;
+  padding: 0;
+  list-style: none;
+  column-width: 15em;
+  column-gap: 2.5em;
+
+  li {
+    break-inside: avoid;
+  }
+
+  a {
+    // A three-column grid keeps every tag name on the same left edge whether
+    // or not the tag has an emoji, and pins the count to the right.
+    // -- claude, 2026-07-04
+    display: grid;
+    grid-template-columns: 1.8em 1fr auto;
+    align-items: baseline;
+    gap: 0 0.4em;
+    padding: 0.2em 0;
+    color: inherit;
+
+    &:hover .tag-name {
+      text-decoration: underline;
+    }
+  }
+
+  .tag-name {
+    color: $blue;
+  }
+
+  .tag-count {
+    color: $gray;
+    font-size: 15px;
+  }
+}
+
 .place-map {
   height: 480px;
   margin-bottom: 1.5em;
