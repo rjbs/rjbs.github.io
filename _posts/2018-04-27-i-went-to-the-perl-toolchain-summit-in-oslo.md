@@ -2,7 +2,7 @@
 layout: post
 title : "I went to the Perl Toolchain Summit in Oslo!"
 date  : "2018-04-27T23:58:34Z"
-tags  : ["perl", "progamming"]
+tags  : ["perl", "programming"]
 ---
 The last time I wrote in this journal was in January, and I felt committed, at
 the time, to make regular updates.  Really, though, my first half 2018 has been
