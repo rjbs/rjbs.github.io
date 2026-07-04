@@ -18,7 +18,7 @@ layout: default
       <span class="date">First given: {{ page.date | date: "%B %-d, %Y" }}</span>
       {% assign tags = page.tags | sort %}
       {% for tag in tags %}
-        <span class="post-tag">{% if site.data.tagmoji[tag] %}{{ site.data.tagmoji[tag] }}{% else %}🏷{% endif %}<a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a></span>
+        <span class="post-tag">{% if site.data.tagmoji[tag] %}{{ site.data.tagmoji[tag] }}{% else %}🏷{% endif %}<a href="{{site.baseurl}}/tags/{{tag|slugify}}/">{{tag}}</a></span>
       {% endfor %}
     </div>
   </div>

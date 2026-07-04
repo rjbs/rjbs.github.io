@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article class="page">
+
+  <h1 class="tag-head">
+    {% if site.data.tagmoji[page.tag] %}{{ site.data.tagmoji[page.tag] }}{% else %}🏷{% endif %}
+    {{ page.tag }}
+  </h1>
+
+  <div class="entry" id="archives">
+    <div class="archive-group">
+      {% assign posts = site.tags[page.tag] %}
+      {% for post in posts %}
+      <article class="archive-item">
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+      </article>
+      {% endfor %}
+    </div>
+
+    <p><a href="{{ site.baseurl }}/tags/">&larr; all tags</a></p>
+  </div>
+</article>
