@@ -1,0 +1,36 @@
+---
+layout: default
+map: true
+---
+
+{% assign place = site.data.maps.travel[page.place_id] %}
+{% assign posts_here = site.posts | where: "location", page.place_id | sort: "date" | reverse %}
+
+<article class="page">
+
+  <h1>{{ place.title }}</h1>
+
+  {% include map.html places=site.data.maps.travel only=page.place_id %}
+
+  <div class="entry">
+    {% if place.text %}{{ place.text | markdownify }}{% endif %}
+
+    {% if place.links or posts_here.size > 0 %}
+    <ul class="tag-posts">
+      {% for link in place.links %}
+      <li>
+        <a class="tag-post-title" href="{{ link.url }}">{{ link.text | default: link.url }}</a>
+      </li>
+      {% endfor %}
+      {% for post in posts_here %}
+      <li>
+        <span class="tag-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="tag-post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <p><a href="{{ site.baseurl }}/travel/">&larr; all travels</a></p>
+  </div>
+</article>
