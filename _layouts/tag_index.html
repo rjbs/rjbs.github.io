@@ -9,15 +9,23 @@ layout: default
     {{ page.tag }}
   </h1>
 
-  <div class="entry" id="archives">
-    <div class="archive-group">
-      {% assign posts = site.tags[page.tag] %}
+  <div class="entry">
+    {% assign posts = site.tags[page.tag] | sort: 'date' | reverse %}
+    <ul class="tag-posts">
       {% for post in posts %}
-      <article class="archive-item">
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-      </article>
+      <li>
+        <span class="tag-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="tag-post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <span class="tag-post-emoji">
+          {%- for other in post.tags -%}
+            {%- unless other == page.tag -%}
+              {%- if site.data.tagmoji[other] -%}<a href="{{ site.baseurl }}/tags/{{ other | slugify }}/" title="{{ other }}">{{ site.data.tagmoji[other] }}</a>{%- endif -%}
+            {%- endunless -%}
+          {%- endfor -%}
+        </span>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
 
     <p><a href="{{ site.baseurl }}/tags/">&larr; all tags</a></p>
   </div>

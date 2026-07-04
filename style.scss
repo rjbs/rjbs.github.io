@@ -507,6 +507,42 @@ p:has( video[src*="flickr.com"] ) {
   }
 }
 
+.tag-posts {
+  margin: 1.5em 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 0.6em;
+    padding: 0.3em 0;
+  }
+
+  .tag-post-date {
+    flex: 0 0 6.5em;
+    color: $gray;
+    font-size: 15px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tag-post-title {
+    flex: 1 1 12em;
+    min-width: 0;
+  }
+
+  .tag-post-emoji a {
+    text-decoration: none;
+  }
+
+  @include mobile {
+    .tag-post-date {
+      flex-basis: 100%;
+    }
+  }
+}
+
 .place-map {
   height: 480px;
   margin-bottom: 1.5em;
