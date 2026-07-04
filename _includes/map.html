@@ -37,7 +37,7 @@ loads the MapLibre GL assets. -- claude, 2026-07-03
       lng: {{ place.lng | jsonify }},
       title: {{ place.title | jsonify }},
       type: {{ place.type | jsonify }},
-      html: {% if include.only %}null{% else %}{% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links or posts_here.size > 0 %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}{% for post in posts_here %}<li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date: "%b '%y" }})</a></li>{% endfor %}</ul>{% endif %}{% endcapture %}{{ popup | jsonify }}{% endif %}
+      html: {% if include.only %}null{% else %}{% capture popup %}<h3 class="map-popup-title">{{ place.title | escape }}</h3>{% if place.text %}{{ place.text | markdownify }}{% endif %}{% if place.links or posts_here.size > 0 %}<ul class="map-popup-links">{% for link in place.links %}<li><a href="{{ link.url }}">{{ link.text | default: link.url }}</a></li>{% endfor %}{% for post in posts_here %}<li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date: "%b '%y" }})</a></li>{% endfor %}</ul>{% endif %}<a class="map-popup-more" href="{{ site.baseurl }}/travel/{{ id }}/">Read more &rarr;</a>{% endcapture %}{{ popup | jsonify }}{% endif %}
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
