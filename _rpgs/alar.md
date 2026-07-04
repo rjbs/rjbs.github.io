@@ -17,7 +17,7 @@ We played every other Saturday for about two years before (for various reasons)
 the same set of players began playing Basic D&D instead, moving into my [Beyond
 the Temple of the Abyss](/rpg/beyond) campaign.
 
-I kept [a journal of game recaps](https://rjbs.cloud/tags/#rpg-alar).
+I kept [a journal of game recaps](https://rjbs.cloud/tags/rpg-alar/).
 
 ## System
 

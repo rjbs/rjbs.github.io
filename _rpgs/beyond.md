@@ -19,7 +19,7 @@ the same time period, suffered a brief interruption and, when it returned to
 life, became a D&D game set in the *Beyond* campaign world.  Soon, the campaign
 was run only online.
 
-I kept [a journal of game recaps](https://rjbs.cloud/tags/#rpg-beyond) for a
+I kept [a journal of game recaps](https://rjbs.cloud/tags/rpg-beyond/) for a
 while.
 
 We played using two main tools:  [Skype](https://www.skype.com/) for voice chat
