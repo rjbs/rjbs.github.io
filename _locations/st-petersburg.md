@@ -2,6 +2,9 @@
 title: St. Petersburg
 lat: 59.9606739
 lng: 30.1586551
+links:
+    - text: Russia trip, 1992 photos
+      url: https://flickr.com/photos/rjbs/albums/72157594430955196
 ---
 
 I took a tour here (and Moscow) in 1992 with a childhood friend and his family.

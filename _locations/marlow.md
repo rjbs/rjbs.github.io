@@ -2,6 +2,9 @@
 title: Marlow
 lat: 51.57
 lng: -0.78
+links:
+    - text: Perl Toolchain Summit 2019 photos
+      url: https://flickr.com/photos/rjbs/albums/72157704854535142
 ---
 
 It's a town in the Thames river valley.  My friend Neil lives here, and I

@@ -2,6 +2,11 @@
 title: Buffalo
 lat: 42.8864163
 lng: -78.8781493
+links:
+    - text: Buffalo, 2023 photos
+      url: https://flickr.com/photos/rjbs/albums/72177720312910955
+    - text: YAPC::NA 2004 photos
+      url: https://flickr.com/photos/rjbs/albums/72157594431551185
 ---
 
 Buffalo is probably the best example, in my memory, of how much more I can

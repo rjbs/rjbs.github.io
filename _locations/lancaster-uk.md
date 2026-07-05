@@ -2,6 +2,9 @@
 title: Lancaster,UK
 lat: 54.0488219
 lng: -2.8013499
+links:
+    - text: Perl QA Hackathon 2013 photos
+      url: https://flickr.com/photos/rjbs/albums/72157633261359956
 ---
 
 I went to the 2013 Perl QA Hackathon here, and it was good.  The most

@@ -2,6 +2,9 @@
 title: Dublin
 lat: 53.3493795
 lng: -6.2605593
+links:
+    - text: IETF 121 photos
+      url: https://flickr.com/photos/rjbs/albums/72177720321867846
 ---
 
 I attended the IETF general meeting in Dublin in 2025.  I had a very nice

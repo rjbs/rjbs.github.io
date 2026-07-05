@@ -2,6 +2,11 @@
 title: San Francisco
 lat: 37.7879363
 lng: -122.4075201
+links:
+    - text: San Francisco, 2023 photos
+      url: https://flickr.com/photos/rjbs/albums/72177720306291420
+    - text: M3AAWG 2017 photos
+      url: https://flickr.com/photos/rjbs/albums/72157683296549013
 ---
 
 I've been to San Francisco (or, as I like to call it, Frisco) for M3AAWG, an

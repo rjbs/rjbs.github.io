@@ -2,6 +2,9 @@
 title: Lisbon
 lat: 38.7077507
 lng: -9.1365919
+links:
+    - text: Perl Toolchain Summit 2024 photos
+      url: https://flickr.com/photos/rjbs/albums/72177720316673761
 ---
 
 I went to Lisbon for the Perl Toolchain Summit in 2024 and I made sure to tack
