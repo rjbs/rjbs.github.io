@@ -4,4 +4,7 @@ lat: 37.7879363
 lng: -122.4075201
 ---
 
-TODO
+I've been to San Francisco (or, as I like to call it, Frisco) for M3AAWG, an
+email (and other stuff) conference.  I had really mixed feelings.  The wealth
+disparity is enormous.  Mostly, I didn't love it.  On the other hand, I loved
+how many memories it dragged up of Sierra's Manhunter 2.

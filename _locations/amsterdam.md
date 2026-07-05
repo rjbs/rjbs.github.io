@@ -6,3 +6,5 @@ lng: 4.8924534
 
 I was here for the Perl QA Hackathon in 2011.  I had a good time, but I
 didn't do a good job at seeing the city.  Next time, I should be a tourist.
+Gloria would like to see the Van Gogh museum, and I'd like to see… well, I'm
+not sure, but surely lots of things!
