@@ -557,6 +557,37 @@ p:has( video[src*="flickr.com"] ) {
   }
 }
 
+// On a single location's page the map is just orientation, not the point of
+// the page, so shrink it to a quarter of its area (half width, half height)
+// and set the place's text beside it; links and posts fall below.
+// -- claude, 2026-07-05
+.travel-place-head {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+
+  .place-map {
+    flex: 0 0 50%;
+    height: 240px;
+    margin-bottom: 0;
+  }
+
+  .travel-place-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  @include mobile {
+    display: block;
+
+    .place-map {
+      height: 240px;
+      margin-bottom: 1.5em;
+    }
+  }
+}
+
 .map-popup-title {
   margin: 0 0 0.3em;
   font-size: 16px;
