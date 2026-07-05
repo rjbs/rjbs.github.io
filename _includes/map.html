@@ -79,9 +79,10 @@ loads the MapLibre GL assets. -- claude, 2026-07-03
   var map = new maplibregl.Map(mapOptions);
 
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
-  map.addControl(new maplibregl.AttributionControl({
-    customAttribution: '<a href="https://openfreemap.org">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  }));
+  // The OpenFreeMap "liberty" style already declares this exact attribution on
+  // its source; adding it again as customAttribution renders it twice, so let
+  // the source's own credit stand alone. -- claude, 2026-07-05
+  map.addControl(new maplibregl.AttributionControl());
 
   // OpenFreeMap labels each place in its local language. Rewrite every
   // text label to prefer the English name, falling back to the local one
