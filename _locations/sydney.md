@@ -2,6 +2,9 @@
 title: Sydney
 lat: -33.8698439
 lng: 151.2082848
+links:
+    - text: Australia, December 2016 photos
+      url: https://flickr.com/photos/rjbs/albums/72157673931616554
 ---
 
 I've gone to Melbourne often for work.  On a number of those trips, I stopped

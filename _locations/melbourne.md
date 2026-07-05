@@ -21,6 +21,8 @@ links:
       url: https://flickr.com/photos/rjbs/albums/72177720302039113
     - text: April 2022 photos
       url: https://flickr.com/photos/rjbs/albums/72177720302018251
+    - text: Australia, February 2020 photos
+      url: https://flickr.com/photos/rjbs/albums/72157714972486991
     - text: November 2019 photos
       url: https://flickr.com/photos/rjbs/albums/72157712531845083
     - text: August 2019 photos
@@ -39,6 +41,10 @@ links:
       url: https://flickr.com/photos/rjbs/albums/72157690987288104
     - text: August 2017 photos
       url: https://flickr.com/photos/rjbs/albums/72157686245247981
+    - text: Australia, April 2017 photos
+      url: https://flickr.com/photos/rjbs/albums/72157686197131495
+    - text: Australia, December 2016 photos
+      url: https://flickr.com/photos/rjbs/albums/72157673931616554
 ---
 
 Fastmail HQ is here, so I've been quite a few times.  It's probably the
