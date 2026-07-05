@@ -26,6 +26,10 @@ producing amazing web content.  I just write blog posts once in a while.
     <div class="stuff-card-title">Blog</div>
     <div class="stuff-card-desc">Posts about programming, games, and whatever else comes to mind</div>
   </a>
+  <a class="stuff-card" href="/travel">
+    <div class="stuff-card-title">Travel</div>
+    <div class="stuff-card-desc">Places I've been for work, fun, or layover</div>
+  </a>
   <a class="stuff-card" href="https://github.com/rjbs">
     <div class="stuff-card-title">Code</div>
     <div class="stuff-card-desc">Open source software on GitHub, mostly Perl</div>
