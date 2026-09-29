@@ -34,8 +34,6 @@ HBS-700](http://www.amazon.com/gp/product/B0052YFYFK/ref=as_li_ss_tl?ie=UTF8&cam
 They look weird, but they're really comfortable and the controls work well and
 the battery lasts long enough and so on.
 
-<a href="http://www.flickr.com/photos/rjbs/7893947914/" title="Re: headset by rjbs, on Flickr"><img src="http://farm9.staticflickr.com/8451/7893947914_979486e5df.jpg" width="500" height="333" alt="Re: headset"></a>
-
 Sometimes they cut out for a fraction of a second.  It's rare, and I don't
 care, because sometimes my wired headset would pop loose.  Whatever.
 
