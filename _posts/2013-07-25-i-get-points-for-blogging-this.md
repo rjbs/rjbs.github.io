@@ -27,10 +27,7 @@ you did.  As long as you keep doing things often enough, you rack up points
 every time that you extend the chain.  If you fail to keep it going, you lose
 *all* your points.  It looks like this:
 
-<a href="http://www.flickr.com/photos/rjbs/9366752922/" title="The Daily
-Practice"><img
-src="http://farm8.staticflickr.com/7346/9366752922_576cd98707_z.jpg"
-width="640" height="275" alt="The Daily Practice"></a>
+{% photo cd6daffa7811 %}
 
 I started to think about what kind of goals would be useful to demonstrate
 momentum.  My list looked something like:
