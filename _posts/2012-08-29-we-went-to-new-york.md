@@ -149,14 +149,13 @@ David was a sport.
 The three of us had no questions about where to go next.  We went right back to
 MOMA, and did not regret it.  The sixth floor had a large exhibit about
 child-oriented design over the last century, and it was fascinating.  We really
-liked [the giant high
-chair](http://www.flickr.com/photos/52666286@N00/7850214464/in/set-72157631231735064/),
-too.  Went went back to the Quay Brothers and the Materials lab, and were there
-almost until they closed.  My energy levels were getting pretty low, but we'd
-promised more playground time, and we *were* both interested in the "rustic"
-playground we'd read about, so we headed uptown to 67th Street and the "Billy
-Johnson Rustic Playground."  Martha had a blast, again, and I stupidly forgot
-to get any photos of Gloria and Martha co-sliding down the big stone slide.
+liked the giant high chair, too.  Went went back to the Quay Brothers and the
+Materials lab, and were there almost until they closed.  My energy levels were
+getting pretty low, but we'd promised more playground time, and we *were* both
+interested in the "rustic" playground we'd read about, so we headed uptown to
+67th Street and the "Billy Johnson Rustic Playground."  Martha had a blast,
+again, and I stupidly forgot to get any photos of Gloria and Martha co-sliding
+down the big stone slide.
 
 We still weren't done!  We headed east to Dylan's Candy Bar, which was sort of
 disappointing.  It was fun, but everything was pretty traditional.  I had hoped
