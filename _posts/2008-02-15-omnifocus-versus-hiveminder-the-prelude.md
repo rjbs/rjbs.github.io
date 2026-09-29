@@ -7,7 +7,7 @@ tags  : ["hiveminder", "omnifocus", "productivity", "software"]
 A million (alternately, five) years ago, when I was working at IQE, I got sick
 of trying to use any of our existing project tracking software to track my todo
 list.  Instead, I started [using index
-cards](http://www.flickr.com/photos/rjbs/328834262/).  I put the big chunks of
+cards](https://photos.rjbs.cloud/p/bd172d3a01a5/).  I put the big chunks of
 todo into Project or Press Your Luck (the project-managing add-on to our
 internal helpdesk software), but all the task-level stuff became index cards
 instead of helpdesk tickets.

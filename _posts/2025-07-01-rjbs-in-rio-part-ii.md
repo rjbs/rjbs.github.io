@@ -31,7 +31,7 @@ stuck to the suggestions: a *pastel* (sort of like an empanada), a *tapioca*
 juice).  I posted a lot of photos in Flickr, but I'll highlight this one, the
 tapioca:
 
-<a href="https://www.flickr.com/photos/rjbs/54617669272/in/album-72177720327189278" title="farmer&#x27;s market"><img src="https://live.staticflickr.com/65535/54617669272_783ddc26ac_c.jpg" width="600" height="800" alt="farmer&#x27;s market"/></a>
+{% photo c360fe493393 %}
 
 It doesn't look like much, but it was delicious.  Breno and his daughter had
 one with nutella and banana — a classic pairing to stuff into anything.  I had
@@ -60,7 +60,7 @@ into goo, so that was great.  Even so, I couldn't eat more than half of it.
 Even if I'd been very hungry, I'm not sure I could've.  Meanwhile, people all
 around me were eating it by the liter.
 
-<a href="https://www.flickr.com/photos/rjbs/54618578706/in/album-72177720327189278" title="my first açai"><img src="https://live.staticflickr.com/65535/54618578706_de81a7396a_c.jpg" width="800" height="600" alt="my first açai"/></a>
+{% photo 0a246bc54c15 %}
 
 After that, we split up.  Breno and I continued on alone to
 [CRAB](https://crab.sebrae.com.br/), a museum of local and indigenous crafts.
@@ -71,7 +71,7 @@ my grandmother's house.  Did she ever visit Brazil?  I have no idea.
 Rather than any photos of CRAB, though, here's one of *Central do Biscoito*
 (Biscuit Central), a cookie store with a weirdly compelling mascot:
 
-<a href="https://www.flickr.com/photos/rjbs/54618889270/in/album-72177720327189278" title="Biscuit Central!"><img src="https://live.staticflickr.com/65535/54618889270_6fcb79737c_c.jpg" width="800" height="600" alt="Biscuit Central!"/></a>
+{% photo 4a62b463c977 %}
 
 After that, I think there was some sort of general walking around, but it led
 us toward the [Candelária
@@ -84,9 +84,9 @@ unexpected [Capoeira](https://en.wikipedia.org/wiki/Capoeira), and even ran
 into Breno's brother and family!  We saw the thing that had been the Olympic
 torch when Rio hosted.  Also, critically, we got caipirinhas.
 
-<a href="https://www.flickr.com/photos/rjbs/54618793963/in/album-72177720327189278" title="Festa Junina happenings"><img src="https://live.staticflickr.com/65535/54618793963_4edd2f58aa_c.jpg" width="800" height="600" alt="Festa Junina happenings"/></a>
+{% photo 5cd11e6403a4 %}
 
-<a href="https://www.flickr.com/photos/rjbs/54618576036/in/album-72177720327189278" title="Festa Junina happenings"><img src="https://live.staticflickr.com/65535/54618576036_1f2fd8049b_c.jpg" width="800" height="600" alt="Festa Junina happenings"/></a>
+{% photo 230582573aeb %}
 
 We lingered a good long while, but eventually we were pretty beat (or maybe *I*
 was beat and Breno was polite) and we headed out.  I think this was my first
@@ -103,7 +103,7 @@ out until it was time to sleep.
 
 Also, here's a picture of Breno's niece wearing my hat.
 
-<a href="https://www.flickr.com/photos/rjbs/54618780754/in/album-72177720327189278" title="Festa Junina happenings"><img src="https://live.staticflickr.com/65535/54618780754_5f99e556b8_c.jpg" width="600" height="800" alt="Festa Junina happenings"/></a>
+{% photo f0bf1a1d0a87 %}
 
 ## Sunday
 
@@ -128,11 +128,11 @@ just very well constructed versions of "yet another cathedral".  This wasn't
 that.  Also, as we approached I could still smell the frankinsence from the
 morning's mass.
 
-<a href="https://www.flickr.com/photos/rjbs/54618549986/in/album-72177720327189278" title="Rio&#x27;s Metropolitan Cathedral"><img src="https://live.staticflickr.com/65535/54618549986_b045f73594_c.jpg" width="800" height="600" alt="Rio&#x27;s Metropolitan Cathedral"/></a>
+{% photo 57526341e1a5 %}
 
-<a href="https://www.flickr.com/photos/rjbs/54618550006/in/album-72177720327189278" title="Rio&#x27;s Metropolitan Cathedral"><img src="https://live.staticflickr.com/65535/54618550006_060fa62cd8_c.jpg" width="800" height="600" alt="Rio&#x27;s Metropolitan Cathedral"/></a>
+{% photo 43a8ac6ee3f4 %}
 
-<a href="https://www.flickr.com/photos/rjbs/54618860780/in/album-72177720327189278" title="Rio&#x27;s Metropolitan Cathedral"><img src="https://live.staticflickr.com/65535/54618860780_7c2c34c690_c.jpg" width="800" height="600" alt="Rio&#x27;s Metropolitan Cathedral"/></a>
+{% photo a9cf466b6292 %}
 
 I want to learn more about the place, including what required aspects of
 cathedral design it fulfilled in unusual ways.  That seems certain to be a
@@ -155,7 +155,7 @@ There is no photographic evidence, but I think I had a caipirinha there.  We
 went to Bar Simplesmente, which apparently is a great place to go for feijoada.
 It certainly seemed like it to me!
 
-<a href="https://www.flickr.com/photos/rjbs/54618882695/in/album-72177720327189278" title="getting feijoada in Santa Teresa in Rio"><img src="https://live.staticflickr.com/65535/54618882695_b25eeaec2c_c.jpg" width="800" height="600" alt="getting feijoada in Santa Teresa in Rio"/></a>
+{% photo b6793d334c0a %}
 
 The other notable part of the meal was the fried hunks of cassava.  At first I
 said, "Hey these potatoes are great!"  Almost as soon as I said it, I realized
@@ -183,9 +183,9 @@ The steps were pretty popular, with lots of other tourists there to see, but
 they weren't crowded or annoying, and we took our time wandering down and
 looking at the tiles.
 
-<a href="https://www.flickr.com/photos/rjbs/54618882555/in/album-72177720327189278" title="Escadaria Selarón"><img src="https://live.staticflickr.com/65535/54618882555_1c97b82485_c.jpg" width="800" height="600" alt="Escadaria Selarón"/></a>
+{% photo 7a536acc9d1f %}
 
-<a href="https://www.flickr.com/photos/rjbs/54618796358/in/album-72177720327189278" title="the aqueducts"><img src="https://live.staticflickr.com/65535/54618796358_8337768a0a_c.jpg" width="800" height="600" alt="the aqueducts"/></a>
+{% photo 990d632e365c %}
 
 After the steps, Breno and I carried on alone, heading to Glória market and the
 nearby June Festival celebration.  Breno was very keen on me trying a bunch of
@@ -199,7 +199,7 @@ of the sweets is pretty bad, so I won't put it in here.  Instead, here's me
 with Glória station, which made me think of Gloria every time I saw it, of
 course.
 
-<a href="https://www.flickr.com/photos/rjbs/54618782939/in/album-72177720327189278" title="rjbs and Glória"><img src="https://live.staticflickr.com/65535/54618782939_06e869f981_c.jpg" width="600" height="800" alt="rjbs and Glória"/></a>
+{% photo 30974e7ae961 %}
 
 We'd meant to take a bike ride after this, but instead we sat around talking
 until it was dark and we were beat.  This was good!  Breno and I (and Barbara,

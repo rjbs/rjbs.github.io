@@ -4,7 +4,7 @@ lat: 13.7524938
 lng: 100.4935089
 links:
     - text: IETF 122 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720324689492
+      url: https://photos.rjbs.cloud/albums/ietf-122-bangkok-2025-03/
 ---
 
 I attended IETF here and did some organized walking and boat tours with my

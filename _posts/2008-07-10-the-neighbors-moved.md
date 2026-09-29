@@ -10,7 +10,7 @@ I don't really know much about them.  There seemed to be quite a lot of them, an
 
 Maybe this is why they always seemed mostly angry or sullen.
 
-The north third of the house is in fairly awful repair.  It needs sanding, painting, and general attention to likely points of minor structural failure. Some of this wasn't visible because of the large amount of random stuff filling their third of the porch.  The back yard was also full of stuff like (multiple) lawn mowers, grills, pieces of wood, and other random debris.  Lately, this ceased to be an issue when the yard was allowed to grow totally unchecked for about a year.  [The weeds are about five to seven feet high, now.](http://flickr.com/photos/rjbs/2650567016/)
+The north third of the house is in fairly awful repair.  It needs sanding, painting, and general attention to likely points of minor structural failure. Some of this wasn't visible because of the large amount of random stuff filling their third of the porch.  The back yard was also full of stuff like (multiple) lawn mowers, grills, pieces of wood, and other random debris.  Lately, this ceased to be an issue when the yard was allowed to grow totally unchecked for about a year.  [The weeds are about five to seven feet high, now.](https://photos.rjbs.cloud/p/53d06d574f86/)
 
 The neighbors have moved away.  In doing so, they removed a window from the house to take out furniture.  They covered the opening with a trash bag.
 

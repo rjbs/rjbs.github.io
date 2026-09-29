@@ -4,7 +4,7 @@ lat: 48.2083537
 lng: 16.3725042
 links:
     - text: Vienna, 2024 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720314723733
+      url: https://photos.rjbs.cloud/albums/vienna-2024-02/
 ---
 
 For decades, Vienna was on my "to visit" list, but I kept not getting there.

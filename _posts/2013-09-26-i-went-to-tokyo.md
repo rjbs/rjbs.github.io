@@ -9,7 +9,7 @@ I must have done something right when I attended YAPC::Asia 2011, because they
 invited me back this year.  I was *delighted* to accept the invitation, and I'm
 glad I did.
 
-<a href="http://www.flickr.com/photos/rjbs/9935689714/" title="night in Tokyo by rjbs, on Flickr"><img src="http://farm4.staticflickr.com/3703/9935689714_0d5bcc08ba_z.jpg" width="640" height="480" alt="night in Tokyo"></a>
+{% photo dd0d6d1d603f %}
 
 I said I'd give [a talk on the state of things in Perl
 5](https://speakerdeck.com/rjbs/perl-5-postcards-from-the-edge), which I'd done
@@ -78,7 +78,7 @@ My spirits were lifted once I got out of the airport.  (Isn't that always the
 way?)  I changed my dollars to yen, bought a tiny bottle of some form of Pepsi,
 and went to squint at a subway map.
 
-<a href="http://www.flickr.com/photos/rjbs/9935866513/" title="pepsi nex: king of zero by rjbs, on Flickr"><img src="http://farm3.staticflickr.com/2848/9935866513_ff2a772289_z.jpg" width="480" height="640" alt="pepsi nex: king of zero"></a>
+{% photo ba418dec0547 %}
 
 On my previous trip, I had been utterly defeated by the map of the subway at
 Narita.  It looks a lot like any other subway map, but at each station are two
@@ -111,7 +111,7 @@ grows more excellent!)  Eventually, Karen and I headed out to check out the
 things I'd put onto my "check out while in Tokyo" list.  First up, the Meiji
 Shrine!
 
-<a href="http://www.flickr.com/photos/rjbs/9935744436/" title="Meiji Shrine entrance by rjbs, on Flickr"><img src="http://farm4.staticflickr.com/3769/9935744436_4ff8f54c43_z.jpg" width="640" height="480" alt="Meiji Shrine entrance"></a>
+{% photo 86f669d96e28 %}
 
 We went to shops, did some wandering, and did *not* eat at Joël Robuchon's
 place in Rippongi.  (Drat!)  We got soba and retired for the night.  The next
@@ -155,7 +155,7 @@ place.  We ordered a bunch of stuff with no idea what it was, except the
 tongue, and were not disappointed.  (Shawn warned me at the outset: "I don't
 know a lot of food words.")
 
-<a href="http://www.flickr.com/photos/rjbs/9935640036/" title="&quot;What did I just eat?&quot; by rjbs, on Flickr"><img src="http://farm6.staticflickr.com/5337/9935640036_b02bc98548_z.jpg" width="640" height="480" alt="&quot;What did I just eat?&quot;"></a>
+{% photo 62b9cd3310c0 %}
 
 After some more slide wrangling, we crashed and, the next morning, were off to
 the conference.
@@ -198,7 +198,7 @@ solving problems differently, and it's ridiculous to imagine that we can't
 learn from each other.  Even if it wasn't self-evident, it was evident in the
 presentations that were given.
 
-<a href="http://www.flickr.com/photos/rjbs/9935700053/" title="look at all those volunteers by rjbs, on Flickr"><img src="http://farm3.staticflickr.com/2826/9935700053_e433186732_z.jpg" width="640" height="480" alt="look at all those volunteers"></a>
+{% photo 38f824afd700 %}
 
 After attending the largest YAPC ever, by quite a lot (at 1100 people!) it was
 also sad to learn that this may be the last YAPC::Asia in Tokyo for some time.
@@ -234,7 +234,7 @@ help.  I didn't mind, really.  I'd just finished an excellent trip and was
 feeling great.  (I also felt pretty good about blaming the computer and not
 myself, but that's another matter.)
 
-<a href="http://www.flickr.com/photos/rjbs/9935544446/" title="Hello Kitty plane by rjbs, on Flickr"><img src="http://farm3.staticflickr.com/2855/9935544446_aca10dd5a4_z.jpg" width="640" height="480" alt="Hello Kitty plane"></a>
+{% photo c2f235127ddb %}
 
 Narita was fine.  Great, even!  The airline staff treated me like a king.  I
 got moved to an aisle seat *with nobody beside me*!  I killed time in the

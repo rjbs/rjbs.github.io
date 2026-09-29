@@ -7,9 +7,7 @@ tags  : ["money"]
 I am now fulfilling my long-time dream of using almost exclusively $2 bils as
 spending money.
 
-<a href="http://www.flickr.com/photos/rjbs/465585180/" title="Photo
-Sharing"><img src="http://farm1.static.flickr.com/216/465585180_77b617b86d.jpg"
-width="500" height="375" alt="stack of twos" /></a>
+{% photo 1802b556aef6 %}
 
 Why?  Well, I don't know.  It seems like a lark.  Maybe if more people spend
 two dollar bills they'll become more common and it will lead to a stronger

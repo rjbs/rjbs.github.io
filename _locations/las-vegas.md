@@ -4,7 +4,7 @@ lat: 36.1674263
 lng: -115.1484131
 links:
     - text: Las Vegas, 2013 photos
-      url: https://flickr.com/photos/rjbs/albums/72157632965108701
+      url: https://photos.rjbs.cloud/albums/las-vegas-2013-02/
 ---
 
 Las Vegas!  I have never had much interest in it, but I went when my dad was

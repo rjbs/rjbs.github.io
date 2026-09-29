@@ -9,10 +9,7 @@ feature requests]({% post_url 2013-07-04-once-again-trying-to-keep-up-with-the-t
 to say, the only backlog of stuff I've been meaning, but failing, to do.
 There's also my backlog of reading.
 
-<a href="http://www.flickr.com/photos/rjbs/9219318636/" title="my overgrown
-reading queue by rjbs, on Flickr"><img
-style='float:left; margin: 1em' src="http://farm4.staticflickr.com/3685/9219318636_16c3fe2349.jpg" width="375"
-height="500" alt="my overgrown reading queue"></a>
+{% photo 31674192b3bf %}
 
 *(and that's only the physical books)*
 

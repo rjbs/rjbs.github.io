@@ -38,7 +38,7 @@ Of course, I also have a bunch of [house rules](#house-rules).
 
 ### Setting
 
-<a href="https://www.flickr.com/photos/rjbs/6177647769/" title="Beyond the Temple of the Abyss"><img src="https://live.staticflickr.com/6168/6177647769_aab0cca898_c.jpg" width="710" height="800" alt="Beyond the Temple of the Abyss"/></a>
+{% photo 842af0ec0efe %}
 
 *Beyond the Temple of the Abyss* begins in the small frontier town of Edgwold,
 one of the westernmost baronies of the duchy.  It was founded to provide a

@@ -15,7 +15,7 @@ rules](#house-rules).
 
 ## Setting
 
-<a href="https://www.flickr.com/photos/rjbs/5494445676/" title="&quot;Ethos&quot; - from Misthall to Teber"><img src="https://live.staticflickr.com/5015/5494445676_02a68c5a0b_c.jpg" width="800" height="505" alt="&quot;Ethos&quot; - from Misthall to Teber"/></a>
+{% photo 63178ac97fde %}
 
 The World, several centuries after the withdrawal of Mankind to within the
 walls of his great cities, the Poleis.  In Man's absence, the other great

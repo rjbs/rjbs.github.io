@@ -46,7 +46,7 @@ worked pretty well.
 
 ## Setting
 
-<img src="https://live.staticflickr.com/5014/5494444760_4ba67eed86_c.jpg" width="800" height="450" alt="&quot;Alar&quot; - the western Castaign empire"/></a>
+{% photo ef53e2109633 %}</a>
 
 Alar was set in the massive city of Alar, one of the largest cities in the
 sprawling and powerful Castaigne Empire.  In recent months, the city had become

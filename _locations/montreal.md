@@ -4,9 +4,9 @@ lat: 45.5031824
 lng: -73.5698065
 links:
     - text: IETF 124 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720331158826
+      url: https://photos.rjbs.cloud/albums/ietf-124-montreal-2025-11/
     - text: IETF 102 photos
-      url: https://flickr.com/photos/rjbs/albums/72157694350394900
+      url: https://photos.rjbs.cloud/albums/ietf-102-montreal-2018-07/
 ---
 
 I attended IETF here twice. Once, in 2017 or so, and it was incredibly

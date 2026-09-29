@@ -4,47 +4,47 @@ lat: -37.8142454
 lng: 144.9631732
 links:
     - text: April 2026 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720333297045
+      url: https://photos.rjbs.cloud/albums/melbourne-2026-04/
     - text: December 2025 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720331111685
+      url: https://photos.rjbs.cloud/albums/melbourne-2025-12/
     - text: August 2025 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720331184599
+      url: https://photos.rjbs.cloud/albums/melbourne-2025-08/
     - text: February 2025 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720323867521
+      url: https://photos.rjbs.cloud/albums/melbourne-2025-02/
     - text: July 2024 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720319620147
+      url: https://photos.rjbs.cloud/albums/melbourne-2024-07/
     - text: July 2023 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720310295457
+      url: https://photos.rjbs.cloud/albums/melbourne-2023-07/
     - text: February 2023 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720306296612
+      url: https://photos.rjbs.cloud/albums/melbourne-2023-02/
     - text: August 2022 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720302039113
+      url: https://photos.rjbs.cloud/albums/melbourne-2022-08/
     - text: April 2022 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720302018251
+      url: https://photos.rjbs.cloud/albums/melbourne-2022-04/
     - text: Australia, February 2020 photos
-      url: https://flickr.com/photos/rjbs/albums/72157714972486991
+      url: https://photos.rjbs.cloud/albums/australia-2020-02/
     - text: November 2019 photos
-      url: https://flickr.com/photos/rjbs/albums/72157712531845083
+      url: https://photos.rjbs.cloud/albums/melbourne-2019-11/
     - text: August 2019 photos
-      url: https://flickr.com/photos/rjbs/albums/72157712530083002
+      url: https://photos.rjbs.cloud/albums/melbourne-2019-08/
     - text: February 2019 photos
-      url: https://flickr.com/photos/rjbs/albums/72157676914268887
+      url: https://photos.rjbs.cloud/albums/melbourne-2019-02/
     - text: December 2018 photos
-      url: https://flickr.com/photos/rjbs/albums/72157707268829644
+      url: https://photos.rjbs.cloud/albums/melbourne-2018-12/
     - text: August 2018 photos
-      url: https://flickr.com/photos/rjbs/albums/72157703768828262
+      url: https://photos.rjbs.cloud/albums/melbourne-2018-08/
     - text: April 2018 photos
-      url: https://flickr.com/photos/rjbs/albums/72157699838148824
+      url: https://photos.rjbs.cloud/albums/melbourne-2018-04/
     - text: March 2018 photos
-      url: https://flickr.com/photos/rjbs/albums/72157699045693121
+      url: https://photos.rjbs.cloud/albums/melbourne-2018-03/
     - text: December 2017 photos
-      url: https://flickr.com/photos/rjbs/albums/72157690987288104
+      url: https://photos.rjbs.cloud/albums/melbourne-2017-12/
     - text: August 2017 photos
-      url: https://flickr.com/photos/rjbs/albums/72157686245247981
+      url: https://photos.rjbs.cloud/albums/melbourne-2017-08/
     - text: Australia, April 2017 photos
-      url: https://flickr.com/photos/rjbs/albums/72157686197131495
+      url: https://photos.rjbs.cloud/albums/australia-2017-04/
     - text: Australia, December 2016 photos
-      url: https://flickr.com/photos/rjbs/albums/72157673931616554
+      url: https://photos.rjbs.cloud/albums/australia-2016-12/
 ---
 
 Fastmail HQ is here, so I've been quite a few times.  It's probably the

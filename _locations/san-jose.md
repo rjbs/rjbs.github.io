@@ -4,7 +4,7 @@ lat: 37.3361663
 lng: -121.890591
 links:
     - text: OSCON 2009 photos
-      url: https://flickr.com/photos/rjbs/albums/72157621713839269
+      url: https://photos.rjbs.cloud/albums/oscon-2009-07/
 ---
 
 In 2009, OSCON decamped from Portland to San Jose for a single year.  It kinda

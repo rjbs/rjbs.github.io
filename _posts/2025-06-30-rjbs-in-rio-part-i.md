@@ -78,7 +78,7 @@ event of my trip, and I wan't even really worried at any point.  We were let go
 pretty quickly, and then I was in my apartment and asleep.  The next day, I was
 on the beach and everything was good.
 
-<a href="https://www.flickr.com/photos/rjbs/54618778888/in/album-72177720327189278" title="the beach at Ipanema"><img src="https://live.staticflickr.com/65535/54618778888_99f61d3201_c.jpg" width="800" height="600" alt="the beach at Ipanema"/></a>
+{% photo 24e2e46ecf16 %}
 
 My first day was supposed to be Wednesday, which I would've spent exploring the
 beaches and maybe finding one of the nearby art museums, but that was shot.  It
@@ -86,7 +86,7 @@ was Thursday, and that meant lunch with Breno and Babs and their daughter.  We
 had "angu", which I'd describe as something like a polenta-and-offal stew.  It
 was great, right up my alley!
 
-<a href="https://www.flickr.com/photos/rjbs/54618796488/in/album-72177720327189278" title="angu at Angu do Gomes"><img src="https://live.staticflickr.com/65535/54618796488_4cd40bf854_c.jpg" width="800" height="600" alt="angu at Angu do Gomes"/></a>
+{% photo c30f320a3a29 %}
 
 Then it was on to the Museum of Tomorrow (the architecture was great, but we
 mostly coasted through the exhibits), and then São Cristóvão Fair, which I
@@ -128,7 +128,7 @@ call it *abacaxi*.  Rejecting the worldwide standard name for that fruit made
 the people of Brazil seem even more like my brothers and sisters.  Too bad they
 still use the metric system.
 
-<a href="https://www.flickr.com/photos/rjbs/54617692667/in/album-72177720327189278" title="Feira de São Cristóvão"><img src="https://live.staticflickr.com/65535/54617692667_d26d836796_c.jpg" width="800" height="600" alt="Feira de São Cristóvão, a caipirinha"/></a>
+{% photo 025ecde3d821 %}
 
 After the fair, Breno dropped me off at my apartment.  There's only an hour of
 time difference from home to Rio, but I was beat.  I wasn't ready to collapse
@@ -171,7 +171,7 @@ later a beer), there were crafts, and there were amazing views in every
 direction.  When I couldn't appreciate the view any more, I sat down and read a
 book for ten minutes, then got back to the view.  It was excellent.
 
-<a href="https://www.flickr.com/photos/rjbs/54618760454/in/album-72177720327189278" title="Sugarloaf Mountain"><img src="https://live.staticflickr.com/65535/54618760454_c78f188730_c.jpg" width="800" height="600" alt="Sugarloaf Mountain"/></a>
+{% photo fb100dfb7b5f %}
 
 That view above is actually from Urca Hill.  In the distance, you can see
 [Corcovado](https://en.wikipedia.org/wiki/Corcovado) ("the hunchback"), the
@@ -207,7 +207,7 @@ skeptical, but it *was* very good.  The rock was swarming with people, but I
 managed to find a place to watch the sun set.  There are lots more photos in my
 trip album, but here's one:
 
-<a href="https://www.flickr.com/photos/rjbs/54618760098/in/album-72177720327189278" title="the sunset at Arpoador"><img src="https://live.staticflickr.com/65535/54618760098_a82258abd1_c.jpg" width="800" height="600" alt="the sunset at Arpoador"/></a>
+{% photo d0d1c24a86f3 %}
 
 After that, I walked slowly back to my apartment.  I stopped at two concerts,
 both of which were great, and I had a Brahma beer, which was good, especially

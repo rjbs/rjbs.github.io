@@ -31,10 +31,7 @@ notes can be scribbled onto a 3x5 card and put into the initiative order, too.
 The exposed whiteboard surface is useful for noting who is bloodied, stunned,
 or whatever else.
 
-<a href="http://www.flickr.com/photos/rjbs/5516421576/" title="new D&amp;D
-combat tracking technology by rjbs, on Flickr"><img
-src="http://farm6.static.flickr.com/5139/5516421576_daa3368772.jpg" width="374"
-height="500" alt="new D&amp;D combat tracking technology" /></a>
+{% photo 0093dda77428 %}
 
 I've ordered new magnetic clips to hold the cards so that I can move them with
 one hand.  I think this is going to be a nice improvement, and I look forward

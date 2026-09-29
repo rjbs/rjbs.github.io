@@ -51,7 +51,7 @@ the pigs.  Once they got into the house, they picked up Gloria's keys and gave
 a set to my parents, who picked up a couple things we needed and brought them
 over.  I wanted the camera and power cables for my MacBook, and I wanted a new
 t-shirt to put on.  (I've posted a few
-[photos](http://flickr.com/photos/rjbs/sets/72157594582536042/), and will post
+[photos](https://photos.rjbs.cloud/albums/martha-jo-2007-03/), and will post
 more later.) Mostly, though, we wanted some non-hospital food.  We'd had
 hospital breakfast, and it was adequate, but it was a step below Wawa.  My
 parents brought some Quiznos, and it was really good.  They hung out for a good

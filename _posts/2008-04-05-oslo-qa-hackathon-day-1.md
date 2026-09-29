@@ -21,7 +21,7 @@ thereafter (or before)!
 Oslo is a nice city, and quite pleasant to look at.  On Friday, our pre-hacking
 day, many of us went over to the [Vigeland Sculpture
 Park](http://en.wikipedia.org/wiki/Vigeland_Park), which was fantastic.  I got
-a [lot of good photos](http://flickr.com/photos/rjbs/sets/72157604385579385/)
+a [lot of good photos](https://photos.rjbs.cloud/albums/oslo-qa-hackathon-2008-04/)
 but they need editing and commentary.  It's also an expensive city.  How
 expensive?  Incredibly expensive.  I mean that quite literally: it is hard to
 believe how expensive things are.

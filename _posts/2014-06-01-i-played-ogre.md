@@ -21,7 +21,7 @@ a 28 pound steamer trunk of a game than a cheap edition off of eBay.  My copy
 arrived about six months ago, and has been waiting to be played ever since
 then.
 
-<a href="https://www.flickr.com/photos/rjbs/11040314126" title="Ogre! by Ricardo SIGNES, on Flickr"><img src="https://farm8.staticflickr.com/7440/11040314126_55e6dfc8cd_z.jpg" width="640" height="480" alt="Ogre!"></a>
+{% photo 50de5e9d33ad %}
 
 Actually, it did get played just once, but the game was me against my then six
 year old daughter.  Although she's got some strategic thinking in her, at the
@@ -69,7 +69,7 @@ and the resources available to either side.  The big box contains everything,
 and then some.  Just finding a raised surface on which one could play with the
 entirely assembled set of geomorphic maps is no small challenge.
 
-<a href="https://www.flickr.com/photos/rjbs/14115335829" title="Ogre map! by Ricardo SIGNES, on Flickr"><img src="https://farm6.staticflickr.com/5596/14115335829_8f102311e7_z.jpg" width="640" height="480" alt="Ogre map!"></a>
+{% photo 7f9b4d8a6009 %}
 
 I'm not sure when I'll get a chance to play more ogre, but the huge game in its
 huge box is interesting enough to folks that I'm pretty sure I can get more

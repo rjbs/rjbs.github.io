@@ -7,7 +7,7 @@ location: new-york
 Last week, Gloria, Martha, and I took our first official family vacation.  It
 was great!
 
-<a href="http://www.flickr.com/photos/rjbs/7857566360/" title="the view from the ferry by rjbs, on Flickr"><img src="http://farm9.staticflickr.com/8281/7857566360_044b01e174.jpg" width="500" height="375" alt="the view from the ferry"></a>
+{% photo 6d94e5787384 %}
 
 We took the Trans-Bridge bus to the Port Authority Bus Terminal.  The ride was
 fine, especially for Martha, who found that the girl across the aisle was

@@ -22,10 +22,7 @@ the hotel room at some unholy hour (according to my body's clock) and found my
 bed decked out with birthday presents: enough for the rest of the week, as is
 our tradition.
 
-<a href="http://www.flickr.com/photos/rjbs/7623785982/" title="presents
-awaiting me by rjbs, on Flickr"><img
-src="http://farm9.staticflickr.com/8289/7623785982_1c115f5dd1_m.jpg"
-width="240" height="180" alt="presents awaiting me"></a>
+{% photo fbecdd467bd2 %}
 
 I opened one (since it was after midnight, after all) and had a brief call with
 Gloria before crashing hard.  Most of my presents for the week were books, most
@@ -123,10 +120,7 @@ was really good:
 We skipped dessert and instead went to Voodoo Doughnut Too, where I foolishly
 got *two* of my favorite doughnuts and ate them both before bed.
 
-<a href="http://www.flickr.com/photos/rjbs/7623745768/" title="voodoo doughnut!
-by rjbs, on Flickr"><img
-src="http://farm9.staticflickr.com/8159/7623745768_5645845453_m.jpg"
-width="240" height="180" alt="voodoo doughnut!"></a>
+{% photo d3316158e6f8 %}
 
 Notice that Amazon box in the picture?  Yeah, my Kindle's 3G had recently
 failed, which was making it annoying to work my through my new ebooks while

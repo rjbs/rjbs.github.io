@@ -4,7 +4,7 @@ lat: -42.8825088
 lng: 147.3281233
 links:
     - text: Australia, December 2016 photos
-      url: https://flickr.com/photos/rjbs/albums/72157673931616554
+      url: https://photos.rjbs.cloud/albums/australia-2016-12/
 ---
 
 I've been to Hobart twice as "weekend away" trips during fortnights working

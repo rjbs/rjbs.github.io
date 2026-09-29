@@ -100,7 +100,7 @@ This means that for each switch you insert, you first need to look carefuly at
 the leads to make sure that they're straight and whole.  It's a little
 slow-down, but not so bad.
 
-<a href="https://www.flickr.com/photos/rjbs/54629694208/in/dateposted-ff/" title="red and blue switches"><img src="https://live.staticflickr.com/65535/54629694208_0f6202b977_c.jpg" width="600" height="800" alt="red and blue switches"/></a>
+{% photo 5d269350738b %}
 
 I put on some music and got to work.  Pretty soon, I'd replaced all the
 switches and put the keycaps back on.  I opened the [Keychron
@@ -126,7 +126,7 @@ I ordered that second keyboard on April 6th, and I had it in my hands on the
 Pretty soon I had a keyboard that worked great… except for eleven keys, as seen
 here.
 
-<a href="https://www.flickr.com/photos/rjbs/54629774880/in/dateposted-ff/" title="a keyboard with switches not working"><img src="https://live.staticflickr.com/65535/54629774880_378a253562_c.jpg" width="800" height="284" alt="a keyboard with switches not working"/></a>
+{% photo 7590e5638eef %}
 
 Many of the keys worked if I replaced my aftermarket blue switches with the
 original reds that were included, so my first theory was that I had quite a lot
@@ -148,7 +148,7 @@ a hard time seeing it, but Jesse seemed convinced, and I believe him.  But this
 might be an unrelated photo.  My point is, this is what I was stuck thinking
 about!
 
-<a href="https://www.flickr.com/photos/rjbs/54629480041/in/dateposted-ff/" title="one wonky socket"><img src="https://live.staticflickr.com/65535/54629480041_292e945618_c.jpg" width="800" height="600" alt="one wonky socket"/></a>
+{% photo 72f3ec5103e6 %}
 
 Friends, I did not spent $190 on a pre-assembled keyboard just to be stripping
 things down to the PCB and re-soldering them!  I'm not *that kind* of computer
@@ -170,7 +170,7 @@ lipogram.  If I was gonna use my new device, I would need all 101 keys working.
 I took the keyboard apart again to see how things looked.  They didn't look
 good.
 
-<a href="https://www.flickr.com/photos/rjbs/54629694168/in/dateposted-ff/" title="broken socket"><img src="https://live.staticflickr.com/65535/54629694168_0c2e961b7e_c.jpg" width="800" height="600" alt="broken socket"/></a>
+{% photo e9284cea8503 %}
 
 Look at this a little while and you'll see one of those black shapes isn't in
 line with the others.  It's not just bent, it's totally disconnected.  It had
@@ -208,7 +208,7 @@ yet another replacement part?
 
 Steam came from my ears, and Kurt pitied me.  "Let's fix that," he said.
 
-<a href="https://www.flickr.com/photos/rjbs/54629677584/in/dateposted-ff/" title="kurt at work"><img src="https://live.staticflickr.com/65535/54629677584_22ecb84a36_c.jpg" width="600" height="800" alt="kurt at work"/></a>
+{% photo 68901edc4863 %}
 
 Kurt sat down and methodically performed about a dozen steps, including the
 three that I'd performed, plus another nine that probably made any part of the
@@ -226,7 +226,7 @@ like, but the stabilizers on this key were now partly stuck in place.  They'd
 move if pushed or pulled, but it took more force than the spring in the
 keyswitch.  Here's a demonstration:
 
-<a href="https://www.flickr.com/photos/rjbs/54629774990/in/dateposted-ff/" title="stuck stabs"><video src="https://www.flickr.com/photos/rjbs/54629774990/play/1080p/405daa8fab/" width="450" height="800" poster="https://live.staticflickr.com/31337/54629774990_405daa8fab_c.jpg" controls=""></video></a>
+{% photo 8ce2c222bf03 %}
 
 I asked Jesse, but he didn't have any advice that avoided disassembling the
 dang thing again.  I really, *really* wanted to avoid that.  I'd had this thing
@@ -242,7 +242,7 @@ On the other hand, I could mangle the keycap so that it wouldn't snap onto the
 stabilizer, and would only connect to the switch.  I got a spare keypad enter
 key, I got a pair of pliers, and I fixed that keyboard.
 
-<a href="https://www.flickr.com/photos/rjbs/54629476981/in/dateposted-ff/" title="brute force solution"><img src="https://live.staticflickr.com/65535/54629476981_7b01185114_c.jpg" width="600" height="800" alt="brute force solution"/></a>
+{% photo 5dc9116e92a6 %}
 
 Now I have working, clicky, programmable, lovely keyboards on my desks at work
 and at home.  I'm pleased with them.  On the other hand, this was a stupid

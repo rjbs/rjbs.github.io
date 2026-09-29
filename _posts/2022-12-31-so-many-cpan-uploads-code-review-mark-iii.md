@@ -210,7 +210,7 @@ Here's a screenshot of my `code-review` program from [a 2013 post about how I
 keep track of my open source
 projects](/blog/2013/08/personal-code-review-practices-mark-ii/).
 
-<a href="http://www.flickr.com/photos/rjbs/9613007993/" title="code-review by rjbs, on Flickr"><img src="http://farm4.staticflickr.com/3671/9613007993_cb3511b3f4_o.png" width="650" height="459" alt="code-review"></a>
+{% photo 3059645ea32f %}
 
 I'm not quite as on top of my open source software as I was in 2013, but this
 tool remains great.  In fact, it's gotten a whole lot better.  In that

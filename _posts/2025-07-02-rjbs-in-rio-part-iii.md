@@ -32,9 +32,9 @@ When I was there, I don't think the building was open for visiting — or at
 least I couldn't find an open entrance.  Instead, I walked around the grounds,
 looked at ponds, hiked through overgrown paths, and took a *lot* of photos.
 
-<a href="https://www.flickr.com/photos/rjbs/54618774599/in/album-72177720327189278" title="Parque Lage"><img src="https://live.staticflickr.com/65535/54618774599_eb63e78d8c_c.jpg" width="800" height="600" alt="Parque Lage"/></a>
+{% photo d7bd84fa4bc3 %}
 
-<a href="https://www.flickr.com/photos/rjbs/54617685397/in/album-72177720327189278" title="Parque Lage"><img src="https://live.staticflickr.com/65535/54617685397_79d3d7dc1d_c.jpg" width="800" height="600" alt="Parque Lage"/></a>
+{% photo 7654068388d2 %}
 
 I was there for a good two hours, just walking and looking around.  It's a
 little odd that I don't have more to say, but I think it's all in the photos.
@@ -43,7 +43,7 @@ for an older couple walking together.  At one point, I accidentally walked the
 wrong way, left the path, wandered through the woods for a while, and found a
 surprise view of the city through the trees:
 
-<a href="https://www.flickr.com/photos/rjbs/54618771929/in/album-72177720327189278" title="Parque Lage"><img src="https://live.staticflickr.com/65535/54618771929_62b940ab7b_c.jpg" width="800" height="600" alt="Parque Lage"/></a>
+{% photo 8a134a057309 %}
 
 What else is there to say?  If I lived nearby, I'd go there often to sit and
 read and make take a little lunch with me.
@@ -80,11 +80,11 @@ There were the obligatory Japanese garden and rose garden.
 
 Also, there were *monkeys*.
 
-<a href="https://www.flickr.com/photos/rjbs/54617662247/in/album-72177720327189278" title="the Botanical Garden in Rio"><img src="https://live.staticflickr.com/65535/54617662247_ef63cef333_c.jpg" width="800" height="600" alt="the Botanical Garden in Rio"/></a>
+{% photo fd9f3673e39a %}
 
-<a href="https://www.flickr.com/photos/rjbs/54618857010/in/album-72177720327189278" title="the Botanical Garden in Rio"><img src="https://live.staticflickr.com/65535/54618857010_d38e83f4fb_c.jpg" width="800" height="600" alt="the Botanical Garden in Rio"/></a>
+{% photo c0d8fd5a38c7 %}
 
-<a href="https://www.flickr.com/photos/rjbs/54617663052/in/album-72177720327189278" title="the Botanical Garden in Rio"><img src="https://live.staticflickr.com/65535/54617663052_a79a5b9105_c.jpg" width="800" height="600" alt="the Botanical Garden in Rio"/></a>
+{% photo c4a08d7e8583 %}
 
 Probably there are people who know how to write compelling, detailed,
 informative notes on a visit to a place like this.  I'm not one of them,
@@ -103,7 +103,7 @@ also decided to try their Moscow Mule.  It was a strange one, with the ginger
 added as a sort of creamy foam on top.  I'm not sure I'd order it often, but it
 was fun as a weird surprise.
 
-<a href="https://www.flickr.com/photos/rjbs/54618796213/in/album-72177720327189278" title="Moscow mule"><img src="https://live.staticflickr.com/65535/54618796213_df6b57f812_c.jpg" width="800" height="600" alt="Moscow mule"/></a>
+{% photo c97f67916f1d %}
 
 I had meant to see some other things on Monday, but I was pretty happy with the
 hours spent just looking at the outdoors.  In retrospect, I just wish I'd
@@ -135,7 +135,7 @@ a similar fish stew, but I haven't yet confirmed this with my siblings.
 Anyway, it was great, and was followed by a dessert of passionfruit and
 condensed milk.  Yum!
 
-<a href="https://www.flickr.com/photos/rjbs/54618782799/in/album-72177720327189278" title="vegan moqueca"><img src="https://live.staticflickr.com/65535/54618782799_5e340b1e43_c.jpg" width="800" height="600" alt="vegan moqueca"/></a>
+{% photo 891ac4d1d5f9 %}
 
 After lunch, Breno and I dropped his daughter at school and stopped into [Casa
 Roberto Marinho](https://casarobertomarinho.org.br/), a large house that's been
@@ -161,7 +161,7 @@ caught a train to the top.
 
 Here's a view of the weather taken near where we caught the train:
 
-<a href="https://www.flickr.com/photos/rjbs/54618757619/in/album-72177720327189278" title="Christ the Redeemer"><img src="https://live.staticflickr.com/65535/54618757619_2efd31575a_c.jpg" width="800" height="600" alt="Christ the Redeemer"/></a>
+{% photo 52ae1edd6914 %}
 
 An aside:  I had called this train a
 "[funicular](https://en.wikipedia.org/wiki/Funicular)" when talking to friends,
@@ -193,9 +193,9 @@ stuck around while he got out of the rain and off to pick up his kid.  As it
 was, I saw everything there was to see pretty quickly, and we both got out of
 there and onto the train.
 
-<a href="https://www.flickr.com/photos/rjbs/54618552271/in/album-72177720327189278" title="Christ the Redeemer"><img src="https://live.staticflickr.com/65535/54618552271_34317d848b_c.jpg" width="600" height="800" alt="Christ the Redeemer"/></a>
+{% photo 6447676e62dd %}
 
-<a href="https://www.flickr.com/photos/rjbs/54618770318/in/album-72177720327189278" title="Christ the Redeemer"><img src="https://live.staticflickr.com/65535/54618770318_441760ebcd_c.jpg" width="800" height="600" alt="Christ the Redeemer"/></a>
+{% photo e82d3fc63063 %}
 
 Back at their place, we had good while to sit around, talk, and have dinner.
 "We'll order pizza," they said, "but it's going to be terrible compared to
@@ -213,7 +213,7 @@ bring as an ambassador from Philadelphia?  Fortunately, he was well received,
 and I felt some civic pride at Gritty's continued ability to make life a little
 better.
 
-<a href="https://www.flickr.com/photos/rjbs/54618795973/in/album-72177720327189278" title="me, Eva, Gritty"><img src="https://live.staticflickr.com/65535/54618795973_6158d68d85_c.jpg" width="530" height="800" alt="me, Eva, Gritty"/></a>
+{% photo 81e3a226a923 %}
 
 Anyway, if I go again, I'll remember to bring a bottle of Malört or something!
 

@@ -4,7 +4,7 @@ lat: -33.8698439
 lng: 151.2082848
 links:
     - text: Australia, December 2016 photos
-      url: https://flickr.com/photos/rjbs/albums/72157673931616554
+      url: https://photos.rjbs.cloud/albums/australia-2016-12/
 ---
 
 I've gone to Melbourne often for work.  On a number of those trips, I stopped

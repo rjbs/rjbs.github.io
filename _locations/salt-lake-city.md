@@ -4,7 +4,7 @@ lat: 40.7596198
 lng: -111.886797
 links:
     - text: YAPC::NA 2015 photos
-      url: https://flickr.com/photos/rjbs/albums/72157654412866662
+      url: https://photos.rjbs.cloud/albums/yapc-na-2015-06/
 ---
 
 I wish I had spent more time exploring SLC, but I was there for a conference,

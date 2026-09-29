@@ -61,7 +61,7 @@ the big TV tower, and then gave up and got currywurst.  It was okay.  After
 that, we caught a train back to the hotel, checked in, and crashed for a little
 while.
 
-<a href="https://www.flickr.com/photos/rjbs/17169383342" title="the wall by Ricardo SIGNES, on Flickr"><img src="https://farm8.staticflickr.com/7650/17169383342_9cb6b59213_z.jpg" width="640" height="480" alt="the wall"></a>
+{% photo 5d60f6f3357e %}
 
 We found a [totally decent little
 restaurant](http://www.yelp.com/biz/restaurant-stiege-am-oranienplatz-berlin)
@@ -71,7 +71,7 @@ next morning!
 The next day, we did more exploring, this time seeing more of the sorts of
 things you're meant to see when you visit Berlin.
 
-<a href="https://www.flickr.com/photos/rjbs/16983290818" title="Brandenburg Gate by Ricardo SIGNES, on Flickr"><img src="https://farm9.staticflickr.com/8741/16983290818_8f605134fb_z.jpg" width="640" height="480" alt="Brandenburg Gate"></a>
+{% photo 4e313bfe9060 %}
 
 I wish we'd had more time (and, more importantly, energy) to really explore the
 Tiergarten.  There were quite a few things listed on the map that I wanted to
@@ -352,4 +352,4 @@ them.
 
 We don't yet know where QAH 2016 will be, but I hope to make it there!
 
-<a href="https://www.flickr.com/photos/rjbs/16963638407" title="checkpoint charlie by Ricardo SIGNES, on Flickr"><img src="https://farm8.staticflickr.com/7600/16963638407_0bac296f7f_z.jpg" width="640" height="480" alt="checkpoint charlie"></a>
+{% photo cdae245ebf1e %}

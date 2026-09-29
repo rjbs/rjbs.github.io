@@ -11,7 +11,7 @@ happen.)  Now that I have SOAP::Lite installed, my blogging script will
 crosspost to use.perl again, and I think I will start writing more regularly
 again.
 
-We built our [cavy cage](https://flickr.com/photos/rjbs/23667856)!  So far, our
+We built our [cavy cage](https://photos.rjbs.cloud/p/b3e4c5640d55/)!  So far, our
 guinea pig expenses are about $125, and that's with no guinea pig!  Most of
 those are one-time expenses, though, and my prediction is that it will be
 relatively cheap to keep the piggies.  I'm keeping a ledger of cavy costs, and

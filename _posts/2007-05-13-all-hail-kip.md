@@ -19,7 +19,7 @@ it would take me ten or fifteen.
 It was great to get done, and I enjoyed, as I usually do, doing some actual
 work.  Next up: haul away the concrete and fill in the trench.
 
-[Before](http://flickr.com/photos/rjbs/295473961/)
+[Before](https://photos.rjbs.cloud/p/5d58145696c4/)
 
-[After](http://flickr.com/photos/rjbs/495372082/)
+[After](https://photos.rjbs.cloud/p/0a215e5206c5/)
 

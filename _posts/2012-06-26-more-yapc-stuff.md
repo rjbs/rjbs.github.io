@@ -23,7 +23,7 @@ it run too long in deference to Dave Rolsky, who was sitting *right there*.  I
 learned that the new big Unicode book is paperback and cheap (yay!) but not
 purple (boo!).  I saw that [one of my modules](http://dzil.org/) got [its own
 badge
-ribbon](http://www.flickr.com/photos/rjbs/7447996458/in/set-72157630298408298/),
+ribbon](https://photos.rjbs.cloud/p/11e05aa3dcf8/),
 which made me feel inordinantly pleased.  I got lunch at the Chicago airport at
 the Billy Goat tavern, which is where "cheezborger cheezborger no coke, pepsi"
 came from, more or less.  I ate about a zillion mocha mousse cups and did my

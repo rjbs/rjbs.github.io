@@ -4,11 +4,11 @@ lat: 50.8467372
 lng: 4.352493
 links:
     - text: FOSDEM 2026 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720331877640
+      url: https://photos.rjbs.cloud/albums/fosdem-brussels-2026-01/
     - text: FOSDEM 2024 photos
-      url: https://flickr.com/photos/rjbs/albums/72177720314720674
+      url: https://photos.rjbs.cloud/albums/fosdem-2024-02/
     - text: FOSDEM 2015 photos
-      url: https://flickr.com/photos/rjbs/albums/72157650224051590/
+      url: https://photos.rjbs.cloud/albums/fosdem-2015-01/
 ---
 
 I've been to Brussels a few times for FOSDEM.  I've only been in February,

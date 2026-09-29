@@ -4,25 +4,25 @@ lat: 45.5202471
 lng: -122.674194
 links:
     - text: OSCON 2014 photos
-      url: https://flickr.com/photos/rjbs/albums/72157645622557990
+      url: https://photos.rjbs.cloud/albums/oscon-2014-07/
     - text: OSCON 2013 photos
-      url: https://flickr.com/photos/rjbs/albums/72157634850669388
+      url: https://photos.rjbs.cloud/albums/oscon-2013-07/
     - text: OSCON 2012 photos
-      url: https://flickr.com/photos/rjbs/albums/72157630699077616
+      url: https://photos.rjbs.cloud/albums/oscon-2012-07/
     - text: OSCON 2011 photos
-      url: https://flickr.com/photos/rjbs/albums/72157627158871451
+      url: https://photos.rjbs.cloud/albums/oscon-2011-07/
     - text: OSCON 2010 photos
-      url: https://flickr.com/photos/rjbs/albums/72157624628187282
+      url: https://photos.rjbs.cloud/albums/oscon-2010-07/
     - text: OSCON 2008 photos
-      url: https://flickr.com/photos/rjbs/albums/72157606396038928
+      url: https://photos.rjbs.cloud/albums/oscon-2008-07/
     - text: OSCON 2005 photos
-      url: https://flickr.com/photos/rjbs/albums/72157594430924392
+      url: https://photos.rjbs.cloud/albums/oscon-2005-08/
     - text: OSCON 2004 photos
-      url: https://flickr.com/photos/rjbs/albums/72157594430928168
+      url: https://photos.rjbs.cloud/albums/oscon-2004-07/
     - text: OSCON 2003 photos
-      url: https://flickr.com/photos/rjbs/albums/72157594430930911
+      url: https://photos.rjbs.cloud/albums/oscon-2003-07/
     - text: Oregon Zoo, 2003 photos
-      url: https://flickr.com/photos/rjbs/albums/72157594432454080
+      url: https://photos.rjbs.cloud/albums/portland-zoo-2003-07/
 ---
 
 OSCON, the Open Source Conference, was in Portland for years.  I went a bunch

@@ -3,7 +3,7 @@ layout: post
 title : "the great flood of oh-four"
 date  : "2004-09-18T22:48:00Z"
 ---
-Wow.  <a href='http://www.flickr.com/photos/rjbs/sets/72157594430944462/'>The city is under water.</a>  If you're really interested, you can find some good <a href='http://www.flickr.com/photos/rjbs/326769985/'>before</a> and <a href='http://www.flickr.com/photos/rjbs/328225047/'>after</a> shots.  It is really, really, crazy.  I live in a river valley, but I've never seen flooding anywhere near this severe -- and all from one night's rain!
+Wow.  <a href='https://photos.rjbs.cloud/albums/the-monocacy-floods-2004-09/'>The city is under water.</a>  If you're really interested, you can find some good <a href='https://photos.rjbs.cloud/p/15b9cbd2fc08/'>before</a> and <a href='https://photos.rjbs.cloud/p/d29008b4c47a/'>after</a> shots.  It is really, really, crazy.  I live in a river valley, but I've never seen flooding anywhere near this severe -- and all from one night's rain!
 
 Gloria is in Allentown helping her employer man a booth at a holistic health expo thingie, so I spent a lot of the day walking and cycling around, taking pictures.  I should have gotten quite a few more photos on my second, on-bike trip.  Unfortunately, when I deleted the old pics from my first trip, they got put in the Trash on the CF card.  How asinine!  I need to make Mac OS X not keep trash for that card, or to empty it on eject.
 

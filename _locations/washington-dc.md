@@ -4,9 +4,9 @@ lat: 38.8950982
 lng: -77.0363849
 links:
     - text: YAPC::NA 2017 photos
-      url: https://flickr.com/photos/rjbs/albums/72157683401202254
+      url: https://photos.rjbs.cloud/albums/yapc-na-2017-06/
     - text: DC-Baltimore Perl Workshop 2014 photos
-      url: https://flickr.com/photos/rjbs/albums/72157644631964355
+      url: https://photos.rjbs.cloud/albums/dc-baltimore-perl-workshop-2014-05/
 ---
 
 My first time in DC, my grandmother took me, as she'd taken all my siblings.

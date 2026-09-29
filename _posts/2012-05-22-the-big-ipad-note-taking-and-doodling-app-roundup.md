@@ -51,14 +51,8 @@ something to let me do freehand doodling.
 
 ### Penultimate
 
-<a href="http://www.flickr.com/photos/rjbs/7246181836/" title="a doodlemap in
-Penultimate by rjbs, on Flickr"><img style='float:right; margin-right: 1em'
-src="http://farm8.staticflickr.com/7091/7246181836_500783017b_m.jpg"
-width="180" height="240" alt="a doodlemap in Penultimate"></a>
-<a href="http://www.flickr.com/photos/rjbs/7246187460/" title="a B/X charsheet
-in Penultimate by rjbs, on Flickr"><img style='float:right'
-src="http://farm8.staticflickr.com/7223/7246187460_4280b3185f_m.jpg"
-width="180" height="240" alt="a B/X charsheet in Penultimate"></a>
+{% photo e1ec58a9ca8a %}
+{% photo 0afcd418bee7 %}
 
 
 It was okay.  I scribbled out some maps, but its limitations became very clear
@@ -86,10 +80,7 @@ looking.
 
 ### Paper by Fifty-Three
 
-<a href="http://www.flickr.com/photos/rjbs/7246182702/" title="Paper (by 53) by
-rjbs, on Flickr"><img style='float:right'
-src="http://farm8.staticflickr.com/7098/7246182702_7edf303c31_m.jpg"
-width="240" height="180" alt="Paper (by 53)"></a>
+{% photo dba28c57cfdc %}
 
 Just a few days after I'd gotten started with Penultimate, they were acquired
 by Evernote.  I am not a big fan of Evernote, but the acquisition didn't make
@@ -114,15 +105,9 @@ stupid enough for me to use without cursing.  Evernote bought Skitch, too, and
 has been slowly making it more annoying to use... but so far, it's still pretty
 great.  I was glad to see that there's Skitch for iPad.
 
-<a href="http://www.flickr.com/photos/rjbs/7246178094/" title="the bandit's
-villa by rjbs, on Flickr"><img style='float:right'
-src="http://farm9.staticflickr.com/8141/7246178094_7fd1ffb825_m.jpg"
-width="180" height="240" alt="the bandit's villa"></a>
+{% photo fd231e52fcd2 %}
 
-<a href="http://www.flickr.com/photos/rjbs/7246178608/" title="a city map in
-Skitch by rjbs, on Flickr"><img style='float:right'
-src="http://farm9.staticflickr.com/8152/7246178608_2b42bae977_m.jpg"
-width="166" height="240" alt="a city map in Skitch"></a>
+{% photo bc3b5ee8de95 %}
 
 I immediately installed it and drew a map for [my Mazes & Minotaurs
 campaign](http://dudgeonmaster.org/games/alar/).  It was great.  It had a *text
@@ -159,10 +144,7 @@ looking.
 
 ### Noteability
 
-<a href="http://www.flickr.com/photos/rjbs/7246183646/" title="Notability by
-rjbs, on Flickr"><img style='float:right'
-src="http://farm8.staticflickr.com/7096/7246183646_bc125c2179_m.jpg"
-width="180" height="240" alt="Notability"></a>
+{% photo f7be694c409e %}
 
 I saw a bunch of sites talk about
 [Notability](http://gingerlabs.com/cont/notability.php), often comparing it to
@@ -202,10 +184,7 @@ notes and sketching and think about them.
 
 ### Noteshelf
 
-<a href="http://www.flickr.com/photos/rjbs/7246185642/" title="Noteshelf by
-rjbs, on Flickr"><img style='float:right'
-src="http://farm8.staticflickr.com/7234/7246185642_789c4bc20c_m.jpg"
-width="180" height="240" alt="Noteshelf"></a>
+{% photo 2cc02ded275f %}
 
 So, what about Noteshelf?  I read so often that it was better than Notability
 that I finally couldn't help myself.  I bought it.  The verdict?  In brief:

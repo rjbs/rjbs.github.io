@@ -4,7 +4,7 @@ lat: 38.6254063
 lng: -90.190009
 links:
     - text: The Strange Loop 2018 photos
-      url: https://flickr.com/photos/rjbs/albums/72157676914535697
+      url: https://photos.rjbs.cloud/albums/the-strange-loop-2018-09/
 ---
 
 I went to St. Louis for The Strange Loop, a now-defunct conference about topics

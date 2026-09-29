@@ -228,4 +228,4 @@ the world!
 
 After the movie, we treated ourselves to some of that wonderful Stuff!
 
-<a href="https://www.flickr.com/photos/rjbs/22885455575/" title="The Stuff"><img src="https://c8.staticflickr.com/6/5800/22885455575_08b08106f8_z.jpg" alt="The Stuff"></a>
+{% photo 029f3ffdfa62 %}

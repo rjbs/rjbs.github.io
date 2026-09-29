@@ -18,10 +18,7 @@ the red or green whiteboard markers, and that has been useful.  So, this
 afternoon I found my old paints and painted six sets of five colors.  (The
 black ones I'd already made with sharpies.)
 
-<a href="http://www.flickr.com/photos/rjbs/5544041490/" title="D&amp;D tokens:
-now in color by rjbs, on Flickr"><img
-src="http://farm6.static.flickr.com/5260/5544041490_83bf0df98a.jpg" width="500"
-height="374" alt="D&amp;D tokens: now in color" /></a>
+{% photo 31bc5da7dbd6 %}
 
 I'm not sure what I'll want next:  either I'll want five more of each color or
 I'll want five more colors.  More colors will require that I pick up some white

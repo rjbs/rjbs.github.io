@@ -21,9 +21,7 @@ go in.
 
 ## Shelf 1: Notebooks
 
-<a href="https://flic.kr/p/2psFuj3">
-<img src="https://live.staticflickr.com/65535/53466831710_b2a7637ff6_c.jpg">
-</a>
+{% photo 21bce27b4707 %}
 
 My top shelf is sort of ridiculous.  Also, in the last six months, it's gotten
 more ridiculous.  That wooden box is a [Field Notes archival
@@ -49,9 +47,7 @@ I am going to stop buying notebooks until I fill more of them.  Probably.
 
 ## Shelf 2: some books
 
-<a href="https://flic.kr/p/2psFuiB">
-<img src="https://live.staticflickr.com/65535/53466831685_0e310016a5_c.jpg">
-</a>
+{% photo f5b4f14f9458 %}
 
 Unfortunately, it is here, at the first shelf of books, that I am reminded that
 my bookshelf is not really organized in any coherent way.  I think that when I
@@ -103,9 +99,7 @@ moves, but I try to keep it looking good.
 
 ## Shelf 3: another bunch of books
 
-<a href="https://flic.kr/p/2psDjkk">
-<img src="https://live.staticflickr.com/65535/53466407921_3a33146069_c.jpg">
-</a>
+{% photo f6b3e6034b92 %}
 
 Before we talk books, though: check it out!  A sheet of the rare, staff-only
 Fastmail Melbourne Office stickers, including fairy bread, a Keep Cup, and
@@ -145,9 +139,7 @@ software alone or as a team.
 
 ## Shelf 4: TCP/IP Illustrated and other thick books
 
-<a href="https://flic.kr/p/2psyEtH">
-<img src="https://live.staticflickr.com/65535/53465500127_e593237eb8_c.jpg">
-</a>
+{% photo 577d046d78eb %}
 
 So many thick books on this shelf!  TCP/IP Illustrated gets a lot more shelf
 space than I think it deserves.  Or, maybe what I mean is:  volumes 2 and 3
@@ -177,9 +169,7 @@ did on the subject, including a slide that said "cow eye sucker".
 
 ## Shelf 5: the bottom shelf
 
-<a href="https://flic.kr/p/2psDjka">
-<img src="https://live.staticflickr.com/65535/53466407911_93079d2fa5_c.jpg">
-</a>
+{% photo 8391b40dc584 %}
 
 Honestly, this whole exercise has felt really weird.  Why are my books
 organized like this?  Why do I have so many that I haven't read?  Why am I

@@ -6,7 +6,7 @@ tags  : ["diy", "house"]
 ---
 Yesterday, Kip (and the rest of his clan) came over and we finished Phase II of
 [Project Better Back
-Yard](http://flickr.com/photos/rjbs/sets/72157600335577475/).  I'd already dug
+Yard](https://photos.rjbs.cloud/albums/rear-yard-project-2007-2008/).  I'd already dug
 up quite a bit of the earth around the two posts.  I was "thrilled" to find
 that just beside the post nearer the house, there was *another* post!  It had
 probably been cut off before the still-there post was planted, but I was still

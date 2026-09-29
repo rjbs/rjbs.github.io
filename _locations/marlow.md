@@ -4,7 +4,7 @@ lat: 51.57
 lng: -0.78
 links:
     - text: Perl Toolchain Summit 2019 photos
-      url: https://flickr.com/photos/rjbs/albums/72157704854535142
+      url: https://photos.rjbs.cloud/albums/perl-toolchain-summit-marlow-2019-04/
 ---
 
 It's a town in the Thames river valley.  My friend Neil lives here, and I

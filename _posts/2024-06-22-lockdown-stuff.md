@@ -34,7 +34,7 @@ don't know why I kept it, but now that I have it, I can provide a few years of
 perspective on how those went.  Nobody is asking for this, but I'm providing it
 anyway.  If you want more photos than those found in this post, you're in luck.
 It turns out that I posted a little [Flickr
-album](https://flickr.com/photos/rjbs/albums/72157718784948161/) of some of
+album](https://photos.rjbs.cloud/albums/lockdown-office/) of some of
 this decorating.  It is just as boring an album as you might expect!
 
 Our last day of work in the office was March 13th, so March 27th was just two
@@ -93,7 +93,7 @@ though I have some other chairs.  I keep my cheap but comfy IKEA blanket in it,
 too.  I've been thinking about getting an ottoman for work.  And maybe one for
 my balcony.  They're just a good idea.
 
-<a href="https://www.flickr.com/photos/rjbs/51074611442/in/album-72157718784948161/" title="Ottoman"><img src="https://live.staticflickr.com/65535/51074611442_901f0c5ccb_c.jpg" alt="Ottoman"/></a>
+{% photo 0a10ba5bbe57 %}
 
 **Ottoman**: ★★★★★
 
@@ -124,7 +124,7 @@ but I ended up with a nice whiteboard.  It's "ceramic steel", whatever that
 means.  It's magnetic and erases really nicely.  The erasing cloths were maybe
 not a great idea.  Paper towels work better, I think.
 
-<a href="https://www.flickr.com/photos/rjbs/51074594167/in/album-72157718784948161/" title="Steelcase truck"><img src="https://live.staticflickr.com/65535/51074594167_cc31dfce45_c.jpg" alt="Steelcase truck"/></a>
+{% photo 5a3ab08069c1 %}
 
 (Note that the truck has a rainbow Steelcase logo.  It was delivered in June.)
 
@@ -134,7 +134,7 @@ the magnets to some polyhedral dice with epoxy.  This was fun, I'd do it again.
 (It smelled very bad, and I was told that if I ever do it again, I have to do
 it outside.  Okay!)
 
-<a href="https://www.flickr.com/photos/rjbs/51073796648/in/photolist-xzjx2W-xSzmZc-uUBv9-2kPdybQ-2kPdymQ-2kPdypR-2kPh8qh-9piXQ6-9pt6WQ-9AhNoX" title="dice magnets"><img src="https://live.staticflickr.com/65535/51073796648_7db27ae636_c.jpg" alt="dice magnets"/></a>
+{% photo dfdfa83ee2f3 %}
 
 **Whiteboard**: ★★★★☆
 
@@ -165,7 +165,7 @@ But… *one more thing*!
 Earlier, I mentioned that my office had a window onto an ugly wall.  Well, I
 have a photo:
 
-<a href="https://www.flickr.com/photos/rjbs/51074509211/in/album-72157718784948161/" title="my &quot;view&quot;"><img src="https://live.staticflickr.com/65535/51074509211_146f7d6d0c_c.jpg" alt="my &quot;view&quot;"/></a>
+{% photo 0c85a9a79fdc %}
 
 Awful.  Just awful.  Eventually that wall was resurfaced, so it went from
 dingy, disgusting stucco to merely ugly, typical stucco.  It too me far, far

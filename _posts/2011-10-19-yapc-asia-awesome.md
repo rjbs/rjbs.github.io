@@ -56,15 +56,9 @@ quick access to camera made a big difference.  I'm not sure bringing my better
 camera, a dinky little PowerShot, would have resulted in better photos.  I'm
 just not much of a photographer.
 
-<a href="http://www.flickr.com/photos/rjbs/6241466115/" title="IMG_0452 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6099/6241466115_16068eb553.jpg" width="500"
-height="374" alt="IMG_0452"></a>
+{% photo cff9d3a55575 %}
 
-<a href="http://www.flickr.com/photos/rjbs/6241491275/" title="IMG_0521 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6228/6241491275_43dd803821.jpg" width="500"
-height="374" alt="IMG_0521"></a>
+{% photo 0502e1a0681e %}
 
 We also went to [Akihabara](http://www.japan-guide.com/e/e3003.html), described
 by one site as a "nerd Mecca."  All my friends who'd been to Japan told me to
@@ -90,10 +84,7 @@ The coolest keyboard I saw while there was Marty's TypeMatrix, but it just
 seemed like it would be a bit too hard to learn, and without any serious hand
 pain to motivate me, I gave it a pass.
 
-<a href="http://www.flickr.com/photos/rjbs/6242922203/" title="IMG_0550 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6157/6242922203_acc0a722db.jpg" width="500"
-height="374" alt="IMG_0550"></a>
+{% photo 9415a3e36d90 %}
 
 [Jesse](http://fsck.com/) arrived Thursday night, and we went out to CoCo
 Curry, a Japanese quick-service curry chain.  I actually enjoyed it quite a
@@ -112,10 +103,7 @@ trying it, and kept my mind well open.  After all, I'm a big fan of
 [scrapple](http://en.wikipedia.org/wiki/Scrapple).  All I'm going to say is
 that natto is definitely in the running for "worst food I ever put into my mouth."
 
-<a href="http://www.flickr.com/photos/rjbs/6243436820/" title="IMG_0532 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6019/6243436820_17a1dc35e5.jpg" width="500"
-height="374" alt="IMG_0532"></a>
+{% photo 18d7c7b6aa1a %}
 
 The conference's first day was great.  Our talks went very well, I met a bunch
 of people that I'd only known online, and I got to see the Japanese lightning
@@ -140,10 +128,7 @@ the Bitter Disappointment Burger.  It was what you might make if someone showed
 you a photograph of a hamburger, with no further details, and said, "make
 that."  We should've just done another curry.
 
-<a href="http://www.flickr.com/photos/rjbs/6243438690/" title="Bitter
-Disappointment Burger by rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6173/6243438690_c7ea4bd1cf.jpg" width="500"
-height="374" alt="Bitter Disappointment Burger"></a>
+{% photo a48d3d9142cb %}
 
 Day two of the conference was even better than the first.  After brunching at
 an excellent Korean barbecue (at least compared to the ones I've been to
@@ -188,15 +173,9 @@ Jesse and I left before the festivities were over, but we were beat.  Everyone
 waved enthusiastically when we left.  It was totally unlike what we would've
 experienced in the states.
 
-<a href="http://www.flickr.com/photos/rjbs/6252025578/" title="IMG_0578 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6111/6252025578_cfa9940bfd.jpg" width="500"
-height="374" alt="IMG_0578"></a>
+{% photo 7c15ac095294 %}
 
-<a href="http://www.flickr.com/photos/rjbs/6252027142/" title="IMG_0581 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6224/6252027142_ea134d102f.jpg" width="500"
-height="374" alt="IMG_0581"></a>
+{% photo faf9eec05871 %}
 
 I should probably also mention the low point of the day:  I picked up a "green
 tea and milk" donut.  It was inedible.  What was I thinking?
@@ -215,10 +194,7 @@ the meal even more enjoyable.  Although the eel was (of course) amazing, I was
 also really impressed with the rice.  It was several orders of magnitude better
 than any rice I've had in the states.
 
-<a href="http://www.flickr.com/photos/rjbs/6251513715/" title="IMG_0595 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6227/6251513715_51855482f5.jpg" width="500"
-height="374" alt="IMG_0595"></a>
+{% photo bf45dac90bba %}
 
 Shortly after lunch, Jesse and I were off to the post-conference hackathon.
 I'd wanted to work on Email::Sender, but it turned out to be a non-starter.
@@ -238,10 +214,7 @@ I didn't.  I had a great time talking with the guys there, and was sad to go.
 Then again, if I'd stuck around much longer, I would've been asleep at the
 table.
 
-<a href="http://www.flickr.com/photos/rjbs/6252056522/" title="IMG_0611 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6052/6252056522_8889b55645.jpg" width="500"
-height="374" alt="IMG_0611"></a>
+{% photo 8362bcf4f527 %}
 
 We got back to Marty and Karen's and I stumbled into bed.  The next morning I
 woke up at a pretty reasonable hour and Jesse and I headed back to Akihabara to
@@ -265,15 +238,9 @@ We'd promised Martha that we'd get a good all-American meal at Cracker Barrel
 on the way home, and we did.  When we got home, I gave her the gifts I'd picked
 up for her: two Ultraman kaiju.  She loved them, and named them Blood and Gray.
 
-<a href="http://www.flickr.com/photos/rjbs/6256791887/" title="cracker barrel!
-by rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6053/6256791887_3e6a12c3a2.jpg" width="500"
-height="374" alt="cracker barrel!"></a>
+{% photo 9f6a9b459a0b %}
 
-<a href="http://www.flickr.com/photos/rjbs/6260744618/" title="IMG_0637 by
-rjbs, on Flickr"><img
-src="http://farm7.static.flickr.com/6117/6260744618_a61a842c87.jpg" width="500"
-height="375" alt="IMG_0637"></a>
+{% photo 660387561e1f %}
 
 More than any other place I've visited, I feel like I want to go right back to
 Tokyo and see a bunch of the things I couldn't see this time.  Maybe I'll get

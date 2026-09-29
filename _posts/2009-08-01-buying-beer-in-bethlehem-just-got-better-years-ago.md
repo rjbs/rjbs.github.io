@@ -43,7 +43,7 @@ Victory WildDevil (and Saison, and some other semi-rarities) in single bombers.
 I got a bottle for $8.75 and I mixed a six of some other beers I'd like to try.
 Mixed sixes are $11.75, unless they include anything particularly expensive --
 which isn't all that much stuff.  You can see [my selection for
-today](http://www.flickr.com/photos/rjbs/3778431117/) if you're interested.
+today](https://photos.rjbs.cloud/p/0ab57b70c319/) if you're interested.
 
 Abe's is also in walking distance, at only a mile and a half away.  I will
 definitely be going back frequently.

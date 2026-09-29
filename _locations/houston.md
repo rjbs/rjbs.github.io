@@ -4,7 +4,7 @@ lat: 29.7589382
 lng: -95.3676974
 links:
     - text: YAPC::NA 2007 photos
-      url: https://flickr.com/photos/rjbs/albums/72157600481798089
+      url: https://photos.rjbs.cloud/albums/yapc-na-2007-06/
 ---
 
 I went to a YAPC here and it was unbearably hot and humid.  Also, it was
