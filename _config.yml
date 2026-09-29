@@ -110,3 +110,6 @@ chat:
   speakers:
     rjbs:  "#710193"
     claude: "#ea580c"
+
+# Base URL of the photo site, used by {% photo ID %}; see _plugins/photo_tag.rb
+jiggle_url: https://photos.rjbs.cloud

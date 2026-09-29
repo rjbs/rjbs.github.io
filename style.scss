@@ -365,7 +365,8 @@ footer {
 }
 
 p:has( img[src*="staticflickr.com"] ),
-p:has( video[src*="flickr.com"] ) {
+p:has( video[src*="flickr.com"] ),
+p:has( > .jiggle-embed ) {
   text-align: center;
 }
 
@@ -631,3 +632,21 @@ p:has( video[src*="flickr.com"] ) {
   }
 }
 
+
+.jiggle-embed img,
+.jiggle-embed video {
+  max-width: 100%;
+  height: auto;
+}
+
+.jiggle-video {
+  display: inline-block;
+
+  video, a {
+    display: block;
+  }
+
+  a {
+    font-size: 0.8em;
+  }
+}
