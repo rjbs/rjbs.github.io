@@ -27,10 +27,7 @@ Still, I thought I had a good handle on how much needed to be explained.  I
 even started work on a somewhat sarcastic set of slides that would reject the
 "learn how git works before running git init" style of tutorial.
 
-<a href="http://www.flickr.com/photos/rjbs/3319250417/" title="Git is Easy! by
-rjbs, on Flickr"><img
-src="http://farm4.static.flickr.com/3626/3319250417_8fb047ab18.jpg" width="500"
-height="374" alt="Git is Easy!" /></a>
+<a href="/talks/git-is-easy/" title="Git is Easy!"><img src="/talks/git-is-easy/preview.jpg" width="500" height="373" alt="Git is Easy!" /></a>
 
 In the last month, I finished converting Pobox to Git.  It was a fair amount of
 work, but most of it was easy and fun.  On the first day of work in an
