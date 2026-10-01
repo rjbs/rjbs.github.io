@@ -46,7 +46,7 @@ worked pretty well.
 
 ## Setting
 
-{% photo ef53e2109633 %}</a>
+{% photo ef53e2109633 %}
 
 Alar was set in the massive city of Alar, one of the largest cities in the
 sprawling and powerful Castaigne Empire.  In recent months, the city had become
