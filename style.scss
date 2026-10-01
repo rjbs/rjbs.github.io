@@ -639,6 +639,65 @@ p:has( > .jiggle-embed ) {
   height: auto;
 }
 
+// Hover captions on photo embeds, matching the grid tiles on the jiggle site.
+// The link is the positioning box, hugging the image; line-height 0 kills the
+// gap under an inline img, and is reset on the caption.
+a.jiggle-embed {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  line-height: 0;
+  text-decoration: none;
+  border: 0;
+
+  .caption {
+    display: none;
+  }
+
+  @media (hover: hover) {
+    .caption {
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 18px 10px 7px;
+      background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.72) 16px);
+      color: white;
+      line-height: 1.3;
+      text-align: left;
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 120ms ease-out, transform 120ms ease-out;
+      pointer-events: none;
+    }
+
+    &:hover .caption,
+    &:focus-visible .caption {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .caption .name,
+  .caption .details {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .caption .name {
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .caption .details {
+    font-size: 0.78rem;
+    opacity: 0.8;
+  }
+}
+
 .jiggle-video {
   display: inline-block;
 

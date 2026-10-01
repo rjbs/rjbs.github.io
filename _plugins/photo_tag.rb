@@ -1,4 +1,5 @@
 require "cgi"
+require "date"
 require "json"
 require "net/http"
 require "uri"
@@ -105,9 +106,32 @@ module Jekyll
         .map { |r| "#{r["url"]} #{r["width"]}w" }
         .join(", ")
 
-      %(<a class="jiggle-embed" href="#{h data["url"]}" title="#{h data["alt"]}">) +
+      %(<a class="jiggle-embed" href="#{h data["url"]}">) +
         %(<img src="#{h main["url"]}" srcset="#{h srcset}" sizes="(max-width: 840px) 100vw, #{width}px") +
-        %( width="#{width}" height="#{height}" alt="#{h data["alt"]}" loading="lazy"></a>)
+        %( width="#{width}" height="#{height}" alt="#{h data["alt"]}" loading="lazy">) +
+        caption(data) + %(</a>)
+    end
+
+    # The hover caption, as on the grid tiles on the jiggle site.  The name
+    # line is the alt text, which is the date taken for an untitled photo, so
+    # the date only gets its own line when there's a title.  It's aria-hidden
+    # because the img's alt already says the same thing.
+    def caption(data)
+      details = data["title"].to_s.empty? ? nil : taken_date(data["taken"])
+
+      %(<span class="caption" aria-hidden="true">) +
+        %(<span class="name">#{h data["alt"]}</span>) +
+        (details ? %(<span class="details">#{h details}</span>) : "") +
+        %(</span>)
+    end
+
+    # The date part of a TOML datetime, like "16 July 2026".  Any offset is
+    # ignored, since the date as it was where the photo was taken is the one
+    # we want. -- claude, 2026-09-30
+    def taken_date(taken)
+      return nil unless taken
+      m = taken.to_s.match(/\A(\d{4})-(\d\d)-(\d\d)/) or return nil
+      Date.new(m[1].to_i, m[2].to_i, m[3].to_i).strftime("%-d %B %Y")
     end
 
     def render_video(data)
