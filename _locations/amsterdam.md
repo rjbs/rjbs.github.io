@@ -4,7 +4,7 @@ lat: 52.3730796
 lng: 4.8924534
 links:
     - text: Perl QA Hackathon 2011 photos
-      url: https://photos.rjbs.cloud/albums/amsterdam-qa-hackathon-2011-04/
+      url: https://photos.rjbs.cloud/albums/perl-qa-hackathon-2011-04-amsterdam/
 ---
 
 I was here for the Perl QA Hackathon in 2011.  I had a good time, but I

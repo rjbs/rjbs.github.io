@@ -6,7 +6,7 @@ links:
     - text: Perl Toolchain Summit 2023 photos
       url: https://photos.rjbs.cloud/albums/perl-toolchain-summit-lyon-2023/
     - text: Perl QA Hackathon 2014 photos
-      url: https://photos.rjbs.cloud/albums/lyon-qa-hackathon-2014-03/
+      url: https://photos.rjbs.cloud/albums/perl-qa-hackathon-2014-03-lyon/
 ---
 
 The Perl Toolchain Summit has been in Lyon three times, and I went to two
