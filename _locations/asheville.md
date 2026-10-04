@@ -4,7 +4,7 @@ lat: 35.595363
 lng: -82.5508407
 links:
     - text: YAPC::NA 2011 photos
-      url: https://photos.rjbs.cloud/albums/yapc-na-2011-06/
+      url: https://photos.rjbs.cloud/albums/yapc-na-2011-06-asheville/
 ---
 
 I've been here twice.  Once, I was at a campground with cabins for a family

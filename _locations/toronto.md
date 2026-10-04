@@ -4,7 +4,7 @@ lat: 43.6534817
 lng: -79.3839347
 links:
     - text: YAPC::NA 2005 photos
-      url: https://photos.rjbs.cloud/albums/yapc-na-2005-07/
+      url: https://photos.rjbs.cloud/albums/yapc-na-2005-07-toronto/
 ---
 
 I went to Toronto in 2005 for YAPC.  It was one of my first YAPCs, and I had a

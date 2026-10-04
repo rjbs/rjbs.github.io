@@ -4,7 +4,7 @@ lat: 40.4406968
 lng: -80.0025666
 links:
     - text: YAPC::NA 2009 photos
-      url: https://photos.rjbs.cloud/albums/yapc-na-2009-06/
+      url: https://photos.rjbs.cloud/albums/yapc-na-2009-06-pittsburgh/
     - text: Pittsburgh Perl Workshop 2008 photos
       url: https://photos.rjbs.cloud/albums/pittsburgh-perl-workshop-2008-10/
     - text: Pittsburgh Perl Workshop 2007 photos

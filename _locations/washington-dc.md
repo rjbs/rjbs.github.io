@@ -4,7 +4,7 @@ lat: 38.8950982
 lng: -77.0363849
 links:
     - text: YAPC::NA 2017 photos
-      url: https://photos.rjbs.cloud/albums/yapc-na-2017-06/
+      url: https://photos.rjbs.cloud/albums/yapc-na-2017-06-alexandria/
     - text: DC-Baltimore Perl Workshop 2014 photos
       url: https://photos.rjbs.cloud/albums/dc-baltimore-perl-workshop-2014-05/
 ---

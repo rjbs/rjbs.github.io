@@ -6,7 +6,7 @@ links:
     - text: Buffalo, 2023 photos
       url: https://photos.rjbs.cloud/albums/buffalo-2023-11/
     - text: YAPC::NA 2004 photos
-      url: https://photos.rjbs.cloud/albums/yapc-na-2004-06/
+      url: https://photos.rjbs.cloud/albums/yapc-na-2004-06-buffalo/
 ---
 
 Buffalo is probably the best example, in my memory, of how much more I can

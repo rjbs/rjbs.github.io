@@ -4,9 +4,9 @@ lat: 28.5421218
 lng: -81.379045
 links:
     - text: YAPC::NA 2016 photos
-      url: https://photos.rjbs.cloud/albums/yapc-na-2016-06/
+      url: https://photos.rjbs.cloud/albums/yapc-na-2016-06-orlando/
     - text: YAPC::NA 2014 photos
-      url: https://photos.rjbs.cloud/albums/yapc-na-2014-06/
+      url: https://photos.rjbs.cloud/albums/yapc-na-2014-06-orlando/
 ---
 
 I was in Orlando first in 1989, visiting family but also going to Disney.  I
