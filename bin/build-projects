@@ -1,0 +1,118 @@
+#!/usr/bin/env perl
+use v5.36;
+
+use HTTP::Tiny;
+use JSON::PP;
+
+my $OWNER  = 'rjbs';
+my $DOMAIN = 'semiotic.systems';
+
+my ($template_file, $output_file) = @ARGV;
+die "usage: $0 TEMPLATE OUTPUT\n" unless $template_file && $output_file;
+
+my $http = HTTP::Tiny->new(
+  agent => 'semiotic.systems-builder/1.0',
+  max_redirect => 0,
+);
+
+my $JSON = JSON::PP->new->utf8;
+
+my @projects = sort { fc $a->{name} cmp fc $b->{name} }
+               grep { serves_from_our_domain($_->{name}) }
+               grep { $_->{has_pages} && $_->{name} ne "$OWNER.github.io" }
+               all_repos();
+
+my $html = join qq{\n}, map {; project_html($_) } @projects;
+
+open my $in, '<:encoding(UTF-8)', $template_file
+  or die "can't read $template_file: $!";
+my $page = do { local $/; <$in> };
+
+$page =~ s/^(\s*)<!-- PROJECTS -->\n/indent($html, $1)/me
+  or die "no <!-- PROJECTS --> marker in $template_file\n";
+
+open my $out, '>:encoding(UTF-8)', $output_file
+  or die "can't write $output_file: $!";
+print {$out} $page;
+close $out or die "error closing $output_file: $!";
+
+say STDERR "wrote $output_file with " . @projects . " projects";
+
+=func all_repos
+
+Returns every public repository belonging to C<$OWNER>, as decoded hashrefs
+from the GitHub REST API.  If C<GITHUB_TOKEN> is set, it's used, but only to
+get a more generous rate limit.
+
+=cut
+
+sub all_repos {
+  my %headers = (Accept => 'application/vnd.github+json');
+  $headers{Authorization} = "Bearer $ENV{GITHUB_TOKEN}" if $ENV{GITHUB_TOKEN};
+
+  my @repos;
+  for (my $page = 1; ; $page++) {
+    my $url = "https://api.github.com/users/$OWNER/repos"
+            . "?type=owner&per_page=100&page=$page";
+
+    my $res = $http->get($url, { headers => \%headers });
+    die "error fetching $url: $res->{status} $res->{reason}\n$res->{content}\n"
+      unless $res->{success};
+
+    my $batch = $JSON->decode($res->{content});
+    last unless @$batch;
+    push @repos, @$batch;
+  }
+
+  return @repos;
+}
+
+=func serves_from_our_domain
+
+  my $bool = serves_from_our_domain($repo_name);
+
+The Pages API would tell us each site's CNAME, but it requires an
+authenticated token with access to each repo, which an Actions token for
+I<this> repo doesn't have.  Instead, we ask the github.io host for the project
+page.  It redirects to the project's custom domain if it has one, and to
+C<$DOMAIN> (the user site's domain) if not.
+
+=cut
+
+sub serves_from_our_domain ($name) {
+  my $url = "https://$OWNER.github.io/$name/";
+  my $res = $http->get($url);
+
+  unless ($res->{status} =~ /\A30[1278]\z/) {
+    warn "unexpected response for $url: $res->{status} $res->{reason}\n";
+    return;
+  }
+
+  my ($host) = ($res->{headers}{location} // '') =~ m{\Ahttps?://([^/:]+)}i;
+  return lc($host // '') eq $DOMAIN;
+}
+
+sub project_html ($repo) {
+  my $name = html_escape($repo->{name});
+  my $desc = defined $repo->{description} && length $repo->{description}
+           ? html_escape($repo->{description})
+           : undef;
+
+  my $repo_url = html_escape($repo->{html_url});
+
+  return join qq{\n},
+    qq{<li class="project">},
+    qq{  <a class="project-name" href="/$name/">/$name</a>},
+    ($desc ? qq{  <div class="project-desc">$desc</div>} : ()),
+    qq{  <div class="project-source"><a href="$repo_url">source</a></div>},
+    qq{</li>};
+}
+
+sub html_escape ($str) {
+  my %esc = ('&' => '&amp;', '<' => '&lt;', '>' => '&gt;', '"' => '&quot;');
+  return $str =~ s/([&<>"])/$esc{$1}/gr;
+}
+
+sub indent ($text, $prefix) {
+  return join q{}, map {; length ? "$prefix$_\n" : "\n" } split /\n/, $text;
+}
