@@ -1,0 +1,47 @@
+name: Publish site
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    # Pick up newly published (or newly CNAME'd) project pages.
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install TLS support for HTTP::Tiny
+        run: sudo apt-get install -y --no-install-recommends libio-socket-ssl-perl libnet-ssleay-perl
+
+      - name: Build site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p _site/projects
+          cp index.html _site/
+          bin/build-projects src/projects.html _site/projects/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
