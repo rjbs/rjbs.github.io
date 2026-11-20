@@ -19,7 +19,8 @@ my $JSON = JSON::PP->new->utf8;
 
 my @projects = sort { fc $a->{name} cmp fc $b->{name} }
                grep { serves_from_our_domain($_->{name}) }
-               grep { $_->{has_pages} && $_->{name} ne "$OWNER.github.io" }
+               grep { $_->{has_pages} && ! $_->{fork} }
+               grep { $_->{name} ne "$OWNER.github.io" }
                all_repos();
 
 my $html = join qq{\n}, map {; project_html($_) } @projects;
