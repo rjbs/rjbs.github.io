@@ -104,8 +104,8 @@ sub project_html ($repo) {
   return join qq{\n},
     qq{<li class="project">},
     qq{  <a class="project-name" href="/$name/">/$name</a>},
-    ($desc ? qq{  <div class="project-desc">$desc</div>} : ()),
-    qq{  <div class="project-source"><a href="$repo_url">source</a></div>},
+    ($desc ? qq{  <span class="project-desc">$desc</span>} : ()),
+    qq{  <span class="project-source"><a href="$repo_url">source</a></span>},
     qq{</li>};
 }
 
