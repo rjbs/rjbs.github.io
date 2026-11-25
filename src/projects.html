@@ -86,11 +86,24 @@
       font-weight: inherit;
     }
 
-    .project-section {
+    /* All sections share one grid, via subgrid, so that columns line up
+       across sections, not just within each one. */
+    .project-directory {
+      column-gap: 20px;
+      display: grid;
+      grid-template-columns: max-content 1fr max-content;
       margin: 40px 0;
+      row-gap: 40px;
+    }
+
+    .project-section {
+      display: grid;
+      grid-column: 1 / -1;
+      grid-template-columns: subgrid;
     }
 
     .project-section h2 {
+      grid-column: 1 / -1;
       color: #8b4513;
       font-size: 20px;
       font-weight: normal;
@@ -99,9 +112,9 @@
 
     .projects {
       background: rgba(139, 69, 19, 0.05);
-      column-gap: 20px;
       display: grid;
-      grid-template-columns: max-content 1fr max-content;
+      grid-column: 1 / -1;
+      grid-template-columns: subgrid;
       list-style: none;
       margin: 0;
       padding: 10px 20px;
@@ -177,8 +190,11 @@
     }
 
     @media (max-width: 480px) {
-      .projects {
+      .project-directory {
         grid-template-columns: 1fr max-content;
+      }
+
+      .projects {
         padding: 5px 15px;
       }
 
@@ -239,7 +255,9 @@
     </header>
 
     <main>
-      <!-- PROJECTS -->
+      <div class="project-directory">
+        <!-- PROJECTS -->
+      </div>
       <div class="line"></div>
     </main>
 
