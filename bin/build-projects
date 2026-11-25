@@ -7,8 +7,10 @@ use JSON::PP;
 my $OWNER  = 'rjbs';
 my $DOMAIN = 'semiotic.systems';
 
-my ($template_file, $output_file) = @ARGV;
-die "usage: $0 TEMPLATE OUTPUT\n" unless $template_file && $output_file;
+my ($template_file, $topics_file, $output_file) = @ARGV;
+die "usage: $0 TEMPLATE TOPICS OUTPUT\n" unless $output_file;
+
+my @sections = read_topics($topics_file);
 
 my $http = HTTP::Tiny->new(
   agent => 'semiotic.systems-builder/1.0',
@@ -23,7 +25,19 @@ my @projects = sort { fc $a->{name} cmp fc $b->{name} }
                grep { $_->{name} ne "$OWNER.github.io" }
                all_repos();
 
-my $html = join qq{\n}, map {; project_html($_) } @projects;
+my @other;
+
+for my $project (@projects) {
+  my %has = map {; $_ => 1 } ($project->{topics} // [])->@*;
+  my ($section) = grep {; $has{ $_->{topic} } } @sections;
+  push(($section ? $section->{projects} //= [] : \@other)->@*, $project);
+}
+
+my @shown = grep {; $_->{projects} } @sections;
+
+my $html = join qq{\n},
+  (map {; section_html($_->{header}, $_->{projects}->@*) } @shown),
+  (@other ? section_html(@shown ? "Other" : undef, @other) : ());
 
 open my $in, '<:encoding(UTF-8)', $template_file
   or die "can't read $template_file: $!";
@@ -91,6 +105,42 @@ sub serves_from_our_domain ($name) {
 
   my ($host) = ($res->{headers}{location} // '') =~ m{\Ahttps?://([^/:]+)}i;
   return lc($host // '') eq $DOMAIN;
+}
+
+=func read_topics
+
+  my @sections = read_topics($filename);
+
+This reads the topics file, which has one section per line: a GitHub topic,
+whitespace, and the header to show for that section.  Blank lines and lines
+starting with C<#> are skipped.  It returns a list of hashrefs with C<topic>
+and C<header> entries, in file order.
+
+=cut
+
+sub read_topics ($filename) {
+  open my $fh, q{<:encoding(UTF-8)}, $filename
+    or die "can't read $filename: $!";
+
+  my @sections;
+  while (my $line = <$fh>) {
+    next if $line =~ /\A\s*(?:#|\z)/;
+    my ($topic, $header) = $line =~ /\A\s*(\S+)\s+(.*?)\s*\z/
+      or die "can't parse line $. of $filename: $line";
+    push @sections, { topic => $topic, header => $header };
+  }
+
+  return @sections;
+}
+
+sub section_html ($header, @projects) {
+  return join qq{\n},
+    qq{<section class="project-section">},
+    (defined $header ? q{  <h2>} . html_escape($header) . q{</h2>} : ()),
+    q{  <ul class="projects">},
+    (map {; indent(project_html($_), q{    }) =~ s/\n\z//r } @projects),
+    q{  </ul>},
+    qq{</section>};
 }
 
 sub project_html ($repo) {

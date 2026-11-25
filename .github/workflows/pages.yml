@@ -32,7 +32,7 @@ jobs:
         run: |
           mkdir -p _site/projects
           cp index.html _site/
-          bin/build-projects src/projects.html _site/projects/index.html
+          bin/build-projects src/projects.html src/topics.txt _site/projects/index.html
 
       - uses: actions/upload-pages-artifact@v5
 

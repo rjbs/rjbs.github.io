@@ -1,0 +1,5 @@
+# Sections of the projects page, in order.  Each line is a GitHub topic and
+# the header for its section.  A project goes in the first section whose topic
+# it has, or else in a final "Other" section.
+ietf    IETF Internet Drafts
+jmap    JMAP Software
