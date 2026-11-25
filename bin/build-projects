@@ -13,7 +13,7 @@ die "usage: $0 TEMPLATE TOPICS OUTPUT\n" unless $output_file;
 my @sections = read_topics($topics_file);
 
 my $http = HTTP::Tiny->new(
-  agent => 'semiotic.systems-builder/1.0',
+  agent => q{semiotic.systems-builder/1.0},
   max_redirect => 0,
 );
 
@@ -89,22 +89,42 @@ sub all_repos {
 The Pages API would tell us each site's CNAME, but it requires an
 authenticated token with access to each repo, which an Actions token for
 I<this> repo doesn't have.  Instead, we ask the github.io host for the project
-page.  It redirects to the project's custom domain if it has one, and to
-C<$DOMAIN> (the user site's domain) if not.
+page and follow redirects to see where it ends up.  A project with its own
+custom domain finishes there; one without finishes on C<$DOMAIN>, the user
+site's domain.  We follow the redirects ourselves, and stop as soon as one
+leads off of GitHub's hosts and ours, so that we never depend on some other
+site answering.
+
+Only the I<final> URL is trustworthy.  After a project gains a custom domain,
+the github.io host may go on redirecting to C<$DOMAIN> for a while, and only
+the next hop goes on to the new domain.
 
 =cut
 
 sub serves_from_our_domain ($name) {
   my $url = "https://$OWNER.github.io/$name/";
-  my $res = $http->get($url);
 
-  unless ($res->{status} =~ /\A30[1278]\z/) {
-    warn "unexpected response for $url: $res->{status} $res->{reason}\n";
-    return;
+  for (1 .. 5) {
+    my ($host) = $url =~ m{\Ahttps?://([^/:]+)}i;
+    $host = lc($host // q{});
+    return unless $host eq $DOMAIN || $host eq "\L$OWNER.github.io";
+
+    my $res = $http->get($url);
+    return $host eq $DOMAIN if $res->{success};
+
+    unless ($res->{status} =~ /\A30[1278]\z/ && $res->{headers}{location}) {
+      warn "unexpected response for $url: $res->{status} $res->{reason}\n";
+      return;
+    }
+
+    my $location = $res->{headers}{location};
+    $url = $location =~ m{\A/}
+         ? ($url =~ s{\A(https?://[^/]+).*}{$1}sr) . $location
+         : $location;
   }
 
-  my ($host) = ($res->{headers}{location} // '') =~ m{\Ahttps?://([^/:]+)}i;
-  return lc($host // '') eq $DOMAIN;
+  warn "too many redirects for $name\n";
+  return;
 }
 
 =func read_topics
